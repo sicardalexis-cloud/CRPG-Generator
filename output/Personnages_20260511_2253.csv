@@ -1,0 +1,101 @@
+ID,Race,Ethnie,Origine,Special_Powers,Size_Score,Build_Score,Weight_Score,Taille_cm,Poids_kg,Balance,Coordination,Precision,Speed,Endurance,Stealth,Grappling,Melee,Projectiles,Combat_Points,Magie,Skill_Points,Skill_Bonus
+CH-001,Nain,Nain d'écu,Mithral Hall,Vision dans le noir + robustesse naine,10,29,39,219.8,449.4,0,1,2,-2,3,-19,39,21,6,252.11,NON,-248.1,0.0
+CH-002,Autre,Goliath,Cormyr,Réduction de dégâts importante,10,1,11,219.8,118.3,-3,-1,-1,0,5,-9,8,3,-3,38.88,NON,-38.8,0.0
+CH-003,Demi-elfe,Demi-elfe noir,Impiltur,Immunité sommeil + Vision nocturne,-8,3,-5,138.4,55.2,-2,3,0,-1,0,2,-7,3,0,5.75,NON,-6.4,0.0
+CH-004,Humain,Mulan,Turmish,Aucun,-4,3,-1,153.4,66.7,-2,-2,2,-3,0,-3,-3,-5,6,7.04,NON,-4.3,-15.133
+CH-005,Autre,Githyanki,High Forest,Télékinésie martiale,-3,-1,-4,157.4,57.8,0,4,0,0,3,4,-4,6,0,23.65,NON,-27.8,0.0
+CH-006,Autre,Goblin,Le Nord,Aucun,-8,1,-7,138.4,50.1,2,1,0,2,-3,5,-5,-2,0,-4.71,Sauvage,1.8,3.043
+CH-007,Autre,Kenku,Mulhorand,Mimétisme vocal,-12,-2,-14,124.9,35.9,-2,3,1,4,2,7,-16,-1,3,6.69,NON,-15.1,0.0
+CH-008,Autre,Géant des ombres,Star Mounts,Fusion avec les ombres,25,11,36,323.2,389.5,3,-1,-3,2,5,-17,39,16,-9,250.69,NON,-250.4,0.0
+CH-009,Autre,Tabaxi,Moonsea,Agilité féline + Grimper naturel,-1,0,-1,165.7,66.7,4,2,1,5,3,4,3,3,3,31.97,NON,-39.3,0.0
+CH-010,Demi-elfe,Avariel (Demi-elfe),Chondath,Vol naturel + Immunité sommeil + Vision nocturne,-11,-2,-13,128.1,37.7,3,1,1,4,-2,9,-10,-5,3,23.56,NON,-31.9,0.0
+CH-011,Humain,Chondathan,Thesk,Aucun,-4,2,-2,153.4,63.6,2,0,0,-2,1,2,0,-1,0,-1.0,Theurgique,0.3,0.563
+CH-012,Demi-elfe,Demi-elfe sauvage,Anauroch,Immunité sommeil + Vision nocturne,-5,3,-2,149.5,63.6,2,-1,-3,-1,2,2,0,-3,-9,-1.81,Theurgique,0.1,0.153
+CH-013,Humain,Chondathan,Turmish,Aucun,-2,4,2,161.5,77.0,2,4,-1,-4,2,3,4,9,-3,26.48,NON,-27.6,0.0
+CH-014,Autre,Kalastar,Ironmaster,Lien psychique,-3,2,-1,157.4,66.7,4,3,-1,-1,2,5,3,5,-3,26.02,NON,-29.8,0.0
+CH-015,Humain,Sossrim,Damara,Aucun,12,-1,11,231.4,118.3,0,-1,4,-2,2,-7,11,3,12,65.78,NON,-63.3,0.0
+CH-016,Humain,Damaran,Neverwinter,Aucun,2,0,2,179.0,77.0,1,-2,-1,0,2,-2,3,-3,-3,0.34,NON,-0.5,-1.054
+CH-017,Humain,Tethyrian,Impiltur,Aucun,-2,3,1,161.5,73.4,2,3,-1,0,1,2,3,6,-3,14.78,NON,-16.4,0.0
+CH-018,Demi-elfe,Demi-elfe noir,Sembia,Immunité sommeil + Vision nocturne,1,-3,-2,174.4,63.6,4,0,3,2,2,4,2,-1,9,28.31,NON,-33.0,0.0
+CH-019,Demi-elfe,Demi-elfe sauvage,Turmish,Immunité sommeil + Vision nocturne,-5,-1,-6,149.5,52.6,1,-2,-1,1,1,2,-5,-7,-3,-4.15,Arcanique,2.0,3.342
+CH-020,Autre,Tabaxi nocturne,Ironmaster,Vision nocturne supérieure + Agilité féline,-8,2,-6,138.4,52.6,4,3,3,3,4,8,-2,3,9,44.71,NON,-54.7,0.0
+CH-021,Autre,Aarakocra,Star Mounts,Vol naturel très puissant,-9,3,-6,134.9,52.6,3,0,4,3,2,5,-3,-3,12,56.11,NON,-62.1,0.0
+CH-022,Demi-elfe,Avariel (Demi-elfe),Thesk,Vol naturel + Immunité sommeil + Vision nocturne,-4,5,1,153.4,73.4,1,5,3,1,-2,3,2,10,9,76.43,NON,-77.8,0.0
+CH-023,Demi-elfe,Demi-elfe sauvage,Dalelands,Immunité sommeil + Vision nocturne,-9,-2,-11,134.9,41.4,2,3,1,4,-1,8,-9,0,3,5.0,NON,-12.8,0.0
+CH-024,Demi-elfe,Lythari (Demi-elfe),Turmish,Lycanthropie lupine contrôlée + Immunité sommeil + Vision nocturne,-5,-1,-6,149.5,52.6,-1,0,1,3,-2,2,-7,-3,3,22.59,NON,-24.5,0.0
+CH-025,Demi-elfe,Demi-elfe de la lune,High Forest,Immunité sommeil + Vision nocturne,-1,-6,-7,165.7,50.1,4,1,3,2,2,7,-3,-2,9,22.89,NON,-30.0,0.0
+CH-026,Autre,Warforged,Tethyr,Corps construct,10,13,23,219.8,209.6,2,-2,2,-2,4,-12,25,7,6,134.13,NON,-131.8,0.0
+CH-027,Autre,Merrow,Vilhon Reach,Force aquatique,14,10,24,243.6,219.8,1,0,1,2,7,-12,25,12,3,147.68,NON,-149.8,0.0
+CH-028,Halfling,Lightfoot,Chult,Furtivité naturelle,-16,4,-12,112.7,39.5,2,3,2,4,3,9,-10,0,6,7.27,NON,-18.3,0.0
+CH-029,Humain,Damaran,Rashemen,Aucun,-6,1,-5,145.7,55.2,4,-1,2,-1,1,5,-1,-5,6,8.2,NON,-11.4,0.0
+CH-030,Gnome,Gnome des forêts,Amn,Affinité nature + Vision dans le noir,-7,4,-3,142.0,60.7,4,2,4,3,2,5,1,2,12,36.06,NON,-42.1,0.0
+CH-031,Elfe,Elfe des étoiles,Vaasa,Magie stellaire innée + Transe + Immunité sommeil + Vision nocturne,-5,-2,-7,149.5,50.1,0,3,3,2,0,5,-7,2,9,38.41,NON,-42.7,0.0
+CH-032,Autre,Sahuagin,Unther,Respiration aquatique + Rage marine,4,5,9,188.4,107.5,3,-1,-1,0,5,-3,12,2,-3,44.9,NON,-46.7,0.0
+CH-033,Demi-elfe,Demi-elfe sauvage,Vaasa,Immunité sommeil + Vision nocturne,-7,7,0,142.0,70.0,3,3,0,3,-2,4,3,6,0,21.94,NON,-25.2,0.0
+CH-034,Demi-elfe,Demi-elfe des bois,Chondath,Immunité sommeil + Vision nocturne,6,-1,5,198.3,88.8,2,0,2,0,3,-1,7,2,6,35.17,NON,-36.4,0.0
+CH-035,Autre,Aarakocra,High Forest,Vol naturel très puissant,-7,4,-3,142.0,60.7,2,4,-2,7,3,5,-1,6,-6,35.78,NON,-45.6,0.0
+CH-036,Gnome,Gnome des forêts,Luskan,Affinité nature + Vision dans le noir,-11,7,-4,128.1,57.8,2,4,0,2,1,6,-2,6,0,10.66,NON,-16.3,0.0
+CH-037,Autre,Lizardfolk,Chult,Morsure + Artisanat osseux,-2,1,-1,161.5,66.7,0,-1,-2,0,1,-1,-1,-3,-6,3.34,NON,-3.4,-9.751
+CH-038,Autre,Harssaf,Dalelands,Adaptation désert extrême + Combat sable,7,-3,4,203.5,84.7,-1,-1,-1,0,4,-4,3,0,-3,15.5,NON,-16.2,0.0
+CH-039,Autre,Shadar-kai,Sembia,Lien ombral,-1,-1,-2,165.7,63.6,4,3,5,1,3,6,2,5,15,74.47,NON,-80.7,0.0
+CH-040,Autre,Forgelier,Baldur's Gate,Corps construct + Résistance aux dégâts,8,9,17,208.8,157.4,0,2,3,0,4,-8,17,12,9,122.9,NON,-122.4,0.0
+CH-041,Autre,Aarakocra,Star Mounts,Vol naturel très puissant,-7,-4,-11,142.0,41.4,5,3,-1,4,1,11,-6,0,-3,22.34,NON,-34.6,0.0
+CH-042,Nain,Nain arctique,Vaasa,Vision dans le noir + robustesse naine,5,34,39,193.3,449.4,3,1,2,-1,3,-17,42,21,6,270.57,NON,-267.2,0.0
+CH-043,Autre,Géant du givre,Baldur's Gate,Force glaciale,21,14,35,291.6,371.3,-1,0,-1,0,6,-19,34,17,-3,229.98,NON,-229.2,0.0
+CH-044,Autre,Githyanki,Wealdath,Télékinésie martiale,1,-2,-1,174.4,66.7,1,2,3,4,2,2,0,3,9,40.33,NON,-45.0,0.0
+CH-045,Gnome,Gnome des forêts,Turmish,Affinité nature + Vision dans le noir,-12,6,-6,124.9,52.6,4,2,0,3,0,7,-2,1,0,-0.62,NON,-6.0,-87.444
+CH-046,Autre,Géant des tempêtes,Great Rift,Affinité orageuse,25,17,42,323.2,518.5,2,3,-1,1,9,-18,44,27,-3,348.66,NON,-351.4,0.0
+CH-047,Autre,Aarakocra,High Forest,Vol naturel très puissant,-6,7,1,145.7,73.4,3,4,-1,8,4,4,4,8,-3,51.19,NON,-61.9,0.0
+CH-048,Humain,Rashemi,Rashemen,Aucun,-3,5,2,157.4,77.0,0,0,3,1,2,-1,2,1,9,25.31,NON,-26.5,0.0
+CH-049,Autre,Goliath,Mulhorand,Réduction de dégâts importante,2,-1,1,179.0,73.4,1,1,1,0,3,0,2,2,3,27.93,NON,-29.7,0.0
+CH-050,Elfe,Elfe des étoiles,Wealdath,Magie stellaire innée + Transe + Immunité sommeil + Vision nocturne,-2,2,0,161.5,70.0,0,3,3,-1,0,1,0,6,9,51.96,NON,-52.0,0.0
+CH-051,Elfe,Elfe du soleil,Vilhon Reach,Transe + Immunité sommeil + Vision nocturne,-2,-4,-6,161.5,52.6,-1,2,1,3,1,3,-7,1,3,12.75,NON,-16.8,0.0
+CH-052,Halfling,Lightfoot,Star Mounts,Furtivité naturelle,-12,4,-8,124.9,47.8,1,2,2,2,2,6,-7,0,6,8.38,NON,-14.6,0.0
+CH-053,Demi-orc,Demi-orc ogrillons,Dalelands,Aucun,2,3,5,179.0,88.8,0,-1,1,0,6,-4,5,0,3,14.17,NON,-16.4,0.0
+CH-054,Demi-orc,Demi-orc ogrillons,Moonshae Isles,Aucun,4,3,7,188.4,97.7,0,-1,-1,0,4,-5,7,1,-3,14.09,NON,-14.4,0.0
+CH-055,Autre,Gnoll,Spine of the World,Morsure puissante + Frénésie,2,-1,1,179.0,73.4,-2,-1,0,3,2,-3,-1,-2,0,-2.62,Sauvage,1.1,2.014
+CH-056,Autre,Kalastar,Ironmaster,Lien psychique,4,-2,2,188.4,77.0,-1,0,5,4,0,-2,1,1,15,60.31,NON,-61.8,0.0
+CH-057,Autre,Aasimar,Chult,Lumière sacrée + Résistance radieuse,-1,-3,-4,165.7,57.8,4,3,1,2,0,7,0,4,3,31.62,NON,-37.6,0.0
+CH-058,Humain,Calishite,Underdark,Aucun,-1,6,5,165.7,88.8,-2,1,-2,3,0,-4,3,4,-6,8.11,NON,-8.1,0.0
+CH-059,Demi-elfe,Demi-elfe sauvage,Thesk,Immunité sommeil + Vision nocturne,2,1,3,179.0,80.8,1,2,0,1,-1,0,4,5,0,21.48,NON,-21.5,0.0
+CH-060,Autre,Sahuagin,Star Mounts,Respiration aquatique + Rage marine,3,4,7,183.6,97.7,2,2,0,2,5,-1,9,7,0,48.92,NON,-52.7,0.0
+CH-061,Humain,Sossrim,High Forest,Aucun,3,4,7,183.6,97.7,1,1,2,2,0,-3,8,5,6,40.18,NON,-39.9,0.0
+CH-062,Humain,Illuskan,Citadel Adbar,Aucun,4,4,8,188.4,102.5,-1,1,1,1,0,-5,7,6,3,32.19,NON,-30.6,0.0
+CH-063,Autre,Warforged,Rashemen,Corps construct,9,9,18,214.2,165.1,4,2,5,3,1,-5,22,13,15,172.33,NON,-172.5,0.0
+CH-064,Elfe,Avariel,Impiltur,Vol naturel + Transe + Immunité sommeil + Vision nocturne,-7,-1,-8,142.0,47.8,0,-1,1,2,-1,3,-8,-6,3,25.86,NON,-28.2,0.0
+CH-065,Autre,Triton,Impiltur,Respiration aquatique + Magie marine,4,-1,3,188.4,80.8,-1,1,-2,4,2,-2,2,3,-6,13.79,NON,-16.4,0.0
+CH-066,Halfling,Ghostwalk,Unther,Télépathie silencieuse,-11,0,-11,128.1,41.4,7,1,1,2,-1,11,-4,-4,3,8.38,NON,-18.3,0.0
+CH-067,Gnome,Gnome des forêts,Spine of the World,Affinité nature + Vision dans le noir,-12,10,-2,124.9,63.6,3,3,2,1,2,5,1,5,6,22.8,NON,-27.6,0.0
+CH-068,Autre,Tortle,Ironmaster,Carapace protectrice,13,13,26,237.4,241.8,1,-2,0,-1,4,-14,27,9,0,136.58,NON,-134.3,0.0
+CH-069,Autre,Aarakocra,High Forest,Vol naturel très puissant,-6,5,-1,145.7,66.7,0,-1,0,1,3,-1,-1,-3,0,24.84,NON,-26.6,0.0
+CH-070,Autre,Kuo-toa,Calimshan,Fanatisme religieux,-4,-4,-8,153.4,47.8,4,2,-2,2,1,8,-4,0,-6,-0.14,NON,-7.3,0.0
+CH-071,Autre,Gremlin,Underdark,Sabotage inné + Furtivité extrême,-9,-4,-13,134.9,37.7,5,3,1,3,1,12,-8,-1,3,-0.63,NON,-12.3,0.0
+CH-072,Autre,Goliath,Turmish,Réduction de dégâts importante,15,5,20,250.0,181.6,4,2,-2,1,4,-6,24,14,-6,140.29,NON,-140.9,0.0
+CH-073,Demi-elfe,Demi-elfe du soleil,Chondath,Immunité sommeil + Vision nocturne,-5,-4,-9,149.5,45.6,1,4,1,1,-1,7,-8,3,3,10.02,NON,-14.9,0.0
+CH-074,Autre,Shadar-kai,Icewind Dale,Lien ombral,-2,0,-2,161.5,63.6,1,2,3,4,-2,3,-1,3,9,43.33,NON,-46.6,0.0
+CH-075,Autre,Tabaxi,Le Nord,Agilité féline + Grimper naturel,-6,6,0,145.7,70.0,3,1,6,6,1,3,3,2,18,82.49,NON,-88.8,0.0
+CH-076,Demi-elfe,Demi-elfe de la lune,Great Rift,Immunité sommeil + Vision nocturne,-8,-4,-12,138.4,39.5,5,-1,2,5,4,9,-7,-8,6,9.09,NON,-21.6,0.0
+CH-077,Autre,Goblin,Underdark,Aucun,-11,5,-6,128.1,52.6,-2,5,3,-2,4,4,-8,7,9,32.63,NON,-36.6,0.0
+CH-078,Demi-elfe,Demi-elfe de la lune,Star Mounts,Immunité sommeil + Vision nocturne,-11,-1,-12,128.1,39.5,2,1,1,4,1,8,-10,-4,3,2.0,NON,-10.8,0.0
+CH-079,Autre,Kenku,Damara,Mimétisme vocal,-6,-1,-7,145.7,50.1,2,0,2,4,-1,5,-5,-4,6,16.56,NON,-21.7,0.0
+CH-080,Autre,Hobgoblin,Mithral Hall,Discipline militaire innée,4,0,4,188.4,84.7,1,0,0,3,4,-2,5,2,0,12.16,NON,-15.4,0.0
+CH-081,Autre,Harssaf,Ironmaster,Adaptation désert extrême + Combat sable,0,2,2,170.0,77.0,6,5,2,2,1,6,8,11,6,72.37,NON,-78.0,0.0
+CH-082,Elfe,Elfe des étoiles,Thesk,Magie stellaire innée + Transe + Immunité sommeil + Vision nocturne,0,2,2,170.0,77.0,3,4,3,0,2,3,5,9,9,70.87,NON,-73.7,0.0
+CH-083,Autre,Tieffelin,Amn,Magie infernale,2,2,4,179.0,84.7,0,1,2,-1,-2,-2,4,4,6,34.21,NON,-31.8,0.0
+CH-084,Halfling,Strongheart,Mithral Hall,Robustesse halfeline,-15,5,-10,115.6,43.5,2,-1,3,5,5,6,-8,-7,9,13.48,NON,-23.8,0.0
+CH-085,Demi-elfe,Avariel (Demi-elfe),Great Rift,Vol naturel + Immunité sommeil + Vision nocturne,-7,2,-5,142.0,55.2,3,1,1,2,1,5,-2,-1,3,29.03,NON,-33.9,0.0
+CH-086,Autre,Orc,Mithral Hall,Furie orque,8,0,8,208.8,102.5,-3,0,-4,4,0,-7,5,4,-12,10.79,NON,-10.5,0.0
+CH-087,Autre,Tieffelin,Evermeet,Magie infernale,-2,5,3,161.5,80.8,1,-1,-1,-2,3,-2,4,-1,-3,11.81,NON,-11.7,0.0
+CH-088,Elfe,Elfe de la lune,High Forest,Transe + Immunité sommeil + Vision nocturne,-3,0,-3,157.4,60.7,2,3,3,4,1,4,-1,4,9,38.64,NON,-44.0,0.0
+CH-089,Autre,Géant du givre,Icewind Dale,Force glaciale,22,12,34,299.2,354.1,2,-3,-1,-1,9,-18,36,11,-3,217.49,NON,-219.2,0.0
+CH-090,Autre,Warforged titan,Spine of the World,Corps construct titanique,15,15,30,250.0,292.6,5,2,0,3,5,-10,35,19,0,231.81,NON,-233.3,0.0
+CH-091,Nain,Nain arctique,Unther,Vision dans le noir + robustesse naine,6,30,36,198.3,389.5,1,-1,4,-1,4,-18,37,16,12,237.78,NON,-235.0,0.0
+CH-092,Humain,Ffolk,Great Rift,Aucun,-2,-2,-4,161.5,57.8,-3,1,4,-3,0,0,-7,0,12,28.52,NON,-27.2,0.0
+CH-093,Autre,Kalastar,Chondath,Lien psychique,4,-3,1,188.4,73.4,2,1,0,1,2,1,3,2,0,21.29,NON,-23.5,0.0
+CH-094,Autre,Aarakocra des pics,Vilhon Reach,Vol naturel + Adaptation haute altitude,0,0,0,170.0,70.0,4,0,1,7,5,3,4,0,3,41.62,NON,-51.4,0.0
+CH-095,Autre,Goliath,Sembia,Réduction de dégâts importante,13,0,13,237.4,130.1,2,-1,-2,1,4,-6,15,4,-6,65.77,NON,-66.3,0.0
+CH-096,Elfe,Elfe noir,Impiltur,"Sorts innés (Darkness, Faerie Fire) + Vision nocturne supérieure",-3,-3,-6,157.4,52.6,2,3,2,1,0,6,-4,3,6,33.3,NON,-37.8,0.0
+CH-097,Autre,Firbolg,Vaasa,Magie druidique innée,13,7,20,237.4,181.6,1,1,2,3,5,-9,21,12,6,127.68,NON,-129.4,0.0
+CH-098,Autre,Triton royal,Vaasa,Commandement aquatique,2,4,6,179.0,93.2,2,2,3,4,1,-1,8,7,9,71.3,NON,-73.8,0.0
+CH-099,Elfe,Avariel,Wealdath,Vol naturel + Transe + Immunité sommeil + Vision nocturne,-7,-1,-8,142.0,47.8,2,2,2,7,0,6,-6,0,6,37.78,NON,-46.7,0.0
+CH-100,Autre,Warforged,Impiltur,Corps construct,4,10,14,188.4,136.4,4,1,5,0,4,-4,18,9,15,139.18,NON,-139.9,0.0

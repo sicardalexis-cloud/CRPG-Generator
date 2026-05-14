@@ -1,0 +1,101 @@
+ID,Race,Ethnie,Origine,Special_Powers,Weight_Score,Build_Score,Taille_cm,Poids_kg,Balance,Coordination,Precision,Speed,Endurance,Stealth,Regeneration,Vigilance,Beauty,Grappling,Melee,Projectiles,Combat_Points,Magie,Skill_Points,Skill_Bonus
+CH-001,Autre,Firbolg,Moonsea,Magie druidique innée,11,7,194.6,118.3,1,2,5,1,7,-4,-5,3,-2,11,7,10,81.069,NON,-84.75,0
+CH-002,Demi-orc,Demi-orc ogrillons,Rashemen,Aucun,1,-1,174.9,73.4,3,0,2,-1,-3,1,-3,-3,-6,2,0,4,9.603,NON,-8.296,0
+CH-003,Nain,Urddnir,High Forest,Marche à travers la pierre,6,34,136.3,93.2,6,2,5,-6,6,3,1,-7,-8,9,5,10,80.311,NON,-83.649,0
+CH-004,Autre,Kuo-toa,Mithral Hall,Fanatisme religieux,0,-1,171.7,70.0,1,-2,-2,1,4,-1,-1,8,-7,0,-2,-4,1.736,NON,-4.21,-14.227
+CH-005,Autre,Genasi,Damara,Affinité élémentaire,-4,-1,159.4,57.8,-3,5,3,7,3,2,2,2,-4,-6,3,6,21.436,NON,-29.169,0
+CH-006,Autre,Kenku mimétique,Luiren,Mimétisme parfait,-7,2,146.5,50.1,7,-2,5,8,-1,7,-1,6,-3,-4,-6,10,32.975,NON,-43.207,0
+CH-007,Autre,Sahuagin royal,Waterdeep,Commandement marin,4,0,183.1,84.7,6,6,-4,-3,-3,6,8,0,3,7,8,-8,47.337,NON,-48.628,0
+CH-008,Autre,Githzerai,Star Mounts,Discipline mentale,0,0,170.0,70.0,3,3,-3,1,6,4,2,1,-6,1,3,-6,14.15,NON,-21.104,0
+CH-009,Autre,Lizardfolk,Evermeet,Morsure + Artisanat osseux,0,6,160.3,70.0,2,-2,-3,-4,4,0,1,-3,0,1,-2,-6,5.87,NON,-6.571,0
+CH-010,Humain,Sossrim,Sembia,Aucun,5,0,186.5,88.8,0,-1,-2,4,3,-4,-2,4,-2,5,1,-4,7.879,NON,-10.322,0
+CH-011,Demi-elfe,Demi-elfe de la lune,Amn,Immunité sommeil + Vision nocturne,1,3,168.2,73.4,4,1,0,-2,-1,3,5,6,-1,3,1,0,10.656,NON,-10.971,0
+CH-012,Nain,Nain d'or,Mithral Hall,Vision dans le noir + robustesse naine,7,31,143.0,97.7,1,1,-6,2,4,-3,4,3,-5,7,4,-12,16.516,NON,-18.707,0
+CH-013,Nain,Urddnir,Waterdeep,Marche à travers la pierre,2,27,135.5,77.0,6,-3,1,6,1,2,5,5,-5,5,-2,2,34.533,NON,-40.169,0
+CH-014,Demi-elfe,Demi-elfe des étoiles,Evermeet,Magie stellaire innée + Immunité sommeil + Vision nocturne,-8,-5,153.9,47.8,8,4,3,4,-1,12,-3,2,4,-4,0,6,18.647,NON,-31.227,0
+CH-015,Autre,Aasimar déchu,Chult,Lumière sombre,1,4,166.5,73.4,8,5,1,7,2,8,1,0,5,5,5,2,43.676,NON,-55.509,0
+CH-016,Elfe,Avariel,Icewind Dale,Vol naturel + Transe + Immunité sommeil + Vision nocturne,-4,2,154.8,57.8,4,8,5,9,-3,10,-2,2,8,-2,6,10,64.78,NON,-78.362,0
+CH-017,Autre,Githyanki,Impiltur,Télékinésie martiale,-2,1,162.2,63.6,6,-1,6,5,3,5,-2,6,5,1,-2,12,45.799,NON,-53.896,0
+CH-018,Autre,Kalastar,Great Rift,Lien psychique,-1,0,166.9,66.7,8,1,0,3,-2,7,9,0,6,3,0,0,18.656,NON,-24.338,0
+CH-019,Demi-elfe,Demi-elfe noir,Chessenta,Immunité sommeil + Vision nocturne,-2,2,160.7,63.6,-1,4,1,0,-1,2,2,-3,-1,-3,3,2,10.137,NON,-10.76,0
+CH-020,Autre,Kuo-toa,Vilhon Reach,Fanatisme religieux,-3,2,157.7,60.7,-4,-4,3,3,-5,-5,-3,3,-3,-5,-6,6,11.696,NON,-9.284,0
+CH-021,Autre,Forgelier,Calimshan,Corps construct + Résistance aux dégâts,12,7,198.2,124.0,2,0,4,-6,3,-5,7,-1,-2,13,6,8,82.933,NON,-80.201,0
+CH-022,Elfe,Avariel,Impiltur,Vol naturel + Transe + Immunité sommeil + Vision nocturne,-6,-1,153.6,52.6,0,-1,1,3,-9,2,-2,7,1,-6,-4,2,25.495,NON,-25.141,0
+CH-023,Autre,Shifter,Lantan,Transformation bestiale,1,-1,174.9,73.4,-1,-8,1,-2,-6,-7,-1,5,-1,0,-8,2,8.352,NON,-2.326,-5.771
+CH-024,Autre,Triton abyssal,Mulhorand,Affinité abyssale,-1,0,166.9,66.7,4,7,-2,1,1,7,4,-4,4,1,6,-4,22.647,NON,-28.59,0
+CH-025,Autre,Merrow ancien,Anauroch,Puissance abyssale,13,7,201.9,130.1,6,0,1,1,11,-2,8,-6,-5,16,6,2,87.428,NON,-96.306,0
+CH-026,Autre,Bugbear,Cormyr,Allonge accrue + Frappe brutale,0,1,168.3,70.0,-4,-1,-1,2,5,-4,0,7,-4,-2,-1,-2,3.751,NON,-6.311,0
+CH-027,Autre,Géant des collines,Luiren,Endurance colossale,12,14,185.1,124.0,6,-1,-8,-4,1,-2,1,-3,1,15,5,-16,76.867,NON,-74.731,0
+CH-028,Demi-elfe,Demi-elfe des bois,Great Rift,Immunité sommeil + Vision nocturne,-3,3,156.2,60.7,-3,-1,4,-2,-2,-2,6,3,0,-5,-3,8,18.136,NON,-15.322,0
+CH-029,Autre,Tortle,Neverwinter,Carapace protectrice,6,8,175.7,93.2,6,-1,1,-8,8,1,7,3,0,9,2,2,40.952,NON,-44.367,0
+CH-030,Autre,Tabaxi nocturne,Le Nord,Vision nocturne supérieure + Agilité féline,1,-1,174.9,73.4,5,4,3,2,-2,5,6,0,-4,3,4,6,43.906,NON,-47.257,0
+CH-031,Humain,Chondathan,Mulhorand,Aucun,-2,-1,165.4,63.6,0,1,4,-2,-5,1,-2,-2,5,-2,0,8,16.755,NON,-14.272,0
+CH-032,Autre,Merrow ancien,Mithral Hall,Puissance abyssale,10,12,181.9,112.8,2,3,4,3,7,-2,2,3,-9,11,8,8,89.463,NON,-95.146,0
+CH-033,Autre,Kenku,Star Mounts,Mimétisme vocal,-10,-5,148.4,43.5,6,2,3,6,-4,11,4,11,-2,-7,-3,6,16.224,NON,-27.769,0
+CH-034,Autre,Shifter,Rashemen,Transformation bestiale,-3,2,157.7,60.7,6,3,-2,4,4,8,4,4,-1,0,1,-4,8.361,NON,-19.064,0
+CH-035,Autre,Goliath,Tethyr,Réduction de dégâts importante,9,0,200.8,107.5,6,-3,-1,1,8,-2,3,0,3,12,1,-2,49.799,NON,-55.236,0
+CH-036,Autre,Aarakocra nocturne,Chessenta,Vol naturel + Vision nocturne,-10,-3,145.5,43.5,-1,-3,2,5,1,2,0,8,9,-11,-8,4,29.32,NON,-34.141,0
+CH-037,Autre,Githzerai,Wealdath,Discipline mentale,1,1,171.5,73.4,0,1,-1,1,3,0,-5,-3,-2,1,1,-2,12.375,NON,-14.651,0
+CH-038,Autre,Kalastar,Neverwinter,Lien psychique,0,1,168.3,70.0,0,0,1,-1,6,0,3,3,6,0,0,2,16.639,NON,-20.142,0
+CH-039,Autre,Tortle,Star Mounts,Carapace protectrice,9,7,187.5,107.5,9,0,0,6,8,2,4,-4,1,13,4,0,57.232,NON,-68.179,0
+CH-040,Autre,Warforged titan,Unther,Corps construct titanique,13,12,192.3,130.1,7,-3,-3,-2,10,-3,2,5,-4,16,3,-6,74.653,NON,-80.403,0
+CH-041,Autre,Géant du feu,Amn,Affinité du feu,25,14,235.5,230.5,4,-2,-2,1,3,-11,6,5,-4,27,10,-4,168.384,NON,-167.015,0
+CH-042,Demi-elfe,Demi-elfe sauvage,Turmish,Immunité sommeil + Vision nocturne,-2,3,159.1,63.6,2,1,6,0,1,3,-2,5,7,-1,0,12,36.423,NON,-38.698,0
+CH-043,Humain,Mulan,Amn,Aucun,-1,3,162.1,66.7,-4,4,-3,1,0,-1,1,-4,0,-3,3,-6,-1.007,Arcanique,0.964,1.753
+CH-044,Demi-orc,Demi-orc ogrillons,Waterdeep,Aucun,6,3,184.5,93.2,-2,0,3,0,-3,-5,5,1,-3,5,3,6,26.46,NON,-23.032,0
+CH-045,Autre,Kenku mimétique,Thesk,Mimétisme parfait,-9,-3,148.2,45.6,2,2,1,7,1,7,1,7,2,-8,-3,2,10.194,NON,-20.483,0
+CH-046,Demi-orc,Demi-orc ogrillons,Tethyr,Aucun,5,3,181.1,88.8,-1,-3,-5,3,4,-6,5,-3,-3,4,-1,-10,0.953,NON,-2.728,-7.133
+CH-047,Autre,Géant du givre,Icewind Dale,Force glaciale,21,15,216.6,190.5,2,4,-3,2,2,-7,5,0,-3,22,14,-6,152.479,NON,-152.012,0
+CH-048,Halfling,Ghostwalk,Spine of the World,Télépathie silencieuse,-9,4,138.4,45.6,9,2,2,8,1,12,-6,1,0,-5,-3,4,10.722,NON,-27.736,0
+CH-049,Autre,Yuan-ti,Luiren,Résistance magique + Affinité serpentine,-4,1,156.3,57.8,8,1,4,1,-2,9,6,2,0,0,-1,8,33.379,NON,-39.867,0
+CH-050,Autre,Aasimar,Icewind Dale,Lumière sacrée + Résistance radieuse,6,-4,197.5,93.2,3,-1,-1,-1,2,-2,-3,3,4,7,2,-2,36.26,NON,-35.945,0
+CH-051,Autre,Bugbear,Vaasa,Allonge accrue + Frappe brutale,3,6,169.5,80.8,-4,3,1,4,6,-3,1,0,-3,1,4,2,18.603,NON,-23.674,0
+CH-052,Autre,Géant des tempêtes,Moonshae Isles,Affinité orageuse,28,15,246.5,266.0,-1,-3,0,-7,6,-17,7,10,-8,27,11,0,179.609,NON,-176.324,0
+CH-053,Autre,Aasimar,Unther,Lumière sacrée + Résistance radieuse,1,0,173.2,73.4,3,-4,2,2,3,-1,9,4,4,2,-4,4,26.964,NON,-29.33,0
+CH-054,Autre,Géant du feu,Moonsea,Affinité du feu,19,17,204.7,173.2,-4,1,-1,0,13,-13,7,5,-6,17,10,-2,121.294,NON,-129.396,0
+CH-055,Demi-elfe,Demi-elfe des étoiles,Cormanthor,Magie stellaire innée + Immunité sommeil + Vision nocturne,-4,1,156.3,57.8,-3,6,2,2,1,3,9,-3,6,-6,4,4,19.424,NON,-22.811,0
+CH-056,Autre,Kenku,Mulhorand,Mimétisme vocal,-9,1,142.5,45.6,1,3,-1,4,-4,7,-4,-3,2,-9,-2,-2,2.095,NON,-7.674,0
+CH-057,Autre,Lizardfolk,Chessenta,Morsure + Artisanat osseux,-2,3,159.1,63.6,-3,-3,2,-3,-1,-4,2,-1,-2,-4,-4,4,11.686,NON,-8.118,0
+CH-058,Autre,Géant du givre,Vaasa,Force glaciale,22,16,218.5,199.8,1,-9,0,-4,3,-16,9,-5,-8,22,2,0,118.391,NON,-113.944,0
+CH-059,Autre,Sahuagin,High Forest,Respiration aquatique + Rage marine,0,1,168.3,70.0,1,-4,1,0,2,-2,1,3,-3,0,-4,2,12.0,NON,-12.174,0
+CH-060,Autre,Tortle,Chondath,Carapace protectrice,14,6,207.7,136.4,-2,-1,4,3,2,-10,5,-5,2,13,6,8,80.933,NON,-80.352,0
+CH-061,Elfe,Elfe sauvage,Tethyr,Transe + Immunité sommeil + Vision nocturne,-5,1,153.5,55.2,2,4,-3,-4,0,6,0,3,-5,-4,1,-6,5.856,NON,-8.118,0
+CH-062,Demi-orc,Demi mountain orc,Moonsea,Aucun,1,1,171.5,73.4,-4,-2,-3,3,7,-5,6,1,-9,-1,-2,-6,-6.13,Theurgique,1.586,2.759
+CH-063,Humain,Calishite,Lantan,Aucun,-5,3,150.5,55.2,-4,-1,-1,-2,5,-2,0,-1,-4,-7,-4,-2,-8.168,Arcanique,6.867,8.975
+CH-064,Humain,Ffolk,Anauroch,Aucun,8,0,197.1,102.5,0,3,3,-1,4,-3,-1,0,0,8,7,6,45.911,NON,-46.501,0
+CH-065,Autre,Tabaxi,Ironmaster,Agilité féline + Grimper naturel,-1,2,163.7,66.7,-3,-2,7,5,-2,-4,4,4,1,-3,-3,14,53.917,NON,-54.428,0
+CH-066,Autre,Warforged titan,Amn,Corps construct titanique,10,11,183.7,112.8,7,2,2,-2,2,1,3,4,0,13,7,4,83.478,NON,-84.184,0
+CH-067,Gnome,Gnome du crépuscule,Vaasa,Vision dans le noir,-13,5,127.3,37.7,7,1,0,5,3,12,-2,6,6,-10,-6,0,1.483,NON,-17.042,0
+CH-068,Autre,Ogre,Great Rift,Force colossale,19,6,227.9,173.2,-3,-3,-3,0,12,-14,4,2,-4,17,6,-6,86.58,NON,-93.045,0
+CH-069,Autre,Triton royal,Cormanthor,Commandement aquatique,2,0,176.4,77.0,-1,-2,2,5,-2,-3,4,-1,-2,1,-1,4,22.964,NON,-23.853,0
+CH-070,Elfe,Elfe de la mer,Lantan,Respiration aquatique + Transe + Immunité sommeil + Vision nocturne,1,0,173.2,73.4,4,-2,6,1,1,1,1,2,4,3,-2,12,50.454,NON,-52.051,0
+CH-071,Gnome,Gnome des glaces,Sembia,Vision dans le noir,-6,3,147.7,52.6,-2,1,-1,5,-2,2,-3,2,-4,-7,-2,-2,-1.154,Sauvage,-2.198,-5.367
+CH-072,Autre,Aarakocra nocturne,Mulhorand,Vol naturel + Vision nocturne,-8,2,143.8,47.8,8,-5,-1,6,-2,7,-4,8,-6,-4,-9,-2,23.081,NON,-31.013,0
+CH-073,Autre,Géant du givre,Impiltur,Force glaciale,20,15,212.6,181.6,0,-1,1,-6,7,-11,5,-4,-1,20,9,2,130.602,NON,-129.439,0
+CH-074,Autre,Kuo-toa,Calimshan,Fanatisme religieux,-2,1,162.2,63.6,1,-7,7,3,-2,-3,5,4,-6,-2,-8,14,40.321,NON,-39.775,0
+CH-075,Autre,Géant des ombres,Damara,Fusion avec les ombres,15,12,199.6,143.1,2,4,1,0,4,-4,0,0,-5,16,11,2,117.846,NON,-118.547,0
+CH-076,Autre,Tabaxi nocturne,Chessenta,Vision nocturne supérieure + Agilité féline,-5,-3,159.6,55.2,-3,0,0,2,0,0,0,2,2,-7,-3,0,13.938,NON,-15.05,0
+CH-077,Autre,Géant du givre,Calimshan,Force glaciale,24,18,222.3,219.8,-1,-3,-4,-4,7,-15,5,-5,-1,23,9,-8,138.003,NON,-136.828,0
+CH-078,Autre,Triton abyssal,Star Mounts,Affinité abyssale,-4,2,154.8,57.8,4,-2,4,3,5,4,2,3,2,-2,-4,8,26.116,NON,-33.466,0
+CH-079,Autre,Warforged,Waterdeep,Corps construct,12,9,194.4,124.0,2,-2,-6,-6,2,-6,5,2,0,13,4,-12,53.538,NON,-49.856,0
+CH-080,Elfe,Elfe des bois,Cormanthor,Transe + Immunité sommeil + Vision nocturne,-3,0,160.8,60.7,2,5,5,0,2,6,1,-2,8,-2,3,10,39.15,NON,-44.253,0
+CH-081,Autre,Kobold,High Forest,Aucun,-15,0,128.8,34.2,5,3,-4,0,-3,13,-6,1,1,-13,-5,-8,-13.395,Sauvage,2.63,4.276
+CH-082,Autre,Ogre,Cormanthor,Force colossale,9,9,183.9,107.5,-6,-6,-9,-4,-3,-13,3,-8,-3,6,-2,-18,28.099,NON,-21.006,0
+CH-083,Demi-elfe,Demi-elfe des étoiles,Cormanthor,Magie stellaire innée + Immunité sommeil + Vision nocturne,-7,-2,152.3,50.1,2,-2,-3,5,7,3,-1,0,2,-6,-6,-6,-1.515,Arcanique,-8.283,0
+CH-084,Autre,Sahuagin royal,Wealdath,Commandement marin,5,7,174.2,88.8,-4,-2,8,-1,9,-7,6,5,-6,3,0,16,71.158,NON,-74.873,0
+CH-085,Autre,Hobgoblin,Dalelands,Discipline militaire innée,4,2,179.5,84.7,0,-3,3,6,2,-4,2,-3,3,4,-1,6,18.25,NON,-21.625,0
+CH-086,Nain,Nain arctique,Citadel Adbar,Vision dans le noir + robustesse naine,8,26,152.9,102.5,-1,-3,1,0,7,-7,1,0,0,7,1,2,18.884,NON,-21.072,0
+CH-087,Elfe,Elfe du soleil,Damara,Transe + Immunité sommeil + Vision nocturne,1,-1,174.9,73.4,-2,-4,4,2,0,-5,6,-1,0,0,-4,8,26.74,NON,-25.775,0
+CH-088,Humain,Turami,Luskan,Aucun,4,0,183.1,84.7,-3,0,-3,-8,-2,-5,-1,-2,0,2,2,-6,1.773,NON,4.203,6.246
+CH-089,Elfe,Avariel,Sembia,Vol naturel + Transe + Immunité sommeil + Vision nocturne,-8,0,146.6,47.8,1,2,6,1,-5,6,4,6,1,-8,-2,12,55.511,NON,-57.958,0
+CH-090,Humain,Mulan,Waterdeep,Aucun,-2,3,159.1,63.6,-3,-2,-3,2,-4,-3,3,7,0,-4,-3,-6,-8.302,Sauvage,10.27,11.736
+CH-091,Autre,Yuan-ti,Cormanthor,Résistance magique + Affinité serpentine,0,1,168.3,70.0,2,-2,0,1,0,0,3,7,-3,1,-2,0,15.375,NON,-15.908,0
+CH-092,Autre,Lizardfolk,Icewind Dale,Morsure + Artisanat osseux,0,-2,173.4,70.0,-1,-4,-2,-1,0,-4,0,-7,-3,-1,-4,-4,3.722,NON,-1.504,-3.394
+CH-093,Autre,Kenku mimétique,Cormyr,Mimétisme parfait,-10,1,139.9,43.5,3,1,-2,-2,-3,8,3,1,-1,-9,-4,-4,4.066,NON,-7.621,0
+CH-094,Demi-elfe,Demi-elfe noir,Citadel Adbar,Immunité sommeil + Vision nocturne,-4,-3,162.6,57.8,4,1,-2,-1,-1,5,1,-1,5,-2,-1,-4,-0.264,NON,-1.936,-4.584
+CH-095,Autre,Githzerai,Spine of the World,Discipline mentale,-5,1,153.5,55.2,1,1,3,2,3,3,-3,10,2,-5,-2,6,19.576,NON,-24.174,0
+CH-096,Autre,Géant des collines,Rashemen,Endurance colossale,17,10,211.2,157.4,7,-2,-2,2,3,-5,4,4,-4,20,6,-4,105.936,NON,-106.713,0
+CH-097,Demi-orc,Demi-orc Boogins,Amn,Aucun,-1,-3,171.8,66.7,1,-5,-8,5,6,-2,4,-5,-1,-1,-6,-16,-11.47,Arcanique,5.238,7.383
+CH-098,Autre,Gremlin,Underdark,Sabotage inné + Furtivité extrême,-12,0,136.1,39.5,0,5,2,1,-4,9,-5,0,-6,-12,-1,4,0.27,NON,-5.967,-61.273
+CH-099,Autre,Gnoll,Baldur's Gate,Morsure puissante + Frénésie,7,2,189.8,97.7,-1,3,-4,-5,3,-3,-6,4,3,6,6,-8,20.285,NON,-18.6,0
+CH-100,Autre,Kalastar,Anauroch,Lien psychique,3,4,172.8,80.8,-2,5,-2,5,2,-1,0,0,1,2,6,-4,26.286,NON,-30.086,0

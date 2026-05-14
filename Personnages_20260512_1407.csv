@@ -1,0 +1,101 @@
+ID,Indice,Race,Ethnie,Weight_Score,Build_Score,Taille_cm,Poids_kg,Balance,Speed,Coordination,Precision,Endurance,Regeneration,Vigilance,Beauty,Stealth,Grappling,Melee,Projectiles,Combat_Points,Magie,Skill_Points,Skill_Bonus,Special
+CH-0001,30,Elfe,Elfe des bois,-2,-4,170.3,61.9,6,0,0,6,1,0,0,2,5,4,-1,18,63.16,NON,2.0,3.411,Transe + Vision nocturne
+CH-0002,5,Humain,Mulan,-3,-4,167.2,59.1,3,-1,2,-2,2,1,0,-1,5,0,2,-6,-0.87,NON,67.0,29.401,Aucun
+CH-0003,12,Halfelin,Strongheart,-15,4,123.9,33.6,3,0,2,-1,1,6,1,1,11,-12,-4,-3,-10.49,OUI,-4.4,-15.418,Robustesse halfeline
+CH-0004,7,Humain,Tethyrians,0,1,168.3,68.0,0,2,-1,1,0,1,1,0,-1,0,-2,3,3.03,NON,65.3,29.116,Aucun
+CH-0005,10,Humain,Ffolk,11,5,198.4,114.0,-1,-1,-2,1,3,1,4,1,-8,10,1,3,30.77,NON,37.4,23.29,Aucun
+CH-0006,138,Humain,Uthgardt,-2,-2,167.1,61.9,4,1,1,3,5,3,0,0,4,2,1,9,25.31,NON,36.8,23.117,Aucun
+CH-0007,15,Nain,Nain d'écu,0,28,129.3,68.0,1,-2,1,2,4,4,1,1,1,1,2,6,15.93,NON,48.6,25.969,Vision dans le noir + robustesse naine
+CH-0008,1,Humain,Calishites,1,-1,174.9,71.3,2,1,2,-3,2,-1,2,3,2,3,4,-9,6.96,NON,57.9,27.833,Aucun
+CH-0009,138,Humain,Uthgardt,3,6,169.5,78.3,0,2,0,0,2,3,1,0,-2,3,1,0,5.66,NON,60.8,28.349,Aucun
+CH-0010,133,Humain,Tashaliens,3,2,176.2,78.3,0,4,4,-2,1,4,2,0,0,3,9,-6,22.82,NON,40.7,24.135,Aucun
+CH-0011,2,Humain,Chondathans,5,3,181.1,86.0,-2,3,0,2,0,0,0,-2,-5,3,2,6,19.58,NON,51.7,26.628,Aucun
+CH-0012,5,Humain,Mulan,5,-1,188.3,86.0,-1,1,-1,0,-1,3,1,2,-4,4,0,0,6.96,NON,61.3,28.447,Aucun
+CH-0013,6,Humain,Rashemi,-1,0,166.9,64.9,3,-2,1,0,2,-2,-2,1,3,2,1,0,3.64,NON,65.8,29.199,Aucun
+CH-0014,11,Humain,Sossrim,-2,3,159.1,61.9,4,2,-1,-2,1,1,-1,2,3,2,-3,-6,-3.02,OUI,-1.5,-3.442,Aucun
+CH-0015,2,Humain,Chondathans,-2,-1,165.4,61.9,0,-1,3,2,-2,1,-1,3,2,-2,5,6,20.18,NON,48.3,25.925,Aucun
+CH-0016,8,Humain,Chultan,8,2,193.3,99.0,-2,0,1,-2,3,4,-1,1,-5,6,6,-6,21.07,NON,46.8,25.583,Aucun
+CH-0017,22,Demi-elfe,Demi-elfe de la lune,6,1,188.1,90.2,2,4,2,2,0,0,1,4,-1,8,7,6,45.91,NON,19.2,16.877,Immunité sommeil + Vision nocturne
+CH-0018,131,Humain,Raumviriens,4,1,181.3,82.1,1,-2,-1,2,1,1,-1,1,-2,5,0,6,21.8,NON,49.0,26.059,Aucun
+CH-0019,9,Humain,Turami,6,3,184.5,90.2,2,2,-3,2,1,3,0,4,-4,8,-3,6,28.51,NON,37.4,23.28,Aucun
+CH-0020,129,Humain,Lapalis,2,2,173.0,74.7,-1,0,0,-1,3,-2,3,1,-2,1,1,-3,-0.16,NON,68.0,29.559,Aucun
+CH-0021,2,Humain,Chondathans,5,0,186.5,86.0,-1,0,2,0,2,2,1,1,-3,4,6,0,19.25,NON,48.8,26.025,Aucun
+CH-0022,7,Humain,Tethyrians,-7,-1,150.8,48.9,0,-1,0,-2,1,1,3,5,3,-7,-4,-6,-10.05,OUI,2.8,4.521,Aucun
+CH-0023,2,Humain,Chondathans,1,0,173.2,71.3,-1,-1,3,1,1,-2,-2,-1,0,0,6,3,16.94,NON,55.4,27.357,Aucun
+CH-0024,130,Humain,Nar,2,2,173.0,74.7,-2,3,0,-3,1,0,4,-1,-3,0,1,-9,-3.66,OUI,0.8,1.463,Aucun
+CH-0025,22,Demi-elfe,Demi-elfe de la lune,-2,-4,170.3,61.9,1,1,3,2,-4,-1,1,5,3,-1,5,6,20.8,NON,45.4,25.277,Immunité sommeil + Vision nocturne
+CH-0026,2,Humain,Chondathans,1,-2,176.6,71.3,2,0,2,-2,0,1,0,0,2,3,4,-6,8.11,NON,60.2,28.254,Aucun
+CH-0027,26,Demi-elfe,Demi-elfe de la mer,0,4,163.5,68.0,1,2,3,3,3,3,6,2,2,1,6,9,34.96,NON,24.2,19.023,Respiration aquatique + Immunité sommeil
+CH-0028,10,Humain,Ffolk,9,1,198.9,103.8,-3,-3,2,1,0,1,-1,0,-6,6,8,3,35.32,NON,38.4,23.543,Aucun
+CH-0029,31,Elfe,Elfe de la lune,-4,-3,162.6,56.3,4,2,3,-1,-1,1,0,2,7,0,4,-3,4.81,NON,58.0,27.857,Transe + Vision nocturne
+CH-0030,1,Humain,Calishites,-5,2,152.0,53.8,-2,2,-2,2,1,2,-2,2,-1,-7,-7,6,4.48,NON,63.1,28.747,Aucun
+CH-0031,131,Humain,Raumviriens,-1,4,160.5,64.9,-2,2,1,0,1,-2,-1,2,-1,-3,1,0,-1.16,OUI,0.3,0.611,Aucun
+CH-0032,5,Humain,Mulan,-3,-2,164.0,59.1,0,0,3,-1,-1,0,2,1,3,-3,4,-3,2.65,NON,64.5,28.979,Aucun
+CH-0033,31,Elfe,Elfe de la lune,-3,-5,168.9,59.1,1,3,0,1,1,1,0,4,2,-2,-2,3,1.41,NON,62.2,28.603,Transe + Vision nocturne
+CH-0034,125,Humain,Gûr,0,7,158.8,68.0,1,0,0,1,3,2,0,2,0,1,0,3,5.66,NON,60.4,28.277,Aucun
+CH-0035,1,Humain,Calishites,-4,2,154.8,56.3,-1,2,0,1,2,0,1,0,1,-5,-2,3,-0.05,NON,66.8,29.358,Aucun
+CH-0036,7,Humain,Tethyrians,0,-3,175.1,68.0,0,1,-2,-1,0,1,0,3,-2,0,-4,-3,-4.8,OUI,2.9,4.679,Aucun
+CH-0037,16,Nain,Nain d'or,5,28,141.9,86.0,2,1,1,-3,-1,6,1,4,-1,7,4,-9,17.55,NON,45.9,25.393,Vision dans le noir + robustesse naine
+CH-0038,7,Humain,Tethyrians,3,-1,181.5,78.3,2,3,-1,-2,0,2,0,2,-1,5,-1,-6,5.01,NON,61.5,28.477,Aucun
+CH-0039,8,Humain,Chultan,3,6,169.5,78.3,2,0,1,1,2,1,4,1,0,5,3,3,18.83,NON,46.6,25.533,Aucun
+CH-0040,2,Humain,Chondathans,-1,2,163.7,64.9,4,1,-2,1,1,-1,0,1,2,3,-5,3,6.23,NON,61.6,28.484,Aucun
+CH-0041,2,Humain,Chondathans,-3,-1,162.4,59.1,0,0,1,0,0,2,0,0,2,-3,0,0,-2.16,OUI,-0.1,-0.125,Aucun
+CH-0042,138,Humain,Uthgardt,9,2,196.9,103.8,1,4,3,3,3,0,-2,-1,-2,10,10,9,71.91,NON,-3.7,-11.37,Aucun
+CH-0043,3,Humain,Damarans,8,0,197.1,99.0,1,2,-3,-1,2,0,3,2,-5,9,-2,-3,17.89,NON,49.1,26.089,Aucun
+CH-0044,15,Nain,Nain d'écu,8,27,151.4,99.0,4,0,0,2,3,4,1,-3,-1,12,4,6,51.67,NON,15.5,14.996,Vision dans le noir + robustesse naine
+CH-0045,1,Humain,Calishites,0,4,163.5,68.0,2,-2,1,3,4,0,1,3,2,2,2,9,26.95,NON,38.2,23.486,Aucun
+CH-0046,31,Elfe,Elfe de la lune,-6,3,147.7,51.3,0,2,1,2,1,3,2,2,3,-6,-1,6,7.78,NON,54.9,27.258,Transe + Vision nocturne
+CH-0047,24,Demi-elfe,Demi-elfe du soleil,-2,-4,170.3,61.9,0,1,3,5,2,0,3,4,2,-2,5,15,52.21,NON,10.9,12.156,Immunité sommeil + Vision nocturne
+CH-0048,4,Humain,Illuskans,6,0,190.0,90.2,4,-1,0,3,1,2,-2,-2,0,10,3,9,51.45,NON,19.3,16.916,Aucun
+CH-0049,1,Humain,Calishites,1,-1,174.9,71.3,3,2,-3,0,-1,-1,2,1,0,4,-6,0,3.46,NON,64.8,29.03,Aucun
+CH-0050,7,Humain,Tethyrians,4,4,176.0,82.1,3,-1,0,1,2,1,-1,0,0,7,2,3,22.54,NON,46.8,25.584,Aucun
+CH-0051,7,Humain,Tethyrians,-7,-2,152.3,48.9,-4,2,-2,3,-1,1,1,1,-1,-11,-8,9,12.03,NON,56.2,27.52,Aucun
+CH-0052,7,Humain,Tethyrians,8,0,197.1,99.0,3,-1,0,-1,-2,3,0,-2,-2,11,4,-3,33.51,NON,38.1,23.454,Aucun
+CH-0053,138,Humain,Uthgardt,1,-2,176.6,71.3,0,2,0,1,5,5,0,1,-1,1,0,3,5.66,NON,56.8,27.631,Aucun
+CH-0054,2,Humain,Chondathans,1,-2,176.6,71.3,1,0,3,-2,1,2,0,2,2,2,6,-6,11.42,NON,54.7,27.228,Aucun
+CH-0055,31,Elfe,Elfe de la lune,0,-2,173.4,68.0,0,3,4,1,-2,-2,2,3,2,0,8,3,23.03,NON,43.1,24.739,Transe + Vision nocturne
+CH-0056,2,Humain,Chondathans,-1,4,160.5,64.9,1,-1,2,1,-1,-3,3,0,2,0,3,3,9.31,NON,60.2,28.24,Aucun
+CH-0057,10,Humain,Ffolk,-1,-1,168.5,64.9,-1,0,-2,2,-1,1,0,1,-2,-2,-5,6,7.58,NON,62.8,28.696,Aucun
+CH-0058,7,Humain,Tethyrians,-2,-3,168.7,61.9,-2,-1,3,-2,1,1,1,2,1,-4,5,-6,3.37,NON,63.9,28.882,Aucun
+CH-0059,15,Nain,Nain d'écu,7,25,151.6,94.5,5,-3,1,1,2,6,1,-1,1,12,5,3,46.6,NON,19.1,16.823,Vision dans le noir + robustesse naine
+CH-0060,15,Nain,Nain d'écu,3,25,140.8,78.3,0,-1,3,4,5,2,-2,-4,0,3,7,12,52.32,NON,16.5,15.575,Vision dans le noir + robustesse naine
+CH-0061,4,Humain,Illuskans,8,2,193.3,99.0,2,3,4,4,1,1,0,-2,0,10,12,12,89.96,NON,-21.8,0.0,Aucun
+CH-0062,138,Humain,Uthgardt,0,4,163.5,68.0,2,1,2,-1,3,4,-1,-1,2,2,4,-3,7.45,NON,57.7,27.795,Aucun
+CH-0063,3,Humain,Damarans,-3,0,160.8,59.1,0,1,0,0,1,0,1,-1,1,-3,-2,0,-3.78,OUI,2.1,3.588,Aucun
+CH-0064,82,Autre,Ixzan,-9,2,141.1,44.5,0,0,2,4,3,1,-1,-3,5,-9,-1,12,26.77,NON,39.6,23.865,Aucun
+CH-0065,3,Humain,Damarans,2,1,174.7,74.7,1,3,0,-2,1,1,0,0,-1,3,1,-6,2.15,NON,65.5,29.157,Aucun
+CH-0066,33,Elfe,Elfe du soleil,4,-3,188.5,82.1,0,2,-3,2,-1,-2,4,3,-4,4,-4,6,16.61,NON,51.3,26.54,Transe + Vision nocturne
+CH-0067,7,Humain,Tethyrians,4,2,179.5,82.1,2,1,3,-1,0,3,2,2,1,6,8,-3,28.51,NON,36.5,23.021,Aucun
+CH-0068,10,Humain,Ffolk,2,0,176.4,74.7,0,-1,1,-1,2,-2,1,4,-1,2,3,-3,5.14,NON,62.7,28.683,Aucun
+CH-0069,125,Humain,Gûr,4,-2,186.7,82.1,2,1,1,-1,3,3,1,2,0,6,4,-3,17.09,NON,47.2,25.685,Aucun
+CH-0070,2,Humain,Chondathans,2,-1,178.1,74.7,-2,0,2,-1,0,1,3,2,-2,0,5,-3,7.36,NON,60.2,28.245,Aucun
+CH-0071,125,Humain,Gûr,5,-1,188.3,86.0,0,2,1,1,2,1,0,2,-2,5,4,3,21.14,NON,45.9,25.39,Aucun
+CH-0072,2,Humain,Chondathans,6,1,188.1,90.2,-1,1,-2,-1,-3,2,-2,1,-5,5,-1,-3,6.36,NON,65.8,29.206,Aucun
+CH-0073,100,Demi-orc,Orc,8,4,189.6,99.0,-2,3,0,-3,3,3,2,-6,-6,6,4,-9,14.59,NON,53.9,27.063,Furie orque
+CH-0074,138,Humain,Uthgardt,4,1,181.3,82.1,2,3,1,4,5,2,2,-1,0,6,4,12,51.67,NON,11.7,12.71,Aucun
+CH-0075,2,Humain,Chondathans,-4,-1,159.4,56.3,1,1,0,0,-3,-3,0,0,2,-3,-2,0,-3.78,OUI,4.8,6.955,Aucun
+CH-0076,30,Elfe,Elfe des bois,-2,-1,165.4,61.9,-1,1,1,4,2,3,4,6,0,-3,1,12,31.27,NON,28.9,20.722,Transe + Vision nocturne
+CH-0077,1,Humain,Calishites,-1,0,166.9,64.9,1,-3,0,-2,1,0,1,1,1,0,-1,-6,-4.51,OUI,3.7,5.689,Aucun
+CH-0078,128,Humain,Lantannas,2,1,174.7,74.7,1,3,3,-1,-1,-1,-1,1,1,3,7,-3,17.74,NON,50.9,26.469,Aucun
+CH-0079,2,Humain,Chondathans,2,1,174.7,74.7,0,0,1,-3,-4,-3,0,-3,-1,2,3,-9,2.64,NON,72.3,30.218,Aucun
+CH-0080,15,Nain,Nain d'écu,2,33,127.8,74.7,1,1,1,4,6,7,2,-3,0,3,3,12,41.73,NON,19.1,16.84,Vision dans le noir + robustesse naine
+CH-0081,15,Nain,Nain d'écu,8,28,150.0,99.0,6,1,1,2,5,5,-2,-4,1,14,6,6,64.8,NON,0.4,0.847,Vision dans le noir + robustesse naine
+CH-0082,31,Elfe,Elfe de la lune,2,-1,178.1,74.7,-1,2,1,0,-2,2,0,3,-2,1,3,0,5.66,NON,62.2,28.605,Transe + Vision nocturne
+CH-0083,2,Humain,Chondathans,3,-2,183.2,78.3,2,2,-2,-1,0,-2,-2,1,-2,5,-3,-3,5.2,NON,66.0,29.229,Aucun
+CH-0084,16,Nain,Nain d'or,7,32,141.6,94.5,2,-4,-1,0,6,1,2,1,-3,9,1,0,22.67,NON,44.2,25.001,Vision dans le noir + robustesse naine
+CH-0085,15,Nain,Nain d'écu,6,32,139.0,90.2,2,-2,1,2,6,6,4,-4,-1,8,5,6,40.18,NON,22.6,18.357,Vision dans le noir + robustesse naine
+CH-0086,23,Demi-elfe,Demi-elfe noir,1,-2,176.6,71.3,1,2,2,1,1,0,1,-1,1,2,4,3,14.26,NON,53.5,26.995,Immunité sommeil + Vision nocturne
+CH-0087,5,Humain,Mulan,-5,-3,159.6,53.8,0,-2,0,3,0,-3,0,1,2,-5,-3,9,16.43,NON,54.2,27.131,Aucun
+CH-0088,2,Humain,Chondathans,3,-4,186.9,78.3,1,-1,-1,0,3,2,0,1,-2,4,-1,0,5.96,NON,62.1,28.576,Aucun
+CH-0089,3,Humain,Damarans,3,2,176.2,78.3,-3,-2,0,0,2,0,0,1,-4,0,1,0,1.0,NON,70.0,29.874,Aucun
+CH-0090,124,Humain,Durpari,1,-1,174.9,71.3,1,-1,0,0,3,0,-3,3,0,2,0,0,2.64,NON,65.7,29.187,Aucun
+CH-0091,123,Humain,Arkaiuns,0,-1,171.7,68.0,1,1,1,-1,0,1,-1,2,1,1,2,-3,1.48,NON,66.3,29.283,Aucun
+CH-0092,15,Nain,Nain d'écu,7,27,148.7,94.5,0,0,0,3,3,4,-1,0,-4,7,3,9,41.57,NON,26.5,19.867,Vision dans le noir + robustesse naine
+CH-0093,8,Humain,Chultan,7,4,186.1,94.5,-1,-2,2,1,2,3,-2,2,-4,6,7,3,32.19,NON,37.4,23.292,Aucun
+CH-0094,5,Humain,Mulan,-4,0,157.9,56.3,-5,-1,3,-1,2,-1,-1,-1,-1,-9,4,-3,0.15,NON,71.2,30.052,Aucun
+CH-0095,2,Humain,Chondathans,2,3,171.3,74.7,-1,-2,2,2,-1,2,0,0,-1,1,5,6,22.8,NON,48.0,25.851,Aucun
+CH-0096,34,Elfe,Elfe sauvage,1,5,164.9,71.3,1,2,2,1,4,2,-2,1,1,2,4,3,14.26,NON,51.0,26.478,Transe + Vision nocturne
+CH-0097,2,Humain,Chondathans,-4,-1,159.4,56.3,0,2,4,0,1,3,0,-2,4,-4,6,0,9.65,NON,55.5,27.374,Aucun
+CH-0098,99,Humain,Nubari,1,4,166.5,71.3,3,1,0,0,-2,3,3,2,1,4,0,0,6.96,NON,58.3,27.906,Aucun
+CH-0099,2,Humain,Chondathans,-1,1,165.3,64.9,1,1,1,2,0,-2,1,-1,1,0,1,6,13.29,NON,56.5,27.577,Aucun
+CH-0100,15,Nain,Nain d'écu,4,29,137.9,82.1,-1,1,0,3,6,3,2,-2,-3,3,2,9,28.97,NON,35.9,22.876,Vision dans le noir + robustesse naine

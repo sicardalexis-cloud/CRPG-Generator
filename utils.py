@@ -8,12 +8,14 @@ from ethnicity_weights import category_weights, ethnicity_weights
 from rules import (
     calculate_weight,
     calculate_height,
-    calculate_combat_points,
-    determine_magic_type,
+    calculate_size_score,
     calculate_grappling,
     calculate_melee,
     calculate_fencing,
     calculate_projectiles,
+    calculate_combat_points,
+    sec_func,
+    determine_magic_type
 )
 
 
@@ -24,6 +26,10 @@ def roll_4d6() -> int:
 
 def roll_6d6() -> int:
     return sum(random.randint(1, 6) for _ in range(6))
+
+
+def roll_12d6() -> int:
+    return sum(random.randint(1, 6) for _ in range(12))
 
 
 # ====================== RACE & ETHNICITY ======================
@@ -53,42 +59,50 @@ def generate_character(char_id: str):
     data = ethnicity_data[ethnicity]
 
     # ====================== ATTRIBUTES ======================
-    weight_score = roll_6d6() - 21 + data.get("w", 0)
+    weight_score = math.floor(roll_12d6() / 2) - 21 + data.get("w", 0)
     build_score  = roll_6d6() - 21 + data.get("b", 0)
 
-    height = calculate_height(weight_score, build_score)
-    weight = calculate_weight(weight_score)
-    size_score = math.floor((height - 170) / 8)
+    # Calcul du poids puis de la taille (ordre important !)
+    weight_kg = calculate_weight(weight_score)
+    height    = calculate_height(weight_kg, build_score)
+    size_score = calculate_size_score(height)
 
-    balance      = roll_4d6() - 14 + data.get("bal", 0)
-    speed        = roll_6d6() - 21 + data.get("spd", 0)
-    coordination = roll_4d6() - 14 + data.get("coo", 0)
+    # Autres attributs
+    balance      = roll_6d6() - 21 + data.get("bal", 0)
+    quickness    = roll_6d6() - 21 + data.get("qui", 0)
+    coordination = roll_6d6() - 21 + data.get("coo", 0)
     precision    = roll_6d6() - 21 + data.get("pre", 0)
     endurance    = roll_6d6() - 21 + data.get("end", 0)
-
     regeneration = roll_6d6() - 21 + data.get("reg", 0)
     vigilance    = roll_6d6() - 21 + data.get("vig", 0)
     beauty       = roll_6d6() - 21 + data.get("bea", 0)
 
+    # Stealth (exemple)
     stealth = math.floor(- (weight_score / 2) + (balance * 0.8) + (coordination * 0.6))
 
     # ====================== COMBAT CAPACITIES ======================
-    grappling   = calculate_grappling(weight_score, balance)
-    melee       = calculate_melee(weight_score, size_score, coordination, balance)
+    grappling   = calculate_grappling(weight_score, balance, quickness)
+    melee       = calculate_melee(weight_score, size_score, quickness, coordination, balance)
     projectiles = calculate_projectiles(precision)
-    fencing     = calculate_fencing(size_score, weight_score, coordination)
+    fencing     = calculate_fencing(size_score, weight_score, quickness, coordination, balance)
 
-    # ====================== TOTAL COMBAT POINTS (TCB) ======================
-    combat_points = calculate_combat_points(grappling, melee, projectiles, fencing)
+    # ====================== TOTAL COMBAT POINTS ======================
+    base_tcb = calculate_combat_points(grappling, melee, projectiles, fencing)
+    racial_bonus = data.get("cp", 0.0)
+    combat_points = round(base_tcb + racial_bonus, 2)
 
-    # ====================== MAGIC SYSTEM ======================
-    magic_info: Dict = determine_magic_type(combat_points)
+    # ====================== MAGIC ======================
+    magic_info = determine_magic_type(combat_points)
 
     # ====================== SECONDARY CAPACITIES ======================
     sec_total = (
-        sec_func := lambda x: 6 * (math.exp(0.085 * x) - 1)   # inline pour simplicité
-    )(stealth) + sec_func(speed) + sec_func(endurance) + \
-      sec_func(regeneration) + sec_func(vigilance) + sec_func(beauty)
+        sec_func(stealth) +
+        sec_func(quickness) +      # Remplacé "speed" par "quickness"
+        sec_func(endurance) +
+        sec_func(regeneration) +
+        sec_func(vigilance) +
+        sec_func(beauty)
+    )
 
     # ====================== SKILLS ======================
     base = 0 if magic_info["magic"] else 70
@@ -105,11 +119,11 @@ def generate_character(char_id: str):
         "Weight_Score": round(weight_score, 1),
         "Build_Score": round(build_score, 1),
         "Height_cm": height,
-        "Weight_kg": weight,
+        "Weight_kg": weight_kg,
         "Size_Score": size_score,
 
         "Balance": round(balance, 1),
-        "Speed": round(speed, 1),
+        "Quickness": round(quickness, 1),      # Renommé
         "Coordination": round(coordination, 1),
         "Precision": round(precision, 1),
         "Endurance": round(endurance, 1),

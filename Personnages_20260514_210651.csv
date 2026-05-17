@@ -1,0 +1,101 @@
+ID,Indice,Race,Ethnicity,Weight_Score,Build_Score,Height_cm,Weight_kg,Size_Score,Balance,Speed,Coordination,Precision,Endurance,Regeneration,Vigilance,Beauty,Stealth,Grappling,Melee,Projectiles,Fencing,Combat_Points,Magic,Magic_Type,Magic_Subtype,Magic_Description,Skill_Points,Skill_Bonus,Special
+CH-00001,1,Humain,Calishites,-2,-7,167.6,61.9,-1,-1,8,-1,-1,-8,0,-1,4,-1,-2,-2,-1,-3,-6.4,YES,Théurgiste,Théurgie,Théurgiste (magie divine / invocation),2.1,3.48,Aucun
+CH-00002,1,Humain,Calishites,-6,7,148.7,51.3,-3,4,0,5,-2,-6,5,0,7,9,-5,-3,-2,-4,-9.51,YES,Magicien,Magie savante,Magicien classique (étude et formules),-3.0,0.0,Aucun
+CH-00003,133,Humain,Tashaliens,-5,4,153.0,53.8,-3,3,4,4,-5,7,5,-1,-5,7,-4,-3,-5,-4,-10.53,YES,Magicien,Magie savante,Magicien classique (étude et formules),-2.3,0.0,Aucun
+CH-00004,35,Elfe,Elfe de la mer,-7,1,148.9,48.9,-3,4,9,7,-1,-2,2,-10,3,10,-6,-4,-1,-3,-5.81,YES,Théurgiste,Théurgie,Théurgiste (magie divine / invocation),-7.6,0.0,Respiration aquatique + Transe + Méditation + Immunité au sommeil + Vision nocturne (N2)
+CH-00005,7,Humain,Tethyrians,-1,5,164.2,64.9,-1,0,-3,-1,-5,1,-7,-4,-1,-1,-1,-2,-5,-3,-7.87,YES,Magicien,Magie savante,Magicien classique (étude et formules),14.1,14.215,Aucun
+CH-00006,8,Humain,Chultan,4,-3,184.9,82.1,1,2,-6,-1,-2,7,6,-1,-3,-1,5,2,-2,1,11.54,NO,Non-magique,,Aucun talent magique détecté,54.3,27.151,Aucun
+CH-00007,116,Humain,Talfir,-6,5,149.7,51.3,-3,4,-1,0,1,5,-2,-5,6,6,-5,-4,1,-5,-7.82,YES,Magicien,Magie savante,Magicien classique (étude et formules),0.2,0.316,Aucun
+CH-00008,1,Humain,Calishites,-5,-1,155.5,53.8,-2,-2,3,-5,6,-2,-5,-5,-3,-3,-6,-5,6,-6,2.18,NO,Non-magique,,Aucun talent magique détecté,73.9,30.455,Aucun
+CH-00009,4,Humain,Illuskans,-2,6,160.7,61.9,-2,-2,-1,9,1,4,7,3,7,4,-3,-1,1,0,-2.16,YES,Théurgiste,Théurgie,Théurgiste (magie divine / invocation),-13.7,0.0,Aucun
+CH-00010,32,Elfe,Elfe noir,-4,4,155.8,56.3,-2,6,7,0,-8,0,9,5,-4,6,-2,-2,-8,-3,-4.69,YES,Théurgiste,Théurgie,Théurgiste (magie divine / invocation),-12.5,0.0,Sorts innés (N2) + Méditation + Immunité au sommeil + Darkvision (N2)
+CH-00011,1,Humain,Calishites,0,7,166.2,68.0,-1,3,5,-4,-1,-4,0,0,2,0,1,-1,-1,-3,-3.16,YES,Théurgiste,Théurgie,Théurgiste (magie divine / invocation),0.6,1.121,Aucun
+CH-00012,24,Demi-elfe,Demi-elfe du soleil,1,-1,173.7,71.3,0,1,4,2,4,-5,-1,0,0,1,1,0,4,0,9.96,NO,Non-magique,,Aucun talent magique détecté,59.6,28.147,Méditation + Immunité au sommeil + Vision nocturne (N1)
+CH-00013,10,Humain,Ffolk,-3,1,160.3,59.1,-2,1,-2,0,2,6,0,1,3,2,-3,-3,2,-3,-3.84,YES,Théurgiste,Théurgie,Théurgiste (magie divine / invocation),-2.6,0.0,Aucun
+CH-00014,138,Humain,Uthgardt,9,7,196.3,103.8,3,-5,6,-2,-4,7,-1,4,0,-10,7,4,-4,4,27.13,NO,Non-magique,,Aucun talent magique détecté,35.5,22.751,Aucun
+CH-00015,4,Humain,Illuskans,6,2,188.7,90.2,2,-2,2,-2,7,-6,-1,-1,-2,-6,5,3,7,2,32.07,NO,Non-magique,,Aucun talent magique détecté,43.5,24.833,Aucun
+CH-00016,4,Humain,Illuskans,-2,-1,164.4,61.9,-1,-5,5,1,2,2,-4,-3,0,-3,-4,-3,2,-2,-3.78,YES,Théurgiste,Théurgie,Théurgiste (magie divine / invocation),3.9,5.916,Aucun
+CH-00017,2,Humain,Chondathans,1,-5,176.0,71.3,0,-3,2,5,1,3,-3,0,3,0,0,0,1,1,2.0,NO,Non-magique,,Aucun talent magique détecté,64.8,29.029,Aucun
+CH-00018,6,Humain,Rashemi,0,7,166.2,68.0,-1,-3,-2,2,-1,0,4,0,-1,-2,-1,-1,-1,-1,-4.0,YES,Théurgiste,Théurgie,Théurgiste (magie divine / invocation),3.9,5.933,Aucun
+CH-00019,116,Humain,Talfir,1,1,172.6,71.3,0,2,-2,-1,9,1,2,2,4,0,2,0,9,-1,23.31,NO,Non-magique,,Aucun talent magique détecté,42.4,24.572,Aucun
+CH-00020,7,Humain,Tethyrians,-2,3,162.2,61.9,-1,-4,4,4,4,2,-1,1,-8,0,-3,-2,4,-1,2.18,NO,Non-magique,,Aucun talent magique détecté,67.2,29.428,Aucun
+CH-00021,2,Humain,Chondathans,2,-2,177.6,74.7,0,2,4,-4,6,-3,1,2,3,-2,3,0,6,-2,15.33,NO,Non-magique,,Aucun talent magique détecté,51.1,26.515,Aucun
+CH-00022,125,Humain,Gûr,4,8,178.4,82.1,1,-5,0,1,1,2,-7,9,-6,-6,2,1,1,2,7.28,NO,Non-magique,,Aucun talent magique détecté,62.2,28.596,Aucun
+CH-00023,7,Humain,Tethyrians,2,2,175.3,74.7,0,5,-6,-5,-1,11,4,2,-2,0,4,1,-1,-2,5.34,NO,Non-magique,,Aucun talent magique détecté,55.2,27.316,Aucun
+CH-00024,7,Humain,Tethyrians,-2,2,162.8,61.9,-1,-3,-4,-3,-4,-7,-5,-2,3,-4,-3,-3,-4,-3,-9.12,YES,Magicien,Magie savante,Magicien classique (étude et formules),16.5,15.572,Aucun
+CH-00025,4,Humain,Illuskans,3,5,176.8,78.3,0,-5,-3,8,3,2,9,1,0,-1,1,1,3,2,9.3,NO,Non-magique,,Aucun talent magique détecté,54.0,27.089,Aucun
+CH-00026,3,Humain,Damarans,-2,3,162.2,61.9,-1,0,2,-2,3,-5,4,7,0,-1,-2,-2,3,-3,-0.74,YES,Théurgiste,Théurgie,Théurgiste (magie divine / invocation),-5.1,0.0,Aucun
+CH-00027,2,Humain,Chondathans,-1,-2,168.0,64.9,-1,-1,4,-8,-1,6,-3,4,0,-6,-1,-3,-1,-5,-7.25,YES,Magicien,Magie savante,Magicien classique (étude et formules),2.1,3.598,Aucun
+CH-00028,76,Autre,Gray Orc,-1,2,165.8,64.9,-1,5,-3,-2,7,-5,4,0,-4,3,1,-1,7,-3,13.09,NO,Non-magique,,Aucun talent magique détecté,57.9,27.829,Aucun
+CH-00029,2,Humain,Chondathans,2,-6,179.9,74.7,1,-3,7,9,2,0,-3,-5,2,1,1,2,2,4,13.24,NO,Non-magique,,Aucun talent magique détecté,53.7,27.023,Aucun
+CH-00030,6,Humain,Rashemi,2,0,176.4,74.7,0,-3,8,-3,2,0,7,1,5,-6,1,0,2,-1,2.64,NO,Non-magique,,Aucun talent magique détecté,55.3,27.346,Aucun
+CH-00031,2,Humain,Chondathans,6,6,186.3,90.2,2,-4,-6,-6,2,4,-2,3,5,-10,5,2,2,1,15.8,NO,Non-magique,,Aucun talent magique détecté,53.6,27.015,Aucun
+CH-00032,15,Nain,Nain d'écu,4,18,172.6,82.1,0,-2,-1,-5,-3,-1,1,-1,-8,-7,3,0,-3,-1,3.5,NO,Non-magique,,Aucun talent magique détecté,73.1,30.338,Vision dans le noir (Darkvision N1) + robustesse naine
+CH-00033,2,Humain,Chondathans,-1,-1,167.4,64.9,-1,-7,0,1,5,-3,3,3,-1,-5,-3,-2,5,-2,4.12,NO,Non-magique,,Aucun talent magique détecté,66.3,29.285,Aucun
+CH-00034,138,Humain,Uthgardt,3,1,179.1,78.3,1,3,4,-2,-9,6,-2,-1,1,-1,4,2,-9,0,5.54,NO,Non-magique,,Aucun talent magique détecté,59.4,28.107,Aucun
+CH-00035,5,Humain,Mulan,-1,-3,168.5,64.9,-1,5,-1,4,2,5,-2,-3,3,6,1,0,2,-1,2.64,NO,Non-magique,,Aucun talent magique détecté,61.2,28.427,Aucun
+CH-00036,3,Humain,Damarans,-1,2,165.8,64.9,-1,-2,5,-5,-3,5,4,7,-8,-5,-2,-3,-3,-4,-8.58,YES,Magicien,Magie savante,Magicien classique (étude et formules),-0.0,0.0,Aucun
+CH-00037,6,Humain,Rashemi,2,1,175.8,74.7,0,0,4,1,-3,-2,-3,4,3,-1,2,1,-3,0,1.48,NO,Non-magique,,Aucun talent magique détecté,64.7,29.019,Aucun
+CH-00038,6,Humain,Rashemi,1,5,170.4,71.3,0,2,6,1,-3,2,3,-1,-4,1,2,1,-3,0,1.48,NO,Non-magique,,Aucun talent magique détecté,63.4,28.795,Aucun
+CH-00039,1,Humain,Calishites,-3,5,158.2,59.1,-2,-3,-4,-1,4,-1,-3,-2,6,-2,-4,-4,4,-4,-0.96,YES,Théurgiste,Théurgie,Théurgiste (magie divine / invocation),2.4,3.977,Aucun
+CH-00040,1,Humain,Calishites,-2,-5,166.5,61.9,-1,1,2,3,5,3,1,6,5,3,-2,-1,5,-1,5.9,NO,Non-magique,,Aucun talent magique détecté,51.8,26.65,Aucun
+CH-00041,6,Humain,Rashemi,5,-5,189.5,86.0,2,0,9,0,4,1,12,1,-2,-3,5,3,4,3,25.8,NO,Non-magique,,Aucun talent magique détecté,27.9,20.369,Aucun
+CH-00042,7,Humain,Tethyrians,3,-3,181.5,78.3,1,-1,4,1,2,0,-5,1,2,-2,3,1,2,1,9.3,NO,Non-magique,,Aucun talent magique détecté,59.6,28.146,Aucun
+CH-00043,2,Humain,Chondathans,2,-7,180.5,74.7,1,1,-5,2,4,-4,1,4,5,1,2,2,4,1,13.24,NO,Non-magique,,Aucun talent magique détecté,53.9,27.069,Aucun
+CH-00044,4,Humain,Illuskans,-4,3,156.3,56.3,-2,4,-4,3,4,-2,4,8,2,7,-3,-2,4,-2,1.56,NO,Non-magique,,Aucun talent magique détecté,56.8,27.634,Aucun
+CH-00045,3,Humain,Damarans,0,4,167.8,68.0,-1,0,-1,1,2,-4,0,-6,6,0,0,-1,2,-1,0.64,NO,Non-magique,,Aucun talent magique détecté,70.0,29.868,Aucun
+CH-00046,67,Autre,Chitine,-5,1,154.5,53.8,-2,2,7,-1,0,-5,2,1,-7,3,-4,-4,0,-5,-7.17,YES,Magicien,Magie savante,Magicien classique (étude et formules),3.7,5.618,Toile + griffes
+CH-00047,2,Humain,Chondathans,4,-3,184.9,82.1,1,5,2,7,1,-2,0,3,-4,6,6,4,1,4,27.21,NO,Non-magique,,Aucun talent magique détecté,38.6,23.603,Aucun
+CH-00048,34,Elfe,Elfe sauvage,-4,5,155.3,56.3,-2,0,-1,5,3,5,3,-1,1,5,-4,-3,3,-2,1.24,NO,Non-magique,,Aucun talent magique détecté,61.1,28.406,Transe + Méditation + Immunité au sommeil + Vision nocturne (N2)
+CH-00049,2,Humain,Chondathans,0,6,166.7,68.0,-1,8,0,3,-1,-6,-3,-1,10,8,3,1,-1,0,4.66,NO,Non-magique,,Aucun talent magique détecté,55.7,27.417,Aucun
+CH-00050,5,Humain,Mulan,1,-5,176.0,71.3,0,0,-4,1,3,-1,2,0,-4,0,1,0,3,0,5.66,NO,Non-magique,,Aucun talent magique détecté,67.2,29.425,Aucun
+CH-00051,33,Elfe,Elfe du soleil,-2,-2,164.9,61.9,-1,-2,8,3,8,-9,3,3,8,1,-3,-2,8,-1,16.6,NO,Non-magique,,Aucun talent magique détecté,40.9,24.192,Transe + Méditation + Immunité au sommeil + Vision nocturne (N2)
+CH-00052,1,Humain,Calishites,-3,-1,161.3,59.1,-2,-3,-8,5,-6,-1,2,3,-3,2,-4,-3,-6,-2,-9.93,YES,Magicien,Magie savante,Magicien classique (étude et formules),10.8,12.087,Aucun
+CH-00053,2,Humain,Chondathans,1,-4,175.4,71.3,0,-1,3,-1,1,7,0,-1,4,-2,1,0,1,-1,1.0,NO,Non-magique,,Aucun talent magique détecté,61.4,28.453,Aucun
+CH-00054,7,Humain,Tethyrians,1,3,171.5,71.3,0,4,8,1,0,2,9,-9,12,3,2,1,0,0,3.64,NO,Non-magique,,Aucun talent magique détecté,43.3,24.787,Aucun
+CH-00055,4,Humain,Illuskans,3,-3,181.5,78.3,1,-2,0,5,-8,4,-1,5,3,-1,2,2,-8,2,3.63,NO,Non-magique,,Aucun talent magique détecté,60.0,28.21,Aucun
+CH-00056,7,Humain,Tethyrians,-1,-1,167.4,64.9,-1,-4,8,4,-3,5,-4,-2,4,-1,-2,-1,-3,-1,-5.78,YES,Théurgiste,Théurgie,Théurgiste (magie divine / invocation),-2.5,0.0,Aucun
+CH-00057,4,Humain,Illuskans,3,-4,182.1,78.3,1,2,7,2,-8,-1,6,2,1,1,4,2,-8,1,6.31,NO,Non-magique,,Aucun talent magique détecté,53.1,26.918,Aucun
+CH-00058,125,Humain,Gûr,-4,12,151.8,56.3,-3,-1,-2,1,2,0,1,2,5,1,-4,-4,2,-4,-5.28,YES,Théurgiste,Théurgie,Théurgiste (magie divine / invocation),0.9,1.583,Aucun
+CH-00059,4,Humain,Illuskans,6,4,187.5,90.2,2,2,0,-2,3,-1,-7,3,-3,-3,7,4,3,2,29.51,NO,Non-magique,,Aucun talent magique détecté,44.6,25.091,Aucun
+CH-00060,7,Humain,Tethyrians,2,-5,179.3,74.7,1,0,0,-1,-3,-8,0,3,7,-2,2,1,-3,0,1.48,NO,Non-magique,,Aucun talent magique détecté,65.8,29.201,Aucun
+CH-00061,4,Humain,Illuskans,0,-3,171.7,68.0,0,3,6,1,5,-6,2,1,0,3,1,0,5,0,10.52,NO,Non-magique,,Aucun talent magique détecté,54.5,27.187,Aucun
+CH-00062,1,Humain,Calishites,-1,8,162.6,64.9,-1,-3,-3,4,7,-4,-1,8,-3,0,-2,-1,7,-1,11.63,NO,Non-magique,,Aucun talent magique détecté,57.4,27.746,Aucun
+CH-00063,138,Humain,Uthgardt,3,0,179.7,78.3,1,4,1,-2,1,-2,-2,5,-1,0,4,2,1,0,11.2,NO,Non-magique,,Aucun talent magique détecté,57.5,27.748,Aucun
+CH-00064,124,Humain,Durpari,-3,-1,161.3,59.1,-2,-4,3,2,-3,1,1,2,-1,-1,-4,-3,-3,-3,-9.12,YES,Magicien,Magie savante,Magicien classique (étude et formules),6.2,8.329,Aucun
+CH-00065,1,Humain,Calishites,-1,3,165.3,64.9,-1,0,4,-1,-8,-4,-2,-7,7,-1,-1,-2,-8,-3,-9.07,YES,Magicien,Magie savante,Magicien classique (étude et formules),7.6,9.635,Aucun
+CH-00066,128,Humain,Lantannas,-2,4,161.7,61.9,-2,-6,-12,2,6,-6,-9,2,1,-3,-4,-3,6,-3,5.33,NO,Non-magique,,Aucun talent magique détecté,73.8,30.447,Aucun
+CH-00067,138,Humain,Uthgardt,3,-1,180.3,78.3,1,-2,5,3,4,0,-2,-6,1,-2,2,2,4,2,15.48,NO,Non-magique,,Aucun talent magique détecté,55.1,27.3,Aucun
+CH-00068,18,Nain,Nain arctique,5,23,173.0,86.0,0,-3,-7,-4,-2,0,1,-1,-1,-8,4,1,-2,-1,7.34,NO,Non-magique,,Aucun talent magique détecté,68.8,29.676,Vision dans le noir (Darkvision N1) + robustesse naine
+CH-00069,138,Humain,Uthgardt,10,3,202.6,108.8,4,3,4,-1,1,0,3,5,-5,-4,11,7,1,5,55.07,NO,Non-magique,,Aucun talent magique détecté,11.4,12.517,Aucun
+CH-00070,1,Humain,Calishites,-2,7,160.1,61.9,-2,-5,-9,-4,-3,5,-1,-3,11,-6,-4,-4,-3,-5,-10.53,YES,Magicien,Magie savante,Magicien classique (étude et formules),5.5,7.668,Aucun
+CH-00071,2,Humain,Chondathans,-4,3,156.3,56.3,-2,-3,-5,3,0,-4,0,-4,4,1,-5,-3,0,-2,-6.87,YES,Théurgiste,Théurgie,Théurgiste (magie divine / invocation),9.4,11.123,Aucun
+CH-00072,126,Humain,Halruéens,2,6,173.0,74.7,0,-1,-10,2,2,0,0,6,3,-1,2,1,2,0,6.28,NO,Non-magique,,Aucun talent magique détecté,61.9,28.546,Aucun
+CH-00073,138,Humain,Uthgardt,4,0,183.1,82.1,1,4,4,-1,-5,4,3,3,3,0,5,3,-5,1,12.69,NO,Non-magique,,Aucun talent magique détecté,47.2,25.679,Aucun
+CH-00074,25,Demi-elfe,Demi-elfe sauvage,-4,-8,162.0,56.3,-1,-1,5,-3,2,1,2,-2,3,-1,-4,-4,2,-3,-2.8,YES,Théurgiste,Théurgie,Théurgiste (magie divine / invocation),-2.3,0.0,Méditation + Immunité au sommeil + Vision nocturne (N1)
+CH-00075,129,Humain,Lapalis,0,9,165.1,68.0,-1,-2,6,-2,9,-2,0,4,2,-3,-1,-2,9,-2,17.43,NO,Non-magique,,Aucun talent magique détecté,47.3,25.702,Aucun
+CH-00076,2,Humain,Chondathans,2,3,174.7,74.7,0,7,4,-3,5,-1,0,-2,5,2,4,1,5,-1,16.48,NO,Non-magique,,Aucun talent magique détecté,48.2,25.899,Aucun
+CH-00077,132,Humain,Shaaryens,0,5,167.3,68.0,-1,-4,-1,-3,-2,7,-1,-6,2,-5,-1,-2,-2,-2,-5.86,YES,Théurgiste,Théurgie,Théurgiste (magie divine / invocation),5.3,7.471,Aucun
+CH-00078,3,Humain,Damarans,-3,8,156.7,59.1,-2,1,-7,-2,-1,6,0,0,-2,1,-3,-3,-1,-4,-7.96,YES,Magicien,Magie savante,Magicien classique (étude et formules),7.1,9.155,Aucun
+CH-00079,7,Humain,Tethyrians,3,3,178.0,78.3,1,3,-5,-2,-2,3,-9,2,3,-1,4,2,-2,0,7.98,NO,Non-magique,,Aucun talent magique détecté,63.2,28.767,Aucun
+CH-00080,99,Humain,Nubari,-3,-7,164.5,59.1,-1,3,2,-5,4,0,1,6,3,0,-2,-3,4,-4,0.54,NO,Non-magique,,Aucun talent magique détecté,62.1,28.576,Aucun
+CH-00081,24,Demi-elfe,Demi-elfe du soleil,-7,14,142.7,48.9,-4,3,8,5,9,-1,-2,-3,8,8,-6,-5,9,-5,13.98,NO,Non-magique,,Aucun talent magique détecté,41.3,24.283,Méditation + Immunité au sommeil + Vision nocturne (N1)
+CH-00082,15,Nain,Nain d'écu,3,18,169.5,78.3,-1,-4,5,2,-1,12,-2,5,-6,-4,2,0,-1,-1,2.64,NO,Non-magique,,Aucun talent magique détecté,55.4,27.366,Vision dans le noir (Darkvision N1) + robustesse naine
+CH-00083,7,Humain,Tethyrians,-3,1,160.3,59.1,-2,2,5,-1,4,1,7,3,-2,2,-2,-3,4,-4,0.54,NO,Non-magique,,Aucun talent magique détecté,59.0,28.023,Aucun
+CH-00084,7,Humain,Tethyrians,6,5,186.9,90.2,2,6,6,1,9,4,-7,-4,1,2,8,5,9,3,54.23,NO,Non-magique,,Aucun talent magique détecté,12.1,13.006,Aucun
+CH-00085,5,Humain,Mulan,4,8,178.4,82.1,1,-1,1,0,8,8,-3,0,-2,-3,4,2,8,2,30.62,NO,Non-magique,,Aucun talent magique détecté,36.6,23.072,Aucun
+CH-00086,127,Humain,Imaskari,-2,6,160.7,61.9,-2,1,-4,5,-3,1,3,5,-4,4,-2,-1,-3,-2,-6.4,YES,Théurgiste,Théurgie,Théurgiste (magie divine / invocation),2.0,3.35,Aucun
+CH-00087,5,Humain,Mulan,-1,-3,168.5,64.9,-1,-1,5,0,8,-4,-8,-1,2,-1,-1,-2,8,-2,14.14,NO,Non-magique,,Aucun talent magique détecté,57.2,27.708,Aucun
+CH-00088,1,Humain,Calishites,0,0,170.0,68.0,0,1,-1,3,5,2,-4,1,7,2,0,0,5,1,10.52,NO,Non-magique,,Aucun talent magique détecté,54.1,27.102,Aucun
+CH-00089,21,Demi-elfe,Demi-elfe des bois,-5,2,154.0,53.8,-2,-1,3,-1,-1,8,2,-3,5,1,-5,-4,-1,-5,-7.82,YES,Magicien,Magie savante,Magicien classique (étude et formules),-3.2,0.0,Méditation + Immunité au sommeil + Vision nocturne (N1)
+CH-00090,3,Humain,Damarans,1,1,172.6,71.3,0,0,2,-2,7,2,0,0,3,-2,1,0,7,-1,15.25,NO,Non-magique,,Aucun talent magique détecté,51.7,26.634,Aucun
+CH-00091,6,Humain,Rashemi,1,-3,174.9,71.3,0,2,-5,6,5,8,0,2,-5,4,2,1,5,2,15.8,NO,Non-magique,,Aucun talent magique détecté,49.0,26.059,Aucun
+CH-00092,7,Humain,Tethyrians,-2,5,161.2,61.9,-2,1,-6,1,-5,3,7,-1,0,2,-2,-2,-5,-3,-8.49,YES,Magicien,Magie savante,Magicien classique (étude et formules),3.6,5.582,Aucun
+CH-00093,15,Nain,Nain d'écu,6,12,182.7,90.2,1,4,-3,2,-2,9,6,4,-2,1,7,4,-2,2,25.23,NO,Non-magique,,Aucun talent magique détecté,33.2,22.085,Vision dans le noir (Darkvision N1) + robustesse naine
+CH-00094,2,Humain,Chondathans,0,1,169.4,68.0,-1,1,0,1,5,1,2,5,4,1,0,-1,5,-1,7.52,NO,Non-magique,,Aucun talent magique détecté,54.7,27.225,Aucun
+CH-00095,12,Halfelin,Strongheart,-8,-2,147.6,46.7,-3,-5,0,7,3,3,2,2,-6,4,-10,-6,3,-3,-6.02,YES,Théurgiste,Théurgie,Théurgiste (magie divine / invocation),2.0,3.415,Robustesse halfeline
+CH-00096,112,Autre,Selûne's Children,0,6,166.7,68.0,-1,1,0,0,-1,7,3,6,0,0,0,-1,-1,-1,-1.0,YES,Théurgiste,Théurgie,Théurgiste (magie divine / invocation),-9.6,0.0,Lien lunaire
+CH-00097,2,Humain,Chondathans,-1,2,165.8,64.9,-1,-2,3,0,-4,-7,2,0,2,-2,-2,-2,-4,-2,-7.5,YES,Magicien,Magie savante,Magicien classique (étude et formules),7.2,9.242,Aucun
+CH-00098,2,Humain,Chondathans,1,1,172.6,71.3,0,-3,0,-1,1,-3,2,3,-2,-4,0,-1,1,-1,-1.0,YES,Théurgiste,Théurgie,Théurgiste (magie divine / invocation),2.2,3.622,Aucun
+CH-00099,3,Humain,Damarans,1,4,170.9,71.3,0,-3,-3,3,1,-5,9,1,5,-2,0,0,1,1,2.0,NO,Non-magique,,Aucun talent magique détecté,61.8,28.521,Aucun
+CH-00100,2,Humain,Chondathans,1,-2,174.3,71.3,0,3,5,4,-6,7,-10,-1,-8,4,2,1,-6,1,1.13,NO,Non-magique,,Aucun talent magique détecté,65.3,29.114,Aucun

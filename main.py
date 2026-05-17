@@ -35,11 +35,10 @@ def generate_batch(
     fieldnames = [
         "ID", "Indice", "Race", "Ethnicity",
         "Weight_Score", "Build_Score", "Height_cm", "Weight_kg", "Size_Score",
-        "Balance", "Speed", "Coordination", "Precision", "Endurance",
+        "Balance", "Quickness", "Coordination", "Precision", "Endurance",
         "Regeneration", "Vigilance", "Beauty", "Stealth",
         "Grappling", "Melee", "Projectiles", "Fencing",
-        "Combat_Points",
-        "Magic", "Magic_Type", "Magic_Subtype", "Magic_Description",
+        "Combat_Points", "Magic", "Magic_Type", "Magic_Subtype", "Magic_Description",
         "Skill_Points", "Skill_Bonus", "Special"
     ]
 
@@ -60,7 +59,7 @@ def generate_batch(
     theurgiste = sum(1 for c in characters if c.get("Magic_Type") == "Théurgiste")
     magicien = sum(1 for c in characters if c.get("Magic_Type") == "Magicien")
     double = sum(1 for c in characters if c.get("Magic_Type") == "Double")
-    sauvage = sum(1 for c in characters if c.get("Magic_Type") == "Sauvage")
+    sauvage = sum(1 for c in characters if c.get("Magic_Type") == "Wild")
 
     print("📊 STATISTIQUES MAGIE :")
     print(f"   Magiques totaux        : {magic_count} ({magic_count/total:.1%})")

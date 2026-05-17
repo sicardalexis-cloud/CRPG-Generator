@@ -15,7 +15,8 @@ from rules import (
     calculate_projectiles,
     calculate_combat_points,
     sec_func,
-    determine_magic_type
+    determine_magic_type,
+    calculate_skill_modifier
 )
 
 
@@ -62,14 +63,13 @@ def generate_character(char_id: str):
     weight_score = math.floor(roll_12d6() / 2) - 21 + data.get("w", 0)
     build_score  = roll_6d6() - 21 + data.get("b", 0)
 
-    # Calcul du poids puis de la taille (ordre important !)
     weight_kg = calculate_weight(weight_score)
     height    = calculate_height(weight_kg, build_score)
     size_score = calculate_size_score(height)
 
     # Autres attributs
     balance      = roll_6d6() - 21 + data.get("bal", 0)
-    quickness    = roll_6d6() - 21 + data.get("qui", 0)
+    quickness    = roll_6d6() - 21 + data.get("spd", 0)      # ← "spd" et non "qui"
     coordination = roll_6d6() - 21 + data.get("coo", 0)
     precision    = roll_6d6() - 21 + data.get("pre", 0)
     endurance    = roll_6d6() - 21 + data.get("end", 0)
@@ -77,7 +77,7 @@ def generate_character(char_id: str):
     vigilance    = roll_6d6() - 21 + data.get("vig", 0)
     beauty       = roll_6d6() - 21 + data.get("bea", 0)
 
-    # Stealth (exemple)
+    # Stealth
     stealth = math.floor(- (weight_score / 2) + (balance * 0.8) + (coordination * 0.6))
 
     # ====================== COMBAT CAPACITIES ======================
@@ -97,7 +97,7 @@ def generate_character(char_id: str):
     # ====================== SECONDARY CAPACITIES ======================
     sec_total = (
         sec_func(stealth) +
-        sec_func(quickness) +      # Remplacé "speed" par "quickness"
+        sec_func(quickness) +
         sec_func(endurance) +
         sec_func(regeneration) +
         sec_func(vigilance) +
@@ -107,7 +107,9 @@ def generate_character(char_id: str):
     # ====================== SKILLS ======================
     base = 0 if magic_info["magic"] else 70
     skill_points = base - combat_points - sec_total
-    skill_bonus = round(math.log(max(skill_points / 6 + 1, 1)) / 0.085, 3) if skill_points > -10 else 0.0
+    
+    skill_modifier = calculate_skill_modifier(combat_points)
+    skill_bonus = round(skill_modifier + (math.log(max(skill_points / 6 + 1, 1)) / 0.085), 3)
 
     # ====================== RETURN ======================
     return {
@@ -123,7 +125,7 @@ def generate_character(char_id: str):
         "Size_Score": size_score,
 
         "Balance": round(balance, 1),
-        "Quickness": round(quickness, 1),      # Renommé
+        "Quickness": round(quickness, 1),
         "Coordination": round(coordination, 1),
         "Precision": round(precision, 1),
         "Endurance": round(endurance, 1),
@@ -138,13 +140,14 @@ def generate_character(char_id: str):
         "Projectiles": projectiles,
         "Fencing": fencing,
 
-        "Combat_Points": round(combat_points, 2),
+        "Combat_Points": combat_points,
         "Magic": "YES" if magic_info["magic"] else "NO",
         "Magic_Type": magic_info["type"],
         "Magic_Subtype": magic_info.get("subtype"),
         "Magic_Description": magic_info["description"],
 
         "Skill_Points": round(skill_points, 1),
+        "Skill_Modifier": skill_modifier,
         "Skill_Bonus": skill_bonus,
         "Special": data.get("spec", "None")
     }

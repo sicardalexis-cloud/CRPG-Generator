@@ -156,13 +156,14 @@ ethnicity_data = {
     "Lizardfolk":       {"idx": 137,"r": "Autre", "w": 4, "b": 2, "bal": 1, "spd": 0, "coo": 0, "pre": 0, "end": 3, "reg": 3, "vig": 0, "bea": -1, "spec": "Morsure + Artisanat osseux", "cp": 1.0},
 }
 # ====================== PONDERATION CATEGORIES ======================
-race_weights = {
-    "Humain": 76,
-    "Nain": 9,
-    "Demi-elfe": 4,
-    "Elfe": 5,
-    "Halfelin": 2,
-    "Gnome": 1,
-    "Demi-orc": 1,
-    "Autre": 2
+# ====================== PONDERATION CATEGORIES ======================
+category_weights = {
+    "Humain":     82,     # Majorité claire
+    "Nain":       7.5,
+    "Elfe":       3.0,    # Réduit
+    "Demi-elfe":  2.0,    # Réduit
+    "Halfelin":   2.0,
+    "Gnome":      1.2,
+    "Demi-orc":   1.3,
+    "Autre":      1.0     # Races rares
 }

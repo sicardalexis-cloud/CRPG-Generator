@@ -34,12 +34,18 @@ def generate_batch(
 
     fieldnames = [
         "ID", "Indice", "Race", "Ethnicity",
+        "Magic_Type",
+        "Combat_Points",
+        "Grappling",
+        "Melee",
+        "Fencing",
+        "Projectiles",
+        
         "Weight_Score", "Build_Score", "Height_cm", "Weight_kg", "Size_Score",
         "Balance", "Quickness", "Coordination", "Precision", "Endurance",
         "Regeneration", "Vigilance", "Beauty", "Stealth",
-        "Grappling", "Melee", "Projectiles", "Fencing",
-        "Combat_Points", "Magic", "Magic_Type", "Magic_Subtype", "Magic_Description",
-        "Skill_Points", "Skill_Bonus", "Special"
+        "Magic", "Magic_Subtype", "Magic_Description",
+        "Skill_Points", "Skill_Modifier", "Skill_Bonus", "Special"
     ]
 
     with open(filename, mode='w', newline='', encoding='utf-8') as f:

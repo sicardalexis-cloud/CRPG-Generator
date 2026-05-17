@@ -10,7 +10,7 @@ def calculate_weight(ws: float) -> float:
 
 
 def calculate_height(weight_kg: float, build_score: float) -> float:
-    """Taille en cm"""
+    """Taille en cm - Formule cube-root"""
     base_height = 41.65 * (weight_kg ** (1/3))
     build_factor = 1 - 0.0042 * build_score
     return round(base_height * build_factor, 1)
@@ -19,6 +19,13 @@ def calculate_height(weight_kg: float, build_score: float) -> float:
 def calculate_size_score(height: float) -> int:
     """Size Score basé sur la taille"""
     return math.floor((height - 170) / 8)
+
+
+# ====================== SKILL SYSTEM ======================
+def calculate_skill_modifier(tcb: float) -> float:
+    """Skills Modifier = -TCB / 4
+    Plus le personnage est fort en combat, moins il a de points pour les skills."""
+    return round(-tcb / 4, 2)
 
 
 # ====================== COMBAT FORMULAS ======================
@@ -37,20 +44,40 @@ def calculate_grappling(weight_score: float, balance: float, quickness: float) -
     return weight_score + math.floor(balance / 3 + quickness / 5)
 
 
-def calculate_melee(weight_score: float, size_score: int, quickness: float, 
-                   coordination: float, balance: float) -> float:
+def calculate_melee(weight_score: float, size_score: int, coordination: float, 
+                   balance: float, quickness: float) -> float:
     return math.floor(weight_score / 2 + size_score / 2 + quickness / 4 + 
                      coordination / 5 + balance / 4)
 
 
-def calculate_fencing(size_score: int, weight_score: float, quickness: float, 
-                     coordination: float, balance: float) -> float:
+def calculate_fencing(size_score: int, weight_score: float, coordination: float, 
+                     quickness: float, balance: float) -> float:
     return math.floor(size_score + weight_score / 4 + quickness / 3 + 
                      coordination / 3 + balance / 5)
 
 
 def calculate_projectiles(precision: float) -> float:
     return precision
+
+
+# ====================== COMBAT POINTS TOTAL ======================
+
+def calculate_combat_points(
+    grappling: float,
+    melee: float,
+    projectiles: float,
+    fencing: float,
+    racial_cp: float = 0.0
+) -> float:
+    """Total Combat Points"""
+    total = (
+        cp(grappling) +
+        cp(melee) +
+        cp(projectiles) +
+        cp(fencing) +
+        racial_cp
+    )
+    return round(total, 2)
 
 
 # ====================== MAGIC SYSTEM ======================
@@ -103,26 +130,15 @@ def sec_func(x: float) -> float:
     return round(6 * (math.exp(0.085 * x) - 1), 2)
 
 
-# ====================== COMBAT POINTS TOTAL ======================
-
-def calculate_combat_points(
-    grappling: float,
-    melee: float,
-    projectiles: float,
-    fencing: float,
-    racial_cp: float = 0.0
-) -> float:
-    """Total Combat Points"""
-    total = (
-        cp(grappling) +
-        cp(melee) +
-        cp(projectiles) +
-        cp(fencing) +
-        racial_cp
-    )
-    return round(total, 2)
-
-
 # ====================== CONSTANTS ======================
-
 MAGIC_THRESHOLD = -1
+
+
+# ====================== COMMENTAIRES ======================
+"""
+RÈGLES ACTUELLES - 17 Mai 2026
+
+- Weight Score = 6d6 - 21 + racial mod
+- Build Score  = 6d6 - 21 + racial mod
+- Skills Modifier = -TCB / 4
+"""

@@ -38,8 +38,8 @@ def calculate_size_score(height: float) -> int:
 
 # ====================== SKILL SYSTEM ======================
 def calculate_skill_modifier(tcb: float) -> float:
-    """Skills Modifier = -TCB / 4"""
-    return round(-tcb / 4, 2)
+    """Skills Modifier =  -TCB / 4"""
+    return math.floor(- tcb / 4)
 
 
 # ====================== COMBAT FORMULAS ======================

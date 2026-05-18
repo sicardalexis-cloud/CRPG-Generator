@@ -17,7 +17,7 @@ ethnicity_weights = {
     "Uthgardt":        0.1,  # Très petit groupe
     
     # Ethnies régionales / spéciales
-    "Chultan":         2.5,
+    "Chultan":         2,
     "Shaaryens":       1.0,
     "Nar":             0.6,
     "Gûr":             0.5,
@@ -52,22 +52,22 @@ ethnicity_weights = {
     "Gnome des profondeurs": 5,
 
     # ==================== DEMI-ELFES ====================
-    "Demi-elfe des bois":    35,
-    "Demi-elfe de la lune":  32,
+    "Demi-elfe des bois":    36,
+    "Demi-elfe de la lune":  33,
     "Demi-elfe du soleil":   12,
     "Demi-elfe sauvage":     8,
-    "Demi-elfe noir":        6,
+    "Demi-elfe noir":        5,
     "Demi-elfe de la mer":   4,
     "Demi-elfe des étoiles": 2,
     "Demi-avariel":          0.5,
     "Demi-lythari":          0.5,
 
     # ==================== ELFES ====================
-    "Elfe des bois":     35,
-    "Elfe de la lune":   30,
-    "Elfe du soleil":    12,
+    "Elfe des bois":     36,
+    "Elfe de la lune":   31,
+    "Elfe du soleil":    11,
     "Elfe sauvage":      8,
-    "Elfe noir":         6,
+    "Elfe noir":         5.5,
     "Elfe de la mer":    4,
     "Elfe des étoiles":  2,
     "Avariel":           1,

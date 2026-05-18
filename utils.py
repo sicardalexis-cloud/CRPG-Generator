@@ -109,11 +109,9 @@ def generate_character(char_id: str):
     )
 
     # ====================== SKILLS ======================
-    base = 0 if magic_info["magic"] else 70
-    skill_points = base - combat_points - sec_total
-    
+          
     skill_modifier = calculate_skill_modifier(combat_points)
-    skill_bonus = round(skill_modifier + (math.log(max(skill_points / 6 + 1, 1)) / 0.085), 3)
+
 
     # ====================== RETURN ======================
     return {
@@ -150,8 +148,8 @@ def generate_character(char_id: str):
         "Magic_Subtype": magic_info.get("subtype"),
         "Magic_Description": magic_info["description"],
 
-        "Skill_Points": round(skill_points, 1),
+       
         "Skill_Modifier": skill_modifier,
-        "Skill_Bonus": skill_bonus,
+        
         "Special": data.get("spec", "None")
     }

@@ -1,4 +1,3 @@
-# main.py - Batch Character Generator
 import csv
 import argparse
 import random
@@ -39,13 +38,20 @@ def generate_batch(
         "Grappling",
         "Melee",
         "Fencing",
+        "Skill_Modifier",        # ← Position demandée
         "Projectiles",
         
+        # Caractéristiques physiques
         "Weight_Score", "Build_Score", "Height_cm", "Weight_kg", "Size_Score",
+        
+        # Attributs secondaires
         "Balance", "Quickness", "Coordination", "Precision", "Endurance",
         "Regeneration", "Vigilance", "Beauty", "Stealth",
+        
+        # Magie
         "Magic", "Magic_Subtype", "Magic_Description",
-        "Skill_Points", "Skill_Modifier", "Skill_Bonus", "Special"
+        
+        "Special"
     ]
 
     with open(filename, mode='w', newline='', encoding='utf-8') as f:
@@ -53,26 +59,24 @@ def generate_batch(
         writer.writeheader()
         writer.writerows(characters)
 
-    # ====================== RÉSUMÉ ======================
     print(f"\n✅ Génération terminée !")
     print(f"📁 Fichier créé → {filename}")
-    print(f"   {count} personnages générés avec succès.\n")
+    print(f"   {count} personnages générés avec succès.")
 
     # Statistiques Magie
     total = len(characters)
     magic_count = sum(1 for c in characters if c.get("Magic") == "YES")
-    
     theurgiste = sum(1 for c in characters if c.get("Magic_Type") == "Théurgiste")
     magicien = sum(1 for c in characters if c.get("Magic_Type") == "Magicien")
     double = sum(1 for c in characters if c.get("Magic_Type") == "Double")
     sauvage = sum(1 for c in characters if c.get("Magic_Type") == "Wild")
 
-    print("📊 STATISTIQUES MAGIE :")
-    print(f"   Magiques totaux        : {magic_count} ({magic_count/total:.1%})")
-    print(f"   → Théurgistes          : {theurgiste}")
-    print(f"   → Magiciens            : {magicien}")
-    print(f"   → Double Talent        : {double}")
-    print(f"   → Magie Sauvage        : {sauvage}")
+    print("\n📊 STATISTIQUES MAGIE :")
+    print(f"   Magiques totaux     : {magic_count} ({magic_count/total:.1%})")
+    print(f"   → Théurgistes       : {theurgiste}")
+    print(f"   → Magiciens         : {magicien}")
+    print(f"   → Double Talent     : {double}")
+    print(f"   → Magie Sauvage     : {sauvage}")
 
 
 def main():
@@ -81,14 +85,10 @@ def main():
         formatter_class=argparse.ArgumentDefaultsHelpFormatter
     )
     
-    parser.add_argument("-n", "--count", type=int, default=100,
-                        help="Nombre de personnages à générer")
-    parser.add_argument("-o", "--output", type=str,
-                        help="Nom du fichier de sortie (CSV)")
-    parser.add_argument("-s", "--seed", type=int,
-                        help="Seed pour la reproductibilité")
-    parser.add_argument("-r", "--race", type=str,
-                        help="Filtrer sur une race (ex: Humain)")
+    parser.add_argument("-n", "--count", type=int, default=100, help="Nombre de personnages à générer")
+    parser.add_argument("-o", "--output", type=str, help="Nom du fichier de sortie (CSV)")
+    parser.add_argument("-s", "--seed", type=int, help="Seed pour la reproductibilité")
+    parser.add_argument("-r", "--race", type=str, help="Filtrer sur une race (ex: Humain)")
 
     args = parser.parse_args()
 

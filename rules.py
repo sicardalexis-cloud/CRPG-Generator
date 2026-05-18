@@ -10,10 +10,25 @@ def calculate_weight(ws: float) -> float:
 
 
 def calculate_height(weight_kg: float, build_score: float) -> float:
-    """Taille en cm - Formule cube-root"""
+    """Taille en cm - Version finale calibrée
+    - WS = 0 + BS = 0  → 170 cm
+    - WS = -15         → 126 à 158 cm
+    - Permet jusqu'à ~225 cm en extrême"""
+    
     base_height = 41.65 * (weight_kg ** (1/3))
-    build_factor = 1 - 0.0042 * build_score
-    return round(base_height * build_factor, 1)
+    
+    if build_score > 0:
+        # Trapu → plus petit
+        build_factor = 1 - 0.00565 * build_score
+    else:
+        # Élancé → plus grand
+        build_factor = 1 - 0.00195 * build_score
+    
+    # Sécurité : on évite les tailles absurdes
+    build_factor = max(0.685, min(1.295, build_factor))
+    
+    height = base_height * build_factor
+    return round(height, 1)
 
 
 def calculate_size_score(height: float) -> int:
@@ -23,8 +38,7 @@ def calculate_size_score(height: float) -> int:
 
 # ====================== SKILL SYSTEM ======================
 def calculate_skill_modifier(tcb: float) -> float:
-    """Skills Modifier = -TCB / 4
-    Plus le personnage est fort en combat, moins il a de points pour les skills."""
+    """Skills Modifier = -TCB / 4"""
     return round(-tcb / 4, 2)
 
 
@@ -56,8 +70,11 @@ def calculate_fencing(size_score: int, weight_score: float, coordination: float,
                      coordination / 3 + balance / 5)
 
 
-def calculate_projectiles(precision: float) -> float:
-    return precision
+# ====================== PROJECTILES (Capacité unique de tir) ======================
+def calculate_projectiles(precision: float, coordination: float, quickness: float) -> int:
+    """Projectiles - Tir à courte distance
+    Precision + Coordination + Quickness"""
+    return math.floor(precision + coordination / 3 + quickness / 5)
 
 
 # ====================== COMBAT POINTS TOTAL ======================
@@ -85,42 +102,17 @@ def calculate_combat_points(
 def determine_magic_type(combat_points: float) -> Dict:
     """Détermine le type de magie selon le Total Combat Points"""
     if combat_points >= 0:
-        return {
-            "magic": False,
-            "type": "None",
-            "subtype": None,
-            "description": "Aucun talent magique"
-        }
+        return {"magic": False, "type": "None", "subtype": None, "description": "Aucun talent magique"}
     elif combat_points >= -5:
-        return {
-            "magic": True,
-            "type": "Theurgist",
-            "subtype": "Théurgiste",
-            "description": "Théurgiste (magie divine instinctive)"
-        }
+        return {"magic": True, "type": "Theurgist", "subtype": "Théurgiste", "description": "Théurgiste (magie divine instinctive)"}
     elif combat_points >= -12:
-        return {
-            "magic": True,
-            "type": "Mage",
-            "subtype": "Magicien",
-            "description": "Magicien classique (étude et formules)"
-        }
-    else:  # -13 et moins
+        return {"magic": True, "type": "Mage", "subtype": "Magicien", "description": "Magicien classique (étude et formules)"}
+    else:
         if random.random() < 0.5:
-            return {
-                "magic": True,
-                "type": "Double",
-                "subtype": "Magicien & Théurgiste",
-                "description": "Double talent : Magicien + Théurgiste"
-            }
+            return {"magic": True, "type": "Double", "subtype": "Magicien & Théurgiste", "description": "Double talent : Magicien + Théurgiste"}
         else:
             wild_type = random.choice(["Sorcier", "Warlock", "Psionique", "Oracle", "Magie du Sang"])
-            return {
-                "magic": True,
-                "type": "Wild",
-                "subtype": wild_type,
-                "description": f"Magie sauvage - {wild_type}"
-            }
+            return {"magic": True, "type": "Wild", "subtype": wild_type, "description": f"Magie sauvage - {wild_type}"}
 
 
 # ====================== SECONDARY ATTRIBUTES ======================
@@ -138,7 +130,8 @@ MAGIC_THRESHOLD = -1
 """
 RÈGLES ACTUELLES - 17 Mai 2026
 
-- Weight Score = 6d6 - 21 + racial mod
+- Weight Score = floor(12d6/2) - 21 + racial mod
 - Build Score  = 6d6 - 21 + racial mod
+- Projectiles = floor(Precision + Coordination/3 + Quickness/5)
 - Skills Modifier = -TCB / 4
 """

@@ -1,34 +1,36 @@
 # ethnicity_weights.py - Pondération détaillée par ethnie
 
 ethnicity_weights = {
-    # ==================== HUMAINS ====================
-    "Chondathans":     26,
-    "Calishites":      18,
-    "Tethyrians":      15,
-    "Illuskans":       12,
+     # ==================== HUMAINS ====================
+    "Chondathans":     27,   # Le plus répandu
+    "Tethyrians":      23,   # Très nombreux sur la Sword Coast
+    "Calishites":      14,   # Ajusté (était trop haut)
     "Damarans":        9,
-    "Rashemi":         6,
-    "Mulan":           5,
-    "Turami":          4,
-    "Chultan":         3,
-    "Uthgardt":        3,
+    "Illuskans":       8,    # Inclut Northlanders
+    "Mulan":           8,
+    "Rashemi":         5,
+    "Turami":          3,
+    
+    # Ethnies du Nord et îles
     "Ffolk":           2,
-    "Sossrim":         1.5,
-
-    # Ethnies régionales rares
-    "Shaaryens":       0.5,
-    "Nar":             0.4,
-    "Gûr":             0.4,
-    "Halruéens":       0.4,
-    "Imaskari":        0.35,
-    "Lantannas":       0.35,
+    "Sossrim":         1.2,
+    "Uthgardt":        0.1,  # Très petit groupe
+    
+    # Ethnies régionales / spéciales
+    "Chultan":         2.5,
+    "Shaaryens":       1.0,
+    "Nar":             0.6,
+    "Gûr":             0.5,
+    "Halruéens":       0.5,
     "Arkaiuns":        0.4,
     "Durpari":         0.4,
+    "Imaskari":        0.35,
+    "Lantannas":       0.35,
     "Raumviriens":     0.3,
     "Tashaliens":      0.35,
-    "Lapalis":         0.2,
-    "Nubari":          0.2,
-    "Talfir":          0.2,
+    "Lapalis":         0.25,
+    "Nubari":          0.25,
+    "Talfir":          0.25,
 
     # ==================== HALFLINGS ====================
     "Strongheart":     45,

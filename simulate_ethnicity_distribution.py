@@ -21,8 +21,8 @@ def simulate_ethnicity_distribution(nb_simulations=100000):
     print("DISTRIBUTION RÉELLE DES ETHNIES (sur", nb_simulations, "personnages)")
     print("="*80)
 
-    print("\n--- Par Ethnie (Top 30) ---")
-    for eth, count in ethnicity_count.most_common(30):
+    print("\n--- Par Ethnie (Top 60) ---")
+    for eth, count in ethnicity_count.most_common(60):
         percent = (count / nb_simulations) * 100
         print(f"{eth:35} | {count:6,} | {percent:6.2f}%")
 

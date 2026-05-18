@@ -69,9 +69,13 @@ def generate_character(char_id: str):
 
     # Autres attributs
     balance      = roll_6d6() - 21 + data.get("bal", 0)
-    quickness    = roll_6d6() - 21 + data.get("spd", 0)      # ← "spd" et non "qui"
+    quickness    = roll_6d6() - 21 + data.get("quickness", 0)
     coordination = roll_6d6() - 21 + data.get("coo", 0)
-    precision    = roll_6d6() - 21 + data.get("pre", 0)
+    
+    # === Precision & Projectiles (version finale) ===
+    precision_base = (roll_12d6() / 2) - 21                    # partie aléatoire (float)
+    precision      = math.floor(precision_base  + data.get("pre", 0))
+    
     endurance    = roll_6d6() - 21 + data.get("end", 0)
     regeneration = roll_6d6() - 21 + data.get("reg", 0)
     vigilance    = roll_6d6() - 21 + data.get("vig", 0)
@@ -83,7 +87,7 @@ def generate_character(char_id: str):
     # ====================== COMBAT CAPACITIES ======================
     grappling   = calculate_grappling(weight_score, balance, quickness)
     melee       = calculate_melee(weight_score, size_score, quickness, coordination, balance)
-    projectiles = calculate_projectiles(precision)
+    projectiles = calculate_projectiles(precision, coordination, quickness)
     fencing     = calculate_fencing(size_score, weight_score, quickness, coordination, balance)
 
     # ====================== TOTAL COMBAT POINTS ======================
@@ -127,7 +131,7 @@ def generate_character(char_id: str):
         "Balance": round(balance, 1),
         "Quickness": round(quickness, 1),
         "Coordination": round(coordination, 1),
-        "Precision": round(precision, 1),
+        "Precision": precision,                    # déjà floor
         "Endurance": round(endurance, 1),
 
         "Regeneration": round(regeneration, 1),

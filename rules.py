@@ -10,19 +10,16 @@ def calculate_weight(ws: float) -> float:
 
 
 def calculate_height(weight_kg: float, build_score: float) -> float:
-    """Taille en cm - Version finale calibrée
-    - WS = 0 + BS = 0  → 170 cm
-    - WS = -15         → 126 à 158 cm
-    - Permet jusqu'à ~225 cm en extrême"""
+ 
     
     base_height = 41.65 * (weight_kg ** (1/3))
     
     if build_score > 0:
         # Trapu → plus petit
-        build_factor = 1 - 0.00565 * build_score
+        build_factor = math.exp(-0.0092 * build_score)
     else:
         # Élancé → plus grand
-        build_factor = 1 - 0.00195 * build_score
+        build_factor = math.exp(-0.0125 * build_score)
     
     # Sécurité : on évite les tailles absurdes
     build_factor = max(0.685, min(1.295, build_factor))
@@ -60,7 +57,7 @@ def calculate_grappling(weight_score: float, balance: float, quickness: float) -
 
 def calculate_melee(weight_score: float, size_score: int, coordination: float, 
                    balance: float, quickness: float) -> float:
-    return math.floor(weight_score / 2 + size_score / 2 + quickness / 4 + 
+    return math.floor(weight_score / 2  + quickness / 4 + 
                      coordination / 5 + balance / 4)
 
 

@@ -2,31 +2,31 @@
 
 ethnicity_data = {
     # ==================== HUMAINS ====================
-    "Calishites":      {"idx": 1,  "r": "Humain", "w": -2, "b": 2,  "bal": 0, "quickness":1, "coo": 1, "pre": 1, "end": 1, "reg": 0, "vig": 0, "bea": 1, "spec": "Aucun", "cp": 0},
+    "Calishites":      {"idx": 1,  "r": "Humain", "w": -2, "b": 3,  "bal": 0, "quickness":1, "coo": 1, "pre": 1, "end": 1, "reg": 0, "vig": 0, "bea": 1, "spec": "Aucun", "cp": 0},
     "Chondathans":     {"idx": 2,  "r": "Humain", "w": 0,  "b": 0,  "bal": 0, "quickness": 0, "coo": 0, "pre": 0, "end": 0, "reg": 0, "vig": 0, "bea": 0, "spec": "Aucun", "cp": 0},
     "Damarans":        {"idx": 3,  "r": "Humain", "w": 1,  "b": 1,  "bal": 0, "quickness": 0, "coo": -1, "pre": -1, "end": 1, "reg": 1, "vig": 0, "bea": 0, "spec": "Aucun", "cp": 0},
-    "Illuskans":       {"idx": 4,  "r": "Humain", "w": 2,  "b": 1,  "bal": -1, "quickness": -1, "coo": -1, "pre": -1, "end": 1, "reg": 1, "vig": 1, "bea": 0, "spec": "Aucun", "cp": 0},
-    "Mulan":           {"idx": 5,  "r": "Humain", "w": -1, "b": 1,  "bal": 0, "quickness": 0, "coo": 0, "pre": 1, "end": 0, "reg": 0, "vig": 1, "bea": 1, "spec": "Aucun", "cp": 0},
+    "Illuskans":       {"idx": 4,  "r": "Humain", "w": 2,  "b": -2,  "bal": -1, "quickness": -1, "coo": -1, "pre": -1, "end": 1, "reg": 1, "vig": 1, "bea": 0, "spec": "Aucun", "cp": 0},
+    "Mulan":           {"idx": 5,  "r": "Humain", "w": -1, "b": 2,  "bal": 0, "quickness": 0, "coo": 0, "pre": 1, "end": 0, "reg": 0, "vig": 1, "bea": 1, "spec": "Aucun", "cp": 0},
     "Rashemi":         {"idx": 6,  "r": "Humain", "w": 1,  "b": 1,  "bal": 0, "quickness": -1, "coo": 0, "pre": 0, "end": 1, "reg": 1, "vig": 0, "bea": 0, "spec": "Aucun", "cp": 0},
-    "Tethyrians":      {"idx": 7,  "r": "Humain", "w": 0,  "b": 1,  "bal": 0, "quickness": 0, "coo": 0, "pre": 0, "end": 0, "reg": 0, "vig": 0, "bea": 1, "spec": "Aucun", "cp": 0},
-    "Chultan":         {"idx": 8,  "r": "Humain", "w": 2,  "b": 1,  "bal": 0, "quickness": -1, "coo": -1, "pre": -1, "end": 2, "reg": 2, "vig": 0, "bea": 0, "spec": "Aucun", "cp": 0},
-    "Turami":          {"idx": 9,  "r": "Humain", "w": 1,  "b": 1,  "bal": 0, "quickness": -1, "coo": 0, "pre": 0, "end": 1, "reg": 1, "vig": 0, "bea": 0, "spec": "Aucun", "cp": 0},
-    "Ffolk":           {"idx": 10, "r": "Humain", "w": 1,  "b": 1,  "bal": 0, "quickness": 0, "coo": 0, "pre": 0, "end": 1, "reg": 0, "vig": 0, "bea": 1, "spec": "Aucun", "cp": 0},
-    "Sossrim":         {"idx": 11, "r": "Humain", "w": 1,  "b": -1,  "bal": 0, "quickness": 0, "coo": 0, "pre": 0, "end": 1, "reg": 1, "vig": 1, "bea": 0, "spec": "Aucun", "cp": 0},
+    "Tethyrians":      {"idx": 7,  "r": "Humain", "w": 0,  "b": 0,  "bal": 0, "quickness": 0, "coo": 0, "pre": 0, "end": 0, "reg": 0, "vig": 0, "bea": 1, "spec": "Aucun", "cp": 0},
+    "Chultan":         {"idx": 8,  "r": "Humain", "w": 2,  "b": -1,  "bal": 0, "quickness": -1, "coo": -1, "pre": -1, "end": 2, "reg": 2, "vig": 0, "bea": 0, "spec": "Aucun", "cp": 0},
+    "Turami":          {"idx": 9,  "r": "Humain", "w": 1,  "b": 2,  "bal": 0, "quickness": -1, "coo": 0, "pre": 0, "end": 1, "reg": 1, "vig": 0, "bea": 0, "spec": "Aucun", "cp": 0},
+    "Ffolk":           {"idx": 10, "r": "Humain", "w": 1,  "b": 0,  "bal": 0, "quickness": 0, "coo": 0, "pre": 0, "end": 1, "reg": 0, "vig": 0, "bea": 1, "spec": "Aucun", "cp": 0},
+    "Sossrim":         {"idx": 11, "r": "Humain", "w": 2,  "b": -1,  "bal": 0, "quickness": 0, "coo": 0, "pre": 0, "end": 1, "reg": 1, "vig": 1, "bea": 0, "spec": "Aucun", "cp": 0},
 
     # ==================== AUTRES HUMAINS (Régionaux) ====================
     "Arkaiuns":        {"idx": 123,"r": "Humain", "w": 1, "b": 2, "bal": 0, "quickness": 0, "coo": 0, "pre": 0, "end": 1, "reg": 0, "vig": 0, "bea": 0, "spec": "Aucun", "cp": 0},
     "Durpari":         {"idx": 124,"r": "Humain", "w": 0, "b": 2, "bal": 0, "quickness": 0, "coo": 0, "pre": 0, "end": 1, "reg": 1, "vig": 0, "bea": 1, "spec": "Aucun", "cp": 0},
     "Gûr":             {"idx": 125,"r": "Humain", "w": 1, "b": 1, "bal": 0, "quickness": 0, "coo": -1, "pre": -1, "end": 2, "reg": 1, "vig": 0, "bea": 0, "spec": "Aucun", "cp": 0},
-    "Halruéens":       {"idx": 126,"r": "Humain", "w": -1,"b": 2, "bal": 1, "quickness": 0, "coo": 1, "pre": 2, "end": 0, "reg": 0, "vig": 1, "bea": 1, "spec": "Aucun", "cp": 0},
+    "Halruéens":       {"idx": 126,"r": "Humain", "w": -1,"b": 1, "bal": 1, "quickness": 0, "coo": 1, "pre": 2, "end": 0, "reg": 0, "vig": 1, "bea": 1, "spec": "Aucun", "cp": 0},
     "Imaskari":        {"idx": 127,"r": "Humain", "w": 0, "b": 2, "bal": 0, "quickness": 0, "coo": 1, "pre": 1, "end": 1, "reg": 1, "vig": 1, "bea": 0, "spec": "Aucun", "cp": 0},
-    "Lantannas":       {"idx": 128,"r": "Humain", "w": 0, "b": 2, "bal": 0, "quickness": 0, "coo": 1, "pre": 1, "end": 0, "reg": 0, "vig": 1, "bea": 1, "spec": "Aucun", "cp": 0},
+    "Lantannas":       {"idx": 128,"r": "Humain", "w": 0, "b": 1, "bal": 0, "quickness": 0, "coo": 1, "pre": 1, "end": 0, "reg": 0, "vig": 1, "bea": 1, "spec": "Aucun", "cp": 0},
     "Lapalis":         {"idx": 129,"r": "Humain", "w": 1, "b": 2, "bal": 0, "quickness": 0, "coo": 0, "pre": 0, "end": 1, "reg": 0, "vig": 0, "bea": 0, "spec": "Aucun", "cp": 0},
-    "Nar":             {"idx": 130,"r": "Humain", "w": 2, "b": 2, "bal": -1,"quickness": 0, "coo": -1, "pre": 0, "end": 1, "reg": 1, "vig": 0, "bea": 0, "spec": "Aucun", "cp": 0},
+    "Nar":             {"idx": 130,"r": "Humain", "w": 2, "b": 1, "bal": -1,"quickness": 0, "coo": -1, "pre": 0, "end": 1, "reg": 1, "vig": 0, "bea": 0, "spec": "Aucun", "cp": 0},
     "Raumviriens":     {"idx": 131,"r": "Humain", "w": 1, "b": 2, "bal": 0, "quickness": 0, "coo": 0, "pre": 0, "end": 1, "reg": 0, "vig": 0, "bea": 0, "spec": "Aucun", "cp": 0},
     "Shaaryens":       {"idx": 132,"r": "Humain", "w": 1, "b": 1, "bal": 0, "quickness": 0, "coo": 0, "pre": 0, "end": 2, "reg": 1, "vig": 0, "bea": 0, "spec": "Aucun", "cp": 0},
     "Tashaliens":      {"idx": 133,"r": "Humain", "w": 0, "b": 2, "bal": 0, "quickness": 0, "coo": 1, "pre": 1, "end": 1, "reg": 0, "vig": 1, "bea": 1, "spec": "Aucun", "cp": 0},
-    "Uthgardt":        {"idx": 138,"r": "Humain", "w": 3, "b": 3, "bal": 0, "quickness": 1, "coo": 0, "pre": 0, "end": 3, "reg": 3, "vig": 0, "bea": -1, "spec": "Aucun", "cp": 0.6},
+    "Uthgardt":        {"idx": 138,"r": "Humain", "w": 3, "b": 0, "bal": 0, "quickness": 1, "coo": 0, "pre": 0, "end": 3, "reg": 3, "vig": 0, "bea": -1, "spec": "Aucun", "cp": 0.6},
 
     # ==================== HALFLINGS ====================
     "Strongheart":     {"idx": 12, "r": "Halfelin", "w": -13, "b": 8, "bal": 6, "quickness": 6, "coo": 6, "pre": 3, "end": 2, "reg": 2, "vig": 1, "bea": 0, "spec": "Robustesse halfeline", "cp": 0},
@@ -35,12 +35,12 @@ ethnicity_data = {
     "Tallfellow":      {"idx": 117,"r": "Halfelin", "w": -13, "b": 5, "bal": 5, "quickness": 6, "coo": 6, "pre": 3, "end": 1, "reg": 0, "vig": 2, "bea": 2, "spec": "Furtivité naturelle", "cp": 0},
 
     # ==================== NAINS ====================
-    "Nain d'écu":      {"idx": 15, "r": "Nain", "w": 4, "b": 46, "bal": -2, "quickness": 0, "coo": 0, "pre": 0, "end": 3, "reg": 4, "vig": 1, "bea": -2, "spec": "Vision dans le noir (N1) + robustesse naine", "cp": 2},
-    "Nain d'or":       {"idx": 16, "r": "Nain", "w": 5, "b": 48, "bal": -2, "quickness": -1, "coo": -1, "pre": 0, "end": 3, "reg": 4, "vig": 1, "bea": -1, "spec": "Vision dans le noir (N1) + robustesse naine", "cp": 2},
-    "Nain gris":       {"idx": 17, "r": "Nain", "w": 4, "b": 45, "bal": -2, "quickness": -1, "coo": 0, "pre": 0, "end": 3, "reg": 4, "vig": 1, "bea": -2, "spec": "Invisibilité + Agrandissement", "cp": 2},
-    "Nain arctique":   {"idx": 18, "r": "Nain", "w": 4, "b": 44, "bal": -2, "quickness": -2, "coo": 0, "pre": 0, "end": 3, "reg": 5, "vig": 1, "bea": -2, "spec": "Vision dans le noir (N1) + robustesse naine", "cp": 2},
-    "Nain sauvages":   {"idx": 19, "r": "Nain", "w": 5, "b": 42, "bal": -2, "quickness": 0,  "coo": 0, "pre": 0, "end": 2, "reg": 3, "vig": 0, "bea": -1, "spec": "Vision dans le noir (N1) + robustesse naine", "cp": 2},
-    "Urdunnir":        {"idx": 20, "r": "Nain", "w": 6, "b": 52, "bal": -2, "quickness": -1, "coo": -1, "pre": 0, "end": 3, "reg": 4, "vig": 1, "bea": -2, "spec": "Marche à travers la pierre", "cp": 2},
+    "Nain d'écu":      {"idx": 15, "r": "Nain", "w": 4, "b": 23, "bal": -2, "quickness": 0, "coo": 0, "pre": 0, "end": 3, "reg": 4, "vig": 1, "bea": -2, "spec": "Vision dans le noir (N1) + robustesse naine", "cp": 2},
+    "Nain d'or":       {"idx": 16, "r": "Nain", "w": 5, "b": 19, "bal": -2, "quickness": -1, "coo": -1, "pre": 0, "end": 3, "reg": 4, "vig": 1, "bea": -1, "spec": "Vision dans le noir (N1) + robustesse naine", "cp": 2},
+    "Nain gris":       {"idx": 17, "r": "Nain", "w": 3, "b": 19, "bal": -2, "quickness": -1, "coo": 0, "pre": 0, "end": 3, "reg": 4, "vig": 1, "bea": -2, "spec": "Invisibilité + Agrandissement", "cp": 2},
+    "Nain arctique":   {"idx": 18, "r": "Nain", "w": -4, "b": 8, "bal": -2, "quickness": -2, "coo": 0, "pre": 0, "end": 3, "reg": 5, "vig": 1, "bea": -2, "spec": "Vision dans le noir (N1) + robustesse naine", "cp": 2},
+    "Nain sauvages":   {"idx": 19, "r": "Nain", "w": 2, "b": 15, "bal": -2, "quickness": 0,  "coo": 0, "pre": 0, "end": 2, "reg": 3, "vig": 0, "bea": -1, "spec": "Vision dans le noir (N1) + robustesse naine", "cp": 2},
+    "Urdunnir":        {"idx": 20, "r": "Nain", "w": 3, "b": 29, "bal": -2, "quickness": -1, "coo": -1, "pre": 0, "end": 3, "reg": 4, "vig": 1, "bea": -2, "spec": "Marche à travers la pierre", "cp": 2},
 
     # ==================== DEMI-ELFES ====================
     "Demi-elfe des bois":    {"idx": 21, "r": "Demi-elfe", "w": -2, "b": -7, "bal": 2, "quickness": 2, "coo": 2, "pre": 1, "end": 1, "reg": 1, "vig": 2, "bea": 2, "spec": "Méditation + Immunité au sommeil + Vision nocturne (N1)", "cp": 2.0},

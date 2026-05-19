@@ -2,85 +2,80 @@
 
 ethnicity_data = {
     # ==================== HUMAINS ====================
-    "Calishites":      {"idx": 1,  "r": "Humain", "w": -2, "b": 2,  "bal": 0, "quickness": 0, "coo": 0, "pre": 0, "end": 1, "reg": 0, "vig": 0, "bea": 1, "spec": "Aucun", "cp": 0},
+    "Calishites":      {"idx": 1,  "r": "Humain", "w": -2, "b": 2,  "bal": 0, "quickness":1, "coo": 1, "pre": 1, "end": 1, "reg": 0, "vig": 0, "bea": 1, "spec": "Aucun", "cp": 0},
     "Chondathans":     {"idx": 2,  "r": "Humain", "w": 0,  "b": 0,  "bal": 0, "quickness": 0, "coo": 0, "pre": 0, "end": 0, "reg": 0, "vig": 0, "bea": 0, "spec": "Aucun", "cp": 0},
-    "Damarans":        {"idx": 3,  "r": "Humain", "w": 1,  "b": 1,  "bal": 0, "quickness": 0, "coo": 0, "pre": 0, "end": 1, "reg": 1, "vig": 0, "bea": 0, "spec": "Aucun", "cp": 0},
-    "Illuskans":       {"idx": 4,  "r": "Humain", "w": 2,  "b": 1,  "bal": 0, "quickness": 0, "coo": 0, "pre": 0, "end": 1, "reg": 1, "vig": 1, "bea": 0, "spec": "Aucun", "cp": 0},
-    "Mulan":           {"idx": 5,  "r": "Humain", "w": -1, "b": 1,  "bal": 0, "quickness": 0, "coo": 0, "pre": 0, "end": 0, "reg": 0, "vig": 1, "bea": 1, "spec": "Aucun", "cp": 0},
-    "Rashemi":         {"idx": 6,  "r": "Humain", "w": 1,  "b": 1,  "bal": 0, "quickness": 0, "coo": 0, "pre": 0, "end": 1, "reg": 1, "vig": 0, "bea": 0, "spec": "Aucun", "cp": 0},
+    "Damarans":        {"idx": 3,  "r": "Humain", "w": 1,  "b": 1,  "bal": 0, "quickness": 0, "coo": -1, "pre": -1, "end": 1, "reg": 1, "vig": 0, "bea": 0, "spec": "Aucun", "cp": 0},
+    "Illuskans":       {"idx": 4,  "r": "Humain", "w": 2,  "b": 1,  "bal": -1, "quickness": -1, "coo": -1, "pre": -1, "end": 1, "reg": 1, "vig": 1, "bea": 0, "spec": "Aucun", "cp": 0},
+    "Mulan":           {"idx": 5,  "r": "Humain", "w": -1, "b": 1,  "bal": 0, "quickness": 0, "coo": 0, "pre": 1, "end": 0, "reg": 0, "vig": 1, "bea": 1, "spec": "Aucun", "cp": 0},
+    "Rashemi":         {"idx": 6,  "r": "Humain", "w": 1,  "b": 1,  "bal": 0, "quickness": -1, "coo": 0, "pre": 0, "end": 1, "reg": 1, "vig": 0, "bea": 0, "spec": "Aucun", "cp": 0},
     "Tethyrians":      {"idx": 7,  "r": "Humain", "w": 0,  "b": 1,  "bal": 0, "quickness": 0, "coo": 0, "pre": 0, "end": 0, "reg": 0, "vig": 0, "bea": 1, "spec": "Aucun", "cp": 0},
-    "Chultan":         {"idx": 8,  "r": "Humain", "w": 2,  "b": 1,  "bal": 0, "quickness": 0, "coo": 0, "pre": 0, "end": 2, "reg": 2, "vig": 0, "bea": 0, "spec": "Aucun", "cp": 0},
-    "Turami":          {"idx": 9,  "r": "Humain", "w": 1,  "b": 1,  "bal": 0, "quickness": 0, "coo": 0, "pre": 0, "end": 1, "reg": 1, "vig": 0, "bea": 1, "spec": "Aucun", "cp": 0},
+    "Chultan":         {"idx": 8,  "r": "Humain", "w": 2,  "b": 1,  "bal": 0, "quickness": -1, "coo": -1, "pre": -1, "end": 2, "reg": 2, "vig": 0, "bea": 0, "spec": "Aucun", "cp": 0},
+    "Turami":          {"idx": 9,  "r": "Humain", "w": 1,  "b": 1,  "bal": 0, "quickness": -1, "coo": 0, "pre": 0, "end": 1, "reg": 1, "vig": 0, "bea": 0, "spec": "Aucun", "cp": 0},
     "Ffolk":           {"idx": 10, "r": "Humain", "w": 1,  "b": 1,  "bal": 0, "quickness": 0, "coo": 0, "pre": 0, "end": 1, "reg": 0, "vig": 0, "bea": 1, "spec": "Aucun", "cp": 0},
-    "Sossrim":         {"idx": 11, "r": "Humain", "w": 2,  "b": 1,  "bal": 0, "quickness": 0, "coo": 0, "pre": 0, "end": 1, "reg": 1, "vig": 1, "bea": 0, "spec": "Aucun", "cp": 0},
-        # ==================== AUTRES HUMAINS ====================
-    "Arkaiuns":        {"idx": 123,"r": "Humain", "w": +1, "b": +2,  "bal": 0, "quickness": 0, "coo": 0, "pre": 0, "end": 1, "reg": 0, "vig": 0, "bea": 0, "spec": "Aucun", "cp": 0},
-    "Durpari":         {"idx": 124,"r": "Humain", "w": 0,  "b": +2,  "bal": 0, "quickness": 0, "coo": 0, "pre": 0, "end": 1, "reg": 1, "vig": 0, "bea": 1, "spec": "Aucun", "cp": 0},
-    "Gûr":             {"idx": 125,"r": "Humain", "w": +2, "b": +3,  "bal": 0, "quickness": 1, "coo": 0, "pre": 0, "end": 2, "reg": 1, "vig": 0, "bea": 0, "spec": "Aucun", "cp": 0},
-    "Halruéens":       {"idx": 126,"r": "Humain", "w": -1, "b": +2,  "bal": 1, "quickness": 0, "coo": 1, "pre": 2, "end": 0, "reg": 0, "vig": 1, "bea": 1, "spec": "Aucun", "cp": 0},
-    "Imaskari":        {"idx": 127,"r": "Humain", "w": 0,  "b": +2,  "bal": 0, "quickness": 0, "coo": 1, "pre": 1, "end": 1, "reg": 1, "vig": 1, "bea": 0, "spec": "Aucun", "cp": 0},
-    "Lantannas":       {"idx": 128,"r": "Humain", "w": 0,  "b": +2,  "bal": 0, "quickness": 0, "coo": 1, "pre": 1, "end": 0, "reg": 0, "vig": 1, "bea": 1, "spec": "Aucun", "cp": 0},
-    "Lapalis":         {"idx": 129,"r": "Humain", "w": +1, "b": +2,  "bal": 0, "quickness": 0, "coo": 0, "pre": 0, "end": 1, "reg": 0, "vig": 0, "bea": 0, "spec": "Aucun", "cp": 0},
-    "Nar":             {"idx": 130,"r": "Humain", "w": +2, "b": +2,  "bal": 0, "quickness": 0, "coo": 0, "pre": 0, "end": 1, "reg": 1, "vig": 0, "bea": 0, "spec": "Aucun", "cp": 0},
-    "Raumviriens":     {"idx": 131,"r": "Humain", "w": +1, "b": +2,  "bal": 0, "quickness": 0, "coo": 0, "pre": 0, "end": 1, "reg": 0, "vig": 0, "bea": 0, "spec": "Aucun", "cp": 0},
-    "Shaaryens":       {"idx": 132,"r": "Humain", "w": +2, "b": +3,  "bal": 0, "quickness": 1, "coo": 0, "pre": 0, "end": 2, "reg": 1, "vig": 0, "bea": 0, "spec": "Aucun", "cp": 0},
-    "Tashaliens":      {"idx": 133,"r": "Humain", "w": 0,  "b": +2,  "bal": 0, "quickness": 0, "coo": 1, "pre": 1, "end": 1, "reg": 0, "vig": 1, "bea": 1, "spec": "Aucun", "cp": 0},
-        "Uthgardt":        {"idx": 138, "r": "Humain", "w": 3, "b": 3, "bal": 0, "quickness": 1, "coo": 0, "pre": 0, "end": 3, "reg": 3, "vig": 0, "bea": -1, "spec": "Aucun", "cp": 0.6},
+    "Sossrim":         {"idx": 11, "r": "Humain", "w": 1,  "b": -1,  "bal": 0, "quickness": 0, "coo": 0, "pre": 0, "end": 1, "reg": 1, "vig": 1, "bea": 0, "spec": "Aucun", "cp": 0},
 
-        # ==================== HALFLINGS ====================
+    # ==================== AUTRES HUMAINS (Régionaux) ====================
+    "Arkaiuns":        {"idx": 123,"r": "Humain", "w": 1, "b": 2, "bal": 0, "quickness": 0, "coo": 0, "pre": 0, "end": 1, "reg": 0, "vig": 0, "bea": 0, "spec": "Aucun", "cp": 0},
+    "Durpari":         {"idx": 124,"r": "Humain", "w": 0, "b": 2, "bal": 0, "quickness": 0, "coo": 0, "pre": 0, "end": 1, "reg": 1, "vig": 0, "bea": 1, "spec": "Aucun", "cp": 0},
+    "Gûr":             {"idx": 125,"r": "Humain", "w": 1, "b": 1, "bal": 0, "quickness": 0, "coo": -1, "pre": -1, "end": 2, "reg": 1, "vig": 0, "bea": 0, "spec": "Aucun", "cp": 0},
+    "Halruéens":       {"idx": 126,"r": "Humain", "w": -1,"b": 2, "bal": 1, "quickness": 0, "coo": 1, "pre": 2, "end": 0, "reg": 0, "vig": 1, "bea": 1, "spec": "Aucun", "cp": 0},
+    "Imaskari":        {"idx": 127,"r": "Humain", "w": 0, "b": 2, "bal": 0, "quickness": 0, "coo": 1, "pre": 1, "end": 1, "reg": 1, "vig": 1, "bea": 0, "spec": "Aucun", "cp": 0},
+    "Lantannas":       {"idx": 128,"r": "Humain", "w": 0, "b": 2, "bal": 0, "quickness": 0, "coo": 1, "pre": 1, "end": 0, "reg": 0, "vig": 1, "bea": 1, "spec": "Aucun", "cp": 0},
+    "Lapalis":         {"idx": 129,"r": "Humain", "w": 1, "b": 2, "bal": 0, "quickness": 0, "coo": 0, "pre": 0, "end": 1, "reg": 0, "vig": 0, "bea": 0, "spec": "Aucun", "cp": 0},
+    "Nar":             {"idx": 130,"r": "Humain", "w": 2, "b": 2, "bal": -1,"quickness": 0, "coo": -1, "pre": 0, "end": 1, "reg": 1, "vig": 0, "bea": 0, "spec": "Aucun", "cp": 0},
+    "Raumviriens":     {"idx": 131,"r": "Humain", "w": 1, "b": 2, "bal": 0, "quickness": 0, "coo": 0, "pre": 0, "end": 1, "reg": 0, "vig": 0, "bea": 0, "spec": "Aucun", "cp": 0},
+    "Shaaryens":       {"idx": 132,"r": "Humain", "w": 1, "b": 1, "bal": 0, "quickness": 0, "coo": 0, "pre": 0, "end": 2, "reg": 1, "vig": 0, "bea": 0, "spec": "Aucun", "cp": 0},
+    "Tashaliens":      {"idx": 133,"r": "Humain", "w": 0, "b": 2, "bal": 0, "quickness": 0, "coo": 1, "pre": 1, "end": 1, "reg": 0, "vig": 1, "bea": 1, "spec": "Aucun", "cp": 0},
+    "Uthgardt":        {"idx": 138,"r": "Humain", "w": 3, "b": 3, "bal": 0, "quickness": 1, "coo": 0, "pre": 0, "end": 3, "reg": 3, "vig": 0, "bea": -1, "spec": "Aucun", "cp": 0.6},
+
+    # ==================== HALFLINGS ====================
     "Strongheart":     {"idx": 12, "r": "Halfelin", "w": -13, "b": 8, "bal": 6, "quickness": 6, "coo": 6, "pre": 3, "end": 2, "reg": 2, "vig": 1, "bea": 0, "spec": "Robustesse halfeline", "cp": 0},
     "Lightfoot":       {"idx": 13, "r": "Halfelin", "w": -13, "b": 6, "bal": 5, "quickness": 6, "coo": 6, "pre": 3, "end": 1, "reg": 0, "vig": 2, "bea": 2, "spec": "Furtivité naturelle", "cp": 0},
     "Ghostwalk":       {"idx": 14, "r": "Halfelin", "w": -13, "b": 7, "bal": 6, "quickness": 6, "coo": 5, "pre": 4, "end": 1, "reg": 1, "vig": 3, "bea": 1, "spec": "Télépathie silencieuse", "cp": 0.8},
     "Tallfellow":      {"idx": 117,"r": "Halfelin", "w": -13, "b": 5, "bal": 5, "quickness": 6, "coo": 6, "pre": 3, "end": 1, "reg": 0, "vig": 2, "bea": 2, "spec": "Furtivité naturelle", "cp": 0},
-    
-     # ==================== NAINS ====================
+
+    # ==================== NAINS ====================
     "Nain d'écu":      {"idx": 15, "r": "Nain", "w": 4, "b": 46, "bal": -2, "quickness": 0, "coo": 0, "pre": 0, "end": 3, "reg": 4, "vig": 1, "bea": -2, "spec": "Vision dans le noir (N1) + robustesse naine", "cp": 2},
-    "Nain d'or":       {"idx": 16, "r": "Nain", "w": 5, "b": 48, "bal": -2, "quickness": 0, "coo": 0, "pre": 0, "end": 3, "reg": 4, "vig": 1, "bea": -1, "spec": "Vision dans le noir (N1) + robustesse naine", "cp": 2},
+    "Nain d'or":       {"idx": 16, "r": "Nain", "w": 5, "b": 48, "bal": -2, "quickness": -1, "coo": -1, "pre": 0, "end": 3, "reg": 4, "vig": 1, "bea": -1, "spec": "Vision dans le noir (N1) + robustesse naine", "cp": 2},
     "Nain gris":       {"idx": 17, "r": "Nain", "w": 4, "b": 45, "bal": -2, "quickness": -1, "coo": 0, "pre": 0, "end": 3, "reg": 4, "vig": 1, "bea": -2, "spec": "Invisibilité + Agrandissement", "cp": 2},
     "Nain arctique":   {"idx": 18, "r": "Nain", "w": 4, "b": 44, "bal": -2, "quickness": -2, "coo": 0, "pre": 0, "end": 3, "reg": 5, "vig": 1, "bea": -2, "spec": "Vision dans le noir (N1) + robustesse naine", "cp": 2},
     "Nain sauvages":   {"idx": 19, "r": "Nain", "w": 5, "b": 42, "bal": -2, "quickness": 0,  "coo": 0, "pre": 0, "end": 2, "reg": 3, "vig": 0, "bea": -1, "spec": "Vision dans le noir (N1) + robustesse naine", "cp": 2},
     "Urdunnir":        {"idx": 20, "r": "Nain", "w": 6, "b": 52, "bal": -2, "quickness": -1, "coo": -1, "pre": 0, "end": 3, "reg": 4, "vig": 1, "bea": -2, "spec": "Marche à travers la pierre", "cp": 2},
 
+    # ==================== DEMI-ELFES ====================
+    "Demi-elfe des bois":    {"idx": 21, "r": "Demi-elfe", "w": -2, "b": -7, "bal": 2, "quickness": 2, "coo": 2, "pre": 1, "end": 1, "reg": 1, "vig": 2, "bea": 2, "spec": "Méditation + Immunité au sommeil + Vision nocturne (N1)", "cp": 2.0},
+    "Demi-elfe de la lune":  {"idx": 22, "r": "Demi-elfe", "w": -2, "b": -8, "bal": 2, "quickness": 2, "coo": 2, "pre": 1, "end": 0, "reg": 1, "vig": 2, "bea": 3, "spec": "Méditation + Immunité au sommeil + Vision nocturne (N1)", "cp": 2.0},
+    "Demi-elfe noir":        {"idx": 23, "r": "Demi-elfe", "w": -3, "b": -6, "bal": 3, "quickness": 3, "coo": 3, "pre": 2, "end": 1, "reg": 1, "vig": 2, "bea": 1, "spec": "Méditation + Immunité au sommeil + Vision dans le noir (N1) + Sorts innés (N1)", "cp": 3.0},
+    "Demi-elfe du soleil":   {"idx": 24, "r": "Demi-elfe", "w": -2, "b": -9, "bal": 2, "quickness": 2, "coo": 2, "pre": 1, "end": 0, "reg": 1, "vig": 2, "bea": 3, "spec": "Méditation + Immunité au sommeil + Vision nocturne (N1)", "cp": 2.0},
+    "Demi-elfe sauvage":     {"idx": 25, "r": "Demi-elfe", "w": -2, "b": -7, "bal": 2, "quickness": 3, "coo": 3, "pre": 1, "end": 1, "reg": 2, "vig": 1, "bea": 1, "spec": "Méditation + Immunité au sommeil + Vision nocturne (N1)", "cp": 2.0},
+    "Demi-elfe de la mer":   {"idx": 26, "r": "Demi-elfe", "w": -2, "b": -6, "bal": 3, "quickness": 2, "coo": 2, "pre": 1, "end": 2, "reg": 2, "vig": 2, "bea": 2, "spec": "Respiration aquatique + Méditation + Immunité au sommeil + VN (N1)", "cp": 2.5},
+    "Demi-elfe des étoiles": {"idx": 27, "r": "Demi-elfe", "w": -3, "b": -8, "bal": 3, "quickness": 3, "coo": 3, "pre": 2, "end": 0, "reg": 1, "vig": 3, "bea": 4, "spec": "Magie stellaire innée + Méditation + Immunité au sommeil + VN (N1)", "cp": 2.0},
+    "Demi-avariel":          {"idx": 28, "r": "Demi-elfe", "w": -4, "b": -10,"bal": 3, "quickness": 4, "coo": 3, "pre": 3, "end": -1,"reg": 0, "vig": 2, "bea": 3, "spec": "Vol naturel + Méditation + Immunité au sommeil + VN (N1)", "cp": 4.5},
+    "Demi-lythari":          {"idx": 29, "r": "Demi-elfe", "w": -3, "b": -7, "bal": 3, "quickness": 3, "coo": 3, "pre": 2, "end": 1, "reg": 2, "vig": 2, "bea": 2, "spec": "Lycanthropie lupine contrôlée + Méditation + Immunité au sommeil + VN (N1)", "cp": 2.2},
 
-        # ==================== DEMI-ELFES ====================
-    "Demi-elfe des bois":    {"idx": 21, "r": "Demi-elfe", "w": -2, "b": -7, "bal": 2, "quickness": 2, "coo": 2, "pre": 2, "end": 1, "reg": 1, "vig": 2, "bea": 2, "spec": "Méditation + Immunité au sommeil + Vision nocturne (N1)", "cp": 2.0},
-    "Demi-elfe de la lune":  {"idx": 22, "r": "Demi-elfe", "w": -2, "b": -8, "bal": 2, "quickness": 2, "coo": 2, "pre": 2, "end": 0, "reg": 1, "vig": 2, "bea": 3, "spec": "Méditation + Immunité au sommeil + Vision nocturne (N1)", "cp": 2.0},
-    "Demi-elfe noir":        {"idx": 23, "r": "Demi-elfe", "w": -3, "b": -6, "bal": 3, "quickness": 3, "coo": 3, "pre": 3, "end": 1, "reg": 1, "vig": 2, "bea": 1, "spec": "Méditation + Immunité au sommeil + Vision dans le noir (N1) + Sorts innés (N1)", "cp": 3.0},
-    "Demi-elfe du soleil":   {"idx": 24, "r": "Demi-elfe", "w": -2, "b": -9, "bal": 2, "quickness": 2, "coo": 2, "pre": 2, "end": 0, "reg": 1, "vig": 2, "bea": 3, "spec": "Méditation + Immunité au sommeil + Vision nocturne (N1)", "cp": 2.0},
-    "Demi-elfe sauvage":     {"idx": 25, "r": "Demi-elfe", "w": -2, "b": -7, "bal": 2, "quickness": 3, "coo": 3, "pre": 2, "end": 1, "reg": 2, "vig": 1, "bea": 1, "spec": "Méditation + Immunité au sommeil + Vision nocturne (N1)", "cp": 2.0},
-    "Demi-elfe de la mer":   {"idx": 26, "r": "Demi-elfe", "w": -2, "b": -6, "bal": 3, "quickness": 2, "coo": 2, "pre": 2, "end": 2, "reg": 2, "vig": 2, "bea": 2, "spec": "Respiration aquatique + Méditation + Immunité au sommeil + VN (N1)", "cp": 2.5},
-    "Demi-elfe des étoiles": {"idx": 27, "r": "Demi-elfe", "w": -3, "b": -8, "bal": 3, "quickness": 3, "coo": 3, "pre": 3, "end": 0, "reg": 1, "vig": 3, "bea": 4, "spec": "Magie stellaire innée + Méditation + Immunité au sommeil + VN (N1)", "cp": 2.0},
-    "Demi-avariel":          {"idx": 28, "r": "Demi-elfe", "w": -4, "b": -10, "bal": 3, "quickness": 4, "coo": 3, "pre": 3, "end": -1, "reg": 0, "vig": 2, "bea": 3, "spec": "Vol naturel + Méditation + Immunité au sommeil + VN (N1)", "cp": 4.5},
-    "Demi-lythari":          {"idx": 29, "r": "Demi-elfe", "w": -3, "b": -7, "bal": 3, "quickness": 3, "coo": 3, "pre": 3, "end": 1, "reg": 2, "vig": 2, "bea": 2, "spec": "Lycanthropie lupine contrôlée + Méditation + Immunité au sommeil + VN (N1)", "cp": 2.2},
-          
-          
-          
-             # ==================== ELFES ====================
+    # ==================== ELFES ====================
     "Elfe des bois":     {"idx": 30, "r": "Elfe", "w": -3, "b": -9,  "bal": 2, "quickness": 2, "coo": 2, "pre": 2, "end": 1, "reg": 1, "vig": 2, "bea": 2, "spec": "Transe + Méditation + Immunité au sommeil + Vision nocturne (N2)", "cp": 3.0},
-    "Elfe de la lune":   {"idx": 31, "r": "Elfe", "w": -4, "b": -10,  "bal": 2, "quickness": 2, "coo": 2, "pre": 2, "end": 0, "reg": 1, "vig": 2, "bea": 3, "spec": "Transe + Méditation + Immunité au sommeil + Vision nocturne (N2)", "cp": 3.0},
-    "Elfe noir":         {"idx": 32, "r": "Elfe", "w": -5, "b": -8, "bal": 5, "quickness": 5, "coo": 5, "pre": 4, "end": 1, "reg": 1, "vig": 3, "bea": 1, "spec": "Sorts innés (N2) + Méditation + Immunité au sommeil + Darkvision (N2)", "cp": 5.0},
-    "Elfe du soleil":    {"idx": 33, "r": "Elfe", "w": -2, "b": -11,  "bal": 2, "quickness": 2, "coo": 2, "pre": 2, "end": 0, "reg": 1, "vig": 2, "bea": 3, "spec": "Transe + Méditation + Immunité au sommeil + Vision nocturne (N2)", "cp": 3.0},
+    "Elfe de la lune":   {"idx": 31, "r": "Elfe", "w": -4, "b": -10, "bal": 2, "quickness": 2, "coo": 2, "pre": 3, "end": 0, "reg": 1, "vig": 2, "bea": 3, "spec": "Transe + Méditation + Immunité au sommeil + Vision nocturne (N2)", "cp": 3.0},
+    "Elfe noir":         {"idx": 32, "r": "Elfe", "w": -5, "b": -8,  "bal": 5, "quickness": 5, "coo": 5, "pre": 4, "end": 1, "reg": 1, "vig": 3, "bea": 1, "spec": "Sorts innés (N2) + Méditation + Immunité au sommeil + Darkvision (N2)", "cp": 5.0},
+    "Elfe du soleil":    {"idx": 33, "r": "Elfe", "w": -2, "b": -11, "bal": 2, "quickness": 2, "coo": 2, "pre": 1, "end": 0, "reg": 1, "vig": 2, "bea": 3, "spec": "Transe + Méditation + Immunité au sommeil + Vision nocturne (N2)", "cp": 3.0},
     "Elfe sauvage":      {"idx": 34, "r": "Elfe", "w": -3, "b": -9,  "bal": 2, "quickness": 2, "coo": 2, "pre": 2, "end": 1, "reg": 2, "vig": 1, "bea": 1, "spec": "Transe + Méditation + Immunité au sommeil + Vision nocturne (N2)", "cp": 3.0},
-    "Elfe de la mer":    {"idx": 35, "r": "Elfe", "w": -2, "b": -10,  "bal": 2, "quickness": 2, "coo": 2, "pre": 2, "end": 2, "reg": 2, "vig": 2, "bea": 2, "spec": "Respiration aquatique + Transe + Méditation + Immunité au sommeil + Vision nocturne (N2)", "cp": 3.5},
-    "Elfe des étoiles":  {"idx": 36, "r": "Elfe", "w": -2, "b": -12,  "bal": 2, "quickness": 2, "coo": 2, "pre": 2, "end": -1, "reg": 1, "vig": 3, "bea": 4, "spec": "Magie stellaire innée + Transe + Méditation + Immunité au sommeil + Vision nocturne (N2)", "cp": 3.0},
-    "Avariel":           {"idx": 37, "r": "Elfe", "w": -4, "b": -13, "bal": 2, "quickness": 2, "coo": 2, "pre": 2, "end": -1, "reg": 0, "vig": 2, "bea": 3, "spec": "Vol naturel + Transe + Méditation + Immunité au sommeil + Vision nocturne (N2)", "cp": 5.5},
-    "Lythari":           {"idx": 38, "r": "Elfe", "w": -3, "b": -10,  "bal": 2, "quickness": 2, "coo": 2, "pre": 2, "end": 1, "reg": 2, "vig": 2, "bea": 2, "spec": "Lycanthropie lupine contrôlée + Transe + Méditation + Immunité au sommeil + Vision nocturne (N2)", "cp": 3.8},
+    "Elfe de la mer":    {"idx": 35, "r": "Elfe", "w": -2, "b": -10, "bal": 2, "quickness": 2, "coo": 2, "pre": 1, "end": 2, "reg": 2, "vig": 2, "bea": 2, "spec": "Respiration aquatique + Transe + Méditation + Immunité au sommeil + Vision nocturne (N2)", "cp": 3.5},
+    "Elfe des étoiles":  {"idx": 36, "r": "Elfe", "w": -2, "b": -12, "bal": 2, "quickness": 2, "coo": 2, "pre": 1, "end": -1,"reg": 1, "vig": 3, "bea": 4, "spec": "Magie stellaire innée + Transe + Méditation + Immunité au sommeil + Vision nocturne (N2)", "cp": 3.0},
+    "Avariel":           {"idx": 37, "r": "Elfe", "w": -4, "b": -13, "bal": 2, "quickness": 2, "coo": 2, "pre": 3, "end": -1,"reg": 0, "vig": 2, "bea": 3, "spec": "Vol naturel + Transe + Méditation + Immunité au sommeil + Vision nocturne (N2)", "cp": 5.5},
+    "Lythari":           {"idx": 38, "r": "Elfe", "w": -3, "b": -10, "bal": 2, "quickness": 2, "coo": 2, "pre": 2, "end": 1, "reg": 2, "vig": 2, "bea": 2, "spec": "Lycanthropie lupine contrôlée + Transe + Méditation + Immunité au sommeil + Vision nocturne (N2)", "cp": 3.8},
+
     # ==================== GNOMES ====================
     "Gnome des roches":     {"idx": 39, "r": "Gnome", "w": -10, "b": 28, "bal": 1, "quickness": 1, "coo": 2, "pre": 3, "end": 2, "reg": 3, "vig": 1, "bea": -1, "spec": "Affinité illusion", "cp": 0},
     "Gnome des forêts":     {"idx": 40, "r": "Gnome", "w": -10, "b": 28, "bal": 2, "quickness": 2, "coo": 3, "pre": 2, "end": 1, "reg": 1, "vig": 2, "bea": 1, "spec": "Affinité nature", "cp": 0},
     "Gnome des profondeurs":{"idx": 41, "r": "Gnome", "w": -10, "b": 29, "bal": 1, "quickness": 1, "coo": 2, "pre": 3, "end": 2, "reg": 4, "vig": 1, "bea": -2, "spec": "Camouflage pierre", "cp": 1.0},
-    "Deep Gnome":           {"idx": 68, "r": "Gnome", "w": -10, "b": 29, "bal": 1, "quickness": 1, "coo": 2, "pre": 3, "end": 2, "reg": 4, "vig": 1, "bea": -2, "spec": "Camouflage pierre", "cp": 1.0},
 
     # ==================== DEMI-ORCS & ORCS ====================
     "Mountain Orc":  {"idx": 42, "r": "Demi-orc", "w": 2, "b": 14, "bal": 0, "quickness": 1, "coo": 0, "pre": -1, "end": 2, "reg": 2, "vig": 0, "bea": -2, "spec": "Aucun", "cp": 0},
     "Gray Orc":      {"idx": 43, "r": "Demi-orc", "w": 2, "b": 15, "bal": 0, "quickness": 1, "coo": 0, "pre": -1, "end": 2, "reg": 2, "vig": 0, "bea": -2, "spec": "Aucun", "cp": 0},
     "Orogs":         {"idx": 44, "r": "Demi-orc", "w": 3, "b": 20, "bal": 0, "quickness": 1, "coo": -1, "pre": -1, "end": 2, "reg": 2, "vig": 0, "bea": -3, "spec": "Aucun", "cp": 0},
-    "Orc":           {"idx": 100,"r": "Autre",    "w": 4, "b": 16, "bal": -1, "quickness": 1, "coo": -1, "pre": -1, "end": 2, "reg": 2, "vig": 0, "bea": -3, "spec": "Furie orque", "cp": 0},
+    "Orc":           {"idx": 100,"r": "Autre",    "w": 4, "b": 16, "bal": -1,"quickness": 1, "coo": -1, "pre": -1, "end": 2, "reg": 2, "vig": 0, "bea": -3, "spec": "Furie orque", "cp": 0},
 
-
-
-
-       # ==================== AUTRES RACES (48 à 137) ====================
+    # ==================== AUTRES RACES ====================
     "Drakeide":         {"idx": 48, "r": "Autre", "w": 4, "b": 2, "bal": 1, "quickness": 1, "coo": 0, "pre": 0, "end": 2, "reg": 3, "vig": 1, "bea": 0, "spec": "Souffle élémentaire", "cp": 1.5},
     "Protector Aasimar":{"idx": 49, "r": "Autre", "w": 0, "b": 0, "bal": 1, "quickness": 1, "coo": 1, "pre": 2, "end": 1, "reg": 2, "vig": 2, "bea": 3, "spec": "Lumière sacrée", "cp": 1.8},
     "Scourge Aasimar":  {"idx": 50, "r": "Autre", "w": 0, "b": 0, "bal": 1, "quickness": 1, "coo": 1, "pre": 2, "end": 2, "reg": 1, "vig": 2, "bea": 2, "spec": "Radiance consumante", "cp": 2.0},
@@ -101,7 +96,7 @@ ethnicity_data = {
     "Caiman Katanga":   {"idx": 65, "r": "Autre", "w": 4, "b": 3, "bal": 1, "quickness": 1, "coo": 0, "pre": 0, "end": 3, "reg": 3, "vig": 1, "bea": -1, "spec": "Forme caïman", "cp": 1.0},
     "Centaur":          {"idx": 66, "r": "Autre", "w": 5, "b": 3, "bal": 1, "quickness": 3, "coo": 0, "pre": 0, "end": 3, "reg": 2, "vig": 1, "bea": 0, "spec": "Charge puissante", "cp": 1.2},
     "Chitine":          {"idx": 67, "r": "Autre", "w": -6, "b": 2, "bal": 2, "quickness": 2, "coo": 2, "pre": 2, "end": 1, "reg": 1, "vig": 2, "bea": -2, "spec": "Toile + griffes", "cp": 1.2},
-    "Deep Gnome":       {"idx": 68, "r": "Gnome", "w": -10, "b": 5, "bal": 1, "quickness": 1, "coo": 2, "pre": 3, "end": 2, "reg": 4, "vig": 1, "bea": -2, "spec": "Camouflage pierre", "cp": 1.0},
+    "Deep Gnome":       {"idx": 68, "r": "Gnome", "w": -10, "b": 29, "bal": 1, "quickness": 1, "coo": 2, "pre": 3, "end": 2, "reg": 4, "vig": 1, "bea": -2, "spec": "Camouflage pierre", "cp": 1.0},
     "Elan":             {"idx": 69, "r": "Autre", "w": -2, "b": 0, "bal": 2, "quickness": 1, "coo": 2, "pre": 2, "end": 1, "reg": 1, "vig": 3, "bea": 2, "spec": "Pouvoirs psioniques", "cp": 1.8},
     "Firenewt":         {"idx": 70, "r": "Autre", "w": 2, "b": 3, "bal": 1, "quickness": 1, "coo": 0, "pre": 0, "end": 3, "reg": 4, "vig": 1, "bea": -2, "spec": "Résistance feu", "cp": 1.2},
     "Fremlin":          {"idx": 71, "r": "Autre", "w": -17, "b": 0, "bal": 3, "quickness": 3, "coo": 3, "pre": 2, "end": -1, "reg": -2, "vig": 2, "bea": -3, "spec": "Sabotage + Furtivité", "cp": 0.5},
@@ -109,7 +104,6 @@ ethnicity_data = {
     "Gloaming":         {"idx": 73, "r": "Autre", "w": -3, "b": -1, "bal": 2, "quickness": 1, "coo": 2, "pre": 2, "end": 1, "reg": 0, "vig": 2, "bea": 1, "spec": "Aucun", "cp": 0.8},
     "Gnoll":            {"idx": 74, "r": "Autre", "w": 6, "b": 0, "bal": -1, "quickness": 1, "coo": -1, "pre": -1, "end": 1, "reg": 1, "vig": 0, "bea": -2, "spec": "Morsure + Frénésie", "cp": 0.8},
     "Goblin":           {"idx": 75, "r": "Autre", "w": -12, "b": 2, "bal": 1, "quickness": 2, "coo": 1, "pre": 1, "end": 0, "reg": 0, "vig": 1, "bea": -2, "spec": "Aucun", "cp": 0},
-    "Gray Orc":         {"idx": 76, "r": "Autre", "w": 3, "b": 2, "bal": 0, "quickness": 1, "coo": -1, "pre": -1, "end": 2, "reg": 2, "vig": 0, "bea": -2, "spec": "Aucun", "cp": 0},
     "Grimlock":         {"idx": 77, "r": "Autre", "w": 4, "b": 4, "bal": -1, "quickness": 0, "coo": -2, "pre": -2, "end": 2, "reg": 2, "vig": 0, "bea": -3, "spec": "Aveugle + odorat", "cp": 0.8},
     "Hadozee":          {"idx": 78, "r": "Autre", "w": -2, "b": 1, "bal": 2, "quickness": 3, "coo": 2, "pre": 1, "end": 2, "reg": 1, "vig": 2, "bea": 1, "spec": "Grimpeur expert", "cp": 1.0},
     "Half-goblin":      {"idx": 79, "r": "Autre", "w": -8, "b": 2, "bal": 1, "quickness": 2, "coo": 1, "pre": 1, "end": 1, "reg": 0, "vig": 1, "bea": -1, "spec": "Aucun", "cp": 0},
@@ -123,7 +117,6 @@ ethnicity_data = {
     "Koalinth":         {"idx": 87, "r": "Autre", "w": 1, "b": 2, "bal": 1, "quickness": 1, "coo": 1, "pre": 1, "end": 2, "reg": 1, "vig": 1, "bea": -1, "spec": "Aucun", "cp": 0.5},
     "Krinth":           {"idx": 88, "r": "Autre", "w": 2, "b": 3, "bal": 0, "quickness": 1, "coo": 0, "pre": 0, "end": 3, "reg": 2, "vig": 0, "bea": -2, "spec": "Résistance ombre", "cp": 1.0},
     "Kuo-toa":          {"idx": 89, "r": "Autre", "w": -4, "b": -1, "bal": 1, "quickness": 1, "coo": 0, "pre": 0, "end": 1, "reg": 0, "vig": 2, "bea": -3, "spec": "Fanatisme religieux", "cp": 0.8},
-    "Lightfoot":        {"idx": 90, "r": "Halfelin", "w": -13, "b": 2, "bal": 2, "quickness": 2, "coo": 2, "pre": 1, "end": 1, "reg": 0, "vig": 2, "bea": 2, "spec": "Furtivité naturelle", "cp": 0},
     "Llewyrr":          {"idx": 91, "r": "Elfe", "w": -3, "b": 0, "bal": 2, "quickness": 2, "coo": 2, "pre": 2, "end": 1, "reg": 1, "vig": 2, "bea": 3, "spec": "Aucun", "cp": 3.0},
     "Locathah":         {"idx": 92, "r": "Autre", "w": 1, "b": 1, "bal": 1, "quickness": 2, "coo": 1, "pre": 1, "end": 3, "reg": 3, "vig": 1, "bea": 0, "spec": "Respiration aquatique", "cp": 1.0},
     "Loxo":             {"idx": 94, "r": "Autre", "w": 7, "b": 5, "bal": 0, "quickness": 1, "coo": -1, "pre": -1, "end": 4, "reg": 3, "vig": 0, "bea": -2, "spec": "Force colossale", "cp": 1.5},
@@ -132,7 +125,6 @@ ethnicity_data = {
     "Mongrelfolk":      {"idx": 97, "r": "Autre", "w": 2, "b": 2, "bal": 0, "quickness": 1, "coo": 0, "pre": 0, "end": 2, "reg": 1, "vig": 0, "bea": -2, "spec": "Adaptation multiple", "cp": 0.8},
     "N-Tel-Quess":      {"idx": 98, "r": "Elfe", "w": -2, "b": -1, "bal": 2, "quickness": 2, "coo": 3, "pre": 3, "end": 0, "reg": 1, "vig": 3, "bea": 4, "spec": "Magie ancienne", "cp": 3.5},
     "Nubari":           {"idx": 99, "r": "Humain", "w": 1, "b": 2, "bal": 0, "quickness": 1, "coo": 0, "pre": 0, "end": 2, "reg": 2, "vig": 1, "bea": 0, "spec": "Aucun", "cp": 0},
-    "Orc":              {"idx": 100,"r": "Demi-orc", "w": 4, "b": 2, "bal": -1, "quickness": 1, "coo": -1, "pre": -1, "end": 2, "reg": 2, "vig": 0, "bea": -3, "spec": "Furie orque", "cp": 0},
     "Orog":             {"idx": 101,"r": "Demi-orc", "w": 5, "b": 4, "bal": 0, "quickness": 1, "coo": -1, "pre": -1, "end": 3, "reg": 2, "vig": 0, "bea": -3, "spec": "Aucun", "cp": 0},
     "Pahari":           {"idx": 102,"r": "Autre", "w": 0, "b": 0, "bal": 2, "quickness": 2, "coo": 2, "pre": 2, "end": 2, "reg": 2, "vig": 2, "bea": 3, "spec": "Respiration aquatique", "cp": 1.0},
     "Pangolin Katanga": {"idx": 103,"r": "Autre", "w": 3, "b": 4, "bal": 1, "quickness": 0, "coo": 0, "pre": 0, "end": 4, "reg": 4, "vig": 0, "bea": -2, "spec": "Forme pangolin", "cp": 1.0},
@@ -147,9 +139,7 @@ ethnicity_data = {
     "Selûne's Children":{"idx": 112,"r": "Autre", "w": -1, "b": 0, "bal": 2, "quickness": 2, "coo": 2, "pre": 2, "end": 1, "reg": 2, "vig": 3, "bea": 4, "spec": "Lien lunaire", "cp": 2.0},
     "Shifter":          {"idx": 113,"r": "Autre", "w": -2, "b": -1, "bal": 2, "quickness": 2, "coo": 1, "pre": 1, "end": 1, "reg": 2, "vig": 1, "bea": 0, "spec": "Transformation bestiale", "cp": 1.0},
     "Spirit Folk":      {"idx": 114,"r": "Autre", "w": -1, "b": 0, "bal": 2, "quickness": 2, "coo": 2, "pre": 2, "end": 2, "reg": 2, "vig": 2, "bea": 3, "spec": "Esprit de la nature", "cp": 1.5},
-    "Tabaxi":           {"idx": 115,"r": "Autre", "w": -4, "b": 0, "bal": 3, "quickness": 4, "coo": 2, "pre": 2, "end": 1, "reg": 1, "vig": 2, "bea": 1, "spec": "Agilité féline", "cp": 1.3},
     "Talfir":           {"idx": 116,"r": "Humain", "w": 0, "b": 1, "bal": 0, "quickness": 0, "coo": 1, "pre": 1, "end": 1, "reg": 0, "vig": 0, "bea": 1, "spec": "Aucun", "cp": 0},
-    "Tallfellow":       {"idx": 117,"r": "Halfelin", "w": -13, "b": 1, "bal": 1, "quickness": 2, "coo": 2, "pre": 2, "end": 1, "reg": 0, "vig": 2, "bea": 2, "spec": "Furtivité naturelle", "cp": 0},
     "Vodyanoi":         {"idx": 118,"r": "Autre", "w": 5, "b": 4, "bal": 1, "quickness": 1, "coo": 0, "pre": 0, "end": 4, "reg": 4, "vig": 1, "bea": -2, "spec": "Aquatique", "cp": 1.2},
     "Volodni":          {"idx": 119,"r": "Autre", "w": 2, "b": 3, "bal": 1, "quickness": 1, "coo": 1, "pre": 1, "end": 3, "reg": 3, "vig": 1, "bea": 0, "spec": "Aucun", "cp": 1.0},
     "Yuan-ti Malison":  {"idx": 120,"r": "Autre", "w": 1, "b": 2, "bal": 1, "quickness": 1, "coo": 2, "pre": 2, "end": 2, "reg": 2, "vig": 2, "bea": 1, "spec": "Résistance poison", "cp": 1.8},
@@ -160,15 +150,15 @@ ethnicity_data = {
     "Triton":           {"idx": 136,"r": "Autre", "w": 2, "b": 1, "bal": 1, "quickness": 1, "coo": 1, "pre": 1, "end": 2, "reg": 2, "vig": 1, "bea": 1, "spec": "Respiration aquatique", "cp": 1.0},
     "Lizardfolk":       {"idx": 137,"r": "Autre", "w": 4, "b": 2, "bal": 1, "quickness": 0, "coo": 0, "pre": 0, "end": 3, "reg": 3, "vig": 0, "bea": -1, "spec": "Morsure + Artisanat osseux", "cp": 1.0},
 }
-# ====================== PONDERATION CATEGORIES ======================
-# ====================== PONDERATION CATEGORIES ======================
+
+# ====================== PONDERATION DES GRANDES CATÉGORIES ======================
 category_weights = {
-    "Humain":     82,     # Majorité claire
+    "Humain":     82,
     "Nain":       7.5,
-    "Elfe":       3.0,    # Réduit
-    "Demi-elfe":  2.0,    # Réduit
+    "Elfe":       3.0,
+    "Demi-elfe":  2.0,
     "Halfelin":   2.0,
     "Gnome":      1.2,
     "Demi-orc":   1.3,
-    "Autre":      1.0     # Races rares
+    "Autre":      1.0
 }

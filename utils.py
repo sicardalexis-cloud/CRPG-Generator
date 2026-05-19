@@ -59,6 +59,7 @@ def generate_character(char_id: str):
     race, ethnicity = choose_race_and_ethnicity()
     data = ethnicity_data[ethnicity]
 
+
     # ====================== ATTRIBUTES ======================
     weight_score = math.floor(roll_12d6() / 2) - 21 + data.get("w", 0)
     build_score  = roll_6d6() - 21 + data.get("b", 0)

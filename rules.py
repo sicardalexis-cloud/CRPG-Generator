@@ -33,7 +33,7 @@ def calculate_height(weight_kg: float, build_score: float) -> float:
 
 def calculate_size_score(height: float) -> int:
     """Size Score basé sur la taille"""
-    return math.floor((height - 170) / 8)
+    return ((height - 170) / 8)
 
 
 # ====================== SKILL SYSTEM ======================
@@ -99,20 +99,44 @@ def calculate_combat_points(
 
 # ====================== MAGIC SYSTEM ======================
 
-def determine_magic_type(combat_points: float) -> Dict:
-    """Détermine le type de magie selon le Total Combat Points"""
-    if combat_points >= 0:
-        return {"magic": False, "type": "None", "subtype": None, "description": "Aucun talent magique"}
-    elif combat_points >= -5:
-        return {"magic": True, "type": "Theurgist", "subtype": "Théurgiste", "description": "Théurgiste (magie divine instinctive)"}
-    elif combat_points >= -12:
-        return {"magic": True, "type": "Mage", "subtype": "Magicien", "description": "Magicien classique (étude et formules)"}
-    else:
-        if random.random() < 0.5:
-            return {"magic": True, "type": "Double", "subtype": "Magicien & Théurgiste", "description": "Double talent : Magicien + Théurgiste"}
-        else:
-            wild_type = random.choice(["Sorcier", "Warlock", "Psionique", "Oracle", "Magie du Sang"])
-            return {"magic": True, "type": "Wild", "subtype": wild_type, "description": f"Magie sauvage - {wild_type}"}
+def determine_magic_type(combat_points: float) -> dict:
+    """Nouveau système de magie (mise à jour Mai 2026)
+    Si Combat Points < -2 → le personnage est magiquement actif
+    Puis répartition aléatoire : Théurgique 50% | Arcanique 40% | Sauvage 10%"""
+    
+    if combat_points >= -2:
+        return {
+            "magic": False,
+            "type": "None",
+            "subtype": None,
+            "description": "Non-magique"
+        }
+    
+    # Magiquement actif
+    roll = random.random()
+    
+    if roll < 0.50:
+        return {
+            "magic": True,
+            "type": "Théurgique",
+            "subtype": "Théurgiste",
+            "description": "Théurgiste (magie divine instinctive)"
+        }
+    elif roll < 0.90:        # 0.50 à 0.90 = 40%
+        return {
+            "magic": True,
+            "type": "Arcanique",
+            "subtype": "Magicien",
+            "description": "Magicien arcanique (étude et formules)"
+        }
+    else:                    # 10%
+        wild_type = random.choice(["Sorcier", "Warlock", "Psionique", "Oracle", "Magie du Sang", "Sorcellerie"])
+        return {
+            "magic": True,
+            "type": "Sauvage",
+            "subtype": wild_type,
+            "description": f"Magie sauvage - {wild_type}"
+        }
 
 
 # ====================== SECONDARY ATTRIBUTES ======================

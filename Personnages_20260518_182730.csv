@@ -1,0 +1,101 @@
+ID,Indice,Race,Ethnicity,Magic_Type,Combat_Points,Grappling,Melee,Fencing,Skill_Modifier,Projectiles,Weight_Score,Build_Score,Height_cm,Weight_kg,Size_Score,Balance,Quickness,Coordination,Precision,Endurance,Regeneration,Vigilance,Beauty,Stealth,Magic,Magic_Subtype,Magic_Description,Special
+CH-00001,30,Elfe,Elfe des bois,None,0.38,-2,-1,0,-1,0,-1,-10,170.3,64.5,0,0,-2,3,0,6,5,2,1,2,NO,,Non-magique,Transe + Méditation + Immunité au sommeil + Vision nocturne (N2)
+CH-00002,7,Humain,Tethyrians,Sauvage,-7.9,0,-2,-2,1,-9,1,0,173.0,71.7,0,-4,5,-8,-7,-5,-4,6,-1,-9,YES,Warlock,Magie sauvage - Warlock,Aucun
+CH-00003,7,Humain,Tethyrians,Théurgique,-4.62,-2,-1,-1,1,-1,-2,-3,165.1,61.2,-1,2,-3,4,-1,4,-7,-7,-3,5,YES,Théurgiste,Théurgiste (magie divine instinctive),Aucun
+CH-00004,90,Halfelin,Lightfoot,Arcanique,-6.6,-9,-6,-5,1,3,-11,-2,140.7,38.1,-4,4,7,-2,3,-8,-1,6,-2,7,YES,Magicien,Magicien arcanique (étude et formules),Furtivité naturelle
+CH-00005,2,Humain,Chondathans,None,12.58,2,2,2,-4,3,3,-4,180.6,79.6,1,0,-1,2,3,1,-1,11,4,-1,NO,,Non-magique,Aucun
+CH-00006,6,Humain,Rashemi,Théurgique,-11.92,-7,-6,-6,2,-1,-5,1,154.8,52.2,-2,-6,4,-6,1,3,7,1,-1,-6,YES,Théurgiste,Théurgiste (magie divine instinctive),Aucun
+CH-00007,3,Humain,Damarans,None,16.2,5,3,3,-5,-4,4,-1,182.8,84.0,1,2,4,-2,-4,-2,7,3,-3,-2,NO,,Non-magique,Aucun
+CH-00008,9,Humain,Turami,None,19.58,1,3,4,-5,4,2,4,172.1,75.6,0,-7,10,7,0,1,0,0,-1,-3,NO,,Non-magique,Aucun
+CH-00009,2,Humain,Chondathans,Arcanique,-6.26,-1,-2,-4,1,-1,-1,3,164.2,64.5,-1,4,-6,-2,1,-1,-3,6,-4,2,YES,Magicien,Magicien arcanique (étude et formules),Aucun
+CH-00010,1,Humain,Calishites,Sauvage,-4.78,-1,-2,-3,1,0,0,6,164.2,68.0,-1,1,-3,-3,2,-2,9,-4,-3,-1,YES,Sorcier,Magie sauvage - Sorcier,Aucun
+CH-00011,1,Humain,Calishites,Théurgique,-6.73,-1,-4,-5,1,0,0,0,170.0,68.0,0,0,-4,-9,4,1,10,6,11,-6,YES,Théurgiste,Théurgiste (magie divine instinctive),Aucun
+CH-00012,3,Humain,Damarans,Arcanique,-2.16,1,0,-1,0,-3,3,-2,179.9,79.6,1,1,-7,0,-1,-1,4,5,-9,-1,YES,Magicien,Magicien arcanique (étude et formules),Aucun
+CH-00013,2,Humain,Chondathans,None,1.0,0,0,1,-1,0,0,-7,172.3,68.0,0,-2,6,1,-1,-2,-8,5,6,-1,NO,,Non-magique,Aucun
+CH-00014,2,Humain,Chondathans,Théurgique,-11.53,-6,-6,-6,2,-1,-4,-1,158.8,55.1,-2,-5,0,-6,1,-3,-1,-5,-7,-6,YES,Théurgiste,Théurgiste (magie divine instinctive),Aucun
+CH-00015,7,Humain,Tethyrians,None,-0.09,1,1,1,0,-5,2,-7,178.5,75.6,1,-3,2,0,-5,6,-6,0,2,-4,NO,,Non-magique,Aucun
+CH-00016,128,Humain,Lantannas,None,4.04,3,1,0,-2,-2,6,-4,190.4,93.3,2,-7,-1,-4,0,-3,-5,1,2,-12,NO,,Non-magique,Aucun
+CH-00017,2,Humain,Chondathans,None,1.5,-3,-1,0,-1,3,-2,0,164.1,61.2,-1,-2,2,4,2,-12,2,2,3,1,NO,,Non-magique,Aucun
+CH-00018,1,Humain,Calishites,Théurgique,-7.02,-2,-2,-3,1,-2,-2,1,163.2,61.2,-1,4,-6,2,-1,1,-3,5,8,5,YES,Théurgiste,Théurgiste (magie divine instinctive),Aucun
+CH-00019,1,Humain,Calishites,Théurgique,-10.53,-6,-6,-6,2,0,-4,4,154.9,55.1,-2,-6,1,-5,2,2,-6,-6,-3,-6,YES,Théurgiste,Théurgiste (magie divine instinctive),Aucun
+CH-00020,10,Humain,Ffolk,None,-2.0,1,-1,-1,0,-1,1,4,169.1,71.7,-1,-1,2,-2,0,-1,5,3,-2,-3,NO,,Non-magique,Aucun
+CH-00021,7,Humain,Tethyrians,None,1.0,1,0,1,-1,-1,0,0,170.0,68.0,0,2,2,0,-1,-2,4,5,1,1,NO,,Non-magique,Aucun
+CH-00022,10,Humain,Ffolk,None,-1.0,0,-1,-1,0,1,1,-6,175.1,71.7,0,-5,6,-4,2,4,-2,-3,-1,-7,NO,,Non-magique,Aucun
+CH-00023,2,Humain,Chondathans,None,10.62,3,0,-1,-3,4,3,8,171.1,79.6,0,2,-1,-4,6,-1,2,0,4,-3,NO,,Non-magique,Aucun
+CH-00024,3,Humain,Damarans,None,27.55,7,4,4,-7,-2,8,-3,196.8,103.7,3,-3,4,-5,-1,-5,-2,-3,-3,-10,NO,,Non-magique,Aucun
+CH-00025,2,Humain,Chondathans,Arcanique,-6.29,1,-2,-3,1,-6,0,-5,171.7,68.0,0,6,-4,-7,-2,-6,4,5,-5,0,YES,Magicien,Magicien arcanique (étude et formules),Aucun
+CH-00026,3,Humain,Damarans,Sauvage,-11.31,-5,-5,-6,2,-2,-3,1,160.4,58.1,-2,-3,-5,-1,0,5,-3,-3,6,-2,YES,Psionique,Magie sauvage - Psionique,Aucun
+CH-00027,125,Humain,Gûr,None,2.64,-1,0,1,-1,2,-1,1,166.1,64.5,-1,-2,6,2,1,-2,1,-4,4,0,NO,,Non-magique,Aucun
+CH-00028,3,Humain,Damarans,None,40.39,9,6,5,-11,-5,6,8,180.4,93.3,1,6,8,-2,-5,-1,-4,6,4,0,NO,,Non-magique,Aucun
+CH-00029,2,Humain,Chondathans,None,-1.0,1,0,-1,0,-1,2,-6,178.2,75.6,1,1,-3,-3,1,2,0,-6,8,-2,NO,,Non-magique,Aucun
+CH-00030,2,Humain,Chondathans,Arcanique,-6.4,-1,-2,-3,1,-2,-1,-8,169.6,64.5,-1,4,-4,-1,0,-5,6,-3,-2,3,YES,Magicien,Magicien arcanique (étude et formules),Aucun
+CH-00031,7,Humain,Tethyrians,None,2.02,2,1,0,-1,-2,0,6,164.2,68.0,-1,6,3,-1,-2,0,-4,5,7,4,NO,,Non-magique,Aucun
+CH-00032,2,Humain,Chondathans,None,3.34,-2,-1,-1,-1,4,-2,-5,165.7,61.2,-1,4,-2,2,4,4,-6,11,-2,5,NO,,Non-magique,Aucun
+CH-00033,2,Humain,Chondathans,None,-0.11,-7,-5,-4,0,5,-5,3,153.0,52.2,-3,-7,5,0,4,6,-3,-3,8,-4,NO,,Non-magique,Aucun
+CH-00034,7,Humain,Tethyrians,None,36.53,9,5,4,-10,-2,10,5,196.9,115.2,3,-2,1,-3,-1,-1,-5,0,-1,-9,NO,,Non-magique,Aucun
+CH-00035,4,Humain,Illuskans,None,20.39,7,3,2,-6,-3,5,1,184.6,88.5,1,7,3,-6,-1,7,0,13,1,-1,NO,,Non-magique,Aucun
+CH-00036,1,Humain,Calishites,None,0.38,-2,0,1,-1,1,-2,0,164.1,61.2,-1,-1,2,7,-1,-3,1,4,-5,4,NO,,Non-magique,Aucun
+CH-00037,1,Humain,Calishites,None,-1.0,2,0,-1,0,-4,0,4,166.2,68.0,-1,9,-4,-1,-2,0,0,-7,1,6,NO,,Non-magique,Aucun
+CH-00038,6,Humain,Rashemi,None,64.13,8,7,7,-17,7,6,-2,189.6,93.3,2,3,8,3,5,-6,3,1,6,1,NO,,Non-magique,Aucun
+CH-00039,15,Nain,Nain d'écu,None,4.04,3,0,-2,-2,-1,3,40,138.7,79.6,-4,0,1,4,-2,5,5,1,-6,0,NO,,Non-magique,Vision dans le noir (N1) + robustesse naine
+CH-00040,133,Humain,Tashaliens,Théurgique,-10.05,-4,-3,-3,2,-5,-1,-6,169.0,64.5,-1,-4,-6,4,-5,-3,-1,9,-6,-1,YES,Théurgiste,Théurgiste (magie divine instinctive),Aucun
+CH-00041,2,Humain,Chondathans,Arcanique,-4.58,-5,-4,-6,1,3,-5,6,150.4,52.2,-3,4,-6,1,4,-7,6,3,8,6,YES,Magicien,Magicien arcanique (étude et formules),Aucun
+CH-00042,2,Humain,Chondathans,Théurgique,-7.02,-2,-2,-3,1,-2,-3,-2,161.9,58.1,-2,2,3,-2,-1,-1,-6,1,0,1,YES,Théurgiste,Théurgiste (magie divine instinctive),Aucun
+CH-00043,4,Humain,Illuskans,Arcanique,-8.58,-2,-3,-3,2,-4,1,-4,174.4,71.7,0,-8,-1,-3,-2,9,0,3,-2,-9,YES,Magicien,Magicien arcanique (étude et formules),Aucun
+CH-00044,2,Humain,Chondathans,Arcanique,-14.34,-7,-7,-7,3,-4,-5,-1,156.0,52.2,-2,-4,-1,-6,-1,0,-3,-2,5,-5,YES,Magicien,Magicien arcanique (étude et formules),Aucun
+CH-00045,6,Humain,Rashemi,Théurgique,-3.0,-1,-1,-1,0,0,2,-8,178.9,75.6,1,-6,-3,1,1,-6,7,-3,4,-6,YES,Théurgiste,Théurgiste (magie divine instinctive),Aucun
+CH-00046,3,Humain,Damarans,None,21.48,5,3,3,-6,2,3,7,172.1,79.6,0,3,5,0,1,3,3,0,-1,0,NO,,Non-magique,Aucun
+CH-00047,90,Halfelin,Lightfoot,Théurgique,-17.0,-11,-10,-10,4,-2,-12,5,133.8,36.1,-5,3,1,-7,1,0,-2,-1,-3,4,YES,Théurgiste,Théurgiste (magie divine instinctive),Furtivité naturelle
+CH-00048,11,Humain,Sossrim,Théurgique,-5.26,-1,-2,-4,1,0,3,2,177.1,79.6,0,-7,-7,-1,2,-7,1,0,2,-8,YES,Théurgiste,Théurgiste (magie divine instinctive),Aucun
+CH-00049,4,Humain,Illuskans,None,12.58,2,2,2,-4,3,0,-2,170.7,68.0,0,8,-1,3,3,6,-4,0,0,8,NO,,Non-magique,Aucun
+CH-00050,7,Humain,Tethyrians,Théurgique,-6.35,1,-2,-4,1,-5,2,5,171.1,75.6,0,-2,0,-10,-1,3,-7,-2,-2,-9,YES,Théurgiste,Théurgiste (magie divine instinctive),Aucun
+CH-00051,7,Humain,Tethyrians,Théurgique,-10.41,-2,-4,-4,2,-6,-1,9,158.5,64.5,-2,-3,3,-6,-4,5,4,-1,-4,-6,YES,Théurgiste,Théurgiste (magie divine instinctive),Aucun
+CH-00052,9,Humain,Turami,Sauvage,-7.87,-2,-3,-5,1,-1,-1,5,162.3,64.5,-1,2,-5,-6,2,2,4,-1,1,-2,YES,Warlock,Magie sauvage - Warlock,Aucun
+CH-00053,7,Humain,Tethyrians,None,10.94,3,2,2,-3,1,4,0,182.4,84.0,1,-3,3,0,1,-1,1,-2,0,-5,NO,,Non-magique,Aucun
+CH-00054,5,Humain,Mulan,None,19.46,5,2,2,-5,3,3,5,174.1,79.6,0,3,9,-5,3,-8,-1,5,2,-3,NO,,Non-magique,Aucun
+CH-00055,7,Humain,Tethyrians,None,9.6,4,2,1,-3,-1,3,-3,180.2,79.6,1,4,3,-6,1,-10,-3,-4,-11,-2,NO,,Non-magique,Aucun
+CH-00056,1,Humain,Calishites,Arcanique,-6.52,0,-1,-2,1,-7,1,-1,173.4,71.7,0,0,-4,-1,-5,5,3,2,10,-2,YES,Magicien,Magicien arcanique (étude et formules),Aucun
+CH-00057,31,Elfe,Elfe de la lune,None,7.8,-3,0,0,-2,4,-5,-11,159.0,52.2,-2,9,-1,7,2,-4,-2,6,7,13,NO,,Non-magique,Transe + Méditation + Immunité au sommeil + Vision nocturne (N2)
+CH-00058,1,Humain,Calishites,None,14.16,2,1,1,-4,5,2,2,174.1,75.6,0,1,-1,3,5,-1,-2,4,2,1,NO,,Non-magique,Aucun
+CH-00059,6,Humain,Rashemi,Arcanique,-2.24,1,0,-2,0,-2,4,-4,183.8,84.0,1,-4,-5,-2,0,0,4,4,3,-7,YES,Magicien,Magicien arcanique (étude et formules),Aucun
+CH-00060,15,Nain,Nain d'écu,None,6.08,4,-2,-7,-2,2,8,45,145.9,103.7,-4,-8,-2,-6,5,4,6,6,4,-14,NO,,Non-magique,Vision dans le noir (N1) + robustesse naine
+CH-00061,4,Humain,Illuskans,Sauvage,-2.16,0,-1,-3,0,1,1,-3,174.0,71.7,0,0,-5,-2,3,1,1,3,-2,-2,YES,Warlock,Magie sauvage - Warlock,Aucun
+CH-00062,16,Nain,Nain d'or,None,34.27,9,4,2,-9,1,6,44,141.9,93.3,-4,6,6,5,-1,5,5,0,1,4,NO,,Non-magique,Vision dans le noir (N1) + robustesse naine
+CH-00063,7,Humain,Tethyrians,Sauvage,-5.32,0,-3,-3,1,-1,0,8,162.3,68.0,-1,-1,4,-9,2,-1,-5,-1,4,-7,YES,Oracle,Magie sauvage - Oracle,Aucun
+CH-00064,1,Humain,Calishites,Arcanique,-11.46,-4,-4,-5,2,-5,-3,0,161.3,58.1,-2,2,-4,-1,-3,-4,3,4,7,2,YES,Magicien,Magicien arcanique (étude et formules),Aucun
+CH-00065,90,Halfelin,Lightfoot,Théurgique,-13.35,-11,-7,-5,3,-1,-14,-2,133.4,32.5,-5,6,8,0,-2,3,-1,0,2,11,YES,Théurgiste,Théurgiste (magie divine instinctive),Furtivité naturelle
+CH-00066,2,Humain,Chondathans,Arcanique,-13.17,-6,-6,-6,3,-4,-6,-4,154.2,49.6,-2,1,-1,-5,-2,2,3,-4,3,0,YES,Magicien,Magicien arcanique (étude et formules),Aucun
+CH-00067,8,Humain,Chultan,Théurgique,-2.26,2,0,-1,0,-7,4,1,181.4,84.0,1,-1,-6,-2,-5,0,7,0,2,-4,YES,Théurgiste,Théurgiste (magie divine instinctive),Aucun
+CH-00068,4,Humain,Illuskans,None,0.64,2,0,-1,-1,-1,2,5,171.1,75.6,0,3,-3,-1,0,1,3,0,-2,0,NO,,Non-magique,Aucun
+CH-00069,2,Humain,Chondathans,Théurgique,-10.05,-4,-3,-3,2,-5,0,0,170.0,68.0,0,-7,-7,3,-4,-1,5,-2,-2,-4,YES,Théurgiste,Théurgiste (magie divine instinctive),Aucun
+CH-00070,7,Humain,Tethyrians,None,13.98,3,3,3,-4,0,3,-4,180.6,79.6,1,1,2,2,-1,-1,1,-4,-2,0,NO,,Non-magique,Aucun
+CH-00071,30,Elfe,Elfe des bois,Arcanique,-5.82,-5,-4,-5,1,0,-5,-13,159.6,52.2,-2,5,-6,0,2,3,3,1,1,6,YES,Magicien,Magicien arcanique (étude et formules),Transe + Méditation + Immunité au sommeil + Vision nocturne (N2)
+CH-00072,7,Humain,Tethyrians,Théurgique,-4.32,1,-1,-3,1,-3,3,-5,180.9,79.6,1,1,-10,-2,0,-1,-2,-2,-2,-2,YES,Théurgiste,Théurgiste (magie divine instinctive),Aucun
+CH-00073,8,Humain,Chultan,None,8.92,2,1,2,-3,2,2,2,174.1,75.6,0,-1,6,0,1,-3,0,2,2,-2,NO,,Non-magique,Aucun
+CH-00074,2,Humain,Chondathans,None,1.66,-1,-1,-1,-1,3,1,5,168.1,71.7,-1,-5,3,2,2,-3,0,-3,-5,-4,NO,,Non-magique,Aucun
+CH-00075,129,Humain,Lapalis,Théurgique,-7.33,-1,-2,-2,1,-5,-1,3,164.2,64.5,-1,-2,7,-6,-4,7,3,-7,-3,-5,YES,Théurgiste,Théurgiste (magie divine instinctive),Aucun
+CH-00076,5,Humain,Mulan,None,-0.98,-2,-1,-1,0,2,1,4,169.1,71.7,-1,-6,-4,7,1,-2,2,-8,-4,-2,NO,,Non-magique,Aucun
+CH-00077,1,Humain,Calishites,Arcanique,-5.28,-4,-4,-4,1,2,-3,-6,163.2,58.1,-1,-3,0,-2,3,4,-5,1,3,-3,YES,Magicien,Magicien arcanique (étude et formules),Aucun
+CH-00078,7,Humain,Tethyrians,None,15.31,6,3,1,-4,-4,6,4,184.6,93.3,1,6,-7,0,-2,-2,-2,4,4,1,NO,,Non-magique,Aucun
+CH-00079,7,Humain,Tethyrians,Arcanique,-9.79,-6,-4,-4,2,-1,-3,1,160.4,58.1,-2,-5,-2,3,-1,7,2,0,1,-1,YES,Magicien,Magicien arcanique (étude et formules),Aucun
+CH-00080,7,Humain,Tethyrians,Théurgique,-11.53,-6,-6,-6,2,-1,-4,4,154.9,55.1,-2,-9,6,-7,1,-3,-3,5,-5,-10,YES,Théurgiste,Théurgiste (magie divine instinctive),Aucun
+CH-00081,1,Humain,Calishites,Théurgique,-6.4,-2,-2,-3,1,-1,-3,5,156.8,58.1,-2,7,-6,3,0,-1,-2,0,2,8,YES,Théurgiste,Théurgiste (magie divine instinctive),Aucun
+CH-00082,9,Humain,Turami,None,0.0,1,-1,-1,0,1,1,4,169.1,71.7,-1,-2,4,-3,2,0,2,2,-1,-4,NO,,Non-magique,Aucun
+CH-00083,2,Humain,Chondathans,None,4.64,1,1,2,-2,0,3,-5,180.9,79.6,1,-9,9,-1,-1,-2,-1,-6,-1,-10,NO,,Non-magique,Aucun
+CH-00084,15,Nain,Nain d'écu,None,0.93,2,-2,-5,-1,1,3,45,133.6,79.6,-5,0,-2,1,2,1,-4,0,0,-1,NO,,Non-magique,Vision dans le noir (N1) + robustesse naine
+CH-00085,2,Humain,Chondathans,None,0.02,-2,-1,0,-1,2,-1,10,157.6,64.5,-2,-6,7,4,0,3,-5,-1,5,-2,NO,,Non-magique,Aucun
+CH-00086,9,Humain,Turami,Sauvage,-9.07,-1,-2,-3,2,-8,1,2,171.1,71.7,0,-1,-5,-4,-5,-6,3,-4,-1,-4,YES,Magie du Sang,Magie sauvage - Magie du Sang,Aucun
+CH-00087,7,Humain,Tethyrians,None,1.29,4,0,-3,-1,-6,4,-4,183.8,84.0,1,8,-9,-8,-1,8,-5,-3,-3,-1,NO,,Non-magique,Aucun
+CH-00088,1,Humain,Calishites,None,-0.51,1,1,1,0,-6,1,2,171.1,71.7,0,0,4,1,-7,7,0,7,2,0,NO,,Non-magique,Aucun
+CH-00089,31,Elfe,Elfe de la lune,None,14.09,-6,-3,-2,-4,8,-7,-17,155.3,47.0,-2,5,1,2,8,-6,0,6,5,8,NO,,Non-magique,Transe + Méditation + Immunité au sommeil + Vision nocturne (N2)
+CH-00090,1,Humain,Calishites,Arcanique,-4.77,-5,-3,-3,1,2,-3,4,157.7,58.1,-2,-3,-2,6,1,-1,3,-7,-5,2,YES,Magicien,Magicien arcanique (étude et formules),Aucun
+CH-00091,2,Humain,Chondathans,None,-0.62,1,0,0,0,-2,1,0,173.0,71.7,0,3,-4,2,-1,2,4,-3,3,3,NO,,Non-magique,Aucun
+CH-00092,125,Humain,Gûr,None,-0.16,1,0,1,0,-3,1,4,169.1,71.7,-1,-3,6,2,-4,7,-5,6,0,-2,NO,,Non-magique,Aucun
+CH-00093,7,Humain,Tethyrians,None,17.89,-1,1,2,-5,7,-1,-3,168.0,64.5,-1,0,2,8,4,-3,4,-2,0,5,NO,,Non-magique,Aucun
+CH-00094,130,Humain,Nar,None,16.96,4,3,4,-5,-2,4,-1,182.8,84.0,1,-1,6,2,-3,1,-3,-2,3,-2,NO,,Non-magique,Aucun
+CH-00095,116,Humain,Talfir,Arcanique,-5.26,0,-2,-4,1,-1,2,-3,177.1,75.6,0,-3,-3,-6,2,7,-1,7,6,-7,YES,Magicien,Magicien arcanique (étude et formules),Aucun
+CH-00096,5,Humain,Mulan,Arcanique,-8.37,-5,-4,-4,2,0,-3,-2,161.9,58.1,-2,-4,-2,1,1,3,-5,7,-2,-2,YES,Magicien,Magicien arcanique (étude et formules),Aucun
+CH-00097,3,Humain,Damarans,Théurgique,-5.24,-2,-2,-1,1,-1,-2,-1,164.5,61.2,-1,-3,5,-1,-1,3,-1,2,-5,-3,YES,Théurgiste,Théurgiste (magie divine instinctive),Aucun
+CH-00098,1,Humain,Calishites,None,1.0,0,0,0,-1,1,0,2,168.1,68.0,-1,0,1,4,0,4,-8,0,3,2,NO,,Non-magique,Aucun
+CH-00099,1,Humain,Calishites,None,11.29,-1,0,0,-3,6,-2,-4,165.4,61.2,-1,2,4,2,5,2,-4,0,-6,3,NO,,Non-magique,Aucun
+CH-00100,7,Humain,Tethyrians,Arcanique,-6.4,-2,-2,-3,1,-1,2,-2,176.8,75.6,0,-6,-8,2,0,1,-5,3,-8,-5,YES,Magicien,Magicien arcanique (étude et formules),Aucun

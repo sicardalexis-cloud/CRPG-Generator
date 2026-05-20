@@ -10,33 +10,53 @@ def calculate_weight(ws: float) -> float:
 
 
 def calculate_height(weight_kg: float, build_score: float) -> float:
- 
-    
+    """Taille en cm"""
     base_height = 41.65 * (weight_kg ** (1/3))
-    
-    if build_score > 0:
-        # Trapu → plus petit
-        build_factor = math.exp(-0.0092 * build_score)
-    else:
-        # Élancé → plus grand
-        build_factor = math.exp(-0.0125 * build_score)
-    
-    # Sécurité : on évite les tailles absurdes
-    build_factor = max(0.685, min(1.295, build_factor))
-    
+    build_factor = math.exp(-0.009 * build_score)
     height = base_height * build_factor
     return round(height, 1)
 
 
-def calculate_size_score(height: float) -> int:
-    """Size Score basé sur la taille"""
-    return ((height - 170) / 8)
+def calculate_size_score(height_cm: float) -> int:
+    """Size Score logarithmique : +1 tous les +5% par rapport à 170 cm"""
+    if height_cm <= 0:
+        return 0
+    return round(math.log(height_cm / 170) / math.log(1.05))
 
 
 # ====================== SKILL SYSTEM ======================
-def calculate_skill_modifier(tcb: float) -> float:
-    """Skills Modifier =  -TCB / 4"""
-    return math.floor(- tcb / 4)
+def calculate_skill_modifier(
+    tcb: float,
+    vigilance: float,
+    endurance: float,
+    regeneration: float,
+    stealth: float,
+    speed: float,
+    dodge: float,
+    climbing: float
+) -> int:
+    """
+    Skill Modifier final :
+    - Combat Points forts → gros malus
+    - Attributs secondaires positifs → malus supplémentaire (trade-off)
+    Ordre d'influence : Vigilance ≈ Stealth > Speed > Dodge ≈ Climbing > Endurance > Regeneration
+    """
+    # Malus principal lié au combat
+    combat_malus = 10-tcb / 4.0
+    
+    # Malus secondaire (attributs positifs = pénalité aux skills)
+    secondary_malus = (
+        (vigilance * 0.35) +
+        (stealth * 0.35) +
+        (speed * 0.25) +
+        (dodge * 0.15) +
+        (climbing * 0.15) +
+        (endurance * 0.10) +
+        (regeneration * 0.05)
+    )
+    
+    total = combat_malus - secondary_malus
+    return math.floor(total)
 
 
 # ====================== COMBAT FORMULAS ======================
@@ -51,14 +71,14 @@ def cp(x: float) -> float:
         return round(float(x), 2)
 
 
-def calculate_grappling(weight_score: float, balance: float, quickness: float) -> float:
-    return weight_score + math.floor(balance / 3 + quickness / 5)
+def calculate_grappling(weight_score: float, build_score: float, balance: float, quickness: float) -> float:
+    """Grappling inclut le Build Score"""
+    return weight_score + math.floor(balance / 3 + quickness / 5 + build_score / 5)
 
 
 def calculate_melee(weight_score: float, size_score: int, coordination: float, 
                    balance: float, quickness: float) -> float:
-    return math.floor(weight_score / 2  + quickness / 4 + 
-                     coordination / 5 + balance / 4)
+    return math.floor(weight_score / 2 + quickness / 4 + coordination / 5 + balance / 4)
 
 
 def calculate_fencing(size_score: int, weight_score: float, coordination: float, 
@@ -67,14 +87,9 @@ def calculate_fencing(size_score: int, weight_score: float, coordination: float,
                      coordination / 3 + balance / 5)
 
 
-# ====================== PROJECTILES (Capacité unique de tir) ======================
 def calculate_projectiles(precision: float, coordination: float, quickness: float) -> int:
-    """Projectiles - Tir à courte distance
-    Precision + Coordination + Quickness"""
     return math.floor(precision + coordination / 3 + quickness / 5)
 
-
-# ====================== COMBAT POINTS TOTAL ======================
 
 def calculate_combat_points(
     grappling: float,
@@ -95,13 +110,17 @@ def calculate_combat_points(
 
 
 # ====================== MAGIC SYSTEM ======================
+MAGIC_THRESHOLD = -2.8      # 50% des personnages sont magiques
+ARCANIST_THRESHOLD = -8  # 20% des personnages les plus faibles sont Arcanistes
+
 
 def determine_magic_type(combat_points: float) -> dict:
-    """Nouveau système de magie (mise à jour Mai 2026)
-    Si Combat Points < -2 → le personnage est magiquement actif
-    Puis répartition aléatoire : Théurgique 50% | Arcanique 40% | Sauvage 10%"""
+    """Système de magie calibré :
+    - 20% Arcanistes (les plus faibles)
+    - 30% Théurgistes
+    - 50% Non-magiques"""
     
-    if combat_points >= -2:
+    if combat_points > MAGIC_THRESHOLD:
         return {
             "magic": False,
             "type": "None",
@@ -109,50 +128,33 @@ def determine_magic_type(combat_points: float) -> dict:
             "description": "Non-magique"
         }
     
-    # Magiquement actif
-    roll = random.random()
-    
-    if roll < 0.50:
+    if combat_points <= ARCANIST_THRESHOLD:
+        return {
+            "magic": True,
+            "type": "Arcanique",
+            "subtype": "Magicien",
+            "description": "Arcaniste (magie savante)"
+        }
+    else:
         return {
             "magic": True,
             "type": "Théurgique",
             "subtype": "Théurgiste",
             "description": "Théurgiste (magie divine instinctive)"
         }
-    elif roll < 0.90:        # 0.50 à 0.90 = 40%
-        return {
-            "magic": True,
-            "type": "Arcanique",
-            "subtype": "Magicien",
-            "description": "Magicien arcanique (étude et formules)"
-        }
-    else:                    # 10%
-        wild_type = random.choice(["Sorcier", "Warlock", "Psionique", "Oracle", "Magie du Sang", "Sorcellerie"])
-        return {
-            "magic": True,
-            "type": "Sauvage",
-            "subtype": wild_type,
-            "description": f"Magie sauvage - {wild_type}"
-        }
 
 
 # ====================== SECONDARY ATTRIBUTES ======================
-
 def sec_func(x: float) -> float:
     """Points de capacités secondaires (exponentiel)"""
     return round(6 * (math.exp(0.085 * x) - 1), 2)
 
 
-# ====================== CONSTANTS ======================
-MAGIC_THRESHOLD = -1
-
-
 # ====================== COMMENTAIRES ======================
 """
-RÈGLES ACTUELLES - 17 Mai 2026
+RÈGLES ACTUELLES
 
-- Weight Score = floor(12d6/2) - 21 + racial mod
-- Build Score  = 6d6 - 21 + racial mod
-- Projectiles = floor(Precision + Coordination/3 + Quickness/5)
-- Skills Modifier = -TCB / 4
+- MAGIC_THRESHOLD     = -0.6   → 50% magiques
+- ARCANIST_THRESHOLD  = -7.17  → 20% Arcanistes
+- Skill Modifier      = combat_malus + secondary_malus (tous positifs = malus)
 """

@@ -1,7 +1,8 @@
-# utils.py - Character Generation Logic
+# utils.py - Character Generation Logic (Version Finale - 20 Mai 2026)
+
 import random
 import math
-from typing import Dict
+from typing import Dict, Tuple
 
 from race_data import ethnicity_data
 from ethnicity_weights import category_weights, ethnicity_weights
@@ -14,7 +15,6 @@ from rules import (
     calculate_fencing,
     calculate_projectiles,
     calculate_combat_points,
-    sec_func,
     determine_magic_type,
     calculate_skill_modifier
 )
@@ -34,87 +34,123 @@ def roll_12d6() -> int:
 
 
 # ====================== RACE & ETHNICITY ======================
-def choose_race_and_ethnicity():
-    """Choix pondéré d'une catégorie puis d'une ethnie"""
+def choose_race_and_ethnicity() -> Tuple[str, str]:
+    """Choix pondéré d'une grande catégorie puis d'une ethnie spécifique"""
+    
+    # Choix de la grande catégorie
     category = random.choices(
         list(category_weights.keys()),
         weights=list(category_weights.values()),
         k=1
     )[0]
 
+    # Correspondance flexible entre "Human" et "Humain", etc.
+    r_mapping = {
+        "Human": "Humain",
+        "Dwarf": "Nain",
+        "Elf": "Elfe",
+        "Half-elf": "Demi-elfe",
+        "Halfling": "Halfelin",
+        "Gnome": "Gnome",
+        "Half-orc": "Demi-orc",
+        "Other": "Autre"
+    }
+
+    # Recherche des ethnies
     possible_ethnicities = [
-        eth for eth, data in ethnicity_data.items() 
-        if data.get("r") == category
+        eth for eth, data in ethnicity_data.items()
+        if data.get("r") in (category, r_mapping.get(category, category))
     ]
 
-    weights = [ethnicity_weights.get(eth, 1) for eth in possible_ethnicities]
+    if not possible_ethnicities:
+        print(f"⚠️ Warning: No ethnicity found for category '{category}', using fallback")
+        return "Human", "Chondathan"
+
+    # Pondération
+    weights = [ethnicity_weights.get(eth, 1.0) for eth in possible_ethnicities]
+
     ethnicity = random.choices(possible_ethnicities, weights=weights, k=1)[0]
 
     return category, ethnicity
 
 
-# ====================== MAIN GENERATOR ======================
+# ====================== MAIN CHARACTER GENERATOR ======================
 def generate_character(char_id: str):
-    # ====================== RACE ======================
+    """Génère un personnage complet"""
+    
     race, ethnicity = choose_race_and_ethnicity()
     data = ethnicity_data[ethnicity]
 
+    # ====================== ATTRIBUTES (Jet de dés) ======================
+    # Attributs calculés directement avec des jets de dés + modificateurs raciaux
 
-    # ====================== ATTRIBUTES ======================
     weight_score = math.floor(roll_12d6() / 2) - 21 + data.get("w", 0)
     build_score  = roll_6d6() - 21 + data.get("b", 0)
 
-    weight_kg = calculate_weight(weight_score)
-    height    = calculate_height(weight_kg, build_score)
-    size_score = calculate_size_score(height)
-
-    # Autres attributs
     balance      = roll_6d6() - 21 + data.get("bal", 0)
     quickness    = roll_6d6() - 21 + data.get("quickness", 0)
     coordination = roll_6d6() - 21 + data.get("coo", 0)
     
-    # === Precision & Projectiles (version finale) ===
-    precision_base = (roll_12d6() / 2) - 21                    # partie aléatoire (float)
-    precision      = math.floor(precision_base  + data.get("pre", 0))
+    precision_base = (roll_12d6() / 2) - 21
+    precision      = math.floor(precision_base + data.get("pre", 0))
     
     endurance    = roll_6d6() - 21 + data.get("end", 0)
     regeneration = roll_6d6() - 21 + data.get("reg", 0)
     vigilance    = roll_6d6() - 21 + data.get("vig", 0)
     beauty       = roll_6d6() - 21 + data.get("bea", 0)
 
-    # Stealth
+    # ====================== SECONDARY ATTRIBUTES (Dérivés) ======================
+    # Attributs calculés à partir des attributes de base
+
+    weight_kg = calculate_weight(weight_score)
+    height_cm = calculate_height(weight_kg, build_score)
+    size_score = calculate_size_score(height_cm)
+
+    # Attributs dérivés secondaires
+    speed = math.floor(quickness + coordination / 3.0)
+
+    climbing = math.floor(
+        coordination / 3.0 + balance / 3.0 + 
+        build_score / 5.0 + endurance / 6.0 - (weight_score / 9.0)
+    )
+
+    dodge = math.floor(
+        (vigilance + quickness + coordination + balance - 
+         weight_score - (build_score * 0.25)) / 4.0
+    )
+
     stealth = math.floor(- (weight_score / 2) + (balance * 0.8) + (coordination * 0.6))
 
-    # ====================== COMBAT CAPACITIES ======================
-    grappling   = calculate_grappling(weight_score, balance, quickness)
+    # ====================== COMBAT ======================
+    grappling   = calculate_grappling(weight_score, build_score, balance, quickness)
     melee       = calculate_melee(weight_score, size_score, quickness, coordination, balance)
     projectiles = calculate_projectiles(precision, coordination, quickness)
     fencing     = calculate_fencing(size_score, weight_score, quickness, coordination, balance)
 
-    # ====================== TOTAL COMBAT POINTS ======================
     base_tcb = calculate_combat_points(grappling, melee, projectiles, fencing)
-    racial_bonus = data.get("cp", 0.0)
-    combat_points = round(base_tcb + racial_bonus, 2)
+    racial_cp = data.get("cp", 0.0)
+    combat_points = round(base_tcb + racial_cp, 2)
 
     # ====================== MAGIC ======================
     magic_info = determine_magic_type(combat_points)
 
-    # ====================== SECONDARY CAPACITIES ======================
-    sec_total = (
-        sec_func(stealth) +
-        sec_func(quickness) +
-        sec_func(endurance) +
-        sec_func(regeneration) +
-        sec_func(vigilance) +
-        sec_func(beauty)
+    # ====================== SKILL MODIFIER ======================
+    skill_modifier = calculate_skill_modifier(
+        tcb=combat_points,
+        vigilance=vigilance,
+        endurance=endurance,
+        regeneration=regeneration,
+        stealth=stealth,
+        speed=speed,
+        dodge=dodge,
+        climbing=climbing
     )
 
-    # ====================== SKILLS ======================
-          
-    skill_modifier = calculate_skill_modifier(combat_points)
+    # Malus magique supplémentaire
+    if magic_info.get("magic") is True:
+        skill_modifier -= 10
 
-
-    # ====================== RETURN ======================
+    # ====================== RETURN DICT ======================
     return {
         "ID": char_id,
         "Indice": data["idx"],
@@ -123,20 +159,23 @@ def generate_character(char_id: str):
 
         "Weight_Score": round(weight_score, 1),
         "Build_Score": round(build_score, 1),
-        "Height_cm": height,
+        "Height_cm": height_cm,
         "Weight_kg": weight_kg,
-        "Size_Score": size_score,
+        "Size_Score": round(size_score, 2),
 
         "Balance": round(balance, 1),
         "Quickness": round(quickness, 1),
         "Coordination": round(coordination, 1),
-        "Precision": precision,                    # déjà floor
+        "Precision": precision,
         "Endurance": round(endurance, 1),
 
         "Regeneration": round(regeneration, 1),
         "Vigilance": round(vigilance, 1),
         "Beauty": round(beauty, 1),
         "Stealth": stealth,
+        "Speed": speed,
+        "Dodge": dodge,
+        "Climbing": climbing,
 
         "Grappling": grappling,
         "Melee": melee,
@@ -149,8 +188,6 @@ def generate_character(char_id: str):
         "Magic_Subtype": magic_info.get("subtype"),
         "Magic_Description": magic_info["description"],
 
-       
         "Skill_Modifier": skill_modifier,
-        
-        "Special": data.get("spec", "None")
+        "Special": data.get("spec", "Aucun")
     }

@@ -38,7 +38,7 @@ def generate_batch(
         "Grappling",
         "Melee",
         "Fencing",
-        "Skill_Modifier",        # ← Position demandée
+        "Skill_Modifier",
         "Projectiles",
         
         # Caractéristiques physiques
@@ -47,6 +47,9 @@ def generate_batch(
         # Attributs secondaires
         "Balance", "Quickness", "Coordination", "Precision", "Endurance",
         "Regeneration", "Vigilance", "Beauty", "Stealth",
+        
+        # Nouveaux attributs dérivés
+        "Speed", "Dodge", "Climbing",
         
         # Magie
         "Magic", "Magic_Subtype", "Magic_Description",
@@ -63,20 +66,36 @@ def generate_batch(
     print(f"📁 Fichier créé → {filename}")
     print(f"   {count} personnages générés avec succès.")
 
-    # Statistiques Magie
+        # ====================== STATISTIQUES MAGIE ======================
     total = len(characters)
     magic_count = sum(1 for c in characters if c.get("Magic") == "YES")
-    theurgiste = sum(1 for c in characters if c.get("Magic_Type") == "Théurgiste")
-    magicien = sum(1 for c in characters if c.get("Magic_Type") == "Magicien")
-    double = sum(1 for c in characters if c.get("Magic_Type") == "Double")
-    sauvage = sum(1 for c in characters if c.get("Magic_Type") == "Wild")
 
-    print("\n📊 STATISTIQUES MAGIE :")
-    print(f"   Magiques totaux     : {magic_count} ({magic_count/total:.1%})")
-    print(f"   → Théurgistes       : {theurgiste}")
-    print(f"   → Magiciens         : {magicien}")
-    print(f"   → Double Talent     : {double}")
-    print(f"   → Magie Sauvage     : {sauvage}")
+    # Comptage par type
+    theurgique = sum(1 for c in characters if c.get("Magic_Type") == "Théurgique")
+    arcanique  = sum(1 for c in characters if c.get("Magic_Type") == "Arcanique")
+    sauvage    = sum(1 for c in characters if c.get("Magic_Type") == "Sauvage")
+
+    # Sous-types les plus courants pour la magie sauvage
+    sauvage_subtypes = {}
+    for c in characters:
+        if c.get("Magic_Type") == "Sauvage" and c.get("Magic_Subtype"):
+            subtype = c.get("Magic_Subtype")
+            sauvage_subtypes[subtype] = sauvage_subtypes.get(subtype, 0) + 1
+
+    print("\n" + "="*60)
+    print("📊 STATISTIQUES MAGIE")
+    print("="*60)
+    print(f"   Personnages magiques   : {magic_count:4d} ({magic_count/total:.2%})")
+    print(f"   → Théurgiques          : {theurgique:4d} ({theurgique/total:.2%})")
+    print(f"   → Arcaniques           : {arcanique:4d}  ({arcanique/total:.2%})")
+    print(f"   → Sauvages             : {sauvage:4d}   ({sauvage/total:.2%})")
+    
+    if sauvage > 0 and sauvage_subtypes:
+        print("\n   Sous-types Magie Sauvage les plus courants :")
+        for subtype, count in sorted(sauvage_subtypes.items(), key=lambda x: x[1], reverse=True)[:6]:
+            print(f"      • {subtype:18} : {count:3d} pers. ({count/sauvage:.1%})")
+
+    print("="*60)
 
 
 def main():

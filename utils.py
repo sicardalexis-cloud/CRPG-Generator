@@ -1,4 +1,4 @@
-# utils.py - Character Generation Logic (Version Finale - 20 Mai 2026)
+# utils.py - Character Generation Logic (Version Finale - 21 Mai 2026)
 
 import random
 import math
@@ -6,6 +6,7 @@ from typing import Dict, Tuple
 
 from race_data import ethnicity_data
 from ethnicity_weights import category_weights, ethnicity_weights
+from origin_data import get_random_origin          # ← NOUVEAU
 from rules import (
     calculate_weight,
     calculate_height,
@@ -44,7 +45,7 @@ def choose_race_and_ethnicity() -> Tuple[str, str]:
         k=1
     )[0]
 
-    # Correspondance flexible entre "Human" et "Humain", etc.
+    # Correspondance flexible
     r_mapping = {
         "Human": "Humain",
         "Dwarf": "Nain",
@@ -56,7 +57,6 @@ def choose_race_and_ethnicity() -> Tuple[str, str]:
         "Other": "Autre"
     }
 
-    # Recherche des ethnies
     possible_ethnicities = [
         eth for eth, data in ethnicity_data.items()
         if data.get("r") in (category, r_mapping.get(category, category))
@@ -66,9 +66,7 @@ def choose_race_and_ethnicity() -> Tuple[str, str]:
         print(f"⚠️ Warning: No ethnicity found for category '{category}', using fallback")
         return "Human", "Chondathan"
 
-    # Pondération
     weights = [ethnicity_weights.get(eth, 1.0) for eth in possible_ethnicities]
-
     ethnicity = random.choices(possible_ethnicities, weights=weights, k=1)[0]
 
     return category, ethnicity
@@ -81,9 +79,10 @@ def generate_character(char_id: str):
     race, ethnicity = choose_race_and_ethnicity()
     data = ethnicity_data[ethnicity]
 
-    # ====================== ATTRIBUTES (Jet de dés) ======================
-    # Attributs calculés directement avec des jets de dés + modificateurs raciaux
+    # ====================== ORIGINE RÉGIONALE ======================
+    origin_region = get_random_origin(ethnicity)
 
+    # ====================== ATTRIBUTES (Jet de dés) ======================
     weight_score = math.floor(roll_12d6() / 2) - 21 + data.get("w", 0)
     build_score  = roll_6d6() - 21 + data.get("b", 0)
 
@@ -99,19 +98,16 @@ def generate_character(char_id: str):
     vigilance    = roll_6d6() - 21 + data.get("vig", 0)
     beauty       = roll_6d6() - 21 + data.get("bea", 0)
 
-    # ====================== SECONDARY ATTRIBUTES (Dérivés) ======================
-    # Attributs calculés à partir des attributes de base
-
+    # ====================== DERIVED ATTRIBUTES ======================
     weight_kg = calculate_weight(weight_score)
     height_cm = calculate_height(weight_kg, build_score)
     size_score = calculate_size_score(height_cm)
 
-    # Attributs dérivés secondaires
     speed = math.floor(quickness + coordination / 3.0)
 
     climbing = math.floor(
         coordination / 3.0 + balance / 3.0 + 
-        build_score / 5.0 + endurance / 6.0 - (weight_score / 9.0)
+        build_score / 10.0 + endurance / 6.0 - (weight_score / 9.0)
     )
 
     dodge = math.floor(
@@ -131,10 +127,9 @@ def generate_character(char_id: str):
     racial_cp = data.get("cp", 0.0)
     combat_points = round(base_tcb + racial_cp, 2)
 
-    # ====================== MAGIC ======================
+    # ====================== MAGIC & SKILLS ======================
     magic_info = determine_magic_type(combat_points)
 
-    # ====================== SKILL MODIFIER ======================
     skill_modifier = calculate_skill_modifier(
         tcb=combat_points,
         vigilance=vigilance,
@@ -146,16 +141,16 @@ def generate_character(char_id: str):
         climbing=climbing
     )
 
-    # Malus magique supplémentaire
     if magic_info.get("magic") is True:
         skill_modifier -= 10
 
-    # ====================== RETURN DICT ======================
+    # ====================== RETURN ======================
     return {
         "ID": char_id,
         "Indice": data["idx"],
         "Race": race,
         "Ethnicity": ethnicity,
+        "Origin_Region": origin_region,                    # ← NOUVEAU
 
         "Weight_Score": round(weight_score, 1),
         "Build_Score": round(build_score, 1),

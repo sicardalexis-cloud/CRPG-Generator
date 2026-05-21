@@ -6,12 +6,12 @@ from typing import Dict
 
 def calculate_weight(ws: float) -> float:
     """Poids en kg"""
-    return round(68 * math.exp(0.0527 * ws), 1)
+    return round(71 * math.exp(0.0527 * ws), 1)
 
 
 def calculate_height(weight_kg: float, build_score: float) -> float:
     """Taille en cm"""
-    base_height = 41.65 * (weight_kg ** (1/3))
+    base_height = 40.9 * (weight_kg ** (1/3))
     build_factor = math.exp(-0.009 * build_score)
     height = base_height * build_factor
     return round(height, 1)
@@ -72,19 +72,38 @@ def cp(x: float) -> float:
 
 
 def calculate_grappling(weight_score: float, build_score: float, balance: float, quickness: float) -> float:
-    """Grappling inclut le Build Score"""
-    return weight_score + math.floor(balance / 3 + quickness / 5 + build_score / 5)
+    """Grappling - Simulation réaliste (poids très impactant)"""
+    return math.floor(
+        weight_score  +      # Poids = facteur dominant (comme demandé)
+        build_score * 0.1 +          # Être trapu = gros avantage
+        balance /3 +              # Équilibre et contrôle postural
+        quickness /4               # Explosivité et réactivité
+    )
+
 
 
 def calculate_melee(weight_score: float, size_score: int, coordination: float, 
                    balance: float, quickness: float) -> float:
-    return math.floor(weight_score / 2 + quickness / 4 + coordination / 5 + balance / 4)
+    """Melee - Variance augmentée pour se rapprocher de Grappling"""
+    return math.floor(
+        weight_score / 2.0 +           # Force brute (base solide)
+        quickness / 3 +              # Vitesse d'exécution
+        coordination / 4 +           # Technique et précision
+        balance / 5.0 +                # Stabilité et puissance des coups
+        size_score * 0              # Allonge (bonus notable)
+    )
 
 
 def calculate_fencing(size_score: int, weight_score: float, coordination: float, 
                      quickness: float, balance: float) -> float:
-    return math.floor(size_score + weight_score / 4 + quickness / 3 + 
-                     coordination / 3 + balance / 5)
+    """Fencing - Taille plus importante + bonne variance"""
+    return math.floor(
+        size_score * 1 +           # ← Augmenté (allonge = très gros avantage)
+        coordination / 3 +          # Technique innée
+        quickness / 5 +             # Vitesse
+        balance / 4 +               # Footwork
+        weight_score *0            # Puissance brute (faible)
+    )
 
 
 def calculate_projectiles(precision: float, coordination: float, quickness: float) -> int:
@@ -110,8 +129,8 @@ def calculate_combat_points(
 
 
 # ====================== MAGIC SYSTEM ======================
-MAGIC_THRESHOLD = -2.8      # 50% des personnages sont magiques
-ARCANIST_THRESHOLD = -8  # 20% des personnages les plus faibles sont Arcanistes
+MAGIC_THRESHOLD = -0      # 50% des personnages sont magiques
+ARCANIST_THRESHOLD = -7  # 20% des personnages les plus faibles sont Arcanistes
 
 
 def determine_magic_type(combat_points: float) -> dict:

@@ -1,0 +1,101 @@
+ID,Indice,Race,Ethnicity,Origin_Region,Settlement_Type,Bonus_Languages,Magic_Type,Combat_Points,Grappling,Melee,Fencing,Skill_Modifier,Projectiles,Weight_Score,Build_Score,Height_cm,Weight_kg,Size_Score,Balance,Quickness,Coordination,Precision,Endurance,Regeneration,Vigilance,Beauty,Stealth,Speed,Dodge,Climbing,Magic,Magic_Subtype,Magic_Description,Special,Active Skills
+CH-00001,6,Human,Rashemi,Rashemen,Village rural,Rashemi,Théurgique,"-3,26",1,0,-2,2,-4,0,10,"154,8","71,0",-2,2,1,-3,-3,3,-2,-5,-2,-1,0,-2,1,YES,Théurgiste,Théurgiste (magie divine instinctive),Aucun,"Pistage et traque en milieu boisé
+Réseautage et recherche d’informations urbaines
+Manipulation de pièges et serrures
+Furtivité et déplacement silencieux en forêt
+Streetwise et connaissance des bas-fonds urbains"
+CH-00002,2,Human,Chondathan,Chondath,Ville moyenne,Chondathan,Théurgique,"-4,24",-2,-2,-1,2,0,-2,-4,"169,5","63,9",0,1,2,-9,3,3,-3,1,7,-4,-1,-1,-3,YES,Théurgiste,Théurgiste (magie divine instinctive),Aucun,"Réseautage et recherche d’informations urbaines
+Streetwise et connaissance des bas-fonds urbains
+Manipulation de pièges et serrures
+Pêche en haute mer et survie aquatique
+Performance (Acrobatie/ Danse / Musique / Prestidigitation)"
+CH-00003,3,Human,Damaran,Impiltur,Port de contrebande,Chondathan + Illuskan,Arcanique,"-8,76",-6,-5,-3,7,0,-3,-4,"166,5","60,6",0,-6,0,-4,2,-5,3,-3,0,-6,-2,-3,-5,YES,Magicien,Arcaniste (magie savante),Aucun,"Streetwise et connaissance des bas-fonds urbains
+Manipulation de pièges et serrures
+Pêche en haute mer et survie aquatique
+Réseautage et recherche d’informations urbaines
+Escalade rocheuse et progression technique"
+CH-00004,21,Half-elf,Wood Half-elf,High Forest,Hameau agricole,Chondathan + Elfique,None,"20,25",1,1,1,4,7,2,-1,"177,0","78,9",1,-2,3,1,7,-2,9,0,1,-2,3,0,-1,NO,,Non-magique,Méditation + Immunité sommeil + VN (N1),"Performance (Acrobatie/ Danse / Musique / Prestidigitation)
+Escalade rocheuse et progression technique
+Cueillette et connaissance des plantes forestières
+Pistage et chasse en milieu ouvert
+Navigation en relief montagneux"
+CH-00005,9,Human,Turami,Turmish,Village côtier / de pêcheurs,Chondathan + Lantanna,None,"2,66",-1,0,-1,8,3,-2,3,"159,2","63,9",-1,9,-6,0,5,2,1,-4,6,8,-6,0,3,NO,,Non-magique,Aucun,"Navigation maritime et lecture des courants
+Réseautage et recherche d’informations urbaines
+Performance (Acrobatie/ Danse / Musique / Prestidigitation)
+Équitation
+Résistance au mal de mer et gestion des tempêtes"
+CH-00006,142,Human,Reghedman,Calimshan,Grande Ville portuaire,Chondathan + Illuskan + Sylvestre,Théurgique,"-6,75",0,-2,-2,6,-6,2,1,"173,8","78,9",0,-6,2,-3,-5,-1,-1,-4,3,-8,1,-4,-4,YES,Théurgiste,Théurgiste (magie divine instinctive),Aucun,"Pêche en haute mer et survie aquatique
+Furtivité et déplacement discret en ville
+Conservation et recherche d’eau en milieu aride
+Résistance au froid extrême et hypothermie
+Manipulation de pièges et serrures"
+CH-00007,5,Human,Mulan,Thay,Monastère / Couvent isolé,Mulhorandi + Thayan,Théurgique,"-3,24",-1,-2,-2,2,1,1,-2,"175,5","74,8",1,3,-8,-5,5,4,1,3,-3,-2,-10,-2,-1,YES,Théurgiste,Théurgiste (magie divine instinctive),Aucun,"Streetwise et connaissance des bas-fonds urbains
+Équitation
+Médecine
+Orientation et navigation en milieu ouvert
+Réseautage et recherche d’informations urbaines"
+CH-00008,2,Human,Chondathan,Chondath,Village rural,Chondathan + Thorass + Turmish,None,"1,0",0,0,0,11,1,1,-2,"175,5","74,8",1,0,-1,0,2,1,-3,-3,0,-1,-1,-2,-1,NO,,Non-magique,Aucun,"Réseautage et recherche d’informations urbaines
+Équitation
+Performance (Acrobatie/ Danse / Musique / Prestidigitation)
+Streetwise et connaissance des bas-fonds urbains
+Pêche en haute mer et survie aquatique"
+CH-00009,2,Human,Chondathan,The Dalelands,Village rural,Chondathan,None,"40,79",9,5,4,-1,2,5,1,"183,2","92,4",2,6,9,-8,3,5,6,-2,3,-3,6,-1,-1,NO,,Non-magique,Aucun,"Cueillette et connaissance des plantes forestières
+Pistage et traque en milieu boisé
+Performance (Acrobatie/ Danse / Musique / Prestidigitation)
+Furtivité et déplacement silencieux en forêt
+Équitation"
+CH-00010,7,Human,Tethyrian,Baldur's Gate,Grande Ville portuaire,Chondathan,None,"21,28",5,4,4,-3,-3,3,0,"178,6","83,2",1,2,7,4,-5,6,2,8,-4,2,8,4,2,NO,,Non-magique,Aucun,"Performance (Acrobatie/ Danse / Musique / Prestidigitation)
+Streetwise et connaissance des bas-fonds urbains
+Manipulation de pièges et serrures
+Pêche en haute mer et survie aquatique
+Furtivité et déplacement discret en ville"
+CH-00011,1,Human,Calishite,Calimshan,Ville moyenne,Chondathan + Infernal + Thorass,Arcanique,"-14,73",-8,-7,-7,9,-4,-4,0,"157,9","57,5",-2,-8,-5,-2,-2,-6,-1,-1,-1,-6,-6,-3,-4,YES,Magicien,Arcaniste (magie savante),Aucun,"Performance (Acrobatie/ Danse / Musique / Prestidigitation)
+Streetwise et connaissance des bas-fonds urbains
+Marche désertique et résistance thermique
+Réseautage et recherche d’informations urbaines
+Furtivité et déplacement discret en ville"
+CH-00012,4,Human,Illuskan,Icewind Dale,Hameau isolé,Illuskan,None,"31,41",6,5,4,-2,2,5,-2,"188,3","92,4",2,5,2,2,1,4,2,5,-7,2,2,2,2,NO,,Non-magique,Aucun,"Marche en montagne et portage en altitude
+Réseautage et recherche d’informations urbaines
+Navigation en relief montagneux
+Manipulation de pièges et serrures
+Résistance au froid extrême et hypothermie"
+CH-00013,40,Gnome,Rock Gnome,Thesk,Village rural,Chondathan,Arcanique,"-15,72",-17,-8,-9,-4,-1,-21,18,"99,6","23,5",-11,7,3,1,-1,-1,-6,0,3,16,3,6,6,YES,Magicien,Arcaniste (magie savante),Vision nocturne N1,"Manipulation de pièges et serrures
+Médecine
+Équitation
+Survie côtière et connaissance des marées
+Réseautage et recherche d’informations urbaines"
+CH-00014,8,Human,Chultan,Chult,Colonie frontalière,Chultan,None,"14,12",4,3,3,0,-3,2,2,"172,3","78,9",0,0,11,0,-5,4,6,6,3,-1,11,3,0,NO,,Non-magique,Aucun,"Résistance aux maladies et insectes des marais
+Survie côtière et connaissance des marées
+Pistage et traque en milieu boisé
+Réseautage et recherche d’informations urbaines
+Médecine"
+CH-00015,5,Human,Mulan,Inner Sea (Sea of Fallen Stars),Port de contrebande,Chondathan + Mulhorandi + Rashemi,None,"3,64",0,0,1,8,2,0,-1,"170,9","71,0",0,-1,5,-2,2,2,-5,0,-2,-2,4,0,-1,NO,,Non-magique,Aucun,"Survie côtière et connaissance des marées
+Équitation
+Manipulation de pièges et serrures
+Orientation et navigation en milieu ouvert
+Réseautage et recherche d’informations urbaines"
+CH-00016,7,Human,Tethyrian,Baldur's Gate,Ville moyenne,Chondathan,Théurgique,"-2,62",1,-1,-2,3,-1,2,1,"173,8","78,9",0,-3,2,-6,1,6,-1,-1,-3,-7,0,-3,-3,YES,Théurgiste,Théurgiste (magie divine instinctive),Aucun,"Équitation
+Survie côtière et connaissance des marées
+Furtivité et déplacement discret en ville
+Streetwise et connaissance des bas-fonds urbains
+Performance (Acrobatie/ Danse / Musique / Prestidigitation)"
+CH-00017,9,Human,Turami,Chondath,Bourg / Petite ville,Chessentan + Chondathan + Lantanna,None,"5,7",4,2,0,9,-7,2,5,"167,7","78,9",0,7,-2,-2,-5,10,-6,-7,-3,3,-3,-2,3,NO,,Non-magique,Aucun,"Streetwise et connaissance des bas-fonds urbains
+Performance (Acrobatie/ Danse / Musique / Prestidigitation)
+Furtivité et déplacement discret en ville
+Survie côtière et connaissance des marées
+Équitation"
+CH-00018,138,Human,Uthgardt,Sword Coast,Village côtier / de pêcheurs,Chondathan + Elfique + Illuskan + Northlander + Vaasan,None,"9,96",5,1,1,13,-3,6,-9,"204,1","97,4",4,2,-3,-9,1,-3,-2,-1,4,-7,-6,-4,-5,NO,,Non-magique,Aucun,"Résistance au mal de mer et gestion des tempêtes
+Pistage et traque en milieu boisé
+Manipulation de pièges et serrures
+Survie côtière et connaissance des marées
+Pêche en haute mer et survie aquatique"
+CH-00019,1,Human,Calishite,Tethyr,Ville moyenne,Chondathan + Infernal,None,"3,5",3,1,0,8,-3,4,2,"178,5","87,7",1,-4,2,1,-3,3,3,5,-6,-5,2,-1,-1,NO,,Non-magique,Aucun,"Pistage et traque en milieu boisé
+Manipulation de pièges et serrures
+Équitation
+Réseautage et recherche d’informations urbaines
+Performance (Acrobatie/ Danse / Musique / Prestidigitation)"
+CH-00020,12,Halfling,Strongheart Halfling,Star Mounts,Hameau agricole,Chondathan + Elfique,Arcanique,"-8,12",-22,-8,-5,-11,4,-23,-2,"115,1","21,1",-8,3,1,12,0,1,5,2,0,21,5,10,7,YES,Magicien,Arcaniste (magie savante),Robustesse,"Manipulation de pièges et serrures
+Performance (Acrobatie/ Danse / Musique / Prestidigitation)
+Escalade
+Streetwise et connaissance des bas-fonds urbains
+Réseautage et recherche d’informations urbaines"

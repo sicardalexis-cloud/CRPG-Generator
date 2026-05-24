@@ -4,9 +4,10 @@ import random
 import math
 from typing import Tuple
 
+from language_data import generate_languages
 from race_data import ethnicity_data
 from ethnicity_weights import category_weights, ethnicity_weights
-from origin_data import get_random_origin, region_names      # ← region_names ajouté
+from origin_data import get_random_origin, region_names
 from settlement_data import get_random_settlement
 from skill_data import generate_active_skills
 from rules import (
@@ -79,7 +80,7 @@ def generate_character(char_id: str):
     race, ethnicity = choose_race_and_ethnicity()
     data = ethnicity_data[ethnicity]
 
-        # ====================== ORIGIN & SETTLEMENT ======================
+    # ====================== ORIGIN & SETTLEMENT ======================
     origin_region = get_random_origin(ethnicity)
 
     # Recherche de l'ID de région
@@ -95,15 +96,12 @@ def generate_character(char_id: str):
     region_name, settlement_type = get_random_settlement(region_id)
 
     # ====================== SKILLS ======================
-    # Génération des compétences avec influence de la région + settlement
     skills = generate_active_skills(
         region_id=region_id,
         ethnicity=ethnicity,
         settlement_type=settlement_type,
         num_skills=5
     )
-
-    bonus_languages = []  # À développer plus tard si besoin
 
     # ====================== ATTRIBUTES (Jet de dés) ======================
     weight_score = math.floor(roll_12d6() / 2) - 21 + data.get("w", 0)
@@ -167,14 +165,21 @@ def generate_character(char_id: str):
     if magic_info.get("magic") is True:
         skill_modifier -= 10
 
+    # ====================== LANGUES ======================
+    bonus_languages = generate_languages(
+        ethnicity=ethnicity,
+        region_id=region_id,
+        skill_modifier=skill_modifier
+    )
+
     # ====================== RETURN FINAL ======================
     return {
         "ID": char_id,
         "Indice": data["idx"],
         "Race": race,
         "Ethnicity": ethnicity,
-        "Origin_Region": region_name,           # Région propre
-        "Settlement_Type": settlement_type,     # ← Type d'implantation
+        "Origin_Region": region_name,
+        "Settlement_Type": settlement_type,
 
         "Weight_Score": round(weight_score, 1),
         "Build_Score": round(build_score, 1),

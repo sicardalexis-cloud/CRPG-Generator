@@ -1,12 +1,13 @@
-# utils.py - Character Generation Logic (Version Finale - 21 Mai 2026)
+# utils.py - Character Generation Logic (Version Finale - 24 Mai 2026)
 
 import random
 import math
-from typing import Dict, Tuple
+from typing import Tuple
 
 from race_data import ethnicity_data
 from ethnicity_weights import category_weights, ethnicity_weights
-from origin_data import get_random_origin          # ← NOUVEAU
+from origin_data import get_random_origin, region_names      # ← region_names ajouté
+from settlement_data import get_random_settlement
 from rules import (
     calculate_weight,
     calculate_height,
@@ -38,14 +39,12 @@ def roll_12d6() -> int:
 def choose_race_and_ethnicity() -> Tuple[str, str]:
     """Choix pondéré d'une grande catégorie puis d'une ethnie spécifique"""
     
-    # Choix de la grande catégorie
     category = random.choices(
         list(category_weights.keys()),
         weights=list(category_weights.values()),
         k=1
     )[0]
 
-    # Correspondance flexible
     r_mapping = {
         "Human": "Humain",
         "Dwarf": "Nain",
@@ -79,8 +78,20 @@ def generate_character(char_id: str):
     race, ethnicity = choose_race_and_ethnicity()
     data = ethnicity_data[ethnicity]
 
-    # ====================== ORIGINE RÉGIONALE ======================
+    # ====================== ORIGIN & SETTLEMENT ======================
     origin_region = get_random_origin(ethnicity)
+
+    # Recherche de l'ID de région
+    region_id = None
+    for rid, name in region_names.items():
+        if name == origin_region or name in origin_region:
+            region_id = rid
+            break
+    if region_id is None:
+        region_id = 0
+
+    # Récupération du type d'implantation
+    region_name, settlement_type = get_random_settlement(region_id)
 
     # ====================== ATTRIBUTES (Jet de dés) ======================
     weight_score = math.floor(roll_12d6() / 2) - 21 + data.get("w", 0)
@@ -127,7 +138,7 @@ def generate_character(char_id: str):
     racial_cp = data.get("cp", 0.0)
     combat_points = round(base_tcb + racial_cp, 2)
 
-    # ====================== MAGIC & SKILLS ======================
+    # ====================== MAGIC ======================
     magic_info = determine_magic_type(combat_points)
 
     skill_modifier = calculate_skill_modifier(
@@ -144,13 +155,14 @@ def generate_character(char_id: str):
     if magic_info.get("magic") is True:
         skill_modifier -= 10
 
-    # ====================== RETURN ======================
+    # ====================== RETURN FINAL ======================
     return {
         "ID": char_id,
         "Indice": data["idx"],
         "Race": race,
         "Ethnicity": ethnicity,
-        "Origin_Region": origin_region,                    # ← NOUVEAU
+        "Origin_Region": region_name,           # Région propre
+        "Settlement_Type": settlement_type,     # ← Type d'implantation
 
         "Weight_Score": round(weight_score, 1),
         "Build_Score": round(build_score, 1),
@@ -163,7 +175,6 @@ def generate_character(char_id: str):
         "Coordination": round(coordination, 1),
         "Precision": precision,
         "Endurance": round(endurance, 1),
-
         "Regeneration": round(regeneration, 1),
         "Vigilance": round(vigilance, 1),
         "Beauty": round(beauty, 1),
@@ -178,11 +189,11 @@ def generate_character(char_id: str):
         "Fencing": fencing,
 
         "Combat_Points": combat_points,
-        "Magic": "YES" if magic_info["magic"] else "NO",
-        "Magic_Type": magic_info["type"],
+        "Magic": "YES" if magic_info.get("magic") else "NO",
+        "Magic_Type": magic_info.get("type", "None"),
         "Magic_Subtype": magic_info.get("subtype"),
-        "Magic_Description": magic_info["description"],
+        "Magic_Description": magic_info.get("description", ""),
 
         "Skill_Modifier": skill_modifier,
-        "Special": data.get("spec", "Aucun")
+        "Special": data.get("spec", "Aucun"),
     }

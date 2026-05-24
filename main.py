@@ -27,13 +27,14 @@ def generate_batch(
         if i % max(10, count // 10) == 0:
             print(f"   → {i:5d} / {count} personnages générés...")
 
-    # ====================== EXPORT CSV (avec virgule décimale) ======================
+    # ====================== EXPORT CSV ======================
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
     filename = output or f"Personnages_{timestamp}.csv"
 
     fieldnames = [
         "ID", "Indice", "Race", "Ethnicity",
         "Origin_Region",
+        "Settlement_Type",                    # ← AJOUTÉ
         "Magic_Type",
         "Combat_Points",
         "Grappling",
@@ -62,17 +63,23 @@ def generate_batch(
         
         for char in characters:
             row = char.copy()
-            # Remplacer les points par des virgules pour tous les nombres flottants
+
+            # Formatage des colonnes spéciales
+            row["Origin_Region"] = char.get("Origin_Region", "")
+            row["Settlement_Type"] = char.get("Settlement_Type", "")   # ← IMPORTANT
+
+            # Remplacer les points par des virgules pour les nombres flottants
             for key, value in row.items():
                 if isinstance(value, float):
                     row[key] = str(value).replace('.', ',')
                 elif value is None:
                     row[key] = ""
+
             writer.writerow(row)
 
     print(f"\n✅ Génération terminée !")
     print(f"📁 Fichier créé → {filename}")
-    print(f"   {count} personnages générés avec virgules décimales.")
+    print(f"   {count} personnages générés.")
 
     # ====================== STATISTIQUES MAGIE ======================
     total = len(characters)

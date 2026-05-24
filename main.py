@@ -35,6 +35,7 @@ def generate_batch(
         "ID", "Indice", "Race", "Ethnicity",
         "Origin_Region",
         "Settlement_Type",                    # ← AJOUTÉ
+        "Bonus_Languages",
         "Magic_Type",
         "Combat_Points",
         "Grappling",
@@ -54,7 +55,8 @@ def generate_batch(
         # Magie
         "Magic", "Magic_Subtype", "Magic_Description",
         
-        "Special"
+        "Special",
+        "Skills"
     ]
 
     with open(filename, mode='w', newline='', encoding='utf-8') as f:
@@ -67,6 +69,11 @@ def generate_batch(
             # Formatage des colonnes spéciales
             row["Origin_Region"] = char.get("Origin_Region", "")
             row["Settlement_Type"] = char.get("Settlement_Type", "")   # ← IMPORTANT
+            row["Bonus_Languages"] = " + ".join(char.get("Bonus_Languages", []))
+
+            # Formatage Skills
+            skills_dict = char.get("Skills", {})
+            row["Skills"] = "\n".join(skills_dict.keys()) if isinstance(skills_dict, dict) else ""
 
             # Remplacer les points par des virgules pour les nombres flottants
             for key, value in row.items():

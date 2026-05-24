@@ -1,0 +1,46 @@
+ID,Indice,Race,Ethnicity,Origin_Region,Settlement_Type,Bonus_Languages,Magic_Type,Combat_Points,Grappling,Melee,Fencing,Skill_Modifier,Projectiles,Weight_Score,Build_Score,Height_cm,Weight_kg,Size_Score,Balance,Quickness,Coordination,Precision,Endurance,Regeneration,Vigilance,Beauty,Stealth,Speed,Dodge,Climbing,Magic,Magic_Subtype,Magic_Description,Special,Skills
+CH-00001,7,Human,Tethyrian,Tethyr,Ville moyenne,,None,"33,43",6,5,4,-4,3,5,2,"181,6","92,4",1,3,3,7,1,1,-1,5,0,4,5,3,3,NO,,Non-magique,Aucun,"Performance (Acrobatie/ Danse / Musique / Prestidigitation)
+Furtivité et déplacement silencieux en forêt
+Chasse et pistage en milieu arctique
+Équitation
+Cueillette et connaissance des plantes forestières"
+CH-00002,7,Human,Tethyrian,Tethyr,Ville moyenne,,Théurgique,"-2,16",0,0,0,-2,-3,0,-3,"174,0","71,0",0,2,0,0,-3,8,0,2,7,1,0,1,1,YES,Théurgiste,Théurgiste (magie divine instinctive),Aucun,"Streetwise et connaissance des bas-fonds urbains
+Performance (Acrobatie/ Danse / Musique / Prestidigitation)
+Médecine
+Cueillette et connaissance des plantes forestières
+Équitation"
+CH-00003,19,Dwarf,Wild Dwarf,Spine of the World,Bourg / Petite ville,,Arcanique,"-12,55",-8,-7,-11,0,-1,-9,32,"108,4","44,2",-9,-5,-1,0,0,1,-1,6,-6,0,-1,0,2,YES,Magicien,Arcaniste (magie savante),Vision dans le noir + Robustesse naine,"Résistance au froid extrême et hypothermie
+Orientation et navigation en milieu ouvert
+Cueillette et connaissance des plantes de savane
+Équitation
+Furtivité et déplacement discret en ville"
+CH-00004,4,Human,Illuskan,Neverwinter,Hameau isolé,,Arcanique,"-8,68",-1,-3,-2,4,-7,3,-3,"183,4","83,2",2,-8,-2,-4,-5,1,7,8,5,-11,-4,-3,-5,YES,Magicien,Arcaniste (magie savante),Aucun,"Navigation et progression en terrain inondé
+Résistance aux maladies et insectes des marais
+Streetwise et connaissance des bas-fonds urbains
+Pêche en haute mer et survie aquatique
+Chasse et pistage en milieu arctique"
+CH-00005,4,Human,Illuskan,Sword Coast,Village rural,,Arcanique,"-8,64",-3,-3,-3,4,-3,-1,-3,"171,0","67,4",0,-2,-2,-5,0,-3,-1,5,-1,-5,-4,-1,-4,YES,Magicien,Arcaniste (magie savante),Aucun,"Cueillette et connaissance des plantes de savane
+Escalade rocheuse et progression technique
+Performance (Acrobatie/ Danse / Musique / Prestidigitation)
+Navigation en relief montagneux
+Chasse et pistage en milieu arctique"
+CH-00006,2,Human,Chondathan,Chondath,Village rural,,None,"3,64",-1,1,2,5,1,-2,-3,"168,0","63,9",0,5,0,5,0,-5,2,0,3,8,1,3,2,NO,,Non-magique,Aucun,"Natation
+Résistance au mal de mer et gestion des tempêtes
+Performance (Acrobatie/ Danse / Musique / Prestidigitation)
+Réseautage et recherche d’informations urbaines"
+CH-00007,2,Human,Chondathan,Autre / Voyageur,Bourg / Petite ville,,Théurgique,"-5,13",-6,-2,0,-2,0,-6,-5,"159,5","51,8",-1,4,-1,2,0,1,4,0,-5,7,-1,3,2,YES,Théurgiste,Théurgiste (magie divine instinctive),Aucun,"Cueillette et connaissance des plantes forestières
+Performance (Acrobatie/ Danse / Musique / Prestidigitation)
+Navigation et orientation en obscurité totale
+Équitation"
+CH-00008,7,Human,Tethyrian,Western Heartlands,Village rural,,Théurgique,"-4,16",-3,-1,-1,0,0,-1,1,"165,0","67,4",-1,-10,6,7,-3,-5,3,1,-3,-4,8,1,-2,YES,Théurgiste,Théurgiste (magie divine instinctive),Aucun,"Performance (Acrobatie/ Danse / Musique / Prestidigitation)
+Résistance au froid extrême et hypothermie
+Pêche en haute mer et survie aquatique
+Équitation"
+CH-00009,2,Human,Chondathan,The Dalelands,Hameau agricole,,Théurgique,"0,0",-4,-1,1,-4,2,-4,-6,"166,6","57,5",0,2,1,2,2,1,4,3,-7,4,1,3,1,YES,Théurgiste,Théurgiste (magie divine instinctive),Aucun,"Orientation et navigation en milieu ouvert
+Orientation en grande plaine
+Performance (Acrobatie/ Danse / Musique / Prestidigitation)
+Streetwise et connaissance des bas-fonds urbains"
+CH-00010,7,Human,Tethyrian,Tethyr,Bourg / Petite ville,,None,"16,96",3,4,4,1,-2,-1,-1,"168,0","67,4",0,8,9,-1,-3,-1,-2,-1,4,6,8,4,2,NO,,Non-magique,Aucun,"Cueillette et connaissance des plantes forestières
+Pistage et chasse en milieu ouvert
+Navigation et orientation sur petite île
+Manipulation de pièges et serrures"

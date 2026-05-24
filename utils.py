@@ -8,6 +8,7 @@ from race_data import ethnicity_data
 from ethnicity_weights import category_weights, ethnicity_weights
 from origin_data import get_random_origin, region_names      # ← region_names ajouté
 from settlement_data import get_random_settlement
+from skill_data import generate_active_skills
 from rules import (
     calculate_weight,
     calculate_height,
@@ -92,6 +93,14 @@ def generate_character(char_id: str):
 
     # Récupération du type d'implantation
     region_name, settlement_type = get_random_settlement(region_id)
+
+            # ====================== SKILLS ======================
+    skills_data = generate_active_skills(
+        region_id=region_id,
+        ethnicity=ethnicity
+    )
+    skills = skills_data["skills"]
+    bonus_languages = skills_data.get("bonus_languages", [])
 
     # ====================== ATTRIBUTES (Jet de dés) ======================
     weight_score = math.floor(roll_12d6() / 2) - 21 + data.get("w", 0)
@@ -196,4 +205,6 @@ def generate_character(char_id: str):
 
         "Skill_Modifier": skill_modifier,
         "Special": data.get("spec", "Aucun"),
+        "Skills": skills,
+        "Bonus_Languages": bonus_languages,
     }

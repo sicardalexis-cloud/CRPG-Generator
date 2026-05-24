@@ -79,7 +79,7 @@ def generate_character(char_id: str):
     race, ethnicity = choose_race_and_ethnicity()
     data = ethnicity_data[ethnicity]
 
-    # ====================== ORIGIN & SETTLEMENT ======================
+        # ====================== ORIGIN & SETTLEMENT ======================
     origin_region = get_random_origin(ethnicity)
 
     # Recherche de l'ID de région
@@ -94,13 +94,16 @@ def generate_character(char_id: str):
     # Récupération du type d'implantation
     region_name, settlement_type = get_random_settlement(region_id)
 
-            # ====================== SKILLS ======================
-    skills_data = generate_active_skills(
+    # ====================== SKILLS ======================
+    # Génération des compétences avec influence de la région + settlement
+    skills = generate_active_skills(
         region_id=region_id,
-        ethnicity=ethnicity
+        ethnicity=ethnicity,
+        settlement_type=settlement_type,
+        num_skills=5
     )
-    skills = skills_data["skills"]
-    bonus_languages = skills_data.get("bonus_languages", [])
+
+    bonus_languages = []  # À développer plus tard si besoin
 
     # ====================== ATTRIBUTES (Jet de dés) ======================
     weight_score = math.floor(roll_12d6() / 2) - 21 + data.get("w", 0)

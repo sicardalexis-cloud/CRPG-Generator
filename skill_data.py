@@ -3,71 +3,69 @@ import random
 from typing import Dict, List
 
 # =============================================
-# LISTE DES COMPÉTENCES ACTIVES (avec indices)
+# LISTE DES COMPÉTENCES ACTIVES (36 compétences)
 # =============================================
 active_skills_list = [
     # 1-6 : Compétences générales
-    "Équitation", "Natation", "Escalade", 
+    "Équitation", "Natation", "Escalade",
     "Performance (Acrobatie/ Danse / Musique / Prestidigitation)",
     "Médecine", "Manipulation de pièges et serrures",
 
     # 7-9 : Survie en forêt
-    "Cueillette et connaissance des plantes forestières", 
+    "Cueillette et connaissance des plantes forestières",
     "Pistage et traque en milieu boisé",
     "Furtivité et déplacement silencieux en forêt",
 
     # 10-12 : Survie en montagne
-    "Marche en montagne et portage en altitude", 
+    "Marche en montagne et portage en altitude",
     "Escalade rocheuse et progression technique",
     "Navigation en relief montagneux",
 
     # 13-15 : Survie en désert
-    "Conservation et recherche d’eau en milieu aride", 
+    "Conservation et recherche d’eau en milieu aride",
     "Marche désertique et résistance thermique",
     "Orientation et navigation en milieu ouvert",
 
     # 16-18 : Survie en marais
-    "Navigation et progression en terrain inondé", 
+    "Navigation et progression en terrain inondé",
     "Résistance aux maladies et insectes des marais",
     "Pistage et chasse en milieu humide",
 
     # 19-21 : Survie en toundra / glacial
-    "Résistance au froid extrême et hypothermie", 
+    "Résistance au froid extrême et hypothermie",
     "Construction d’abris en neige et glace",
     "Chasse et pistage en milieu arctique",
 
     # 22-24 : Survie en milieu souterrain
-    "Navigation et orientation en obscurité totale", 
+    "Navigation et orientation en obscurité totale",
     "Résistance aux toxines et gaz souterrains",
     "Furtivité et discrétion en milieu confiné",
 
     # 25-27 : Survie en mer
-    "Navigation maritime et lecture des courants", 
+    "Navigation maritime et lecture des courants",
     "Pêche en haute mer et survie aquatique",
     "Résistance au mal de mer et gestion des tempêtes",
 
     # 28-30 : Survie urbaine
-    "Streetwise et connaissance des bas-fonds urbains", 
+    "Streetwise et connaissance des bas-fonds urbains",
     "Furtivité et déplacement discret en ville",
     "Réseautage et recherche d’informations urbaines",
 
     # 31-33 : Survie en plaine / savane
-    "Pistage et chasse en milieu ouvert", 
+    "Pistage et chasse en milieu ouvert",
     "Orientation en grande plaine",
     "Cueillette et connaissance des plantes de savane",
 
     # 34-36 : Survie côtière / insulaire
-    "Survie côtière et connaissance des marées", 
+    "Survie côtière et connaissance des marées",
     "Pêche et récolte en zone littorale",
     "Navigation et orientation sur petite île"
 ]
-
 
 # =============================================
 # POOLS DE COMPÉTENCES PAR ETHNIE
 # =============================================
 ethnicity_active_pool: Dict[str, List[int]] = {
-    # ==================== HUMAINS ====================
     "Chondathan": [1, 28, 4, 6, 30],
     "Tethyrian": [1, 4, 28, 6, 7],
     "Calishite": [13, 14, 4, 30, 6],
@@ -100,77 +98,262 @@ ethnicity_active_pool: Dict[str, List[int]] = {
     "Ulutiun": [19, 20, 21, 26, 12],
     "Reghedman": [10, 19, 21, 1, 8],
 
-    # ==================== ELFES & DEMI-ELFES ====================
+    # Elfes & Demi-elfes
     "Wood Half-elf": [9, 7, 8, 4, 12],
     "Moon Half-elf": [9, 4, 30, 7, 15],
     "Sun Half-elf": [4, 30, 15, 1, 11],
     "Wild Half-elf": [8, 9, 31, 7, 19],
-    "Drow Half-elf": [24, 6, 23, 22, 9],
-    "Sea Half-elf": [25, 26, 34, 2, 9],
+    "Drow Half-elf": [22, 23, 24, 6, 9],
+    "Sea Half-elf": [25, 26, 34, 2, 27],
     "Elf Wood": [9, 7, 8, 12, 31],
     "Elf Moon": [9, 7, 4, 30, 15],
     "Elf Sun": [4, 30, 15, 11, 1],
     "Elf Wild": [8, 9, 31, 7, 19],
-    "Elf Drow": [24, 6, 23, 22, 9],
-    "Elf Sea": [25, 26, 34, 2, 9],
-    "Elf Star": [4, 15, 9, 30, 7],
-    "Elf Avariel": [3, 11, 15, 9, 4],
-    "Elf Lythari": [9, 7, 8, 31, 19],
+    "Elf Drow": [22, 23, 24, 6, 9],
+    "Elf Sea": [25, 26, 34, 2, 27],
 
-    # ==================== NAINS, GNOMES, HALFELINS ====================
-    "Nain": [10, 11, 19, 6, 12],
-    "Shield Dwarf": [10, 11, 19, 6, 20],
+    # Nains, Gnomes, Halfelins
+    "Shield Dwarf": [10, 11, 12, 19, 20],
     "Gold Dwarf": [10, 11, 6, 30, 5],
     "Gray Dwarf": [22, 23, 24, 6, 11],
-    "Gnome": [6, 24, 4, 7, 11],
     "Rock Gnome": [6, 11, 20, 5, 30],
     "Forest Gnome": [9, 7, 8, 4, 24],
-    "Deep Gnome": [22, 23, 24, 6, 11],
-    "Halfelin": [6, 29, 4, 6, 28],
     "Lightfoot Halfling": [29, 4, 28, 1, 30],
     "Strongheart Halfling": [6, 1, 4, 28, 19],
-    "Ghostwise Halfling": [9, 8, 4, 7, 24],
 
-    # ==================== AUTRES RACES ====================
+    # Autres
     "Half-Orc": [10, 11, 31, 19, 28],
-    "Gray Orc": [24, 23, 22, 6, 31],
-    "Mountain Orc": [10, 11, 19, 31, 20],
-    "Air Genasi": [4, 29, 36, 30, 1],
-    "Earth Genasi": [10, 11, 6, 23, 20],
-    "Fire Genasi": [4, 19, 28, 31, 6],
-    "Water Genasi": [2, 25, 26, 34, 27],
     "Aasimar": [4, 30, 5, 1, 8],
     "Tiefling": [28, 29, 6, 4, 30],
-    "Goblin": [29, 6, 24, 6, 28],
-    "Hobgoblin": [1, 6, 12, 30, 28],
-    "Yuan-ti Pureblood": [30, 28, 4, 6, 29],
     "Dragonborn": [10, 11, 19, 1, 4],
-    "Firbolg": [7, 8, 9, 5, 34],
-    "Kenku": [4, 29, 6, 28, 6],
-    "Lizardfolk": [2, 18, 34, 26, 17],
-    "Triton": [2, 25, 26, 34, 27],
-    "Aarakocra": [4, 36, 29, 11, 32],
     "Goliath": [10, 11, 19, 20, 12],
-    "Centaur": [1, 31, 32, 33, 4]
+    "Autre": [1, 4, 6, 28, 30]
 }
 
+# =============================================
+# POOLS DE COMPÉTENCES ACTIVES - RÉGIONS (indices 1-36)
+# =============================================
+region_active_pool: Dict[int, List[int]] = {
+    1: [30, 28, 4, 6, 29, 13, 14, 25, 26],      # Calimshan
+    2: [30, 28, 29, 4, 6, 25, 26, 34, 1],       # Amn
+    3: [6, 1, 8, 30, 4, 7, 9, 31, 28],          # Tethyr
+    4: [28, 30, 6, 29, 4, 1, 25, 26, 34],       # Baldur's Gate
+    5: [30, 28, 4, 6, 29, 1, 25, 26, 34],       # Waterdeep
+    6: [30, 28, 29, 4, 6, 1, 25, 34, 26],       # Sembia
+    7: [6, 1, 8, 30, 4, 7, 9, 31, 28],          # Cormyr
+    8: [30, 28, 4, 6, 1, 25, 26, 34, 29],       # Chondath
+    9: [25, 26, 34, 2, 35, 4, 30, 1, 28],       # Vilhon Reach
+    10: [1, 4, 30, 6, 28, 25, 26, 34, 27],      # Turmish
 
-def generate_active_skills(region_id: int = 0, ethnicity: str = "Chondathan") -> Dict:
-    """Retourne EXACTEMENT 2 compétences choisies aléatoirement parmi les 5 de l'ethnie"""
+    11: [1, 4, 30, 6, 11, 15, 28, 31, 5],       # Chessenta
+    12: [13, 14, 15, 4, 30, 6, 28, 1, 25],      # Mulhorand
+    13: [13, 14, 15, 4, 30, 6, 28, 1, 25],      # Unther
+    14: [7, 8, 9, 19, 4, 31, 1, 28, 30],        # Rashemen
+    15: [10, 11, 12, 19, 20, 1, 6, 31, 28],     # Damara
+    16: [1, 4, 30, 6, 28, 10, 11, 25, 26],      # Impiltur
+    17: [30, 28, 4, 6, 29, 31, 1, 25, 34],      # Thesk
+    18: [28, 30, 6, 4, 29, 10, 11, 1, 25],      # Moonsea
+    19: [25, 26, 27, 28, 29, 6, 4, 1, 30],      # Luskan
+    20: [30, 28, 4, 6, 29, 1, 25, 26, 34],      # Neverwinter
+
+    21: [19, 20, 21, 10, 11, 12, 31, 1, 6],     # Icewind Dale
+    22: [25, 26, 27, 34, 35, 2, 4, 30, 1],      # Moonshae Isles
+    23: [19, 20, 21, 10, 11, 1, 31, 4, 6],      # Sossal
+    24: [7, 8, 9, 18, 17, 2, 34, 35, 5],        # Chult
+    25: [9, 7, 8, 4, 2, 25, 34, 1, 30],         # Evermeet
+    26: [9, 7, 8, 4, 31, 1, 30, 5, 12],         # Cormanthor
+    27: [9, 7, 8, 31, 4, 1, 30, 10, 11],        # High Forest
+    28: [9, 7, 8, 4, 31, 19, 20, 1, 30],        # Moonwood
+    29: [9, 7, 8, 31, 4, 18, 17, 2, 34],        # Wealdath
+    30: [6, 11, 24, 4, 30, 28, 29, 1, 34],      # Lantan
+
+    # ==================== 31 à 133 ====================
+    31: [10, 11, 12, 19, 20, 6, 24, 1, 31],     # Citadel Adbar
+    32: [10, 11, 12, 19, 20, 6, 24, 1, 31],     # Mithral Hall
+    33: [10, 11, 12, 19, 20, 6, 24, 1, 31],     # Great Rift
+    34: [10, 11, 12, 19, 20, 6, 24, 1, 31],     # Ironmaster
+    35: [6, 29, 4, 28, 9, 7, 8, 1, 30],         # Luiren
+    36: [10, 11, 19, 20, 21, 1, 6, 31, 12],     # Vaasa
+    37: [10, 11, 12, 19, 20, 21, 31, 1, 6],     # Spine of the World
+    38: [9, 7, 8, 4, 11, 3, 1, 30, 34],         # Star Mounts
+    39: [22, 23, 24, 6, 11, 29, 28, 4, 30],     # Underdark
+    40: [13, 14, 15, 31, 1, 4, 30, 28, 6],      # Anauroch
+
+    41: [10, 11, 19, 20, 21, 31, 1, 6, 28],     # Le Nord
+    42: [31, 32, 8, 9, 19, 20, 1, 10, 11],      # Uthgardt Tribes
+    43: [30, 28, 4, 6, 29, 5, 1, 30, 28],       # Thay
+    44: [25, 26, 34, 9, 7, 4, 30, 2, 1],        # Aglarond
+    45: [10, 11, 12, 19, 20, 1, 6, 30, 28],     # Silver Marches
+    46: [7, 8, 9, 31, 1, 4, 30, 5, 32],         # The Dalelands
+    47: [31, 32, 33, 1, 8, 18, 13, 14, 4],      # The Shaar
+    48: [25, 26, 27, 34, 13, 14, 30, 28, 6],    # Lake of Steam
+    49: [28, 29, 6, 4, 30, 31, 1, 8, 18],       # Border Kingdoms
+    50: [31, 32, 33, 1, 8, 14, 19, 10, 4],      # Hordelands
+
+    51: [30, 28, 4, 1, 13, 14, 6, 28, 5],       # Old Empires
+    52: [9, 7, 8, 19, 20, 4, 30, 5, 31],        # Unapproachable East
+    53: [1, 4, 30, 28, 6, 31, 7, 8, 28],        # Western Heartlands
+    54: [25, 26, 27, 34, 28, 29, 6, 4, 30],     # Sword Coast
+    55: [10, 11, 19, 20, 28, 29, 1, 6, 31],     # Sword Coast North
+    56: [25, 26, 27, 34, 28, 4, 30, 6, 1],      # Dragon Coast
+    57: [19, 20, 21, 10, 11, 12, 31, 1, 6],     # Great Glacier
+    58: [25, 26, 27, 34, 2, 35, 4, 30, 28],     # Inner Sea
+    59: [4, 30, 28, 5, 6, 1, 29, 34, 25],       # Halruaa
+    60: [1, 31, 4, 8, 9, 28, 6, 30, 19],        # Dambrath
+
+    61: [31, 32, 33, 1, 4, 30, 28, 8, 18],      # Estagund
+    62: [30, 28, 29, 4, 6, 1, 34, 25, 26],      # Var the Golden
+    63: [31, 32, 33, 13, 14, 1, 4, 30, 28],     # Shaarmid
+    64: [25, 26, 34, 2, 35, 4, 30, 28, 6],      # Thindol
+    65: [7, 8, 9, 18, 17, 2, 34, 4, 28],        # Samarach
+    66: [25, 26, 34, 35, 2, 4, 30, 28, 1],      # Tashalar
+    67: [31, 32, 33, 13, 14, 4, 30, 1, 28],     # The Shining South
+    68: [7, 8, 9, 31, 4, 30, 28, 5, 1],         # Ymber
+    69: [25, 26, 27, 34, 35, 28, 29, 6, 4],     # Nelanther Isles
+    70: [19, 20, 21, 25, 26, 2, 1, 31, 4],      # The Whalebones
+
+    71: [25, 26, 27, 34, 2, 35, 4, 30, 1],      # The Trackless Sea
+    72: [19, 20, 21, 10, 11, 12, 31, 1, 6],     # The Cold Lands
+    73: [13, 14, 15, 31, 32, 1, 4, 30, 28],     # The Endless Wastes
+    74: [7, 8, 9, 31, 32, 4, 1, 19, 20],        # The Great Dale
+    75: [4, 30, 28, 6, 29, 5, 1, 34, 25],       # The Plateau of Thay
+    76: [25, 26, 27, 34, 2, 30, 28, 4, 1],      # The Easting Reach
+    77: [9, 7, 8, 31, 4, 19, 20, 1, 30],        # The Forgotten Forest
+    78: [10, 11, 12, 19, 20, 6, 1, 31, 4],      # The Lone Rock
+    79: [9, 7, 8, 31, 4, 18, 17, 1, 30],        # The Reaching Woods
+    80: [10, 11, 12, 19, 20, 6, 1, 31, 4],      # The Thunder Peaks
+
+    81: [31, 32, 1, 8, 4, 30, 28, 10, 11],      # The Ride
+    82: [9, 7, 8, 4, 25, 34, 30, 1, 5],         # Aglarondine
+    83: [13, 14, 15, 31, 1, 4, 30, 28, 6],      # Bedine
+    84: [10, 11, 12, 6, 24, 19, 20, 1, 30],     # Barakuir
+    85: [9, 7, 8, 4, 31, 6, 28, 1, 30],         # Chondalwood
+    86: [10, 11, 12, 19, 20, 6, 24, 1, 30],     # Citadelles du Nord
+    87: [22, 23, 24, 6, 29, 28, 4, 11, 30],     # Cité Drow
+    88: [22, 23, 24, 6, 11, 29, 28, 4, 30],     # Cité Souterraine Mixte
+    89: [25, 26, 27, 34, 28, 29, 6, 4, 30],     # Eauprofonde
+    90: [19, 20, 21, 10, 11, 12, 6, 1, 31],     # Épine dorsale
+
+    91: [9, 7, 8, 31, 4, 6, 28, 1, 30],         # Forêt d’Amtar / Methwood
+    92: [10, 11, 12, 19, 20, 6, 24, 1, 30],     # Forteresses isolées
+    93: [22, 23, 24, 6, 11, 19, 20, 1, 30],     # Gracklstugh
+    94: [10, 11, 12, 6, 24, 19, 20, 1, 30],     # Grande Faille
+    95: [19, 20, 21, 10, 11, 12, 31, 1, 6],     # Grand Glacier
+    96: [19, 20, 21, 10, 11, 31, 1, 6, 4],      # Glacière éternelle
+    97: [25, 26, 27, 19, 20, 1, 4, 30, 28],     # Ruathym
+    98: [9, 7, 8, 4, 31, 1, 30, 5, 28],         # Luirwood
+    99: [9, 7, 8, 4, 30, 5, 1, 31, 11],         # Myth Drannor
+    100: [9, 7, 8, 4, 11, 1, 30, 5, 31],        # Evereska
+
+    101: [19, 20, 21, 10, 11, 31, 1, 6, 4],     # Valbise
+    102: [10, 11, 12, 6, 24, 19, 20, 1, 30],    # Vallée de la Flamme
+    103: [7, 8, 31, 1, 4, 30, 5, 32, 28],       # Les Vaux
+    104: [31, 32, 1, 4, 30, 28, 10, 11, 6],     # Vast
+    105: [7, 8, 9, 18, 17, 2, 34, 4, 28],       # Jungle de Mhair
+    106: [13, 14, 15, 25, 26, 4, 30, 28, 1],    # Zakharans
+    107: [10, 11, 19, 20, 31, 8, 6, 4, 28],     # Pics Gris
+    108: [22, 23, 24, 6, 11, 18, 17, 4, 31],    # Outreterre tropicale
+    109: [9, 7, 8, 6, 24, 4, 11, 1, 30],        # Forêts du Nord (Gnomes)
+    110: [9, 7, 8, 4, 25, 34, 30, 1, 5],        # Éternelle-Rencontre
+
+    111: [10, 11, 19, 20, 31, 1, 30, 4, 28],    # Lunargent
+    112: [9, 7, 8, 31, 4, 18, 17, 1, 30],       # Bois de Yuir
+    113: [10, 11, 31, 8, 19, 6, 4, 28, 1],      # Montagnes du Shaar
+    114: [9, 7, 8, 31, 4, 19, 20, 1, 30],       # Vil Adanrath
+    115: [10, 11, 1, 4, 31, 6, 28, 19, 20],     # Tymanther
+    116: [10, 11, 12, 19, 20, 21, 1, 31, 6],    # Icerim Mountains
+    117: [10, 11, 12, 19, 20, 31, 1, 6, 4],     # Montagnes Theskiennes
+    118: [10, 11, 12, 19, 20, 6, 31, 1, 4],     # Montagnes de Cuivre
+    119: [1, 4, 30, 31, 32, 7, 8, 28, 5],       # Kara-Tur
+    120: [22, 23, 24, 6, 11, 29, 28, 4, 30],    # Pics de Mir
+
+    121: [9, 7, 8, 31, 4, 18, 17, 1, 30],       # Bois de Shaar
+    122: [22, 23, 24, 6, 11, 19, 20, 10, 31],   # Outreterre profonde
+    123: [9, 8, 31, 19, 20, 4, 7, 1, 28],       # Lycanthropes
+    124: [31, 32, 8, 9, 4, 1, 18, 7, 30],       # Wemics
+    125: [28, 29, 6, 4, 30, 18, 17, 9, 31],     # Yuan-ti
+    126: [1, 31, 32, 8, 4, 9, 30, 11, 28],      # Centaure
+    127: [2, 18, 17, 34, 26, 9, 8, 4, 28],      # Homme-lézard
+    128: [10, 11, 19, 6, 28, 4, 31, 23, 24],    # Tanarukks
+    129: [4, 9, 7, 30, 28, 6, 11, 1, 29],       # Fey’ri
+    130: [22, 23, 24, 4, 30, 28, 9, 7, 5],      # Sagespectres
+
+    131: [1, 4, 10, 11, 31, 6, 30, 28, 19],     # Vaillants
+    132: [3, 11, 4, 9, 22, 23, 24, 30, 28],     # Kir-lanan
+    133: [22, 23, 24, 9, 29, 28, 4, 6, 30],     # Reflets (Shades)
+}
+
+# =============================================
+# BIAIS SELON TYPE DE SETTLEMENT
+# =============================================
+settlement_skill_bias: Dict[int, List[int]] = {
+    1: [30, 28, 29, 4, 6, 1],      # Capitale / Grande Métropole
+    2: [25, 26, 34, 27, 2, 35],    # Grande Ville portuaire
+    3: [30, 28, 29, 4, 6, 1],      # Grande Ville marchande
+    4: [10, 11, 12, 6, 1, 31],     # Ville fortifiée
+    5: [30, 28, 4, 29, 6, 1],      # Ville moyenne
+    6: [7, 8, 9, 31, 32, 33],      # Bourg / Petite ville
+    7: [7, 8, 9, 31, 32, 33],      # Village rural
+    8: [25, 26, 34, 27, 2, 35],    # Village côtier
+    9: [7, 8, 9, 31, 4, 33],       # Village forestier
+    10: [10, 11, 12, 19, 20, 6],   # Village de montagne
+    11: [7, 8, 31, 32, 33, 1],     # Hameau agricole
+    12: [19, 20, 21, 10, 11, 12],  # Hameau isolé
+    13: [7, 8, 31, 32, 1, 4],      # Ferme isolée
+    14: [13, 14, 15, 31, 1, 33],   # Caravansérail / Oasis
+    15: [10, 11, 6, 1, 12, 31],    # Avant-poste militaire
+    16: [10, 11, 12, 6, 24, 19],   # Camp minier
+    17: [4, 5, 30, 1, 7, 31],      # Monastère
+    18: [7, 8, 9, 31, 4, 33],      # Camp de bûcherons
+    19: [31, 32, 33, 8, 19, 20],   # Tribu nomade
+    20: [7, 8, 9, 1, 31, 4],       # Colonie frontalière
+    21: [25, 26, 27, 28, 29, 6],   # Port de contrebande
+    22: [22, 23, 24, 6, 11, 19],   # Ruines habitées
+    23: [22, 23, 24, 6, 11, 29],   # Cité souterraine
+    24: [10, 11, 12, 19, 20, 6],   # Tour / Manoir isolé
+    25: [2, 34, 35, 25, 26, 27],   # Village lacustre
+    26: [10, 11, 12, 6, 24, 19],   # Forteresse naine
+    27: [9, 7, 8, 4, 31, 5],       # Enclave elfique
+    28: [4, 5, 30, 1, 7, 31],      # Sanctuaire
+    29: [19, 20, 21, 10, 11, 31],  # Refuge
+    30: [30, 28, 29, 4, 6, 1],     # Poste de commerce isolé
+    0: [1, 4, 6, 28, 30, 7]
+}
+
+# =============================================
+# FONCTION DE GÉNÉRATION
+# =============================================
+def generate_active_skills(
+    region_id: int,
+    ethnicity: str,
+    settlement_type: int = 0,
+    num_skills: int = 5
+) -> Dict[str, str]:
+    """Génère 5 compétences actives en mélangeant ethnie + région + settlement"""
     
-    indices = ethnicity_active_pool.get(ethnicity, [1, 4, 6, 28, 29])  # fallback
+    skills = {}
     
-    # Choix de 2 compétences différentes parmi les 5
-    selected_indices = random.sample(indices, 2)
-    
-    # Conversion des indices en noms de compétences
-    selected_skills = [active_skills_list[i-1] for i in selected_indices 
-                       if 1 <= i <= len(active_skills_list)]
-    
-    # Conversion en dictionnaire
-    skills_dict = {skill: "Maîtrisé" for skill in selected_skills}
-    
-    return {
-        "skills": skills_dict,
-        "bonus_languages": []
-    }
+    eth_pool = ethnicity_active_pool.get(ethnicity, [1, 4, 6, 28, 30])
+    reg_pool = region_active_pool.get(region_id, list(range(1, 37)))
+    bias_pool = settlement_skill_bias.get(settlement_type, [1, 4, 6, 28, 30])
+
+    combined_pool = eth_pool * 2 + reg_pool * 2 + bias_pool * 4
+
+    attempts = 0
+    while len(skills) < num_skills and attempts < 100:
+        idx = random.choice(combined_pool)
+        if 1 <= idx <= len(active_skills_list):
+            skill_name = active_skills_list[idx - 1]
+            if skill_name not in skills:
+                skills[skill_name] = "Connue"
+        attempts += 1
+
+    # Fallback si pas assez de compétences
+    if len(skills) < num_skills:
+        for skill_name in active_skills_list:
+            if skill_name not in skills:
+                skills[skill_name] = "Connue"
+                if len(skills) >= num_skills:
+                    break
+
+    return skills

@@ -2,8 +2,11 @@
 # Régions de Faerûn + Origine régionale par ethnie
 # Version finale - 24 Mai 2026
 
-import random   # ← AJOUTÉ EN HAUT DU FICHIER
+import random
 
+# =============================================
+# NOMS DES RÉGIONS (1 à 133)
+# =============================================
 region_names = {
     1: "Calimshan", 2: "Amn", 3: "Tethyr", 4: "Baldur's Gate", 5: "Waterdeep",
     6: "Sembia", 7: "Cormyr", 8: "Chondath", 9: "Vilhon Reach", 10: "Turmish",
@@ -27,6 +30,26 @@ region_names = {
     74: "The Great Dale", 75: "The Plateau of Thay", 76: "The Easting Reach",
     77: "The Forgotten Forest", 78: "The Lone Rock", 79: "The Reaching Woods",
     80: "The Thunder Peaks", 81: "The Ride", 82: "Aglarondine",
+
+    # === Régions 83 à 133 ===
+    83: "Bedine", 84: "Barakuir", 85: "Chondalwood", 86: "Citadelles du Nord",
+    87: "Cité Drow", 88: "Cité Souterraine Mixte", 89: "Eauprofonde",
+    90: "Épine dorsale (Nains arctiques)", 91: "Forêt d’Amtar / Methwood",
+    92: "Forteresses isolées", 93: "Gracklstugh", 94: "Grande Faille",
+    95: "Grand Glacier", 96: "Glacière éternelle", 97: "Ruathym",
+    98: "Luirwood", 99: "Myth Drannor", 100: "Evereska",
+    101: "Valbise", 102: "Vallée de la Flamme", 103: "Les Vaux",
+    104: "Vast", 105: "Jungle de Mhair", 106: "Zakharans",
+    107: "Pics Gris", 108: "Outreterre tropicale", 109: "Forêts du Nord (Gnomes)",
+    110: "Éternelle-Rencontre", 111: "Lunargent", 112: "Bois de Yuir",
+    113: "Montagnes du Shaar", 114: "Vil Adanrath", 115: "Tymanther",
+    116: "Icerim Mountains", 117: "Montagnes Theskiennes", 118: "Montagnes de Cuivre",
+    119: "Kara-Tur", 120: "Pics de Mir", 121: "Bois de Shaar",
+    122: "Outreterre profonde", 123: "Lycanthropes", 124: "Wemics",
+    125: "Yuan-ti", 126: "Centaure", 127: "Homme-lézard",
+    128: "Tanarukks", 129: "Fey’ri", 130: "Sagespectres",
+    131: "Vaillants", 132: "Kir-lanan", 133: "Reflets (Shades)",
+
     0: "Autre / Voyageur"
 }
 
@@ -80,14 +103,27 @@ origin_by_ethnicity = {
     "Gray Dwarf":     {39: 45, 37: 25, 27: 15, 0: 15},
     "Halfelin":       {35: 40, 46: 25, 45: 15, 6: 10, 0: 10},
 
-    # ==================== AUTRES ====================
+    # ==================== ORCS & SOUS-RACES ====================
+    "Orc":            {37: 35, 41: 25, 42: 20, 50: 10, 0: 10},
+    "Gray Orc":       {39: 45, 37: 25, 22: 15, 0: 15},
+    "Mountain Orc":   {37: 40, 41: 30, 42: 15, 0: 15},
+
+    # ==================== AUTRES RACES ====================
     "Half-Orc":       {39: 35, 37: 25, 50: 15, 41: 10, 0: 15},
     "Goliath":        {37: 45, 33: 25, 45: 15, 0: 15},
     "Aarakocra":      {38: 40, 27: 30, 26: 15, 0: 15},
     "Tiefling":       {1: 15, 5: 15, 43: 15, 59: 10, 0: 45},
     "Aasimar":        {5: 20, 7: 15, 14: 10, 25: 10, 59: 10, 0: 35},
+    "Dragonborn":     {37: 30, 41: 25, 10: 20, 1: 15, 0: 10},
+    "Firbolg":        {27: 40, 28: 25, 29: 20, 9: 10, 0: 5},
+    "Centaur":        {47: 35, 46: 25, 42: 20, 1: 15, 0: 5},
+    "Goblin":         {39: 40, 22: 25, 28: 20, 0: 15},
+    "Hobgoblin":      {4: 30, 15: 25, 16: 20, 1: 15, 0: 10},
+    "Yuan-ti Pureblood": {47: 35, 24: 25, 1: 20, 30: 15, 0: 5},
+    "Kenku":          {5: 30, 28: 25, 4: 20, 6: 15, 0: 10},
+    "Triton":         {22: 40, 69: 25, 70: 20, 0: 15},
+    "Lizardfolk":     {24: 45, 47: 25, 18: 15, 0: 15},
 }
-
 
 def get_random_origin(ethnicity: str) -> str:
     """Retourne une région d'origine pondérée.
@@ -96,22 +132,19 @@ def get_random_origin(ethnicity: str) -> str:
     origins = origin_by_ethnicity.get(ethnicity)
     if not origins:
         # Fallback sécurisé
-        return random.choice(list(region_names.values())[:-1])  # exclut "Autre / Voyageur"
+        return random.choice(list(region_names.values())[:-1])
 
     regions = list(origins.keys())
     weights = list(origins.values())
     
     chosen_idx = random.choices(regions, weights=weights, k=1)[0]
 
-    # === REMPLACEMENT FORT DE LA RÉGION 0 ===
+    # Remplacement de la région 0
     if chosen_idx == 0:
-        # On choisit une région valide parmi celles possibles pour cette ethnie
         valid_regions = [rid for rid in regions if rid != 0]
-        
         if valid_regions:
             chosen_idx = random.choice(valid_regions)
         else:
-            # Si vraiment aucune autre région, on prend une région aléatoire générale
             all_valid = [rid for rid in region_names.keys() if rid != 0]
             chosen_idx = random.choice(all_valid)
 

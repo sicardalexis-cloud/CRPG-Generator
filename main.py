@@ -56,7 +56,7 @@ def generate_batch(
         "Magic", "Magic_Subtype", "Magic_Description",
         
         "Special",
-        "Skills"
+        "Active Skills"
     ]
 
     with open(filename, mode='w', newline='', encoding='utf-8') as f:
@@ -73,7 +73,7 @@ def generate_batch(
 
             # Formatage Skills
             skills_dict = char.get("Skills", {})
-            row["Skills"] = "\n".join(skills_dict.keys()) if isinstance(skills_dict, dict) else ""
+            row["Active Skills"] = "\n".join(skills_dict.keys()) if isinstance(skills_dict, dict) else ""
 
             # Remplacer les points par des virgules pour les nombres flottants
             for key, value in row.items():

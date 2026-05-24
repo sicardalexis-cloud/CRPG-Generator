@@ -1,0 +1,101 @@
+ID,Indice,Race,Ethnicity,Origin_Region,Settlement_Type,Bonus_Languages,Magic_Type,Combat_Points,Grappling,Melee,Fencing,Skill_Modifier,Projectiles,Weight_Score,Build_Score,Height_cm,Weight_kg,Size_Score,Balance,Quickness,Coordination,Precision,Endurance,Regeneration,Vigilance,Beauty,Stealth,Speed,Dodge,Climbing,Magic,Magic_Subtype,Magic_Description,Special,Skills
+CH-00001,11,Human,Sossrim,The Cold Lands,Village de montagne,,None,"7,96",0,0,1,6,4,2,-8,"188,5","78,9",2,0,-1,0,5,-4,4,6,-2,-1,-1,1,-2,NO,,Non-magique,Aucun,"Escalade rocheuse et progression technique
+Navigation en relief montagneux
+Chasse et pistage en milieu arctique
+Équitation
+Pêche en haute mer et survie aquatique"
+CH-00002,3,Human,Damaran,Impiltur,Port de contrebande,,Arcanique,"-7,87",-1,-2,-3,3,-5,0,1,"167,8","71,0",0,3,-5,-6,-2,2,5,4,1,-2,-7,-2,-1,YES,Magicien,Arcaniste (magie savante),Aucun,"Streetwise et connaissance des bas-fonds urbains
+Manipulation de pièges et serrures
+Navigation maritime et lecture des courants
+Navigation en relief montagneux
+Équitation"
+CH-00003,1,Human,Calishite,Amn,Bourg / Petite ville,,Théurgique,"-3,16",-3,0,0,-7,-1,-3,4,"155,0","60,6",-2,1,0,9,-4,2,6,7,-3,7,3,4,4,YES,Théurgiste,Théurgiste (magie divine instinctive),Aucun,"Performance (Acrobatie/ Danse / Musique / Prestidigitation)
+Équitation
+Réseautage et recherche d’informations urbaines
+Manipulation de pièges et serrures
+Furtivité et déplacement discret en ville"
+CH-00004,2,Human,Chondathan,The Dalelands,Village forestier,,None,"9,0",6,1,0,10,-8,7,-5,"200,4","102,7",3,0,-2,-7,-5,-3,4,8,0,-8,-5,-2,-5,NO,,Non-magique,Aucun,"Performance (Acrobatie/ Danse / Musique / Prestidigitation)
+Médecine
+Équitation
+Manipulation de pièges et serrures
+Streetwise et connaissance des bas-fonds urbains"
+CH-00005,2,Human,Chondathan,Western Heartlands,Village rural,,None,"9,52",-4,0,2,1,5,-4,-6,"166,6","57,5",0,1,2,8,2,7,5,2,1,7,4,4,4,NO,,Non-magique,Aucun,"Pistage et traque en milieu boisé
+Performance (Acrobatie/ Danse / Musique / Prestidigitation)
+Manipulation de pièges et serrures
+Réseautage et recherche d’informations urbaines
+Pistage et chasse en milieu ouvert"
+CH-00006,7,Human,Tethyrian,The Dalelands,Camp de bûcherons,,None,"4,66",3,0,-1,10,1,2,5,"167,7","78,9",0,3,-1,-4,3,-1,-2,-1,3,-1,-3,-2,-1,NO,,Non-magique,Aucun,"Streetwise et connaissance des bas-fonds urbains
+Équitation
+Cueillette et connaissance des plantes forestières
+Manipulation de pièges et serrures
+Orientation en grande plaine"
+CH-00007,1,Human,Calishite,Amn,Grande Ville marchande,,Théurgique,"-6,4",-3,-2,-2,2,-1,-2,-2,"166,5","63,9",0,1,-2,-3,1,1,2,0,-1,0,-3,-1,-1,YES,Théurgiste,Théurgiste (magie divine instinctive),Aucun,"Manipulation de pièges et serrures
+Conservation et recherche d’eau en milieu aride
+Réseautage et recherche d’informations urbaines
+Streetwise et connaissance des bas-fonds urbains
+Performance (Acrobatie/ Danse / Musique / Prestidigitation)"
+CH-00008,5,Human,Mulan,Thay,Capitale / Grande Métropole,,Théurgique,"-2,62",-1,0,-2,0,0,-2,4,"157,7","63,9",-2,4,0,-1,1,-4,-2,-1,4,3,-1,0,0,YES,Théurgiste,Théurgiste (magie divine instinctive),Aucun,"Performance (Acrobatie/ Danse / Musique / Prestidigitation)
+Escalade rocheuse et progression technique
+Équitation
+Manipulation de pièges et serrures
+Streetwise et connaissance des bas-fonds urbains"
+CH-00009,3,Human,Damaran,Impiltur,Ville moyenne,,None,"2,5",3,0,-3,11,0,3,9,"164,7","83,2",-1,1,-4,-2,2,-2,4,2,10,-2,-5,-3,-1,NO,,Non-magique,Aucun,"Performance (Acrobatie/ Danse / Musique / Prestidigitation)
+Manipulation de pièges et serrures
+Réseautage et recherche d’informations urbaines
+Streetwise et connaissance des bas-fonds urbains
+Équitation"
+CH-00010,3,Human,Damaran,Impiltur,Bourg / Petite ville,,Théurgique,"-6,09",-1,-1,-1,-1,-5,1,0,"172,3","74,8",0,-2,-2,2,-5,-2,3,7,-2,-1,-2,1,-1,YES,Théurgiste,Théurgiste (magie divine instinctive),Aucun,"Équitation
+Marche en montagne et portage en altitude
+Streetwise et connaissance des bas-fonds urbains
+Réseautage et recherche d’informations urbaines
+Performance (Acrobatie/ Danse / Musique / Prestidigitation)"
+CH-00011,11,Human,Sossrim,The Cold Lands,Hameau isolé,,Arcanique,"-7,87",-3,-2,-1,5,-5,-1,-2,"169,5","67,4",0,-2,-1,0,-4,2,3,-6,7,-2,-1,-2,-1,YES,Magicien,Arcaniste (magie savante),Aucun,"Performance (Acrobatie/ Danse / Musique / Prestidigitation)
+Pistage et chasse en milieu ouvert
+Équitation
+Streetwise et connaissance des bas-fonds urbains
+Construction d’abris en neige et glace"
+CH-00012,6,Human,Rashemi,Uthgardt Tribes,Tribu nomade,,None,"4,18",4,1,-3,10,-2,2,12,"157,5","78,9",-2,8,-5,-3,0,1,-3,-2,7,3,-6,-2,2,NO,,Non-magique,Aucun,"Manipulation de pièges et serrures
+Équitation
+Furtivité et déplacement silencieux en forêt
+Construction d’abris en neige et glace
+Performance (Acrobatie/ Danse / Musique / Prestidigitation)"
+CH-00013,1,Human,Calishite,Calimshan,Grande Ville portuaire,,None,"11,52",0,1,1,8,5,2,-1,"177,0","78,9",1,-4,-1,8,3,-8,0,-2,5,0,1,-1,-1,NO,,Non-magique,Aucun,"Réseautage et recherche d’informations urbaines
+Manipulation de pièges et serrures
+Équitation
+Performance (Acrobatie/ Danse / Musique / Prestidigitation)
+Furtivité et déplacement discret en ville"
+CH-00014,2,Human,Chondathan,Vilhon Reach,Grande Ville portuaire,,Arcanique,"-7,41",-5,-3,-3,2,0,-3,-3,"165,0","60,6",-1,-3,-1,0,1,5,-4,0,2,-1,-1,-1,-1,YES,Magicien,Arcaniste (magie savante),Aucun,"Manipulation de pièges et serrures
+Réseautage et recherche d’informations urbaines
+Équitation
+Natation
+Streetwise et connaissance des bas-fonds urbains"
+CH-00015,2,Human,Chondathan,Chondath,Ville moyenne,,Théurgique,"-3,24",1,-1,-2,2,-2,2,8,"163,2","78,9",-1,-5,2,-2,-1,-3,7,3,-2,-7,1,-2,-3,YES,Théurgiste,Théurgiste (magie divine instinctive),Aucun,"Streetwise et connaissance des bas-fonds urbains
+Manipulation de pièges et serrures
+Équitation
+Performance (Acrobatie/ Danse / Musique / Prestidigitation)
+Survie côtière et connaissance des marées"
+CH-00016,7,Human,Tethyrian,Baldur's Gate,Grande Ville portuaire,,Arcanique,"-12,09",-1,-4,-5,12,-11,2,2,"172,3","78,9",0,-3,-7,-7,-7,-4,5,-5,-6,-8,-10,-7,-5,YES,Magicien,Arcaniste (magie savante),Aucun,"Manipulation de pièges et serrures
+Pêche en haute mer et survie aquatique
+Équitation
+Performance (Acrobatie/ Danse / Musique / Prestidigitation)
+Furtivité et déplacement discret en ville"
+CH-00017,31,Elf,Elf Moon,Tanarukks,Poste de commerce isolé,,None,"9,3",2,2,2,5,-2,-1,-5,"174,1","67,4",0,10,4,-5,-1,-1,3,-1,-2,5,2,2,1,NO,,Non-magique,Transe + Immunité sommeil + VN (N2),"Marche en montagne et portage en altitude
+Streetwise et connaissance des bas-fonds urbains
+Manipulation de pièges et serrures
+Performance (Acrobatie/ Danse / Musique / Prestidigitation)
+Équitation"
+CH-00018,138,Human,Uthgardt,Le Nord (The North),Ferme isolée / Domaine,,None,"6,5",-2,-1,-1,11,5,2,-7,"186,8","78,9",2,-1,-9,4,6,7,4,-4,-6,0,-8,-3,1,NO,,Non-magique,Aucun,"Équitation
+Chasse et pistage en milieu arctique
+Réseautage et recherche d’informations urbaines
+Performance (Acrobatie/ Danse / Musique / Prestidigitation)
+Pistage et chasse en milieu ouvert"
+CH-00019,146,Human,Vaasan,The Cold Lands,Poste de commerce isolé,,Arcanique,"-13,47",-7,-6,-7,8,-3,-5,10,"141,8","54,6",-4,-5,-2,-2,-1,2,2,-7,2,-3,-3,-4,-1,YES,Magicien,Arcaniste (magie savante),Aucun,"Streetwise et connaissance des bas-fonds urbains
+Équitation
+Marche en montagne et portage en altitude
+Navigation en relief montagneux
+Réseautage et recherche d’informations urbaines"
+CH-00020,33,Elf,Elf Sun,The Trackless Sea,Forteresse naine / Enclave naine,,Arcanique,"-7,17",-8,-4,-2,3,-2,-5,-12,"172,9","54,6",0,-2,-1,-2,-1,1,-5,-1,7,-1,-2,0,-2,YES,Magicien,Arcaniste (magie savante),Transe + Immunité sommeil + VN (N2),"Performance (Acrobatie/ Danse / Musique / Prestidigitation)
+Réseautage et recherche d’informations urbaines
+Navigation maritime et lecture des courants
+Survie côtière et connaissance des marées
+Pêche et récolte en zone littorale"

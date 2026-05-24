@@ -287,36 +287,31 @@ region_active_pool: Dict[int, List[int]] = {
 # BIAIS SELON TYPE DE SETTLEMENT
 # =============================================
 settlement_skill_bias: Dict[int, List[int]] = {
-    1: [30, 28, 29, 4, 6, 1],      # Capitale / Grande Métropole
-    2: [25, 26, 34, 27, 2, 35],    # Grande Ville portuaire
-    3: [30, 28, 29, 4, 6, 1],      # Grande Ville marchande
-    4: [10, 11, 12, 6, 1, 31],     # Ville fortifiée
-    5: [30, 28, 4, 29, 6, 1],      # Ville moyenne
-    6: [7, 8, 9, 31, 32, 33],      # Bourg / Petite ville
-    7: [7, 8, 9, 31, 32, 33],      # Village rural
-    8: [25, 26, 34, 27, 2, 35],    # Village côtier
-    9: [7, 8, 9, 31, 4, 33],       # Village forestier
-    10: [10, 11, 12, 19, 20, 6],   # Village de montagne
-    11: [7, 8, 31, 32, 33, 1],     # Hameau agricole
-    12: [19, 20, 21, 10, 11, 12],  # Hameau isolé
-    13: [7, 8, 31, 32, 1, 4],      # Ferme isolée
-    14: [13, 14, 15, 31, 1, 33],   # Caravansérail / Oasis
-    15: [10, 11, 6, 1, 12, 31],    # Avant-poste militaire
-    16: [10, 11, 12, 6, 24, 19],   # Camp minier
-    17: [4, 5, 30, 1, 7, 31],      # Monastère
-    18: [7, 8, 9, 31, 4, 33],      # Camp de bûcherons
-    19: [31, 32, 33, 8, 19, 20],   # Tribu nomade
-    20: [7, 8, 9, 1, 31, 4],       # Colonie frontalière
-    21: [25, 26, 27, 28, 29, 6],   # Port de contrebande
-    22: [22, 23, 24, 6, 11, 19],   # Ruines habitées
-    23: [22, 23, 24, 6, 11, 29],   # Cité souterraine
-    24: [10, 11, 12, 19, 20, 6],   # Tour / Manoir isolé
-    25: [2, 34, 35, 25, 26, 27],   # Village lacustre
-    26: [10, 11, 12, 6, 24, 19],   # Forteresse naine
-    27: [9, 7, 8, 4, 31, 5],       # Enclave elfique
-    28: [4, 5, 30, 1, 7, 31],      # Sanctuaire
-    29: [19, 20, 21, 10, 11, 31],  # Refuge
-    30: [30, 28, 29, 4, 6, 1],     # Poste de commerce isolé
+    # === MILIEUX URBAINS (Équitation faible ou absente) ===
+    1: [30, 28, 29, 4, 79, 84],      # Capitale / Grande Métropole          → Équitation supprimée
+    2: [30, 28, 4, 79, 76, 84],      # Grande Ville portuaire
+    3: [30, 28, 4, 79, 77, 84],      # Grande Ville marchande
+    4: [28, 30, 6, 29, 4, 1],        # Ville fortifiée                     → un peu d'équitation
+    5: [30, 28, 4, 6, 29, 79],       # Ville moyenne
+    28: [4, 30, 28, 29, 6, 1],       # Quartier noble / Aristocratique
+
+    # === MILIEUX RURAUX / NOMADE (Équitation forte) ===
+    7: [1, 31, 7, 8, 10, 32],        # Village rural
+    8: [1, 25, 26, 34, 2, 35],       # Village côtier
+    9: [7, 8, 9, 1, 31, 4],          # Village forestier
+    10: [10, 11, 12, 1, 19, 20],     # Village de montagne
+    11: [1, 31, 32, 7, 8, 10],       # Hameau agricole
+    19: [1, 31, 32, 8, 10, 19],      # Tribu nomade          → très forte équitation
+    20: [1, 31, 10, 4, 8, 30],       # Colonie frontalière
+
+    # === AUTRES ===
+    14: [13, 14, 15, 1, 31, 8],      # Caravansérail / Oasis
+    15: [1, 10, 11, 6, 4, 30],       # Avant-poste militaire
+    16: [10, 11, 6, 20, 1, 12],      # Camp minier
+    26: [10, 11, 12, 20, 6, 1],      # Forteresse naine
+    30: [30, 28, 4, 1, 6, 79],       # Poste de commerce isolé
+
+    # Fallback
     0: [1, 4, 6, 28, 30, 7]
 }
 
@@ -337,7 +332,7 @@ def generate_active_skills(
     reg_pool = region_active_pool.get(region_id, list(range(1, 37)))
     bias_pool = settlement_skill_bias.get(settlement_type, [1, 4, 6, 28, 30])
 
-    combined_pool = eth_pool * 2 + reg_pool * 2 + bias_pool * 4
+    combined_pool = eth_pool * 2 + reg_pool * 3 + bias_pool * 2
 
     attempts = 0
     while len(skills) < num_skills and attempts < 100:

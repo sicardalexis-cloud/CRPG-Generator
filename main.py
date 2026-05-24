@@ -34,7 +34,7 @@ def generate_batch(
     fieldnames = [
         "ID", "Indice", "Race", "Ethnicity",
         "Origin_Region",
-        "Settlement_Type",                    # ← AJOUTÉ
+        "Settlement_Type",
         "Bonus_Languages",
         "Magic_Type",
         "Combat_Points",
@@ -68,19 +68,27 @@ def generate_batch(
 
             # Formatage des colonnes spéciales
             row["Origin_Region"] = char.get("Origin_Region", "")
-            row["Settlement_Type"] = char.get("Settlement_Type", "")   # ← IMPORTANT
+            row["Settlement_Type"] = char.get("Settlement_Type", "")
             row["Bonus_Languages"] = " + ".join(char.get("Bonus_Languages", []))
 
-            # Formatage Skills
+            # Formatage des compétences actives
             skills_dict = char.get("Skills", {})
-            row["Active Skills"] = "\n".join(skills_dict.keys()) if isinstance(skills_dict, dict) else ""
+            if isinstance(skills_dict, dict) and skills_dict:
+                row["Active Skills"] = "\n".join(skills_dict.keys())
+            else:
+                row["Active Skills"] = ""
+
+            # Nettoyage des clés inutiles
+            row.pop("Skills", None)
 
             # Remplacer les points par des virgules pour les nombres flottants
-            for key, value in row.items():
+            for key, value in list(row.items()):
                 if isinstance(value, float):
                     row[key] = str(value).replace('.', ',')
                 elif value is None:
                     row[key] = ""
+                elif key not in fieldnames:
+                    row.pop(key, None)
 
             writer.writerow(row)
 

@@ -9,7 +9,8 @@ from race_data import ethnicity_data
 from ethnicity_weights import category_weights, ethnicity_weights
 from origin_data import get_random_origin, region_names
 from settlement_data import get_random_settlement
-from skill_data import generate_active_skills
+from skill_data import generate_active_skills, get_num_active_skills
+from knowledge_data import generate_secondary_skills          # ← AJOUTÉ
 from rules import (
     calculate_weight,
     calculate_height,
@@ -83,7 +84,6 @@ def generate_character(char_id: str):
     # ====================== ORIGIN & SETTLEMENT ======================
     origin_region = get_random_origin(ethnicity)
 
-    # Recherche de l'ID de région
     region_id = None
     for rid, name in region_names.items():
         if name == origin_region or name in origin_region:
@@ -92,28 +92,34 @@ def generate_character(char_id: str):
     if region_id is None:
         region_id = 0
 
-    # Récupération du type d'implantation
     region_name, settlement_type = get_random_settlement(region_id)
 
     # ====================== SKILLS ======================
+    num_active_skills = get_num_active_skills()
+
     skills = generate_active_skills(
         region_id=region_id,
         ethnicity=ethnicity,
         settlement_type=settlement_type,
-        num_skills=5
+        num_skills=num_active_skills
     )
 
-    # ====================== ATTRIBUTES (Jet de dés) ======================
+    # ====================== CONNAISSANCES + CRAFT + LANGUES ÉCRITES ======================
+    secondary = generate_secondary_skills(
+        active_count=num_active_skills,
+        ethnicity=ethnicity,
+        region_id=region_id,
+        settlement_type=settlement_type
+    )
+
+    # ====================== ATTRIBUTES ======================
     weight_score = math.floor(roll_12d6() / 2) - 21 + data.get("w", 0)
     build_score  = roll_6d6() - 21 + data.get("b", 0)
 
     balance      = roll_6d6() - 21 + data.get("bal", 0)
     quickness    = roll_6d6() - 21 + data.get("quickness", 0)
     coordination = roll_6d6() - 21 + data.get("coo", 0)
-    
-    precision_base = (roll_12d6() / 2) - 21
-    precision      = math.floor(precision_base + data.get("pre", 0))
-    
+    precision    = math.floor((roll_12d6() / 2) - 21 + data.get("pre", 0))
     endurance    = roll_6d6() - 21 + data.get("end", 0)
     regeneration = roll_6d6() - 21 + data.get("reg", 0)
     vigilance    = roll_6d6() - 21 + data.get("vig", 0)
@@ -125,17 +131,8 @@ def generate_character(char_id: str):
     size_score = calculate_size_score(height_cm)
 
     speed = math.floor(quickness + coordination / 3.0)
-
-    climbing = math.floor(
-        coordination / 3.0 + balance / 3.0 + 
-        build_score / 10.0 + endurance / 6.0 - (weight_score / 9.0)
-    )
-
-    dodge = math.floor(
-        (vigilance + quickness + coordination + balance - 
-         weight_score - (build_score * 0.25)) / 4.0
-    )
-
+    climbing = math.floor(coordination / 3.0 + balance / 3.0 + build_score / 10.0 + endurance / 6.0 - (weight_score / 9.0))
+    dodge = math.floor((vigilance + quickness + coordination + balance - weight_score - (build_score * 0.25)) / 4.0)
     stealth = math.floor(- (weight_score / 2) + (balance * 0.8) + (coordination * 0.6))
 
     # ====================== COMBAT ======================
@@ -145,10 +142,9 @@ def generate_character(char_id: str):
     fencing     = calculate_fencing(size_score, weight_score, quickness, coordination, balance)
 
     base_tcb = calculate_combat_points(grappling, melee, projectiles, fencing)
-    racial_cp = data.get("cp", 0.0)
-    combat_points = round(base_tcb + racial_cp, 2)
+    combat_points = round(base_tcb + data.get("cp", 0.0), 2)
 
-    # ====================== MAGIC ======================
+    # ====================== MAGIC & SKILL MODIFIER ======================
     magic_info = determine_magic_type(combat_points)
 
     skill_modifier = calculate_skill_modifier(
@@ -165,14 +161,14 @@ def generate_character(char_id: str):
     if magic_info.get("magic") is True:
         skill_modifier -= 10
 
-    # ====================== LANGUES ======================
+    # ====================== LANGUES PARLÉES ======================
     bonus_languages = generate_languages(
         ethnicity=ethnicity,
         region_id=region_id,
         skill_modifier=skill_modifier
     )
 
-    # ====================== RETURN FINAL ======================
+        # ====================== RETURN FINAL ======================
     return {
         "ID": char_id,
         "Indice": data["idx"],
@@ -212,7 +208,13 @@ def generate_character(char_id: str):
         "Magic_Description": magic_info.get("description", ""),
 
         "Skill_Modifier": skill_modifier,
+        "Num_Active_Skills": num_active_skills,
         "Special": data.get("spec", "Aucun"),
-        "Skills": skills,
-        "Bonus_Languages": bonus_languages,
+
+        # === Nouvelles catégories ===
+        "Skills": skills,                    # Compétences Actives
+        "Knowledge": secondary["knowledge"],
+        "Craft": secondary["craft"],
+        "Literacy": secondary["literacy"],   # Langues écrites + calligraphie
+        "Bonus_Languages": bonus_languages,  # Langues parlées
     }

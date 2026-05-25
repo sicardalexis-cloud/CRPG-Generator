@@ -42,6 +42,7 @@ def generate_batch(
         "Melee",
         "Fencing",
         "Skill_Modifier",
+        "Num_Active_Skills",
         "Projectiles",
         
         # Caractéristiques physiques
@@ -56,7 +57,10 @@ def generate_batch(
         "Magic", "Magic_Subtype", "Magic_Description",
         
         "Special",
-        "Active Skills"
+        "Active Skills",
+        "Knowledge",
+        "Craft",
+        "Literacy"          # ← Ajouté
     ]
 
     with open(filename, mode='w', newline='', encoding='utf-8') as f:
@@ -71,17 +75,34 @@ def generate_batch(
             row["Settlement_Type"] = char.get("Settlement_Type", "")
             row["Bonus_Languages"] = " + ".join(char.get("Bonus_Languages", []))
 
-            # Formatage des compétences actives
+            # Compétences actives
+            row["Num_Active_Skills"] = char.get("Num_Active_Skills", "")
+
             skills_dict = char.get("Skills", {})
             if isinstance(skills_dict, dict) and skills_dict:
                 row["Active Skills"] = "\n".join(skills_dict.keys())
             else:
                 row["Active Skills"] = ""
 
-            # Nettoyage des clés inutiles
+            # Knowledge
+            knowledge = char.get("Knowledge", [])
+            row["Knowledge"] = "\n".join(knowledge) if isinstance(knowledge, list) else ""
+
+            # Craft
+            craft = char.get("Craft", [])
+            row["Craft"] = "\n".join(craft) if isinstance(craft, list) else ""
+
+            # Literacy (langues écrites avec calligraphie)
+            literacy = char.get("Literacy", {})
+            if isinstance(literacy, dict) and literacy:
+                row["Literacy"] = "\n".join(f"{lang} ({script})" for lang, script in literacy.items())
+            else:
+                row["Literacy"] = ""
+
+            # Nettoyage
             row.pop("Skills", None)
 
-            # Remplacer les points par des virgules pour les nombres flottants
+            # Formatage nombres (virgule pour Excel français)
             for key, value in list(row.items()):
                 if isinstance(value, float):
                     row[key] = str(value).replace('.', ',')

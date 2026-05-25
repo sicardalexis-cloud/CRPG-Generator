@@ -12,7 +12,7 @@ active_skills_list = [
     "Médecine", "Manipulation de pièges et serrures",
 
     # 7-9 : Survie en forêt
-    "Cueillette et connaissance des plantes forestières",
+    "Cueillette et  plantes forestières",
     "Pistage et traque en milieu boisé",
     "Furtivité et déplacement silencieux en forêt",
 
@@ -47,17 +47,17 @@ active_skills_list = [
     "Résistance au mal de mer et gestion des tempêtes",
 
     # 28-30 : Survie urbaine
-    "Streetwise et connaissance des bas-fonds urbains",
+    "Streetwise et  bas-fonds urbains",
     "Furtivité et déplacement discret en ville",
     "Réseautage et recherche d’informations urbaines",
 
     # 31-33 : Survie en plaine / savane
     "Pistage et chasse en milieu ouvert",
     "Orientation en grande plaine",
-    "Cueillette et connaissance des plantes de savane",
+    "Cueillette et plantes de savane",
 
     # 34-36 : Survie côtière / insulaire
-    "Survie côtière et connaissance des marées",
+    "Survie côtière et marées",
     "Pêche et récolte en zone littorale",
     "Navigation et orientation sur petite île"
 ]
@@ -315,17 +315,36 @@ settlement_skill_bias: Dict[int, List[int]] = {
     0: [1, 4, 6, 28, 30, 7]
 }
 
+
+def get_num_active_skills() -> int:
+    """
+    Distribution :
+    - 33% → 5 compétences actives
+    - 33% → 4 ou 6 compétences actives
+    - 33% → 3 ou 7 compétences actives
+    """
+    roll = random.random()  # entre 0.0 et 1.0
+    
+    if roll < 0.33:           # 33% → 5
+        return 5
+    elif roll < 0.66:         # 33% → 4 ou 6
+        return random.choice([4, 6])
+    else:                     # 33% → 3 ou 7
+        return random.choice([3, 7])
+
 # =============================================
 # FONCTION DE GÉNÉRATION
 # =============================================
 def generate_active_skills(
     region_id: int,
     ethnicity: str,
-    settlement_type: int = 0,
-    num_skills: int = 5
+    settlement_type: str,
+    num_skills: int = None   # On rend ce paramètre optionnel
 ) -> Dict[str, str]:
-    """Génère 5 compétences actives en mélangeant ethnie + région + settlement"""
     
+    # Si aucun nombre n'est passé, on utilise la nouvelle distribution
+    if num_skills is None:
+        num_skills = get_num_active_skills()
     skills = {}
     
     eth_pool = ethnicity_active_pool.get(ethnicity, [1, 4, 6, 28, 30])

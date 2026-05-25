@@ -23,35 +23,36 @@ all_languages = [
 # LANGUES DE BASE PAR ETHNIE
 # =============================================
 ethnicity_base_languages: Dict[str, List[str]] = {
+    # ==================== HUMAINS ====================
     "Chondathan": ["Chondathan"],
-    "Tethyrian": ["Chondathan"],
-    "Calishite": ["Chondathan"],
-    "Damaran": ["Chondathan"],
+    "Tethyrian": ["Tethyrian", "Chondathan"],
+    "Calishite": ["Calishite", "Mulhorandi"],
+    "Damaran": ["Damaran", "Chondathan"],
     "Illuskan": ["Illuskan"],
     "Mulan": ["Mulhorandi"],
     "Rashemi": ["Rashemi"],
-    "Turami": ["Chondathan"],
-    "Uthgardt": ["Illuskan"],
+    "Turami": ["Turami", "Chondathan"],
+    "Uthgardt": ["Uthgardt", "Illuskan"],
     "Chultan": ["Chultan"],
     "Shaaran": ["Shaaran"],
-    "Ffolk": ["Chondathan"],
-    "Sossrim": ["Illuskan"],
-    "Vaasan": ["Illuskan"],
-    "Arkaiun": ["Chondathan"],
-    "Durpari": ["Chondathan"],
-    "Imaskari": ["Mulhorandi"],
-    "Lantanna": ["Chondathan"],
-    "Raumviran": ["Chondathan"],
+    "Ffolk": ["Ffolk", "Chondathan"],
+    "Sossrim": ["Sossrim", "Illuskan"],
+    "Vaasan": ["Vaasan", "Illuskan"],
+    "Arkaiun": ["Arkaiun"],
+    "Durpari": ["Durpari"],
+    "Imaskari": ["Imaskari", "Mulhorandi"],
+    "Lantanna": ["Lantanna"],
+    "Raumviran": ["Raumviran"],
     "Tashalan": ["Tashalan"],
     "Tuigan": ["Tuigan"],
     "Shou": ["Shou"],
     "Maztican": ["Maztican"],
     "Netherese": ["Netherese"],
-    "Talfir": ["Chondathan"],
+    "Talfir": ["Talfir", "Chondathan"],
     "Ulutiun": ["Ulutiun"],
-    "Reghedman": ["Illuskan"],
+    "Reghedman": ["Reghed", "Illuskan"],
 
-    # Elfes & Demi-elfes
+    # ==================== ELFES & DEMI-ELFES ====================
     "Elf Moon": ["Elfique"],
     "Elf Sun": ["Elfique"],
     "Elf Wood": ["Elfique"],
@@ -61,9 +62,9 @@ ethnicity_base_languages: Dict[str, List[str]] = {
     "Elf Star": ["Elfique"],
     "Elf Avariel": ["Elfique"],
     "Elf Lythari": ["Elfique"],
-    "Demi-elfe": ["Elfique", "Chondathan"],
+    "Half-Elf": ["Elfique", "Chondathan"],
 
-    # Nains
+    # ==================== NAINS ====================
     "Nain": ["Nain"],
     "Shield Dwarf": ["Nain"],
     "Gold Dwarf": ["Nain"],
@@ -72,7 +73,7 @@ ethnicity_base_languages: Dict[str, List[str]] = {
     "Arctic Dwarf": ["Nain"],
     "Urdunnir": ["Nain"],
 
-    # Autres races
+    # ==================== AUTRES RACES ====================
     "Half-Orc": ["Orc"],
     "Orc": ["Orc"],
     "Gray Orc": ["Orc"],
@@ -87,6 +88,9 @@ ethnicity_base_languages: Dict[str, List[str]] = {
     "Aarakocra": ["Auran"],
     "Goliath": ["Géant"],
     "Centaur": ["Sylvestre"],
+
+    # ==================== DEFAULT ====================
+    "Default": ["Chondathan"]
 }
 
 # =============================================
@@ -335,36 +339,25 @@ def generate_languages(
     """Génère les langues avec pools bonus thématiques"""
     languages = set()
 
-    # 1. Langue ethnique de base
+    # 1. Langue ethnique de base (très forte priorité)
     base_eth = ethnicity_base_languages.get(ethnicity, ["Chondathan"])
     languages.add(random.choice(base_eth))
 
-    # 2. Langue régionale principale
+    # 2. Langue régionale (uniquement si différente de la langue de base)
     regional_lang = get_regional_language(region_id)
-    languages.add(regional_lang)
+    if regional_lang not in languages and random.random() < 0.75:   # 75% de chance
+        languages.add(regional_lang)
 
-    # 3. Calcul des langues bonus
-    bonus_count = 0
-    if skill_modifier >= 15:
-        bonus_count = skill_modifier - 10
-    elif skill_modifier >= 14:
-        bonus_count = 4
-    elif skill_modifier >= 12:
-        bonus_count = 3
-    elif skill_modifier >= 9:
-        bonus_count = 2
-    elif skill_modifier >= 5:
-        bonus_count = 1
+    # 3. Langues bonus (moins nombreuses et moins systématiques)
+    bonus_count = max(0, (skill_modifier // 4) - 1)   # réduit
 
-    # === POOL DE LANGUES BONUS COMBINÉ ===
     eth_bonus = ethnicity_bonus_languages.get(ethnicity, ethnicity_bonus_languages["Default"])
     reg_bonus = region_bonus_languages.get(region_id, region_bonus_languages[0])
 
-    bonus_pool = list(set(base_eth + [regional_lang] + eth_bonus + reg_bonus))
+    bonus_pool = list(set(eth_bonus + reg_bonus))
 
-    # Ajout des langues bonus
     for _ in range(bonus_count):
-        if bonus_pool:
+        if bonus_pool and random.random() < 0.8:
             new_lang = random.choice(bonus_pool)
             if new_lang not in languages:
                 languages.add(new_lang)

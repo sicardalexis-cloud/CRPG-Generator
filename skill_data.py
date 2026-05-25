@@ -316,21 +316,37 @@ settlement_skill_bias: Dict[int, List[int]] = {
 }
 
 
-def get_num_active_skills() -> int:
+def get_num_active_skills(settlement_type: str) -> int:
     """
-    Distribution :
-    - 33% → 5 compétences actives
-    - 33% → 4 ou 6 compétences actives
-    - 33% → 3 ou 7 compétences actives
+    Nombre de compétences actives selon le type de settlement
+    - Faible dans les grandes villes
+    - Élevé dans les zones naturelles / isolées
+    - Moyenne cible : ~5.0
     """
-    roll = random.random()  # entre 0.0 et 1.0
-    
-    if roll < 0.33:           # 33% → 5
-        return 5
-    elif roll < 0.66:         # 33% → 4 ou 6
-        return random.choice([4, 6])
-    else:                     # 33% → 3 ou 7
-        return random.choice([3, 7])
+    st = settlement_type.lower()
+
+    # === ZONES SAUVAGES / NATURELLES (besoin de polyvalence) ===
+    if any(x in st for x in ["wilderness", "forêt", "montagne", "bûcherons", "ruines", "tribu nomade",
+                             "hameau isolé", "colonie frontalière", "village de montagne", "village forestier"]):
+        return random.choices([6, 7, 5, 8, 4], weights=[30, 25, 20, 15, 10])[0]   # Moyenne ~6.0
+
+    # === ZONES ISOLÉES / RURALES ===
+    elif any(x in st for x in ["hameau", "ferme isolée", "village rural", "village côtier", 
+                               "avant-poste", "camp minier", "camp de bûcherons"]):
+        return random.choices([5, 6, 4, 7], weights=[35, 30, 25, 10])[0]         # Moyenne ~5.3
+
+    # === VILLES MOYENNES & BOURGS ===
+    elif any(x in st for x in ["bourg", "ville moyenne", "ville fortifiée", "poste de commerce"]):
+        return random.choices([5, 4, 6, 3], weights=[40, 30, 20, 10])[0]         # Moyenne ~4.8
+
+    # === GRANDES VILLES & MÉTROPOLES (spécialisation) ===
+    elif any(x in st for x in ["métropole", "capitale", "grande ville", "grande ville portuaire", 
+                               "grande ville marchande"]):
+        return random.choices([4, 3, 5, 2], weights=[40, 30, 20, 10])[0]         # Moyenne ~3.7
+
+    # === AUTRES (souterrain, elfique, nain, etc.) ===
+    else:
+        return random.choices([5, 4, 6, 3], weights=[40, 30, 20, 10])[0]         # Moyenne ~4.8
 
 # =============================================
 # FONCTION DE GÉNÉRATION
@@ -339,13 +355,15 @@ def generate_active_skills(
     region_id: int,
     ethnicity: str,
     settlement_type: str,
-    num_skills: int = None   # On rend ce paramètre optionnel
+    num_skills: int = None
 ) -> Dict[str, str]:
     
-    # Si aucun nombre n'est passé, on utilise la nouvelle distribution
+    # Calcul dépendant du settlement
     if num_skills is None:
-        num_skills = get_num_active_skills()
+        num_skills = get_num_active_skills(settlement_type)
+    
     skills = {}
+    
     
     eth_pool = ethnicity_active_pool.get(ethnicity, [1, 4, 6, 28, 30])
     reg_pool = region_active_pool.get(region_id, list(range(1, 37)))

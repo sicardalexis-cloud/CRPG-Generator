@@ -95,7 +95,7 @@ def generate_character(char_id: str):
     region_name, settlement_type = get_random_settlement(region_id)
 
     # ====================== SKILLS ======================
-    num_active_skills = get_num_active_skills()
+    num_active_skills = get_num_active_skills(settlement_type)   # ← Important
 
     skills = generate_active_skills(
         region_id=region_id,

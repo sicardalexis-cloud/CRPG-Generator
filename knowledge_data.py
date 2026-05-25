@@ -1,6 +1,8 @@
 # knowledge_data.py
 import random
 from typing import Dict
+from language_data import generate_languages
+from skill_data import get_num_active_skills
 
 
 # ====================== CRAFT WEIGHTS (52 métiers) ======================
@@ -598,7 +600,6 @@ ethnicity_literacy_modifiers: Dict[str, Dict[str, float]] = {
     "Elf Moon":        {"Espruar": 42.0, "Elven High Speech": 18.0, "Thorass": 8.0, "Céleste": 6.0},
     "Elf Sun":         {"Espruar": 35.0, "Elven High Speech": 32.0, "Céleste": 8.0, "Thorass": 6.0},
     "Elf Wood":        {"Espruar": 45.0, "Sylvestre": 12.0, "Elven High Speech": 10.0, "Thorass": 6.0},
-    "Elf Wood":        {"Espruar": 38.0, "Elven High Speech": 15.0, "Sylvestre": 8.0, "Thorass": 6.0},
     "Elf Drow":        {"Glifo (Drow)": 40.0, "Undercommon": 10.0, "Sylvestre": 7.0, "Abyssal": 6.0},
     "Half-Elf":        {"Espruar": 28.0, "Thorass": 22.0, "Elven High Speech": 12.0, "Chondathan": 7.0},
 
@@ -719,16 +720,22 @@ def _get_region_name(region_id: int) -> str:
 
 # ====================== GÉNÉRATION SECONDAIRE ======================
 def generate_secondary_skills(
-    active_count: int,
     ethnicity: str,
     region_id: int,
-    settlement_type: str
+    settlement_type: str,
+    active_count: int = None   # ← Ajout important
 ) -> Dict:
-    """Version stable et robuste"""
+    """Génère les compétences secondaires (Knowledge, Craft, Literacy)"""
+    
+    # Si active_count n'est pas fourni, on le calcule
+    if active_count is None:
+        active_count = get_num_active_skills(settlement_type)
     
     craft_count = _calculate_craft_count(active_count)
     know_count = _calculate_know_count(craft_count)
     literacy_count = _calculate_literacy_count(know_count, settlement_type, ethnicity)
+
+    # ... (le reste de la fonction reste identique)
 
     region_name = _get_region_name(region_id)
 
@@ -742,9 +749,7 @@ def generate_secondary_skills(
     
     for craft in craft_names:
         base = craft_weights[craft]
-        bias = (eth_mod.get(craft, 0) + 
-                reg_mod.get(craft, 0) + 
-                sett_mod.get(craft, 0))
+        bias = (eth_mod.get(craft, 0) + reg_mod.get(craft, 0) + sett_mod.get(craft, 0))
         final_weight = max(base + bias * 1.65, 0.5)
         final_craft_weights.append(final_weight)
     
@@ -760,33 +765,34 @@ def generate_secondary_skills(
     
     for know in know_names:
         base = knowledge_weights[know]
-        bias = (eth_know_mod.get(know, 0) + 
-                reg_know_mod.get(know, 0) + 
-                sett_know_mod.get(know, 0))
-        final_weight = max(base + bias * 2.4, 0.8)   # coefficient réduit pour plus de variété
+        bias = (eth_know_mod.get(know, 0) + reg_know_mod.get(know, 0) + sett_know_mod.get(know, 0))
+        final_weight = max(base + bias * 2.4, 0.8)
         final_know_weights.append(final_weight)
     
     knowledge = random.choices(know_names, weights=final_know_weights, k=know_count)
 
     # ====================== 3. LANGUES ÉCRITES ======================
     eth_lit_mod = ethnicity_literacy_modifiers.get(ethnicity, ethnicity_literacy_modifiers["Default"])
-
     lang_names = list(literacy_scripts.keys())
     literacy = {}
 
     if literacy_count > 0:
-        # Première langue : forte priorité native
-        favored = list(eth_lit_mod.keys())
-        if not favored:
-            favored = ["Thorass"]
+        # Première langue écrite = première langue parlée (80% de chance)
+        spoken_languages = generate_languages(ethnicity, region_id, active_count * 2)
+        first_spoken = spoken_languages[0] if spoken_languages else None
 
-        native_weights = [eth_lit_mod.get(lang, 5.0) * 3.8 for lang in favored]
-
-        first_lang = random.choices(favored, weights=native_weights, k=1)[0]
+        if first_spoken and random.random() < 0.80 and first_spoken in literacy_scripts:
+            first_lang = first_spoken
+        else:
+            favored = list(eth_lit_mod.keys())
+            if not favored:
+                favored = ["Thorass"]
+            native_weights = [eth_lit_mod.get(lang, 5.0) * 3.8 for lang in favored]
+            first_lang = random.choices(favored, weights=native_weights, k=1)[0]
 
         literacy[first_lang] = literacy_scripts.get(first_lang, literacy_scripts["Thorass"])
 
-        # Langues supplémentaires
+        # Langues écrites supplémentaires
         remaining = literacy_count - 1
         if remaining > 0:
             final_weights = []
@@ -802,12 +808,22 @@ def generate_secondary_skills(
                 if lang not in literacy:
                     literacy[lang] = literacy_scripts.get(lang, literacy_scripts["Thorass"])
 
+    # ====================== 4. LANGUES PARLÉES ======================
+    spoken_languages = generate_languages(
+        ethnicity=ethnicity,
+        region_id=region_id,
+        skill_modifier=active_count * 2
+    )
+
+    # ====================== RETURN ======================
     return {
         "active_count": active_count,
         "knowledge": knowledge,
         "craft": craft,
         "literacy": literacy,
+        "spoken_languages": spoken_languages,
         "total_knowledge": len(knowledge),
         "total_craft": len(craft),
-        "total_literacy": len(literacy)
+        "total_literacy": len(literacy),
+        "total_spoken": len(spoken_languages)
     }

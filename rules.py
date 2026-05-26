@@ -133,34 +133,63 @@ MAGIC_THRESHOLD = -0      # 50% des personnages sont magiques
 ARCANIST_THRESHOLD = -7  # 20% des personnages les plus faibles sont Arcanistes
 
 
-def determine_magic_type(combat_points: float) -> dict:
-    """Système de magie calibré :
-    - 20% Arcanistes (les plus faibles)
-    - 30% Théurgistes
-    - 50% Non-magiques"""
+def determine_magic_type(combat_points: float, settlement_type: str = "Village") -> dict:
+    """Version avec Magie Blanche renforcée"""
     
-    if combat_points > MAGIC_THRESHOLD:
-        return {
-            "magic": False,
-            "type": "None",
-            "subtype": None,
-            "description": "Non-magique"
-        }
-    
-    if combat_points <= ARCANIST_THRESHOLD:
-        return {
-            "magic": True,
-            "type": "Arcanique",
-            "subtype": "Magicien",
-            "description": "Arcaniste (magie savante)"
-        }
-    else:
-        return {
-            "magic": True,
-            "type": "Théurgique",
-            "subtype": "Théurgiste",
-            "description": "Théurgiste (magie divine instinctive)"
-        }
+    if combat_points >= -2:
+        return {"magic": False, "type": "None", "subtype": None, "description": "Non-magique"}
+
+    roll = random.random()
+
+    if roll < 0.47:           # 47% Théurgique
+        magic_type = "Théurgique"
+        st_lower = settlement_type.lower()
+
+        # === Pondération renforcée en faveur de la Magie Blanche ===
+        if any(x in st_lower for x in ["temple", "monastère", "sanctuaire", "cathédrale", "capitale", "métropole", "ville"]):
+            # Milieux urbains / religieux → très forte Magie Blanche
+            if random.random() < 0.85:
+                subtype = "Magie Blanche"
+                desc = "Magie Blanche (guérison, protection, lumière divine)"
+            else:
+                subtype = "Magie Verte"
+                desc = "Magie Verte (nature, esprits, croissance)"
+
+        elif any(x in st_lower for x in ["forest", "forêt", "wilderness", "druid", "jungle"]):
+            # Milieux naturels → toujours forte Magie Verte, mais moins extrême
+            if random.random() < 0.70:
+                subtype = "Magie Verte"
+                desc = "Magie Verte (nature, esprits de la forêt, druidique)"
+            else:
+                subtype = "Magie Blanche"
+                desc = "Magie Blanche (guérison, protection)"
+
+        else:
+            # Cas neutre (villages ruraux, bourgs, etc.) → légère préférence Blanche
+            if random.random() < 0.58:          # ← Augmenté à 58%
+                subtype = "Magie Blanche"
+                desc = "Magie Blanche (guérison, protection, lumière divine)"
+            else:
+                subtype = "Magie Verte"
+                desc = "Magie Verte (nature, croissance, esprits)"
+
+    elif roll < 0.87:         # 40% Arcanique
+        magic_type = "Arcanique"
+        subtype = "Magicien"
+        desc = "Magicien arcanique (étude, formules et savoir ancien)"
+        
+    else:                     # 13% Sauvage
+        magic_type = "Sauvage"
+        wild_subtypes = ["Sorcier", "Warlock", "Oracle", "Psionique", "Magie du Sang", "Sorcellerie Chaotique"]
+        subtype = random.choice(wild_subtypes)
+        desc = f"Magie sauvage - {subtype}"
+
+    return {
+        "magic": True,
+        "type": magic_type,
+        "subtype": subtype,
+        "description": desc
+    }
 
 
 # ====================== SECONDARY ATTRIBUTES ======================

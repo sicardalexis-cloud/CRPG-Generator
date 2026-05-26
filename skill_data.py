@@ -28,70 +28,128 @@ URBAN_SKILLS: List[str] = [
 ]
 
 # =============================================
-# BIAIS OUTDOOR PAR RÉGION
+# BIAIS OUTDOOR PAR RÉGION (Version Corrigée)
 # =============================================
 region_outdoor_bias: Dict[int, List[str]] = {
-    # NORD / FROID
-    21: ["Arctic Hunting", "Snow Shelter Construction", "Extreme Cold Resistance", "Mountain Navigation", "Rock Climbing", "Underground Navigation"],
-    23: ["Arctic Hunting", "Snow Shelter Construction", "Extreme Cold Resistance", "Plains Tracking", "Forest Stealth", "Underground Navigation"],
-    37: ["Mountain Navigation", "Rock Climbing", "Extreme Cold Resistance", "Snow Shelter Construction", "Underground Navigation", "Plains Tracking"],
-    57: ["Arctic Hunting", "Extreme Cold Resistance", "Snow Shelter Construction", "Mountain Navigation", "Underground Navigation", "Plains Tracking"],
-    72: ["Extreme Cold Resistance", "Snow Shelter Construction", "Arctic Hunting", "Mountain Navigation", "Underground Navigation", "Forest Stealth"],
-    95: ["Extreme Cold Resistance", "Snow Shelter Construction", "Arctic Hunting", "Mountain Navigation", "Rock Climbing", "Underground Navigation"],
-    96: ["Extreme Cold Resistance", "Snow Shelter Construction", "Arctic Hunting", "Mountain Navigation", "Underground Navigation", "Plains Tracking"],
+    # ==================== NORD / FROID ====================
+    21: ["Arctic Hunting", "Snow Shelter Construction", "Extreme Cold Resistance", "Mountain Navigation", "Rock Climbing"],
+    23: ["Arctic Hunting", "Snow Shelter Construction", "Extreme Cold Resistance", "Forest Stealth", "Plains Tracking"],
+    37: ["Mountain Navigation", "Rock Climbing", "Extreme Cold Resistance", "Snow Shelter Construction", "Underground Navigation"],
+    57: ["Arctic Hunting", "Extreme Cold Resistance", "Snow Shelter Construction", "Mountain Navigation", "Plains Tracking"],
+    72: ["Extreme Cold Resistance", "Snow Shelter Construction", "Arctic Hunting", "Forest Stealth", "Mountain Navigation"],
+    95: ["Extreme Cold Resistance", "Snow Shelter Construction", "Arctic Hunting", "Rock Climbing", "Mountain Navigation"],
+    96: ["Extreme Cold Resistance", "Snow Shelter Construction", "Arctic Hunting", "Plains Tracking", "Mountain Navigation"],
 
-    # FORESTIÈRES
-    26: ["Forest Stealth", "Dense Forest Orientation", "Foraging and Herbalism", "Tracking and Hunting", "Underground Navigation", "Mountaineering and Portage"],
-    27: ["Forest Stealth", "Dense Forest Orientation", "Foraging and Herbalism", "Tracking and Hunting", "Swamp Survival", "Underground Stealth"],
-    28: ["Forest Stealth", "Dense Forest Orientation", "Foraging and Herbalism", "Tracking and Hunting", "Swamp Survival", "Underground Navigation"],
-    29: ["Forest Stealth", "Dense Forest Orientation", "Foraging and Herbalism", "Tracking and Hunting", "Swamp Survival", "Plains Tracking"],
-    77: ["Forest Stealth", "Dense Forest Orientation", "Foraging and Herbalism", "Tracking and Hunting", "Swamp Survival", "Underground Stealth"],
-    85: ["Forest Stealth", "Dense Forest Orientation", "Foraging and Herbalism", "Tracking and Hunting", "Swamp Survival", "Underground Navigation"],
-    91: ["Forest Stealth", "Dense Forest Orientation", "Foraging and Herbalism", "Tracking and Hunting", "Swamp Survival", "Plains Tracking"],
-    112: ["Forest Stealth", "Dense Forest Orientation", "Foraging and Herbalism", "Tracking and Hunting", "Swamp Survival", "Underground Navigation"],
-    121: ["Forest Stealth", "Dense Forest Orientation", "Foraging and Herbalism", "Tracking and Hunting", "Swamp Survival", "Plains Tracking"],
+    # ==================== FORESTIÈRES ====================
+    26: ["Forest Stealth", "Dense Forest Orientation", "Foraging and Herbalism", "Tracking and Hunting", "Mountaineering and Portage"],
+    27: ["Forest Stealth", "Dense Forest Orientation", "Foraging and Herbalism", "Tracking and Hunting", "Swamp Survival"],
+    28: ["Forest Stealth", "Dense Forest Orientation", "Foraging and Herbalism", "Tracking and Hunting", "Swamp Survival"],
+    29: ["Forest Stealth", "Dense Forest Orientation", "Foraging and Herbalism", "Tracking and Hunting", "Plains Tracking"],
+    77: ["Forest Stealth", "Dense Forest Orientation", "Foraging and Herbalism", "Tracking and Hunting", "Swamp Survival"],
+    85: ["Forest Stealth", "Dense Forest Orientation", "Foraging and Herbalism", "Tracking and Hunting", "Swamp Survival"],
+    91: ["Forest Stealth", "Dense Forest Orientation", "Foraging and Herbalism", "Tracking and Hunting", "Plains Tracking"],
+    112: ["Forest Stealth", "Dense Forest Orientation", "Foraging and Herbalism", "Tracking and Hunting", "Swamp Survival"],
+    121: ["Forest Stealth", "Dense Forest Orientation", "Foraging and Herbalism", "Tracking and Hunting", "Plains Tracking"],
 
-    # MONTAGNEUSES
-    10: ["Rock Climbing", "Mountain Navigation", "Mountaineering and Portage", "Underground Navigation", "Underground Stealth", "Extreme Cold Resistance"],
-    31: ["Rock Climbing", "Mountain Navigation", "Underground Navigation", "Underground Stealth", "Mountaineering and Portage", "Snow Shelter Construction"],
-    32: ["Rock Climbing", "Mountain Navigation", "Underground Navigation", "Underground Stealth", "Mountaineering and Portage", "Snow Shelter Construction"],
-    80: ["Rock Climbing", "Mountain Navigation", "Underground Navigation", "Mountaineering and Portage", "Extreme Cold Resistance", "Snow Shelter Construction"],
-    90: ["Rock Climbing", "Mountain Navigation", "Underground Navigation", "Mountaineering and Portage", "Extreme Cold Resistance", "Snow Shelter Construction"],
-    107: ["Rock Climbing", "Mountain Navigation", "Underground Navigation", "Mountaineering and Portage", "Extreme Cold Resistance", "Snow Shelter Construction"],
-    113: ["Rock Climbing", "Mountain Navigation", "Underground Navigation", "Mountaineering and Portage", "Plains Tracking", "Tracking and Hunting"],
-    116: ["Rock Climbing", "Mountain Navigation", "Extreme Cold Resistance", "Snow Shelter Construction", "Underground Navigation", "Mountaineering and Portage"],
+    # ==================== MONTAGNEUSES ====================
+    10: ["Rock Climbing", "Mountain Navigation", "Mountaineering and Portage", "Underground Navigation", "Extreme Cold Resistance"],
+    31: ["Rock Climbing", "Mountain Navigation", "Mountaineering and Portage", "Underground Navigation", "Snow Shelter Construction"],
+    32: ["Rock Climbing", "Mountain Navigation", "Mountaineering and Portage", "Underground Navigation", "Snow Shelter Construction"],
+    80: ["Rock Climbing", "Mountain Navigation", "Mountaineering and Portage", "Extreme Cold Resistance", "Snow Shelter Construction"],
+    90: ["Rock Climbing", "Mountain Navigation", "Mountaineering and Portage", "Extreme Cold Resistance", "Snow Shelter Construction"],
+    107: ["Rock Climbing", "Mountain Navigation", "Mountaineering and Portage", "Extreme Cold Resistance", "Snow Shelter Construction"],
+    113: ["Rock Climbing", "Mountain Navigation", "Mountaineering and Portage", "Tracking and Hunting", "Plains Tracking"],
+    116: ["Rock Climbing", "Mountain Navigation", "Extreme Cold Resistance", "Snow Shelter Construction", "Mountaineering and Portage"],
 
-    # DÉSERTIQUES
-    1: ["Desert Survival", "Open Field Orientation", "Plains Tracking", "Foraging and Herbalism", "Coastal Survival", "Swimming"],
-    40: ["Desert Survival", "Open Field Orientation", "Plains Tracking", "Foraging and Herbalism", "Underground Navigation", "Underground Stealth"],
-    73: ["Desert Survival", "Open Field Orientation", "Plains Tracking", "Foraging and Herbalism", "Underground Navigation", "Tracking and Hunting"],
-    83: ["Desert Survival", "Open Field Orientation", "Plains Tracking", "Foraging and Herbalism", "Coastal Survival", "Swimming"],
+    # ==================== DÉSERTIQUES ====================
+    1: ["Desert Survival", "Open Field Orientation", "Plains Tracking", "Foraging and Herbalism", "Coastal Survival"],
+    40: ["Desert Survival", "Open Field Orientation", "Plains Tracking", "Foraging and Herbalism", "Underground Navigation"],
+    73: ["Desert Survival", "Open Field Orientation", "Plains Tracking", "Tracking and Hunting", "Foraging and Herbalism"],
+    83: ["Desert Survival", "Open Field Orientation", "Plains Tracking", "Coastal Survival", "Foraging and Herbalism"],
 
-    # CÔTIÈRES
-    4: ["Coastal Survival", "Maritime Navigation", "Deep Sea Fishing", "Swimming", "Swamp Survival", "Urban Stealth"],
-    8: ["Coastal Survival", "Maritime Navigation", "Deep Sea Fishing", "Swimming", "Foraging and Herbalism", "Swamp Survival"],
-    22: ["Coastal Survival", "Maritime Navigation", "Deep Sea Fishing", "Swimming", "Swamp Survival", "Forest Stealth"],
-    54: ["Coastal Survival", "Maritime Navigation", "Deep Sea Fishing", "Swimming", "Urban Stealth", "Building Infiltration"],
+    # ==================== CÔTIÈRES ====================
+    4: ["Coastal Survival", "Maritime Navigation", "Deep Sea Fishing", "Swimming", "Foraging and Herbalism"],
+    8: ["Coastal Survival", "Maritime Navigation", "Deep Sea Fishing", "Swimming", "Foraging and Herbalism"],
+    22: ["Coastal Survival", "Maritime Navigation", "Deep Sea Fishing", "Swimming", "Forest Stealth"],
+    54: ["Coastal Survival", "Maritime Navigation", "Deep Sea Fishing", "Swimming", "Foraging and Herbalism"],
 
-    # SOUTERRAINES
-    39: ["Underground Navigation", "Underground Stealth", "Rock Climbing", "Swamp Survival", "Extreme Cold Resistance", "Mountain Navigation"],
-    87: ["Underground Navigation", "Underground Stealth", "Rock Climbing", "Mountain Navigation", "Swamp Survival", "Tracking and Hunting"],
-    93: ["Underground Navigation", "Underground Stealth", "Rock Climbing", "Mountain Navigation", "Extreme Cold Resistance", "Swamp Survival"],
-    122: ["Underground Navigation", "Underground Stealth", "Rock Climbing", "Mountain Navigation", "Swamp Survival", "Extreme Cold Resistance"],
+    # ==================== SOUTERRAINES ====================
+    39: ["Underground Navigation", "Underground Stealth", "Rock Climbing", "Mountain Navigation", "Extreme Cold Resistance"],
+    87: ["Underground Navigation", "Underground Stealth", "Rock Climbing", "Mountain Navigation", "Tracking and Hunting"],
+    93: ["Underground Navigation", "Underground Stealth", "Rock Climbing", "Mountain Navigation", "Extreme Cold Resistance"],
+    122: ["Underground Navigation", "Underground Stealth", "Rock Climbing", "Mountain Navigation", "Swamp Survival"],
 
-    # AUTRES RÉGIONS IMPORTANTES
-    5: ["Coastal Survival", "Maritime Navigation", "Urban Stealth", "Building Infiltration", "Swimming", "Streetwise (Urban Underworld)"],
-    14: ["Foraging and Herbalism", "Forest Stealth", "Swamp Survival", "Tracking and Hunting", "Dense Forest Orientation", "Underground Navigation"],
-    15: ["Mountain Navigation", "Rock Climbing", "Extreme Cold Resistance", "Snow Shelter Construction", "Underground Navigation", "Plains Tracking"],
-    16: ["Coastal Survival", "Maritime Navigation", "Swimming", "Urban Stealth", "Building Infiltration", "Deep Sea Fishing"],
-    24: ["Foraging and Herbalism", "Swamp Survival", "Tropical Disease Resistance", "Forest Stealth", "Tracking and Hunting", "Coastal Survival"],
-    44: ["Forest Stealth", "Foraging and Herbalism", "Coastal Survival", "Swamp Survival", "Tracking and Hunting", "Dense Forest Orientation"],
-    46: ["Forest Stealth", "Foraging and Herbalism", "Dense Forest Orientation", "Tracking and Hunting", "Swamp Survival", "Plains Tracking"],
-    105: ["Foraging and Herbalism", "Swamp Survival", "Tropical Disease Resistance", "Forest Stealth", "Tracking and Hunting", "Dense Forest Orientation"],
+    # ==================== AUTRES RÉGIONS IMPORTANTES ====================
+    5: ["Coastal Survival", "Maritime Navigation", "Swimming", "Foraging and Herbalism", "Urban Stealth"],
+    14: ["Foraging and Herbalism", "Forest Stealth", "Swamp Survival", "Tracking and Hunting", "Dense Forest Orientation"],
+    15: ["Mountain Navigation", "Rock Climbing", "Extreme Cold Resistance", "Snow Shelter Construction", "Plains Tracking"],
+    16: ["Coastal Survival", "Maritime Navigation", "Swimming", "Deep Sea Fishing", "Foraging and Herbalism"],
+    24: ["Foraging and Herbalism", "Swamp Survival", "Tropical Disease Resistance", "Forest Stealth", "Tracking and Hunting"],
+    44: ["Forest Stealth", "Foraging and Herbalism", "Coastal Survival", "Swamp Survival", "Tracking and Hunting"],
+    46: ["Forest Stealth", "Foraging and Herbalism", "Dense Forest Orientation", "Tracking and Hunting", "Plains Tracking"],
+    105: ["Foraging and Herbalism", "Swamp Survival", "Tropical Disease Resistance", "Forest Stealth", "Tracking and Hunting"],
 
-    # Fallback
-    0: ["Tracking and Hunting", "Foraging and Herbalism", "Forest Stealth", "Mountain Navigation", "Swimming", "Plains Tracking"]
+    # ==================== RÉGIONS MANQUANTES (ajouts) ====================
+    2: ["Desert Survival", "Open Field Orientation", "Plains Tracking", "Foraging and Herbalism"],
+    3: ["Forest Stealth", "Foraging and Herbalism", "Plains Tracking", "Coastal Survival"],
+    6: ["Plains Tracking", "Open Field Orientation", "Foraging and Herbalism", "Coastal Survival"],
+    7: ["Forest Stealth", "Dense Forest Orientation", "Foraging and Herbalism", "Plains Tracking"],
+    11: ["Mountain Navigation", "Rock Climbing", "Plains Tracking", "Tracking and Hunting"],
+    12: ["Desert Survival", "Open Field Orientation", "Plains Tracking", "Foraging and Herbalism"],
+    13: ["Desert Survival", "Mountain Navigation", "Rock Climbing", "Underground Navigation"],
+    17: ["Coastal Survival", "Swamp Survival", "Foraging and Herbalism", "Plains Tracking"],
+    18: ["Mountain Navigation", "Rock Climbing", "Underground Navigation", "Plains Tracking"],
+    25: ["Coastal Survival", "Maritime Navigation", "Swimming", "Foraging and Herbalism"],
+    41: ["Forest Stealth", "Tracking and Hunting", "Plains Tracking", "Mountain Navigation"],
+    45: ["Mountain Navigation", "Rock Climbing", "Forest Stealth", "Foraging and Herbalism"],
+    50: ["Plains Tracking", "Tracking and Hunting", "Open Field Orientation", "Extreme Cold Resistance"],
+    52: ["Forest Stealth", "Swamp Survival", "Tracking and Hunting", "Foraging and Herbalism"],
+    59: ["Foraging and Herbalism", "Dense Forest Orientation", "Swamp Survival", "Tropical Disease Resistance"],
+    60: ["Swamp Survival", "Tropical Disease Resistance", "Forest Stealth", "Tracking and Hunting"],
+    69: ["Coastal Survival", "Maritime Navigation", "Deep Sea Fishing", "Swimming"],
+    100: ["Mountain Navigation", "Rock Climbing", "Forest Stealth", "Dense Forest Orientation"],
+    111: ["Forest Stealth", "Foraging and Herbalism", "Dense Forest Orientation", "Mountain Navigation"],
+
+
+    # ==================== RÉGIONS MANQUANTES (ajouts recommandés) ====================
+    33: ["Mountain Navigation", "Rock Climbing", "Underground Navigation", "Foraging and Herbalism"],
+    35: ["Forest Stealth", "Dense Forest Orientation", "Foraging and Herbalism", "Swamp Survival"],
+    47: ["Plains Tracking", "Tracking and Hunting", "Open Field Orientation", "Foraging and Herbalism"],
+    48: ["Coastal Survival", "Swamp Survival", "Maritime Navigation", "Deep Sea Fishing"],
+    49: ["Mountain Navigation", "Rock Climbing", "Forest Stealth", "Tracking and Hunting"],
+    51: ["Mountain Navigation", "Rock Climbing", "Desert Survival", "Plains Tracking"],
+    59: ["Foraging and Herbalism", "Dense Forest Orientation", "Swamp Survival", "Tropical Disease Resistance"],
+    60: ["Swamp Survival", "Tropical Disease Resistance", "Forest Stealth", "Tracking and Hunting"],
+    61: ["Plains Tracking", "Tracking and Hunting", "Open Field Orientation", "Foraging and Herbalism"],
+    62: ["Plains Tracking", "Open Field Orientation", "Desert Survival", "Tracking and Hunting"],
+    64: ["Swamp Survival", "Tropical Disease Resistance", "Forest Stealth", "Coastal Survival"],
+    65: ["Forest Stealth", "Swamp Survival", "Tropical Disease Resistance", "Tracking and Hunting"],
+    66: ["Coastal Survival", "Swamp Survival", "Tropical Disease Resistance", "Foraging and Herbalism"],
+    67: ["Coastal Survival", "Foraging and Herbalism", "Plains Tracking", "Swamp Survival"],
+    68: ["Forest Stealth", "Dense Forest Orientation", "Foraging and Herbalism", "Mountain Navigation"],
+    75: ["Underground Navigation", "Underground Stealth", "Rock Climbing", "Mountain Navigation"],
+    76: ["Coastal Survival", "Maritime Navigation", "Swimming", "Foraging and Herbalism"],
+    78: ["Mountain Navigation", "Rock Climbing", "Underground Navigation", "Extreme Cold Resistance"],
+    79: ["Forest Stealth", "Dense Forest Orientation", "Foraging and Herbalism", "Tracking and Hunting"],
+    84: ["Mountain Navigation", "Rock Climbing", "Underground Navigation", "Forest Stealth"],
+    98: ["Forest Stealth", "Swamp Survival", "Foraging and Herbalism", "Tracking and Hunting"],
+    99: ["Forest Stealth", "Dense Forest Orientation", "Foraging and Herbalism", "Mountain Navigation"],
+    101: ["Extreme Cold Resistance", "Arctic Hunting", "Snow Shelter Construction", "Mountain Navigation"],
+    102: ["Desert Survival", "Open Field Orientation", "Plains Tracking", "Underground Navigation"],
+    104: ["Mountain Navigation", "Rock Climbing", "Plains Tracking", "Foraging and Herbalism"],
+    108: ["Swamp Survival", "Tropical Disease Resistance", "Forest Stealth", "Tracking and Hunting"],
+    110: ["Forest Stealth", "Dense Forest Orientation", "Foraging and Herbalism", "Mountain Navigation"],
+    114: ["Mountain Navigation", "Rock Climbing", "Forest Stealth", "Tracking and Hunting"],
+    115: ["Mountain Navigation", "Rock Climbing", "Plains Tracking", "Foraging and Herbalism"],
+    117: ["Mountain Navigation", "Rock Climbing", "Underground Navigation", "Forest Stealth"],
+    118: ["Mountain Navigation", "Rock Climbing", "Foraging and Herbalism", "Underground Navigation"],
+    120: ["Mountain Navigation", "Rock Climbing", "Underground Navigation", "Extreme Cold Resistance"],
+
+
+    # ==================== FALLBACK ====================
+    0: ["Tracking and Hunting", "Foraging and Herbalism", "Forest Stealth", "Plains Tracking", "Mountain Navigation", "Swimming"]
 }
+
 
 # =============================================
 # FONCTION FALLBACK

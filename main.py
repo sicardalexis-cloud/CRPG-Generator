@@ -23,7 +23,6 @@ def generate_batch(
     for i in range(1, count + 1):
         char = generate_character(f"CH-{i:05d}")
         
-        # Filtre race (optionnel)
         if race_filter and char["Race"].lower() != race_filter.lower():
             continue
             
@@ -36,25 +35,44 @@ def generate_batch(
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
     filename = output or f"Personnages_{timestamp}.csv"
 
+    # === Colonnes sans Total_Skills / Outdoor_Count / Urban_Count ===
     fieldnames = [
         "ID", "Race", "Ethnicity", "Origin_Region", "Settlement_Type",
         
-        # Compétences
-        "Total_Skills", "Outdoor_Count", "Urban_Count",
-        "Outdoor_Skills", "Urban_Skills",
+        # Compétences détaillées
+        "Outdoor_Skills", 
+        "Urban_Skills",
         
         # Secondaires
-        "Knowledge", "Craft", "Literacy", "Bonus_Languages",
+        "Knowledge", 
+        "Craft", 
+        "Literacy", 
+        "Bonus_Languages",
         
         # Combat & Magie
-        "Combat_Points", "Magic", "Magic_Type", "Magic_Subtype",
-        "Grappling", "Melee", "Projectiles", "Fencing",
+        "Combat_Points", 
+        "Magic", 
+        "Magic_Type", 
+        "Magic_Subtype",
+        "Grappling", 
+        "Melee", 
+        "Projectiles", 
+        "Fencing",
         "Skill_Modifier",
         
         # Physiques
-        "Height_cm", "Weight_kg", "Size_Score",
-        "Balance", "Quickness", "Coordination", "Precision",
-        "Endurance", "Vigilance", "Beauty", "Stealth", "Speed",
+        "Height_cm", 
+        "Weight_kg", 
+        "Size_Score",
+        "Balance", 
+        "Quickness", 
+        "Coordination", 
+        "Precision",
+        "Endurance", 
+        "Vigilance", 
+        "Beauty", 
+        "Stealth", 
+        "Speed",
         
         "Special",
         "Generation_Date"
@@ -72,17 +90,11 @@ def generate_batch(
                 "Origin_Region": char["Origin_Region"],
                 "Settlement_Type": char["Settlement_Type"],
                 
-                "Total_Skills": char["Total_Skills"],
-                "Outdoor_Count": char["Outdoor_Count"],
-                "Urban_Count": char["Urban_Count"],
-                
-                # Liste → chaîne séparée par |
                 "Outdoor_Skills": " | ".join(char.get("Outdoor_Skills", [])),
                 "Urban_Skills": " | ".join(char.get("Urban_Skills", [])),
                 
                 "Knowledge": " | ".join(char.get("Knowledge", [])),
                 "Craft": " | ".join(char.get("Craft", [])),
-                
                 "Literacy": " | ".join(f"{k} ({v})" for k, v in char.get("Literacy", {}).items()),
                 "Bonus_Languages": " | ".join(char.get("Bonus_Languages", [])),
                 
@@ -99,7 +111,7 @@ def generate_batch(
                 
                 "Height_cm": char["Height_cm"],
                 "Weight_kg": char["Weight_kg"],
-                "Size_Score": char["Size_Score"],
+                "Size_Score": char.get("Size_Score", ""),
                 
                 "Balance": char["Balance"],
                 "Quickness": char["Quickness"],
@@ -117,9 +129,7 @@ def generate_batch(
             
             writer.writerow(row)
 
-    print(f"\n✅ Génération terminée !")
-    print(f"📁 Fichier créé → {filename}")
-    print(f"   {len(characters)} personnages exportés.")
+    print(f"\n✅ Export terminé → {filename} ({len(characters)} personnages)")
 
     # Statistiques rapides
     magic_count = sum(1 for c in characters if c.get("Magic") == "YES")

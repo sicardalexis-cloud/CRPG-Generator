@@ -142,8 +142,10 @@ def generate_character(char_id: str):
     combat_points = round(base_tcb + data.get("cp", 0.0), 2)
 
     # ====================== MAGIC & SKILL MODIFIER ======================
-    magic_info = determine_magic_type(combat_points)
-
+    magic_info = determine_magic_type(
+        combat_points=combat_points,
+        settlement_type=settlement_type          # ← Ajout important
+    )
     skill_modifier = calculate_skill_modifier(
         tcb=combat_points,
         vigilance=vigilance,

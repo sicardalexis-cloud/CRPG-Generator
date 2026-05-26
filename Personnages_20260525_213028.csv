@@ -1,0 +1,1541 @@
+ID,Indice,Race,Ethnicity,Origin_Region,Settlement_Type,Bonus_Languages,Magic_Type,Combat_Points,Grappling,Melee,Fencing,Skill_Modifier,Num_Active_Skills,Projectiles,Weight_Score,Build_Score,Height_cm,Weight_kg,Size_Score,Balance,Quickness,Coordination,Precision,Endurance,Regeneration,Vigilance,Beauty,Stealth,Speed,Dodge,Climbing,Magic,Magic_Subtype,Magic_Description,Special,Active Skills,Knowledge,Craft,Literacy
+CH-00001,1,Human,Calishite,Calimshan,Ville moyenne,Chondathan + Mulhorandi,Théurgique,"-4,78",0,-1,-2,0,5,-3,2,1,"173,8","78,9",0,-2,-3,2,-3,-3,1,6,-4,-2,-3,0,-1,YES,Théurgiste,Théurgiste (magie divine instinctive),Aucun,"Réseautage et recherche d’informations urbaines
+Manipulation de pièges et serrures
+Navigation maritime et lecture des courants
+Performance (Acrobatie/ Danse / Musique / Prestidigitation)
+Pêche en haute mer et survie aquatique","Histoire de la magie
+Écoles et traditions magiques
+Noblesse et héraldique
+Culture halfeline
+Étiquette et protocole de cour
+Étiquette et protocole de cour
+Royaumes et cités perdues
+Spellplague et ses conséquences","Serrurerie et mécanismes
+Travail du verre et verrerie
+Ébénisterie et marqueterie
+Alchimie théorique et pratique","Maztican (Pictogrammes Mazticans)
+Elven High Speech (Alphabet Espruar)"
+CH-00002,4,Human,Illuskan,Icewind Dale,Camp de bûcherons,Illuskan,Arcanique,"-9,69",-3,-2,-2,5,5,-8,-1,-4,"172,5","67,4",0,3,-8,1,-6,10,2,-8,0,3,-8,-3,2,YES,Magicien,Arcaniste (magie savante),Aucun,"Navigation en relief montagneux
+Pistage et chasse en milieu ouvert
+Escalade rocheuse et progression technique
+Streetwise et  bas-fonds urbains
+Marche en montagne et portage en altitude","Routes commerciales et voies marchandes
+Géographie de Faerûn
+Cultes et ordres religieux
+Géographie de Faerûn
+Connaissance des cités et régions majeures
+Cosmologie (Weave, Shadow Weave)
+Lois et coutumes des nations
+Histoire de la magie","Travail du cuir et tannerie
+Viticulture et vinification
+Calligraphie et enluminure
+Teinture et coloration","Illuskan (Alphabet Thorass)
+Orc (Alphabet Orc)"
+CH-00003,6,Human,Rashemi,Aglarond,Village forestier,Aglarondan + Rashemi,Arcanique,"-9,39",-2,-2,-4,2,8,-6,0,9,"156,2","71,0",-2,-4,-4,4,-6,1,2,3,-1,-1,-3,-1,1,YES,Magicien,Arcaniste (magie savante),Aucun,"Résistance aux maladies et insectes des marais
+Équitation
+Natation
+Performance (Acrobatie/ Danse / Musique / Prestidigitation)
+Survie côtière et marées
+Réseautage et recherche d’informations urbaines
+Cueillette et  plantes forestières
+Streetwise et  bas-fonds urbains","Courants politiques et rivalités
+Culture orc et gobelinoïde",Travail du cuir et tannerie,
+CH-00004,2,Human,Chondathan,Chondath,Bourg / Petite ville,Chondathan + Thorass,None,"7,28",2,1,2,11,4,1,2,-5,"183,5","78,9",2,4,-1,-3,3,0,-4,-5,-3,0,-2,-2,-1,NO,,Non-magique,Aucun,"Réseautage et recherche d’informations urbaines
+Navigation maritime et lecture des courants
+Pêche en haute mer et survie aquatique
+Manipulation de pièges et serrures","Histoire des Royaumes Oubliés
+Lois et coutumes des nations
+Religions et divinités majeures
+Connaissance des cités et régions majeures
+Connaissance des cités et régions majeures
+Noblesse et héraldique
+Cultes et ordres religieux
+Lois et coutumes des nations
+Noblesse et héraldique
+Histoire des Royaumes Oubliés","Architecture
+Architecture
+Ébénisterie et marqueterie
+Tissage et filage
+Fabrication de lentilles et optique",
+CH-00005,142,Human,Reghedman,Cité Drow,Cité souterraine,Illuskan,Théurgique,"-6,88",-1,-2,-4,3,5,-2,0,6,"160,5","71,0",-1,3,-8,-1,0,4,-1,0,-4,1,-9,-2,1,YES,Théurgiste,Théurgiste (magie divine instinctive),Aucun,"Chasse et pistage en milieu arctique
+Réseautage et recherche d’informations urbaines
+Escalade rocheuse et progression technique
+Pistage et traque en milieu boisé
+Navigation et orientation en obscurité totale","Culture elfique
+Races anciennes (Netheril, Imaskar...)
+Culture elfique
+Artefacts et reliques légendaires
+Étiquette et protocole de cour
+Artefacts et reliques légendaires
+Géographie de Faerûn
+Étiquette et protocole de cour","Apiculture
+Cuisine raffinée
+Travail de la pierre
+Architecture","Illuskan (Alphabet Thorass)
+Thorass (Alphabet Thorass)"
+CH-00006,1,Human,Calishite,Calimshan,Capitale / Grande Métropole,Chondathan + Mulhorandi,None,"5,66",3,1,1,9,3,-1,3,-2,"181,8","83,2",1,0,2,-3,0,1,1,1,10,-4,1,-1,-2,NO,,Non-magique,Aucun,"Réseautage et recherche d’informations urbaines
+Manipulation de pièges et serrures
+Conservation et recherche d’eau en milieu aride","Royaumes et cités perdues
+Artefacts et reliques légendaires
+Histoire des Royaumes Oubliés
+Astronomie et navigation stellaire
+Routes commerciales et voies marchandes
+Routes commerciales et voies marchandes
+Étiquette et protocole de cour
+Lois et coutumes des nations
+Noblesse et héraldique
+Courants politiques et rivalités
+Religions et divinités majeures
+Connaissance des dragons","Serrurerie et mécanismes
+Architecture
+Herboristerie et préparation de potions
+Cartographie
+Teinture et coloration
+Ébénisterie et marqueterie","Mulhorandi (Alphabet Mulhorandi)
+Thorass (Alphabet Thorass)"
+CH-00007,2,Human,Chondathan,Western Heartlands,Ville moyenne,Chessentan + Chondathan,None,"6,32",4,1,1,11,4,-4,5,-2,"188,3","92,4",2,-1,1,-5,-2,0,-3,1,5,-7,-1,-3,-3,NO,,Non-magique,Aucun,"Streetwise et  bas-fonds urbains
+Équitation
+Réseautage et recherche d’informations urbaines
+Pistage et traque en milieu boisé","Routes commerciales et voies marchandes
+Histoire des Royaumes Oubliés
+Mythes et légendes divines
+Religions et divinités majeures
+Culture orc et gobelinoïde
+Connaissance des cités et régions majeures
+Lois et coutumes des nations
+Connaissance des guildes et corporations
+Artefacts et reliques légendaires
+Courants politiques et rivalités","Forge et métallurgie
+Maçonnerie
+Ébénisterie et marqueterie
+Travail du verre et verrerie
+Comptabilité et gestion de biens","Chondathan (Alphabet Thorass)
+Illuskan (Alphabet Thorass)"
+CH-00008,127,Human,Imaskari,The Great Dale,Poste de commerce isolé,Chondathan + Imaskari,Théurgique,"-1,16",0,0,1,-3,5,-3,-2,-6,"172,6","63,9",0,8,3,-9,0,0,1,6,4,2,0,2,-1,YES,Théurgiste,Théurgiste (magie divine instinctive),Aucun,"Construction d’abris en neige et glace
+Performance (Acrobatie/ Danse / Musique / Prestidigitation)
+Orientation en grande plaine
+Cueillette et  plantes forestières
+Équitation","Religions et divinités majeures
+Spellplague et ses conséquences
+Fêtes, calendriers et traditions
+Noblesse et héraldique
+Cosmologie (Weave, Shadow Weave)
+Connaissance des cités et régions majeures
+Routes commerciales et voies marchandes
+Lois et coutumes des nations","Architecture
+Fabrication de papier et encre
+Travail de la pierre
+Fabrication d’armes et armures",Chondathan (Alphabet Thorass)
+CH-00009,2,Human,Chondathan,Western Heartlands,Ville moyenne,Chondathan,None,"38,69",5,4,4,-4,5,7,1,2,"169,3","74,8",0,6,9,1,5,8,1,-4,-2,4,9,2,3,NO,,Non-magique,Aucun,"Cueillette et  plantes forestières
+Réseautage et recherche d’informations urbaines
+Performance (Acrobatie/ Danse / Musique / Prestidigitation)
+Équitation
+Streetwise et  bas-fonds urbains","Courants politiques et rivalités
+Connaissance des cités et régions majeures
+Cosmologie (Weave, Shadow Weave)
+Mythes et légendes divines
+Culture naine
+Culture orc et gobelinoïde
+Connaissance des cités et régions majeures
+Religions et divinités majeures","Architecture
+Brasserie et distillation
+Serrurerie et mécanismes
+Teinture et coloration",Chondathan (Alphabet Thorass)
+CH-00010,24,Half-elf,Sun Half-elf,Baldur's Gate,Ville moyenne,Chondathan,None,"1,74",2,0,1,9,4,-7,1,-2,"175,5","74,8",1,2,3,-6,-5,-1,2,2,4,-3,1,0,-2,NO,,Non-magique,Méditation + Immunité sommeil + VN (N1),"Escalade rocheuse et progression technique
+Navigation maritime et lecture des courants
+Équitation
+Furtivité et déplacement discret en ville","Routes commerciales et voies marchandes
+Routes commerciales et voies marchandes
+Mythes et légendes divines
+Mythes et légendes divines
+Histoire de la magie
+Théorie de la Weave
+Noblesse et héraldique
+Mythes et légendes divines
+Mythes et légendes divines
+Interactions culturelles","Herboristerie et préparation de potions
+Travail du cuir et tannerie
+Herboristerie et préparation de potions
+Travail du cuir et tannerie
+Élevage et dressage",
+CH-00011,3,Human,Damaran,Damara,Village rural,Chondathan,Théurgique,"-2,76",-3,-2,-2,1,5,2,-2,2,"160,6","63,9",-1,-2,-2,4,2,4,-1,-5,-6,1,-1,-1,1,YES,Théurgiste,Théurgiste (magie divine instinctive),Aucun,"Résistance au froid extrême et hypothermie
+Performance (Acrobatie/ Danse / Musique / Prestidigitation)
+Navigation en relief montagneux
+Pistage et chasse en milieu ouvert
+Construction d’abris en neige et glace","Histoire de la magie
+Lois et coutumes des nations
+Étiquette et protocole de cour
+Noblesse et héraldique
+Spellplague et ses conséquences
+Culture naine
+Astronomie et navigation stellaire
+Théorie de la Weave","Reliure de livres
+Architecture
+Travail du cuir et tannerie
+Gravure sur métal et gemmes",Chondathan (Alphabet Thorass)
+CH-00012,3,Human,Damaran,Damara,Ville fortifiée,Chondathan,None,"14,18",5,3,1,1,6,-1,4,6,"172,2","87,7",0,1,1,7,-3,1,2,8,3,3,3,2,2,NO,,Non-magique,Aucun,"Résistance au froid extrême et hypothermie
+Performance (Acrobatie/ Danse / Musique / Prestidigitation)
+Construction d’abris en neige et glace
+Pistage et chasse en milieu ouvert
+Navigation en relief montagneux
+Escalade rocheuse et progression technique","Spellplague et ses conséquences
+Connaissance des cités et régions majeures
+Religions et divinités majeures
+Histoire d’Imaskar
+Cultes et ordres religieux
+Noblesse et héraldique","Apiculture
+Fabrication de chandelles et savon
+Maçonnerie",
+CH-00013,6,Human,Rashemi,Rashemen,Village de montagne,Rashemi,None,"9,3",3,2,1,5,7,1,4,2,"178,5","87,7",1,-2,1,4,0,-2,-4,8,0,-2,2,1,0,NO,,Non-magique,Aucun,"Pistage et traque en milieu boisé
+Équitation
+Réseautage et recherche d’informations urbaines
+Furtivité et déplacement silencieux en forêt
+Cueillette et  plantes forestières
+Résistance au froid extrême et hypothermie
+Manipulation de pièges et serrures","Histoire d’Imaskar
+Connaissance des dragons
+Connaissance des guildes et corporations
+Religions et divinités majeures","Serrurerie et mécanismes
+Forge et métallurgie",Mulhorandi (Alphabet Mulhorandi)
+CH-00014,3,Human,Damaran,Moonsea,Bourg / Petite ville,Chondathan + Nar,None,"21,76",5,2,2,9,4,4,6,2,"184,8","97,4",2,-5,4,1,3,-10,1,-5,3,-7,4,-3,-4,NO,,Non-magique,Aucun,"Marche en montagne et portage en altitude
+Navigation maritime et lecture des courants
+Manipulation de pièges et serrures
+Équitation","Géographie de Faerûn
+Fêtes, calendriers et traditions
+Cultes et ordres religieux
+Lois et coutumes des nations
+Lois et coutumes des nations
+Interactions culturelles
+Culture elfique
+Routes commerciales et voies marchandes
+Géographie de Faerûn
+Histoire de Netheril","Teinture et coloration
+Élevage et dressage
+Travail de la pierre
+Fabrication de voiles et cordages
+Forge et métallurgie",Thorass (Alphabet Thorass)
+CH-00015,7,Human,Tethyrian,Baldur's Gate,Bourg / Petite ville,Chondathan + Tethyrian,None,"17,82",1,2,3,0,5,5,0,-3,"174,0","71,0",0,-1,8,3,3,-3,-3,7,4,0,9,4,-1,NO,,Non-magique,Aucun,"Performance (Acrobatie/ Danse / Musique / Prestidigitation)
+Réseautage et recherche d’informations urbaines
+Survie côtière et marées
+Équitation
+Cueillette et  plantes forestières","Fêtes, calendriers et traditions
+Noblesse et héraldique
+Culture gnome
+Histoire des Royaumes Oubliés
+Noblesse et héraldique
+Interactions culturelles
+Fêtes, calendriers et traditions
+Noblesse et héraldique","Herboristerie et préparation de potions
+Navigation (terrestre et maritime)
+Ébénisterie et marqueterie
+Comptabilité et gestion de biens",
+CH-00016,2,Human,Chondathan,Vilhon Reach,Grande Ville portuaire,Chondathan,Théurgique,"-6,33",0,-2,-2,5,3,-5,2,-2,"178,6","78,9",1,-3,0,-10,-1,8,8,2,-2,-10,-4,-4,-4,YES,Théurgiste,Théurgiste (magie divine instinctive),Aucun,"Performance (Acrobatie/ Danse / Musique / Prestidigitation)
+Streetwise et  bas-fonds urbains
+Survie côtière et marées","Cultes et ordres religieux
+Connaissance des organisations secrètes
+Connaissance des guildes et corporations
+Courants politiques et rivalités
+Histoire de Netheril
+Connaissance des fées et du Feywild
+Histoire de la magie
+Histoire des Royaumes Oubliés
+Mythes et légendes divines
+Courants politiques et rivalités
+Connaissance des dragons
+Théorie de la Weave","Taxidermie
+Tissage et filage
+Cartographie
+Joaillerie et orfèvrerie
+Fabrication de papier et encre
+Serrurerie et mécanismes","Chondathan (Alphabet Thorass)
+Sylvestre (Alphabet Espruar)"
+CH-00017,2,Human,Chondathan,The Dalelands,Hameau agricole,Chondathan,None,"4,66",0,0,3,7,5,0,4,-13,"204,3","87,7",4,-8,0,7,-2,1,1,7,5,-5,2,1,-2,NO,,Non-magique,Aucun,"Manipulation de pièges et serrures
+Équitation
+Furtivité et déplacement silencieux en forêt
+Réseautage et recherche d’informations urbaines
+Pistage et chasse en milieu ouvert","Cosmologie (Weave, Shadow Weave)
+Cultes et ordres religieux
+Histoire de Netheril
+Folklore et légendes locales
+Ruines et sites archéologiques majeurs
+Artefacts et reliques légendaires
+Noblesse et héraldique
+Géographie de Faerûn","Teinture et coloration
+Élevage et dressage
+Mosaïque et fresque
+Céramique et poterie","Chondathan (Alphabet Thorass)
+Thorass (Alphabet Thorass)"
+CH-00018,7,Human,Tethyrian,Western Heartlands,Poste de commerce isolé,Chondathan,None,"18,12",5,4,2,4,6,-1,1,7,"161,8","74,8",-1,9,3,2,-2,-3,-6,-6,10,7,3,1,3,NO,,Non-magique,Aucun,"Cueillette et  plantes forestières
+Performance (Acrobatie/ Danse / Musique / Prestidigitation)
+Streetwise et  bas-fonds urbains
+Pistage et traque en milieu boisé
+Réseautage et recherche d’informations urbaines
+Équitation","Culture elfique
+Lois et coutumes des nations
+Cosmologie (Weave, Shadow Weave)
+Noblesse et héraldique
+Culture naine
+Histoire de la magie","Élevage et dressage
+Cuisine raffinée
+Charpenterie et travail du bois",
+CH-00019,17,Dwarf,Gray Dwarf,High Forest,Village forestier,Elfique + Nain,Arcanique,"-10,75",-5,-4,-6,2,5,-6,-6,20,"127,3","51,8",-6,-5,3,3,-7,-3,4,-2,-2,0,4,0,1,YES,Magicien,Arcaniste (magie savante),Invisibilité + Agrandissement,"Pistage et traque en milieu boisé
+Équitation
+Cueillette et  plantes forestières
+Performance (Acrobatie/ Danse / Musique / Prestidigitation)
+Navigation et orientation en obscurité totale","Ruines et sites archéologiques majeurs
+Connaissance des guildes et corporations
+Culture elfique
+Culture elfique
+Écoles et traditions magiques
+Fêtes, calendriers et traditions
+Interactions culturelles
+Géographie de Faerûn","Fabrication de lentilles et optique
+Teinture et coloration
+Élevage et dressage
+Taxidermie","Elfique (Alphabet Espruar)
+Illuskan (Alphabet Thorass)"
+CH-00020,4,Human,Illuskan,Le Nord (The North),Hameau agricole,Illuskan,Arcanique,"-10,86",-2,-4,-5,6,4,-6,2,2,"172,3","78,9",0,-2,-11,-3,-2,6,-1,3,4,-5,-12,-4,-1,YES,Magicien,Arcaniste (magie savante),Aucun,"Pêche en haute mer et survie aquatique
+Navigation en relief montagneux
+Construction d’abris en neige et glace
+Marche en montagne et portage en altitude","Écoles et traditions magiques
+Artefacts et reliques légendaires
+Lois et coutumes des nations
+Histoire des Royaumes Oubliés
+Royaumes et cités perdues
+Artefacts et reliques légendaires
+Spellplague et ses conséquences
+Folklore et légendes locales
+Mythes et légendes divines
+Histoire d’Imaskar","Maçonnerie
+Reliure de livres
+Brasserie et distillation
+Cartographie
+Travail du cuir et tannerie",Illuskan (Alphabet Thorass)
+CH-00021,2,Human,Chondathan,Sembia,Grande Ville marchande,Chondathan,None,"42,12",7,4,3,0,4,7,5,-1,"186,6","92,4",2,8,1,-6,9,-5,3,0,2,0,-1,-1,-1,NO,,Non-magique,Aucun,"Pêche en haute mer et survie aquatique
+Équitation
+Performance (Acrobatie/ Danse / Musique / Prestidigitation)
+Manipulation de pièges et serrures","Étiquette et protocole de cour
+Culture elfique
+Géographie de Faerûn
+Connaissance des fées et du Feywild
+Routes commerciales et voies marchandes
+Courants politiques et rivalités
+Mythes et légendes divines
+Fêtes, calendriers et traditions
+Écoles et traditions magiques
+Fêtes, calendriers et traditions","Comptabilité et gestion de biens
+Apiculture
+Forge et métallurgie
+Ébénisterie et marqueterie
+Travail du cuir et tannerie",
+CH-00022,2,Human,Chondathan,Western Heartlands,Ferme isolée / Domaine,Chondathan,Théurgique,"-3,16",0,-1,0,0,4,-3,2,-4,"181,9","78,9",1,-4,2,-2,-2,-3,-8,9,-1,-6,1,1,-4,YES,Théurgiste,Théurgiste (magie divine instinctive),Aucun,"Réseautage et recherche d’informations urbaines
+Performance (Acrobatie/ Danse / Musique / Prestidigitation)
+Streetwise et  bas-fonds urbains
+Équitation","Courants politiques et rivalités
+Fêtes, calendriers et traditions
+Lois et coutumes des nations
+Mythes et légendes divines
+Connaissance des organisations secrètes
+Connaissance des cités et régions majeures
+Connaissance des dragons
+Connaissance des guildes et corporations
+Culture elfique
+Interactions culturelles","Herboristerie et préparation de potions
+Travail de l’os et de l’ivoire
+Alchimie théorique et pratique
+Fabrication d’objets rituels
+Maçonnerie",Chondathan (Alphabet Thorass)
+CH-00023,2,Human,Chondathan,Vilhon Reach,Village côtier / de pêcheurs,Chondathan,Théurgique,"-1,16",0,1,0,-1,6,-3,0,0,"169,4","71,0",0,2,-1,4,-4,-3,-7,-1,-4,4,0,1,1,YES,Théurgiste,Théurgiste (magie divine instinctive),Aucun,"Streetwise et  bas-fonds urbains
+Performance (Acrobatie/ Danse / Musique / Prestidigitation)
+Réseautage et recherche d’informations urbaines
+Survie côtière et marées
+Équitation
+Pêche et récolte en zone littorale","Astronomie et navigation stellaire
+Routes commerciales et voies marchandes
+Courants politiques et rivalités
+Genasi et peuples élémentaires
+Histoire d’Imaskar
+Religions et divinités majeures","Architecture
+Alchimie théorique et pratique
+Parfumerie et cosmétique",Chondathan (Alphabet Thorass)
+CH-00024,4,Human,Illuskan,Luskan,Ville moyenne,Illuskan,None,"10,94",3,2,1,6,5,2,3,1,"177,0","83,2",1,2,-2,4,2,1,5,0,1,2,-1,0,1,NO,,Non-magique,Aucun,"Furtivité et déplacement discret en ville
+Pêche en haute mer et survie aquatique
+Marche en montagne et portage en altitude
+Résistance au mal de mer et gestion des tempêtes
+Chasse et pistage en milieu arctique","Chute de Myth Drannor
+Étiquette et protocole de cour
+Folklore et légendes locales
+Connaissance des guildes et corporations
+Folklore et légendes locales
+Géographie de Faerûn
+Histoire des Royaumes Oubliés
+Folklore et légendes locales","Herboristerie et préparation de potions
+Teinture et coloration
+Charpenterie et travail du bois
+Ébénisterie et marqueterie",
+CH-00025,11,Human,Sossrim,The Cold Lands,Village de montagne,Illuskan,Arcanique,"-10,86",-7,-4,-3,2,7,-3,-4,2,"155,0","57,5",-2,-10,3,3,-4,3,1,3,-5,-5,4,0,-2,YES,Magicien,Arcaniste (magie savante),Aucun,"Pistage et chasse en milieu ouvert
+Construction d’abris en neige et glace
+Réseautage et recherche d’informations urbaines
+Navigation en relief montagneux
+Marche en montagne et portage en altitude
+Chasse et pistage en milieu arctique
+Streetwise et  bas-fonds urbains","Connaissance des guildes et corporations
+Noblesse et héraldique
+Connaissance des fées et du Feywild
+Routes commerciales et voies marchandes","Comptabilité et gestion de biens
+Comptabilité et gestion de biens",Thorass (Alphabet Thorass)
+CH-00026,7,Human,Tethyrian,Tethyr,Village de montagne,Chondathan,Théurgique,"0,0",0,1,0,-5,5,-1,0,5,"161,9","71,0",-1,-2,3,6,-3,2,-1,6,-3,1,5,2,2,YES,Théurgiste,Théurgiste (magie divine instinctive),Aucun,"Manipulation de pièges et serrures
+Cueillette et  plantes forestières
+Streetwise et  bas-fonds urbains
+Pistage et traque en milieu boisé
+Performance (Acrobatie/ Danse / Musique / Prestidigitation)","Histoire des Royaumes Oubliés
+Connaissance des cités et régions majeures
+Étiquette et protocole de cour
+Interactions culturelles
+Routes commerciales et voies marchandes
+Ruines et sites archéologiques majeurs
+Fêtes, calendriers et traditions
+Histoire des Royaumes Oubliés","Tissage et filage
+Ébénisterie et marqueterie
+Fabrication de teintures rares
+Viticulture et vinification",
+CH-00027,3,Human,Damaran,Damara,Ville fortifiée,Chondathan + Damaran,None,"20,94",3,4,3,-2,5,3,0,-2,"172,4","71,0",0,8,3,3,2,-7,3,7,5,8,4,5,2,NO,,Non-magique,Aucun,"Streetwise et  bas-fonds urbains
+Escalade rocheuse et progression technique
+Performance (Acrobatie/ Danse / Musique / Prestidigitation)
+Navigation en relief montagneux
+Pistage et chasse en milieu ouvert","Culture naine
+Routes commerciales et voies marchandes
+Culture elfique
+Routes commerciales et voies marchandes
+Géographie de Faerûn
+Connaissance des dragons
+Géographie de Faerûn
+Culture naine","Comptabilité et gestion de biens
+Charpenterie et travail du bois
+Céramique et poterie
+Herboristerie exotique",
+CH-00028,2,Human,Chondathan,Western Heartlands,Ville moyenne,Chondathan,Théurgique,"-2,75",-5,-3,-3,3,3,3,-3,2,"157,8","60,6",-2,-6,2,4,2,-2,-3,-7,2,-1,3,-2,-1,YES,Théurgiste,Théurgiste (magie divine instinctive),Aucun,"Streetwise et  bas-fonds urbains
+Manipulation de pièges et serrures
+Pistage et traque en milieu boisé","Histoire de Netheril
+Mythes et légendes divines
+Spellplague et ses conséquences
+Connaissance des fées et du Feywild
+Géographie de Faerûn
+Courants politiques et rivalités
+Mythes et légendes divines
+Religions et divinités majeures
+Astronomie et navigation stellaire
+Étiquette et protocole de cour
+Spellplague et ses conséquences
+Mythes et légendes divines","Charpenterie et travail du bois
+Cartographie
+Apiculture
+Architecture
+Élevage et dressage
+Charpenterie et travail du bois",Chondathan (Alphabet Thorass)
+CH-00029,42,Gnome,Deep Gnome,Lycanthropes,Village forestier,Chondathan + Sylvestre,Arcanique,"-14,88",-16,-8,-6,1,5,-2,-16,2,"125,6","30,6",-6,0,1,0,-2,-10,-3,-1,-7,8,1,3,0,YES,Magicien,Arcaniste (magie savante),Vision dans le noir,"Streetwise et  bas-fonds urbains
+Manipulation de pièges et serrures
+Résistance au froid extrême et hypothermie
+Performance (Acrobatie/ Danse / Musique / Prestidigitation)
+Cueillette et  plantes forestières","Histoire de la magie
+Connaissance des cités et régions majeures
+Lois et coutumes des nations
+Cultes et ordres religieux
+Culture gnome
+Religions et divinités majeures
+Culture elfique
+Ruines et sites archéologiques majeurs","Ébénisterie et marqueterie
+Travail de la pierre
+Maçonnerie
+Travail du cuir et tannerie",Thorass (Alphabet Thorass)
+CH-00030,138,Human,Uthgardt,Le Nord (The North),Hameau isolé,Illuskan,Théurgique,"-5,34",-3,-2,0,2,7,-3,-2,-10,"178,9","63,9",1,1,0,-6,-1,1,2,2,-10,-2,-2,0,-3,YES,Théurgiste,Théurgiste (magie divine instinctive),Aucun,"Équitation
+Pistage et chasse en milieu ouvert
+Furtivité et déplacement silencieux en forêt
+Réseautage et recherche d’informations urbaines
+Marche en montagne et portage en altitude
+Pistage et traque en milieu boisé
+Streetwise et  bas-fonds urbains","Écoles et traditions magiques
+Histoire des Royaumes Oubliés
+Religions et divinités majeures
+Étiquette et protocole de cour","Maçonnerie
+Conserverie et salaison",Illuskan (Alphabet Thorass)
+CH-00031,7,Human,Tethyrian,Baldur's Gate,Grande Ville portuaire,Chondathan,None,"19,26",4,4,4,-1,3,-2,2,-1,"177,0","78,9",1,5,5,2,-3,5,0,5,-2,4,5,3,2,NO,,Non-magique,Aucun,"Manipulation de pièges et serrures
+Streetwise et  bas-fonds urbains
+Survie côtière et marées","Étiquette et protocole de cour
+Lois et coutumes des nations
+Culture gnome
+Histoire des Royaumes Oubliés
+Étiquette et protocole de cour
+Religions et divinités majeures
+Culture naine
+Histoire des Royaumes Oubliés
+Histoire des Royaumes Oubliés
+Mythes et légendes divines
+Routes commerciales et voies marchandes
+Histoire de la magie","Charpenterie et travail du bois
+Comptabilité et gestion de biens
+Forge et métallurgie
+Broderie et couture fine
+Ébénisterie et marqueterie
+Travail du cuir et tannerie","Chondathan (Alphabet Thorass)
+Thorass (Alphabet Thorass)"
+CH-00032,9,Human,Turami,Chessenta,Ville moyenne,Chessentan + Mulhorandi + Turami,Théurgique,"-5,87",1,-3,-5,8,6,-2,4,6,"172,2","87,7",0,-9,-2,-6,1,-1,-1,2,0,-13,-4,-6,-6,YES,Théurgiste,Théurgiste (magie divine instinctive),Aucun,"Streetwise et  bas-fonds urbains
+Pistage et chasse en milieu ouvert
+Manipulation de pièges et serrures
+Réseautage et recherche d’informations urbaines
+Orientation et navigation en milieu ouvert
+Médecine","Culture naine
+Connaissance des dragons
+Ruines et sites archéologiques majeurs
+Noblesse et héraldique
+Folklore et légendes locales
+Géographie de Faerûn","Cuisine raffinée
+Teinture et coloration
+Forge et métallurgie",Espruar (Alphabet Espruar)
+CH-00033,4,Human,Illuskan,Luskan,Ville moyenne,Illuskan,None,"6,3",2,2,2,4,4,-2,1,-1,"173,9","74,8",0,1,5,3,-4,10,4,1,3,2,6,2,2,NO,,Non-magique,Aucun,"Équitation
+Chasse et pistage en milieu arctique
+Manipulation de pièges et serrures
+Pêche en haute mer et survie aquatique","Religions et divinités majeures
+Étiquette et protocole de cour
+Noblesse et héraldique
+Noblesse et héraldique
+Cosmologie (Weave, Shadow Weave)
+Artefacts et reliques légendaires
+Connaissance des cités et régions majeures
+Cosmologie (Weave, Shadow Weave)
+Culture elfique
+Lois et coutumes des nations","Herboristerie et préparation de potions
+Élevage et dressage
+Travail de la pierre
+Maçonnerie
+Forge et métallurgie",Illuskan (Alphabet Thorass)
+CH-00034,1,Human,Calishite,Calimshan,Ville moyenne,Chondathan + Mulhorandi,None,"16,62",2,3,3,1,6,3,0,1,"167,8","71,0",0,4,3,5,1,-4,-3,3,1,6,4,3,2,NO,,Non-magique,Aucun,"Conservation et recherche d’eau en milieu aride
+Streetwise et  bas-fonds urbains
+Performance (Acrobatie/ Danse / Musique / Prestidigitation)
+Réseautage et recherche d’informations urbaines
+Manipulation de pièges et serrures
+Navigation maritime et lecture des courants","Artefacts et reliques légendaires
+Fêtes, calendriers et traditions
+Courants politiques et rivalités
+Géographie de Faerûn
+Connaissance des fées et du Feywild
+Noblesse et héraldique","Travail du cuir et tannerie
+Joaillerie et orfèvrerie
+Navigation (terrestre et maritime)",Mulhorandi (Alphabet Mulhorandi)
+CH-00035,2,Human,Chondathan,Sembia,Ville moyenne,Chondathan,Théurgique,"-6,4",-2,-2,-3,4,4,-1,-1,2,"163,5","67,4",-1,0,-4,-1,1,-4,1,-1,0,-1,-5,-2,-1,YES,Théurgiste,Théurgiste (magie divine instinctive),Aucun,"Furtivité et déplacement discret en ville
+Streetwise et  bas-fonds urbains
+Manipulation de pièges et serrures
+Réseautage et recherche d’informations urbaines","Cultes et ordres religieux
+Écoles et traditions magiques
+Folklore et légendes locales
+Religions et divinités majeures
+Races anciennes (Netheril, Imaskar...)
+Connaissance des cités et régions majeures
+Histoire de Netheril
+Astronomie et navigation stellaire
+Culture halfeline
+Connaissance des cités et régions majeures","Reliure de livres
+Viticulture et vinification
+Fabrication de chandelles et savon
+Reliure de livres
+Parfumerie et cosmétique",
+CH-00036,2,Human,Chondathan,Chondath,Village côtier / de pêcheurs,Chondathan + Turmish,Arcanique,"-8,49",-2,-3,-5,9,6,-2,1,-1,"173,9","74,8",0,1,-12,-2,2,0,-1,-9,-1,-1,-13,-6,-1,YES,Magicien,Arcaniste (magie savante),Aucun,"Performance (Acrobatie/ Danse / Musique / Prestidigitation)
+Pêche en haute mer et survie aquatique
+Navigation maritime et lecture des courants
+Furtivité et déplacement discret en ville
+Manipulation de pièges et serrures
+Équitation","Religions et divinités majeures
+Courants politiques et rivalités
+Lois et coutumes des nations
+Culture elfique
+Culture halfeline
+Royaumes et cités perdues","Apiculture
+Cuisine raffinée
+Comptabilité et gestion de biens",
+CH-00037,130,Human,Nar,Myth Drannor,Tour / Manoir isolé,Chondathan + Elfique,None,"7,01",5,1,0,11,5,-6,5,3,"180,0","92,4",1,-3,5,-8,-4,0,5,2,3,-10,2,-3,-4,NO,,Non-magique,Aucun,"Manipulation de pièges et serrures
+Équitation
+Réseautage et recherche d’informations urbaines
+Pistage et traque en milieu boisé
+Marche en montagne et portage en altitude","Culture elfique
+Histoire des Royaumes Oubliés
+Connaissance des organisations secrètes
+Histoire des Royaumes Oubliés
+Lois et coutumes des nations
+Culture halfeline
+Connaissance des cités et régions majeures
+Artefacts et reliques légendaires","Fabrication de voiles et cordages
+Fabrication de feux d’artifice
+Apiculture
+Mosaïque et fresque",Chondathan (Alphabet Thorass)
+CH-00038,5,Human,Mulan,Thay,Ville moyenne,Mulhorandi,Arcanique,"-8,91",-3,-2,-2,3,5,-6,-4,0,"157,9","57,5",-2,1,4,-4,-5,-6,5,-4,4,0,2,0,-2,YES,Magicien,Arcaniste (magie savante),Aucun,"Manipulation de pièges et serrures
+Performance (Acrobatie/ Danse / Musique / Prestidigitation)
+Streetwise et  bas-fonds urbains
+Orientation et navigation en milieu ouvert
+Médecine","Écoles et traditions magiques
+Noblesse et héraldique
+Théorie de la Weave
+Lois et coutumes des nations
+Cosmologie (Weave, Shadow Weave)
+Lois et coutumes des nations
+Lois et coutumes des nations
+Étiquette et protocole de cour","Travail de l’os et de l’ivoire
+Comptabilité et gestion de biens
+Charpenterie et travail du bois
+Cartographie",Infernal (Alphabet Infernal)
+CH-00039,132,Human,Shaaran,Citadel Adbar,Village de montagne,Nain + Shaaran,Théurgique,"-3,78",1,-1,-2,1,6,-3,1,5,"164,7","74,8",-1,-1,0,-1,-2,3,-8,1,-3,-2,-1,-1,0,YES,Théurgiste,Théurgiste (magie divine instinctive),Aucun,"Pistage et chasse en milieu ouvert
+Marche en montagne et portage en altitude
+Orientation en grande plaine
+Construction d’abris en neige et glace
+Équitation
+Escalade rocheuse et progression technique","Histoire de la magie
+Cultes et ordres religieux
+Spellplague et ses conséquences
+Mythes et légendes divines
+Ruines et sites archéologiques majeurs
+Théorie de la Weave","Viticulture et vinification
+Maçonnerie
+Maçonnerie",
+CH-00040,7,Human,Tethyrian,Tethyr,Village de montagne,Chondathan,Théurgique,"-0,86",3,0,-2,3,5,-7,3,6,"169,2","83,2",0,0,0,-7,-4,-1,-3,2,-1,-6,-3,-3,-3,YES,Théurgiste,Théurgiste (magie divine instinctive),Aucun,"Réseautage et recherche d’informations urbaines
+Équitation
+Streetwise et  bas-fonds urbains
+Performance (Acrobatie/ Danse / Musique / Prestidigitation)
+Cueillette et  plantes forestières","Connaissance des aberrations
+Fêtes, calendriers et traditions
+Histoire des Royaumes Oubliés
+Culture gnome
+Histoire de la magie
+Chute de Myth Drannor
+Connaissance des cités et régions majeures
+Connaissance des guildes et corporations","Maçonnerie
+Maçonnerie
+Comptabilité et gestion de biens
+Parfumerie et cosmétique",Chondathan (Alphabet Thorass)
+CH-00041,6,Human,Rashemi,Rashemen,Tribu nomade,Chondathan + Infernal + Rashemi,None,"3,72",4,0,-2,14,8,-2,6,3,"183,2","97,4",2,2,-10,-3,1,7,7,-4,-5,-4,-11,-6,0,NO,,Non-magique,Aucun,"Pistage et traque en milieu boisé
+Furtivité et déplacement silencieux en forêt
+Cueillette et  plantes forestières
+Équitation
+Pistage et chasse en milieu ouvert
+Streetwise et  bas-fonds urbains
+Manipulation de pièges et serrures
+Résistance au froid extrême et hypothermie","Histoire de Netheril
+Étiquette et protocole de cour",Sculpture sur pierre et bois,Espruar (Alphabet Espruar)
+CH-00042,15,Dwarf,Shield Dwarf,Mithral Hall,Camp minier,Nain,Théurgique,"-2,09",0,-1,-5,-4,5,0,-4,29,"121,6","57,5",-7,-2,8,2,-2,2,2,2,6,1,8,1,3,YES,Théurgiste,Théurgiste (magie divine instinctive),Vision dans le noir + Robustesse naine,"Pistage et chasse en milieu ouvert
+Navigation en relief montagneux
+Équitation
+Manipulation de pièges et serrures
+Réseautage et recherche d’informations urbaines","Culture naine
+Connaissance des fées et du Feywild
+Cosmologie (Weave, Shadow Weave)
+Histoire des Royaumes Oubliés
+Histoire des Royaumes Oubliés
+Connaissance des cités et régions majeures
+Culture orc et gobelinoïde
+Théorie de la Weave","Fabrication d’armes et armures
+Architecture
+Apiculture
+Herboristerie et préparation de potions","Illuskan (Alphabet Thorass)
+Nain (Runes Dethek)
+Sembian (Alphabet Thorass)"
+CH-00043,15,Dwarf,Shield Dwarf,Ironmaster,Hameau isolé,Nain,Arcanique,"-9,89",-6,-5,-8,-1,5,-1,-7,26,"118,5","49,1",-7,-4,0,1,-1,9,2,3,3,0,0,0,3,YES,Magicien,Arcaniste (magie savante),Vision dans le noir + Robustesse naine,"Équitation
+Construction d’abris en neige et glace
+Marche en montagne et portage en altitude
+Réseautage et recherche d’informations urbaines
+Manipulation de pièges et serrures","Histoire des Royaumes Oubliés
+Ruines et sites archéologiques majeurs
+Races anciennes (Netheril, Imaskar...)
+Religions et divinités majeures
+Culture gnome
+Races anciennes (Netheril, Imaskar...)
+Histoire des Royaumes Oubliés
+Cultes et ordres religieux","Architecture
+Cartographie
+Maçonnerie
+Fabrication d’armes et armures","Géant (Runes Géantes)
+Auran (Alphabet Auran)"
+CH-00044,1,Human,Calishite,Calimshan,Grande Ville portuaire,Calishite + Chondathan,None,"46,39",6,6,6,-4,3,5,5,-5,"193,4","92,4",3,6,1,8,3,-2,-2,-5,1,7,3,1,3,NO,,Non-magique,Aucun,"Conservation et recherche d’eau en milieu aride
+Équitation
+Manipulation de pièges et serrures","Religions et divinités majeures
+Histoire de Netheril
+Chute de Myth Drannor
+Connaissance des cités et régions majeures
+Royaumes et cités perdues
+Noblesse et héraldique
+Histoire des Royaumes Oubliés
+Connaissance des cités et régions majeures
+Théorie de la Weave
+Connaissance des dragons
+Connaissance des cités et régions majeures
+Courants politiques et rivalités","Navigation (terrestre et maritime)
+Cuisine raffinée
+Gravure sur métal et gemmes
+Forge et métallurgie
+Tissage et filage
+Maçonnerie",Chondathan (Alphabet Thorass)
+CH-00045,12,Halfling,Strongheart Halfling,Vaillants,Forteresse naine / Enclave naine,Chondathan,None,"6,69",-16,-5,-4,-3,4,8,-20,4,"114,9","24,7",-8,10,3,6,6,3,2,-2,4,21,5,9,8,NO,,Non-magique,Robustesse,"Performance (Acrobatie/ Danse / Musique / Prestidigitation)
+Escalade rocheuse et progression technique
+Streetwise et  bas-fonds urbains
+Manipulation de pièges et serrures","Cosmologie (Weave, Shadow Weave)
+Routes commerciales et voies marchandes
+Culture naine
+Écoles et traditions magiques
+Interactions culturelles
+Géographie de Faerûn
+Routes commerciales et voies marchandes
+Lois et coutumes des nations
+Géographie de Faerûn
+Histoire de la magie","Mosaïque et fresque
+Broderie et couture fine
+Navigation (terrestre et maritime)
+Fabrication de papier et encre
+Cuisine raffinée",Chondathan (Alphabet Thorass)
+CH-00046,7,Human,Tethyrian,Baldur's Gate,Grande Ville portuaire,Chondathan + Tethyrian,None,"4,66",2,1,2,6,4,-2,1,-2,"175,5","74,8",1,2,4,-1,-2,-6,-6,7,-1,0,3,2,-1,NO,,Non-magique,Aucun,"Performance (Acrobatie/ Danse / Musique / Prestidigitation)
+Navigation maritime et lecture des courants
+Survie côtière et marées
+Cueillette et  plantes forestières","Spellplague et ses conséquences
+Courants politiques et rivalités
+Connaissance des organisations secrètes
+Spellplague et ses conséquences
+Routes commerciales et voies marchandes
+Étiquette et protocole de cour
+Routes commerciales et voies marchandes
+Cultes et ordres religieux
+Cosmologie (Weave, Shadow Weave)
+Connaissance des guildes et corporations","Navigation (terrestre et maritime)
+Parfumerie et cosmétique
+Fabrication d’armes et armures
+Reliure de livres
+Fabrication de chandelles et savon",
+CH-00047,2,Human,Chondathan,Vilhon Reach,Grande Ville portuaire,Chondathan,Théurgique,"-6,83",-6,-3,-3,-1,5,1,-5,-2,"158,0","54,6",-2,2,-5,3,1,0,-6,3,3,5,-4,2,2,YES,Théurgiste,Théurgiste (magie divine instinctive),Aucun,"Performance (Acrobatie/ Danse / Musique / Prestidigitation)
+Survie côtière et marées
+Navigation maritime et lecture des courants
+Réseautage et recherche d’informations urbaines
+Pêche et récolte en zone littorale","Routes commerciales et voies marchandes
+Culture halfeline
+Théorie de la Weave
+Routes commerciales et voies marchandes
+Religions et divinités majeures
+Histoire des Royaumes Oubliés
+Géographie de Faerûn
+Routes commerciales et voies marchandes","Tissage et filage
+Forge et métallurgie
+Calligraphie et enluminure
+Travail du cuir et tannerie",
+CH-00048,2,Human,Chondathan,Chondath,Village rural,Chondathan,Arcanique,"-8,58",-4,-3,-2,3,7,-3,-3,-7,"171,1","60,6",0,1,-2,-3,-1,5,0,-1,3,0,-3,-1,-1,YES,Magicien,Arcaniste (magie savante),Aucun,"Navigation maritime et lecture des courants
+Équitation
+Manipulation de pièges et serrures
+Streetwise et  bas-fonds urbains
+Pêche en haute mer et survie aquatique
+Réseautage et recherche d’informations urbaines
+Furtivité et déplacement discret en ville","Connaissance des aberrations
+Lois et coutumes des nations
+Connaissance des cités et régions majeures
+Routes commerciales et voies marchandes","Herboristerie et préparation de potions
+Maçonnerie",Chondathan (Alphabet Thorass)
+CH-00049,9,Human,Turami,Dragon Coast,Port de contrebande,Chondathan,Arcanique,"-7,33",-1,-2,-2,5,4,-5,1,-1,"173,9","74,8",0,-3,-3,-1,-4,0,-4,0,-4,-4,-4,-2,-2,YES,Magicien,Arcaniste (magie savante),Aucun,"Résistance au mal de mer et gestion des tempêtes
+Pêche en haute mer et survie aquatique
+Performance (Acrobatie/ Danse / Musique / Prestidigitation)
+Navigation maritime et lecture des courants","Courants politiques et rivalités
+Spellplague et ses conséquences
+Culture naine
+Artefacts et reliques légendaires
+Culture gnome
+Culture gnome
+Fêtes, calendriers et traditions
+Géographie de Faerûn
+Histoire de la magie
+Connaissance des guildes et corporations","Joaillerie et orfèvrerie
+Teinture et coloration
+Cuisine raffinée
+Travail de la pierre
+Fabrication d’armes et armures","Thorass (Alphabet Thorass)
+Cormyrian (Alphabet Thorass)"
+CH-00050,7,Human,Tethyrian,Sword Coast,Grande Ville portuaire,Chondathan + Thorass,None,"11,52",0,1,1,8,2,5,1,-3,"177,0","74,8",1,-1,-1,7,3,2,0,-6,-5,2,1,-1,1,NO,,Non-magique,Aucun,"Streetwise et  bas-fonds urbains
+Réseautage et recherche d’informations urbaines","Connaissance des cités et régions majeures
+Culture gnome
+Routes commerciales et voies marchandes
+Noblesse et héraldique
+Royaumes et cités perdues
+Royaumes et cités perdues
+Cultes et ordres religieux
+Chute de Myth Drannor
+Histoire des Royaumes Oubliés
+Culture orc et gobelinoïde
+Culture naine
+Lois et coutumes des nations
+Courants politiques et rivalités
+Folklore et légendes locales","Travail du verre et verrerie
+Maçonnerie
+Brasserie et distillation
+Architecture
+Apiculture
+Calligraphie et enluminure
+Serrurerie et mécanismes","Druidic (Runes Druidiques)
+Thieves' Cant (Symboles des Voleurs)
+Chondathan (Alphabet Thorass)"
+CH-00051,1,Human,Calishite,Calimshan,Capitale / Grande Métropole,Chondathan + Mulhorandi,None,"2,64",-1,0,1,6,3,2,-2,0,"163,5","63,9",-1,-2,8,2,0,-8,0,5,9,0,8,3,-2,NO,,Non-magique,Aucun,"Pêche en haute mer et survie aquatique
+Navigation maritime et lecture des courants
+Furtivité et déplacement discret en ville","Religions et divinités majeures
+Folklore et légendes locales
+Routes commerciales et voies marchandes
+Lois et coutumes des nations
+Connaissance des guildes et corporations
+Courants politiques et rivalités
+Noblesse et héraldique
+Cosmologie (Weave, Shadow Weave)
+Écoles et traditions magiques
+Connaissance des cités et régions majeures
+Culture gnome
+Connaissance des cités et régions majeures","Cuisine raffinée
+Construction navale
+Architecture
+Charpenterie et travail du bois
+Travail du verre et verrerie
+Comptabilité et gestion de biens",Thorass (Alphabet Thorass)
+CH-00052,10,Human,Ffolk,Moonshae Isles,Hameau isolé,Ffolk + Illuskan,None,"0,48",2,1,-1,9,5,-3,-1,6,"157,7","67,4",-2,5,3,-4,-2,4,0,-4,3,2,1,-1,1,NO,,Non-magique,Aucun,"Équitation
+Performance (Acrobatie/ Danse / Musique / Prestidigitation)
+Réseautage et recherche d’informations urbaines
+Streetwise et  bas-fonds urbains
+Navigation maritime et lecture des courants","Royaumes et cités perdues
+Folklore et légendes locales
+Culture gnome
+Écoles et traditions magiques
+Courants politiques et rivalités
+Noblesse et héraldique
+Culture elfique
+Mythes et légendes divines","Charpenterie et travail du bois
+Travail du cuir et tannerie
+Forge et métallurgie
+Forge et métallurgie",
+CH-00053,12,Halfling,Strongheart Halfling,Waterdeep,Capitale / Grande Métropole,Chondathan,None,"11,25",-12,-5,-4,1,5,9,-12,2,"134,7","37,7",-5,1,0,5,8,3,4,2,2,9,1,4,4,NO,,Non-magique,Robustesse,"Équitation
+Performance (Acrobatie/ Danse / Musique / Prestidigitation)
+Manipulation de pièges et serrures
+Streetwise et  bas-fonds urbains
+Réseautage et recherche d’informations urbaines","Cultes et ordres religieux
+Religions et divinités majeures
+Religions et divinités majeures
+Histoire de Netheril
+Connaissance des organisations secrètes
+Chute de Myth Drannor
+Noblesse et héraldique
+Connaissance des cités et régions majeures","Teinture et coloration
+Charpenterie et travail du bois
+Apiculture
+Travail de l’os et de l’ivoire",Chondathan (Alphabet Thorass)
+CH-00054,7,Human,Tethyrian,Western Heartlands,Poste de commerce isolé,Chondathan + Thorass,Théurgique,"-3,24",2,-2,-4,9,4,-2,5,3,"180,0","92,4",1,-2,-9,-5,2,-7,0,-2,-2,-8,-11,-6,-4,YES,Théurgiste,Théurgiste (magie divine instinctive),Aucun,"Pistage et chasse en milieu ouvert
+Réseautage et recherche d’informations urbaines
+Équitation
+Manipulation de pièges et serrures","Genasi et peuples élémentaires
+Noblesse et héraldique
+Routes commerciales et voies marchandes
+Fêtes, calendriers et traditions
+Mythes et légendes divines
+Étiquette et protocole de cour
+Spellplague et ses conséquences
+Connaissance des aberrations
+Histoire de la magie
+Lois et coutumes des nations","Maçonnerie
+Taxidermie
+Apiculture
+Cuisine raffinée
+Joaillerie et orfèvrerie","Chondathan (Alphabet Thorass)
+Cormyrian (Alphabet Thorass)"
+CH-00055,7,Human,Tethyrian,Western Heartlands,Bourg / Petite ville,Tethyrian,Théurgique,"-2,58",-8,-5,-3,4,4,4,-4,-1,"159,3","57,5",-1,-9,-2,5,3,-3,-2,-5,2,-3,-1,-2,-2,YES,Théurgiste,Théurgiste (magie divine instinctive),Aucun,"Streetwise et  bas-fonds urbains
+Cueillette et  plantes forestières
+Réseautage et recherche d’informations urbaines
+Manipulation de pièges et serrures","Routes commerciales et voies marchandes
+Histoire des Royaumes Oubliés
+Histoire de la magie
+Interactions culturelles
+Connaissance des fées et du Feywild
+Religions et divinités majeures
+Religions et divinités majeures
+Connaissance des guildes et corporations
+Connaissance des guildes et corporations
+Cultes et ordres religieux","Fabrication de chandelles et savon
+Teinture et coloration
+Mosaïque et fresque
+Cuisine raffinée
+Comptabilité et gestion de biens",
+CH-00056,22,Half-elf,Moon Half-elf,Silver Marches (Luruar),Camp de bûcherons,Chondathan + Illuskan,Théurgique,"-4,4",-3,-2,-1,2,7,-2,-2,-5,"171,0","63,9",0,-4,4,-3,-1,6,5,-2,-6,-4,3,-1,-2,YES,Théurgiste,Théurgiste (magie divine instinctive),Méditation + Immunité sommeil + VN (N1),"Marche en montagne et portage en altitude
+Orientation et navigation en milieu ouvert
+Réseautage et recherche d’informations urbaines
+Streetwise et  bas-fonds urbains
+Manipulation de pièges et serrures
+Équitation
+Performance (Acrobatie/ Danse / Musique / Prestidigitation)","Races anciennes (Netheril, Imaskar...)
+Cultes et ordres religieux
+Géographie de Faerûn
+Connaissance des dragons","Charpenterie et travail du bois
+Comptabilité et gestion de biens","Chondathan (Alphabet Thorass)
+Thorass (Alphabet Thorass)"
+CH-00057,5,Human,Mulan,Mulhorand,Capitale / Grande Métropole,Mulhorandi,None,"8,92",2,2,2,4,5,1,2,-7,"186,8","78,9",2,4,-2,2,1,-5,-1,8,-2,3,-2,2,0,NO,,Non-magique,Aucun,"Streetwise et  bas-fonds urbains
+Escalade rocheuse et progression technique
+Marche désertique et résistance thermique
+Navigation maritime et lecture des courants
+Conservation et recherche d’eau en milieu aride","Mythes et légendes divines
+Lois et coutumes des nations
+Connaissance des fées et du Feywild
+Religions et divinités majeures
+Lois et coutumes des nations
+Fêtes, calendriers et traditions
+Étiquette et protocole de cour
+Astronomie et navigation stellaire","Charpenterie et travail du bois
+Herboristerie et préparation de potions
+Navigation (terrestre et maritime)
+Forge et métallurgie",Infernal (Alphabet Infernal)
+CH-00058,4,Human,Illuskan,Luskan,Port de contrebande,Illuskan,Arcanique,"-10,47",-4,-3,-3,1,4,-6,-2,-4,"169,5","63,9",0,1,-4,-6,-3,8,3,7,4,-2,-6,0,-1,YES,Magicien,Arcaniste (magie savante),Aucun,"Réseautage et recherche d’informations urbaines
+Streetwise et  bas-fonds urbains
+Performance (Acrobatie/ Danse / Musique / Prestidigitation)
+Furtivité et déplacement discret en ville","Connaissance des cités et régions majeures
+Culture elfique
+Cultes et ordres religieux
+Histoire de Netheril
+Races anciennes (Netheril, Imaskar...)
+Royaumes et cités perdues
+Spellplague et ses conséquences
+Géographie de Faerûn
+Routes commerciales et voies marchandes
+Cosmologie (Weave, Shadow Weave)","Horlogerie et mécanismes complexes
+Ébénisterie et marqueterie
+Travail du cuir et tannerie
+Élevage et dressage
+Tissage et filage","Illuskan (Alphabet Thorass)
+Sembian (Alphabet Thorass)"
+CH-00059,2,Human,Chondathan,Sword Coast,Port de contrebande,Chondathan,Théurgique,"-3,78",-3,-1,1,0,5,-2,-4,-3,"162,2","57,5",-1,0,9,-2,-3,-2,0,-5,-4,0,8,1,-1,YES,Théurgiste,Théurgiste (magie divine instinctive),Aucun,"Manipulation de pièges et serrures
+Performance (Acrobatie/ Danse / Musique / Prestidigitation)
+Réseautage et recherche d’informations urbaines
+Survie côtière et marées
+Furtivité et déplacement discret en ville","Histoire de Netheril
+Ruines et sites archéologiques majeurs
+Lois et coutumes des nations
+Connaissance des cités et régions majeures
+Noblesse et héraldique
+Courants politiques et rivalités
+Connaissance des guildes et corporations
+Connaissance des cités et régions majeures","Maçonnerie
+Comptabilité et gestion de biens
+Travail du cuir et tannerie
+Maçonnerie","Chondathan (Alphabet Thorass)
+Thorass (Alphabet Thorass)"
+CH-00060,7,Human,Tethyrian,Baldur's Gate,Ville moyenne,Cormyrian + Elfique + Tethyrian,None,"4,66",3,1,0,13,4,-1,5,0,"184,9","92,4",2,-3,-3,2,-1,6,2,-8,-2,-4,-3,-5,0,NO,,Non-magique,Aucun,"Performance (Acrobatie/ Danse / Musique / Prestidigitation)
+Équitation
+Streetwise et  bas-fonds urbains
+Cueillette et  plantes forestières","Folklore et légendes locales
+Géographie de Faerûn
+Chute de Myth Drannor
+Connaissance des organisations secrètes
+Connaissance des aberrations
+Noblesse et héraldique
+Cultes et ordres religieux
+Fêtes, calendriers et traditions
+Histoire de la magie
+Ruines et sites archéologiques majeurs","Maçonnerie
+Serrurerie et mécanismes
+Serrurerie et mécanismes
+Alchimie théorique et pratique
+Navigation (terrestre et maritime)",
+CH-00061,2,Human,Chondathan,The Dalelands,Hameau agricole,Chondathan + Illuskan,None,"1,64",1,-1,-1,10,5,2,2,0,"175,4","78,9",1,2,-3,-5,5,-1,-2,6,2,-3,-5,-1,-2,NO,,Non-magique,Aucun,"Réseautage et recherche d’informations urbaines
+Pistage et traque en milieu boisé
+Médecine
+Orientation en grande plaine
+Performance (Acrobatie/ Danse / Musique / Prestidigitation)","Chute de Myth Drannor
+Géographie de Faerûn
+Spellplague et ses conséquences
+Religions et divinités majeures
+Courants politiques et rivalités
+Fêtes, calendriers et traditions
+Religions et divinités majeures
+Culture gnome","Reliure de livres
+Forge et métallurgie
+Architecture
+Herboristerie et préparation de potions",Chondathan (Alphabet Thorass)
+CH-00062,1,Human,Calishite,Lantan,Village rural,Chondathan + Mulhorandi,Théurgique,"-1,16",-3,0,0,-3,4,1,-3,1,"159,2","60,6",-1,2,0,5,0,7,1,-4,-4,6,1,1,3,YES,Théurgiste,Théurgiste (magie divine instinctive),Aucun,"Streetwise et  bas-fonds urbains
+Réseautage et recherche d’informations urbaines
+Marche désertique et résistance thermique
+Équitation","Interactions culturelles
+Connaissance des organisations secrètes
+Géographie de Faerûn
+Religions et divinités majeures
+Connaissance des guildes et corporations
+Ruines et sites archéologiques majeurs
+Royaumes et cités perdues
+Étiquette et protocole de cour
+Races anciennes (Netheril, Imaskar...)
+Noblesse et héraldique","Teinture et coloration
+Comptabilité et gestion de biens
+Alchimie théorique et pratique
+Fabrication de voiles et cordages
+Construction navale",Chondathan (Alphabet Thorass)
+CH-00063,1,Human,Calishite,Calimshan,Caravansérail / Oasis,Calishite + Chondathan,None,"6,68",3,2,1,6,5,-2,3,6,"169,2","83,2",0,-1,1,5,-3,4,1,2,5,0,2,0,2,NO,,Non-magique,Aucun,"Manipulation de pièges et serrures
+Navigation maritime et lecture des courants
+Streetwise et  bas-fonds urbains
+Marche désertique et résistance thermique
+Conservation et recherche d’eau en milieu aride","Connaissance des organisations secrètes
+Géographie de Faerûn
+Courants politiques et rivalités
+Géographie de Faerûn
+Royaumes et cités perdues
+Connaissance des guildes et corporations
+Connaissance des guildes et corporations
+Culture naine","Charpenterie et travail du bois
+Horlogerie et mécanismes complexes
+Herboristerie exotique
+Parfumerie et cosmétique",
+CH-00064,2,Human,Chondathan,Chondath,Ville moyenne,Chondathan,None,"2,0",1,2,1,5,5,-4,-1,3,"162,0","67,4",-1,4,5,1,-5,-3,-1,4,0,4,5,3,1,NO,,Non-magique,Aucun,"Manipulation de pièges et serrures
+Survie côtière et marées
+Réseautage et recherche d’informations urbaines
+Streetwise et  bas-fonds urbains
+Performance (Acrobatie/ Danse / Musique / Prestidigitation)","Courants politiques et rivalités
+Connaissance des cités et régions majeures
+Mythes et légendes divines
+Culture gnome
+Noblesse et héraldique
+Histoire d’Imaskar
+Connaissance des organisations secrètes
+Connaissance des dragons","Travail de la pierre
+Travail de la pierre
+Fabrication de papier et encre
+Travail de la pierre",
+CH-00065,1,Human,Calishite,Tethyr,Ferme isolée / Domaine,Chondathan + Mulhorandi,Théurgique,"-4,52",1,0,-2,5,4,-7,2,2,"172,3","78,9",0,1,-4,0,-6,2,-2,-7,-1,-1,-4,-4,0,YES,Théurgiste,Théurgiste (magie divine instinctive),Aucun,"Streetwise et  bas-fonds urbains
+Pistage et traque en milieu boisé
+Réseautage et recherche d’informations urbaines
+Furtivité et déplacement silencieux en forêt","Religions et divinités majeures
+Étiquette et protocole de cour
+Genasi et peuples élémentaires
+Culture naine
+Lois et coutumes des nations
+Routes commerciales et voies marchandes
+Races anciennes (Netheril, Imaskar...)
+Lois et coutumes des nations
+Histoire des Royaumes Oubliés
+Folklore et légendes locales","Serrurerie et mécanismes
+Maçonnerie
+Calligraphie et enluminure
+Parfumerie et cosmétique
+Cuisine raffinée","Thorass (Alphabet Thorass)
+Thieves' Cant (Symboles des Voleurs)"
+CH-00066,15,Dwarf,Shield Dwarf,Citadel Adbar,Forteresse naine / Enclave naine,Nain,Théurgique,"-3,09",-1,-1,-5,0,5,0,-2,22,"134,1","63,9",-5,-2,1,4,-1,8,7,-6,0,1,2,-2,4,YES,Théurgiste,Théurgiste (magie divine instinctive),Vision dans le noir + Robustesse naine,"Construction d’abris en neige et glace
+Pistage et chasse en milieu ouvert
+Furtivité et discrétion en milieu confiné
+Résistance au froid extrême et hypothermie
+Streetwise et  bas-fonds urbains","Religions et divinités majeures
+Religions et divinités majeures
+Astronomie et navigation stellaire
+Écoles et traditions magiques
+Culture naine
+Interactions culturelles
+Connaissance des cités et régions majeures
+Connaissance des cités et régions majeures","Fabrication de lentilles et optique
+Comptabilité et gestion de biens
+Céramique et poterie
+Serrurerie et mécanismes",Nain (Runes Dethek)
+CH-00067,5,Human,Mulan,Inner Sea (Sea of Fallen Stars),Forteresse naine / Enclave naine,Chondathan + Mulhorandi,None,"11,32",1,3,1,-2,3,3,-2,5,"156,3","63,9",-2,8,3,4,2,-3,5,8,4,9,4,5,4,NO,,Non-magique,Aucun,"Performance (Acrobatie/ Danse / Musique / Prestidigitation)
+Manipulation de pièges et serrures
+Streetwise et  bas-fonds urbains","Histoire de la magie
+Histoire des Royaumes Oubliés
+Histoire de la magie
+Lois et coutumes des nations
+Fêtes, calendriers et traditions
+Religions et divinités majeures
+Chute de Myth Drannor
+Connaissance des cités et régions majeures
+Connaissance des cités et régions majeures
+Culture naine
+Routes commerciales et voies marchandes
+Cultes et ordres religieux","Architecture
+Serrurerie et mécanismes
+Comptabilité et gestion de biens
+Navigation (terrestre et maritime)
+Fabrication de papier et encre
+Travail du cuir et tannerie",Mulhorandi (Alphabet Mulhorandi)
+CH-00068,3,Human,Damaran,Impiltur,Village côtier / de pêcheurs,Chondathan + Damaran + Impilturan + Vaasan,None,"0,64",2,0,-1,14,6,-1,2,5,"167,7","78,9",0,-2,4,-5,0,-1,2,-5,2,-6,2,-3,-3,NO,,Non-magique,Aucun,"Résistance au froid extrême et hypothermie
+Construction d’abris en neige et glace
+Réseautage et recherche d’informations urbaines
+Escalade rocheuse et progression technique
+Streetwise et  bas-fonds urbains
+Équitation","Connaissance des guildes et corporations
+Royaumes et cités perdues
+Chute de Myth Drannor
+Royaumes et cités perdues
+Ruines et sites archéologiques majeurs
+Interactions culturelles","Brasserie et distillation
+Travail du cuir et tannerie
+Horlogerie et mécanismes complexes",
+CH-00069,8,Human,Chultan,Chult,Camp de bûcherons,Chultan,Théurgique,"-6,51",-1,-1,-1,3,8,-6,0,-1,"170,9","71,0",0,-1,0,-3,-5,-1,5,0,-8,-3,-1,-1,-2,YES,Théurgiste,Théurgiste (magie divine instinctive),Aucun,"Furtivité et déplacement silencieux en forêt
+Cueillette et  plantes forestières
+Réseautage et recherche d’informations urbaines
+Médecine
+Équitation
+Résistance aux maladies et insectes des marais
+Pistage et traque en milieu boisé
+Performance (Acrobatie/ Danse / Musique / Prestidigitation)","Astronomie et navigation stellaire
+Connaissance des cités et régions majeures",Apiculture,
+CH-00070,3,Human,Damaran,Impiltur,Village côtier / de pêcheurs,Chondathan,Théurgique,"-4,8",1,-1,-3,2,5,-4,2,6,"166,2","78,9",0,4,-9,-3,-1,0,-3,6,0,0,-10,-2,0,YES,Théurgiste,Théurgiste (magie divine instinctive),Aucun,"Manipulation de pièges et serrures
+Streetwise et  bas-fonds urbains
+Navigation maritime et lecture des courants
+Marche en montagne et portage en altitude
+Résistance au froid extrême et hypothermie","Connaissance des organisations secrètes
+Théorie de la Weave
+Culture gnome
+Géographie de Faerûn
+Mythes et légendes divines
+Connaissance des cités et régions majeures
+Connaissance des guildes et corporations
+Folklore et légendes locales","Orfèvrerie magique (théorique)
+Navigation (terrestre et maritime)
+Comptabilité et gestion de biens
+Navigation (terrestre et maritime)",Chondathan (Alphabet Thorass)
+CH-00071,5,Human,Mulan,Thay,Capitale / Grande Métropole,Mulhorandi,None,"6,66",1,1,0,5,5,3,1,0,"172,3","74,8",0,1,0,3,2,1,-5,4,3,2,1,1,1,NO,,Non-magique,Aucun,"Streetwise et  bas-fonds urbains
+Performance (Acrobatie/ Danse / Musique / Prestidigitation)
+Équitation
+Furtivité et déplacement discret en ville
+Escalade rocheuse et progression technique","Connaissance des cités et régions majeures
+Mythes et légendes divines
+Histoire des Royaumes Oubliés
+Étiquette et protocole de cour
+Folklore et légendes locales
+Connaissance des guildes et corporations
+Courants politiques et rivalités
+Connaissance des cités et régions majeures","Travail du cuir et tannerie
+Architecture
+Comptabilité et gestion de biens
+Fabrication d’armes et armures","Mulhorandi (Alphabet Mulhorandi)
+Géant (Runes Géantes)"
+CH-00072,3,Human,Damaran,The Cold Lands,Poste de commerce isolé,Damaran + Illuskan,Arcanique,"-7,87",-2,-1,-3,-2,5,-5,-2,6,"154,9","63,9",-2,4,-5,1,-4,-1,3,7,-7,4,-5,1,2,YES,Magicien,Arcaniste (magie savante),Aucun,"Manipulation de pièges et serrures
+Navigation en relief montagneux
+Pistage et chasse en milieu ouvert
+Marche en montagne et portage en altitude
+Construction d’abris en neige et glace","Religions et divinités majeures
+Courants politiques et rivalités
+Artefacts et reliques légendaires
+Noblesse et héraldique
+Mythes et légendes divines
+Connaissance des aberrations
+Routes commerciales et voies marchandes
+Chute de Myth Drannor","Forge et métallurgie
+Fabrication de lentilles et optique
+Céramique et poterie
+Gravure sur métal et gemmes",
+CH-00073,5,Human,Mulan,Mulhorand,Tribu nomade,Chessentan + Mulhorandi,None,"1,42",3,0,-2,12,7,-2,1,2,"169,3","74,8",0,8,-3,-12,3,2,-1,0,3,-2,-7,-3,-1,NO,,Non-magique,Aucun,"Manipulation de pièges et serrures
+Navigation maritime et lecture des courants
+Performance (Acrobatie/ Danse / Musique / Prestidigitation)
+Conservation et recherche d’eau en milieu aride
+Marche désertique et résistance thermique
+Équitation
+Orientation et navigation en milieu ouvert","Culture elfique
+Théorie de la Weave
+Connaissance des cités et régions majeures
+Culture halfeline","Herboristerie et préparation de potions
+Charpenterie et travail du bois",Mulhorandi (Alphabet Mulhorandi)
+CH-00074,87,Other,Yuan-ti Pureblood,Chult,Village forestier,Chultan + Yuan-ti,None,"22,59",1,3,2,-1,7,6,0,0,"169,4","71,0",0,6,-1,9,4,0,5,-1,1,10,2,3,5,NO,,Non-magique,Résistance au poison,"Médecine
+Survie côtière et marées
+Manipulation de pièges et serrures
+Streetwise et  bas-fonds urbains
+Résistance aux maladies et insectes des marais
+Équitation
+Performance (Acrobatie/ Danse / Musique / Prestidigitation)","Spellplague et ses conséquences
+Astronomie et navigation stellaire
+Connaissance des dragons
+Mythes et légendes divines","Travail du cuir et tannerie
+Ébénisterie et marqueterie",Chondathan (Alphabet Thorass)
+CH-00075,2,Human,Chondathan,The Dalelands,Village forestier,Chondathan,None,"12,62",1,3,4,1,7,0,0,-7,"180,4","71,0",1,3,4,7,-3,3,-3,1,8,6,6,4,3,NO,,Non-magique,Aucun,"Performance (Acrobatie/ Danse / Musique / Prestidigitation)
+Réseautage et recherche d’informations urbaines
+Équitation
+Manipulation de pièges et serrures
+Pistage et traque en milieu boisé
+Cueillette et  plantes forestières
+Streetwise et  bas-fonds urbains","Connaissance des cités et régions majeures
+Connaissance des guildes et corporations
+Géographie de Faerûn
+Connaissance des guildes et corporations","Joaillerie et orfèvrerie
+Travail du verre et verrerie",Chondathan (Alphabet Thorass)
+CH-00076,146,Human,Vaasan,Vaasa,Ferme isolée / Domaine,Chondathan + Vaasan,Théurgique,"-3,07",2,-1,-2,1,5,-5,1,7,"161,8","74,8",-1,-3,7,-8,-3,0,4,5,4,-8,4,-1,-4,YES,Théurgiste,Théurgiste (magie divine instinctive),Aucun,"Marche en montagne et portage en altitude
+Équitation
+Pistage et chasse en milieu ouvert
+Escalade rocheuse et progression technique
+Construction d’abris en neige et glace","Noblesse et héraldique
+Histoire de Netheril
+Géographie de Faerûn
+Fêtes, calendriers et traditions
+Cosmologie (Weave, Shadow Weave)
+Culture elfique
+Cosmologie (Weave, Shadow Weave)
+Connaissance des cités et régions majeures","Travail de la pierre
+Charpenterie et travail du bois
+Travail de la pierre
+Fabrication d’armes et armures","Illuskan (Alphabet Thorass)
+Thorass (Alphabet Thorass)"
+CH-00077,24,Half-elf,Sun Half-elf,Sembia,Ville moyenne,Chondathan,Arcanique,"-9,18",-13,-8,-6,-2,5,2,-10,-4,"147,3","41,9",-3,-3,-6,1,3,-1,6,12,6,3,-6,3,-1,YES,Magicien,Arcaniste (magie savante),Méditation + Immunité sommeil + VN (N1),"Performance (Acrobatie/ Danse / Musique / Prestidigitation)
+Escalade rocheuse et progression technique
+Réseautage et recherche d’informations urbaines
+Streetwise et  bas-fonds urbains
+Manipulation de pièges et serrures","Courants politiques et rivalités
+Fêtes, calendriers et traditions
+Folklore et légendes locales
+Lois et coutumes des nations
+Culture halfeline
+Géographie de Faerûn
+Noblesse et héraldique
+Mythes et légendes divines","Forge et métallurgie
+Taxidermie
+Charpenterie et travail du bois
+Forge et métallurgie",
+CH-00078,2,Human,Chondathan,Western Heartlands,Bourg / Petite ville,Chondathan,Théurgique,"-4,4",-2,-3,-2,4,4,1,2,-6,"185,2","78,9",2,-4,-8,1,3,6,-1,1,-6,-4,-8,-3,-1,YES,Théurgiste,Théurgiste (magie divine instinctive),Aucun,"Pistage et traque en milieu boisé
+Équitation
+Streetwise et  bas-fonds urbains
+Réseautage et recherche d’informations urbaines","Astronomie et navigation stellaire
+Culture naine
+Artefacts et reliques légendaires
+Courants politiques et rivalités
+Noblesse et héraldique
+Religions et divinités majeures
+Étiquette et protocole de cour
+Lois et coutumes des nations
+Mythes et légendes divines
+Mythes et légendes divines","Ébénisterie et marqueterie
+Cartographie
+Forge et métallurgie
+Comptabilité et gestion de biens
+Fabrication de chandelles et savon",Chondathan (Alphabet Thorass)
+CH-00079,31,Elf,Elf Moon,Thay,Capitale / Grande Métropole,Elfique,Théurgique,"-0,64",-1,-1,1,2,4,-4,0,-9,"183,6","71,0",2,0,1,-5,-2,-5,-4,0,-3,-3,-1,-1,-4,YES,Théurgiste,Théurgiste (magie divine instinctive),Transe + Immunité sommeil + VN (N2),"Furtivité et déplacement silencieux en forêt
+Équitation
+Furtivité et déplacement discret en ville
+Réseautage et recherche d’informations urbaines","Histoire de la magie
+Mythes et légendes divines
+Mythes et légendes divines
+Cultes et ordres religieux
+Connaissance des guildes et corporations
+Histoire de Netheril
+Noblesse et héraldique
+Écoles et traditions magiques
+Noblesse et héraldique
+Connaissance des organisations secrètes","Travail du verre et verrerie
+Fabrication d’armes et armures
+Navigation (terrestre et maritime)
+Cuisine raffinée
+Forge et métallurgie",Elfique (Alphabet Espruar)
+CH-00080,6,Human,Rashemi,Rashemen,Village de montagne,Mulhorandi + Rashemi,None,"4,66",-1,0,1,10,6,3,2,-5,"183,5","78,9",2,-5,-1,6,2,4,6,-5,4,-2,1,-2,0,NO,,Non-magique,Aucun,"Équitation
+Performance (Acrobatie/ Danse / Musique / Prestidigitation)
+Furtivité et déplacement silencieux en forêt
+Réseautage et recherche d’informations urbaines
+Manipulation de pièges et serrures
+Résistance au froid extrême et hypothermie","Folklore et légendes locales
+Noblesse et héraldique
+Interactions culturelles
+Écoles et traditions magiques
+Histoire d’Imaskar
+Histoire des Royaumes Oubliés","Navigation (terrestre et maritime)
+Tissage et filage
+Herboristerie et préparation de potions",Chondathan (Alphabet Thorass)
+CH-00081,3,Human,Damaran,The Cold Lands,Camp de bûcherons,Damaran + Illuskan,None,"14,98",3,3,3,3,7,1,0,2,"166,3","71,0",0,6,4,4,-1,0,-2,-5,-2,7,5,2,3,NO,,Non-magique,Aucun,"Streetwise et  bas-fonds urbains
+Équitation
+Marche en montagne et portage en altitude
+Manipulation de pièges et serrures
+Chasse et pistage en milieu arctique
+Performance (Acrobatie/ Danse / Musique / Prestidigitation)
+Escalade rocheuse et progression technique","Fêtes, calendriers et traditions
+Religions et divinités majeures
+Folklore et légendes locales
+Géographie de Faerûn","Céramique et poterie
+Fabrication d’armes et armures",
+CH-00082,12,Halfling,Strongheart Halfling,Dambrath,Colonie frontalière,Chondathan + Dambrathan,None,"0,54",-14,-4,-1,1,6,5,-17,-8,"135,0","29,0",-5,9,7,0,4,1,4,-2,6,15,7,8,4,NO,,Non-magique,Robustesse,"Résistance au froid extrême et hypothermie
+Pistage et traque en milieu boisé
+Streetwise et  bas-fonds urbains
+Équitation
+Performance (Acrobatie/ Danse / Musique / Prestidigitation)
+Pistage et chasse en milieu ouvert","Étiquette et protocole de cour
+Histoire d’Imaskar
+Folklore et légendes locales
+Interactions culturelles
+Géographie de Faerûn
+Routes commerciales et voies marchandes","Fabrication de voiles et cordages
+Navigation (terrestre et maritime)
+Forge et métallurgie",Thorass (Alphabet Thorass)
+CH-00083,1,Human,Calishite,Calimshan,Grande Ville portuaire,Calishite,None,"3,64",-1,1,1,6,4,2,-1,0,"166,4","67,4",0,1,1,5,1,4,3,-1,1,4,2,1,2,NO,,Non-magique,Aucun,"Performance (Acrobatie/ Danse / Musique / Prestidigitation)
+Conservation et recherche d’eau en milieu aride
+Manipulation de pièges et serrures
+Pêche en haute mer et survie aquatique","Théorie de la Weave
+Chute de Myth Drannor
+Routes commerciales et voies marchandes
+Culture elfique
+Artefacts et reliques légendaires
+Religions et divinités majeures
+Mythes et légendes divines
+Astronomie et navigation stellaire
+Routes commerciales et voies marchandes
+Géographie de Faerûn","Construction navale
+Maçonnerie
+Maçonnerie
+Parfumerie et cosmétique
+Travail du cuir et tannerie","Mulhorandi (Alphabet Mulhorandi)
+Cormyrian (Alphabet Thorass)
+Goblin (Alphabet Goblin)"
+CH-00084,11,Human,Sossrim,Sossal,Hameau agricole,Illuskan + Sossrim,Théurgique,"-4,32",-3,-1,-3,-3,6,1,-5,8,"144,4","54,6",-3,6,-2,0,2,-1,11,1,-2,7,-2,2,3,YES,Théurgiste,Théurgiste (magie divine instinctive),Aucun,"Construction d’abris en neige et glace
+Pêche en haute mer et survie aquatique
+Manipulation de pièges et serrures
+Équitation
+Navigation en relief montagneux
+Escalade rocheuse et progression technique","Culture gnome
+Folklore et légendes locales
+Connaissance des guildes et corporations
+Folklore et légendes locales
+Connaissance des cités et régions majeures
+Connaissance des guildes et corporations","Joaillerie et orfèvrerie
+Calligraphie et enluminure
+Travail du cuir et tannerie",
+CH-00085,6,Human,Rashemi,Rashemen,Village forestier,Rashemi,Arcanique,"-12,78",-5,-5,-5,10,4,-6,-2,0,"163,5","63,9",-1,-7,1,-9,-3,2,11,-6,1,-10,-2,-5,-5,YES,Magicien,Arcaniste (magie savante),Aucun,"Résistance au froid extrême et hypothermie
+Cueillette et  plantes forestières
+Performance (Acrobatie/ Danse / Musique / Prestidigitation)
+Pistage et chasse en milieu ouvert","Connaissance des cités et régions majeures
+Routes commerciales et voies marchandes
+Interactions culturelles
+Religions et divinités majeures
+Spellplague et ses conséquences
+Connaissance des dragons
+Routes commerciales et voies marchandes
+Fêtes, calendriers et traditions
+Religions et divinités majeures
+Royaumes et cités perdues","Herboristerie et préparation de potions
+Architecture
+Herboristerie et préparation de potions
+Forge et métallurgie
+Herboristerie et préparation de potions","Thorass (Alphabet Thorass)
+Tuigan (Alphabet Tuigan)
+Elfique (Alphabet Espruar)"
+CH-00086,7,Human,Tethyrian,Amn,Grande Ville marchande,Chondathan,None,"8,3",3,2,1,3,4,0,2,4,"169,2","78,9",0,4,1,0,0,2,-1,8,-2,2,1,2,1,NO,,Non-magique,Aucun,"Manipulation de pièges et serrures
+Pêche en haute mer et survie aquatique
+Performance (Acrobatie/ Danse / Musique / Prestidigitation)
+Équitation","Géographie de Faerûn
+Noblesse et héraldique
+Fêtes, calendriers et traditions
+Connaissance des cités et régions majeures
+Connaissance des cités et régions majeures
+Connaissance des dragons
+Géographie de Faerûn
+Religions et divinités majeures
+Connaissance des guildes et corporations
+Connaissance des organisations secrètes","Serrurerie et mécanismes
+Architecture
+Comptabilité et gestion de biens
+Charpenterie et travail du bois
+Navigation (terrestre et maritime)",Thorass (Alphabet Thorass)
+CH-00087,9,Human,Turami,Chessenta,Village rural,Chessentan + Turami,Arcanique,"-12,27",-7,-4,-4,1,7,-5,-5,-1,"156,6","54,6",-2,0,-5,2,-4,3,3,3,-1,3,-5,1,1,YES,Magicien,Arcaniste (magie savante),Aucun,"Équitation
+Streetwise et  bas-fonds urbains
+Manipulation de pièges et serrures
+Pistage et chasse en milieu ouvert
+Escalade rocheuse et progression technique
+Performance (Acrobatie/ Danse / Musique / Prestidigitation)
+Réseautage et recherche d’informations urbaines","Folklore et légendes locales
+Routes commerciales et voies marchandes
+Culture gnome
+Religions et divinités majeures","Serrurerie et mécanismes
+Broderie et couture fine",Thorass (Alphabet Thorass)
+CH-00088,7,Human,Tethyrian,Amn,Village rural,Chondathan,Théurgique,"-2,76",-3,-2,-2,0,7,2,-1,1,"165,0","67,4",-1,-7,4,2,1,-1,5,2,-5,-4,4,0,-2,YES,Théurgiste,Théurgiste (magie divine instinctive),Aucun,"Réseautage et recherche d’informations urbaines
+Cueillette et  plantes forestières
+Pêche en haute mer et survie aquatique
+Navigation maritime et lecture des courants
+Streetwise et  bas-fonds urbains
+Manipulation de pièges et serrures
+Équitation","Connaissance des organisations secrètes
+Connaissance des aberrations
+Cultes et ordres religieux
+Géographie de Faerûn","Forge et métallurgie
+Fabrication d’armes et armures",
+CH-00089,139,Human,Maztican,Tashalar,Camp de bûcherons,Maztican,Théurgique,"-6,32",-3,-3,-1,5,6,-1,-2,-5,"171,0","63,9",0,-3,5,-7,1,-2,1,-5,4,-6,2,-2,-4,YES,Théurgiste,Théurgiste (magie divine instinctive),Aucun,"Streetwise et  bas-fonds urbains
+Performance (Acrobatie/ Danse / Musique / Prestidigitation)
+Manipulation de pièges et serrures
+Navigation maritime et lecture des courants
+Cueillette et  plantes forestières
+Réseautage et recherche d’informations urbaines","Connaissance des cités et régions majeures
+Histoire de la magie
+Mythes et légendes divines
+Théorie de la Weave
+Étiquette et protocole de cour
+Histoire d’Imaskar","Apiculture
+Cartographie
+Mosaïque et fresque",Chondathan (Alphabet Thorass)
+CH-00090,15,Dwarf,Shield Dwarf,Silver Marches (Luruar),Hameau isolé,Illuskan + Nain,Théurgique,"-3,77",2,-1,-6,3,5,-7,1,21,"142,7","74,8",-4,1,-3,-2,-5,2,9,-5,2,-1,-4,-4,1,YES,Théurgiste,Théurgiste (magie divine instinctive),Vision dans le noir + Robustesse naine,"Escalade rocheuse et progression technique
+Streetwise et  bas-fonds urbains
+Construction d’abris en neige et glace
+Manipulation de pièges et serrures
+Équitation","Écoles et traditions magiques
+Routes commerciales et voies marchandes
+Histoire de Netheril
+Écoles et traditions magiques
+Culture gnome
+Noblesse et héraldique
+Culture elfique
+Connaissance des aberrations","Comptabilité et gestion de biens
+Cuisine raffinée
+Tissage et filage
+Conserverie et salaison","Illuskan (Alphabet Thorass)
+Elfique (Alphabet Espruar)"
+CH-00091,2,Human,Chondathan,The Dalelands,Village rural,Chessentan + Chondathan + Cormyrian + Thorass,None,"4,72",1,-2,-2,16,5,4,4,3,"176,9","87,7",1,-8,1,-3,5,3,1,-7,4,-11,0,-6,-4,NO,,Non-magique,Aucun,"Streetwise et  bas-fonds urbains
+Manipulation de pièges et serrures
+Réseautage et recherche d’informations urbaines
+Orientation en grande plaine
+Performance (Acrobatie/ Danse / Musique / Prestidigitation)","Folklore et légendes locales
+Géographie de Faerûn
+Connaissance des guildes et corporations
+Routes commerciales et voies marchandes
+Religions et divinités majeures
+Routes commerciales et voies marchandes
+Géographie de Faerûn
+Religions et divinités majeures","Fabrication de voiles et cordages
+Horlogerie et mécanismes complexes
+Herboristerie et préparation de potions
+Mosaïque et fresque",Chondathan (Alphabet Thorass)
+CH-00092,2,Human,Chondathan,Vilhon Reach,Village côtier / de pêcheurs,Chondathan + Cormyrian + Thorass,None,"0,64",2,0,-1,12,5,-1,1,-1,"173,9","74,8",0,3,3,-9,2,1,5,-3,-1,-4,0,-2,-3,NO,,Non-magique,Aucun,"Pêche en haute mer et survie aquatique
+Réseautage et recherche d’informations urbaines
+Performance (Acrobatie/ Danse / Musique / Prestidigitation)
+Équitation
+Manipulation de pièges et serrures","Fêtes, calendriers et traditions
+Écoles et traditions magiques
+Religions et divinités majeures
+Religions et divinités majeures
+Histoire d’Imaskar
+Culture gnome
+Histoire des Royaumes Oubliés
+Courants politiques et rivalités","Fabrication de voiles et cordages
+Comptabilité et gestion de biens
+Travail du cuir et tannerie
+Forge et métallurgie","Chondathan (Alphabet Thorass)
+Cormyrian (Alphabet Thorass)"
+CH-00093,30,Elf,Elf Wood,Impiltur,Grande Ville portuaire,Elfique,Théurgique,"-4,95",-5,-2,-2,-2,3,-2,-5,-2,"158,0","54,6",-2,6,-4,0,-1,-7,1,3,-1,7,-4,2,1,YES,Théurgiste,Théurgiste (magie divine instinctive),Transe + Immunité sommeil + VN (N2),"Performance (Acrobatie/ Danse / Musique / Prestidigitation)
+Manipulation de pièges et serrures
+Réseautage et recherche d’informations urbaines","Cultes et ordres religieux
+Cosmologie (Weave, Shadow Weave)
+Fêtes, calendriers et traditions
+Chute de Myth Drannor
+Culture orc et gobelinoïde
+Histoire des Royaumes Oubliés
+Connaissance des dragons
+Théorie de la Weave
+Histoire d’Imaskar
+Histoire d’Imaskar
+Mythes et légendes divines
+Histoire des Royaumes Oubliés","Forge et métallurgie
+Tissage et filage
+Travail du cuir et tannerie
+Fabrication d’instruments de musique
+Travail du cuir et tannerie
+Travail du cuir et tannerie","Chondathan (Alphabet Thorass)
+Espruar (Alphabet Espruar)
+Gnomish (Alphabet Gnomique)"
+CH-00094,1,Human,Calishite,Calimshan,Grande Ville portuaire,Calishite,Théurgique,"-3,62",0,-1,-1,2,4,-2,0,-2,"172,4","71,0",0,1,0,-3,-1,-3,0,-1,-2,-1,-1,-1,-2,YES,Théurgiste,Théurgiste (magie divine instinctive),Aucun,"Conservation et recherche d’eau en milieu aride
+Navigation maritime et lecture des courants
+Streetwise et  bas-fonds urbains
+Réseautage et recherche d’informations urbaines","Connaissance des dragons
+Spellplague et ses conséquences
+Cosmologie (Weave, Shadow Weave)
+Folklore et légendes locales
+Races anciennes (Netheril, Imaskar...)
+Interactions culturelles
+Écoles et traditions magiques
+Cultes et ordres religieux
+Géographie de Faerûn
+Théorie de la Weave","Travail du verre et verrerie
+Construction navale
+Herboristerie et préparation de potions
+Fabrication de chandelles et savon
+Architecture",Chondathan (Alphabet Thorass)
+CH-00095,2,Human,Chondathan,Sembia,Bourg / Petite ville,Chondathan,None,"10,54",-2,0,2,5,3,5,0,-10,"185,3","71,0",2,-3,3,2,4,6,4,3,-1,-2,3,1,-1,NO,,Non-magique,Aucun,"Streetwise et  bas-fonds urbains
+Réseautage et recherche d’informations urbaines
+Performance (Acrobatie/ Danse / Musique / Prestidigitation)","Histoire de la magie
+Écoles et traditions magiques
+Culture orc et gobelinoïde
+Races anciennes (Netheril, Imaskar...)
+Cosmologie (Weave, Shadow Weave)
+Fêtes, calendriers et traditions
+Culture halfeline
+Connaissance des aberrations
+Courants politiques et rivalités
+Culture gnome
+Routes commerciales et voies marchandes
+Mythes et légendes divines","Ébénisterie et marqueterie
+Reliure de livres
+Brasserie et distillation
+Cuisine raffinée
+Herboristerie et préparation de potions
+Fabrication de voiles et cordages","Chondathan (Alphabet Thorass)
+Sembian (Alphabet Thorass)"
+CH-00096,7,Human,Tethyrian,Tethyr,Monastère / Couvent isolé,Chondathan + Tethyrian,Théurgique,"-4,86",-2,-2,-2,3,4,0,-1,-4,"172,5","67,4",0,1,-2,-3,2,-1,-2,-1,0,-1,-3,-1,-2,YES,Théurgiste,Théurgiste (magie divine instinctive),Aucun,"Réseautage et recherche d’informations urbaines
+Équitation
+Pistage et traque en milieu boisé
+Streetwise et  bas-fonds urbains","Connaissance des organisations secrètes
+Histoire des Royaumes Oubliés
+Connaissance des cités et régions majeures
+Connaissance des guildes et corporations
+Culture halfeline
+Routes commerciales et voies marchandes
+Connaissance des organisations secrètes
+Connaissance des guildes et corporations
+Routes commerciales et voies marchandes
+Histoire des Royaumes Oubliés","Fabrication de voiles et cordages
+Travail de l’os et de l’ivoire
+Forge et métallurgie
+Cartographie
+Alchimie théorique et pratique",Chondathan (Alphabet Thorass)
+CH-00097,7,Human,Tethyrian,Tethyr,Bourg / Petite ville,Chondathan + Tethyrian,None,"36,39",7,5,4,-2,4,3,3,7,"167,7","83,2",0,6,6,3,1,1,0,-6,-2,5,7,1,3,NO,,Non-magique,Aucun,"Manipulation de pièges et serrures
+Équitation
+Streetwise et  bas-fonds urbains
+Cueillette et  plantes forestières","Folklore et légendes locales
+Histoire d’Imaskar
+Fêtes, calendriers et traditions
+Culture elfique
+Lois et coutumes des nations
+Histoire des Royaumes Oubliés
+Interactions culturelles
+Routes commerciales et voies marchandes
+Étiquette et protocole de cour
+Étiquette et protocole de cour","Fabrication de feux d’artifice
+Apiculture
+Joaillerie et orfèvrerie
+Charpenterie et travail du bois
+Construction navale","Chondathan (Alphabet Thorass)
+Thorass (Alphabet Thorass)"
+CH-00098,10,Human,Ffolk,Moonshae Isles,Village côtier / de pêcheurs,Ffolk,Théurgique,"-2,0",-1,0,-1,1,5,0,-1,2,"163,5","67,4",-1,2,-2,3,0,3,-7,-5,6,3,-1,-1,2,YES,Théurgiste,Théurgiste (magie divine instinctive),Aucun,"Navigation maritime et lecture des courants
+Équitation
+Performance (Acrobatie/ Danse / Musique / Prestidigitation)
+Réseautage et recherche d’informations urbaines
+Pêche en haute mer et survie aquatique","Royaumes et cités perdues
+Connaissance des fées et du Feywild
+Histoire d’Imaskar
+Folklore et légendes locales
+Connaissance des fées et du Feywild
+Folklore et légendes locales
+Connaissance des dragons
+Ruines et sites archéologiques majeurs","Travail du verre et verrerie
+Brasserie et distillation
+Comptabilité et gestion de biens
+Forge et métallurgie","Thorass (Alphabet Thorass)
+Espruar (Alphabet Espruar)
+Infernal (Alphabet Infernal)"
+CH-00099,2,Human,Chondathan,The Dalelands,Poste de commerce isolé,Chondathan,None,"10,94",1,2,2,4,5,3,-1,-4,"172,5","67,4",0,9,-1,2,3,6,-3,-4,1,8,-1,2,4,NO,,Non-magique,Aucun,"Équitation
+Manipulation de pièges et serrures
+Streetwise et  bas-fonds urbains
+Pistage et traque en milieu boisé
+Performance (Acrobatie/ Danse / Musique / Prestidigitation)","Histoire de la magie
+Fêtes, calendriers et traditions
+Connaissance des cités et régions majeures
+Religions et divinités majeures
+Cultes et ordres religieux
+Genasi et peuples élémentaires
+Culture halfeline
+Histoire des Royaumes Oubliés","Élevage et dressage
+Apiculture
+Gravure sur métal et gemmes
+Travail du cuir et tannerie",Chondathan (Alphabet Thorass)
+CH-00100,5,Human,Mulan,Mulhorand,Ville moyenne,Mulhorandi + Thayan,None,"7,96",0,0,1,8,6,4,1,-4,"178,6","74,8",1,-2,2,1,4,-2,3,0,8,-2,2,0,-2,NO,,Non-magique,Aucun,"Performance (Acrobatie/ Danse / Musique / Prestidigitation)
+Réseautage et recherche d’informations urbaines
+Manipulation de pièges et serrures
+Escalade rocheuse et progression technique
+Orientation et navigation en milieu ouvert
+Équitation","Cultes et ordres religieux
+Cosmologie (Weave, Shadow Weave)
+Histoire des Royaumes Oubliés
+Folklore et légendes locales
+Spellplague et ses conséquences
+Connaissance des aberrations","Travail du verre et verrerie
+Herboristerie et préparation de potions
+Travail de la pierre",Mulhorandi (Alphabet Mulhorandi)

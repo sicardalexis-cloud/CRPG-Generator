@@ -1,8 +1,9 @@
 # knowledge_data.py
 import random
 from typing import Dict
+
 from language_data import generate_languages
-from skill_data import get_num_active_skills
+from skill_data import generate_skills   # ← Changé
 
 
 # ====================== CRAFT WEIGHTS (52 métiers) ======================
@@ -658,26 +659,16 @@ literacy_scripts = {
 }
 
 # ====================== HELPERS ======================
-def _calculate_craft_count(active_count: int) -> int:
-    if active_count >= 7: return random.randint(0, 2)
-    elif active_count == 6: return random.randint(1, 3)
-    elif active_count == 5: return random.randint(1, 4)
-    elif active_count == 4: return random.randint(2, 5)
-    else: return random.randint(3, 6)
+def _calculate_craft_count() -> int:
+    """Nombre de compétences d'artisanat : toujours entre 1 et 3"""
+    return random.randint(1, 3)
 
-def _calculate_know_count(craft_count: int) -> int:
-    """Version réduite : moins de connaissances par personnage"""
-    if craft_count >= 6:
-        return random.randint(3, 6)      # très spécialisé
-    elif craft_count >= 5:
-        return random.randint(4, 7)
-    elif craft_count >= 4:
-        return random.randint(5, 9)
-    elif craft_count >= 3:
-        return random.randint(6, 10)
-    else:  # 0 à 2 crafts → plus érudit
-        return random.randint(8, 12)
 
+def _calculate_know_count(outdoor_count: int, urban_count: int) -> int:
+    """Nombre de connaissances = 10 - (outdoor + urban)"""
+    total_skills = outdoor_count + urban_count
+    know_count = 10 - total_skills
+    return max(0, know_count)   # Évite les valeurs négatives
 
 
 def _calculate_literacy_count(
@@ -687,55 +678,78 @@ def _calculate_literacy_count(
 ) -> int:
     """Version drastiquement réduite : beaucoup de personnages ne savent pas lire/écrire"""
     
-    # Base très basse
-    if know_count >= 11:
+    if know_count >= 8:
         base = random.randint(1, 3)
-    elif know_count >= 8:
-        base = random.randint(0, 2)
     elif know_count >= 5:
-        base = random.randint(0, 1)
+        base = random.randint(0, 2)
     else:
-        base = random.randint(0, 1)   # très souvent 0
+        base = random.randint(0, 1)
 
-    # Bonus selon le type de settlement
-    if settlement_type in ["Metropolis", "Large City"]:
+    # Bonus selon settlement
+    if any(x in settlement_type.lower() for x in ["metropolis", "large city", "capitale", "grande"]):
         base += random.randint(0, 2)
-    elif settlement_type in ["Small City", "Large Town"]:
+    elif any(x in settlement_type.lower() for x in ["large town", "ville moyenne"]):
         base += random.randint(0, 1)
-    elif settlement_type in ["Town"]:
-        base += random.randint(0, 1) if random.random() < 0.4 else 0
-    else:  # Village, Rural, Wilderness, etc.
-        base += random.randint(0, 1) if random.random() < 0.25 else 0
 
-    # Bonus selon l'ethnie (races naturellement plus lettrées)
+    # Bonus selon ethnie lettrée
     if ethnicity in ["Elf Moon", "Elf Sun", "Elf Star", "Gnome", "Rock Gnome", "Half-Elf", "Aasimar"]:
         base += random.randint(0, 1)
 
-    # On ne dépasse jamais 4 langues (très rare)
     return max(0, min(4, base))
 
 def _get_region_name(region_id: int) -> str:
     region_map = {1: "Sword Coast", 2: "Waterdeep", 3: "Calimshan", 4: "Dalelands", 5: "Moonsea"}
     return region_map.get(region_id, "Default")
 
-# ====================== GÉNÉRATION SECONDAIRE ======================
+
+def weighted_sample_without_replacement(population, weights, k):
+    """Tirage pondéré sans remplacement (version pure Python)"""
+    if k <= 0:
+        return []
+    
+    # Création d'une copie pour ne pas modifier l'original
+    population = list(population)
+    weights = list(weights)
+    
+    result = []
+    for _ in range(k):
+        if not population:
+            break
+        # Normalisation des poids
+        total = sum(weights)
+        if total == 0:
+            break
+        cum_weights = [sum(weights[:i+1]) for i in range(len(weights))]
+        
+        # Tirage
+        r = random.uniform(0, total)
+        for i, cum in enumerate(cum_weights):
+            if r <= cum:
+                result.append(population[i])
+                # Suppression de l'élément tiré
+                del population[i]
+                del weights[i]
+                break
+    
+    return result
+
 def generate_secondary_skills(
     ethnicity: str,
     region_id: int,
     settlement_type: str,
-    active_count: int = None   # ← Ajout important
+    active_count: int = None   # gardé pour compatibilité
 ) -> Dict:
-    """Génère les compétences secondaires (Knowledge, Craft, Literacy)"""
+    """Génère les compétences secondaires"""
     
-    # Si active_count n'est pas fourni, on le calcule
-    if active_count is None:
-        active_count = get_num_active_skills(settlement_type)
+    # === NOUVELLE LOGIQUE ===
+    skills_data = generate_skills(settlement_type, region_id, ethnicity)
     
-    craft_count = _calculate_craft_count(active_count)
-    know_count = _calculate_know_count(craft_count)
+    outdoor_count = skills_data["outdoor_count"]
+    urban_count = skills_data["urban_count"]
+    
+    craft_count = _calculate_craft_count()
+    know_count = _calculate_know_count(outdoor_count, urban_count)
     literacy_count = _calculate_literacy_count(know_count, settlement_type, ethnicity)
-
-    # ... (le reste de la fonction reste identique)
 
     region_name = _get_region_name(region_id)
 
@@ -752,8 +766,11 @@ def generate_secondary_skills(
         bias = (eth_mod.get(craft, 0) + reg_mod.get(craft, 0) + sett_mod.get(craft, 0))
         final_weight = max(base + bias * 1.65, 0.5)
         final_craft_weights.append(final_weight)
-    
-    craft = random.choices(craft_names, weights=final_craft_weights, k=craft_count)
+
+    if craft_count >= len(craft_names):
+        craft = craft_names[:]
+    else:
+        craft = weighted_sample_without_replacement(craft_names, final_craft_weights, craft_count)
 
     # ====================== 2. CONNAISSANCES ======================
     eth_know_mod = ethnicity_knowledge_modifiers.get(ethnicity, {})
@@ -768,8 +785,13 @@ def generate_secondary_skills(
         bias = (eth_know_mod.get(know, 0) + reg_know_mod.get(know, 0) + sett_know_mod.get(know, 0))
         final_weight = max(base + bias * 2.4, 0.8)
         final_know_weights.append(final_weight)
-    
-    knowledge = random.choices(know_names, weights=final_know_weights, k=know_count)
+
+    if know_count >= len(know_names):
+        knowledge = know_names[:]
+    else:
+        knowledge = weighted_sample_without_replacement(
+            know_names, final_know_weights, know_count
+        )
 
     # ====================== 3. LANGUES ÉCRITES ======================
     eth_lit_mod = ethnicity_literacy_modifiers.get(ethnicity, ethnicity_literacy_modifiers["Default"])
@@ -778,8 +800,8 @@ def generate_secondary_skills(
 
     if literacy_count > 0:
         # Première langue écrite = première langue parlée (80% de chance)
-        spoken_languages = generate_languages(ethnicity, region_id, active_count * 2)
-        first_spoken = spoken_languages[0] if spoken_languages else None
+        spoken_languages_temp = generate_languages(ethnicity, region_id, (active_count or 0) * 2)
+        first_spoken = spoken_languages_temp[0] if spoken_languages_temp else None
 
         if first_spoken and random.random() < 0.80 and first_spoken in literacy_scripts:
             first_lang = first_spoken
@@ -812,12 +834,11 @@ def generate_secondary_skills(
     spoken_languages = generate_languages(
         ethnicity=ethnicity,
         region_id=region_id,
-        skill_modifier=active_count * 2
+        skill_modifier=(active_count or 0) * 2
     )
 
     # ====================== RETURN ======================
     return {
-        "active_count": active_count,
         "knowledge": knowledge,
         "craft": craft,
         "literacy": literacy,

@@ -1,4 +1,4 @@
-# utils.py - Character Generation Logic (Version Finale - 24 Mai 2026)
+# utils.py - Character Generation Logic (Version Finale - 26 Mai 2026)
 
 import random
 import math
@@ -9,8 +9,8 @@ from race_data import ethnicity_data
 from ethnicity_weights import category_weights, ethnicity_weights
 from origin_data import get_random_origin, region_names
 from settlement_data import get_random_settlement
-from skill_data import generate_active_skills, get_num_active_skills
-from knowledge_data import generate_secondary_skills          # ← AJOUTÉ
+from skill_data import generate_skills
+from knowledge_data import generate_secondary_skills
 from rules import (
     calculate_weight,
     calculate_height,
@@ -95,21 +95,18 @@ def generate_character(char_id: str):
     region_name, settlement_type = get_random_settlement(region_id)
 
     # ====================== SKILLS ======================
-    num_active_skills = get_num_active_skills(settlement_type)   # ← Important
-
-    skills = generate_active_skills(
-        region_id=region_id,
-        ethnicity=ethnicity,
+    skills_data = generate_skills(
         settlement_type=settlement_type,
-        num_skills=num_active_skills
+        region_id=region_id,
+        ethnicity=ethnicity
     )
 
-    # ====================== CONNAISSANCES + CRAFT + LANGUES ÉCRITES ======================
+    # ====================== SECONDARY SKILLS (Knowledge, Craft, Literacy) ======================
     secondary = generate_secondary_skills(
-        active_count=num_active_skills,
         ethnicity=ethnicity,
         region_id=region_id,
-        settlement_type=settlement_type
+        settlement_type=settlement_type,
+        active_count=skills_data["total"]
     )
 
     # ====================== ATTRIBUTES ======================
@@ -161,13 +158,6 @@ def generate_character(char_id: str):
     if magic_info.get("magic") is True:
         skill_modifier -= 10
 
-    # ====================== LANGUES PARLÉES ======================
-    bonus_languages = generate_languages(
-        ethnicity=ethnicity,
-        region_id=region_id,
-        skill_modifier=skill_modifier
-    )
-
         # ====================== RETURN FINAL ======================
     return {
         "ID": char_id,
@@ -177,12 +167,14 @@ def generate_character(char_id: str):
         "Origin_Region": region_name,
         "Settlement_Type": settlement_type,
 
+        # === Caractéristiques Physiques ===
         "Weight_Score": round(weight_score, 1),
         "Build_Score": round(build_score, 1),
         "Height_cm": height_cm,
         "Weight_kg": weight_kg,
         "Size_Score": round(size_score, 2),
 
+        # === Attributs ===
         "Balance": round(balance, 1),
         "Quickness": round(quickness, 1),
         "Coordination": round(coordination, 1),
@@ -191,30 +183,40 @@ def generate_character(char_id: str):
         "Regeneration": round(regeneration, 1),
         "Vigilance": round(vigilance, 1),
         "Beauty": round(beauty, 1),
+
+        # === Attributs Dérivés ===
         "Stealth": stealth,
         "Speed": speed,
         "Dodge": dodge,
         "Climbing": climbing,
 
+        # === Combat ===
         "Grappling": grappling,
         "Melee": melee,
         "Projectiles": projectiles,
         "Fencing": fencing,
-
         "Combat_Points": combat_points,
+
+        # === Magie ===
         "Magic": "YES" if magic_info.get("magic") else "NO",
         "Magic_Type": magic_info.get("type", "None"),
         "Magic_Subtype": magic_info.get("subtype"),
         "Magic_Description": magic_info.get("description", ""),
 
         "Skill_Modifier": skill_modifier,
-        "Num_Active_Skills": num_active_skills,
-        "Special": data.get("spec", "Aucun"),
 
-        # === Nouvelles catégories ===
-        "Skills": skills,                    # Compétences Actives
+        # ==================== COMPÉTENCES ====================
+        "Total_Skills": skills_data["total"],
+        "Outdoor_Skills": skills_data["outdoor_skills"],
+        "Urban_Skills": skills_data["urban_skills"],
+        "Outdoor_Count": skills_data["outdoor_count"],
+        "Urban_Count": skills_data["urban_count"],
+
+        # ==================== COMPÉTENCES SECONDAIRES ====================
         "Knowledge": secondary["knowledge"],
         "Craft": secondary["craft"],
-        "Literacy": secondary["literacy"],   # Langues écrites + calligraphie
-        "Bonus_Languages": bonus_languages,  # Langues parlées
+        "Literacy": secondary["literacy"],
+        "Bonus_Languages": secondary["spoken_languages"],
+
+        "Special": data.get("spec", "Aucun"),
     }

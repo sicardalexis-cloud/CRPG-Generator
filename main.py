@@ -22,6 +22,11 @@ def generate_batch(
     
     for i in range(1, count + 1):
         char = generate_character(f"CH-{i:05d}")
+        
+        # Filtre race (optionnel)
+        if race_filter and char["Race"].lower() != race_filter.lower():
+            continue
+            
         characters.append(char)
         
         if i % max(10, count // 10) == 0:
@@ -32,35 +37,27 @@ def generate_batch(
     filename = output or f"Personnages_{timestamp}.csv"
 
     fieldnames = [
-        "ID", "Indice", "Race", "Ethnicity",
-        "Origin_Region",
-        "Settlement_Type",
-        "Bonus_Languages",
-        "Magic_Type",
-        "Combat_Points",
-        "Grappling",
-        "Melee",
-        "Fencing",
+        "ID", "Race", "Ethnicity", "Origin_Region", "Settlement_Type",
+        
+        # Compétences
+        "Total_Skills", "Outdoor_Count", "Urban_Count",
+        "Outdoor_Skills", "Urban_Skills",
+        
+        # Secondaires
+        "Knowledge", "Craft", "Literacy", "Bonus_Languages",
+        
+        # Combat & Magie
+        "Combat_Points", "Magic", "Magic_Type", "Magic_Subtype",
+        "Grappling", "Melee", "Projectiles", "Fencing",
         "Skill_Modifier",
-        "Num_Active_Skills",
-        "Projectiles",
         
-        # Caractéristiques physiques
-        "Weight_Score", "Build_Score", "Height_cm", "Weight_kg", "Size_Score",
-        
-        # Attributs secondaires
-        "Balance", "Quickness", "Coordination", "Precision", "Endurance",
-        "Regeneration", "Vigilance", "Beauty", "Stealth",
-        "Speed", "Dodge", "Climbing",
-        
-        # Magie
-        "Magic", "Magic_Subtype", "Magic_Description",
+        # Physiques
+        "Height_cm", "Weight_kg", "Size_Score",
+        "Balance", "Quickness", "Coordination", "Precision",
+        "Endurance", "Vigilance", "Beauty", "Stealth", "Speed",
         
         "Special",
-        "Active Skills",
-        "Knowledge",
-        "Craft",
-        "Literacy"          # ← Ajouté
+        "Generation_Date"
     ]
 
     with open(filename, mode='w', newline='', encoding='utf-8') as f:
@@ -68,83 +65,77 @@ def generate_batch(
         writer.writeheader()
         
         for char in characters:
-            row = char.copy()
-
-            # Formatage des colonnes spéciales
-            row["Origin_Region"] = char.get("Origin_Region", "")
-            row["Settlement_Type"] = char.get("Settlement_Type", "")
-            row["Bonus_Languages"] = " + ".join(char.get("Bonus_Languages", []))
-
-            # Compétences actives
-            row["Num_Active_Skills"] = char.get("Num_Active_Skills", "")
-
-            skills_dict = char.get("Skills", {})
-            if isinstance(skills_dict, dict) and skills_dict:
-                row["Active Skills"] = "\n".join(skills_dict.keys())
-            else:
-                row["Active Skills"] = ""
-
-            # Knowledge
-            knowledge = char.get("Knowledge", [])
-            row["Knowledge"] = "\n".join(knowledge) if isinstance(knowledge, list) else ""
-
-            # Craft
-            craft = char.get("Craft", [])
-            row["Craft"] = "\n".join(craft) if isinstance(craft, list) else ""
-
-            # Literacy (langues écrites avec calligraphie)
-            literacy = char.get("Literacy", {})
-            if isinstance(literacy, dict) and literacy:
-                row["Literacy"] = "\n".join(f"{lang} ({script})" for lang, script in literacy.items())
-            else:
-                row["Literacy"] = ""
-
-            # Nettoyage
-            row.pop("Skills", None)
-
-            # Formatage nombres (virgule pour Excel français)
-            for key, value in list(row.items()):
-                if isinstance(value, float):
-                    row[key] = str(value).replace('.', ',')
-                elif value is None:
-                    row[key] = ""
-                elif key not in fieldnames:
-                    row.pop(key, None)
-
+            row = {
+                "ID": char["ID"],
+                "Race": char["Race"],
+                "Ethnicity": char["Ethnicity"],
+                "Origin_Region": char["Origin_Region"],
+                "Settlement_Type": char["Settlement_Type"],
+                
+                "Total_Skills": char["Total_Skills"],
+                "Outdoor_Count": char["Outdoor_Count"],
+                "Urban_Count": char["Urban_Count"],
+                
+                # Liste → chaîne séparée par |
+                "Outdoor_Skills": " | ".join(char.get("Outdoor_Skills", [])),
+                "Urban_Skills": " | ".join(char.get("Urban_Skills", [])),
+                
+                "Knowledge": " | ".join(char.get("Knowledge", [])),
+                "Craft": " | ".join(char.get("Craft", [])),
+                
+                "Literacy": " | ".join(f"{k} ({v})" for k, v in char.get("Literacy", {}).items()),
+                "Bonus_Languages": " | ".join(char.get("Bonus_Languages", [])),
+                
+                "Combat_Points": char["Combat_Points"],
+                "Magic": char["Magic"],
+                "Magic_Type": char.get("Magic_Type", ""),
+                "Magic_Subtype": char.get("Magic_Subtype", ""),
+                
+                "Grappling": char["Grappling"],
+                "Melee": char["Melee"],
+                "Projectiles": char["Projectiles"],
+                "Fencing": char["Fencing"],
+                "Skill_Modifier": char["Skill_Modifier"],
+                
+                "Height_cm": char["Height_cm"],
+                "Weight_kg": char["Weight_kg"],
+                "Size_Score": char["Size_Score"],
+                
+                "Balance": char["Balance"],
+                "Quickness": char["Quickness"],
+                "Coordination": char["Coordination"],
+                "Precision": char["Precision"],
+                "Endurance": char["Endurance"],
+                "Vigilance": char["Vigilance"],
+                "Beauty": char["Beauty"],
+                "Stealth": char["Stealth"],
+                "Speed": char["Speed"],
+                
+                "Special": char.get("Special", "Aucun"),
+                "Generation_Date": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+            }
+            
             writer.writerow(row)
 
     print(f"\n✅ Génération terminée !")
     print(f"📁 Fichier créé → {filename}")
-    print(f"   {count} personnages générés.")
+    print(f"   {len(characters)} personnages exportés.")
 
-    # ====================== STATISTIQUES MAGIE ======================
-    total = len(characters)
+    # Statistiques rapides
     magic_count = sum(1 for c in characters if c.get("Magic") == "YES")
-
-    theurgique = sum(1 for c in characters if c.get("Magic_Type") == "Théurgique")
-    arcanique  = sum(1 for c in characters if c.get("Magic_Type") == "Arcanique")
-    sauvage    = sum(1 for c in characters if c.get("Magic_Type") == "Sauvage")
-
-    print("\n" + "="*60)
-    print("📊 STATISTIQUES MAGIE")
-    print("="*60)
-    print(f"   Personnages magiques   : {magic_count:4d} ({magic_count/total:.2%})")
-    print(f"   → Théurgiques          : {theurgique:4d} ({theurgique/total:.2%})")
-    print(f"   → Arcaniques           : {arcanique:4d}  ({arcanique/total:.2%})")
-    print(f"   → Sauvages             : {sauvage:4d}   ({sauvage/total:.2%})")
-    print("="*60)
+    print(f"\n📊 Magiques : {magic_count}/{len(characters)} ({magic_count/len(characters):.1%})")
 
 
 def main():
     parser = argparse.ArgumentParser(
-        description="🚀 Générateur de Personnages",
+        description="🚀 Générateur de Personnages - Export CSV",
         formatter_class=argparse.ArgumentDefaultsHelpFormatter
     )
     
-    parser.add_argument("-n", "--count", type=int, default=100, help="Nombre de personnages à générer")
-    parser.add_argument("-o", "--output", type=str, help="Nom du fichier de sortie (CSV)")
-    parser.add_argument("-s", "--seed", type=int, help="Seed pour la reproductibilité")
-    parser.add_argument("-r", "--race", type=str, help="Filtrer sur une race (ex: Human)")
+    parser.add_argument("-n", "--count", type=int, default=100, help="Nombre de personnages")
+    parser.add_argument("-o", "--output", type=str, help="Nom du fichier CSV")
+    parser.add_argument("-s", "--seed", type=int, help="Seed pour reproductibilité")
+    parser.add_argument("-r", "--race", type=str, help="Filtrer par race (ex: Human, Elf)")
 
     args = parser.parse_args()
 

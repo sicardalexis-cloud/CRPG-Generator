@@ -11,6 +11,7 @@ from origin_data import get_random_origin, region_names
 from settlement_data import get_random_settlement
 from skill_data import generate_skills
 from knowledge_data import generate_secondary_skills
+from character_sheet import generate_character_sheet   # ← Import OK
 from rules import (
     calculate_weight,
     calculate_height,
@@ -40,8 +41,7 @@ def roll_12d6() -> int:
 
 # ====================== BEAUTY CALCULATION ======================
 def calculate_beauty(attributes: dict, racial_bea: float = 0) -> int:
-    """Beauty calculé à partir des attributs (sans Build_Score ni Weight_Score)
-    Retourne un entier (chiffre rond)"""
+    """Beauty calculé à partir des attributs (sans Build_Score ni Weight_Score)"""
     
     base = (
         attributes["coordination"] * 0.28 +
@@ -54,11 +54,7 @@ def calculate_beauty(attributes: dict, racial_bea: float = 0) -> int:
     )
     
     random_factor = roll_6d6() - 21
-    
-    # Calcul final + arrondi à l'entier le plus proche
     beauty = round(base + random_factor + racial_bea)
-    
-    # Plafonnement réaliste
     return max(-15, min(38, beauty))
 
 
@@ -73,14 +69,8 @@ def choose_race_and_ethnicity() -> Tuple[str, str]:
     )[0]
 
     r_mapping = {
-        "Human": "Humain",
-        "Dwarf": "Nain",
-        "Elf": "Elfe",
-        "Half-elf": "Demi-elfe",
-        "Halfling": "Halfelin",
-        "Gnome": "Gnome",
-        "Half-orc": "Demi-orc",
-        "Other": "Autre"
+        "Human": "Humain", "Dwarf": "Nain", "Elf": "Elfe", "Half-elf": "Demi-elfe",
+        "Halfling": "Halfelin", "Gnome": "Gnome", "Half-orc": "Demi-orc", "Other": "Autre"
     }
 
     possible_ethnicities = [
@@ -99,7 +89,7 @@ def choose_race_and_ethnicity() -> Tuple[str, str]:
 
 
 # ====================== MAIN CHARACTER GENERATOR ======================
-def generate_character(char_id: str):
+def generate_character(char_id: str = "TEMP"):
     """Génère un personnage complet"""
     
     race, ethnicity = choose_race_and_ethnicity()
@@ -125,7 +115,6 @@ def generate_character(char_id: str):
         ethnicity=ethnicity
     )
 
-    # ====================== SECONDARY SKILLS ======================
     secondary = generate_secondary_skills(
         ethnicity=ethnicity,
         region_id=region_id,
@@ -144,6 +133,7 @@ def generate_character(char_id: str):
     endurance    = roll_6d6() - 21 + data.get("end", 0)
     regeneration = roll_6d6() - 21 + data.get("reg", 0)
     vigilance    = roll_6d6() - 21 + data.get("vig", 0)
+
     beauty = calculate_beauty({
         "coordination": coordination,
         "balance": balance,
@@ -174,10 +164,7 @@ def generate_character(char_id: str):
     combat_points = round(base_tcb + data.get("cp", 0.0), 2)
 
     # ====================== MAGIC & SKILL MODIFIER ======================
-    magic_info = determine_magic_type(
-        combat_points=combat_points,
-        settlement_type=settlement_type
-    )
+    magic_info = determine_magic_type(combat_points=combat_points, settlement_type=settlement_type)
     
     skill_modifier = calculate_skill_modifier(
         tcb=combat_points,
@@ -193,23 +180,21 @@ def generate_character(char_id: str):
     if magic_info.get("magic") is True:
         skill_modifier -= 10
 
-    # ====================== RETURN FINAL ======================
+    # ====================== RETURN ======================
     return {
-        "ID": char_id,
+        "ID": char_id,   # Sera écrasé par generate_character_sheet
         "Indice": data["idx"],
         "Race": race,
         "Ethnicity": ethnicity,
         "Origin_Region": region_name,
         "Settlement_Type": settlement_type,
 
-        # === Caractéristiques Physiques ===
         "Weight_Score": round(weight_score, 1),
         "Build_Score": round(build_score, 1),
         "Height_cm": height_cm,
         "Weight_kg": weight_kg,
         "Size_Score": round(size_score, 2),
 
-        # === Attributs ===
         "Balance": round(balance, 1),
         "Quickness": round(quickness, 1),
         "Coordination": round(coordination, 1),
@@ -217,22 +202,19 @@ def generate_character(char_id: str):
         "Endurance": round(endurance, 1),
         "Regeneration": round(regeneration, 1),
         "Vigilance": round(vigilance, 1),
-        "Beauty": beauty,                    # déjà arrondi dans la fonction
+        "Beauty": beauty,
 
-        # === Attributs Dérivés ===
         "Stealth": stealth,
         "Speed": speed,
         "Dodge": dodge,
         "Climbing": climbing,
 
-        # === Combat ===
         "Grappling": grappling,
         "Melee": melee,
         "Projectiles": projectiles,
         "Fencing": fencing,
         "Combat_Points": combat_points,
 
-        # === Magie ===
         "Magic": "YES" if magic_info.get("magic") else "NO",
         "Magic_Type": magic_info.get("type", "None"),
         "Magic_Subtype": magic_info.get("subtype"),
@@ -240,14 +222,12 @@ def generate_character(char_id: str):
 
         "Skill_Modifier": skill_modifier,
 
-        # ==================== COMPÉTENCES ====================
         "Total_Skills": skills_data["total"],
         "Outdoor_Skills": skills_data["outdoor_skills"],
         "Urban_Skills": skills_data["urban_skills"],
         "Outdoor_Count": skills_data["outdoor_count"],
         "Urban_Count": skills_data["urban_count"],
 
-        # ==================== COMPÉTENCES SECONDAIRES ====================
         "Knowledge": secondary["knowledge"],
         "Craft": secondary["craft"],
         "Literacy": secondary["literacy"],

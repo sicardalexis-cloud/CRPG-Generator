@@ -134,10 +134,15 @@ ARCANIST_THRESHOLD = -7  # 20% des personnages les plus faibles sont Arcanistes
 
 
 def determine_magic_type(combat_points: float, settlement_type: str = "Village") -> dict:
-    """Version avec Magie Blanche renforcée"""
+    """Détermine le type et sous-type de magie avec couleurs pour la magie sauvage"""
     
     if combat_points >= -2:
-        return {"magic": False, "type": "None", "subtype": None, "description": "Non-magique"}
+        return {
+            "magic": False,
+            "type": "None",
+            "subtype": None,
+            "description": "Non-magique"
+        }
 
     roll = random.random()
 
@@ -145,44 +150,41 @@ def determine_magic_type(combat_points: float, settlement_type: str = "Village")
         magic_type = "Théurgique"
         st_lower = settlement_type.lower()
 
-        # === Pondération renforcée en faveur de la Magie Blanche ===
-        if any(x in st_lower for x in ["temple", "monastère", "sanctuaire", "cathédrale", "capitale", "métropole", "ville"]):
-            # Milieux urbains / religieux → très forte Magie Blanche
-            if random.random() < 0.85:
-                subtype = "Magie Blanche"
-                desc = "Magie Blanche (guérison, protection, lumière divine)"
-            else:
-                subtype = "Magie Verte"
-                desc = "Magie Verte (nature, esprits, croissance)"
-
+        if any(x in st_lower for x in ["temple", "monastère", "sanctuaire", "capitale", "métropole", "ville"]):
+            subtype = "Magie Blanche"
+            desc = "Magie Blanche (guérison, protection, lumière divine)"
         elif any(x in st_lower for x in ["forest", "forêt", "wilderness", "druid", "jungle"]):
-            # Milieux naturels → toujours forte Magie Verte, mais moins extrême
-            if random.random() < 0.70:
-                subtype = "Magie Verte"
-                desc = "Magie Verte (nature, esprits de la forêt, druidique)"
-            else:
-                subtype = "Magie Blanche"
-                desc = "Magie Blanche (guérison, protection)"
-
+            subtype = "Magie Verte"
+            desc = "Magie Verte (nature, croissance, esprits de la forêt)"
         else:
-            # Cas neutre (villages ruraux, bourgs, etc.) → légère préférence Blanche
-            if random.random() < 0.58:          # ← Augmenté à 58%
-                subtype = "Magie Blanche"
-                desc = "Magie Blanche (guérison, protection, lumière divine)"
-            else:
-                subtype = "Magie Verte"
-                desc = "Magie Verte (nature, croissance, esprits)"
+            # Cas neutre → légère préférence Blanche
+            subtype = "Magie Blanche" if random.random() < 0.60 else "Magie Verte"
+            desc = "Magie Blanche (guérison, protection)" if subtype == "Magie Blanche" else "Magie Verte (nature, croissance)"
 
     elif roll < 0.87:         # 40% Arcanique
         magic_type = "Arcanique"
         subtype = "Magicien"
         desc = "Magicien arcanique (étude, formules et savoir ancien)"
-        
-    else:                     # 13% Sauvage
+
+    else:                     # 13% Sauvage → Couleurs
         magic_type = "Sauvage"
-        wild_subtypes = ["Sorcier", "Warlock", "Oracle", "Psionique", "Magie du Sang", "Sorcellerie Chaotique"]
-        subtype = random.choice(wild_subtypes)
-        desc = f"Magie sauvage - {subtype}"
+        
+        wild_roll = random.random()
+        if wild_roll < 0.25:
+            subtype = "Magie Blanche"
+            desc = "Magie Sauvage - Blanche (chaos pur, imprévisible, énergie brute)"
+        elif wild_roll < 0.50:
+            subtype = "Magie Rouge"
+            desc = "Magie Sauvage - Rouge (feu, destruction, passion, colère)"
+        elif wild_roll < 0.70:
+            subtype = "Magie Verte"
+            desc = "Magie Sauvage - Verte (nature sauvage, vie primitive, croissance incontrôlée)"
+        elif wild_roll < 0.85:
+            subtype = "Magie Bleue"
+            desc = "Magie Sauvage - Bleue (eau, illusions, connaissance cachée, froid)"
+        else:
+            subtype = "Magie Noire"
+            desc = "Magie Sauvage - Noire (nécromancie, ombre, corruption, pouvoir obscur)"
 
     return {
         "magic": True,

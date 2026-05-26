@@ -38,6 +38,30 @@ def roll_12d6() -> int:
     return sum(random.randint(1, 6) for _ in range(12))
 
 
+# ====================== BEAUTY CALCULATION ======================
+def calculate_beauty(attributes: dict, racial_bea: float = 0) -> int:
+    """Beauty calculé à partir des attributs (sans Build_Score ni Weight_Score)
+    Retourne un entier (chiffre rond)"""
+    
+    base = (
+        attributes["coordination"] * 0.28 +
+        attributes["balance"] * 0.22 +
+        attributes["quickness"] * 0.16 +
+        attributes["precision"] * 0.13 +
+        attributes["endurance"] * 0.10 +
+        attributes["regeneration"] * 0.06 +
+        attributes["vigilance"] * 0.05
+    )
+    
+    random_factor = roll_6d6() - 21
+    
+    # Calcul final + arrondi à l'entier le plus proche
+    beauty = round(base + random_factor + racial_bea)
+    
+    # Plafonnement réaliste
+    return max(-15, min(38, beauty))
+
+
 # ====================== RACE & ETHNICITY ======================
 def choose_race_and_ethnicity() -> Tuple[str, str]:
     """Choix pondéré d'une grande catégorie puis d'une ethnie spécifique"""
@@ -101,7 +125,7 @@ def generate_character(char_id: str):
         ethnicity=ethnicity
     )
 
-    # ====================== SECONDARY SKILLS (Knowledge, Craft, Literacy) ======================
+    # ====================== SECONDARY SKILLS ======================
     secondary = generate_secondary_skills(
         ethnicity=ethnicity,
         region_id=region_id,
@@ -120,7 +144,15 @@ def generate_character(char_id: str):
     endurance    = roll_6d6() - 21 + data.get("end", 0)
     regeneration = roll_6d6() - 21 + data.get("reg", 0)
     vigilance    = roll_6d6() - 21 + data.get("vig", 0)
-    beauty       = roll_6d6() - 21 + data.get("bea", 0)
+    beauty = calculate_beauty({
+        "coordination": coordination,
+        "balance": balance,
+        "quickness": quickness,
+        "precision": precision,
+        "endurance": endurance,
+        "regeneration": regeneration,
+        "vigilance": vigilance
+    }, data.get("bea", 0))
 
     # ====================== DERIVED ATTRIBUTES ======================
     weight_kg = calculate_weight(weight_score)
@@ -144,8 +176,9 @@ def generate_character(char_id: str):
     # ====================== MAGIC & SKILL MODIFIER ======================
     magic_info = determine_magic_type(
         combat_points=combat_points,
-        settlement_type=settlement_type          # ← Ajout important
+        settlement_type=settlement_type
     )
+    
     skill_modifier = calculate_skill_modifier(
         tcb=combat_points,
         vigilance=vigilance,
@@ -160,7 +193,7 @@ def generate_character(char_id: str):
     if magic_info.get("magic") is True:
         skill_modifier -= 10
 
-        # ====================== RETURN FINAL ======================
+    # ====================== RETURN FINAL ======================
     return {
         "ID": char_id,
         "Indice": data["idx"],
@@ -184,7 +217,7 @@ def generate_character(char_id: str):
         "Endurance": round(endurance, 1),
         "Regeneration": round(regeneration, 1),
         "Vigilance": round(vigilance, 1),
-        "Beauty": round(beauty, 1),
+        "Beauty": beauty,                    # déjà arrondi dans la fonction
 
         # === Attributs Dérivés ===
         "Stealth": stealth,

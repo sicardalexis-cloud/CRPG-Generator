@@ -47,7 +47,7 @@ def generate_batch(
         "Knowledge", 
         "Craft", 
         "Literacy", 
-        "Bonus_Languages",
+        "Spoken_Languages",
         
         # Combat & Magie
         "Combat_Points", 
@@ -95,8 +95,9 @@ def generate_batch(
                 
                 "Knowledge": " | ".join(char.get("Knowledge", [])),
                 "Craft": " | ".join(char.get("Craft", [])),
-                "Literacy": " | ".join(f"{k} ({v})" for k, v in char.get("Literacy", {}).items()),
-                "Bonus_Languages": " | ".join(char.get("Bonus_Languages", [])),
+                
+                "Literacy": " | ".join(char.get("Literacy", [])) if char.get("Literacy") else "None",
+                "Spoken_Languages": " | ".join(char.get("spoken_languages", [])),
                 
                 "Combat_Points": char["Combat_Points"],
                 "Magic": char["Magic"],

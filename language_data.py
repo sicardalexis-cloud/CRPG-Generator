@@ -336,20 +336,20 @@ def generate_languages(
     region_id: int = 0,
     skill_modifier: int = 0
 ) -> List[str]:
-    """Génère les langues avec pools bonus thématiques"""
+    """Génère les langues parlées"""
     languages = set()
 
-    # 1. Langue ethnique de base (très forte priorité)
+    # 1. Langue ethnique de base
     base_eth = ethnicity_base_languages.get(ethnicity, ["Chondathan"])
     languages.add(random.choice(base_eth))
 
-    # 2. Langue régionale (uniquement si différente de la langue de base)
+    # 2. Langue régionale
     regional_lang = get_regional_language(region_id)
-    if regional_lang not in languages and random.random() < 0.75:   # 75% de chance
+    if regional_lang not in languages and random.random() < 0.75:
         languages.add(regional_lang)
 
-    # 3. Langues bonus (moins nombreuses et moins systématiques)
-    bonus_count = max(0, (skill_modifier // 4) - 1)   # réduit
+    # 3. Langues bonus
+    bonus_count = max(1, skill_modifier // 5)   # plus généreux
 
     eth_bonus = ethnicity_bonus_languages.get(ethnicity, ethnicity_bonus_languages["Default"])
     reg_bonus = region_bonus_languages.get(region_id, region_bonus_languages[0])
@@ -357,7 +357,7 @@ def generate_languages(
     bonus_pool = list(set(eth_bonus + reg_bonus))
 
     for _ in range(bonus_count):
-        if bonus_pool and random.random() < 0.8:
+        if bonus_pool and random.random() < 0.85:
             new_lang = random.choice(bonus_pool)
             if new_lang not in languages:
                 languages.add(new_lang)

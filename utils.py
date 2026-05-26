@@ -11,7 +11,6 @@ from origin_data import get_random_origin, region_names
 from settlement_data import get_random_settlement
 from skill_data import generate_skills
 from knowledge_data import generate_secondary_skills
-from character_sheet import generate_character_sheet   # ← Import OK
 from rules import (
     calculate_weight,
     calculate_height,
@@ -122,6 +121,12 @@ def generate_character(char_id: str = "TEMP"):
         active_count=skills_data["total"]
     )
 
+    # Sécurité pour éviter les erreurs si les clés sont mal formées
+    if not isinstance(secondary.get("literacy"), list):
+        secondary["literacy"] = []
+    if not isinstance(secondary.get("spoken_languages"), list):
+        secondary["spoken_languages"] = []
+
     # ====================== ATTRIBUTES ======================
     weight_score = math.floor(roll_12d6() / 2) - 21 + data.get("w", 0)
     build_score  = roll_6d6() - 21 + data.get("b", 0)
@@ -182,7 +187,7 @@ def generate_character(char_id: str = "TEMP"):
 
     # ====================== RETURN ======================
     return {
-        "ID": char_id,   # Sera écrasé par generate_character_sheet
+        "ID": char_id,
         "Indice": data["idx"],
         "Race": race,
         "Ethnicity": ethnicity,
@@ -231,7 +236,7 @@ def generate_character(char_id: str = "TEMP"):
         "Knowledge": secondary["knowledge"],
         "Craft": secondary["craft"],
         "Literacy": secondary["literacy"],
-        "Bonus_Languages": secondary["spoken_languages"],
+        "Spoken_Languages": secondary["spoken_languages"],
 
         "Special": data.get("spec", "Aucun"),
     }

@@ -50,7 +50,7 @@ def generate_batch(
     fieldnames = [
         "ID", "Race", "Ethnicity", "Origin_Region", "Settlement_Type",
         "Outdoor_Skills", "Urban_Skills",
-        "Knowledge", "Craft", "Literacy", "Bonus_Languages",
+        "Knowledge", "Craft", "Literacy", "Spoken_Languages",
         "Combat_Points", "Magic", "Magic_Type", "Magic_Subtype",
         "Grappling", "Melee", "Projectiles", "Fencing", "Skill_Modifier",
         "Height_cm", "Weight_kg", "Size_Score",
@@ -76,8 +76,9 @@ def generate_batch(
                 
                 "Knowledge": " | ".join(char.get("Knowledge", [])),
                 "Craft": " | ".join(char.get("Craft", [])),
-                "Literacy": " | ".join(f"{k} ({v})" for k, v in char.get("Literacy", {}).items()),
-                "Bonus_Languages": " | ".join(char.get("Bonus_Languages", [])),
+                
+                "Literacy": " | ".join(char.get("Literacy", [])) if char.get("Literacy") else "None",
+                "Spoken_Languages": " | ".join(char.get("Spoken_Languages", [])),
                 
                 "Combat_Points": char.get("Combat_Points", ""),
                 "Magic": char.get("Magic", "NO"),

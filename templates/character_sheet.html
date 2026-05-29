@@ -6,20 +6,30 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Georgia&display=swap');
         
+        @page {
+            size: A4;
+            margin-top: 7mm;
+            margin-right: 5mm;   /* Plus serré à droite */
+            margin-bottom: 5mm;  /* Plus serré en bas */
+            margin-left: 7mm;
+        }
+
         body {
             font-family: 'Georgia', serif;
             margin: 0;
-            padding: 20px;
+            padding: 0;
             background: #f4e9d8;
         }
         .sheet {
-            max-width: 210mm;
-            margin: 0 auto;
+            width: 198mm;           /* Adjusted to the new asymmetric margins */
+            margin: 0;
             background: #fffef5;
-            padding: 30px 35px;
+            padding: 8px 10px 8px 12px;   /* Even tighter bottom padding */
             box-shadow: 0 0 15px rgba(0,0,0,0.1);
             border: 1px solid #d4b89e;
-            min-height: 297mm;
+            min-height: 283mm;
+            box-sizing: border-box;
+            overflow: hidden;
         }
         h1 {
             text-align: center;
@@ -73,31 +83,116 @@
             color: #2c8a2c;
             font-weight: bold;
         }
+
+        /* Better wrapping to avoid overflow on tight margins */
+        .sheet,
+        .sheet * {
+            overflow-wrap: break-word;
+            word-break: break-word;
+            hyphens: auto;
+        }
+
+        /* Make long skill/knowledge lists wrap better */
+        .section {
+            font-size: 9.5pt;   /* Slightly smaller to fit more content */
+        }
+
+        /* Combat stats layout - all icons on one line */
+        .combat-row {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;   /* Meilleur centrage vertical */
+            margin: 6px 0 10px 0;
+            gap: 6px;
+        }
+
+        .combat-stat {
+            text-align: center;
+            min-width: 132px;
+        }
+
+        .icon-bg {
+            background-color: #ffffff;
+            padding: 6px;
+            border-radius: 6px;
+            border: 1px solid #d4b89e;
+            display: inline-block;
+            line-height: 0;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+            position: relative;   /* Nécessaire pour le positionnement du score */
+        }
+
+        .combat-icon-large {
+            width: 126px;
+            height: 126px;
+            display: block;
+        }
+
+        /* Score directement sur l'icône (surimpression) - version sans cadre */
+        .combat-score-overlay {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);   /* Centré parfaitement dans l'icône */
+            color: #2c1a0f;                     /* Lettres pleines (opaque) */
+            font-size: 68pt;                    /* Encore deux fois plus grand */
+            font-weight: bold;
+            line-height: 1;
+            z-index: 2;
+            text-align: center;
+            text-shadow: 0 1px 4px rgba(255,255,255,0.9), 1px 1px 2px rgba(0,0,0,0.3);
+        }
     </style>
 </head>
 <body>
     <div class="sheet">
         <h1>{{ character.Race }} — {{ character.Ethnicity }}</h1>
         
-        <!-- Taille et Poids -->
+        <!-- Taille, Poids, Origine et Settlement sur une seule ligne -->
         <div class="physical-info">
             <strong>{{ character.Height_cm | default('?') }} cm</strong> 
             &nbsp;&nbsp;|&nbsp;&nbsp;
             <strong>{{ character.Weight_kg | default('?') }} kg</strong>
-        </div>
-
-        <div class="header">
+            &nbsp;&nbsp;|&nbsp;&nbsp;
             {{ character.Origin_Region }} — {{ character.Settlement_Type }}
         </div>
 
-        <!-- COMBAT -->
+        <!-- COMBAT : Scores en surimpression sur les icônes -->
         <div class="section">
-            <table>
-                <tr><td><strong>Grappling</strong></td><td>{{ character.Grappling }}</td></tr>
-                <tr><td><strong>Melee</strong></td><td>{{ character.Melee }}</td></tr>
-                <tr><td><strong>Fencing</strong></td><td>{{ character.Fencing }}</td></tr>
-                <tr><td><strong>Projectiles</strong></td><td>{{ character.Projectiles }}</td></tr>
-            </table>
+            <div class="combat-row">
+                <div class="combat-stat">
+                    <div class="icon-bg">
+                        {% if icons.grappling %}
+                            <img src="{{ icons.grappling }}" class="combat-icon-large">
+                            <div class="combat-score-overlay">{{ character.Grappling | default('?') }}</div>
+                        {% endif %}
+                    </div>
+                </div>
+                <div class="combat-stat">
+                    <div class="icon-bg">
+                        {% if icons.melee %}
+                            <img src="{{ icons.melee }}" class="combat-icon-large">
+                            <div class="combat-score-overlay">{{ character.Melee | default('?') }}</div>
+                        {% endif %}
+                    </div>
+                </div>
+                <div class="combat-stat">
+                    <div class="icon-bg">
+                        {% if icons.fencing %}
+                            <img src="{{ icons.fencing }}" class="combat-icon-large">
+                            <div class="combat-score-overlay">{{ character.Fencing | default('?') }}</div>
+                        {% endif %}
+                    </div>
+                </div>
+                <div class="combat-stat">
+                    <div class="icon-bg">
+                        {% if icons.projectile %}
+                            <img src="{{ icons.projectile }}" class="combat-icon-large">
+                            <div class="combat-score-overlay">{{ character.Projectiles | default('?') }}</div>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
         </div>
 
         <!-- ATTRIBUTES FUSIONNÉS -->
@@ -119,10 +214,9 @@
 
         <!-- MAGIC -->
         {% if character.Magic == "YES" %}
-        <div class="section" style="background: linear-gradient(135deg, #2c1a0f, #5c4033); color: #f4e9d8; padding: 15px; border-radius: 6px;">
-            <h2 style="color: #ffd700; border: none;">Magic : {{ character.Magic_Type }} — {{ character.Magic_Subtype }}</h2>
+        <div class="section" style="background: linear-gradient(135deg, #2c1a0f, #5c4033); color: #f4e9d8; padding: 15px; border-radius: 6px; text-align: center;">
+            <h2 style="color: #ffd700; border: none;">{{ character.Magic_Type }} — {{ character.Magic_Subtype }}</h2>
             <p><strong>{{ character.Magic_Description }}</strong></p>
-            <p><strong>Skill Modifier :</strong> {{ character.Skill_Modifier }}</p>
         </div>
         {% endif %}
 
@@ -142,8 +236,18 @@
             <h2>Knowledge & Crafts</h2>
             <strong>Knowledge :</strong> {{ character.Knowledge|join(" | ") }}<br><br>
             <strong>Craft :</strong> {{ character.Craft|join(" | ") }}<br><br>
-            <strong>Literacy :</strong> {{ character.Literacy }}<br>
+
+            {% if character.Spoken_Languages %}
+            <strong>Langues Parlées :</strong> {{ character.Spoken_Languages|join(' | ') }}<br>
+            {% endif %}
+
+            {% if character.Literacy %}
+            <strong>Literacy :</strong> {{ character.Literacy|join(' | ') }}<br>
+            {% endif %}
+
+            {% if character.Bonus_Languages %}
             <strong>Bonus Languages :</strong> {{ character.Bonus_Languages|join(" | ") }}
+            {% endif %}
         </div>
 
         {% if character.Special and character.Special != "Aucun" and character.Special != "None" %}

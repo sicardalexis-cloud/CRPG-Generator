@@ -16,9 +16,9 @@ def generate_batch(
 ):
     if seed is not None:
         random.seed(seed)
-        print(f"🔒 Seed fixé à {seed} (reproductible)")
+        print(f"[Seed] fixé à {seed} (reproductible)")
 
-    print(f"🎲 Génération de {count} personnages...\n")
+    print(f"Génération de {count} personnages...\n")
 
     characters = []
     pdf_count = 0
@@ -41,7 +41,7 @@ def generate_batch(
                 print(f"⚠️ Erreur PDF pour {char['ID']}: {e}")
 
         if i % max(10, count // 10) == 0:
-            print(f"   → {i:5d} / {count} personnages générés...")
+            print(f"   - {i:5d} / {count} personnages générés...")
 
     # ====================== EXPORT CSV ======================
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
@@ -56,7 +56,15 @@ def generate_batch(
         "Height_cm", "Weight_kg", "Size_Score",
         "Balance", "Quickness", "Coordination", "Precision",
         "Endurance", "Vigilance", "Beauty", "Stealth", "Speed",
-        "Special", "Generation_Date"
+        "Special", "Generation_Date",
+        # Nouveaux champs équipement (kit + armure + achats restants)
+        "Starting_Capital",
+        "Starting_Armor_Set",
+        "Starting_Armor_Cost_BP",
+        "Starting_Capital_After_Armor_BP",
+        "Remaining_Equipment_Purchases",
+        "Remaining_Equipment_Spent_BP",
+        "Final_Pocket_Money_BP"
     ]
 
     with open(filename, mode='w', newline='', encoding='utf-8') as f:
@@ -106,18 +114,27 @@ def generate_batch(
                 "Speed": char.get("Speed", ""),
                 
                 "Special": char.get("Special", "Aucun"),
-                "Generation_Date": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                "Generation_Date": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+
+                # Nouveaux champs équipement
+                "Starting_Capital": char.get("Starting_Capital", 0),
+                "Starting_Armor_Set": char.get("Starting_Armor_Set", "Aucune"),
+                "Starting_Armor_Cost_BP": char.get("Starting_Armor_Cost_BP", 0),
+                "Starting_Capital_After_Armor_BP": char.get("Starting_Capital_After_Armor_BP", 0),
+                "Remaining_Equipment_Purchases": " | ".join(char.get("Remaining_Equipment_Purchases", [])) if char.get("Remaining_Equipment_Purchases") else "",
+                "Remaining_Equipment_Spent_BP": char.get("Remaining_Equipment_Spent_BP", 0),
+                "Final_Pocket_Money_BP": char.get("Final_Pocket_Money_BP", 0)
             }
             writer.writerow(row)
 
-    print(f"\n✅ Export terminé → {filename} ({len(characters)} personnages)")
+    print(f"\n[OK] Export termine -> {filename} ({len(characters)} personnages)")
 
     if generate_pdfs:
         print(f"📄 {pdf_count} fiches PDF générées dans le dossier 'fiches/'")
 
     # Statistiques
     magic_count = sum(1 for c in characters if c.get("Magic") == "YES")
-    print(f"\n📊 Statistiques :")
+    print(f"\nStatistiques :")
     print(f"   Magiques : {magic_count}/{len(characters)} ({magic_count/len(characters):.1%})")
 
 

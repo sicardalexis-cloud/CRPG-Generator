@@ -1,0 +1,1139 @@
+================================================================================
+LISTE COMPLETE DES OBJETS - CRPG / JDR Generator
+================================================================================
+
+NIVEAUX TECHNOLOGIQUES (indices entiers 0-8) :
+0 = Stone Age          (Paleolithic to Neolithic)
+1 = Copper Age         (~4000-2000 BC)
+2 = Bronze Age         (~2000-1200 BC)
+3 = Iron Age           (~1200 BC - 500 AD, including Roman Empire)
+4 = Middle Ages        (Early to High Middle Ages, ~500-1200 AD)
+5 = Late Middle Ages   (~1200-1400 AD)
+6 = Early Renaissance  (~1400-1500 AD)
+7 = Late Renaissance   (~1500-1650 AD)
+8 = Age of Reason      (1650-1800 AD, flintlock era)
+
+IMPORTANT : Les noms ne contiennent jamais de siecles. Les periodes historiques
+sont uniquement mentionnees dans les descriptions completes.
+
+================================================================================
+ARMURES TEXTILES ET MATELASSEES
+================================================================================
+
+Subarmalis
+  Prix : 55 sp
+  Niveau Tech : 3 (Iron Age)
+  Description : Quilted padded vest made of layered linen or felt, often fitted with pteryges (shoulder and waist flaps). Worn directly under lorica segmentata or hamata to absorb blunt force trauma and prevent chafing from metal armor. Standard issue for Roman legionaries and widely used throughout the Roman Empire.
+
+Thoracomachus
+  Prix : 48 sp
+  Niveau Tech : 3 (Iron Age / Late Roman)
+  Description : Felt-padded protective garment, sometimes covered with leather for waterproofing. Designed to cushion the body from the weight and friction of heavy metal armor. Mentioned in late Roman military treatises as essential under armor for both infantry and cavalry.
+
+Aketon
+  Prix : 58 sp
+  Niveau Tech : 4 (High Middle Ages)
+  Description : Classic padded armor made of layered linen or cotton (from Arabic al-qutn). Lighter and more fitted than later gambesons. Primarily worn under chainmail, but can also serve as light standalone protection for archers and light troops in the 12th-13th centuries.
+
+Gambeson
+  Prix : 42 sp
+  Niveau Tech : 4 (Early to Late Middle Ages)
+  Description : Simple thick padded tunic made of layered linen and wool. The most basic and affordable version of textile armor. Good entry-level protection that can be worn alone or under mail. The standard protective garment for common soldiers and men-at-arms across Europe from the 11th to 14th centuries.
+
+Reinforced Gambeson
+  Prix : 65 sp
+  Niveau Tech : 5 (Late Middle Ages)
+  Description : Classic thick and well-quilted gambeson made of linen and wool with dense stitching. The most common and versatile model used across Europe in the 14th century. Can be worn standalone by infantry or as excellent under-armor padding beneath plate harnesses.
+
+Padded Jack
+  Prix : 85 sp
+  Niveau Tech : 5 (Late Middle Ages to Early Renaissance)
+  Description : Heavier and more rigid padded armor with many layers (often 18-30+). Usually sleeved and sometimes reinforced. Often worn alone by infantry, archers, and billmen. Offers significantly better standalone protection than a standard gambeson against cuts and blunt trauma.
+
+Jack of Plates
+  Prix : 125 sp
+  Niveau Tech : 7 (Renaissance)
+  Description : Padded jack with small overlapping iron plates sewn inside the lining between layers of fabric. Excellent protection while remaining relatively flexible and comfortable. A major evolution in textile armor that bridges the gap between pure padded armor and true plate. Popular with English soldiers in the 16th century.
+
+Brigandine
+  Prix : 145 sp
+  Niveau Tech : 5 (Late Middle Ages to Renaissance)
+  Description : Fabric coat with small overlapping metal plates riveted to the inside of the garment. Much better protection against thrusts, arrows, and sword cuts than pure padded armor. Visually distinct from other textile armors due to the visible rivet pattern on the outside. Worn by men-at-arms and wealthy common soldiers from the 14th to 16th centuries.
+
+Arming Doublet
+  Prix : 95 sp
+  Niveau Tech : 7 (Late Renaissance)
+  Description : Finely tailored and structured garment designed specifically to be worn under a full plate harness. Features lacing points (points) to attach armor plates directly to the body. Less padded than earlier gambesons, more technical in construction. Essential for 16th century full plate wearers to distribute weight and prevent chafing.
+
+================================================================================
+PIECES D'ARMURE COURANTES ET INFANTERIE
+================================================================================
+
+Kettle hat
+  Prix : 28 sp
+  Niveau Tech : 5 (Late Middle Ages)
+  Description : Simple open-faced helmet with a wide brim, resembling a metal hat. The most common helmet for infantry and archers from the 13th to 15th centuries. Inexpensive, provides good protection against downward blows and arrows, and does not restrict vision or hearing as much as fully enclosed helmets.
+
+Mail coif
+  Prix : 22 sp
+  Niveau Tech : 5 (Late Middle Ages)
+  Description : Hood made of riveted mail links covering the head and neck. Worn alone or under a helmet. Provides excellent protection against cuts and thrusts to the head and throat. Standard secondary head defense throughout the Middle Ages, distinct from the aventail which is attached to a helmet.
+
+Simple Breastplate
+  Prix : 50 sp
+  Niveau Tech : 5 (Late Middle Ages)
+  Description : Solid iron or steel breastplate covering only the front of the torso. Common and affordable torso protection for infantry and men-at-arms in the 14th-15th centuries. Often paired with a mail hauberk or padded jack underneath. Far less expensive than a full breastplate and backplate combination.
+
+Bronze cuirass
+  Prix : 110 sp
+  Niveau Tech : 2 (Bronze Age)
+  Description : Solid cast or hammered bronze breastplate and backplate combination. Heavy and prestigious armor used by wealthy warriors and officers in the Bronze Age and early Iron Age. Offers excellent protection against cutting weapons but is expensive and limits mobility compared to later iron and steel versions.
+
+Bronze greaves
+  Prix : 55 sp
+  Niveau Tech : 2 (Bronze Age)
+  Description : Pair of bronze shin guards shaped to the legs. Worn by wealthy Bronze Age and early Iron Age warriors, especially Greek hoplites and Mycenaean fighters. Provides good protection for the lower legs while remaining relatively light for the period.
+
+Fauld
+  Prix : 32 sp
+  Niveau Tech : 6 (Early Renaissance)
+  Description : Skirt made of horizontal lames of plate attached below the breastplate. Protects the lower abdomen, hips, and upper thighs. A key component of 15th-16th century plate harnesses that allows mobility while maintaining protection. Often paired with tassets for complete coverage.
+
+Besagews (pair)
+  Prix : 20 sp
+  Niveau Tech : 6 (Early Renaissance)
+  Description : Pair of small round or oval plate defenses worn at the armpits. Protect the vulnerable gap between the breastplate and the upper arm defenses. Characteristic of 15th century Gothic-style armor. Lightweight and relatively inexpensive addition to a harness.
+
+Plackart
+  Prix : 40 sp
+  Niveau Tech : 6 (Early Renaissance)
+  Description : Reinforcing plate worn over the lower part of the breastplate. Adds extra thickness and protection to the abdomen area against thrusts and heavy blows. Common on 15th century harnesses, especially for jousting or heavy combat use.
+
+Couter (pair)
+  Prix : 16 sp
+  Niveau Tech : 6 (Early Renaissance)
+  Description : Pair of elbow defenses made of articulated plate. Protects the elbow joint while allowing a good range of motion. Basic but essential component of any plate arm harness from the 14th century onward.
+
+Mail voiders (pair)
+  Prix : 20 sp
+  Niveau Tech : 6 (Early Renaissance)
+  Description : Pair of mail sleeves or gussets worn under or between plate arm defenses. Fill the gaps at the armpits and inner elbows where plate cannot cover without restricting movement. Standard secondary defense in 15th-16th century harnesses.
+
+Greaves / Poleyns simples (pair)
+  Prix : 27 sp
+  Niveau Tech : 5 (Late Middle Ages)
+  Description : Basic pair of simple shin and knee protectors made of plate or hardened leather. Early versions of leg defenses from the 13th-14th centuries. Less anatomical and articulated than later Gothic or Maximilian pieces.
+
+Cuir bouilli (jambieres)
+  Prix : 25 sp
+  Niveau Tech : 4 (Middle Ages)
+  Description : Hardened boiled leather shin guards. Lightweight and affordable leg protection used by light troops, archers, and common soldiers throughout the Middle Ages. Much cheaper and more comfortable than metal greaves but offers less protection against heavy blows.
+
+Cuir bouilli (brassards)
+  Prix : 18 sp
+  Niveau Tech : 4 (Middle Ages)
+  Description : Hardened boiled leather forearm guards. Common and inexpensive arm protection for archers, light infantry, and lower-ranking soldiers. Offers decent protection against cuts while remaining light and allowing full mobility.
+
+Chausses de maille
+  Prix : 95 sp
+  Niveau Tech : 4 (Middle Ages)
+  Description : Full mail leggings covering the legs from waist to ankles. Heavy and expensive but provides excellent protection against cuts and thrusts. Worn by wealthy knights and men-at-arms from the 12th to 14th centuries, before the widespread adoption of plate leg armor.
+
+Knee cops (basic)
+  Prix : 16 sp
+  Niveau Tech : 4 (Middle Ages)
+  Description : Simple knee guards made of plate or hardened leather. Early and affordable knee protection used alone or over mail chausses. Common on 12th-14th century armor before the development of fully articulated poleyns.
+
+Leather greaves
+  Prix : 20 sp
+  Niveau Tech : 4 (Middle Ages)
+  Description : Simple leather shin guards, sometimes hardened by boiling or waxing. The most basic form of dedicated leg protection. Used by common soldiers, hunters, and light troops across many periods and cultures.
+
+Bevor
+  Prix : 28 sp
+  Niveau Tech : 6 (Early Renaissance)
+  Description : Plate defense covering the chin, jaw, and lower face. Worn with a sallet or armet to fully enclose the head. Essential component of 15th-16th century closed helmets. Protects against thrusts to the throat and lower face.
+
+Garde-reins
+  Prix : 35 sp
+  Niveau Tech : 6 (Early Renaissance)
+  Description : Back plate protecting the kidneys and lower back. Worn as a complement to the breastplate and fauld. Common on 15th century harnesses to provide balanced protection for the torso from all angles.
+
+Lance rest
+  Prix : 15 sp
+  Niveau Tech : 4 (Middle Ages)
+  Description : Metal hook or bracket attached to the right side of the breastplate. Supports the butt of a couched lance during a charge, allowing the rider to brace the weapon against the body. Essential for heavy cavalry from the 14th century onward.
+
+Mail fauld
+  Prix : 24 sp
+  Niveau Tech : 4 (Middle Ages)
+  Description : Skirt of mail links attached below the breastplate or hauberk. Alternative to plate fauld, offering good protection with more flexibility. Common transitional defense in the 14th-15th centuries before full plate skirts became standard.
+
+================================================================================
+PIECES MODULAIRES - XIVe SIECLE (EARLY / SIMPLE VERSIONS)
+================================================================================
+
+Hauberk
+  Prix : 140 sp
+  Niveau Tech : 5 (Late Middle Ages)
+  Description : Full mail shirt, typically knee-length or slightly shorter. The dominant form of torso protection from the 11th to early 14th century. Made of thousands of riveted iron rings. Excellent against cuts but vulnerable to heavy thrusts and blunt trauma.
+
+Coat of Plates
+  Prix : 85 sp
+  Niveau Tech : 5 (Late Middle Ages)
+  Description : Early transitional torso armor consisting of metal plates riveted inside a fabric or leather covering. Direct precursor to true plate harnesses. Worn over or instead of a hauberk in the 13th-14th centuries. Good protection at lower cost than later articulated plate.
+
+Pauldrons (simples)
+  Prix : 32 sp
+  Niveau Tech : 5 (Late Middle Ages)
+  Description : Smaller and lighter shoulder defenses typical of the 14th century. Limited coverage, often just a simple plate over the shoulder joint. Early form of pauldron before the larger, more protective designs of the 15th and 16th centuries.
+
+Pauldrons (renforces)
+  Prix : 30 sp
+  Niveau Tech : 6 (Early Renaissance)
+  Description : Larger and more protective pauldron, especially the left one designed for jousting. Better coverage of the shoulder joint and upper arm. Characteristic of 15th century Gothic armor. Provides significantly more protection than earlier simple versions.
+
+Brassards / Vambraces
+  Prix : 38 sp
+  Niveau Tech : 5 (Late Middle Ages)
+  Description : Arm defenses covering the forearm. Can be simple curved plates or more articulated depending on the exact period and quality. Essential component of any plate arm harness from the 14th century onward.
+
+Gauntlets (moufles)
+  Prix : 25 sp
+  Niveau Tech : 5 (Late Middle Ages)
+  Description : Gauntlets with minimal finger articulation, often in a mitten style. Simpler and heavier to use than later articulated versions. Typical of 14th century plate armor. Offers good hand protection but reduced dexterity.
+
+Gauntlets (articules)
+  Prix : 25 sp
+  Niveau Tech : 6 (Early Renaissance)
+  Description : Much better finger separation and individual articulation than earlier mitten versions. More dexterous and comfortable for handling weapons. Standard on 15th century Gothic harnesses. A major improvement in hand protection and usability.
+
+Gauntlets (renforces)
+  Prix : 28 sp
+  Niveau Tech : 7 (Late Renaissance)
+  Description : Heavier and more robust gauntlets, sometimes with extra reinforcements on the back of the hand and fingers for jousting or heavy combat. Typical of high-quality 16th century Maximilian-style armor.
+
+Cuisses (simples)
+  Prix : 32 sp
+  Niveau Tech : 5 (Late Middle Ages)
+  Description : Basic thigh protection made of plate. Often attached to mail or leather chausses rather than fully independent. Early 14th century design with limited articulation at the hip and knee.
+
+Cuisses (articulees)
+  Prix : 30 sp
+  Niveau Tech : 6 (Early Renaissance)
+  Description : Well-articulated thigh plates offering good protection and mobility. Standard component of 15th century Gothic plate harnesses. Better shaped to the leg and integrated with poleyns for smooth movement.
+
+Cuisses (renforcees)
+  Prix : 34 sp
+  Niveau Tech : 7 (Late Renaissance)
+  Description : Longer and more protective thigh defenses, sometimes integrated with tassets for better overall coverage of the upper legs. Typical of heavier 16th century Maximilian-style armor designed to resist early firearms.
+
+Poleyns (basiques)
+  Prix : 20 sp
+  Niveau Tech : 5 (Late Middle Ages)
+  Description : Simple knee cops with limited articulation. Early form of dedicated knee protection from the 14th century. Often worn over mail chausses before the development of fully integrated leg harnesses.
+
+Poleyns (ailes)
+  Prix : 18 sp
+  Niveau Tech : 6 (Early Renaissance)
+  Description : Knee cops with distinctive lateral "wings" for better side protection. Characteristic of 15th century Gothic armor. The wings help protect the knee from lateral blows and improve the attachment to the cuisses and greaves.
+
+Greaves (simples)
+  Prix : 28 sp
+  Niveau Tech : 5 (Late Middle Ages)
+  Description : Basic shin protection, often flatter and less anatomical than later designs. Early plate greaves from the 14th century. Worn over padded chausses or mail.
+
+Greaves (articulees)
+  Prix : 25 sp
+  Niveau Tech : 6 (Early Renaissance)
+  Description : Better shaped to the leg with improved articulation where they meet the poleyns. Standard on 15th century Gothic harnesses. More comfortable and protective than earlier flat versions.
+
+Greaves (renforcees)
+  Prix : 28 sp
+  Niveau Tech : 7 (Late Renaissance)
+  Description : More robust and thicker greaves, sometimes with additional reinforcements along the edges. Typical of 16th century Maximilian armor designed for heavier battlefield use.
+
+Sabatons (pointus)
+  Prix : 20 sp
+  Niveau Tech : 5 (Late Middle Ages)
+  Description : Gothic style sabatons with elongated pointed toes. Stylish but less practical for walking long distances. Characteristic of 14th-15th century armor, especially in German and Italian styles. The points could be removed for marching.
+
+Sabatons (larges)
+  Prix : 23 sp
+  Niveau Tech : 7 (Late Renaissance)
+  Description : Wider, more rounded sabatons designed for better stability and comfort. Typical of 16th century Maximilian and later styles. Much more practical for actual battlefield movement than the earlier pointed versions.
+
+Aventail
+  Prix : 20 sp
+  Niveau Tech : 5 (Late Middle Ages)
+  Description : Mail neck and shoulder defense attached directly to the base of a helmet (essentially a mail curtain). Protects the throat, neck, and upper shoulders. Standard on bascinets and some great helms from the 14th century onward.
+
+================================================================================
+PIECES MODULAIRES - XVe SIECLE (GOTHIC / CLASSIQUE VERSIONS)
+================================================================================
+
+Haubergeon / Collerette maille
+  Prix : 50 sp
+  Niveau Tech : 6 (Early Renaissance)
+  Description : Mail shirt or collar used as secondary defense under or alongside plate armor. Shorter than a full hauberk. Common in the 15th century as a flexible layer that covers gaps between rigid plate pieces.
+
+Breastplate + Backplate (classique)
+  Prix : 80 sp
+  Niveau Tech : 6 (Early Renaissance)
+  Description : Classic 15th century Gothic style breastplate and backplate combination. Good balance of protection, mobility, and weight. The foundation of a complete plate harness for a man-at-arms or knight of the period.
+
+Gorget (eleve)
+  Prix : 25 sp
+  Niveau Tech : 6 (Early Renaissance)
+  Description : Higher and more protective neck and throat defense than earlier gorgets. Covers more of the lower face and jaw area. Essential component of 15th century closed helmets when combined with a bevor.
+
+Vambraces + Couter
+  Prix : 35 sp
+  Niveau Tech : 6 (Early Renaissance)
+  Description : Combined forearm and elbow defense as a single articulated unit. Standard arm harness component for 15th century Gothic armor. Provides smooth movement while maintaining solid protection along the entire lower arm.
+
+Tassets
+  Prix : 25 sp
+  Niveau Tech : 6 (Early Renaissance)
+  Description : Hanging plate skirts attached to the fauld, protecting the upper thighs and groin area. Essential for covering the gap between the torso armor and the leg defenses. Characteristic of 15th-16th century plate harnesses.
+
+Sallet ou Armet (classique)
+  Prix : 55 sp
+  Niveau Tech : 6 (Early Renaissance)
+  Description : Classic 15th century Gothic sallet or armet helmet. The sallet has a distinctive tail at the back and a pivoting visor. The armet fully encloses the head with hinged cheek pieces. Both styles were widely used across Europe.
+
+================================================================================
+PIECES MODULAIRES - XVIe SIECLE (MAXIMILIAN / RENFORCEES VERSIONS)
+================================================================================
+
+Maille collerette ou manches
+  Prix : 32 sp
+  Niveau Tech : 7 (Late Renaissance)
+  Description : Mail collar or sleeves used as flexible secondary defense. Worn under or between plate pieces to cover gaps. Still important in the 16th century even as plate coverage became more complete.
+
+Breastplate + Backplate (renforce)
+  Prix : 95 sp
+  Niveau Tech : 7 (Late Renaissance)
+  Description : Heavier 16th century breastplate and backplate, thicker and often with additional reinforcing plates to resist early firearms. More substantial than 15th century versions. The foundation of Maximilian-style armor.
+
+Gorget (renforce)
+  Prix : 27 sp
+  Niveau Tech : 7 (Late Renaissance)
+  Description : Higher, thicker, and more rigid neck defense than previous versions. Designed to work with the heavier helmets and higher breastplates of the 16th century. Better protection against thrusts and the increasing threat of firearms.
+
+Pauldrons + Gardes
+  Prix : 38 sp
+  Niveau Tech : 7 (Late Renaissance)
+  Description : Large shoulder defenses with additional guards and plates. Typical of 16th century Maximilian armor. Provides extensive coverage of the shoulders and upper chest area, often with decorative ridges.
+
+Vambraces + Couter + Rerebrace
+  Prix : 42 sp
+  Niveau Tech : 7 (Late Renaissance)
+  Description : Complete articulated arm harness covering the upper arm, elbow, and forearm as a single integrated unit. Standard on high-quality 16th century plate armor. Allows excellent mobility while providing near-total arm protection.
+
+Gauntlets (renforces)
+  Prix : 28 sp
+  Niveau Tech : 7 (Late Renaissance)
+  Description : Heavier, more robust gauntlets optimized for jousting or battlefield use in the 16th century. Often feature additional reinforcement on the knuckles and fingers. Less dexterous than earlier Gothic articulated gauntlets but far more protective.
+
+Tassets longs
+  Prix : 32 sp
+  Niveau Tech : 7 (Late Renaissance)
+  Description : Longer tassets extending further down the thighs than earlier versions. Provide better protection for the upper legs in 16th century harnesses. Often used with longer cuisses for more complete coverage.
+
+Cuisses (renforcees)
+  Prix : 34 sp
+  Niveau Tech : 7 (Late Renaissance)
+  Description : More protective and integrated thigh defenses of the 16th century. Often longer and paired with tassets for continuous protection from the waist to the knees. Designed for the heavier combat style of the Maximilian period.
+
+Poleyns + Genouilleres
+  Prix : 23 sp
+  Niveau Tech : 7 (Late Renaissance)
+  Description : Reinforced knee protection, sometimes with additional knee cops layered over the main poleyns. Provides extra strength at a vulnerable joint. Common on 16th century field armor.
+
+Greaves (renforcees)
+  Prix : 28 sp
+  Niveau Tech : 7 (Late Renaissance)
+  Description : Stronger and more resistant shin defenses of the 16th century. Thicker metal and sometimes additional reinforcing ridges. Designed to withstand the heavier blows and occasional firearm threats of the period.
+
+Sabatons (larges)
+  Prix : 23 sp
+  Niveau Tech : 7 (Late Renaissance)
+  Description : Wider, more functional sabatons for better stability and comfort on the battlefield. The dominant style of the 16th century. Much more practical than the pointed Gothic sabatons of the previous century.
+
+Close Helmet (Maximilian)
+  Prix : 65 sp
+  Niveau Tech : 7 (Late Renaissance)
+  Description : Fully enclosed helmet with a movable pivoting visor. The standard high-quality helmet for 16th century Maximilian-style plate harnesses. Excellent all-around protection with reasonable visibility when the visor is raised.
+
+Burgonet (Maximilian)
+  Prix : 55 sp
+  Niveau Tech : 7 (Late Renaissance)
+  Description : Open-faced helmet with a peak and hinged cheek pieces. Popular with light cavalry, officers, and pikemen in the 16th century. Good visibility and ventilation compared to fully closed helmets.
+
+================================================================================
+MAILLES ANCIENNES (Ve - XIIIe SIECLE)
+================================================================================
+
+Chain hauberk
+  Prix : 220 sp
+  Niveau Tech : 4 (Middle Ages)
+  Description : Standard riveted mail shirt of mid-length, typically reaching mid-thigh. The most common form of body armor for knights and wealthy warriors from the 8th to 13th centuries. Provides excellent protection against slashing cuts but limited defense against heavy thrusts or blunt force.
+
+Hauberk de maille
+  Prix : 230 sp
+  Niveau Tech : 3 (Iron Age / Early Medieval)
+  Description : Full-length mail shirt, often longer than standard hauberks and reaching the knees or below. Worn by early medieval warriors and some Roman cavalry. Very heavy when wet but offers comprehensive protection for the torso and upper legs.
+
+Byrnie carolingienne
+  Prix : 210 sp
+  Niveau Tech : 3 (Iron Age / Early Medieval)
+  Description : Early medieval shorter mail shirt associated with the Carolingian period (8th-9th centuries). Lighter and less expensive than full-length hauberks. Favored by Frankish warriors and cavalry for its balance of protection and mobility.
+
+Hauberk long
+  Prix : 190 sp
+  Niveau Tech : 4 (Middle Ages)
+  Description : Very long mail coat reaching the knees or below, often with integral mittens or separate mail gloves. Used by the wealthiest knights in the 12th-13th centuries. Maximum coverage before the transition to plate armor.
+
+Lorica squamata
+  Prix : 160 sp
+  Niveau Tech : 3 (Iron Age)
+  Description : Scale armor consisting of small bronze or iron scales sewn or laced onto a fabric or leather backing. Common throughout Antiquity and the early Middle Ages, especially in the Roman and Byzantine armies. Good protection against cuts with reasonable flexibility.
+
+================================================================================
+CASQUES HISTORIQUES - ANTIQUITE (GRECE / ROME / CELTES)
+================================================================================
+
+Corinthian Helmet
+  Prix : 65 sp
+  Niveau Tech : 3 (Iron Age)
+  Description : Iconic Greek helmet of the 5th-4th centuries BC. Fully enclosed with narrow eye slits and a distinctive T-shaped face opening. Excellent protection but severely limits vision, hearing, and ventilation. Worn pushed back on the head when not in immediate combat.
+
+Attic Helmet
+  Prix : 52 sp
+  Niveau Tech : 3 (Iron Age)
+  Description : Greek helmet with a more open face and raised cheek guards. Better vision and ventilation than the Corinthian. Popular among Athenian and other Greek warriors who valued situational awareness over maximum enclosure.
+
+Phrygian / Thracian Helmet
+  Prix : 45 sp
+  Niveau Tech : 3 (Iron Age)
+  Description : Distinctive forward-curving crest resembling a Phrygian cap. Associated with Thracian and Phrygian warriors as well as some Greek and Macedonian units. Good mobility and a fierce appearance intended to intimidate opponents.
+
+Boeotian Helmet
+  Prix : 42 sp
+  Niveau Tech : 3 (Iron Age)
+  Description : Open-faced Greek helmet with a wide brim, inspired by the shape of Boeotian felt hats. Excellent all-around vision and ventilation. Favored by cavalry and light troops who needed to see and hear clearly in battle.
+
+Montefortino Helmet
+  Prix : 57 sp
+  Niveau Tech : 3 (Iron Age)
+  Description : Common Roman helmet used from the 3rd century BC to the 1st century AD. Simple bowl shape with a neck guard and a knob on top for attaching a crest. Practical, relatively inexpensive, and widely issued to Roman legionaries.
+
+Coolus Helmet
+  Prix : 50 sp
+  Niveau Tech : 3 (Iron Age)
+  Description : Roman helmet of the 1st century BC to 1st century AD. Similar to the Montefortino but with a wider neck guard and sometimes a brow guard. Common among auxiliary troops and some legionaries. Good balance of protection and cost.
+
+Imperial Gallic Helmet
+  Prix : 62 sp
+  Niveau Tech : 3 (Iron Age)
+  Description : Classic Roman helmet of the 1st-2nd centuries AD. Features prominent brow guards, large cheek pieces, and a reinforced skull. One of the most recognizable and effective Roman helmets, issued to legionaries during the height of the Empire.
+
+Intercisa Helmet
+  Prix : 32 sp
+  Niveau Tech : 3 (Iron Age)
+  Description : Late Roman helmet of the 4th-5th centuries AD. Simpler and cheaper construction with a two-piece bowl and minimal neck protection. Reflects the economic pressures of the late Empire while still providing basic head protection.
+
+Celtic Helmet
+  Prix : 45 sp
+  Niveau Tech : 3 (Iron Age)
+  Description : General term for various Celtic helmet designs, often featuring elaborate crests, horns, or animal motifs. Good protection with significant regional and tribal variations. Worn by Celtic warriors across Gaul, Britain, and Central Europe.
+
+================================================================================
+CASQUES HISTORIQUES - MOYEN AGE
+================================================================================
+
+Spangenhelm (Ve-VIe)
+  Prix : 42 sp
+  Niveau Tech : 3 (Iron Age / Early Medieval)
+  Description : Early medieval segmented helmet made of iron plates riveted to a framework of metal bands. Common among Germanic, Frankish, and other early medieval warriors from the 5th to 6th centuries. Lightweight and relatively easy to produce with period technology.
+
+Nasal helmet (VIIe)
+  Prix : 52 sp
+  Niveau Tech : 3 (Iron Age / Early Medieval)
+  Description : Helmet with a single vertical nasal bar protecting the nose. Typical of the Viking Age and Carolingian period (7th-9th centuries). Simple but effective design that influenced later Norman nasal helmets.
+
+Spangenhelm (VIIIe-IXe)
+  Prix : 42 sp
+  Niveau Tech : 3 (Iron Age / Early Medieval)
+  Description : Later evolution of the spangenhelm, often with a more rounded skull shape and sometimes additional reinforcing bands. Continued in use among Frankish and Carolingian warriors into the 9th century.
+
+Nasal helmet (XIe)
+  Prix : 45 sp
+  Niveau Tech : 4 (Middle Ages)
+  Description : Classic Norman-style nasal helmet seen at the Battle of Hastings and throughout the 11th-12th centuries. Simple conical or rounded skull with a single nose guard. The standard helmet of the early knightly class.
+
+Great Helm
+  Prix : 65 sp
+  Niveau Tech : 4 (Middle Ages)
+  Description : Fully enclosed "bucket" helmet of the 12th-14th centuries. Excellent protection against blows to the head but very poor ventilation, vision, and hearing. Usually worn over a mail coif or cerveliere. Iconic of the high medieval knight.
+
+Cerveliere
+  Prix : 32 sp
+  Niveau Tech : 5 (Late Middle Ages)
+  Description : Simple steel skullcap worn under a great helm or alone. Lightweight secondary head protection that became popular in the 13th-14th centuries. Much more comfortable than a great helm for prolonged wear.
+
+Bascinet (early)
+  Prix : 50 sp
+  Niveau Tech : 5 (Late Middle Ages)
+  Description : Early bascinet of the mid-14th century. Pointed or rounded skull with a movable visor. A major improvement over the great helm in terms of mobility and visibility. One of the first helmets designed specifically for use with plate armor.
+
+Bascinet
+  Prix : 55 sp
+  Niveau Tech : 5 (Late Middle Ages)
+  Description : Classic 14th-15th century bascinet with a pointed "pig-faced" or rounded visor. One of the most common and effective helmets of the Hundred Years' War. Excellent balance of protection, vision, and weight.
+
+Sallet
+  Prix : 52 sp
+  Niveau Tech : 5 (Late Middle Ages)
+  Description : Iconic 15th century helmet with a distinctive "tail" at the back that protects the neck. Excellent protection and good vision when the visor is raised. The most common helmet of the late medieval period across Germany, Italy, and England.
+
+Armet
+  Prix : 65 sp
+  Niveau Tech : 6 (Early Renaissance)
+  Description : Sophisticated 15th-16th century helmet that fully encloses the head. Features hinged cheek pieces that lock together at the chin. Very high protection with reasonable comfort. The pinnacle of medieval helmet design before the Maximilian period.
+
+Sallet ou Armet (ameliore)
+  Prix : 58 sp
+  Niveau Tech : 6 (Early Renaissance)
+  Description : Improved transitional sallet or armet with better ventilation, stronger locking systems, and refined shaping. Represents the evolution of helmet design in the late 15th and early 16th centuries.
+
+Morion
+  Prix : 45 sp
+  Niveau Tech : 7 (Late Renaissance)
+  Description : Distinctive 16th century open helmet with a high comb and turned brim. Iconic of Spanish and German pikemen and arquebusiers. Lightweight, inexpensive, and provides good visibility. The standard helmet of infantry in the 16th century.
+
+Lobster-tailed Pot
+  Prix : 50 sp
+  Niveau Tech : 7 (Late Renaissance)
+  Description : 17th century cavalry helmet with a sliding nasal bar and articulated neck defense resembling a lobster tail. Popular with heavy cavalry and dragoons. Good protection for the back of the head and neck while on horseback.
+
+================================================================================
+BOUCLIERS HISTORIQUES
+================================================================================
+
+Aspis (Hoplon)
+  Prix : 55 sp
+  Niveau Tech : 3 (Iron Age)
+  Description : Large round Greek hoplite shield of the 5th-4th centuries BC. Made of wood with a bronze facing. Used in tight phalanx formations where each man's shield protected both himself and his neighbor. Very heavy but offers excellent coverage for the body.
+
+Scutum
+  Prix : 60 sp
+  Niveau Tech : 3 (Iron Age)
+  Description : Large rectangular Roman legionary shield, curved to wrap around the body. Extremely effective in formation fighting and the famous testudo. Made of layered wood with leather and metal fittings. The iconic shield of the Roman Empire.
+
+Clipeus
+  Prix : 40 sp
+  Niveau Tech : 3 (Iron Age)
+  Description : Smaller round Roman shield, often used by officers, cavalry, and light troops. More maneuverable than the large scutum. Usually made of wood with a metal boss and rim.
+
+Parma
+  Prix : 28 sp
+  Niveau Tech : 3 (Iron Age)
+  Description : Light round Roman shield used primarily by light troops, auxiliaries, and some cavalry. Smaller and lighter than the clipeus. Allows greater mobility for skirmishers and missile troops.
+
+Round Shield
+  Prix : 30 sp
+  Niveau Tech : 2 (Bronze Age)
+  Description : Classic round shield used across many cultures from the Bronze Age through the early Middle Ages. Made of wood with a metal boss and rim, sometimes covered in leather. Versatile, relatively light, and effective for both individual combat and shield wall formations.
+
+Kite Shield
+  Prix : 45 sp
+  Niveau Tech : 4 (Middle Ages)
+  Description : Long, almond-shaped shield of the 11th-12th centuries. Designed to protect the body and legs of a mounted warrior or a man in a shield wall. Gradually shortened over time as plate leg armor became more common. The classic shield of the Norman and early knightly period.
+
+Heater Shield
+  Prix : 30 sp
+  Niveau Tech : 4 (Middle Ages)
+  Description : Classic triangular shield of the 13th-15th centuries. Smaller and lighter than the kite shield. The shape most strongly associated with medieval knights and heraldry. Used by both mounted and foot combatants throughout the high and late Middle Ages.
+
+Buckler
+  Prix : 22 sp
+  Niveau Tech : 4 (Middle Ages)
+  Description : Small round shield used primarily for fencing, dueling, and personal defense (especially with sword or rapier). Highly maneuverable and used for parrying and binding rather than blocking heavy blows. Popular with civilians, fencers, and light troops from the 14th century onward.
+
+Pavise
+  Prix : 60 sp
+  Niveau Tech : 4 (Middle Ages)
+  Description : Large rectangular shield used mainly by archers, crossbowmen, and siege engineers. Often propped up on the ground or on a stand to provide mobile cover. Frequently painted with personal or unit devices. Essential equipment for missile troops in the 14th-15th centuries.
+
+Targe
+  Prix : 32 sp
+  Niveau Tech : 4 (Middle Ages)
+  Description : Scottish oval or round shield, often used with a dirk or broadsword. Frequently featured a central spike or boss that could be used offensively. Lightweight and maneuverable, favored by Highland warriors and border reivers.
+
+Rotella
+  Prix : 40 sp
+  Niveau Tech : 7 (Late Renaissance)
+  Description : Italian round shield of the 16th century, commonly paired with the rapier or sidesword. Larger than a buckler but still highly maneuverable. Used for both defense and for binding or trapping the opponent's blade in the Italian fencing tradition.
+
+Parade Shield
+  Prix : 115 sp
+  Niveau Tech : 7 (Late Renaissance)
+  Description : Highly decorated and ornate shield meant for display, tournaments, ceremonial use, or as a status symbol rather than serious battlefield combat. Often covered in intricate etching, gilding, or painted heraldry. Commissioned by wealthy nobles and princes.
+
+================================================================================
+ARMES - ERE PRIMITIVE ET CUIVRE (Stone Age / Copper Age)
+================================================================================
+
+Javelin, Stone-Tipped
+  Prix : 4 sp
+  Niveau Tech : 0 (Stone Age)
+  Description : Primitive javelin with a carefully flaked stone point (flint or obsidian) bound to a wooden shaft with sinew and resin. The standard hunting and war weapon of Paleolithic and Neolithic peoples. Light enough to carry in quantity and effective against unarmored prey and opponents.
+
+Club, Great
+  Prix : 5 sp
+  Niveau Tech : 0 (Stone Age)
+  Description : Heavy wooden club made from a single piece of dense hardwood, often with a naturally thickened striking end. The most basic and widespread weapon of the Stone Age. Simple, durable, and effective for crushing blows against unarmored targets.
+
+Hand Axe, Stone
+  Prix : 6 sp
+  Niveau Tech : 0 (Stone Age)
+  Description : Stone hand axe or cleaver made by carefully chipping flint or other hard stone into a sharp edge. Can be handheld or hafted. One of the oldest and most versatile tools and weapons in human history, used for chopping, cutting, and combat.
+
+Atlatl
+  Prix : 9 sp
+  Niveau Tech : 0 (Stone Age)
+  Description : Wooden spear-thrower that dramatically increases the velocity and range of a thrown javelin. A major technological leap in the late Paleolithic. Allows a hunter or warrior to throw with far greater force and accuracy than by hand alone.
+
+================================================================================
+ARMES - CUIVRE ET BRONZE (Copper Age / Bronze Age)
+================================================================================
+
+Javelin, Copper-Tipped
+  Prix : 7 sp
+  Niveau Tech : 1 (Copper Age)
+  Description : Javelin with a hammered copper point attached by a flat tang. The first metal evolution after stone points. Copper is soft and bends easily, but the availability of metal marks a significant technological step forward.
+
+Mace, Stone
+  Prix : 10 sp
+  Niveau Tech : 1 (Copper Age)
+  Description : Stone-headed mace with a wooden or bone shaft. The stone head is often perforated and mounted on the shaft. An early development of the mace concept that would later evolve into sophisticated flanged and spiked designs.
+
+Javelin, Bronze Leaf-Shaped
+  Prix : 12 sp
+  Niveau Tech : 2 (Bronze Age)
+  Description : Javelin with a bronze leaf-shaped (lanceolate) point. The most common javelin type of the Bronze Age. Can be attached by socket or flat tang. A major improvement over copper in hardness and durability.
+
+Javelin, Bronze Socketed
+  Prix : 15 sp
+  Niveau Tech : 2 (Bronze Age)
+  Description : Improved javelin with a hollow socket for a more secure and stronger attachment to the shaft. More reliable and expensive than tanged versions. The pinnacle of Bronze Age javelin design.
+
+Dagger, Bronze
+  Prix : 12 sp
+  Niveau Tech : 2 (Bronze Age)
+  Description : Bronze dagger with a leaf-shaped or triangular blade and a simple hilt. A common sidearm and status symbol throughout the Bronze Age. Relatively short but effective for thrusting and close-quarters combat.
+
+Axe, Bronze
+  Prix : 20 sp
+  Niveau Tech : 2 (Bronze Age)
+  Description : Bronze battle axe with a socketed or tanged head. Heavier and more durable than stone axes. Used both as a tool and as a weapon of war by Bronze Age warriors and chieftains.
+
+Sword, Bronze
+  Prix : 38 sp
+  Niveau Tech : 2 (Bronze Age)
+  Description : Bronze short sword or long dagger. Rare and precious due to the difficulty and cost of casting a functional sword-length blade. Reserved for wealthy warriors and leaders. A sign of high status as much as a practical weapon.
+
+================================================================================
+ARMES - ANTIQUITE (Iron Age)
+================================================================================
+
+Gladius
+  Prix : 50 sp
+  Niveau Tech : 3 (Iron Age)
+  Description : Short, straight, double-edged Roman sword optimized for thrusting in the close press of legionary combat. The iconic sidearm of the Roman legionary from the 3rd century BC to the 2nd century AD. Designed to be used in tight formation behind the scutum.
+
+Pilum, Roman
+  Prix : 35 sp
+  Niveau Tech : 3 (Iron Age)
+  Description : The legendary Roman heavy javelin. Features a long iron shank (up to 60 cm) with a pyramidal head that bends or breaks on impact, preventing the enemy from throwing it back. A specialized anti-shield and anti-armor weapon of the Roman legions.
+
+Verutum, Roman Light
+  Prix : 11 sp
+  Niveau Tech : 3 (Iron Age)
+  Description : Light javelin used by Roman velites (light skirmishers) and auxiliary troops. Shorter and lighter than the pilum. Designed for harassing fire before the main engagement rather than for penetrating heavy shields.
+
+Javelin, Iron Leaf-Shaped
+  Prix : 14 sp
+  Niveau Tech : 3 (Iron Age)
+  Description : Iron javelin with a leaf-shaped blade and central midrib. The most widespread javelin type among Celts, Greeks, Germans, and other Iron Age peoples. A versatile throwing weapon effective against unarmored and lightly armored targets.
+
+Javelin, Iron Bodkin
+  Prix : 18 sp
+  Niveau Tech : 3 (Iron Age)
+  Description : Iron javelin with a narrow pyramidal (bodkin) point designed to penetrate light armor and shields. A more specialized armor-piercing evolution of the leaf-shaped javelin. Favored by troops facing armored opponents.
+
+Spatha
+  Prix : 55 sp
+  Niveau Tech : 3 (Iron Age)
+  Description : Long, straight, double-edged sword used by Roman cavalry and later by barbarian warriors. The ancestor of the medieval arming sword. Longer reach than the gladius, better suited for fighting from horseback or in looser formations.
+
+Xiphos
+  Prix : 45 sp
+  Niveau Tech : 3 (Iron Age)
+  Description : Short, straight, double-edged Greek sword with a leaf-shaped blade. The standard sidearm of Greek hoplites. Used primarily for thrusting in the close quarters of the phalanx after the spear was broken or discarded.
+
+Dory (Spear)
+  Prix : 32 sp
+  Niveau Tech : 3 (Iron Age)
+  Description : Long spear used by Greek hoplites and other ancient heavy infantry. Typically 2.5 to 3 meters in length with a bronze or iron spearhead and a butt spike. The primary weapon of the classical phalanx.
+
+War Pick
+  Prix : 26 sp
+  Niveau Tech : 3 (Iron Age)
+  Description : Iron war pick or horseman's pick with a hammer head on one side and a long spike on the other. Excellent for penetrating helmets and armor. A specialized anti-armor weapon that remained in use for centuries.
+
+Bow, Composite
+  Prix : 28 sp
+  Niveau Tech : 2 (Bronze Age)
+  Description : Powerful composite bow made of wood, horn, and sinew laminated together. A major technological achievement of the Bronze Age. Extremely difficult and time-consuming to make. Reserved for elite warriors and nobles due to cost and skill required.
+
+Composite Bow
+  Prix : 52 sp
+  Niveau Tech : 3 (Iron Age)
+  Description : Highly refined composite bow of the Iron Age. Even more powerful and compact than earlier versions. The standard missile weapon of steppe nomads, Parthians, and many Eastern armies. A masterpiece of ancient bowyer craft.
+
+Quiver
+  Prix : 10 sp
+  Niveau Tech : 2 (Bronze Age)
+  Description : Container for carrying arrows or bolts, typically made of leather or wood and worn on the hip or back. Essential equipment for any archer or crossbowman. Must be purchased with any bow or crossbow.
+
+Celtic Sword
+  Prix : 52 sp
+  Niveau Tech : 3 (Iron Age)
+  Description : Long, straight, or slightly tapered iron sword used by Celtic warriors. Often featured elaborate hilts and scabbards. A high-status weapon that influenced later Roman and Germanic sword designs.
+
+Akinakes
+  Prix : 32 sp
+  Niveau Tech : 3 (Iron Age)
+  Description : Short sword or long dagger of Persian, Scythian, and other Eastern origin. Double-edged with a distinctive hilt shape. A common sidearm throughout the Achaemenid Empire and neighboring cultures.
+
+Javelin
+  Prix : 18 sp
+  Niveau Tech : 3 (Iron Age)
+  Description : Generic iron javelin for use as a thrown weapon or short spear. A versatile and inexpensive missile weapon used by light troops, skirmishers, and hunters throughout the Iron Age and beyond.
+
+Francisca
+  Prix : 24 sp
+  Niveau Tech : 3 (Iron Age)
+  Description : Throwing axe used by the Franks and other Germanic peoples. Characterized by a heavy head and a relatively short haft. Designed to be thrown at the enemy before closing to melee. A signature weapon of the Migration Period.
+
+Throwing Knife
+  Prix : 14 sp
+  Niveau Tech : 3 (Iron Age)
+  Description : Balanced knife designed specifically for throwing. A specialized weapon of skirmishers and assassins. Requires considerable practice to use effectively but can be carried in large numbers.
+
+Plumbata
+  Prix : 16 sp
+  Niveau Tech : 3 (Iron Age)
+  Description : Roman lead-weighted dart with an iron head and wooden shaft. Thrown by hand with a leather thong for extra range and power. A devastating armor-piercing weapon used by late Roman infantry.
+
+Sling
+  Prix : 12 sp
+  Niveau Tech : 3 (Iron Age)
+  Description : Simple leather or fabric sling for hurling stones or lead bullets at high velocity. One of the oldest and most effective missile weapons in history. Used by shepherds, light troops, and specialized slinger units throughout Antiquity.
+
+================================================================================
+ARMES - HAUT MOYEN AGE (Middle Ages)
+================================================================================
+
+Large Sword
+  Prix : 55 sp
+  Niveau Tech : 4 (Middle Ages)
+  Description : Broad, flat-bladed sword of the Viking Age and early Middle Ages. Wide cutting blade with a rounded tip, less tapered than later knightly swords. Often used one-handed from horseback or with a shield. The classic "Viking sword" profile.
+
+Dane Axe
+  Prix : 45 sp
+  Niveau Tech : 4 (Middle Ages)
+  Description : Large, long-hafted battle axe with a wide, thin blade. The signature weapon of Viking and Anglo-Saxon warriors. Can be used one or two-handed. Devastating against unarmored or lightly armored opponents.
+
+Arming Sword
+  Prix : 45 sp
+  Niveau Tech : 4 (Middle Ages)
+  Description : One-handed knightly sword, the standard sidearm of the armored warrior throughout the Middle Ages. Balanced for both cutting and thrusting. Almost always paired with a shield in battle. The quintessential medieval sword.
+
+Mace
+  Prix : 38 sp
+  Niveau Tech : 4 (Middle Ages)
+  Description : Heavy club with a flanged or spiked iron head mounted on a wooden or metal shaft. Designed to crush and deform armor rather than cut through it. A common weapon of knights and men-at-arms from the 11th century onward.
+
+War Hammer
+  Prix : 40 sp
+  Niveau Tech : 4 (Middle Ages)
+  Description : Hammer with a flat striking face on one side and a spike or pick on the other. Effective against plate armor. Can be used for crushing blows or for hooking and pulling riders from their horses.
+
+Longbow (early)
+  Prix : 28 sp
+  Niveau Tech : 4 (Middle Ages)
+  Description : Early form of the longbow, shorter and less powerful than the later English war bow. Used throughout Europe in the 12th-13th centuries. Still a formidable weapon in the hands of a trained archer.
+
+War Dart, Medieval
+  Prix : 16 sp
+  Niveau Tech : 4 (Middle Ages)
+  Description : Short, heavy throwing dart used by medieval infantry and light troops. Often weighted with lead. Thrown by hand or with a simple throwing device. A cheap and effective missile weapon for harassing enemy formations.
+
+Sabre
+  Prix : 42 sp
+  Niveau Tech : 4 (Middle Ages)
+  Description : Single-edged, slightly curved or straight sword. A common cavalry and light infantry weapon throughout the Middle Ages, especially in Eastern and Islamic armies. Good for cutting from horseback.
+
+Rondel Dagger
+  Prix : 28 sp
+  Niveau Tech : 5 (Late Middle Ages)
+  Description : Dagger with a stiff, triangular or square cross-section blade designed to penetrate mail and plate gaps. The rondel hilt provides excellent hand protection. A specialized armor-piercing sidearm of the 14th-15th centuries.
+
+Seax
+  Prix : 30 sp
+  Niveau Tech : 4 (Middle Ages)
+  Description : Single-edged knife or short sword used by Anglo-Saxon, Viking, and other Germanic peoples. A common everyday tool that doubled as a weapon. Varying sizes from small utility knives to large fighting seaxes.
+
+Lance
+  Prix : 32 sp
+  Niveau Tech : 4 (Middle Ages)
+  Description : Long spear used by cavalry for the couched charge. The classic weapon of the medieval knight. Can also be used on foot as a pike-like weapon. The foundation of heavy cavalry tactics throughout the Middle Ages.
+
+Battle Axe
+  Prix : 35 sp
+  Niveau Tech : 4 (Middle Ages)
+  Description : Single-handed axe designed for combat. Lighter and more maneuverable than the Dane axe. A common weapon of infantry, sailors, and lower-ranking warriors throughout the Middle Ages.
+
+Bearded Axe
+  Prix : 40 sp
+  Niveau Tech : 4 (Middle Ages)
+  Description : Axe with an elongated lower "beard" on the blade. Allows hooking, tripping, and a variety of specialized techniques. Popular among Viking and early medieval warriors.
+
+Flail
+  Prix : 42 sp
+  Niveau Tech : 5 (Late Middle Ages)
+  Description : Weapon consisting of a striking head attached to a handle by a chain or hinge. The head can be a spiked ball, a bar, or a simple weight. Difficult to control but devastating against armor. A specialized anti-armor weapon of the late period.
+
+Quarterstaff
+  Prix : 8 sp
+  Niveau Tech : 4 (Middle Ages)
+  Description : Simple wooden staff, typically 1.8 to 2.5 meters long. The most basic and inexpensive weapon available. Used by commoners, travelers, and monks for self-defense. Surprisingly effective in skilled hands.
+
+================================================================================
+ARMES - FIN DU MOYEN AGE (Late Middle Ages)
+================================================================================
+
+Longsword
+  Prix : 65 sp
+  Niveau Tech : 5 (Late Middle Ages)
+  Description : Two-handed knightly sword with a long blade optimized for powerful cuts, thrusts, and half-sword techniques against armored opponents. Can be used with one or two hands depending on technique and situation. The iconic weapon of the 14th-15th century man-at-arms.
+
+Falchion
+  Prix : 45 sp
+  Niveau Tech : 5 (Late Middle Ages)
+  Description : One-handed sword with a heavy, broad, single-edged blade specialized in brutal chopping cuts. Far more effective against unarmored or lightly protected foes (peasants, archers, militia) than against plate. Common among common soldiers and executioners.
+
+Poleaxe
+  Prix : 70 sp
+  Niveau Tech : 5 (Late Middle Ages)
+  Description : Versatile polearm combining an axe blade, a hammer or pick, and a spike on a long haft. The premier weapon of the fully armored knight in the 15th century. Can cut, crush, thrust, and hook. Extremely effective against plate armor.
+
+Halberd
+  Prix : 65 sp
+  Niveau Tech : 5 (Late Middle Ages)
+  Description : Polearm with an axe blade, a thrusting spike, and often a hook on the back. The standard weapon of Swiss and German pikemen and halberdiers. Excellent for both anti-cavalry work and fighting other infantry in formation.
+
+Crossbow
+  Prix : 85 sp
+  Niveau Tech : 5 (Late Middle Ages)
+  Description : Mechanical bow using a crank or lever to draw the string. Much more powerful than a hand-drawn bow and requires far less training. The weapon of choice for mercenaries and urban militias. Slow to reload but devastating at range.
+
+Longbow
+  Prix : 30 sp
+  Niveau Tech : 5 (Late Middle Ages)
+  Description : The famous English war bow of the 14th-15th centuries. Made of yew, typically 1.8 meters or longer. Requires years of training and great physical strength. Capable of penetrating plate at close range when used in massed volleys.
+
+Bill
+  Prix : 57 sp
+  Niveau Tech : 5 (Late Middle Ages)
+  Description : Polearm derived from an agricultural billhook. Features a hooked blade for pulling riders from horses and a thrusting point. The standard weapon of English infantry during the Wars of the Roses. Cheap, effective, and easy to produce in large numbers.
+
+Handgonne
+  Prix : 160 sp
+  Niveau Tech : 5 (Late Middle Ages)
+  Description : Early handheld firearm, essentially a small cannon mounted on a wooden stock. Fired with a slow match or glowing coal. Extremely inaccurate and slow to reload, but terrifying and capable of penetrating any armor at close range. The beginning of the gunpowder era.
+
+Flanged Mace
+  Prix : 55 sp
+  Niveau Tech : 5 (Late Middle Ages)
+  Description : Mace with a head consisting of multiple flanges or ridges. Designed to concentrate force and deform or penetrate plate armor. A common sidearm of knights and men-at-arms in the 14th-15th centuries.
+
+Morning Star
+  Prix : 50 sp
+  Niveau Tech : 5 (Late Middle Ages)
+  Description : Mace or club with a spiked head, sometimes on a chain. The spikes concentrate force to penetrate armor. A brutal and intimidating weapon favored by some infantry and executioners.
+
+Boar Spear
+  Prix : 35 sp
+  Niveau Tech : 5 (Late Middle Ages)
+  Description : Heavy spear with a broad blade and a crossbar behind the head to prevent a charging boar (or enemy) from running up the shaft. Used for hunting dangerous game and as a defensive weapon against cavalry.
+
+Glaive, Polearm
+  Prix : 55 sp
+  Niveau Tech : 5 (Late Middle Ages)
+  Description : Polearm with a single-edged blade mounted on a long haft. Essentially a sword on a stick. Used for both cutting and thrusting. A common weapon of continental European infantry in the 15th-16th centuries. Distinct from the short sword sometimes also called a glaive.
+
+Voulge
+  Prix : 48 sp
+  Niveau Tech : 5 (Late Middle Ages)
+  Description : Polearm with a heavy, single-edged blade, often with a hook on the back. Similar to a halberd but simpler in construction. Popular in Switzerland and Burgundy. Effective against both infantry and cavalry.
+
+Heavy Crossbow
+  Prix : 95 sp
+  Niveau Tech : 5 (Late Middle Ages)
+  Description : Powerful crossbow with a steel prod, requiring a windlass or cranequin to span. Greater range and penetration than wooden crossbows. The ultimate development of the crossbow before the widespread adoption of firearms.
+
+Great Axe
+  Prix : 60 sp
+  Niveau Tech : 5 (Late Middle Ages)
+  Description : Massive two-handed axe with a long haft. A weapon of tremendous power in the hands of a strong warrior. Used by some elite infantry and bodyguards. Slow but capable of delivering devastating blows.
+
+Lochaber Axe
+  Prix : 58 sp
+  Niveau Tech : 5 (Late Middle Ages)
+  Description : Scottish polearm with a long, single-edged blade and a hook on the back. Used by Highland clansmen. The hook could pull riders from horses or disengage from an opponent's weapon. A regional specialty weapon.
+
+Bec de Corbin
+  Prix : 65 sp
+  Niveau Tech : 6 (Early Renaissance)
+  Description : Polearm with a hammer head on one side and a long, curved pick (raven's beak) on the other. Extremely effective against plate armor. The pick can hook and pull, while the hammer crushes. A specialized anti-armor weapon of the 15th-16th centuries.
+
+Maul
+  Prix : 45 sp
+  Niveau Tech : 5 (Late Middle Ages)
+  Description : Heavy wooden or metal-headed hammer on a long haft. Used for breaching doors, driving stakes, and crushing armor in combat. A simple but brutally effective weapon of siege and battlefield.
+
+Lucerne Hammer
+  Prix : 62 sp
+  Niveau Tech : 5 (Late Middle Ages)
+  Description : Swiss polearm combining a hammer, a long spike, and hooks. A versatile weapon used by Swiss mercenaries. The hammer for crushing, the spike for thrusting, and the hooks for pulling. One of the most sophisticated polearms of the period.
+
+Military Fork
+  Prix : 48 sp
+  Niveau Tech : 5 (Late Middle Ages)
+  Description : Polearm derived from a pitchfork, with two or three tines. Used by peasant levies and some professional infantry. The tines are effective for hooking and thrusting. An inexpensive weapon that could be quickly produced from agricultural tools.
+
+Ranseur
+  Prix : 50 sp
+  Niveau Tech : 5 (Late Middle Ages)
+  Description : Polearm with a long, narrow thrusting head and lateral blades or hooks. Designed primarily for thrusting and parrying. Popular in Italy and France. Good for keeping opponents at a distance.
+
+Light Crossbow
+  Prix : 55 sp
+  Niveau Tech : 5 (Late Middle Ages)
+  Description : Smaller, lighter crossbow that can be spanned by hand or with a simple lever. Faster to reload than heavy crossbows but with less power. Popular with skirmishers, hunters, and those who could not afford or operate a heavy crossbow.
+
+Composite Crossbow
+  Prix : 75 sp
+  Niveau Tech : 5 (Late Middle Ages)
+  Description : Crossbow with a composite prod made of wood, horn, and sinew. More powerful than a wooden crossbow of the same size. A high-end weapon that combines the power of the composite bow with the mechanical advantage of the crossbow.
+
+================================================================================
+ARMES - RENAISSANCE (Early / Late Renaissance)
+================================================================================
+
+Rapier
+  Prix : 80 sp
+  Niveau Tech : 6 (Early Renaissance)
+  Description : Long, thin, double-edged sword optimized for thrusting and sophisticated fencing techniques. The weapon of choice for civilian dueling and gentlemanly self-defense in the 16th and 17th centuries. Requires extensive training to master.
+
+Javelin, Renaissance
+  Prix : 22 sp
+  Niveau Tech : 7 (Late Renaissance)
+  Description : Light javelin with a refined iron point and improved fletching. Used by landsknechts and other Renaissance light troops. A continuation of the ancient javelin tradition into the gunpowder era.
+
+Wheellock Pistol
+  Prix : 110 sp
+  Niveau Tech : 7 (Late Renaissance)
+  Description : Early firearm using a spinning steel wheel to generate sparks. Expensive and complex, reserved for wealthy officers, cavalry, and nobles. The first practical self-igniting handgun. A status symbol as much as a weapon.
+
+Blunderbuss
+  Prix : 75 sp
+  Niveau Tech : 7 (Late Renaissance)
+  Description : Short firearm with a flared muzzle designed to fire a load of shot or scrap metal. Devastating at very close range. Used by coach guards, shipboard fighters, and anyone needing a powerful close-quarters weapon with minimal aiming.
+
+Shamshir
+  Prix : 58 sp
+  Niveau Tech : 7 (Late Renaissance)
+  Description : Highly curved Persian and Ottoman saber with a single edge. Extremely effective for cutting from horseback. The curved blade allows a long draw cut. A sophisticated and beautiful weapon of Eastern cavalry.
+
+Sidesword
+  Prix : 65 sp
+  Niveau Tech : 6 (Early Renaissance)
+  Description : Single-handed sword with a straight or slightly curved blade, often with a complex hilt for hand protection. The bridge between the medieval arming sword and the rapier. Popular with military officers and fencers in the 16th century.
+
+Pike
+  Prix : 40 sp
+  Niveau Tech : 6 (Early Renaissance)
+  Description : Extremely long spear (4-6 meters) used in dense formations by Swiss, German, and other Renaissance infantry. The dominant infantry weapon of the 16th century. Requires extensive drill and unit cohesion to be effective.
+
+Arquebus
+  Prix : 130 sp
+  Niveau Tech : 7 (Late Renaissance)
+  Description : Early matchlock firearm, the first practical shoulder arm. Heavier and more powerful than the handgonne. The standard firearm of 16th century infantry. Slow to reload but capable of penetrating plate armor at close range.
+
+Musket
+  Prix : 180 sp
+  Niveau Tech : 7 (Late Renaissance)
+  Description : Heavy matchlock firearm, longer and more powerful than the arquebus. Requires a rest to fire accurately. The standard heavy infantry firearm of the late 16th and 17th centuries. The beginning of the era of massed musket fire.
+
+Main-gauche
+  Prix : 32 sp
+  Niveau Tech : 6 (Early Renaissance)
+  Description : Left-hand dagger used in conjunction with a rapier or sidesword. Features a wide guard and often a blade-catching quillon. Essential for the rapier-and-dagger fencing style of the 16th and 17th centuries.
+
+War Hammer (Renaissance)
+  Prix : 52 sp
+  Niveau Tech : 7 (Late Renaissance)
+  Description : Refined war hammer of the 16th century, often with a longer haft and more sophisticated head design. Still effective against the plate armor of the period, though firearms were beginning to render such weapons obsolete.
+
+Partisan
+  Prix : 52 sp
+  Niveau Tech : 6 (Early Renaissance)
+  Description : Polearm with a long, broad, double-edged head and lateral wings or lugs. Used as both a combat weapon and a ceremonial guard weapon. Popular with officers and bodyguards in the 16th century.
+
+Cranequin Crossbow
+  Prix : 140 sp
+  Niveau Tech : 7 (Late Renaissance)
+  Description : High-end crossbow using a rack-and-pinion cranequin to span a very heavy steel prod. The most powerful portable missile weapon before firearms. Expensive and slow, but capable of tremendous range and penetration.
+
+Broadsword
+  Prix : 55 sp
+  Niveau Tech : 6 (Early Renaissance)
+  Description : Straight, double-edged sword with a broad blade. A military sidearm of the 16th-17th centuries. Often paired with a buckler or targe. The ancestor of the basket-hilted broadsword of the 18th century.
+
+Cutlass
+  Prix : 48 sp
+  Niveau Tech : 6 (Early Renaissance)
+  Description : Short, single-edged sword with a curved or straight blade. The standard sidearm of sailors, pirates, and some infantry. Designed for close-quarters fighting in confined spaces. Robust and relatively inexpensive.
+
+Estoc
+  Prix : 70 sp
+  Niveau Tech : 6 (Early Renaissance)
+  Description : Long, stiff, triangular or square-section thrusting sword designed to penetrate the gaps in plate armor. A specialized anti-armor weapon of the 16th century. Requires great skill and strength to use effectively.
+
+2 Handed Sword
+  Prix : 110 sp
+  Niveau Tech : 7 (Late Renaissance)
+  Description : Massive two-handed sword with a long blade and extended hilt. Used by elite troops (Doppelsoldner) in the 16th century. Can clear a path through pike formations and deliver tremendous cutting blows. A weapon of great strength and presence.
+
+Flintlock Pistol
+  Prix : 85 sp
+  Niveau Tech : 8 (Age of Reason)
+  Description : Reliable handgun using a flint striking a steel frizzen to ignite the powder. The standard military and civilian sidearm from the late 17th to early 19th centuries. Much more reliable and weather-resistant than earlier matchlocks and wheellocks.
+
+================================================================================
+MONTURES ET MOBILITE
+================================================================================
+
+Rouncey
+  Prix : 45 sp
+  Niveau Tech : 3 (Iron Age)
+  Description : Versatile riding horse, the most common mount for travelers, merchants, and men-at-arms. Not a specialized warhorse but capable of carrying an armored rider in a pinch. Affordable and hardy.
+
+Courser
+  Prix : 62 sp
+  Niveau Tech : 4 (Middle Ages)
+  Description : Fast, agile horse bred for hunting and light warfare. Faster than a rouncey but less powerful than a destrier. Favored by scouts, messengers, and lighter cavalry.
+
+Palfrey
+  Prix : 57 sp
+  Niveau Tech : 4 (Middle Ages)
+  Description : Well-bred, comfortable riding horse, often used by ladies, clergy, and wealthy travelers. Smooth gait and gentle temperament. Not intended for combat but valuable for long journeys.
+
+Destrier
+  Prix : 130 sp
+  Niveau Tech : 4 (Middle Ages)
+  Description : Heavy warhorse bred specifically for carrying an armored knight in battle. Strong, aggressive, and expensive. The classic medieval warhorse. Requires significant training and maintenance.
+
+Destrier (quality)
+  Prix : 200 sp
+  Niveau Tech : 7 (Late Renaissance)
+  Description : Exceptional destrier of superior breeding, training, and conformation. Extremely rare and valuable. Owned only by the wealthiest nobles and princes. A status symbol as much as a combat asset.
+
+Mule
+  Prix : 40 sp
+  Niveau Tech : 3 (Iron Age)
+  Description : Hardy hybrid of horse and donkey. Excellent pack animal and riding mount for rough terrain. More sure-footed and heat-tolerant than horses. The preferred mount for many merchants and travelers in mountainous or arid regions.
+
+Pony
+  Prix : 40 sp
+  Niveau Tech : 3 (Iron Age)
+  Description : Small horse breed, typically under 14.2 hands. Hardy, sure-footed, and capable of carrying surprisingly heavy loads relative to their size. Common in northern and mountainous regions.
+
+Camel, riding
+  Prix : 15 gp
+  Niveau Tech : 3 (Iron Age)
+  Description : Dromedary or Bactrian camel used as a riding and pack animal in desert and arid regions. Can go long periods without water. Essential for trade and warfare in the Middle East, North Africa, and Central Asia.
+
+Dog sled
+  Prix : 7 gp
+  Niveau Tech : 0 (Stone Age)
+  Description : Sled pulled by a team of dogs, the primary winter transportation in Arctic and sub-Arctic regions. Allows travel over snow and ice where horses cannot go. Used by indigenous peoples of the far north for hunting, trade, and warfare.
+
+================================================================================
+EQUIPEMENT DE VOYAGE ET SELLERIE
+================================================================================
+
+Tent, 2-man leather
+  Prix : 15 sp
+  Niveau Tech : 2 (Bronze Age)
+  Description : Small tent made of oiled leather or heavy canvas. Provides basic shelter for two people. Essential equipment for any traveling warrior, merchant, or adventurer. The minimum comfortable shelter for extended campaigns.
+
+Tent, 4-man leather
+  Prix : 25 sp
+  Niveau Tech : 2 (Bronze Age)
+  Description : Larger leather or canvas tent suitable for four people or a small command group. More comfortable for longer stays. Often used by officers, wealthy travelers, or small mercenary bands.
+
+Camp bed, leather & wood
+  Prix : 35 sp
+  Niveau Tech : 3 (Iron Age)
+  Description : Portable bed frame with a leather or canvas sleeping surface. Raises the sleeper off the cold, damp ground. A luxury item for wealthy travelers and officers. Significantly improves rest quality on campaign.
+
+Lantern, hooded (Iron Age)
+  Prix : 5 bp
+  Niveau Tech : 3 (Iron Age)
+  Description : Metal lantern with a shutter or hood to control light output. Essential for night travel, guard duty, and exploring dark places. Uses oil or tallow as fuel. A basic but indispensable piece of equipment.
+
+Riding saddle
+  Prix : 15 sp
+  Niveau Tech : 3 (Iron Age)
+  Description : Basic saddle for riding and light travel. Provides a secure seat and attachment points for bags and equipment. The standard saddle for most riders who are not engaged in heavy combat.
+
+War saddle
+  Prix : 30 sp
+  Niveau Tech : 4 (Middle Ages)
+  Description : High-backed, reinforced saddle designed for combat. Provides a secure platform for a heavily armored rider and helps keep the rider in place during the shock of a lance charge. Essential for any serious cavalryman.
+
+Packsaddle
+  Prix : 10 sp
+  Niveau Tech : 2 (Bronze Age)
+  Description : Simple saddle or pad designed for carrying cargo rather than a rider. Used by merchants, supply trains, and anyone needing to transport goods by animal. Can be fitted to horses, mules, or camels.
+
+Saddle bags, large
+  Prix : 12 sp
+  Niveau Tech : 3 (Iron Age)
+  Description : Large leather bags designed to hang on either side of a saddle. The primary means of carrying personal gear and supplies while mounted. Essential for any rider who expects to be away from base for more than a day.
+
+Draft harness
+  Prix : 75 sp
+  Niveau Tech : 3 (Iron Age)
+  Description : Heavy harness for a draft animal pulling a cart, wagon, or plow. Includes collar, traces, and breeching. Expensive but necessary for any serious agricultural or commercial transport operation.
+
+================================================================================
+FIN DU FICHIER
+================================================================================

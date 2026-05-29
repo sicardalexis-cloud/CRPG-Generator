@@ -1,0 +1,249 @@
+================================================================================
+LISTE DES GROUPES D'ACCÈS AU MATÉRIEL
+ROYAUMES OUBLIÉS - CRPG / JDR (Version finale - 14 Groupes)
+================================================================================
+
+Ce document regroupe **toutes** les régions mentionnées par similarité
+d'accès au matériel (niveau technologique + routes commerciales + culture).
+
+================================================================================
+GROUPE 1 : BLOC CÔTE DES ÉPÉES
+================================================================================
+Régions incluses :
+- Sword Coast
+- Baldur’s Gate
+- Luskan
+- Waterdeep
+- Neverwinter
+
+Niveau Tech : 6-7 (Early à Late Renaissance)
+Justification : Hub commercial principal de la Côte des Épées.
+Meilleur accès global aux armures gothiques/maximiliennes, armes à poudre
+et équipement cosmopolite.
+
+================================================================================
+GROUPE 2 : BLOC SUD MARCHAND
+================================================================================
+Régions incluses :
+- Amn
+- Tethyr
+- Turmish
+- Sembia
+- Calimshan
+- Chessenta
+
+Niveau Tech : 5-6
+Justification : Royaumes marchands du sud + empire calishite + Chessenta (mercenaires).
+Bon accès aux produits du sud (cimeterres, shamshirs, soieries, épices, chameaux).
+
+================================================================================
+GROUPE 3 : BLOC CŒUR CONTINENTAL
+================================================================================
+Régions incluses :
+- The Dalelands
+- Western Heartlands
+- Impiltur
+
+Niveau Tech : 5
+Justification : Régions rurales et féodales du cœur du continent.
+Équipement pratique et robuste (gambesons, haches, chevaux de trait).
+
+================================================================================
+GROUPE 4 : BLOC VILHON / EST CÔTIER
+================================================================================
+Régions incluses :
+- Chondath
+- Vilhon Reach
+- Moonsea
+- Aglarond
+
+Niveau Tech : 5-6
+Justification : Zone côtière est avec bon accès maritime + forêt d'Aglarond.
+Mélange d’influence marchande, féodale et magique.
+
+================================================================================
+GROUPE 5 : BLOC NORD SAUVAGE
+================================================================================
+Régions incluses :
+- Le Nord (The North)
+- Vaasa
+- Icewind Dale
+- Damara
+
+Niveau Tech : 4-5
+Justification : Frontière sauvage et climat froid + Damara (royaume du nord).
+Équipement rustique (fourrures, haches, armures légères).
+
+================================================================================
+GROUPE 6 : BLOC NAIN
+================================================================================
+Régions incluses :
+- Citadel Adbar
+- Mithral Hall
+- Great Rift (Svirfneblin)
+
+Niveau Tech : 5-7
+Justification : Citadelles naines + territoire des gnomes profonds.
+Excellente qualité d’armures lourdes et d’armes (haches, acier supérieur).
+
+================================================================================
+GROUPE 7 : BLOC MARCHES D’ARGENT
+================================================================================
+Régions incluses :
+- Silver Marches (Luruar)
+
+Niveau Tech : 5-6
+Justification : Alliance nordique (nains + humains + elfes).
+Mélange unique d’équipement nain et elfe.
+
+================================================================================
+GROUPE 8 : BLOC MULHORAND
+================================================================================
+Régions incluses :
+- Mulhorand
+
+Niveau Tech : 5-6
+Justification : Empire à forte influence égyptienne.
+Équipement très différent (chars, lances, armures écailles, magie religieuse).
+
+================================================================================
+GROUPE 9 : BLOC THAY
+================================================================================
+Régions incluses :
+- Thay
+
+Niveau Tech : 6-7
+Justification : Empire des Red Wizards. Magie très présente, armures décorées,
+composants magiques abondants, culture orientale.
+
+================================================================================
+GROUPE 10 : BLOC RASHEMEN
+================================================================================
+Régions incluses :
+- Rashemen
+
+Niveau Tech : 4-6
+Justification : Culture chamanique et sorcières (Wychlaran). Très isolé,
+équipement rustique + magique, style nordique russe/fantasy.
+
+================================================================================
+GROUPE 11 : BLOC MOONSHAE ISLES
+================================================================================
+Régions incluses :
+- Moonshae Isles
+
+Niveau Tech : 5
+Justification : Îles celtiques avec fort druidisme. Culture différente du continent,
+armures légères + magie naturelle.
+
+================================================================================
+GROUPE 12 : BLOC OLD EMPIRES
+================================================================================
+Régions incluses :
+- Unther
+- Old Empires (référence aux anciens empires)
+
+Niveau Tech : 5-6
+Justification : Anciens empires (Unther + Mulhorand). Culture très ancienne,
+armures décorées, magie religieuse, chars de guerre.
+
+================================================================================
+GROUPE 13 : BLOC EVERMEET
+================================================================================
+Régions incluses :
+- Evermeet
+
+Niveau Tech : 6-8
+Justification : Île elfe mythique. Magie très forte, équipement elfe de haute
+qualité, isolation extrême, culture elfique pure.
+
+================================================================================
+GROUPE 14 : BLOC UNDERDARK
+================================================================================
+Régions incluses :
+- Underdark
+
+Niveau Tech : 4-7
+Justification : Réseau souterrain géant. Drow, duergar, svirfneblin, culture
+totalement différente, armures et armes spéciales (adamantine, etc.).
+
+================================================================================
+RÉSUMÉ DES 14 GROUPES
+================================================================================
+
+Groupe 1  : Côte des Épées       → Meilleur accès global (tech 6-7)
+Groupe 2  : Sud Marchand         → Bon accès sud + commerce + Chessenta
+Groupe 3  : Cœur Continental     → Équipement pratique (tech 5)
+Groupe 4  : Vilhon / Est         → Bon accès maritime est + Aglarond
+Groupe 5  : Nord Sauvage         → Équipement rustique (tech 4-5) + Damara
+Groupe 6  : Bloc Nain            → Qualité supérieure (tech 5-7)
+Groupe 7  : Marches d’Argent     → Mélange nordique
+Groupe 8  : Mulhorand            → Culture très différente (égyptienne)
+Groupe 9  : Thay                 → Magie lourde + Red Wizards
+Groupe 10 : Rashemen             → Chamanisme + sorcières
+Groupe 11 : Moonshae Isles       → Druidisme celtique
+Groupe 12 : Old Empires          → Anciens empires (Unther)
+Groupe 13 : Evermeet             → Île elfe mythique
+Groupe 14 : Underdark            → Réseau souterrain
+
+================================================================================
+RÈGLES D’ENCOMBREMENT (SANS MONTURE)
+================================================================================
+
+Capacité de base : **7 points** (strict, sans monture).
+Aucun bonus de sac à dos ni de Force.
+
+- Armes d’encombrement 1 à 3 → comptent normalement dans les 7 points.
+- Armes d’encombrement ≥ 4 (longues ou très lourdes : la plupart des armes d’hast, épées à deux mains, grandes haches, arquebuses, mousquets, etc.) :
+    • Maximum **1** de ces armes à la fois.
+    • Doivent obligatoirement être portées **à la main** (pas dans le dos).
+    • **Ne comptent pas** dans les 7 points de capacité.
+- Javelins → exception : peuvent être portés en quantité (encombrement faible).
+- Pistolets → encombrement 2 (légers).
+
+Ces règles s’appliquent à tous les groupes.
+
+**Valeurs d’encombrement les plus courantes (référence) :**
+
+Armes encombrement 1-2 (très légères) :
+- Dague, Main-gauche, Rondel, Couteau de jet, Fronde, Plumbata, Francisca, Javelot (tous types), Atlatl, Seax, Pistolets → 1 ou 2
+
+Armes encombrement 3 (standard) :
+- La plupart des épées une main, haches une main, masses, marteaux de guerre, lances, arcs, arbalètes légères/moyennes, Quarterstaff, etc.
+
+Armes encombrement ≥ 4 (spéciales – max 1 à la main, ne comptent pas dans les 7 pts) :
+- Longsword, 2H Sword, Great Axe, Poleaxe, Halberd, Glaive, Bill, Voulge, Bec de Corbin, Lucerne Hammer, Pike, Maul, Arquebus, Mousquet, Heavy Crossbow, Cranequin Crossbow, Blunderbuss, Handgonne, etc.
+
+**Table de référence rapide (valeurs d’encombrement) :**
+
+| Arme                          | Encombrement | Remarque                     |
+|-------------------------------|--------------|------------------------------|
+| Dague / Main-gauche / Rondel  | 1            | Très léger                   |
+| Javelot (tous types)          | 2            | Peut être porté en quantité  |
+| Pistolet (tous)               | 2            | Léger                        |
+| Épée une main (Arming Sword, Sabre, Rapier, Cutlass, etc.) | 3 | Standard                     |
+| Hache une main, Mace, War Hammer | 3         | Standard                     |
+| Arc / Arbalète légère-moyenne | 3            | Standard                     |
+| Quarterstaff                  | 3            | Standard                     |
+| Longsword                     | 4            | Spécial (ne compte pas)      |
+| 2 Handed Sword                | 4            | Spécial (ne compte pas)      |
+| Poleaxe / Halberd / Glaive / Bill / Voulge | 4 | Spécial (ne compte pas) |
+| Bec de Corbin / Lucerne Hammer| 4            | Spécial (ne compte pas)      |
+| Pike                          | 5            | Très encombrant              |
+| Arquebus / Mousquet / Blunderbuss | 4        | Spécial (ne compte pas)      |
+| Heavy Crossbow / Cranequin    | 4            | Spécial (ne compte pas)      |
+
+================================================================================
+CONSEIL D’UTILISATION
+================================================================================
+
+- Utilise ces **14 groupes** au lieu de gérer ~30 régions séparément.
+- Chaque groupe peut partager la même liste de base (filtrée par tech).
+- Ajoute seulement 5-15 % d’items spécifiques par groupe.
+- Les Groupes 1, 6, 9 et 13 sont les plus "riches" en équipement de haute qualité.
+- Les Groupes 8, 9, 10, 11, 12, 13 et 14 sont les plus **exotiques**.
+
+================================================================================
+Fichier mis à jour le 28 mai 2026
+Version finale avec 14 groupes (Chessenta + Damara ajoutés)
+================================================================================

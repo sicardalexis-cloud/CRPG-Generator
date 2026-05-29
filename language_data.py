@@ -64,6 +64,14 @@ ethnicity_base_languages: Dict[str, List[str]] = {
     "Elf Lythari": ["Elfique"],
     "Half-Elf": ["Elfique", "Chondathan"],
 
+    # Demi-Elfes spécifiques (standardisés)
+    "Wood Half-elf": ["Elfique", "Chondathan"],
+    "Moon Half-elf": ["Elfique", "Chondathan"],
+    "Sun Half-elf": ["Elfique", "Chondathan"],
+    "Wild Half-elf": ["Elfique", "Chondathan"],
+    "Sea Half-elf": ["Elfique", "Chondathan"],
+    "Drow Half-elf": ["Glifo (Drow)", "Chondathan"],
+
     # ==================== NAINS ====================
     "Nain": ["Nain"],
     "Shield Dwarf": ["Nain"],
@@ -88,6 +96,40 @@ ethnicity_base_languages: Dict[str, List[str]] = {
     "Aarakocra": ["Auran"],
     "Goliath": ["Géant"],
     "Centaur": ["Sylvestre"],
+
+    # ==================== DERNIÈRES BASE LANGUAGES (complétion) ====================
+    "Aasimar":         ["Céleste"],
+    "Air Genasi":      ["Auran"],
+    "Earth Genasi":    ["Terran"],
+    "Fire Genasi":     ["Ignan"],
+    "Water Genasi":    ["Aquan"],
+
+    "Avariel":         ["Elfique"],
+    "Lythari":         ["Elfique"],
+
+    "Drow":            ["Glifo (Drow)"],
+
+    "Moon Elf":        ["Elfique"],
+    "Sun Elf":         ["Elfique"],
+    "Wood Elf":        ["Elfique"],
+    "Wild Elf":        ["Elfique"],
+    "Sea Elf":         ["Elfique"],
+    "Star Elf":        ["Elfique"],
+
+    "Bedine":          ["Midani"],
+    "Nar":             ["Damaran"],
+    "Gur":             ["Rashemi"],
+    "Halruaan":        ["Halruaan"],
+
+    "Lightfoot Halfling":  ["Chondathan"],
+    "Strongheart Halfling": ["Chondathan"],
+    "Ghostwise Halfling":  ["Chondathan"],
+
+    "Forest Gnome":    ["Gnomish"],
+    "Rock Gnome":      ["Gnomish"],
+
+    "Half-Orc Mountain": ["Orc"],
+    "Tiefling":        ["Infernal"],
 
     # ==================== DEFAULT ====================
     "Default": ["Chondathan"]
@@ -203,7 +245,16 @@ ethnicity_bonus_languages: Dict[str, List[str]] = {
     "Elf Star": ["Elfique", "Elven High Speech", "Sylvestre", "Céleste", "Thorass"],
     "Elf Avariel": ["Elfique", "Auran", "Sylvestre", "Elven High Speech", "Céleste"],
     "Elf Lythari": ["Elfique", "Sylvestre", "Druidic", "Elven High Speech", "Géant"],
-    "Demi-elfe": ["Elfique", "Chondathan", "Illuskan", "Thorass", "Sylvestre"],
+
+    # Demi-Elfes spécifiques (standardisés)
+    "Wood Half-elf": ["Elfique", "Sylvestre", "Druidic", "Elven High Speech", "Chondathan"],
+    "Moon Half-elf": ["Elfique", "Sylvestre", "Elven High Speech", "Thorass", "Chondathan"],
+    "Sun Half-elf": ["Elfique", "Sylvestre", "Elven High Speech", "Céleste", "Chondathan"],
+    "Wild Half-elf": ["Elfique", "Sylvestre", "Druidic", "Géant", "Chondathan"],
+    "Sea Half-elf": ["Elfique", "Aquan", "Sylvestre", "Chondathan", "Auran"],
+    "Drow Half-elf": ["Glifo (Drow)", "Undercommon", "Abyssal", "Infernal", "Chondathan"],
+
+    # "Demi-elfe" supprimé (nom obsolète après standardisation)
 
     # === Nains ===
     "Nain": ["Nain", "Géant", "Undercommon", "Thorass", "Chondathan"],
@@ -229,6 +280,51 @@ ethnicity_bonus_languages: Dict[str, List[str]] = {
     "Aarakocra": ["Auran", "Sylvestre", "Elfique", "Céleste", "Druidic"],
     "Goliath": ["Géant", "Chondathan", "Illuskan", "Nain", "Undercommon"],
     "Centaur": ["Sylvestre", "Elven High Speech", "Druidic", "Elfique", "Géant"],
+
+    # === Nouvelles entrées pour réduire les fallbacks vers le Default générique ===
+    "Air Genasi":      ["Auran", "Chondathan", "Thorass", "Illuskan", "Céleste"],
+    "Earth Genasi":    ["Terran", "Chondathan", "Nain", "Thorass", "Draconique"],
+    "Fire Genasi":     ["Ignan", "Calishite", "Thorass", "Draconique", "Chondathan"],
+    "Water Genasi":    ["Aquan", "Chondathan", "Turami", "Thorass", "Draconique"],
+
+    "Lightfoot Halfling":  ["Chondathan", "Illuskan", "Thorass", "Gnomish", "Druidic"],
+    "Strongheart Halfling": ["Chondathan", "Damaran", "Thorass", "Gnomish", "Druidic"],
+
+    # Humains obscurs / régionaux encore manquants
+    "Bedine":      ["Midani", "Shaaran", "Chondathan", "Thorass", "Druidic"],
+    "Nar":         ["Damaran", "Chondathan", "Rashemi", "Thorass", "Vaasan"],
+    "Halruaan":    ["Halruaan", "Chondathan", "Thorass", "Lantanna", "Mulhorandi"],
+    "Imaskari":    ["Imaskari", "Chondathan", "Mulhorandi", "Thorass", "Draconique"],
+    "Lantanna":    ["Lantanna", "Chondathan", "Thorass", "Calishite", "Illuskan"],
+    "Maztican":    ["Maztican", "Nexalan", "Chultan", "Thorass", "Tashalan"],
+    "Shou":        ["Shou", "Tuigan", "Chondathan", "Thorass", "Draconique"],
+    "Talfir":      ["Talfir", "Chondathan", "Tethyrian", "Thorass", "Druidic"],
+    "Tashalan":    ["Tashalan", "Chultan", "Calishite", "Thorass", "Maztican"],
+    "Drow":        ["Glifo (Drow)", "Undercommon", "Abyssal", "Infernal", "Draconique"],
+
+    # Elfes principaux (qui manquaient en bonus)
+    "Moon Elf":    ["Elfique", "Sylvestre", "Elven High Speech", "Thorass", "Druidic"],
+    "Sun Elf":     ["Elfique", "Elven High Speech", "Sylvestre", "Céleste", "Thorass"],
+    "Wood Elf":    ["Elfique", "Sylvestre", "Druidic", "Elven High Speech", "Thorass"],
+    "Wild Elf":    ["Elfique", "Sylvestre", "Druidic", "Géant", "Thorass"],
+    "Sea Elf":     ["Elfique", "Aquan", "Sylvestre", "Chondathan", "Thorass"],
+    "Star Elf":    ["Elfique", "Elven High Speech", "Sylvestre", "Céleste", "Thorass"],
+
+    # === Dernières 14 (fin de la passe bonus languages) ===
+    "Aasimar":         ["Céleste", "Thorass", "Chondathan", "Elven High Speech", "Draconique"],
+    "Avariel":         ["Elfique", "Auran", "Elven High Speech", "Céleste", "Sylvestre"],
+    "Lythari":         ["Elfique", "Sylvestre", "Druidic", "Géant", "Elven High Speech"],
+    "Forest Gnome":    ["Gnomish", "Sylvestre", "Druidic", "Elfique", "Thorass"],
+    "Rock Gnome":      ["Gnomish", "Nain", "Thorass", "Draconique", "Chondathan"],
+    "Ghostwise Halfling": ["Druidic", "Sylvestre", "Gnomish", "Uthgardt", "Thorass"],
+    "Gur":             ["Rashemi", "Damaran", "Chondathan", "Thorass", "Shaaran"],
+    "Half-Orc Mountain": ["Orc", "Géant", "Illuskan", "Uthgardt", "Thorass"],
+    "Netherese":       ["Netherese", "Thorass", "Draconique", "High Netherese", "Céleste"],
+    "Raumviran":       ["Raumviran", "Damaran", "Shou", "Thorass", "Chondathan"],
+    "Reghedman":       ["Reghed", "Illuskan", "Géant", "Uthgardt", "Thorass"],
+    "Tiefling":        ["Infernal", "Abyssal", "Thorass", "Chondathan", "Draconique"],
+    "Tuigan":          ["Tuigan", "Shou", "Géant", "Thorass", "Chondathan"],
+    "Ulutiun":         ["Uluik", "Illuskan", "Géant", "Thorass", "Sossrim"],
 
     # === Default ===
     "Default": ["Chondathan", "Illuskan", "Elfique", "Thorass", "Sylvestre"]
@@ -307,6 +403,7 @@ region_bonus_languages: Dict[int, List[str]] = {
 
     # === 120-133 ===
     120: ["Glifo (Drow)", "Undercommon", "Abyssal", "Infernal", "Draconique"], # Pics de Mir
+    121: ["Shaaran", "Chultan", "Elfique", "Druidic", "Yuan-ti"],          # Bois de Shaar
     122: ["Undercommon", "Orc", "Goblin", "Infernal", "Draconique"],       # Outreterre profonde
     123: ["Sylvestre", "Druidic", "Elfique", "Géant", "Auran"],            # Lycanthropes
     124: ["Sylvestre", "Elven High Speech", "Druidic", "Géant", "Chondathan"], # Wemics
@@ -319,6 +416,79 @@ region_bonus_languages: Dict[int, List[str]] = {
     131: ["Chondathan", "Illuskan", "Thorass", "Sembian", "Cormyrian"],    # Vaillants
     132: ["Undercommon", "Glifo (Drow)", "Infernal", "Abyssal", "Draconique"], # Kir-lanan
     133: ["Shadow Weave", "Infernal", "Céleste", "Abyssal", "Thayan"],     # Reflets (Shades)
+
+    # === RÉGIONS OBSCURES / MANQUANTES - Bonus languages plus intéressants ===
+    # Sud et Royaumes du Sud
+    51: ["Mulhorandi", "Untheric", "Chessentan", "Thayan", "Infernal"],     # Old Empires
+    52: ["Aglarondan", "Rashemi", "Thayan", "Chondathan", "Elfique"],       # Unapproachable East
+    53: ["Chondathan", "Tethyrian", "Illuskan", "Elfique", "Thorass"],      # Western Heartlands
+    54: ["Chondathan", "Illuskan", "Thorass", "Tethyrian", "Elfique"],      # Sword Coast
+    56: ["Chondathan", "Tethyrian", "Chessentan", "Thorass", "Infernal"],   # Dragon Coast
+    57: ["Illuskan", "Reghed", "Géant", "Uluik", "Sossrim"],                # Great Glacier
+    58: ["Chondathan", "Sembian", "Impilturan", "Theskian", "Thorass"],     # Inner Sea
+    60: ["Dambrathan", "Chultan", "Shaaran", "Yuan-ti", "Infernal"],        # Dambrath
+    61: ["Durpari", "Halruaan", "Chondathan", "Tashalan", "Thorass"],       # Estagund
+    62: ["Durpari", "Chondathan", "Halruaan", "Thorass", "Lantanna"],       # Var the Golden
+    63: ["Shaaran", "Chultan", "Dambrathan", "Tashalan", "Yuan-ti"],        # Shaarmid
+    64: ["Thindol", "Chultan", "Tashalan", "Shaaran", "Dambrathan"],        # Thindol
+    65: ["Samarach", "Chultan", "Tashalan", "Shaaran", "Infernal"],         # Samarach
+
+    # Nord et Terres Froides
+    67: ["Illuskan", "Northlander", "Reghed", "Géant", "Sossrim"],          # The Shining South (Nord)
+    68: ["Illuskan", "Uluik", "Géant", "Sossrim", "Reghed"],                # Ymber
+    69: ["Illuskan", "Northlander", "Chondathan", "Thorass", "Elfique"],    # Nelanther Isles
+    70: ["Illuskan", "Northlander", "Géant", "Reghed", "Sossrim"],          # The Whalebones
+
+    # Mers et zones isolées
+    71: ["Illuskan", "Northlander", "Chondathan", "Elfique", "Thorass"],    # The Trackless Sea
+    72: ["Illuskan", "Reghed", "Uluik", "Géant", "Sossrim"],                # The Cold Lands
+    73: ["Tuigan", "Shou", "Géant", "Chondathan", "Thorass"],               # The Endless Wastes (bis)
+    74: ["Chondathan", "Impilturan", "Theskian", "Rashemi", "Thorass"],     # The Great Dale
+    75: ["Thayan", "Mulhorandi", "Infernal", "Chessentan", "Untheric"],     # The Plateau of Thay
+    76: ["Chondathan", "Impilturan", "Theskian", "Aglarondan", "Thorass"],  # The Easting Reach
+    77: ["Elfique", "Sylvestre", "Druidic", "Thorass", "Chondathan"],       # The Forgotten Forest
+    78: ["Chondathan", "Illuskan", "Thorass", "Elfique", "Northlander"],    # The Lone Rock
+    79: ["Chondathan", "Tethyrian", "Elfique", "Druidic", "Thorass"],       # The Reaching Woods
+    80: ["Chondathan", "Sembian", "Cormyrian", "Thorass", "Géant"],         # The Thunder Peaks
+    81: ["Chondathan", "Damaran", "Vaasan", "Illuskan", "Thorass"],         # The Ride
+    82: ["Aglarondan", "Elfique", "Chondathan", "Sylvestre", "Thorass"],    # Aglarondine
+    83: ["Bedine", "Midani", "Shaaran", "Chondathan", "Thorass"],           # Bedine
+    84: ["Nain", "Géant", "Undercommon", "Thorass", "Illuskan"],            # Barakuir
+    85: ["Chondathan", "Tethyrian", "Elfique", "Druidic", "Thorass"],       # Chondalwood
+
+    # Zones souterraines et spéciales
+    88: ["Nain", "Undercommon", "Géant", "Glifo (Drow)", "Draconique"],      # Cité Souterraine Mixte
+    89: ["Chondathan", "Illuskan", "Thorass", "Elfique", "Nain"],            # Eauprofonde (eau profonde)
+    90: ["Nain", "Géant", "Uluik", "Illuskan", "Reghed"],                    # Épine dorsale (Nains arctiques)
+
+    # Forêts et régions sauvages
+    91: ["Chultan", "Shaaran", "Elfique", "Druidic", "Yuan-ti"],             # Forêt d’Amtar / Methwood
+    92: ["Nain", "Géant", "Undercommon", "Thorass", "Illuskan"],            # Forteresses isolées
+    93: ["Nain", "Undercommon", "Glifo (Drow)", "Draconique", "Infernal"],   # Gracklstugh
+    94: ["Nain", "Géant", "Undercommon", "Thorass", "Chondathan"],           # Grande Faille
+    95: ["Illuskan", "Uluik", "Géant", "Reghed", "Sossrim"],                # Grand Glacier
+    96: ["Illuskan", "Uluik", "Géant", "Reghed", "Sossrim"],                # Glacière éternelle
+    97: ["Illuskan", "Northlander", "Chondathan", "Elfique", "Thorass"],    # Ruathym
+    98: ["Chondathan", "Tethyrian", "Elfique", "Druidic", "Thorass"],       # Luirwood
+    99: ["Elfique", "Sylvestre", "Elven High Speech", "Druidic", "Thorass"],# Myth Drannor
+
+    # Zones exotiques et lointaines
+    101: ["Chondathan", "Damaran", "Vaasan", "Illuskan", "Thorass"],        # Valbise
+    102: ["Chondathan", "Tethyrian", "Infernal", "Elfique", "Thorass"],    # Vallée de la Flamme
+    103: ["Chondathan", "Tethyrian", "Illuskan", "Druidic", "Thorass"],    # Les Vaux
+    104: ["Chondathan", "Sembian", "Impilturan", "Theskian", "Thorass"],   # Vast
+    106: ["Chultan", "Shaaran", "Yuan-ti", "Tashalan", "Dambrathan"],      # Zakharans (approximatif)
+    108: ["Chultan", "Yuan-ti", "Draconique", "Abyssal", "Undercommon"],   # Outreterre tropicale
+    109: ["Gnomish", "Elfique", "Sylvestre", "Druidic", "Thorass"],         # Forêts du Nord (Gnomes)
+    110: ["Elfique", "Sylvestre", "Elven High Speech", "Druidic", "Céleste"], # Éternelle-Rencontre
+    111: ["Elfique", "Sylvestre", "Auran", "Elven High Speech", "Céleste"], # Lunargent
+    112: ["Aglarondan", "Elfique", "Chondathan", "Sylvestre", "Thorass"],  # Bois de Yuir
+    113: ["Shaaran", "Chultan", "Dambrathan", "Yuan-ti", "Géant"],         # Montagnes du Shaar
+    114: ["Tuigan", "Shou", "Géant", "Chondathan", "Thorass"],             # Vil Adanrath
+    115: ["Draconique", "Infernal", "Chondathan", "Thorass", "Géant"],     # Tymanther
+    116: ["Illuskan", "Uluik", "Géant", "Reghed", "Sossrim"],              # Icerim Mountains
+    117: ["Chondathan", "Theskian", "Rashemi", "Thayan", "Thorass"],       # Montagnes Theskiennes
+    118: ["Nain", "Géant", "Undercommon", "Chondathan", "Thorass"],        # Montagnes de Cuivre
 
     # === Fallback ===
     0: ["Chondathan", "Illuskan", "Elfique", "Thorass", "Sylvestre"]
@@ -337,6 +507,28 @@ def generate_languages(
     skill_modifier: int = 0
 ) -> List[str]:
     """Génère les langues parlées"""
+
+    # Normalisation des anciens noms (après standardisation)
+    alias_map = {
+        "Demi-elfe": "Half-Elf",
+        "Elf Wood": "Wood Elf",
+        "Elf Moon": "Moon Elf",
+        "Elf Sun": "Sun Elf",
+        "Elf Drow": "Drow",
+        "Elf Sea": "Sea Elf",
+        "Elf Star": "Star Elf",
+        "Elf Wild": "Wild Elf",
+        "Elf Avariel": "Avariel",
+        "Elf Lythari": "Lythari",
+        "Half-Elf Wood": "Wood Half-elf",
+        "Half-Elf Moon": "Moon Half-elf",
+        "Half-Elf Sun": "Sun Half-elf",
+        "Half-Elf Drow": "Drow Half-elf",
+        "Half-Elf Sea": "Sea Half-elf",
+        "Half-Elf Wild": "Wild Half-elf",
+    }
+    ethnicity = alias_map.get(ethnicity, ethnicity)
+
     languages = set()
 
     # 1. Langue ethnique de base

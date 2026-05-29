@@ -58,20 +58,19 @@ ethnicity_data = {
 
 
     # ==================== ELFES ====================
-    "Elf Moon":        {"idx": 31, "r": "Elfe", "w": -3,  "b": -6,  "bal": 1, "quickness": 1, "coo": 1, "pre": 1, "end": 0, "reg": 1, "vig": 2, "bea": 3, "spec": "Transe + Immunité sommeil + VN (N2)", "cp": 3.0},
-    "Elf Sun":         {"idx": 33, "r": "Elfe", "w": -3,  "b": -6,  "bal": 1, "quickness": 1, "coo": 1,  "pre": 1, "end": 0, "reg": 1, "vig": 2, "bea": 3, "spec": "Transe + Immunité sommeil + VN (N2)", "cp": 3.0},
-    "Elf Wood":        {"idx": 30, "r": "Elfe", "w": -1,  "b": -2,   "bal": 1, "quickness": 1, "coo": 1, "pre": 1, "end": 1, "reg": 1, "vig": 2, "bea": 2, "spec": "Transe + Immunité sommeil + VN (N2)", "cp": 3.0},
-    "Elf Wild":        {"idx": 34, "r": "Elfe", "w": -1,  "b": -2,   "bal": 1, "quickness": 1, "coo": 1, "pre": 1, "end": 1, "reg": 2, "vig": 1, "bea": 1, "spec": "Transe + Immunité sommeil + VN (N2)", "cp": 3.0},
-    "Elf Drow":        {"idx": 32, "r": "Elfe", "w": -7,  "b": -2,  "bal": 2, "quickness": 2, "coo": 2, "pre": 2, "end": 1, "reg": 1, "vig": 3, "bea": 1, "spec": "Darkvision + sorts innés", "cp": 5.0},
-    "Elf Sea":         {"idx": 35, "r": "Elfe", "w": 1,  "b": 0,  "bal": 1, "quickness": 1, "coo": 1, "pre": 0, "end": 2, "reg": 2, "vig": 2, "bea": 2, "spec": "Respiration aquatique", "cp": 3.0},
-    "Elf Star":        {"idx": 36, "r": "Elfe", "w": -3,  "b": -6,  "bal": 1, "quickness": 1, "coo": 1, "pre": 1, "end": 0, "reg": 1, "vig": 3, "bea": 4, "spec": "Magie stellaire innée", "cp": 3.5},
-    "Elf Avariel":     {"idx": 37, "r": "Elfe", "w": -3,  "b": -6,  "bal": 1, "quickness": 1, "coo": 1, "pre": 1, "end": 1, "reg": 2, "vig": 2, "bea": 2, "spec": "Lycanthropie lupine contrôlée", "cp": 3.0},
-    "Elf Lythari":     {"idx": 38, "r": "Elfe", "w": -2,  "b": -3,  "bal": 1, "quickness": 1, "coo": 1, "pre": 1, "end": 1, "reg": 2, "vig": 2, "bea": 2, "spec": "Lycanthropie lupine contrôlée", "cp": 3.0},
+    "Moon Elf":        {"idx": 31, "r": "Elfe", "w": -3,  "b": -6,  "bal": 1, "quickness": 1, "coo": 1, "pre": 1, "end": 0, "reg": 1, "vig": 2, "bea": 3, "spec": "Transe + Immunité sommeil + VN (N2)", "cp": 3.0},
+    "Sun Elf":         {"idx": 33, "r": "Elfe", "w": -3,  "b": -6,  "bal": 1, "quickness": 1, "coo": 1,  "pre": 1, "end": 0, "reg": 1, "vig": 2, "bea": 3, "spec": "Transe + Immunité sommeil + VN (N2)", "cp": 3.0},
+    "Wood Elf":        {"idx": 30, "r": "Elfe", "w": -1,  "b": -2,   "bal": 1, "quickness": 1, "coo": 1, "pre": 1, "end": 1, "reg": 1, "vig": 2, "bea": 2, "spec": "Transe + Immunité sommeil + VN (N2)", "cp": 3.0},
+    "Wild Elf":        {"idx": 34, "r": "Elfe", "w": -1,  "b": -2,   "bal": 1, "quickness": 1, "coo": 1, "pre": 1, "end": 1, "reg": 2, "vig": 1, "bea": 1, "spec": "Transe + Immunité sommeil + VN (N2)", "cp": 3.0},
+    "Drow":            {"idx": 32, "r": "Elfe", "w": -7,  "b": -2,  "bal": 2, "quickness": 2, "coo": 2, "pre": 2, "end": 1, "reg": 1, "vig": 3, "bea": 1, "spec": "Darkvision + sorts innés", "cp": 5.0},
+    "Sea Elf":         {"idx": 35, "r": "Elfe", "w": 1,  "b": 0,  "bal": 1, "quickness": 1, "coo": 1, "pre": 0, "end": 2, "reg": 2, "vig": 2, "bea": 2, "spec": "Respiration aquatique", "cp": 3.0},
+    "Star Elf":        {"idx": 36, "r": "Elfe", "w": -3,  "b": -6,  "bal": 1, "quickness": 1, "coo": 1, "pre": 1, "end": 0, "reg": 1, "vig": 3, "bea": 4, "spec": "Magie stellaire innée", "cp": 3.5},
+    "Avariel":         {"idx": 37, "r": "Elfe", "w": -3,  "b": -6,  "bal": 1, "quickness": 1, "coo": 1, "pre": 1, "end": 1, "reg": 2, "vig": 2, "bea": 2, "spec": "Lycanthropie lupine contrôlée", "cp": 3.0},
+    "Lythari":         {"idx": 38, "r": "Elfe", "w": -2,  "b": -3,  "bal": 1, "quickness": 1, "coo": 1, "pre": 1, "end": 1, "reg": 2, "vig": 2, "bea": 2, "spec": "Lycanthropie lupine contrôlée", "cp": 3.0},
 
     # ==================== GNOMES ====================
     "Rock Gnome":      {"idx": 40, "r": "Gnome", "w": -15, "b": 10, "bal": 2, "quickness": 1, "coo": 2, "pre": 2, "end": 1, "reg": 1, "vig": 1, "bea": 0, "spec": "Vision nocturne N1", "cp": 1.5},
     "Forest Gnome":    {"idx": 41, "r": "Gnome", "w": -15, "b": 10, "bal": 3, "quickness": 2, "coo": 2, "pre": 2, "end": 0, "reg": 1, "vig": 2, "bea": 1, "spec": "Vision nocturne N1, Affinité nature", "cp": 1.5},
-    "Deep Gnome":      {"idx": 42, "r": "Gnome", "w": -15, "b": 10, "bal": 2, "quickness": 1, "coo": 2, "pre": 2, "end": 1, "reg": 1, "vig": 1, "bea": -1, "spec": "Vision dans le noir", "cp": 1.5},
 
     # ==================== HALFLINGS ====================
     "Lightfoot Halfling":   {"idx": 13, "r": "Halfelin", "w": -20, "b": -1, "bal": 5, "quickness": 5, "coo": 5, "pre": 2, "end": 1, "reg": 0, "vig": 2, "bea": 2, "spec": "Furtivité", "cp": 1},

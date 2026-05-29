@@ -14,7 +14,7 @@ outdoor_skills_list = [
     "Technical Rock Climbing", "Complex Terrain Navigation", "Desert Water Mastery",
     "Desert Thermal Endurance", "Open Land Navigation", "Marsh Movement", "Marsh Disease Resistance",
     "Wetland Tracking", "Extreme Cold Resistance", "Snow and Ice Shelter Building", "Arctic Hunting",
-    "Total Darkness Navigation", "Subterranean Hazard Resistance", "Confined Space Stealth",
+    "Total Darkness Navigation", "Subterranean Hazard Resistance", "Confined Space Stealth", "Underground Navigation",
     "Oceanic Navigation", "Deep-Sea Fishing", "Storm and Seasickness Mastery", "Plains Tracking",
     "Savanna Plant Knowledge", "Coastal Survival", "Littoral Foraging", "Island Navigation",
     "Trapping and Snaring", "Game Butchering and Preservation", "Weather Reading",
@@ -231,18 +231,18 @@ ethnicity_outdoor_bias: Dict[str, List[str]] = {
     "Vaasan": ["Mountain Endurance", "Technical Rock Climbing", "Extreme Cold Resistance"],
 
     # === ELFES & DEMI-ELFES ===
-    "Elf Wood": ["Forest Stealth", "Wild Plant Foraging", "Complex Terrain Navigation"],
-    "Elf Wild": ["Forest Stealth", "Advanced Tracking", "Wild Plant Foraging"],
-    "Elf Moon": ["Forest Stealth", "Wild Plant Foraging", "Complex Terrain Navigation"],
-    "Elf Sun": ["Forest Stealth", "Complex Terrain Navigation", "Mountain Endurance"],
-    "Elf Drow": ["Underground Navigation", "Confined Space Stealth", "Technical Rock Climbing"],
-    "Elf Sea": ["Coastal Survival", "Oceanic Navigation", "Dark Water Swimming"],
+    "Wood Elf": ["Forest Stealth", "Wild Plant Foraging", "Complex Terrain Navigation"],
+    "Wild Elf": ["Forest Stealth", "Advanced Tracking", "Wild Plant Foraging"],
+    "Moon Elf": ["Forest Stealth", "Wild Plant Foraging", "Complex Terrain Navigation"],
+    "Sun Elf": ["Forest Stealth", "Complex Terrain Navigation", "Mountain Endurance"],
+    "Drow": ["Underground Navigation", "Confined Space Stealth", "Technical Rock Climbing"],
+    "Sea Elf": ["Coastal Survival", "Oceanic Navigation", "Dark Water Swimming"],
     "Half-Elf": ["Forest Stealth", "Wild Plant Foraging", "Coastal Survival"],
-    "Half-Elf Wood": ["Forest Stealth", "Wild Plant Foraging", "Complex Terrain Navigation"],
-    "Half-Elf Moon": ["Forest Stealth", "Wild Plant Foraging", "Complex Terrain Navigation"],
-    "Half-Elf Sun": ["Forest Stealth", "Complex Terrain Navigation", "Mountain Endurance"],
-    "Half-Elf Drow": ["Underground Navigation", "Confined Space Stealth", "Technical Rock Climbing"],
-    "Half-Elf Sea": ["Coastal Survival", "Oceanic Navigation", "Dark Water Swimming"],
+    "Wood Half-elf": ["Forest Stealth", "Wild Plant Foraging", "Complex Terrain Navigation"],
+    "Moon Half-elf": ["Forest Stealth", "Wild Plant Foraging", "Complex Terrain Navigation"],
+    "Sun Half-elf": ["Forest Stealth", "Complex Terrain Navigation", "Mountain Endurance"],
+    "Drow Half-elf": ["Underground Navigation", "Confined Space Stealth", "Technical Rock Climbing"],
+    "Sea Half-elf": ["Coastal Survival", "Oceanic Navigation", "Dark Water Swimming"],
 
     # === NAINS ===
     "Shield Dwarf": ["Mountain Endurance", "Technical Rock Climbing", "Underground Navigation"],
@@ -267,6 +267,24 @@ ethnicity_outdoor_bias: Dict[str, List[str]] = {
     "Kenku": ["Forest Stealth", "Advanced Tracking", "Plains Tracking"],
     "Lizardfolk": ["Marsh Movement", "Marsh Disease Resistance", "Dark Water Swimming"],
     "Aasimar": ["Forest Stealth", "Wild Plant Foraging", "Mountain Endurance"],
+
+    # ==================== GENASI ====================
+    "Air Genasi": ["Open Land Navigation", "Complex Terrain Navigation", "Weather Reading"],
+    "Earth Genasi": ["Mountain Endurance", "Technical Rock Climbing", "Forced March Endurance"],
+    "Fire Genasi": ["Desert Water Mastery", "Desert Thermal Endurance", "Open Land Navigation"],
+    "Water Genasi": ["Dark Water Swimming", "Coastal Survival", "Oceanic Navigation"],
+
+    # ==================== HALFLINGS ====================
+    "Lightfoot Halfling": ["Plains Tracking", "Wild Plant Foraging", "Forest Stealth"],
+    "Strongheart Halfling": ["Plains Tracking", "Advanced Tracking", "Wild Plant Foraging"],
+
+    # ==================== AUTRES ETHNIES HUMAINES ====================
+    "Nar": ["Forest Stealth", "Advanced Tracking", "Plains Tracking"],
+    "Reghedman": ["Arctic Hunting", "Extreme Cold Resistance", "Snow and Ice Shelter Building"],
+
+    # ==================== AUTRES RACES (suite) ====================
+    "Triton": ["Dark Water Swimming", "Oceanic Navigation", "Coastal Survival"],
+    "Yuan-ti Pureblood": ["Marsh Movement", "Marsh Disease Resistance", "Wild Plant Foraging"],
     "Aarakocra": ["Mountain Endurance", "Complex Terrain Navigation", "Forest Stealth"],
     "Centaur": ["Plains Tracking", "Advanced Tracking", "Open Land Navigation"],
     "Yuan-ti": ["Marsh Movement", "Marsh Disease Resistance", "Wild Plant Foraging"],
@@ -293,19 +311,44 @@ ethnicity_outdoor_bias: Dict[str, List[str]] = {
 # =============================================
 def get_outdoor_skill_count(settlement_type: str) -> int:
     st = settlement_type.lower()
-    if any(x in st for x in ["métropole", "capitale", "grande ville"]):
+    
+    # Big urban / major settlements (low outdoor)
+    big_urban = [
+        "metropolis", "major port city", "major trade city",
+        "capitale", "grande métropole", "grande ville",
+        "underdark city", "dwarven fortress", "elven enclave"
+    ]
+    # Medium settlements
+    medium = [
+        "large town", "fortified city", "small town",
+        "ville moyenne", "bourg"
+    ]
+    
+    if any(x in st for x in big_urban):
         return random.choices([0, 1, 2, 3], weights=[35, 35, 20, 10])[0]
-    elif any(x in st for x in ["ville moyenne", "bourg"]):
+    elif any(x in st for x in medium):
         return random.choices([1, 2, 3, 4], weights=[25, 35, 25, 15])[0]
     else:
+        # Rural, villages, camps, outposts, etc.
         return random.choices([3, 4, 5, 6], weights=[15, 25, 35, 25])[0]
 
 
 def get_urban_skill_count(settlement_type: str) -> int:
     st = settlement_type.lower()
-    if any(x in st for x in ["métropole", "capitale", "grande ville"]):
+    
+    big_urban = [
+        "metropolis", "major port city", "major trade city",
+        "capitale", "grande métropole", "grande ville",
+        "underdark city", "dwarven fortress", "elven enclave"
+    ]
+    medium = [
+        "large town", "fortified city", "small town",
+        "ville moyenne", "bourg"
+    ]
+    
+    if any(x in st for x in big_urban):
         return random.choices([3, 4, 5, 6], weights=[15, 25, 35, 25])[0]
-    elif any(x in st for x in ["ville moyenne", "bourg"]):
+    elif any(x in st for x in medium):
         return random.choices([2, 3, 4], weights=[25, 40, 35])[0]
     else:
         return random.choices([0, 1, 2], weights=[40, 35, 25])[0]

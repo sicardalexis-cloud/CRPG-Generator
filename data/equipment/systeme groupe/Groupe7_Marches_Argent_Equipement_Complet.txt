@@ -1,0 +1,264 @@
+================================================================================
+GROUPE 7 – BLOC MARCHES D’ARGENT
+(Silver Marches / Luruar)
+Niveau Tech : 5-6 (Late Middle Ages → Early Renaissance)
+================================================================================
+
+RÈGLE D’UTILISATION :
+- Tout objet de niveau tech 5 à 6 est **facilement disponible** au prix indiqué.
+- Les **armes à poudre** ont été **triplées** (x3).
+- Mélange unique d’influence naine, humaine et elfe.
+- Prix en pièces d’argent (sp) sauf indication contraire.
+- Disponibilité : Toujours / Commun = disponible dans les Marches d’Argent.
+
+================================================================================
+1. ARMURES TEXTILES ET MATELASSÉES
+================================================================================
+
+Reinforced Gambeson          65 sp     Tech 5    Commun
+Padded Jack                   85 sp     Tech 5    Commun
+Brigandine                   145 sp     Tech 5-6  Commun
+Jack of Plates               125 sp     Tech 7    Rare
+Arming Doublet                95 sp     Tech 7    Rare
+
+================================================================================
+2. PIÈCES D’ARMURE COURANTES + MODULAIRES
+================================================================================
+
+--- Pièces communes (tech 5-6) ---
+Kettle hat                    28 sp     Tech 5    Commun
+Mail coif                     22 sp     Tech 5    Commun
+Simple Breastplate            50 sp     Tech 5    Commun
+Fauld                         32 sp     Tech 6    Commun
+Besagews (paire)              20 sp     Tech 6    Commun
+Plackart                      40 sp     Tech 6    Commun
+Couter (paire)                16 sp     Tech 6    Commun
+Mail voiders (paire)          20 sp     Tech 6    Commun
+Bevor                         28 sp     Tech 6    Commun
+Garde-reins                   35 sp     Tech 6    Commun
+
+--- XVe Siècle (Gothic – tech 6) ---
+Haubergeon / Collerette       50 sp     Tech 6    Commun
+Breastplate + Backplate (classique)   80 sp     Tech 6    Commun
+Gorget (élevé)                25 sp     Tech 6    Commun
+Vambraces + Couter            35 sp     Tech 6    Commun
+Tassets                       25 sp     Tech 6    Commun
+Sallet ou Armet (classique)   55 sp     Tech 6    Commun
+
+--- XVIe Siècle (Maximilian – tech 7) ---
+Maille collerette ou manches  32 sp     Tech 7    Rare
+Breastplate + Backplate (renforcé)     95 sp     Tech 7    Rare
+Pauldrons + Gardes            38 sp     Tech 7    Rare
+Vambraces + Couter + Rerebrace        42 sp     Tech 7    Rare
+Gauntlets (renforcés)         28 sp     Tech 7    Rare
+Tassets longs                 32 sp     Tech 7    Rare
+Cuisses (renforcées)          34 sp     Tech 7    Rare
+Close Helmet (Maximilian)     65 sp     Tech 7    Rare
+Burgonet (Maximilian)         55 sp     Tech 7    Rare
+
+================================================================================
+3. BOUCLIERS
+================================================================================
+
+Target shield                 35 bp     Tech 4-5  Commun
+Normal shield                 55 bp     Tech 5    Commun
+Full shield                    7 sp     Tech 5    Commun
+Heater shield                 45 bp     Tech 5    Commun
+Kite shield                   60 bp     Tech 4-5  Commun
+
+================================================================================
+4. ARMES – LISTE EXHAUSTIVE
+================================================================================
+
+--- Armes de base rudimentaires (disponibles dans tous les groupes) ---
+Club (rudimentaire)           5 sp      Tech 0    Toujours
+Bâton / Staff                 3 sp      Tech 0    Toujours
+Gourdin / Cudgel              6 sp      Tech 0    Toujours
+Lance rudimentaire            8 sp      Tech 1    Toujours
+
+--- Épées & Armes de taille ---
+Arming Sword                  45 sp     Tech 4    Commun            3
+Longsword                     65 sp     Tech 5    Commun            4
+Falchion                      45 sp     Tech 5    Commun            3
+Scimitar                      48 sp     Tech 5    Rare              3
+Rapier                        80 sp     Tech 6    Rare              3
+Sidesword                     65 sp     Tech 6    Rare              3
+Broadsword                    55 sp     Tech 6    Commun            3
+Estoc                         70 sp     Tech 6    Rare              3
+Cutlass                       48 sp     Tech 6    Rare              3
+Main-gauche                   32 sp     Tech 6    Rare              1
+
+--- Armes d’hast & Piques ---
+Spear                         23 bp     Tech 4    Commun            3
+Lance                         32 sp     Tech 4    Commun            3
+Pike                          40 sp     Tech 6    Rare              5
+Halberd                       65 sp     Tech 5    Commun
+Poleaxe                       70 sp     Tech 5    Commun
+Bill                          57 sp     Tech 5    Commun
+Glaive                        55 sp     Tech 5    Commun
+Voulge                        48 sp     Tech 5    Commun
+Bec de Corbin                 65 sp     Tech 6    Rare
+Partisan                      52 sp     Tech 6    Rare
+Ranseur                       50 sp     Tech 5    Commun
+Military Fork                 48 sp     Tech 5    Commun
+Lucerne Hammer                62 sp     Tech 5    Commun
+
+--- Armes contondantes ---
+Mace                          38 sp     Tech 4    Commun
+Flanged Mace                  55 sp     Tech 5    Commun
+Morning Star                  50 sp     Tech 5    Commun
+War Hammer                    40 sp     Tech 4    Commun
+War Hammer (Renaissance)      52 sp     Tech 7    Rare
+Maul                          45 sp     Tech 5    Commun
+
+--- Armes à distance ---
+Longbow                       30 sp     Tech 5    Commun
+Short bow                      6 sp     Tech 3-4  Commun
+Crossbow                      85 sp     Tech 5    Commun
+Heavy Crossbow                95 sp     Tech 5    Commun
+Light Crossbow                55 sp     Tech 5    Commun
+Composite Crossbow            75 sp     Tech 5    Commun
+Cranequin Crossbow           140 sp     Tech 7    Rare
+Javelin (Renaissance)         22 sp     Tech 7    Rare
+War Dart                      16 sp     Tech 4    Commun
+
+--- ARMES À POUDRE (PRIX TRIPLÉS) ---
+Handgonne                    480 sp     Tech 5    Rare       (x3)
+Arquebus                     390 sp     Tech 7    Rare       (x3)
+Musket                       540 sp     Tech 7    Rare       (x3)
+Wheellock Pistol             330 sp     Tech 7    Rare       (x3)
+Flintlock Pistol             255 sp     Tech 8    Très rare  (x3)
+
+================================================================================
+5. MONTURES + BARDAGE POUR CHEVAUX
+================================================================================
+
+--- Montures ---
+Rouncey                       45 sp     Tech 3    Commun
+Courser                       62 sp     Tech 4    Commun
+Palfrey                       57 sp     Tech 4    Commun
+Destrier                     130 sp     Tech 4    Commun
+Destrier (quality)           200 sp     Tech 7    Rare
+Camel, riding                 15 gp     Tech 3    Rare
+
+--- Bardage (Horse Armor) ---
+Leather barding               35 sp     Tech 4    Commun
+Chain barding                150 sp     Tech 5    Commun
+Plate mail barding           300 sp     Tech 6-7  Rare
+Leather chanfron               6 sp     Tech 4    Commun
+Plate chanfron                 9 sp     Tech 5    Rare
+Leather crinet                 5 sp     Tech 4    Commun
+Chain crinet                  27 sp     Tech 5    Commun
+Plate crinet                   5 gp     Tech 6    Rare
+
+================================================================================
+6. ÉQUIPEMENT DE VOYAGE & SURVIE
+================================================================================
+
+Backpack (small leather)       2 bp     Tech 3    Toujours
+Backpack (medium leather)      4 bp     Tech 3    Toujours
+Backpack (large leather)       7 bp     Tech 3    Toujours
+Tent 2-man leather            15 sp     Tech 2    Commun
+Tent 4-man leather            25 sp     Tech 2    Commun
+Tent 8-man leather            50 sp     Tech 2    Rare
+Pavillion                    100 sp     Tech 4    Rare
+Sleeping furs (light)         50 cp     Tech 3    Toujours
+Sleeping furs (heavy)         75 cp     Tech 3    Commun
+Blanket (light)               20 cp     Tech 3    Toujours
+Blanket (heavy)               30 cp     Tech 3    Toujours
+Rope light (50')               4 cp     Tech 3    Toujours
+Rope standard (50')            6 cp     Tech 3    Toujours
+Grappling hook                12 bp     Tech 4    Commun
+Flint & steel                  1 sp     Tech 4    Toujours
+Tinderbox                      3 cp     Tech 3    Toujours
+Fishing net (small)            5 sp     Tech 3    Commun
+Fishing net (large)            8 sp     Tech 3    Commun
+Fishhook & line                2 tp     Tech 3    Toujours
+Fish trap                      3 bp     Tech 3    Commun
+Waterskin (1 gal)              3 bp     Tech 3    Toujours
+Waterskin (5 gal)              7 bp     Tech 3    Commun
+Canteen (1 pt)                 2 cp     Tech 3    Toujours
+Lantern (hooded)               5 bp     Tech 3    Toujours
+Lamp oil                       1 bp     Tech 3    Toujours
+Compass                        1 sp     Tech 7    Rare
+Spyglass                       8 gp     Tech 8    Rare
+
+================================================================================
+7. VÊTEMENTS & ACCESSOIRES
+================================================================================
+
+Cloak (wool)                   9 bp     Tech 3    Toujours
+Cloak (fur-lined)             25 bp     Tech 3    Commun
+Cloak (hooded wool)           12 bp     Tech 3    Toujours
+Coat (leather)                18 bp     Tech 3    Commun
+Gloves (leather)               2 bp     Tech 3    Toujours
+Gloves (fur lined)             4 bp     Tech 3    Commun
+Boots (normal leather)         5 bp     Tech 3    Toujours
+Boots (fine leather)           2 sp     Tech 4    Commun
+Belt (leather)                10 cp     Tech 3    Toujours
+Belt pouch (small)             8 tp     Tech 3    Toujours
+Belt pouch (large)            14 tp     Tech 3    Commun
+Hat (leather)                  1 bp     Tech 3    Toujours
+
+================================================================================
+8. OUTILS & ARTISANAT
+================================================================================
+
+Lockpicks (poor)               6 bp     Tech 4    Commun
+Lockpicks (average)            1 sp     Tech 4    Commun
+Lockpicks (fine)               5 sp     Tech 5    Commun
+Skeleton key                   5 sp     Tech 5    Rare
+Crowbar (standard)             6 bp     Tech 3    Toujours
+Crowbar (heavy)                8 bp     Tech 3    Commun
+Metal file (small)             8 bp     Tech 4    Commun
+Chisel (cold)                  3 bp     Tech 3    Toujours
+10' pole                      20 bp     Tech 3    Toujours
+Grappling hook                12 bp     Tech 4    Commun
+
+================================================================================
+9. RATIONS & NOURRITURE DE VOYAGE
+================================================================================
+
+Hardtack                       1 tp     Tech 3    Toujours
+Waybread                       6 tp     Tech 4    Commun
+Black bread                    3 tp     Tech 3    Toujours
+Beef, jerked                   2 cp     Tech 3    Commun
+Pork, smoked                   7 cp     Tech 3    Commun
+Fish (salted)                  2 cp     Tech 3    Commun
+Salmon, smoked                 3 cp     Tech 3    Commun
+Butter, salted                15 cp     Tech 3    Commun
+Field rations (basic)          5 tp     Tech 3    Toujours
+Dried fruit (small bag)        4 cp     Tech 3    Commun
+
+================================================================================
+10. MÉDECINE & PREMIERS SOINS
+================================================================================
+
+Bandages, linen (30')         10 cp     Tech 3    Toujours
+Herbal remedy                  3 cp+    Tech 3    Toujours     (prix variable)
+Basin, bleeding                8 tp     Tech 4    Commun
+Lancet, bleeding               2 bp     Tech 4    Commun
+Cranial drill                  4 bp     Tech 5    Rare
+Saw, amputation               35 cp     Tech 5    Rare
+Crutches                       2 cp     Tech 3    Commun
+Surgical knife                 5 bp     Tech 5    Commun
+Suturing needle (curved)       3 bp     Tech 4    Commun
+Thread (50 yards)              2 cp     Tech 3    Toujours
+Leeches (50)                   2 bp     Tech 3    Commun
+Mortar & pestle                3 cp     Tech 3    Commun
+Hook, steel                   35 sp     Tech 5    Rare
+Pegleg, wooden                 8 bp     Tech 4    Commun
+
+================================================================================
+FIN DU FICHIER
+================================================================================
+
+Fichier généré le 28 mai 2026
+Groupe 7 – Bloc Marches d’Argent (Silver Marches / Luruar)
+Niveau Tech : 5-6
+Mélange unique : influence naine + humaine + elfe
+Adapté pour les Royaumes Oubliés
+Prix des armes à poudre triplés
+Format identique aux groupes précédents
+
+================================================================================

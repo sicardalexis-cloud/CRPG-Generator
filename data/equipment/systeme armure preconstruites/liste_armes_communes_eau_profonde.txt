@@ -1,0 +1,110 @@
+LISTE DES ARMES ET BOUCLIERS COMMUNS
+Royaumes Oubliés - Eau Profonde & Baldur's Gate
+Prix historiques bas + Fréquence + Encombrement + Stockage + Usage monté
+
+============================================================
+BOUCLIERS
+============================================================
+Buckler                    3 sp    Fréquence: 8   Encombrement: 1   Stockage: porté     Monté: Non
+Target shield              4 sp    Fréquence: 7   Encombrement: 2   Stockage: porté     Monté: Non
+Heater shield              5 sp    Fréquence: 7   Encombrement: 3   Stockage: porté     Monté: Non
+Rotella                    6 sp    Fréquence: 5   Encombrement: 2   Stockage: porté     Monté: Non
+Kite shield                6 sp    Fréquence: 6   Encombrement: 4   Stockage: porté    Monté: Non
+Rondache                   7 sp    Fréquence: 5   Encombrement: 2   Stockage: porté     Monté: Non
+Normal / Full shield       8 sp    Fréquence: 6   Encombrement: 3   Stockage: porté     Monté: Non
+Grand Bouclier Rond       10 sp    Fréquence: 5   Encombrement: 4   Stockage: porté    Monté: Non
+Pavois                    12 sp    Fréquence: 4   Encombrement: 5   Stockage: porté    Monté: Non
+
+============================================================
+COUTEAUX & DAGUES
+============================================================
+Knife (couteau)            1 sp    Fréquence: 10  Encombrement: 1   Stockage: porté     Monté: Non
+Dagger                     2 sp    Fréquence: 9   Encombrement: 1   Stockage: porté     Monté: Non
+Rondel Dagger              4 sp    Fréquence: 6   Encombrement: 1   Stockage: porté     Monté: Non
+
+============================================================
+ÉPÉES & ARMES DE TAILLE
+============================================================
+Arming Sword              10 sp    Fréquence: 8   Encombrement: 3   Stockage: porté     Monté: Non
+Falchion                  12 sp    Fréquence: 6   Encombrement: 3   Stockage: porté     Monté: Non
+Messer                    12 sp    Fréquence: 5   Encombrement: 3   Stockage: porté     Monté: Non
+Shortsword                15 sp    Fréquence: 7   Encombrement: 2   Stockage: porté     Monté: Non
+Cutlass                   15 sp    Fréquence: 7   Encombrement: 3   Stockage: porté     Monté: Non
+Katzbalger                15 sp    Fréquence: 5   Encombrement: 3   Stockage: porté     Monté: Non
+Broadsword                18 sp    Fréquence: 6   Encombrement: 3   Stockage: porté     Monté: Non
+Longsword                 20 sp    Fréquence: 8   Encombrement: 4   Stockage: porté     Monté: Non
+Scimitar                  22 sp    Fréquence: 5   Encombrement: 3   Stockage: porté     Monté: Non
+
+============================================================
+ARMES D'HAST & PIQUES
+============================================================
+Spear                      3 sp    Fréquence: 9   Encombrement: 3   Stockage: épaule    Monté: Non
+Billhook                   9 sp    Fréquence: 7   Encombrement: 4   Stockage: épaule    Monté: Non
+Pike                       8 sp    Fréquence: 8   Encombrement: 5   Stockage: épaule    Monté: Non
+Lance                     10 sp    Fréquence: 5   Encombrement: 3   Stockage: épaule    Monté: Oui (cavalerie)
+Bill                      12 sp    Fréquence: 6   Encombrement: 4   Stockage: épaule    Monté: Non
+Guisarme                  14 sp    Fréquence: 4   Encombrement: 4   Stockage: épaule    Monté: Non
+Glaive                    15 sp    Fréquence: 5   Encombrement: 4   Stockage: épaule    Monté: Non
+Halberd                   15 sp    Fréquence: 7   Encombrement: 4   Stockage: épaule    Monté: Non
+Poleaxe                   18 sp    Fréquence: 6   Encombrement: 4   Stockage: épaule    Monté: Non
+War Scythe                10 sp    Fréquence: 6   Encombrement: 4   Stockage: épaule    Monté: Non
+
+============================================================
+ARMES CONTONDANTES & CLUBS
+============================================================
+Club                       1 sp    Fréquence: 10  Encombrement: 2   Stockage: porté     Monté: Non
+Light Hammer               8 sp    Fréquence: 7   Encombrement: 2   Stockage: porté     Monté: Oui (cavalerie)
+Quarterstaff               3 sp    Fréquence: 9   Encombrement: 3   Stockage: épaule    Monté: Non
+Mace                      10 sp    Fréquence: 7   Encombrement: 3   Stockage: porté     Monté: Oui (cavalerie)
+War Hammer                12 sp    Fréquence: 7   Encombrement: 3   Stockage: épaule    Monté: Non
+Maul                      12 sp    Fréquence: 6   Encombrement: 4   Stockage: épaule    Monté: Non
+Light Flail               10 sp    Fréquence: 5   Encombrement: 3   Stockage: porté     Monté: Non
+Flanged Mace              15 sp    Fréquence: 5   Encombrement: 3   Stockage: porté     Monté: Oui (cavalerie)
+Morning Star              15 sp    Fréquence: 4   Encombrement: 3   Stockage: épaule     Monté: Non
+War Hammer (version lourde) 18 sp  Fréquence: 4   Encombrement: 4   Stockage: épaule    Monté: Non
+
+============================================================
+HACHES
+============================================================
+Hand Axe                   8 sp    Fréquence: 8   Encombrement: 2   Stockage: porté     Monté: Non
+Francisca                  9 sp    Fréquence: 4   Encombrement: 2   Stockage: porté     Monté: Non
+Battle Axe                15 sp    Fréquence: 6   Encombrement: 3   Stockage: porté     Monté: Non
+
+============================================================
+ARMES À DISTANCE
+============================================================
+Sling                      2 sp    Fréquence: 9   Encombrement: 1   Stockage: porté     Monté: Non
+Staff Sling                6 sp    Fréquence: 6   Encombrement: 2   Stockage: épaule    Monté: Non
+Short bow                  5 sp    Fréquence: 8   Encombrement: 3   Stockage: porté     Monté: Non
+Longbow                    8 sp    Fréquence: 7   Encombrement: 3   Stockage: porté     Monté: Non
+Light Crossbow            15 sp    Fréquence: 6   Encombrement: 3   Stockage: porté     Monté: Non
+Crossbow                  20 sp    Fréquence: 5   Encombrement: 3   Stockage: porté     Monté: Non
+Heavy Crossbow            25 sp    Fréquence: 3   Encombrement: 4   Stockage: épaule    Monté: Non
+Javelin                    6 sp    Fréquence: 6   Encombrement: 2   Stockage: porté     Monté: Non
+War Dart                   5 sp    Fréquence: 7   Encombrement: 2   Stockage: porté     Monté: Non
+
+============================================================
+ARMES PAYSANNES & AUTRES (très communes)
+============================================================
+Seax                       8 sp    Fréquence: 5   Encombrement: 2   Stockage: porté     Monté: Non
+Military Fork             10 sp    Fréquence: 6   Encombrement: 4   Stockage: épaule    Monté: Non
+
+============================================================
+FIN DE LA LISTE
+============================================================
+
+Total : 58 armes + 9 boucliers = 67 objets communs
+Fréquence : 1 = très rare | 10 = extrêmement fréquent
+Encombrement : 1 = très léger → 5 = très lourd
+Stockage : porté (ceinture, bandoulière, fourreau) / épaule (doit être porté à la main ou sur l'épaule)
+Mise à jour : 29 mai 2026
+
+Colonnes :
+- Fréquence (1-10)
+- Encombrement (1-5)
+- Stockage (porté / épaule)
+- Monté (Oui / Non)
+
+Ajouts récents :
+- Rotella, Rondache, Pavois
+- Colonne Stockage (remplace "Mains")

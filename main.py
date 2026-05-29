@@ -4,6 +4,7 @@ import random
 from datetime import datetime
 
 from utils import generate_character
+from data.equipment import post_kit_purchases as post_kit
 
 
 def generate_batch(
@@ -14,9 +15,9 @@ def generate_batch(
 ):
     if seed is not None:
         random.seed(seed)
-        print(f"🔒 Seed fixé à {seed} (reproductible)")
+        print(f"[SEED] Seed fixé à {seed} (reproductible)")
 
-    print(f"🎲 Génération de {count} personnages...\n")
+    print(f"[BATCH] Génération de {count} personnages...\n")
 
     characters = []
     
@@ -29,7 +30,7 @@ def generate_batch(
         characters.append(char)
         
         if i % max(10, count // 10) == 0:
-            print(f"   → {i:5d} / {count} personnages générés...")
+            print(f"   -> {i:5d} / {count} personnages générés...")
 
     # ====================== EXPORT CSV ======================
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
@@ -37,7 +38,7 @@ def generate_batch(
 
     # === Colonnes sans Total_Skills / Outdoor_Count / Urban_Count ===
     fieldnames = [
-        "ID", "Race", "Ethnicity", "Origin_Region", "Settlement_Type",
+        "ID", "Race", "Ethnicity", "Origin_Region", "Settlement_Type", "Equipment_Group",
         
         # Compétences détaillées
         "Outdoor_Skills", 
@@ -48,6 +49,22 @@ def generate_batch(
         "Craft", 
         "Literacy", 
         "Spoken_Languages",
+        "Starting_Capital",
+        "Starting_Equipment_Cost_BP",
+        "Starting_Equipment_Kit_Type",
+        # Nouveau système armure (phase actuelle)
+        "Starting_Armor_Set",
+        "Starting_Armor_Cost_BP",
+        "Starting_Capital_After_Armor_BP",
+        "Post_Kit_Tier",
+        "Post_Kit_Tier_Name",
+        "Post_Kit_Purchases",
+        "Post_Kit_Total_Spent_BP",
+        "Final_Pocket_Money_BP",
+        
+        # Équipement séparé (nouvelle demande)
+        "Armes_et_Armures",
+        "Autre_Equipement",
         
         # Combat & Magie
         "Combat_Points", 
@@ -83,12 +100,27 @@ def generate_batch(
         writer.writeheader()
         
         for char in characters:
+            # === Séparation des équipements ===
+            kit_items = char.get("Starting_Equipment_Kit", []) or []
+            post_items = char.get("Post_Kit_Purchases", []) or []
+            all_equipment = kit_items + post_items
+
+            armes_armures = []
+            autre_equipement = []
+
+            for item in all_equipment:
+                if post_kit.is_weapon_or_armor(item):
+                    armes_armures.append(item)
+                else:
+                    autre_equipement.append(item)
+
             row = {
                 "ID": char["ID"],
                 "Race": char["Race"],
                 "Ethnicity": char["Ethnicity"],
                 "Origin_Region": char["Origin_Region"],
                 "Settlement_Type": char["Settlement_Type"],
+                "Equipment_Group": char.get("Equipment_Group", ""),
                 
                 "Outdoor_Skills": " | ".join(char.get("Outdoor_Skills", [])),
                 "Urban_Skills": " | ".join(char.get("Urban_Skills", [])),
@@ -97,7 +129,23 @@ def generate_batch(
                 "Craft": " | ".join(char.get("Craft", [])),
                 
                 "Literacy": " | ".join(char.get("Literacy", [])) if char.get("Literacy") else "None",
-                "Spoken_Languages": " | ".join(char.get("spoken_languages", [])),
+                "Spoken_Languages": " | ".join(char.get("Spoken_Languages", [])),
+                "Starting_Capital": char.get("Starting_Capital", 0),
+                "Starting_Equipment_Cost_BP": char.get("Starting_Equipment_Cost_BP", 0),
+                "Starting_Equipment_Kit_Type": char.get("Starting_Equipment_Kit_Type", ""),
+                # Nouveau système armure
+                "Starting_Armor_Set": char.get("Starting_Armor_Set", "Aucune"),
+                "Starting_Armor_Cost_BP": char.get("Starting_Armor_Cost_BP", 0),
+                "Starting_Capital_After_Armor_BP": char.get("Starting_Capital_After_Armor_BP", 0),
+                "Post_Kit_Tier": char.get("Post_Kit_Tier", 0),
+                "Post_Kit_Tier_Name": char.get("Post_Kit_Tier_Name", ""),
+                "Post_Kit_Purchases": " | ".join(char.get("Post_Kit_Purchases", [])) if char.get("Post_Kit_Purchases") else "",
+                "Post_Kit_Total_Spent_BP": char.get("Post_Kit_Total_Spent_BP", 0),
+                "Final_Pocket_Money_BP": char.get("Final_Pocket_Money_BP", 0),
+                
+                # Séparation des équipements
+                "Armes_et_Armures": " | ".join(armes_armures) if armes_armures else "",
+                "Autre_Equipement": " | ".join(autre_equipement) if autre_equipement else "",
                 
                 "Combat_Points": char["Combat_Points"],
                 "Magic": char["Magic"],
@@ -130,16 +178,16 @@ def generate_batch(
             
             writer.writerow(row)
 
-    print(f"\n✅ Export terminé → {filename} ({len(characters)} personnages)")
+    print(f"\n[OK] Export terminé -> {filename} ({len(characters)} personnages)")
 
     # Statistiques rapides
     magic_count = sum(1 for c in characters if c.get("Magic") == "YES")
-    print(f"\n📊 Magiques : {magic_count}/{len(characters)} ({magic_count/len(characters):.1%})")
+    print(f"\n[STATS] Magiques : {magic_count}/{len(characters)} ({magic_count/len(characters):.1%})")
 
 
 def main():
     parser = argparse.ArgumentParser(
-        description="🚀 Générateur de Personnages - Export CSV",
+        description="[CRPG] Générateur de Personnages - Export CSV",
         formatter_class=argparse.ArgumentDefaultsHelpFormatter
     )
     

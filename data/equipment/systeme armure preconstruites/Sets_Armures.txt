@@ -1,0 +1,184 @@
+42 sp - Gambeson
+50 sp - Breastplate
+58 sp - Aketon
+65 sp - Reinforced Gambeson
+85 sp - Padded Jack
+100 sp - Chain Shirt
+115 sp - Breastplate + Reinforced Gambeson
+125 sp - Jack of Plates
+127 sp - Padded Jack + Gambeson
+140 sp - Mail Haubergeon
+142 sp - Chain Shirt + Gambeson
+142 sp - Mail Shirt + Gambeson
+143 sp - Padded Jack + Aketon
+150 sp - Breastplate + Chain Shirt
+150 sp - Reinforced Gambeson + Padded Jack
+153 sp - Breastplate + Reinforced Gambeson + Pauldrons
+158 sp - Breastplate + Bras complet
+158 sp - Breastplate + Jambes complètes
+158 sp - Chain Shirt + Aketon
+165 sp - Reinforced Gambeson + Chain Shirt
+182 sp - Mail Haubergeon + Gambeson
+190 sp - Breastplate + Haubergeon
+190 sp - Jack of Plates + Reinforced Gambeson
+198 sp - Jack of Plates + Pauldrons + Vambraces
+198 sp - Mail Haubergeon + Aketon
+205 sp - Reinforced Gambeson + Haubergeon
+208 sp - Breastplate + Chain Shirt + Aketon
+210 sp - Breastplate + Haubergeon + Besagews
+210 sp - Reinforced Gambeson + Brigandine
+217 sp - Breastplate + Haubergeon + Gorget
+218 sp - Breastplate + Haubergeon + Bevor
+218 sp - Brigandine + Pauldrons + Vambraces
+222 sp - Breastplate + Haubergeon + Fauld
+222 sp - Breastplate + Hauberk
+225 sp - Jack of Plates + Chain Shirt
+230 sp - Breastplate + Haubergeon + Plackart
+232 sp - Breastplate + Haubergeon + Gambeson
+233 sp - Jack of Plates + Bras complet
+233 sp - Jack of Plates + Jambes complètes
+238 sp - Mail Hauberk + Aketon
+245 sp - Brigandine + Chain Shirt
+245 sp - Mail Hauberk + Reinforced Gambeson
+248 sp - Breastplate + Haubergeon + Aketon
+248 sp - Brigandine + Reinforced Gambeson + Pauldrons
+250 sp - Breastplate + Hauberk + Besagews
+250 sp - Chain Shirt + Reinforced Gambeson + Padded Jack
+253 sp - Brigandine + Bras complet
+253 sp - Brigandine + Jambes complètes
+254 sp - Breastplate + Haubergeon + Tassets + Fauld
+257 sp - Breastplate + Haubergeon + Fauld + Garde-reins
+257 sp - Breastplate + Hauberk + Gorget
+258 sp - Breastplate + Hauberk + Bevor
+262 sp - Breastplate + Hauberk + Tassets
+263 sp - Breastplate + Haubergeon + Pauldrons + Vambraces
+265 sp - Jack of Plates + Haubergeon
+266 sp - Breastplate + Bras + Jambes
+270 sp - Breastplate + Hauberk + Plackart
+272 sp - Breastplate + Hauberk + Gambeson
+283 sp - Jack of Plates + Chain Shirt + Aketon
+285 sp - Brigandine + Haubergeon
+285 sp - Jack of Plates + Haubergeon + Besagews
+287 sp - Brigandine + Chain Shirt + Gambeson
+288 sp - Breastplate + Hauberk + Aketon
+290 sp - Haubergeon + Reinforced Gambeson + Padded Jack
+292 sp - Jack of Plates + Haubergeon + Gorget
+293 sp - Jack of Plates + Haubergeon + Bevor
+294 sp - Breastplate + Hauberk + Tassets + Fauld
+297 sp - Breastplate + Hauberk + Fauld + Garde-reins
+297 sp - Jack of Plates + Haubergeon + Fauld
+297 sp - Jack of Plates + Haubergeon + Tassets
+298 sp - Breastplate + Haubergeon + Bras complet + Tassets + Fauld
+298 sp - Jack of Plates + Reinforced Gambeson + Bras complet
+303 sp - Brigandine + Chain Shirt + Aketon
+304 sp - Breastplate + Haubergeon + Gorget + Bevor + Tassets
+305 sp - Jack of Plates + Haubergeon + Plackart
+305 sp - Jack of Plates + Hauberk
+307 sp - Jack of Plates + Haubergeon + Gambeson
+312 sp - Brigandine + Haubergeon + Gorget
+313 sp - Brigandine + Haubergeon + Bevor
+314 sp - Breastplate + Haubergeon + Fauld + Gorget + Tassets
+317 sp - Brigandine + Haubergeon + Fauld
+317 sp - Brigandine + Haubergeon + Tassets
+318 sp - Brigandine + Reinforced Gambeson + Jambes complètes
+322 sp - Breastplate + Haubergeon + Plackart + Besagews + Tassets
+323 sp - Jack of Plates + Haubergeon + Aketon
+325 sp - Brigandine + Hauberk
+325 sp - Jack of Plates + Hauberk + Besagews
+327 sp - Brigandine + Haubergeon + Gambeson
+330 sp - Breastplate + Haubergeon + Bras complet + Tassets + Fauld
+330 sp - Breastplate + Haubergeon + Jambes complètes + Tassets + Fauld
+332 sp - Jack of Plates + Haubergeon + Fauld + Garde-reins
+333 sp - Breastplate + Bras + Jambes + Fauld + Garde-reins
+333 sp - Jack of Plates + Hauberk + Bevor
+337 sp - Jack of Plates + Hauberk + Tassets
+338 sp - Jack of Plates + Haubergeon + Pauldrons + Vambraces
+339 sp - Breastplate + Hauberk + Gorget + Bevor + Tassets
+341 sp - Jack of Plates + Bras + Jambes
+343 sp - Brigandine + Haubergeon + Aketon
+345 sp - Brigandine + Hauberk + Besagews
+345 sp - Jack of Plates + Hauberk + Plackart
+347 sp - Jack of Plates + Haubergeon + Gorget + Bevor + Tassets
+347 sp - Jack of Plates + Hauberk + Gambeson
+349 sp - Brigandine + Haubergeon + Tassets + Fauld
+352 sp - Breastplate + Hauberk + Fauld + Gorget + Tassets
+352 sp - Brigandine + Haubergeon + Fauld + Garde-reins
+352 sp - Brigandine + Haubergeon + Jambes complètes + Tassets + Fauld
+353 sp - Jack of Plates + Hauberk + Bevor
+353 sp - Mail Hauberk + Reinforced Gambeson + Bras complet
+353 sp - Mail Hauberk + Reinforced Gambeson + Jambes complètes
+357 sp - Brigandine + Hauberk + Tassets
+361 sp - Brigandine + Bras + Jambes
+361 sp - Brigandine + Haubergeon + Jambes complètes + Tassets + Fauld
+363 sp - Jack of Plates + Hauberk + Aketon
+365 sp - Breastplate + Haubergeon + Bras + Jambes + Tassets + Fauld + Garde-reins
+365 sp - Brigandine + Haubergeon + Plackart
+367 sp - Brigandine + Hauberk + Gambeson
+369 sp - Jack of Plates + Hauberk + Tassets + Fauld
+372 sp - Jack of Plates + Hauberk + Fauld + Garde-reins
+373 sp - Jack of Plates + Haubergeon + Bras complet + Tassets + Fauld
+373 sp - Jack of Plates + Haubergeon + Jambes complètes + Tassets + Fauld
+379 sp - Jack of Plates + Haubergeon + Gorget + Bevor + Tassets
+383 sp - Brigandine + Hauberk + Aketon
+389 sp - Brigandine + Hauberk + Tassets + Fauld
+389 sp - Jack of Plates + Haubergeon + Fauld + Gorget + Tassets
+391 sp - Breastplate + Hauberk + Bras + Jambes + Tassets + Fauld + Garde-reins
+392 sp - Brigandine + Hauberk + Fauld + Garde-reins
+393 sp - Brigandine + Haubergeon + Bras complet + Tassets + Fauld
+393 sp - Brigandine + Haubergeon + Jambes complètes + Tassets + Fauld
+396 sp - Jack of Plates + Bras + Jambes + Fauld + Garde-reins + Gorget + Bevor
+396 sp - Jack of Plates + Bras + Jambes + Gorget + Bevor
+396 sp - Mail Hauberk + Bras + Jambes
+400 sp - Breastplate + Haubergeon + Bras + Jambes + Tassets + Fauld + Garde-reins
+405 sp - Jack of Plates + Haubergeon + Bras complet + Tassets + Fauld
+405 sp - Jack of Plates + Haubergeon + Jambes complètes + Tassets + Fauld
+406 sp - Breastplate + Haubergeon + Bras complet + Jambes complètes
+408 sp - Jack of Plates + Bras + Jambes + Fauld + Garde-reins
+409 sp - Brigandine + Haubergeon + Fauld + Gorget + Tassets
+416 sp - Brigandine + Bras + Jambes + Gorget + Bevor
+417 sp - Brigandine + Haubergeon + Plackart + Besagews + Tassets
+419 sp - Jack of Plates + Hauberk + Gorget + Bevor + Tassets
+423 sp - Jack of Plates + Reinforced Gambeson + Bras + Jambes
+425 sp - Brigandine + Haubergeon + Bras complet + Tassets + Fauld
+425 sp - Brigandine + Haubergeon + Jambes complètes + Fauld
+425 sp - Brigandine + Haubergeon + Jambes complètes + Tassets + Fauld
+428 sp - Brigandine + Bras + Jambes + Fauld + Garde-reins
+428 sp - Jack of Plates + Hauberk + Bras complet + Tassets + Fauld
+437 sp - Jack of Plates + Hauberk + Plackart + Besagews + Tassets
+439 sp - Brigandine + Hauberk + Gorget + Bevor + Tassets
+440 sp - Jack of Plates + Haubergeon + Bras + Jambes + Tassets + Fauld + Garde-reins
+443 sp - Brigandine + Reinforced Gambeson + Bras + Jambes
+448 sp - Brigandine + Hauberk + Bras complet + Tassets + Fauld
+448 sp - Brigandine + Hauberk + Jambes complètes + Tassets + Fauld
+449 sp - Brigandine + Hauberk + Fauld + Gorget + Tassets
+457 sp - Brigandine + Hauberk + Plackart + Besagews + Tassets
+460 sp - Jack of Plates + Hauberk + Bras complet + Tassets + Fauld
+460 sp - Jack of Plates + Hauberk + Jambes complètes + Tassets + Fauld
+463 sp - Mail Hauberk + Bras + Jambes + Fauld + Garde-reins
+475 sp - Jack of Plates + Haubergeon + Bras + Jambes + Tassets + Fauld + Garde-reins
+480 sp - Brigandine + Hauberk + Bras complet + Tassets + Fauld
+480 sp - Brigandine + Hauberk + Jambes complètes + Tassets + Fauld
+495 sp - Brigandine + Haubergeon + Bras + Jambes + Tassets + Fauld + Garde-reins
+495 sp - Jack of Plates + Hauberk + Bras + Jambes + Tassets + Fauld + Garde-reins
+515 sp - Brigandine + Hauberk + Bras + Jambes + Tassets + Fauld + Garde-reins
+521 sp - Jack of Plates + Hauberk + Bras complet + Jambes complètes
+523 sp - Jack of Plates + Bras + Jambes + Fauld + Garde-reins + Gorget + Bevor + Plackart + Besagews
+530 sp - Jack of Plates + Hauberk + Bras + Jambes + Tassets + Fauld + Garde-reins
+543 sp - Brigandine + Bras + Jambes + Fauld + Garde-reins + Gorget + Bevor + Plackart + Besagews
+550 sp - Brigandine + Hauberk + Bras + Jambes + Tassets + Fauld + Garde-reins
+558 sp - Mail Hauberk + Bras + Jambes + Fauld + Garde-reins + Gorget + Bevor + Plackart
+569 sp - Mail Hauberk + Reinforced Gambeson + Bras + Jambes
+569 sp - Mail Hauberk + Reinforced Gambeson + Bras + Jambes
+610 sp - Mail Hauberk + Bras + Jambes + Fauld + Garde-reins + Gorget + Bevor + Plackart + Besagews + Tassets
+610 sp - Mail Hauberk + Bras + Jambes + Fauld + Garde-reins + Gorget + Bevor + Plackart + Besagews + Tassets
+625 sp - Mail Hauberk + Bras complet + Jambes complètes + Fauld + Garde-reins + Gorget + Bevor + Plackart + Besagews
+640 sp - Brigandine + Bras complet + Jambes complètes + Fauld + Garde-reins + Gorget + Bevor + Plackart + Besagews + Tassets
+655 sp - Jack of Plates + Bras complet + Jambes complètes + Fauld + Garde-reins + Gorget + Bevor + Plackart + Besagews + Tassets
+670 sp - Mail Hauberk + Bras complet + Jambes complètes + Fauld + Garde-reins + Gorget + Bevor + Plackart + Besagews + Tassets + Pauldrons
+690 sp - Brigandine + Bras complet + Jambes complètes + Fauld + Garde-reins + Gorget + Bevor + Plackart + Besagews + Tassets + Pauldrons
+710 sp - Jack of Plates + Bras complet + Jambes complètes + Fauld + Garde-reins + Gorget + Bevor + Plackart + Besagews + Tassets + Pauldrons
+730 sp - Mail Hauberk + Bras complet + Jambes complètes + Fauld + Garde-reins + Gorget + Bevor + Plackart + Besagews + Tassets + Pauldrons + Vambraces
+750 sp - Brigandine + Bras complet + Jambes complètes + Fauld + Garde-reins + Gorget + Bevor + Plackart + Besagews + Tassets + Pauldrons + Vambraces
+770 sp - Jack of Plates + Bras complet + Jambes complètes + Fauld + Garde-reins + Gorget + Bevor + Plackart + Besagews + Tassets + Pauldrons + Vambraces
+790 sp - Mail Hauberk + Bras complet + Jambes complètes + Fauld + Garde-reins + Gorget + Bevor + Plackart + Besagews + Tassets + Pauldrons + Vambraces + Gauntlets
+800 sp - Brigandine + Bras complet + Jambes complètes + Fauld + Garde-reins + Gorget + Bevor + Plackart + Besagews + Tassets + Pauldrons + Vambraces + Gauntlets

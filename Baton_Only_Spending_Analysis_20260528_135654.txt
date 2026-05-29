@@ -1,0 +1,10 @@
+Analyse 'Bâton seulement' - 379 personnages sur 800
+Date : 2026-05-28 13:56:54.443263
+
+Top catégories de dépenses :
+  Armor: 18222.5 sp (72.4%)
+  Mobility: 6804.0 sp (27.0%)
+  TravelGear: 155.5 sp (0.6%)
+  Other: 2.3 sp (0.0%)
+
+Argent restant moyen : 561 bp (43.0% du capital)

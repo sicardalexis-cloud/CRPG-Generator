@@ -9,6 +9,11 @@ from race_data import ethnicity_data
 from ethnicity_weights import category_weights, ethnicity_weights
 from origin_data import get_random_origin, region_names
 from settlement_data import get_random_settlement
+from data.equipment.regional_economy import calculate_starting_capital
+from data.equipment import regional_adventurer_kits as regional_kits
+from data.equipment import post_kit_purchases as post_kit
+from data.equipment import armor_sets as armor  # Nouveau système de sets d'armure préconstruits
+from data.equipment import remaining_equipment as remaining  # Achats avec capital restant (boucliers + armes + monture)
 from skill_data import generate_skills
 from knowledge_data import generate_secondary_skills
 from rules import (
@@ -107,6 +112,39 @@ def generate_character(char_id: str = "TEMP"):
 
     region_name, settlement_type = get_random_settlement(region_id)
 
+    # ====================== STARTING CAPITAL + KIT ÉQUIPEMENT ======================
+    # Capital = 1 an de salaire médian local (en bp Rolemaster)
+    # NOUVELLE STRATÉGIE :
+    # Kit de départ universel identique pour tous les personnages.
+    # Le capital de départ (1 an) sert uniquement à compléter l'équipement
+    # selon le groupe d'accès au matériel de la région du personnage.
+    starting_capital = calculate_starting_capital(
+        region_name=region_name,
+        settlement_type=settlement_type,
+        ethnicity=ethnicity
+    )
+
+    # NOUVELLE STRATÉGIE :
+    # Tous les personnages reçoivent le même kit de base universel.
+    # Le capital de départ sert à compléter le matériel selon le groupe d'équipement.
+    kit_items = regional_kits.get_universal_starting_kit()
+    kit_cost_bp = sum(item["price_bp"] for item in kit_items)
+
+    # ====================== NOUVEAU : ARMURE PRÉCONSTRUITE (70% du capital) ======================
+    # Règle utilisateur (phase actuelle) :
+    # - Le kit de base est gratuit.
+    # - Jusqu'à 70% du capital de départ peut être dépensé dans l'armure.
+    # - On prend **le set le plus cher possible** dans ce budget.
+    armor_budget_sp = armor.calculate_armor_budget(starting_capital, percentage=0.70)
+    chosen_armor_set = armor.get_most_expensive_affordable_set(armor_budget_sp)
+
+    armor_cost_bp = 0.0
+    if chosen_armor_set:
+        armor_cost_bp = chosen_armor_set["price_bp"]
+
+    # Capital restant après kit (gratuit) + armure
+    remaining_capital_after_armor = starting_capital - armor_cost_bp
+
     # ====================== SKILLS ======================
     skills_data = generate_skills(
         settlement_type=settlement_type,
@@ -185,6 +223,28 @@ def generate_character(char_id: str = "TEMP"):
     if magic_info.get("magic") is True:
         skill_modifier -= 10
 
+    # ====================== CAPITAL (1 an) + ACHATS SUPPLÉMENTAIRES ======================
+    # NOUVELLE STRATÉGIE :
+    # Le kit de base est universel.
+    # Les achats post-kit se font avec le capital, en respectant la liste disponible
+    # du groupe d'équipement du personnage (+ surcoûts pour items Rare / Très rare).
+    equipment_group = post_kit.get_equipment_group_for_region(region_name)
+
+    # === NOUVELLE PHASE : Achats avec le capital restant (après armure) ===
+    # Bouclier + armes (aléatoire, limite encombrement) + monture si possible
+    remaining_result = remaining.buy_remaining_equipment(
+        remaining_bp=remaining_capital_after_armor
+    )
+
+    # Pour compatibilité temporaire, on garde une structure similaire à l'ancien post-kit
+    post_purchases = {
+        "tier": 1 if remaining_result["purchases"] else 0,
+        "tier_name": "Modest" if remaining_result["purchases"] else "None",
+        "purchases": remaining_result["purchases"],
+        "total_spent_bp": remaining_result["total_spent_bp"],
+        "final_remaining_bp": remaining_result["final_remaining_bp"],
+    }
+
     # ====================== RETURN ======================
     return {
         "ID": char_id,
@@ -193,6 +253,7 @@ def generate_character(char_id: str = "TEMP"):
         "Ethnicity": ethnicity,
         "Origin_Region": region_name,
         "Settlement_Type": settlement_type,
+        "Equipment_Group": equipment_group,   # Nouveau : groupe d'équipement (14 groupes)
 
         "Weight_Score": round(weight_score, 1),
         "Build_Score": round(build_score, 1),
@@ -237,6 +298,27 @@ def generate_character(char_id: str = "TEMP"):
         "Craft": secondary["craft"],
         "Literacy": secondary["literacy"],
         "Spoken_Languages": secondary["spoken_languages"],
+
+        "Starting_Capital": starting_capital,
+        "Starting_Equipment_Kit": [item["name"] for item in kit_items],
+        "Starting_Equipment_Cost_BP": round(kit_cost_bp, 1),
+        "Starting_Equipment_Kit_Type": "universal_standard",
+
+        # ====================== NOUVEAU : ARMURE (phase actuelle) ======================
+        "Starting_Armor_Set": chosen_armor_set["name"] if chosen_armor_set else "Aucune",
+        "Starting_Armor_Cost_BP": round(armor_cost_bp, 1),
+        "Starting_Armor_Budget_Percent": 70,   # Règle en vigueur
+        "Starting_Capital_After_Armor_BP": round(remaining_capital_after_armor, 1),
+
+        # Note : le kit de base est GRATUIT (fourni par l'origine)
+        # Le capital ci-dessous est le capital liquide (1 an de salaire)
+
+        # Achats supplémentaires effectués avec le capital (montures, charettes, armure, etc.)
+        # === NOUVEAU : Achats avec capital restant (phase bouclier/armes/monture) ===
+        "Remaining_Equipment_Purchases": [p["name"] for p in post_purchases.get("purchases", [])],
+        "Remaining_Equipment_Spent_BP": post_purchases.get("total_spent_bp", 0),
+        "Final_Pocket_Money_BP": post_purchases.get("final_remaining_bp", remaining_capital_after_armor),
+        "Has_Mount_After_Armor": any("rouncey" in p["name"].lower() or "mule" in p["name"].lower() or "pony" in p["name"].lower() or "courser" in p["name"].lower() for p in post_purchases.get("purchases", [])),
 
         "Special": data.get("spec", "Aucun"),
     }

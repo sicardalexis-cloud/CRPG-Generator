@@ -51,15 +51,15 @@ ethnicity_weights = {
     "Urdunnir":            1.5,
 
     # ==================== ELFES ====================
-    "Elf Wood":            35,
-    "Elf Moon":            30,
-    "Elf Sun":             12,
-    "Elf Wild":            9,
-    "Elf Drow":            6,
-    "Elf Sea":             4,
-    "Elf Star":            2,
-    "Elf Avariel":         1,
-    "Elf Lythari":         0.8,
+    "Wood Elf":            35,
+    "Moon Elf":            30,
+    "Sun Elf":             12,
+    "Wild Elf":            9,
+    "Drow":                6,
+    "Sea Elf":             4,
+    "Star Elf":            2,
+    "Avariel":             1,
+    "Lythari":             0.8,
 
     # ==================== HALFLINGS ====================
     "Strongheart Halfling": 45,
@@ -69,7 +69,7 @@ ethnicity_weights = {
     # ==================== GNOMES ====================
     "Rock Gnome":           75,
     "Forest Gnome":         18,
-    "Deep Gnome":           7,
+    "Rock Gnome":           7,
 
     # ==================== DEMI-ORCS ====================
     "Half-Orc":             12,

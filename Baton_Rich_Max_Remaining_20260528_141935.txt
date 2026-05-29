@@ -1,0 +1,2 @@
+Maximum restant 'Bâton seulement' : 4,345 bp
+Sur 1500 persos (seed 42)

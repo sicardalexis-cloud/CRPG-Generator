@@ -6,36 +6,36 @@ from typing import Tuple, Dict
 # TYPES D'IMPLANTATION
 # =============================================
 settlement_types = {
-    1: "Capitale / Grande Métropole",
-    2: "Grande Ville portuaire",
-    3: "Grande Ville marchande",
-    4: "Ville fortifiée",
-    5: "Ville moyenne",
-    6: "Bourg / Petite ville",
-    7: "Village rural",
-    8: "Village côtier / de pêcheurs",
-    9: "Village forestier",
-    10: "Village de montagne",
-    11: "Hameau agricole",
-    12: "Hameau isolé",
-    13: "Ferme isolée / Domaine",
-    14: "Caravansérail / Oasis",
-    15: "Avant-poste militaire",
-    16: "Camp minier",
-    17: "Monastère / Couvent isolé",
-    18: "Camp de bûcherons",
-    19: "Tribu nomade",
-    20: "Colonie frontalière",
-    21: "Port de contrebande",
-    22: "Ruines habitées",
-    23: "Cité souterraine",
-    24: "Tour / Manoir isolé",
-    25: "Village lacustre / sur pilotis",
-    26: "Forteresse naine / Enclave naine",
-    27: "Enclave elfique",
-    28: "Sanctuaire / Lieu saint",
-    29: "Refuge / Campement permanent",
-    30: "Poste de commerce isolé"
+    1: "Metropolis",
+    2: "Major Port City",
+    3: "Major Trade City",
+    4: "Fortified City",
+    5: "Large Town",
+    6: "Small Town",
+    7: "Rural Village",
+    8: "Fishing Village",
+    9: "Forest Village",
+    10: "Mountain Village",
+    11: "Farming Hamlet",
+    12: "Isolated Hamlet",
+    13: "Isolated Farmstead",
+    14: "Caravan Oasis",
+    15: "Military Outpost",
+    16: "Mining Camp",
+    17: "Remote Monastery",
+    18: "Logging Camp",
+    19: "Nomad Camp",
+    20: "Frontier Colony",
+    21: "Smuggler's Port",
+    22: "Inhabited Ruins",
+    23: "Underdark City",
+    24: "Isolated Tower",
+    25: "Lake Village",
+    26: "Dwarven Fortress",
+    27: "Elven Enclave",
+    28: "Holy Site",
+    29: "Permanent Encampment",
+    30: "Remote Trading Post"
 }
 
 # =============================================
@@ -114,10 +114,10 @@ origin_settlement_weights: Dict[int, Dict[int, int]] = {
     44: {9: 35, 11: 25, 18: 20, 27: 15, 30: 5},               # Aglarond
     45: {9: 40, 11: 25, 12: 20, 18: 10, 30: 5},               # Silver Marches
     46: {7: 30, 9: 25, 11: 20, 18: 15, 30: 10},               # The Dalelands
-    47: {31: 30, 32: 25, 8: 20, 9: 15, 30: 10},               # The Shaar
+    47: {15: 30, 16: 25, 8: 20, 9: 15, 30: 10},               # The Shaar
     48: {2: 30, 8: 25, 21: 20, 25: 15, 30: 10},               # Lake of Steam
     49: {5: 25, 6: 25, 7: 20, 13: 15, 30: 10},                # Border Kingdoms
-    50: {19: 40, 31: 25, 11: 20, 30: 15},                     # Hordelands
+    50: {19: 40, 15: 25, 11: 20, 30: 15},                     # Hordelands
     51: {4: 25, 5: 25, 6: 20, 15: 15, 20: 15},                # Old Empires
     52: {9: 30, 11: 25, 18: 20, 30: 15, 19: 10},              # Unapproachable East
     53: {5: 25, 6: 25, 7: 20, 13: 15, 30: 10},                # Western Heartlands
@@ -148,7 +148,7 @@ origin_settlement_weights: Dict[int, Dict[int, int]] = {
     78: {10: 30, 11: 25, 12: 20, 18: 15, 30: 10},             # The Lone Rock
     79: {10: 30, 11: 25, 12: 20, 18: 15, 30: 10},             # The Reaching Woods
     80: {10: 35, 12: 25, 18: 20, 26: 15, 30: 5},              # The Thunder Peaks
-    81: {31: 30, 32: 25, 8: 20, 9: 15, 30: 10},               # The Ride
+    81: {15: 30, 16: 25, 8: 20, 9: 15, 30: 10},               # The Ride
     82: {9: 35, 11: 25, 18: 20, 27: 15, 30: 5},               # Aglarondine
 
     # === Régions manquantes complétées ===
@@ -187,9 +187,9 @@ origin_settlement_weights: Dict[int, Dict[int, int]] = {
 
     # === Régions restantes (123 à 133) ===
     123: {19: 40, 9: 25, 11: 15, 30: 15, 18: 5},              # Lycanthropes
-    124: {31: 35, 32: 25, 8: 20, 9: 15, 30: 5},               # Wemics
+    124: {15: 35, 16: 25, 8: 20, 9: 15, 30: 5},               # Wemics
     125: {28: 40, 29: 25, 6: 15, 30: 15, 18: 5},              # Yuan-ti
-    126: {31: 40, 32: 25, 8: 20, 9: 10, 30: 5},               # Centaure
+    126: {15: 40, 16: 25, 8: 20, 9: 10, 30: 5},               # Centaure
     127: {18: 35, 8: 25, 9: 20, 30: 15, 2: 5},                # Homme-lézard
     128: {23: 35, 10: 25, 19: 20, 6: 15, 30: 5},              # Tanarukks
     129: {27: 40, 9: 25, 4: 15, 30: 15, 6: 5},                # Fey’ri
@@ -220,6 +220,11 @@ def get_random_settlement(region_id: int) -> Tuple[str, str]:
         k=1
     )[0]
     
-    settlement_name = settlement_types.get(settlement_idx, "Implantation inconnue")
+    # Robust fallback: if invalid ID, pick a random valid one
+    if settlement_idx not in settlement_types:
+        valid_ids = list(settlement_types.keys())
+        settlement_idx = random.choice(valid_ids)
+    
+    settlement_name = settlement_types[settlement_idx]
     
     return region_name, settlement_name

@@ -1,0 +1,74 @@
+================================================================================
+KIT DE DÉPART VOYAGEUR STANDARD
+ROYAUMES OUBLIÉS - CRPG / JDR
+================================================================================
+
+Ce kit est conçu pour un personnage débutant qui part en voyage.
+Il est **universel** et convient à presque tous les groupes (sauf cas extrêmes).
+
+================================================================================
+CONTENU DU KIT
+================================================================================
+
+**Sac & Transport**
+- Backpack (medium leather) .................... 4 bp
+- Belt (leather) + Belt pouch (large) .......... 24 cp
+- Map case + blank regional map ................ 4 sp
+
+**Abri & Couchage**
+- Tent 2-man leather ........................... 15 sp
+- Sleeping furs (light) ........................ 50 cp
+- Blanket (heavy) .............................. 30 cp
+
+**Nourriture & Eau (7 jours)**
+- Field rations (basic) x7 ..................... 35 tp
+- Waterskin (1 gal) x2 ......................... 6 bp
+- Canteen (1 pt) ............................... 2 cp
+
+**Éclairage**
+- Lantern (hooded) ............................. 5 bp
+- Lamp oil (flacon) x3 ......................... 3 bp
+
+**Outils & Cordage**
+- Rope (standard 50') .......................... 6 cp
+- Grappling hook ............................... 12 bp
+- 10' pole ..................................... 20 bp
+- Crowbar (standard) ........................... 6 bp
+- Hammer + 10 pitons ........................... 15 cp
+- Flint & steel ................................ 1 sp
+- Tinderbox .................................... 3 cp
+
+**Vêtements**
+- Cloak (wool hooded) .......................... 12 bp
+- Boots (normal leather) ....................... 5 bp
+- Gloves (leather) ............................. 2 bp
+- Hat (leather) ................................ 1 bp
+
+================================================================================
+PRIX TOTAL DU KIT
+================================================================================
+
+**Prix total : 22 pièces d'argent (22 sp)**
+
+Détail du calcul :
+- 15 sp (tente)
+- 4 sp (map case + carte)
+- 1 sp (flint & steel)
+- 2 sp (divers petits objets)
+= **22 sp** (arrondi)
+
+================================================================================
+NOTES
+================================================================================
+
+- Ce kit est **suffisant** pour un voyage de plusieurs semaines.
+- Il est **léger** (environ 25-30 kg avec les rations).
+- Il peut être complété selon le groupe :
+  - Nord Sauvage / Rashemen → ajouter fourrures
+  - Underdark → ajouter potion de vision dans le noir
+  - Thay / Evermeet → ajouter une potion de soin mineure
+
+================================================================================
+Fichier créé le 28 mai 2026
+Kit Voyageur Standard - Version 1.0
+================================================================================

@@ -27,6 +27,7 @@ from . import historical_price_corrections as price_fix
 from .regional_economy import REGION_TECH_LEVEL
 from . import equipment_groups
 from . import group_equipment_pools
+from . import groupe1_prices as grp_prices
 
 # =============================================================================
 # RÈGLES DE PRIORITÉ D'ARMES - NIVEAU 1 + NIVEAU 2 (implémentés)
@@ -1802,7 +1803,7 @@ def select_post_kit_purchases(
     has_quiver = any(p["name"].lower() == "quiver" for p in purchases)
 
     if has_bow and not has_quiver:
-        quiver_price = 10  # en sp → on convertit en bp (environ 40 bp)
+        quiver_price = grp_prices.get_groupe1_price("Quiver / Bolt case (carquois vide)", 1.5)  # from master, fallback approx
         quiver_bp = 40
 
         purchases.append({

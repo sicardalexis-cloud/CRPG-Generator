@@ -271,4 +271,4 @@ GROUP_SPECIAL_ITEMS: Dict[str, List[str]] = {
     ],
 }
 
-print("[equipment_groups] Module chargé - 14 groupes avec définitions détaillées (tous les fichiers *_Equipement_Complet.txt sont pris en compte).")
+# (print silenced; still provides Equipment_Group via get_equipment_group_for_region)

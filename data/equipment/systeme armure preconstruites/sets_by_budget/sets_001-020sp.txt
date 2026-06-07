@@ -1,0 +1,67 @@
+======================================================================
+EQUIPMENT SETS — Destitute_1-20sp
+======================================================================
+
+Budget range : 1-20 sp
+Number of sets : 45
+Source : generate_sets.py (random realistic kits with compatibility rules)
+Region focus : Sword Coast / Côte des Épées (Groupe 1) — can be adapted
+
+Rules summary (see generate_sets.py for full details):
+  - Weapons & shield chosen first
+  - Strict layering rules (pauldrons require cuirass/breast+backplate; besagews/tassets/fauld require plate torso, etc.)
+  - Bows/crossbows limited to small shields
+  - Mounts + barding appear at higher budgets
+  - 'Nearly full armor' rule downgrades oversized shields
+  - Side weapon (arming sword, falchion, messer or hand axe) bought before any armor
+  - Gorget / Bevor always over at least fabric protection (aketon/gambison/arming doublet); never directly on skin. Often with mail collar underneath too.
+  - Mounted weapons (Light Hammer, Mace, Flanged Mace, Lance) STRICTLY only when a mount is present.
+    Foot characters (no mount) NEVER receive them — absolute, no exceptions even in low tiers.
+
+--- COMPACT FORMAT ---
+
+#001 [1sp] Sling, Sling bullets (12)
+#002 [1sp] Sling, Sling bullets (12)
+#003 [1sp] Sling, Sling bullets (12)
+#004 [1sp] Sling, Sling bullets (12)
+#005 [2sp] Leather Helmet
+#006 [2sp] Leather Helmet
+#007 [3sp] Sling, Sling bullets (12), Leather Helmet
+#008 [3sp] Sling, Sling bullets (12), Leather Helmet
+#009 [3sp] Sling, Sling bullets (12), Leather Helmet
+#010 [4sp] Sling, Sling bullets (12), Leather Helmet
+#011 [4sp] Sling, Sling bullets (12), Leather Helmet
+#012 [4sp] Sling, Sling bullets (12), Leather Helmet
+#013 [4sp] Sling, Sling bullets (12), Leather Helmet
+#014 [5sp] Brocchiere (Size 1)
+#015 [5sp] Brocchiere (Size 1)
+#016 [6sp] Sling, Sling bullets (12), Brocchiere (Size 1)
+#017 [7sp] Sling, Knife, Sling bullets (12)
+#018 [7sp] Spear
+#019 [7sp] Spear
+#020 [8sp] Spear
+#021 [8sp] Spear
+#022 [8sp] Spear
+#023 [8sp] Sling, Sling bullets (12), Brocchiere (Size 1)
+#024 [9sp] Sling, Knife, Sling bullets (12)
+#025 [9sp] Spear
+#026 [9sp] Sling, Knife, Sling bullets (12)
+#027 [9sp] Spear
+#028 [11sp] Spear
+#029 [11sp] Spear, Leather Helmet
+#030 [12sp] Spear, Brocchiere (Size 1)
+#031 [12sp] Spear, Brocchiere (Size 1)
+#032 [13sp] Spear, Brocchiere (Size 1)
+#033 [14sp] Spear, Sling, Sling bullets (12), Brocchiere (Size 1)
+#034 [14sp] Spear, Knife
+#035 [14sp] Spear, Brocchiere (Size 1), Leather Helmet
+#036 [15sp] Spear, Staff Sling, Sling bullets (12), Brocchiere (Size 1)
+#037 [15sp] Spear, Staff Sling, Sling bullets (12), Brocchiere (Size 1)
+#038 [17sp] Club, Sling, Sling bullets (12), Buckler (Size 3)
+#039 [18sp] Spear, Gambeson (basic)
+#040 [18sp] Staff Sling, Sling bullets (12), Small Rotella (Size 5)
+#041 [18sp] Spear, Knife, Brocchiere (Size 1)
+#042 [19sp] Spear, Sling, Sling bullets (12), Small Buckler (Size 2), Leather Helmet
+#043 [19sp] Club, Staff Sling, Sling bullets (12), Cervelière
+#044 [20sp] Club, Knife, Small Buckler (Size 2)
+#045 [20sp] Reinforced Spear

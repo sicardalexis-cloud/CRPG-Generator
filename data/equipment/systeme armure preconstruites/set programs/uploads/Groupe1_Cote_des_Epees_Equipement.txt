@@ -1,0 +1,354 @@
+================================================================================
+GROUPE 1 – BLOC CÔTE DES ÉPÉES
+(Sword Coast + Baldur’s Gate + Luskan)
+Niveau Tech : 6-7 (Early Renaissance → Late Renaissance)
+================================================================================
+RÈGLE D’UTILISATION :
+- Tout objet de niveau tech 5 à 7 est **facilement disponible** au prix indiqué.
+- Les **armes à poudre** ont été **triplées** (x3) pour refléter leur rareté dans les Royaumes Oubliés.
+- Tech 8 = disponible mais **très rare et cher** (+50 % à +100 % supplémentaire possible).
+- Prix en pièces d’argent (sp) sauf indication contraire.
+- Disponibilité : Toujours / Commun = disponible dans presque toutes les grandes villes du bloc.
+- MISE À JOUR :
+  1. Prix corrigés pour réalisme historique XVe siècle (augmentation forte sur armures et armes).
+  2. Intégration de la Master Shield Matrix (Taille 1 à 10, progression de surface ×1,5).
+  3. Colonnes Fréquence/Encombrement/Stockage/Monté appliquées à l'ensemble des protections.
+
+================================================================================
+1. TEXTILE AND PADDED ARMORS
+================================================================================
+
+Aketon (basic padded jack)            8 sp    Tech 4   Always      Freq: 7  Bulk: 2  Storage: worn     Mounted: No  Description: A technical garment consisting of 4 to 8 layers of dense linen. Designed exclusively as an interface to be worn under a mail hauberk to prevent metal rings from pinching the skin and to absorb vibrations during impacts. Provides only weak protection against cutting edges.
+
+Gambeson (basic)                      9 sp    Tech 4   Always      Freq: 8  Bulk: 2  Storage: worn     Mounted: No  Description: Standard padded tunic of 8 to 12 layers, often quilted in a diamond pattern. This is the base protection of medieval infantry, offering versatile resistance against light slashing blows and decent shock absorption.
+
+Gambeson (long / fended)             14 sp    Tech 4   Common      Freq: 6  Bulk: 3  Storage: worn     Mounted: No  Description: An extended version of the basic gambeson reaching the knee. Often side-fended to allow for movement, it provides full leg protection for infantry who do not wear metal leg armor, sacrificing agility for coverage.
+
+Reinforced Gambeson                  18 sp    Tech 5   Always      Freq: 7  Bulk: 2  Storage: worn     Mounted: No  Description: An improved version of the classic gambeson (12-18 layers) featuring reinforced padding at the shoulders and elbows. More rigid, it provides better protection against thrusting attacks while remaining supple enough to be worn under a plate breastplate.
+
+Reinforced Gambeson (long)           26 sp    Tech 5   Common      Freq: 6  Bulk: 3  Storage: worn     Mounted: No  Description: The extended version of the reinforced gambeson. Combines high-density protection for the torso with heavy padding reaching the knees. Highly prized by professional soldiers who need reliable, standalone leg protection without the weight of steel chausses.
+
+Padded Jack (medium / troop)         22 sp    Tech 5   Common      Freq: 6  Bulk: 3  Storage: worn     Mounted: No  Description: A very dense (20-30+ layers) standalone armor piece made of coarse linen. Specifically tailored for line infantry, it is designed to stop war arrows and polearm strikes, sacrificing mobility for maximum protection.
+
+Coat of Plates                       45 sp    Tech 5-6 Common      Freq: 6  Bulk: 3  Storage: worn     Mounted: No  Description: A series of large steel plates riveted to the inside of a thick canvas or leather base. Intermediate protection offering superior torso rigidity compared to textiles while maintaining some articulated flexibility.
+
+Brigandine (standard troop)          85 sp    Tech 5-7 Common      Freq: 5  Bulk: 4  Storage: worn     Mounted: No  Description: Armor composed of numerous small steel plates riveted to the inside of a robust garment. The overlap of the plates offers excellent protection against most weapons while conforming perfectly to the wearer's anatomy.
+
+Brigandine (high quality)           240 sp    Tech 5-7 Rare        Freq: 3  Bulk: 4  Storage: worn     Mounted: No  Description: The noble version of the brigandine, utilizing high-grade hardened steel plates riveted with decorative brass or silver rivets. The outer fabric is often covered in silk or velvet, combining social prestige with lethal protection.
+
+Jack of Plates                       55 sp    Tech 7   Common      Freq: 5  Bulk: 4  Storage: worn     Mounted: No  Description: A robust evolution of the jack, integrating horizontal steel slats inserted between the fabric layers. More affordable than a full brigandine, this is the preferred armor of men-at-arms and professional mercenaries.
+
+Arming Doublet                       45 sp    Tech 7   Common      Freq: 6  Bulk: 2  Storage: worn     Mounted: No  Description: A technical masterpiece of textile armoring (12-18 layers). Precision-fitted, it features reinforced attachment points (points or aigillettes) allowing for plate armor pieces to be laced directly onto the wearer's body.
+
+Pourpoint (light civil)              12 sp    Tech 6   Common      Freq: 7  Bulk: 1  Storage: worn     Mounted: No  Description: A light, fitted, padded civil garment. Although intended for fashion and comfort, its sturdy seams allow it to support a few light armor fastenings during travel or improvised urban defense.
+
+================================================================================
+2. PIÈCES D’ARMURE COURANTES + MODULAIRES
+================================================================================
+--- Pièces communes (tech 3-6) ---
+Leather Helmet                 2 sp     Tech 3    Toujours    Fréquence: 9  Encombrement: 1  Stockage: porté   Monté: Non
+Nasal Helmet                   8 sp     Tech 4    Toujours    Fréquence: 8  Encombrement: 1  Stockage: porté   Monté: Non
+Cervelière                     9 sp     Tech 4    Toujours    Fréquence: 8  Encombrement: 1  Stockage: porté   Monté: Non
+Kettle Hat (Chapeau de fer)   15 sp     Tech 5    Toujours    Fréquence: 7  Encombrement: 2  Stockage: porté   Monté: Non
+Great Helm (Grand heaume)     70 sp     Tech 5    Toujours    Fréquence: 5  Encombrement: 3  Stockage: porté   Monté: Non
+Bascinet (basique)            48 sp     Tech 5    Commun      Fréquence: 6  Encombrement: 2  Stockage: porté   Monté: Non
+Mail coif                     20 sp     Tech 5    Toujours    Fréquence: 7  Encombrement: 1  Stockage: porté   Monté: Non
+Aventail                      16 sp     Tech 5    Commun      Fréquence: 6  Encombrement: 1  Stockage: porté   Monté: Non
+Simple Breastplate            42 sp     Tech 5    Commun      Fréquence: 6  Encombrement: 3  Stockage: porté   Monté: Non
+Archer Bracer                  2 sp     Tech 4    Toujours    Fréquence: 8  Encombrement: 1  Stockage: porté   Monté: Non
+
+--- Protections en maille ---
+Mail Shirt (sans manches)     80 sp     Tech 5    Commun      Fréquence: 6  Encombrement: 3  Stockage: porté   Monté: Non
+Mail Haubergeon (mi-long)    115 sp     Tech 5    Commun      Fréquence: 5  Encombrement: 4  Stockage: porté   Monté: Non
+Mail Hauberk (complet)       170 sp     Tech 5-6  Commun      Fréquence: 5  Encombrement: 4  Stockage: porté   Monté: Non
+Mail Coat (long avec manches)220 sp     Tech 6    Commun      Fréquence: 4  Encombrement: 5  Stockage: porté   Monté: Non
+Fauld                         18 sp     Tech 6    Commun      Fréquence: 6  Encombrement: 2  Stockage: porté   Monté: Non
+Besagews (paire)               6 sp     Tech 6    Commun      Fréquence: 7  Encombrement: 1  Stockage: porté   Monté: Non
+Plackart                      15 sp     Tech 6    Commun      Fréquence: 5  Encombrement: 2  Stockage: porté   Monté: Non
+Couter (paire)                10 sp     Tech 6    Toujours    Fréquence: 7  Encombrement: 1  Stockage: porté   Monté: Non
+Mail voiders (paire)          15 sp     Tech 6    Commun      Fréquence: 6  Encombrement: 1  Stockage: porté   Monté: Non
+Bevor                         12 sp     Tech 6    Commun      Fréquence: 6  Encombrement: 1  Stockage: porté   Monté: Non
+Garde-reins                   14 sp     Tech 6    Commun      Fréquence: 5  Encombrement: 2  Stockage: porté   Monté: Non
+
+--- XVe Siècle (Gothic – tech 6) ---
+Haubergeon / Collerette maille      22 sp     Tech 6    Toujours    Fréquence: 6  Encombrement: 2  Stockage: porté   Monté: Non
+Breastplate + Backplate             95 sp     Tech 6    Commun      Fréquence: 5  Encombrement: 4  Stockage: porté   Monté: Non
+Gorget (normal)                     12 sp     Tech 5    Commun      Fréquence: 7  Encombrement: 1  Stockage: porté   Monté: Non
+Gorget (articulé/elevé)             18 sp     Tech 6    Commun      Fréquence: 6  Encombrement: 1  Stockage: porté   Monté: Non
+Vambraces + Couter                  35 sp     Tech 6    Toujours    Fréquence: 6  Encombrement: 2  Stockage: porté   Monté: Non
+Gauntlets (normaux)                 22 sp     Tech 6    Commun      Fréquence: 6  Encombrement: 1  Stockage: porté   Monté: Non
+Tassets (paire courte)              16 sp     Tech 6    Commun      Fréquence: 6  Encombrement: 2  Stockage: porté   Monté: Non
+Tassets longs                       25 sp     Tech 7    Commun      Fréquence: 5  Encombrement: 2  Stockage: porté   Monté: Non
+Sallet (salade standard)            42 sp     Tech 6    Commun      Fréquence: 6  Encombrement: 2  Stockage: porté   Monté: Non
+Armet (italien articulé)            85 sp     Tech 6    Commun      Fréquence: 5  Encombrement: 3  Stockage: porté   Monté: Non
+Morion                              28 sp     Tech 5    Commun      Fréquence: 6  Encombrement: 2  Stockage: porté   Monté: Non
+Barbute (italienne)                 45 sp     Tech 5    Commun      Fréquence: 5  Encombrement: 2  Stockage: porté   Monté: Non
+Cabasset                            22 sp     Tech 5    Commun      Fréquence: 6  Encombrement: 2  Stockage: porté   Monté: Non
+
+--- XVIe Siècle (Maximilian – tech 7) ---
+Maille collerette ou manches        22 sp     Tech 7    Commun      Fréquence: 6  Encombrement: 2  Stockage: porté   Monté: Non
+Breastplate + Backplate (trempé)   220 sp     Tech 7    Commun      Fréquence: 5  Encombrement: 4  Stockage: porté   Monté: Non
+Gorget (renforcé)                   25 sp     Tech 7    Commun      Fréquence: 5  Encombrement: 1  Stockage: porté   Monté: Non
+Pauldrons + Gardes                  75 sp     Tech 7    Commun      Fréquence: 5  Encombrement: 2  Stockage: porté   Monté: Non
+Vambraces+Couter+Rerebrace          85 sp     Tech 7    Commun      Fréquence: 5  Encombrement: 3  Stockage: porté   Monté: Non
+Gauntlets (articulés renforcés)     45 sp     Tech 7    Commun      Fréquence: 5  Encombrement: 1  Stockage: porté   Monté: Non
+Cuisses (normales)                  42 sp     Tech 6    Commun      Fréquence: 6  Encombrement: 2  Stockage: porté   Monté: Non
+Cuisses (renforcées Maximilian)     85 sp     Tech 7    Commun      Fréquence: 5  Encombrement: 2  Stockage: porté   Monté: Non
+Poleyns + Genouillères              28 sp     Tech 7    Commun      Fréquence: 6  Encombrement: 1  Stockage: porté   Monté: Non
+Greaves (normales)                  35 sp     Tech 6    Commun      Fréquence: 6  Encombrement: 2  Stockage: porté   Monté: Non
+Greaves (renforcées)                55 sp     Tech 7    Commun      Fréquence: 5  Encombrement: 2  Stockage: porté   Monté: Non
+Sabatons (normaux)                  18 sp     Tech 6    Commun      Fréquence: 6  Encombrement: 1  Stockage: porté   Monté: Non
+Sabatons (larges pied d'ours)       25 sp     Tech 7    Commun      Fréquence: 5  Encombrement: 1  Stockage: porté   Monté: Non
+Schynbalds / Demi-greaves           15 sp     Tech 6    Commun      Fréquence: 6  Encombrement: 2  Stockage: porté   Monté: Non
+Close Helmet (heaume fermé)         95 sp     Tech 7    Commun      Fréquence: 5  Encombrement: 2  Stockage: porté   Monté: Non
+Burgonet (bourguignotte)            45 sp     Tech 7    Commun      Fréquence: 6  Encombrement: 2  Stockage: porté   Monté: Non
+Great Bascinet (avec bevor)        135 sp     Tech 6-7  Commun      Fréquence: 4  Encombrement: 3  Stockage: porté   Monté: Non
+Tournament Helmet (joute lourd)    280 sp     Tech 7    Rare        Fréquence: 1  Encombrement: 4  Stockage: porté   Monté: Non
+Lobster-tailed Pot                  38 sp     Tech 7    Commun      Fréquence: 5  Encombrement: 2  Stockage: porté   Monté: Non
+
+================================================================================
+3. BOUCLIERS (MATRICE OFFICIELLE PAR TAILLE - ENCOMBREMENT & GRAPPLING INDEX)
+================================================================================
+================================================================================
+TABLEAU DES BOUCLIERS (RÉORGANISÉ - SIZE 1 À 11)
+================================================================================
+
+SIZE 1 : Brocchiere (700 cm²)     | 5 sp   | Tech 5 | Fréq: 9 | Enc: 1 | Porté
+SIZE 2 : Small Buckler (910 cm²)   | 7 sp   | Tech 5 | Fréq: 9 | Enc: 1 | Porté
+SIZE 3 : Buckler (1183 cm²)        | 9 sp   | Tech 5 | Fréq: 8 | Enc: 1 | Porté
+SIZE 4 : Large Buckler (1538 cm²)  | 12 sp  | Tech 5 | Fréq: 7 | Enc: 2 | Porté
+SIZE 5 : Small Rotella (1999 cm²)  | 14 sp  | Tech 5 | Fréq: 6 | Enc: 2 | Porté
+SIZE 6 : Rotella (2599 cm²)        | 16 sp  | Tech 4 | Fréq: 7 | Enc: 2 | Porté
+SIZE 7 : Large Rotella (3379 cm²)  | 22 sp  | Tech 5 | Fréq: 7 | Enc: 3 | Porté
+SIZE 8 : Heater Shield (4392 cm²)  | 24 sp  | Tech 4 | Fréq: 5 | Enc: 4 | Porté
+SIZE 9 : Velites Parma (5710 cm²)  | 26 sp  | Tech 5 | Fréq: 5 | Enc: 4 | Porté
+SIZE 10: Kite Shield (7423 cm²)    | 27 sp  | Tech 5 | Fréq: 5 | Enc: 4 | Porté
+SIZE 11: Scutum (9650 cm²)         | 35 sp  | Tech 5 | Fréq: 4 | Enc: 5 | Épaule
+
+================================================================================
+
+================================================================================
+4. ARMES – LISTE EXHAUSTIVE (Prise en main)
+================================================================================
+
+--- Couteaux & Dagues ---
+Knife (couteau)               6 sp     Tech 3   Prise: 1 main      Fréq: 10 Encom: 1  Stock: porté   Monté: Non
+Dagger                       14 sp     Tech 3-4 Prise: 1 main      Fréq: 9  Encom: 1  Stock: porté   Monté: Non
+Rondel Dagger                28 sp     Tech 5   Prise: 1 main      Fréq: 6  Encom: 1  Stock: porté   Monté: Non
+
+--- Épées & Armes de taille ---
+Arming Sword                 75 sp     Tech 4   Prise: 1 main    Type XVIII  Fréq: 8 Encom: 3 Stock: porté   Monté: Non
+Baselard                     55 sp     Tech 5   Prise: 1 main    Type XVa    Fréq: 7 Encom: 2 Stock: porté   Monté: Non
+Falchion                     70 sp     Tech 5   Prise: 1 main    Type 1/2    Fréq: 6 Encom: 3 Stock: porté   Monté: Non
+Messer                       80 sp     Tech 5   Prise: 1 ou 2    Type XV     Fréq: 5 Encom: 3 Stock: porté   Monté: Non
+Cutlass                      95 sp     Tech 6   Prise: 1 main    Hors Typo   Fréq: 7 Encom: 3 Stock: porté   Monté: Non
+Katzbalger                   95 sp     Tech 6   Prise: 1 main    Hors Typo   Fréq: 5 Encom: 3 Stock: porté   Monté: Non
+Broadsword                  110 sp     Tech 6   Prise: 1 main    Type XVIIIc Fréq: 6 Encom: 3 Stock: porté   Monté: Non
+Longsword                   145 sp     Tech 5   Prise: 2 mains   Type XVIIIb Fréq: 8 Encom: 4 Stock: épaule  Monté: Non
+Bastard Estoc               170 sp     Tech 5   Prise: 1 ou 2    Type XVIa   Fréq: 6 Encom: 4 Stock: épaule  Monté: Non
+Bastard sword               155 sp     Tech 6   Prise: 1 ou 2    Type XVII   Fréq: 6 Encom: 3 Stock: porté   Monté: Non
+Scimitar                    140 sp     Tech 5   Prise: 1 main    Hors Typo   Fréq: 5 Encom: 3 Stock: porté   Monté: Non
+Rapier                      280 sp     Tech 6   Prise: 1 main    Hors Typo   Fréq: 4 Encom: 3 Stock: porté   Monté: Non
+Sidesword                   250 sp     Tech 6   Prise: 1 main    Hors Typo   Fréq: 5 Encom: 3 Stock: porté   Monté: Non
+Estoc                       220 sp     Tech 6   Prise: 2 mains   Type XVII   Fréq: 4 Encom: 3 Stock: porté   Monté: Non
+Main-gauche                  95 sp     Tech 6   Prise: 1 main    Hors Typo   Fréq: 6 Encom: 1 Stock: porté   Monté: Non
+
+--- Armes d’hast & Piques ---
+Spear                         7 sp     Tech 3   Prise: 1 ou 2   Fréq: 9  Encom: 3  Stock: épaule  Monté: Non
+Reinforced Spear             20 sp     Tech 4   Prise: 1 ou 2   Fréq: 7  Encom: 3  Stock: épaule  Monté: Non
+Billhook                     35 sp     Tech 5   Prise: 2 mains  Fréq: 7  Encom: 4  Stock: épaule  Monté: Non
+Pike                         28 sp     Tech 6   Prise: 2 mains  Fréq: 8  Encom: 5  Stock: épaule  Monté: Non
+Lance                        42 sp     Tech 4   Prise: 2 mains  Fréq: 5  Encom: 3  Stock: épaule  Monté: Oui
+Bill                         55 sp     Tech 5   Prise: 2 mains  Fréq: 6  Encom: 4  Stock: épaule  Monté: Non
+Guisarme                     55 sp     Tech 5   Prise: 2 mains  Fréq: 4  Encom: 4  Stock: épaule  Monté: Non
+Glaive                       55 sp     Tech 5   Prise: 2 mains  Fréq: 5  Encom: 4  Stock: épaule  Monté: Non
+Halberd                      75 sp     Tech 5   Prise: 2 mains  Fréq: 7  Encom: 4  Stock: épaule  Monté: Non
+Poleaxe                     105 sp     Tech 5   Prise: 2 mains  Fréq: 6  Encom: 4  Stock: épaule  Monté: Non
+War Scythe                   35 sp     Tech 5   Prise: 2 mains  Fréq: 6  Encom: 4  Stock: épaule  Monté: Non
+Bec de Corbin               160 sp     Tech 6   Prise: 2 mains  Fréq: 4  Encom: 4  Stock: épaule  Monté: Non
+Partisan                    130 sp     Tech 6   Prise: 2 mains  Fréq: 5  Encom: 4  Stock: épaule  Monté: Non
+Ranseur                     120 sp     Tech 5   Prise: 2 mains  Fréq: 5  Encom: 4  Stock: épaule  Monté: Non
+Military Fork                28 sp     Tech 5   Prise: 2 mains  Fréq: 6  Encom: 4  Stock: épaule  Monté: Non
+Lucerne Hammer              145 sp     Tech 5   Prise: 2 mains  Fréq: 4  Encom: 4  Stock: épaule  Monté: Non
+--- Armes contondantes ---
+Club                          6 sp     Tech 0   Prise: 1 main      Fréq: 10 Encom: 2  Stock: porté   Monté: Non
+Light Hammer                 50 sp     Tech 4   Prise: 1 main      Fréq: 7  Encom: 2  Stock: porté   Monté: Oui
+Quarterstaff                 18 sp     Tech 3   Prise: 2 mains     Fréq: 9  Encom: 3  Stock: épaule  Monté: Non
+Mace                         65 sp     Tech 1   Prise: 1 main      Fréq: 7  Encom: 3  Stock: porté   Monté: Oui
+Flanged Mace                 95 sp     Tech 5   Prise: 1 main      Fréq: 5  Encom: 3  Stock: porté   Monté: Oui
+Morning Star                 95 sp     Tech 5   Prise: 2 mains     Fréq: 4  Encom: 3  Stock: épaule  Monté: Non
+War Hammer                   80 sp     Tech 4   Prise: 2 mains     Fréq: 7  Encom: 3  Stock: épaule  Monté: Non
+War Hammer (Ren.)           130 sp     Tech 7   Prise: 1 ou 2      Fréq: 4  Encom: 4  Stock: épaule  Monté: Non
+Maul                         75 sp     Tech 5   Prise: 2 mains     Fréq: 6  Encom: 4  Stock: épaule  Monté: Non
+Light Flail                  65 sp     Tech 5   Prise: 1 ou 2      Fréq: 5  Encom: 3  Stock: porté   Monté: Non
+
+--- Haches ---
+Hand Axe                     45 sp     Tech 4   Prise: 1 main      Fréq: 8  Encom: 2  Stock: porté   Monté: Non
+Francisca                    50 sp     Tech 4   Prise: 1 main      Fréq: 4  Encom: 2  Stock: porté   Monté: Non
+Battle Axe                   95 sp     Tech 3   Prise: 2 mains     Fréq: 6  Encom: 3  Stock: épaule  Monté: Non
+
+--- Armes à distance ---
+Sling                         2 bp     Tech 3    Toujours    Fréquence: 9  Encombrement: 1  Stockage: porté   Monté: Non
+Staff Sling                   5 bp     Tech 3    Toujours    Fréquence: 8  Encombrement: 2  Stockage: épaule  Monté: Non
+Short bow                    32 sp     Tech 3-4  Toujours    Fréquence: 8  Encombrement: 3  Stockage: porté   Monté: Non
+Longbow                      55 sp     Tech 5    Commun      Fréquence: 7  Encombrement: 3  Stockage: porté   Monté: Non
+Composite Bow               160 sp     Tech 5    Commun      Fréquence: 4  Encombrement: 3  Stockage: porté   Monté: Non
+Composite Bow (qualité)     230 sp     Tech 6    Rare        Fréquence: 2  Encombrement: 3  Stockage: porté   Monté: Non
+Light Crossbow               95 sp     Tech 5    Commun      Fréquence: 6  Encombrement: 3  Stockage: porté   Monté: Non
+Crossbow                    135 sp     Tech 5    Commun      Fréquence: 5  Encombrement: 3  Stockage: porté   Monté: Non
+Heavy Crossbow              175 sp     Tech 5    Commun      Fréquence: 3  Encombrement: 4  Stockage: épaule  Monté: Non
+Javelin                       6 sp     Tech 3    Toujours    Fréquence: 8  Encombrement: 2  Stockage: porté   Monté: Non
+Verutum                       5 sp     Tech 3    Toujours    Fréquence: 9  Encombrement: 2  Stockage: porté   Monté: Non
+Spiculum                      7 sp     Tech 3    Toujours    Fréquence: 7  Encombrement: 2  Stockage: porté   Monté: Non
+Reinforced Javelin           13 sp     Tech 4    Commun      Fréquence: 6  Encombrement: 2  Stockage: porté   Monté: Non
+War Dart                     28 sp     Tech 4    Commun      Fréquence: 7  Encombrement: 2  Stockage: porté   Monté: Non
+
+--- ARMES À POUDRE (PRIX TRIPLÉS - RARETÉ ROYAUMES OUBLIÉS) ---
+Handgonne                    480 sp     Tech 5    Rare        (x3)
+Arquebus                     390 sp     Tech 7    Rare        (x3)
+Musket                       540 sp     Tech 7    Très rare   (x3)
+Wheellock Pistol             330 sp     Tech 7    Rare        (x3)
+Flintlock Pistol             255 sp     Tech 8    Très rare   (x3)
+
+
+--- MUNITIONS & ACCESSOIRES DE COMBAT ---
+Arrows (paire de 12 / carquois plein)          7 sp     Tech 5    Toujours    Fréquence: 8  Encombrement: 2  Stockage: épaule   Monté: Non
+Crossbow Bolts (paire de 12)                   6 sp     Tech 5    Toujours    Fréquence: 8  Encombrement: 2  Stockage: porté    Monté: Non
+Heavy Crossbow Bolts (paire de 12)            9 sp     Tech 5    Commun      Fréquence: 6  Encombrement: 3  Stockage: porté    Monté: Non
+Sling bullets (12 billes de plomb)            3 cp     Tech 3    Toujours    Fréquence: 9  Encombrement: 1  Stockage: porté    Monté: Non
+Gunpowder & Lead balls (10 tirs)              45 sp     Tech 5    Rare        Fréquence: 3  Encombrement: 2  Stockage: porté    Monté: Non
+Sword Scabbard (fourreau cuir/bois)            5 sp     Tech 4    Toujours    Fréquence: 9  Encombrement: 0  Stockage: porté    Monté: Non
+Dagger Sheath (gaine de dague)                 8 cp     Tech 3    Toujours    Fréquence: 10 Encombrement: 0  Stockage: porté    Monté: Non
+Quiver / Bolt case (carquois vide)            15 cp     Tech 4    Toujours    Fréquence: 9  Encombrement: 1  Stockage: épaule   Monté: Non
+
+================================================================================
+5. MONTURES + BARDAGE POUR CHEVAUX
+================================================================================
+--- Montures ---
+Rouncey                       75 sp     Tech 3    Toujours
+Courser                      110 sp     Tech 4    Commun
+Palfrey                      100 sp     Tech 4    Commun
+Destrier                     220 sp     Tech 4    Commun
+Destrier (quality)           350 sp     Tech 7    Rare
+
+--- Bardage (Horse Armor) ---
+Leather barding               140 sp     Tech 4    Commun
+Chain barding                 480 sp     Tech 5    Commun
+Plate mail barding           950 sp     Tech 6-7  Commun
+Leather chanfron               22 sp     Tech 4    Commun
+Plate chanfron                 65 sp     Tech 5    Commun
+Leather crinet                 18 sp     Tech 4    Commun
+Chain crinet                   95 sp     Tech 5    Commun
+Plate crinet                  180 sp     Tech 6    Rare
+
+--- HARNACHEMENT & LOGISTIQUE ÉQUESTRE ---
+Pack Saddle (selle de bât/charge)      15 sp     Tech 3    Toujours
+Riding Saddle (selle de voyage)        35 sp     Tech 4    Toujours
+War Saddle (selle de guerre arcçon)    95 sp     Tech 5    Commun      (Indispensable pour charger à la lance)
+Bit & Bridle (bride et mors complet)    8 sp     Tech 3    Toujours
+Saddlebags (sacoches de selle, paire)   9 sp     Tech 3    Toujours    Capacité de stockage accrue pour la monture
+Stirrups (étriers de rechange, paire)   6 sp     Tech 4    Toujours
+
+================================================================================
+6. ÉQUIPEMENT DE VOYAGE & SURVIE
+================================================================================
+Backpack (small leather)       8 bp     Tech 3    Toujours
+Backpack (medium leather)     15 bp     Tech 3    Toujours
+Backpack (large leather)      25 bp     Tech 3    Toujours
+Tent 2-man leather            55 sp     Tech 2    Toujours
+Tent 4-man leather            90 sp     Tech 2    Commun
+Tent 8-man leather           160 sp     Tech 2    Rare
+Pavillion                    320 sp     Tech 4    Très rare
+Sleeping furs (light)         180 cp     Tech 3    Toujours
+Sleeping furs (heavy)         280 cp     Tech 3    Commun
+Blanket (light)                70 cp     Tech 3    Toujours
+Blanket (heavy)               110 cp     Tech 3    Toujours
+Rope light (50')               15 cp     Tech 3    Toujours
+Rope standard (50')            22 cp     Tech 3    Toujours
+Flint & steel                   5 sp     Tech 4    Toujours
+Tinderbox                      12 cp     Tech 3    Toujours
+Fishing net (small)            18 sp     Tech 3    Commun
+Fishing net (large)            32 sp     Tech 3    Commun
+Fishhook & line                 8 tp     Tech 3    Toujours
+Fish trap                      12 bp     Tech 3    Commun
+Waterskin (1 gal)              10 bp     Tech 3    Toujours
+Waterskin (5 gal)              25 bp     Tech 3    Commun
+Canteen (1 pt)                  8 cp     Tech 3    Toujours
+Lantern (hooded)               18 bp     Tech 3    Toujours
+Lamp oil                        5 bp     Tech 3    Toujours
+Compass                        12 sp     Tech 7    Commun
+Spyglass                       8 gp     Tech 7    Rare
+
+
+--- ÉCLAIRAGE BASSE QUALITÉ & CONTENANTS DE MISÈRE ---
+Tallow Candle (bougie de suif, x3)    1 tp     Tech 3    Toujours
+Resin Torch (torche en résine, x3)    3 tp     Tech 2    Toujours
+Sack (sac en toile basique / 50 lbs)  1 cp     Tech 2    Toujours    Option de stockage low-cost pour profils pauvres
+Oil flask (recharge lanterne)         2 cp     Tech 3    Toujours
+Whetstone (pierre à aiguiser)         1 cp     Tech 3    Toujours
+
+================================================================================
+7. VÊTEMENTS & ACCESSOIRES
+================================================================================
+Cloak (wool)                    35 bp     Tech 3    Toujours
+Cloak (fur-lined)               90 bp     Tech 3    Commun
+Cloak (hooded wool)             45 bp     Tech 3    Toujours
+Coat (leather)                  65 bp     Tech 3    Commun
+Gloves (leather)                 8 bp     Tech 3    Toujours
+Gloves (fur lined)              18 bp     Tech 3    Commun
+Boots (normal leather)          20 bp     Tech 3    Toujours
+Boots (fine leather)             9 sp     Tech 4    Commun
+Belt (leather)                  35 cp     Tech 3    Toujours
+Belt pouch (small)              25 tp     Tech 3    Toujours
+Belt pouch (large)              45 tp     Tech 3    Commun
+Hat (leather)                    5 bp     Tech 3    Toujours
+
+================================================================================
+8. OUTILS & ARTISANAT
+================================================================================
+Lockpicks (poor)                25 bp     Tech 4    Commun
+Lockpicks (average)              5 sp     Tech 4    Commun
+Lockpicks (fine)                28 sp     Tech 5    Rare
+Skeleton key                    30 sp     Tech 5    Rare
+Crowbar (standard)              22 bp     Tech 3    Toujours
+Crowbar (heavy)                 32 bp     Tech 3    Commun
+Metal file (small)              30 bp     Tech 4    Commun
+Chisel (cold)                   12 bp     Tech 3    Toujours
+10' pole                        65 bp     Tech 3    Toujours
+Grappling hook                  45 bp     Tech 4    Commun
+
+================================================================================
+9. RATIONS & NOURRITURE DE VOYAGE
+================================================================================
+Hardtack                         4 tp     Tech 3    Toujours
+Waybread                        22 tp     Tech 4    Commun
+Black bread                     10 tp     Tech 3    Toujours
+Beef, jerked                     8 cp     Tech 3    Commun
+Pork, smoked                    25 cp     Tech 3    Commun
+Fish (salted)                    8 cp     Tech 3    Commun
+Salmon, smoked                  12 cp     Tech 3    Commun
+Butter, salted                  50 cp     Tech 3    Commun
+Field rations (basic)           18 tp     Tech 3    Toujours
+Dried fruit (small bag)         15 cp     Tech 3    Commun
+
+================================================================================
+10. MÉDECINE & PREMIERS SOINS
+================================================================================
+Bandages, linen (30')           35 cp     Tech 3    Toujours
+Herbal remedy                   12 cp+    Tech 3    Toujours
+Basin, bleeding                 30 tp     Tech 4    Commun
+Lancet, bleeding                 9 bp     Tech 4    Commun
+Cranial drill                   22 bp     Tech 5    Rare
+Saw, amputation                120 cp     Tech 5    Rare
+Crutches                         8 cp     Tech 3    Commun
+Surgical knife                  22 bp     Tech 5    Commun
+Suturing needle (curved)        12 bp     Tech 4    Commun
+Thread (50 yards)                8 cp     Tech 3    Toujours
+Leeches (50)                     9 bp     Tech 3    Commun
+Mortar & pestle                 12 cp     Tech 3    Commun
+Hook, steel                    180 sp     Tech 5    Rare
+Pegleg, wooden                  35 bp     Tech 4    Commun
+
+================================================================================
+FIN DU FICHIER
+================================================================================

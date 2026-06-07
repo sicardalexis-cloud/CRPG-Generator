@@ -16,6 +16,7 @@ from typing import Dict, List, Tuple, Optional
 import re
 
 from . import historical_price_corrections as price_fix
+from . import groupe1_prices as grp_prices
 
 # =============================================================================
 # CONVERTISSEUR DE PRIX → BRONZE PIECES (bp)  [unité de base pour tous les calculs]
@@ -51,6 +52,18 @@ def parse_price_to_bp(price_str: str) -> float:
         return _convert_unit_to_bp(val, unit)
 
     return 0.0
+
+
+def get_effective_price_bp(item_name: str, fallback_price_str: str) -> float:
+    """
+    Upgrade: prefer price from the master Groupe1_Cote_des_Epees_Equipement.txt .
+    If the item has an entry there, use it (converted to bp).
+    Otherwise fall back to the provided price_str parsing.
+    """
+    master_sp = grp_prices.get_groupe1_price(item_name, 0.0)
+    if master_sp > 0:
+        return master_sp * 10.0  # sp to bp
+    return parse_price_to_bp(fallback_price_str)
 
 
 def _convert_unit_to_bp(val: float, unit: str) -> float:
@@ -709,7 +722,8 @@ def get_universal_starting_kit() -> List[Dict]:
     result = []
     for name, original_price_str in UNIVERSAL_STANDARD_KIT:
         corrected_price = price_fix.get_historical_price(name, original_price_str)
-        bp = parse_price_to_bp(corrected_price)
+        # Upgrade: prefer master Groupe1 price
+        bp = get_effective_price_bp(name, corrected_price)
         result.append({
             "name": name,
             "price_str": corrected_price,
@@ -729,7 +743,8 @@ def get_regional_adventurer_kit(region_name: str) -> List[Dict]:
         # Application des corrections historiques si nécessaire
         corrected_price = price_fix.get_historical_price(name, original_price_str)
 
-        bp = parse_price_to_bp(corrected_price)
+        # Upgrade: prefer master Groupe1 price for all equipment
+        bp = get_effective_price_bp(name, corrected_price)
         result.append({
             "name": name,
             "price_str": corrected_price,

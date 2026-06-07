@@ -1,0 +1,565 @@
+FORCED LOW-CAP MELEE SHIELD EVOLUTION TEST (Size 11 starter) + PROJECTILE CONTRAST
+================================================================================
+
+Permanent test artifact for the shield size reduction rule based on the
+'Shield Size Evolution in the Middle Ages - Surface Area vs Armor Development' table.
+
+DESIGN OF THIS TEST FILE:
+- The PRIMARY focus is the MELEE path because that is the only path that uses
+  the shield reduction logic (Scutum Size 11 base that shrinks as armor improves).
+- Projectile characters are NEVER affected by shield reduction. They always start
+  with Short Bow + Arrows(12) + Club + Knife (no shield at all), regardless of capital.
+  That is why the majority of rows here are forced melee: to exercise and document
+  the full progression (Size 11 -> 10/9/8/7/6/5/4/3/2/1) under low capital without noise.
+- We deliberately include a few forced-projectile low-cap examples (at the end)
+  purely for contrast, so you can see that the projectile branch stays on bow kit
+  and never participates in the shield size table logic.
+
+- All starting capitals are FORCED low (62-380 sp range) via patch to the economy
+  function. This lets us demonstrate the full table even though normal capital
+  tends to be higher.
+- Melee base (always): Scutum (Size 11, 35sp) + Spear + Club + Knife.
+- Side weapon (Hand Axe) only if remaining >=45 after base (historical rule).
+- Then: most expensive affordable armor set with whatever is left.
+- Then: shield is reduced from Size 11 according to the historical table
+  (keywords + price bands for periods: early padded -> mail -> coat of plates ->
+   early cuirass -> developed plate (cuirass+full limbs) -> full harness).
+- Price credit for the downgraded shield is added back to capital_left before
+  mount selection and the final 5% pocket bonus (confirmed intended behavior).
+- Equipment_Source is always ProtocolSkillBased.
+
+Expected in the MELEE rows:
+  Very low budget after base: Scutum (Size 11) or Kite/Heater (10/8)
+  Mid: Velites (9), Large Rotella (7), Rotella (6), Small Rotella (5)
+  High (within forced range): Small Buckler / Brocchiere (2/1)
+
+The PROJECTILE rows will show Longbow/Short Bow variants and no shield reduction.
+
+Do not edit by hand. Regenerate with the companion generator script if the logic changes.
+
+================================================================================
+MELEE EXAMPLES (forced low cap, showing shield size reduction progression)
+================================================================================
+
+ID: CH-LOW-MELEE-000
+  Starting_Capital: 62 sp (FORCED low)
+  Melee/Projectiles: 14.0 / 2.5
+  Armes_et_Bouclier: Scutum (Size 11), Spear, Club, Knife
+  Armure: Reinforced Gambeson (4) + Kettle Hat (3)
+  Phase2_Armor_Cost_BP: 70.0
+  Final_Pocket_Money_BP: 41
+  Equipment_Source: ProtocolSkillBased
+  Test_Notes: Size 11 - minimal/very early armor (padded or none)
+
+--------------------------------------------------------------------------------
+
+ID: CH-LOW-MELEE-001
+  Starting_Capital: 71 sp (FORCED low)
+  Melee/Projectiles: 14.0 / 2.5
+  Armes_et_Bouclier: Heater Shield (Size 8), Spear, Club, Knife
+  Armure: Simple Breastplate (4) + Padded Jack (5) + Kettle Hat (3) + Besagews (2) + Gorget (3)
+  Phase2_Armor_Cost_BP: 170.0
+  Final_Pocket_Money_BP: 146
+  Equipment_Source: ProtocolSkillBased
+  Test_Notes: Size 8 - Transitional Early Gothic (early plate)
+
+--------------------------------------------------------------------------------
+
+ID: CH-LOW-MELEE-002
+  Starting_Capital: 84 sp (FORCED low)
+  Melee/Projectiles: 14.0 / 2.5
+  Armes_et_Bouclier: Large Rotella (Size 7), Spear, Club, Knife
+  Armure: Coat of Plates (5) + Arming Doublet (12) + Bascinet (5) + Besagews (2) + Gorget (6)
+  Phase2_Armor_Cost_BP: 300.0
+  Final_Pocket_Money_BP: 172
+  Equipment_Source: ProtocolSkillBased
+  Test_Notes: Size 7 - Coat of Plates era
+
+--------------------------------------------------------------------------------
+
+ID: CH-LOW-MELEE-003
+  Starting_Capital: 97 sp (FORCED low)
+  Melee/Projectiles: 14.0 / 2.5
+  Armes_et_Bouclier: Velites Parma (Size 9), Spear, Club, Knife
+  Armure: Mail Hauberk [25] + Gorget [2] + Bevor [2] + Fauld [3] + Bascinet [5] + Besagews [1] + Maille collerette [5][cite: 1, 2]
+  Phase2_Armor_Cost_BP: 430.0
+  Final_Pocket_Money_BP: 139
+  Equipment_Source: ProtocolSkillBased
+  Test_Notes: Size 9 - long mail hauberk / High Romanesque stage
+
+--------------------------------------------------------------------------------
+
+ID: CH-LOW-MELEE-004
+  Starting_Capital: 109 sp (FORCED low)
+  Melee/Projectiles: 14.0 / 2.5
+  Armes_et_Bouclier: Large Rotella (Size 7), Spear, Club, Knife, Hand Axe
+  Armure: Coat of Plates (5) + Cervelière (2) + Besagews (1) + Gorget (2)
+  Phase2_Armor_Cost_BP: 100.0
+  Final_Pocket_Money_BP: 184
+  Equipment_Source: ProtocolSkillBased
+  Test_Notes: Size 7 - Coat of Plates era
+
+--------------------------------------------------------------------------------
+
+ID: CH-LOW-MELEE-005
+  Starting_Capital: 124 sp (FORCED low)
+  Melee/Projectiles: 14.0 / 2.5
+  Armes_et_Bouclier: Rotella (Size 6), Spear, Club, Knife, Hand Axe
+  Armure: Breastplate/Backplate (9) + Aketon (2) + Sallet (4) + Besagews (2) + Gorget (7.5)
+  Phase2_Armor_Cost_BP: 245.0
+  Final_Pocket_Money_BP: 257
+  Equipment_Source: ProtocolSkillBased
+  Test_Notes: Size 6 - Early Plate Transition (brigandine/early cuirass)
+
+--------------------------------------------------------------------------------
+
+ID: CH-LOW-MELEE-006
+  Starting_Capital: 138 sp (FORCED low)
+  Melee/Projectiles: 14.0 / 2.5
+  Armes_et_Bouclier: Small Rotella (Size 5), Spear, Club, Knife, Hand Axe
+  Armure: Breastplate/Backplate (renf) [22] + Aketon [2] + Armet [8] + Besagews [2] + Gorget [4.5]
+  Phase2_Armor_Cost_BP: 385.0
+  Final_Pocket_Money_BP: 284
+  Equipment_Source: ProtocolSkillBased
+  Test_Notes: Size 5 - Developed Plate (cuirass + full limbs)
+
+--------------------------------------------------------------------------------
+
+ID: CH-LOW-MELEE-007
+  Starting_Capital: 155 sp (FORCED low)
+  Melee/Projectiles: 14.0 / 2.5
+  Armes_et_Bouclier: Small Buckler (Size 2), Spear, Club, Knife, Hand Axe
+  Armure: HARNOIS GOTHIC DE BASE : Breastplate/Backplate [9] + Bras [15] + Jambes [14] + Gorget [2] + Sallet [4] + Maille [12][cite: 1, 2]
+  Phase2_Armor_Cost_BP: 560.0
+  Final_Pocket_Money_BP: 358
+  Equipment_Source: ProtocolSkillBased
+  Test_Notes: Size 1-3 - Full Plate / Maximilian (auxiliary shield)
+
+--------------------------------------------------------------------------------
+
+ID: CH-LOW-MELEE-008
+  Starting_Capital: 172 sp (FORCED low)
+  Melee/Projectiles: 14.0 / 2.5
+  Armes_et_Bouclier: Rotella (Size 6), Spear, Club, Knife, Hand Axe
+  Armure: Brigandine [8] + Mail Hauberk [25] + Jambes classiques [14] + Gorget [2] + Bevor [2] + Burgonet [5] + Plackart [15][cite: 1, 2]
+  Phase2_Armor_Cost_BP: 710.0
+  Final_Pocket_Money_BP: 296
+  Equipment_Source: ProtocolSkillBased
+  Test_Notes: Size 6 - Early Plate Transition (brigandine/early cuirass)
+
+--------------------------------------------------------------------------------
+
+ID: CH-LOW-MELEE-009
+  Starting_Capital: 189 sp (FORCED low)
+  Melee/Projectiles: 14.0 / 2.5
+  Armes_et_Bouclier: Brocchiere (Size 1), Spear, Club, Knife, Hand Axe
+  Armure: Maximilian Standard (48) + Tassets longs (3) + Sabatons larges (3) + Burgonet (5) + Plackart (2.5) + Besagews (2) + Gorget (22.5) [Note: rééquilibré]
+  Phase2_Armor_Cost_BP: 860.0
+  Final_Pocket_Money_BP: 435
+  Equipment_Source: ProtocolSkillBased
+  Test_Notes: Size 1-3 - Full Plate / Maximilian (auxiliary shield)
+
+--------------------------------------------------------------------------------
+
+
+================================================================================
+PROJECTILE CONTRAST EXAMPLES (same low-cap conditions, but bow base - no shield reduction)
+================================================================================
+
+Note: These prove that projectile characters (when Projectiles score > Melee) 
+get the bow kit and are completely unaffected by the shield size table.
+They never receive Scutum or any shrinking shield.
+
+ID: CH-LOW-PROJ-000
+  Starting_Capital: 205 sp (FORCED low)
+  Melee/Projectiles: 2.5 / 14.0
+  Armes_et_Bouclier: Longbow, Arrows (12), Club, Knife, Arrows (12)
+  Armure: Harnois Maximilian de Maître (112.5) + Morion (3) + Gantelets renforcés (5) [Ajustement]
+  Phase2_Armor_Cost_BP: 1200.0
+  Final_Pocket_Money_BP: 142
+  Equipment_Source: ProtocolSkillBased
+  Test_Notes: PROJECTILE path - bow base kit, shield reduction NEVER applies
+
+--------------------------------------------------------------------------------
+
+ID: CH-LOW-PROJ-001
+  Starting_Capital: 235 sp (FORCED low)
+  Melee/Projectiles: 2.5 / 14.0
+  Armes_et_Bouclier: Longbow, Arrows (12), Club, Knife, Arrows (12)
+  Armure: Harnois de Brèche (128) + Plackart (2.5) + Tassets longs (3) + Sabatons larges (2.5)
+  Phase2_Armor_Cost_BP: 1360.0
+  Final_Pocket_Money_BP: 298
+  Equipment_Source: ProtocolSkillBased
+  Test_Notes: PROJECTILE path - bow base kit, shield reduction NEVER applies
+
+--------------------------------------------------------------------------------
+
+ID: CH-LOW-PROJ-002
+  Starting_Capital: 270 sp (FORCED low)
+  Melee/Projectiles: 2.5 / 14.0
+  Armes_et_Bouclier: Longbow, Arrows (12), Club, Knife, Arrows (12)
+  Armure: CAPARAÇON ET HARNOIS DE JOUTE D'ÉLITE : Harnois Joute Royale (168) + Pièces renforcées sup. (17)
+  Phase2_Armor_Cost_BP: 1850.0
+  Final_Pocket_Money_BP: 175
+  Equipment_Source: ProtocolSkillBased
+  Test_Notes: PROJECTILE path - bow base kit, shield reduction NEVER applies
+
+--------------------------------------------------------------------------------
+
+ID: CH-LOW-PROJ-003
+  Starting_Capital: 310 sp (FORCED low)
+  Melee/Projectiles: 2.5 / 14.0
+  Armes_et_Bouclier: Longbow, Arrows (12), Club, Knife, Arrows (12)
+  Armure: CAPARAÇON ET HARNOIS DE JOUTE D'ÉLITE : Harnois Joute Royale (168) + Pièces renforcées sup. (17)
+  Phase2_Armor_Cost_BP: 1850.0
+  Final_Pocket_Money_BP: 195
+  Equipment_Source: ProtocolSkillBased
+  Test_Notes: PROJECTILE path - bow base kit, shield reduction NEVER applies
+
+--------------------------------------------------------------------------------
+
+ID: CH-LOW-PROJ-004
+  Starting_Capital: 380 sp (FORCED low)
+  Melee/Projectiles: 2.5 / 14.0
+  Armes_et_Bouclier: Longbow, Arrows (12), Club, Knife, Arrows (12)
+  Armure: CAPARAÇON ET HARNOIS DE JOUTE D'ÉLITE : Harnois Joute Royale (168) + Pièces renforcées sup. (17)
+  Phase2_Armor_Cost_BP: 1850.0
+  Final_Pocket_Money_BP: 710
+  Equipment_Source: ProtocolSkillBased
+  Test_Notes: PROJECTILE path - bow base kit, shield reduction NEVER applies
+
+--------------------------------------------------------------------------------
+
+END OF TEST FILE
+
+=== AUDIT REPORT: Status of using Groupe1_Cote_des_Epees_Equipement.txt as single price source ===
+
+All critical prices in the character generation protocol (base kits for melee/projectile, shield reduction, mounts, evolution deltas) now come from the master file via groupe1_prices.get_groupe1_price().
+
+Updated modules:
+- utils.py : base_items, Longbow/Hand Axe deltas, shield credit, available_mounts
+- armor_sets.py : SHIELDS_BY_SIZE list + defaults in get_shield_for_armor_level (used for protocol melee shield shrink)
+- regional_adventurer_kits.py : universal and regional kits now use get_effective_price_bp which prefers master
+- historical_price_corrections.py : get_historical_price now prefers master first, then override, then original
+- group_equipment_pools.py : at load time, all price_sp are overridden with master lookup for matching names
+- generate_sets.py : shields, underlayers, and all main lists (via normalizer at load) use master prices
+- post_kit_purchases.py : quiver_price uses lookup
+
+Problems / things that may still fall back or need attention:
+1. Name matching: some names in code/pools are composite (e.g. "Reinforced Gambeson + Chain Shirt") or slight variants; fuzzy lookup helps but not perfect for all. Main protocol names (Scutum (Size 11), Short bow, Spear, Club, Knife, Hand Axe, Longbow, Arrows long name, Rouncey etc.) resolve correctly.
+2. Items not in master file: many survival/rations in universal kits ("Hardtack", "Sleeping furs", "Field rations") have no entry -> fallback to old string prices.
+3. Mounts: "Mule", "Pony" not explicitly in the master horse section -> use provided defaults in lookup calls.
+4. Sets_Armures.txt : static prebuilt sums. The prices in that file were originally calculated from this master, but if you edit the master piece prices, the set totals won't auto-update unless we re-generate the sets file. For strictness, consider re-summing the sets using current master piece prices.
+5. group_equipment_pools.py : was generated from per-group _Complet.txt files which had their own prices. We now override at runtime with Groupe1 prices for all groups. This achieves "all prices from Groupe1" but means regional flavor in pricing is lost (all use the same reference prices).
+6. generate_sets.py : the old random set builder now uses master for its DB lists (good for consistency if you still use tier sets).
+7. Some ammo/gear names: "Arrows (12)" in code is mapped to the long master name; works via the call sites.
+8. No prices for magic or very exotic in master; not used in current equipment protocol.
+
+If you want:
+- A script to re-generate Sets_Armures.txt by summing current master piece prices for the combinations.
+- Force all group pools source files to have Groupe1 prices.
+- Expand the master parser with more aliases for kit items.
+- Remove historical corrections entirely (since master is now authoritative).
+
+The generator now enforces the requirement for the used equipment in char creation and sets.
+
+=== END AUDIT ===
+
+=== NEW PROTOCOL PROPOSAL (implemented) ===
+
+After base kit (always given, specialty based) + FIRST side weapon purchase (Hand Axe for melee or Arming Sword for projectile, if affordable with surplus capital):
+
+Old rigid rules removed.
+
+New best proposed protocol (simple, coherent, historical, flexible, uses master prices from Groupe1 file):
+
+1. Buy the most expensive affordable armor set (from the prebuilt historical sets in Sets_Armures.txt). This is the core defensive purchase.
+
+2. (Melee only) Apply the historical shield size reduction from the table you provided (Scutum Size 11 down to Buckler Size 1 as armor level increases: early mail -> Coat of Plates -> developed cuirass+limbs -> full harness). Credit the price difference back to remaining. This evolution is preserved as a key feature.
+
+3. Buy the most expensive affordable mount from the list (using current master prices). Mobility is high value.
+
+4. With any capital still left: one "finisher" purchase tailored to specialty (the "best" meaningful addition):
+   - For projectile characters (who now have Arming Sword for close combat): upgrade the ranged weapon to Longbow (+ extra arrows if remaining allows). This makes the bow the power tool after close range is covered.
+   - For melee characters (who have Hand Axe): add a strong secondary like Mace (or Flanged Mace if not enough for Mace). Gives blunt option for variety vs armored foes.
+
+5. Add the flat 5% of original Starting_Capital as final pocket money (as before, on top of leftover).
+
+Benefits of this new protocol:
+- Prioritizes big, impactful purchases (armor set, mount) using the "most expensive affordable" heuristic you liked.
+- Gives a clean specialty "finisher" without forcing Longbow as first for projectile.
+- Keeps the requested historical shield reduction for melee.
+- Flexible for different capital levels.
+- No more old arbitrary thresholds or "X before Y" beyond the explicit first side weapon.
+- All prices strictly from the Groupe1 master file.
+- Produces varied, realistic, coherent kits (base + side arm + good armor + mobility + finisher + pocket).
+
+This is what I think is the "best" balanced, easy to understand, and fun for character building while respecting the historical flavor and your requests.
+
+The code in utils.py (the early protocol block) implements exactly this.
+=== END NEW PROTOCOL ===
+
+Verification (runtime): after loading group_equipment_pools, prices for matching items are overridden to Groupe1 master values (e.g. first item in Groupe1 pool will have price_sp from master if name matches).
+
+All used equipment prices in char generation now trace back to the required file (with documented fallbacks for non-listed items).
+
+================================================================================
+DYNAMIC BUILDER REPLACES STATIC SETS_ARMURES.TXT (June 2026 update)
+================================================================================
+
+User request: "instead of using sets_armures.txt i prefer to use a fonction that build your armor set with the availlable fund, do you think you can make historical plausible armor set with a function you build ?"
+
+Implemented:
+- New build_historical_armor_set(budget_sp, context) in data/equipment/armor_sets.py
+- All prices resolved live via groupe1_prices.get_groupe1_price (single source)
+- Historical rules enforced at construction time (same as the old generate_sets guards):
+  - Fabric (Arming Doublet / Reinforced Gambeson / Gambeson / Aketon / Padded Jack...) bought first.
+  - Vambraces / Couter / Rerebrace only added when fabric present.
+  - Gorget (any) / Bevor only when fabric present (never on skin).
+  - Pauldrons + Guards + Besagews ONLY when a true cuirass (Breastplate + Backplate or tempered variant) is in the set.
+  - Tassets / Fauld / Garde-reins only on plate torso.
+- Progression strategy: try best affordable core torso first (drives "era"), best fabric, matching high helm, then gated limbs/accessories. Spends the available fund (capital_left after base + first side weapon) on a coherent kit.
+- Returns structure with "name" (comma joined pieces for Armure col), "price_sp", and "items": list (used by enhanced get_shield_for_armor_level for robust keyword detection across pieces).
+- get_shield_for_armor_level extended to handle dict-with-items, lists, and relaxed keyword matching ("breastplate" + "backplate", "cuisses"/"greaves" for "jambes", "gauntlets" etc.) so shield reduction works for the new dynamic names.
+- Protocol in utils.py: the call after Hand Axe / Arming Sword is now the builder (context passes specialty). Comments updated. Static prebuilts no longer consulted for live chars.
+- Legacy get_most... + Sets_Armures.txt parser left in place (reference / other tools) but protocol path is 100% dynamic.
+
+Result: every character now gets a unique, fund-appropriate, rule-respecting armor set built on the spot instead of picking from a static curated list whose prices could drift from the master.
+
+================================================================================
+EXAMPLES PRODUCED WITH THE LIVE BUILDER (forced low capitals for shield test, mixed specialties)
+================================================================================
+
+These demonstrate:
+- Full high-end harness when capital allows (tempered cuirass + pauldrons + complete limbs + sabatons + high gorget + close helm) -> shield collapses to Size 1-2.
+- Mid capital: solid cuirass or brigandine core + pauldrons (when cuirass) + partial limbs/gorget.
+- Lower surplus: brigandine or coat + fabric + light helm; shield stays mid-size (6-8).
+- Both melee (with shield reduction + finisher mace) and projectile (bow upgrade + arming sword, same armor builder) paths.
+- All Equipment_Source = ProtocolSkillBased.
+- Costs are exact live sums (e.g. 861 sp for the very complete harness below).
+
+--- CH-TEST001 (high capital, melee specialty) ---
+Starting_Capital: 1536
+Melee/Projectiles: 2 / -2
+Armes_et_Bouclier: Brocchiere (Size 1), Spear, Club, Knife, Hand Axe, Mace
+Armure: Arming Doublet, Breastplate + Backplate (trempé), Close Helmet (heaume fermé), Gorget (renforcé), Pauldrons + Gardes, Besagews (paire), Vambraces+Couter+Rerebrace, Gauntlets (articulés renforcés), Fauld, Garde-reins, Plackart, Cuisses (renforcées Maximilian), Tassets longs, Poleyns + Genouillères, Greaves (renforcées), Sabatons (larges pied d'ours)
+Phase2_Armor_Cost_BP: 8610.0
+Test_Notes: Builder full late-harness (SIZE1 shield). Pauldrons + full limbs only because cuirass present + fabric. Classic "Late Medieval Full Harness" end of table.
+
+--- CH-TEST004 (mid-high, melee) ---
+Starting_Capital: 613
+Melee/Projectiles: 2 / 2
+Armes_et_Bouclier: Small Buckler (Size 2), Spear, Club, Knife, Hand Axe
+Armure: Arming Doublet, Breastplate + Backplate (trempé), Close Helmet (heaume fermé), Gorget (renforcé), Pauldrons + Gardes, Besagews (paire), Vambraces + Couter
+Phase2_Armor_Cost_BP: 5010.0
+Test_Notes: Cuirass + pauldrons + partial arms -> Size 2 shield (still high protection, auxiliary buckler). Good example of "Developed Plate Armor" / early full harness transition (SIZE 2-3).
+
+--- CH-TEST005 (lower surplus, melee) ---
+Starting_Capital: 237
+Melee/Projectiles: 3 / -3
+Armes_et_Bouclier: Rotella (Size 6), Spear, Club, Knife, Hand Axe
+Armure: Arming Doublet, Brigandine (standard troop), Nasal Helmet
+Phase2_Armor_Cost_BP: 1380.0
+Test_Notes: Brigandine era (SIZE 6 per table). Fabric under + transitional plate torso, no pauldrons (no cuirass), shield reduced from 11 only to 6. Plausible "Early Plate Transition".
+
+--- CH-TEST002 (projectile, mid capital) ---
+Starting_Capital: 598
+Melee/Projectiles: -4 / 2
+Armes_et_Bouclier: Short Bow, Arrows (12), Club, Knife, Arming Sword
+Armure: Arming Doublet, Breastplate + Backplate (trempé), Close Helmet (heaume fermé), Gorget (renforcé), Pauldrons + Gardes, Besagews (paire)
+Phase2_Armor_Cost_BP: 4660.0
+Test_Notes: PROJECTILE path. Still receives excellent cuirass harness from builder (armor not specialty-locked). Has Arming Sword as first side weapon + Longbow finisher (not shown in Armes here because finisher added after armor in this run log). No shield ever.
+
+================================================================================
+END OF BUILDER SECTION
+================================================================================
+
+The old static sets (and the 248sp - Breastplate + Haubergeon + Aketon style lines) are no longer the source for character equipment. The function now *is* the set generator for the available fund at the armor step.
+
+================================================================================
+FURTHER UPGRADE: LEG/KNEE/THIGH/HIPS PLATE LEVEL DICTATES SHIELD REDUCTION
+================================================================================
+
+Date: after the dynamic builder introduction.
+
+User specification:
+"upgrade : level of plate protection of the legs, knee, thight and hips (in this order)
+ dictate the shield size reduction."
+
+Full rationale provided (translated/summarized):
+The size of medieval shields decreased progressively as protection of the legs, thighs
+and pelvis improved.
+- 11th-12th c.: large kite shields (down to knees or lower) because legs were vulnerable
+  (only mail or nothing). Especially for cavalry.
+- Late 12th-13th c.: progressive appearance of leg protections (mail chausses then early
+  plates) -> shield shortens to heater (down to waist or mid-thigh). The pointed lower
+  part of the kite is cut off.
+- 14th-15th c.: full plate harness (cuisses, poleyns/genouillères for knees, greaves for
+  lower legs, plus basin/hip coverage with tassets + fauld + garde-reins) -> shield becomes
+  much smaller (medium heater or buckler 20-40cm used for parry + strike).
+Main reason: the shield no longer needed to cover what the leg armor already protected.
+Fighters preferred a lighter, more maneuverable shield, better mobility, and ability to
+use two-handed weapons. By late Middle Ages many fully armoured knights fought without
+any shield at all.
+
+Code changes (respecting "l'evolution historique de l'armure est prioritaire"):
+- In build_historical_armor_set: the leg harness addition order follows the historical
+  completion order from the original set generator (generate_sets.py phases) and armor
+  evolution: Upper Legs (cuisses for thighs + tassets for hip/basin coverage) before
+  Knees (poleyns), before Lower Legs (greaves/schynbalds), before Feet (sabatons).
+  We explicitly do *not* re-order the purchase block (e.g. forcing greaves/legs first)
+  just to make the shield score trigger smaller sizes "faster" at lower budgets.
+  Historical evolution of how armor was assembled/completed takes priority.
+- In get_shield_for_armor_level:
+  - New leg_score computed from presence of (detection only, independent of build order):
+      legs (greaves, schynbalds/demi-greaves)
+      + knee (poleyns + genouillères)
+      + thigh (cuisses normales or Maximilian)
+      + hips/basin (tassets longs, fauld, garde-reins)
+      + sabatons (completion)
+  - leg_score (0-5) is the *primary* driver that sets target_size (with cumulative
+    historical stages: score 1 -> ~Size 6-7, score 2 -> 4-5, score 3 -> 3-4, score>=4
+    -> 1-2 when combined with high-end torso).
+  - Strong clamps/guards: if leg_score <=0 (no leg plate progress) even a very expensive
+    cuirass or brigandine on the torso cannot force the shield below Size 9. If only
+    score 1, cannot go below Size 7. This enforces that the *lower body* protection level
+    (not general price or torso bling) is what dictates reduction.
+  - Legacy keywords ("jambes complètes" etc.) and old price bands still supported as
+    fallbacks, but the leg-driven path takes precedence for modern builder output.
+  - Docstring updated with the full user-provided historical text.
+
+Result: The builder assembles armor in historically accurate completion order.
+The mapper still uses the leg/knee/thigh/hips presence (in the dictate order) for
+shield sizing, with guards so lack of lower body plate keeps shields large.
+This respects both the shield reduction rule and the priority of historical armor
+evolution for how the pieces are chosen/bought.
+
+================================================================================
+LATEST UPDATE: NIVEAUX D'ARMURE PRESCRITS PAR CAPITAL RESTANT (nouvelles directives)
+================================================================================
+
+User provided the table "ÉVOLUTION DES ARMURES selon le capital restant" with:
+- Seuils minimum capital restant pour chaque niveau 2 à 11:
+  2=17sp, 3=105, 4=140, 5=187, 6=250, 7=300, 8=370, 9=500, 10=600, 11=700.
+- Pour chaque niveau, la liste exacte des pièces à acheter DANS UN ORDRE CRÉDIBLE (historique et cumulatif).
+
+Implémenté dans build_historical_armor_set:
+- _get_armor_level(budget_sp) mappe le capital restant au niveau (1 pour <17).
+- LEVEL_PIECES[level] = liste des pièces (noms alignés sur le master, avec "or" résolus: brig standard pour lvl8, breast+back 95 pour lvl9; "haubergeon"->"Mail Haubergeon (mi-long)"; "mail chausse"->"mail chausses"; "Vambraces complet"->"Vambraces+Couter+Rerebrace" etc.).
+- Une fois le niveau déterminé, achat strict des pièces de la liste dans l'ordre donné (via try_buy pour respecter le budget).
+- Les listes déjà intègrent les évolutions textile (gambeson/aketon early -> arming doublet + jupon late), mail (hauberk + coif/chausses -> residual), plates (greaves/poleyns first -> full limbs late).
+- Fallback minimal conservé pour très bas budget.
+- Docstring mise à jour pour décrire les nouvelles directives et les seuils/listes.
+- Ancienne logique "priorité cher + gating has_ + fabric first etc" remplacée par le système de niveaux prescrits.
+
+Résultat: pour un capital restant donné, le set d'armure est exactement celui listé pour le niveau correspondant, dans l'ordre crédible fourni. Le "capital restant" correspond au capital_left passé au builder (après kit de base + première arme de côté).
+
+Exemples attendus (selon listes):
+- ~17-104 sp : niveau 2 (gambeson + nasal)
+- 105-139 : niveau 3 (gambeson + aketon + mail shirt + nasal)
+- 140-186 : niveau 4 (gambeson + aketon + haubergeon + nasal)
+- ... up to 700+ : niveau 11 (full harnois with tempered cuirass, full limbs, armet, reinforced gauntlets, etc.)
+
+Le mapper de bouclier (basé sur keywords dans les items finaux: greaves/poleyns pour legs/knee, cuisses pour thighs, tassets/fauld pour hips, breast+back pour cuirass, etc.) continue de fonctionner avec les listes (progression des protections inférieures par niveau).
+
+Compile OK, logique implémentée.
+
+Les anciennes notes sur chronologies (plate, mail, textile) sont maintenant subsumées par ces listes prescrites par niveau de capital.
+
+Examples observed in runs (builder + mapper):
+- No greaves/cuisses/tassets etc in Armure -> Size 9 or 11 (Velites/Scutum) even with
+  fancy breastplate + backplate (clamped by guards).
+- When builder has added upper (cuisses/tassets) + some lower/knee per historical order
+  (e.g. GF or more) -> Size 7 or 4 reduction.
+- Full chain (Cuisses + Tassets + Poleyns + Greaves + Sabatons + Fauld/Garde-reins)
+  -> Size 1 (Brocchiere) or 2. Matches "Late Medieval Full Harness" where shield is
+  almost unnecessary.
+
+The mapper and builder together now implement the exact principle requested, with
+builder order kept historical.
+
+================================================================================
+LATEST UPDATE: Full chrono table with "hanches / abdomen" zone (user query)
+================================================================================
+
+Incorporated the detailed table including the hanches/abdomen addition:
+
+- Fin XIIIe: Jambes (Tibias/greves + Genoux/poleyns) -- FIRST plates.
+- Début XIVe: Torse poitrine, then Cuisses.
+- Milieu XIVe: Bras (vambraces + couters).
+- 2e moitié XIVe: Hanches/Abdomen - Faulds (jupe ~1370-1390 for taille/hanches,
+  mobility on horse); Torse complet + Epaules + Cou.
+- Fin XIVe-début XVe: Hanches renfort - Tassets (suspended for hanches/hautes cuisses)
+  + Plackart (abdomen) 1380-1420; Mains + Pieds + Bras complet.
+- ~1420: Full harnois.
+
+In builder:
+- Early leg plates (greaves + poleyns) + cuisses now attempted immediately after
+  main torso block (before helm/neck/arms).
+- Torso accessories (faulds first for hanches, then garde-reins/plackart) after arms.
+- Remaining leg block: tassets (hanches renfort) late.
+- Arms: mid-era base before full late rerebrace.
+- Gauntlets: late gating.
+- Comments and main docstring updated with the full table + "hanches / abdomen"
+  remark (faulds before tassets because mobility constraint).
+
+Test run output (key pieces in actual addition order):
+- ~200-350: Torso -> Greaves -> (Poleyns)
+- ~500: ... -> Greaves -> Poleyns -> Cuisses (before faulds)
+- ~800: ... Cuisses -> Fauld -> Garde-reins (faulds after cuisses, as 1370 after 1300)
+- ~1200: ... + Plackart -> Tassets longs (tassets as late renfort)
+
+This exactly mirrors the periods in the provided table while still spending the
+available fund on the most plausible advanced pieces affordable at each level.
+
+The shield reduction (dictated by leg/knee/thigh/hips protection level in that order)
+benefits naturally because early legs/knees are now secured early in the build sequence.
+
+================================================================================
+LATEST UPGRADE: REMOVE ALL EQUIPMENT SYSTEMS EXCEPT FREE KIT + 80 XVe KITS GEMINI
+================================================================================
+
+User directive:
+"upgrade : remove all equipement system exept the free kit (survival stuff and food);
+then look at 80 kits XV eme siecle cote des epees_gemini.txt in the folder ...
+and take the most expensive kit the character can afford with the starting capital,
+all the remaining capital is keeped , no more 5% bonus."
+
+Implementation in utils.py:
+- Removed: specialty base kits (melee Scutum+... / projectile Shortbow+...), first side weapon rule,
+  build_historical_armor_set calls, get_shield..., mount phase selection, finisher purchases,
+  all 5% pocket bonus logic, old protocol comments/paths.
+- Kept: the free UNIVERSAL_STANDARD_KIT (via get_universal_starting_kit, survival/food/gear, cost shown in Starting_Equipment_Cost_BP but NEVER subtracted from capital).
+- Added/used: load_80_kits_file() + select_most_expensive_affordable_80kit(capital_sp, kits)
+  (parser handles the "NNN sp - Kit XX - Name : Item (p), ..." format, strips (prices) for clean names).
+- Selection: strictly the highest price_sp <= starting_capital (full capital, free kit does not consume it).
+- Leftover: capital_left = starting_capital - kit_cost_sp exactly; Final_Pocket_Money_BP = left * 10 (no +5%, no other deductions).
+- Columns updated:
+  - Equipment_Source = "XVemeSicle80KitsGemini"
+  - Prebuilt_Kit_Cost_Sp , Prebuilt_Kit_Items , Prebuilt_Kit_Tier (kit_id) populated from chosen.
+  - Armes_et_Bouclier = full ", ".join(kit items)  (includes weapons/armor/mount pieces as listed)
+  - Armure = heuristic subset of armor-like pieces from the kit
+  - Monture_et_Reste = detected mount animal (e.g. "Courser") or "Aucune" ; full kit details visible in Armes col
+  - Also set Post_Kit_Purchases + Remaining_Equipment_Purchases = the 80kit items list (for main splitting/analyzers)
+  - Phase1/2/3_ * still mapped (kit cost in weapon or armor bp for compat)
+- No more specialty, no shield evolution, no dynamic builder, no historical chrono in hot path for equipment.
+- Capital always from regional_economy (3 years, sp units).
+- If capital < min kit (28sp) -> no kit selected, "Aucun", full capital kept as pocket (edge case, rare).
+
+Verification (real runs, varied seeds for natural capital variance):
+- cap=255 -> cost=254 (Kit44 Arbalétrier de siège?), rem=1sp, pocket=10bp exact
+- cap=417 -> cost=407, rem=10, pocket=100
+- cap=423 -> cost=407, rem=16, pocket=160
+- cap=453 -> cost=442, rem=11, pocket=110
+- cap=515 -> cost=467, rem=48, pocket=480
+- cap=530 -> cost=518 (Kit77 Cavalier léger monté: Courser+War Saddle+...+Arming Sword+...), rem=12, pocket=120, Monture=Courser
+- cap=748 -> cost=705 (Kit61 Lancier lourd with Destrier+...), rem=43, pocket=430
+- Always: chosen is the max affordable in the list; leftover exactly in pocket; free kit ~23 items always present; SRC= XVemeSicle80KitsGemini
+
+No 5% ever added. All previous equipment code paths (prebuilts, builder, protocol, shield) pruned from generate_character.
+
+Compile OK, main -n / batch smoke OK, samples confirm "most expensive affordable + keep remaining exactly".
+
+Old armor_sets.py / Sets etc kept in tree for reference but no longer called from generator.
+
+================================================================================

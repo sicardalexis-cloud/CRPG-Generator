@@ -274,9 +274,7 @@ ethnicity_outdoor_bias: Dict[str, List[str]] = {
     "Fire Genasi": ["Desert Water Mastery", "Desert Thermal Endurance", "Open Land Navigation"],
     "Water Genasi": ["Dark Water Swimming", "Coastal Survival", "Oceanic Navigation"],
 
-    # ==================== HALFLINGS ====================
-    "Lightfoot Halfling": ["Plains Tracking", "Wild Plant Foraging", "Forest Stealth"],
-    "Strongheart Halfling": ["Plains Tracking", "Advanced Tracking", "Wild Plant Foraging"],
+    # ==================== HALFLINGS (already defined above, kept for clarity) ====================
 
     # ==================== AUTRES ETHNIES HUMAINES ====================
     "Nar": ["Forest Stealth", "Advanced Tracking", "Plains Tracking"],
@@ -355,6 +353,35 @@ def get_urban_skill_count(settlement_type: str) -> int:
 
 
 # =============================================
+# HELPERS
+# =============================================
+
+def _weighted_sample_unique(items, weights, k):
+    """Échantillonnage pondéré SANS REMISE (évite les doublons)."""
+    items = list(items)
+    weights = list(weights)
+    selected = []
+    for _ in range(min(k, len(items))):
+        if not items:
+            break
+        total = sum(weights)
+        if total <= 0:
+            idx = random.randrange(len(items))
+        else:
+            r = random.uniform(0, total)
+            cum = 0
+            idx = 0
+            for i, w in enumerate(weights):
+                cum += w
+                if r <= cum:
+                    idx = i
+                    break
+        selected.append(items.pop(idx))
+        weights.pop(idx)
+    return selected
+
+
+# =============================================
 # GÉNÉRATION PRINCIPALE (Version améliorée)
 # =============================================
 def generate_skills(settlement_type: str, region_id: int = 0, ethnicity: str = None) -> Dict:
@@ -381,15 +408,15 @@ def generate_skills(settlement_type: str, region_id: int = 0, ethnicity: str = N
     outdoor_list = list(outdoor_pool)
     selected_outdoor = random.sample(outdoor_list, min(outdoor_count, len(outdoor_list)))
     
-    # ====================== URBAN SKILLS PONDERÉES ======================
+    # ====================== URBAN SKILLS PONDERÉES (SANS DOUBLONS) ======================
     if urban_count > 0:
-        selected_urban = random.choices(
-            URBAN_SKILLS, 
-            weights=URBAN_WEIGHTS, 
-            k=urban_count
-        )
+        selected_urban = _weighted_sample_unique(URBAN_SKILLS, URBAN_WEIGHTS, urban_count)
     else:
         selected_urban = []
+    
+    # Ceinture + bretelles : dédoublonnage final (au cas où)
+    selected_outdoor = list(dict.fromkeys(selected_outdoor))
+    selected_urban = list(dict.fromkeys(selected_urban))
     
     all_skills = selected_outdoor + selected_urban
     random.shuffle(all_skills)

@@ -1,0 +1,77 @@
+======================================================================
+EQUIPMENT SETS — Poor_21-50sp
+======================================================================
+
+Budget range : 21-50 sp
+Number of sets : 55
+Source : generate_sets.py (random realistic kits with compatibility rules)
+Region focus : Sword Coast / Côte des Épées (Groupe 1) — can be adapted
+
+Rules summary (see generate_sets.py for full details):
+  - Weapons & shield chosen first
+  - Strict layering rules (pauldrons require cuirass/breast+backplate; besagews/tassets/fauld require plate torso, etc.)
+  - Bows/crossbows limited to small shields
+  - Mounts + barding appear at higher budgets
+  - 'Nearly full armor' rule downgrades oversized shields
+  - Side weapon (arming sword, falchion, messer or hand axe) bought before any armor
+  - Gorget / Bevor always over at least fabric protection (aketon/gambison/arming doublet); never directly on skin. Often with mail collar underneath too.
+  - Mounted weapons (Light Hammer, Mace, Flanged Mace, Lance) STRICTLY only when a mount is present.
+    Foot characters (no mount) NEVER receive them — absolute, no exceptions even in low tiers.
+
+--- COMPACT FORMAT ---
+
+#001 [21sp] Club, Leather Helmet, Pourpoint (light civil)
+#002 [21sp] Spear, Sling, Sling bullets (12), Large Buckler (Size 4)
+#003 [22sp] Club, Knife, Buckler (Size 3)
+#004 [23sp] Reinforced Spear
+#005 [24sp] Reinforced Spear, Leather Helmet
+#006 [24sp] Spear, Knife, Buckler (Size 3)
+#007 [25sp] Reinforced Spear, Leather Helmet
+#008 [25sp] Spear, Rotella (Size 6)
+#009 [26sp] Club, Dagger, Leather Helmet
+#010 [26sp] Reinforced Spear, Knife
+#011 [26sp] Spear, Knife, Sling, Sling bullets (12), Buckler (Size 3), Leather Helmet
+#012 [26sp] Reinforced Spear, Knife
+#013 [27sp] Club, Knife, Staff Sling, Sling bullets (12), Large Buckler (Size 4), Leather Helmet
+#014 [27sp] Reinforced Spear, Knife
+#015 [27sp] Spear, Reinforced Gambeson
+#016 [28sp] Club, Dagger, Small Buckler (Size 2)
+#017 [29sp] Reinforced Spear, Small Buckler (Size 2)
+#018 [29sp] Club, Sling, Sling bullets (12), Small Buckler (Size 2), Pourpoint (light civil)
+#019 [30sp] Club, Knife, Sling, Sling bullets (12), Small Buckler (Size 2), Nasal Helmet
+#020 [30sp] Spear, Staff Sling, Sling bullets (12), Buckler (Size 3), Leather Helmet, Gambeson (basic)
+#021 [31sp] Reinforced Spear, Sling, Sling bullets (12), Small Buckler (Size 2)
+#022 [31sp] Club, Javelin (x3), Small Buckler (Size 2)
+#023 [31sp] Spear, Javelin (x3), Brocchiere (Size 1)
+#024 [31sp] Javelin (x3), Knife, Small Buckler (Size 2)
+#025 [32sp] Reinforced Spear, Brocchiere (Size 1), Leather Helmet
+#026 [32sp] Reinforced Spear, Knife, Brocchiere (Size 1)
+#027 [33sp] Club, Heater Shield (Size 8)
+#028 [33sp] Spear, Knife, Javelin (x3), Leather Helmet
+#029 [34sp] Spear, Knife, Javelin (x3)
+#030 [35sp] Spear, Sling, Sling bullets (12), Small Buckler (Size 2), Leather Helmet, Aventail
+#031 [36sp] Club, Knife, Nasal Helmet, Gambeson (long / fended)
+#032 [36sp] Spear, Cervelière, Mail coif
+#033 [36sp] Club, Staff Sling, Sling bullets (12), Buckler (Size 3), Nasal Helmet, Pourpoint (light civil)
+#034 [36sp] Reinforced Spear, Buckler (Size 3), Leather Helmet
+#035 [36sp] Spear, Velites Parma (Size 9)
+#036 [37sp] Spear, Rotella (Size 6), Pourpoint (light civil)
+#037 [37sp] Reinforced Spear, Sling, Sling bullets (12), Rotella (Size 6)
+#038 [38sp] Reinforced Spear, Nasal Helmet, Gambeson (basic)
+#039 [38sp] Reinforced Spear, Small Rotella (Size 5), Leather Helmet
+#040 [39sp] Reinforced Spear, Brocchiere (Size 1), Leather Helmet, Gambeson (basic)
+#041 [39sp] Spear, Knife, Staff Sling, Sling bullets (12), Leather Helmet, Padded Jack (medium / troop)
+#042 [40sp] Club, Sling, Sling bullets (12), Kettle Hat, Schynbalds / Demi-greaves
+#043 [41sp] Spear, Kite Shield (Size 10), Leather Helmet
+#044 [43sp] Spear, Scutum (Size 11)
+#045 [44sp] Spear, Staff Sling, Sling bullets (12), Kettle Hat, Gambeson (basic), Gorget (normal)
+#046 [45sp] Spear, Rondel Dagger, Gambeson (basic)
+#047 [45sp] Club, Knife, Javelin (x3), Large Buckler (Size 4), Leather Helmet
+#048 [45sp] Spear, Kite Shield (Size 10), Nasal Helmet
+#049 [48sp] Reinforced Spear, Knife, Large Buckler (Size 4), Nasal Helmet
+#050 [48sp] Spear, Scutum (Size 11), Leather Helmet
+#051 [48sp] Hand Axe
+#052 [49sp] Short Bow, Knife, Arrows (12)
+#053 [49sp] Spear, Small Buckler (Size 2), Leather Helmet, Plackart, Schynbalds / Demi-greaves
+#054 [50sp] Staff Sling, Sling bullets (12), Kite Shield (Size 10), Cervelière, Pourpoint (light civil)
+#055 [50sp] Reinforced Spear, Rotella (Size 6), Leather Helmet, Pourpoint (light civil)

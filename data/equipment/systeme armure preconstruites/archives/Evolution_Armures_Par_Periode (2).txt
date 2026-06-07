@@ -1,0 +1,169 @@
+j'ai ajouté quelques pieces d'armures dans le fichier source Groupe1_Cote_des_Epees_Equipement.txt
+
+================================================================================
+ÉVOLUTION DES ARMURES selon le capital restant - SWORD COAST (Prix en sp)
+Fichier généré à partir des données du Groupe 1 – Côte des Épées
+================================================================================
+armor level ==>  minimum  capital
+niveau 2 =	17 sp
+niveau 3 = 	105 sp
+niveau 4 =	140 sp
+niveau 5 =	187 sp
+niveau 6 =	250 sp
+niveau 7 =	300 sp
+niveau 8 =	370 sp
+niveau 9 =	500 sp
+niveau 10 =	600 sp
+niveau 11 = 	700 sp
+
+une fois le niveau d'armure determiné selon le capital restant,  les achats de chaque piece se font dans un ordre credible: 
+niveau 
+
+
+
+1
+Nasal Helmet                       | 8
+TOTAL                              | 8 sp
+
+2. 
+────────────────────────────────────────
+Pièce                              | Prix
+Gambeson (basic)                   | 9
+Nasal Helmet                       | 8
+────────────────────────────────────────
+TOTAL                              | 17 sp
+
+
+3. 
+────────────────────────────────────────
+Pièce                              | Prix
+Gambeson (basic)                   | 9
+Aketon (basic padded jack)         | 8
+mail shirt			80
+Nasal Helmet                       | 8
+
+────────────────────────────────────────
+TOTAL                              | 105 
+
+
+
+
+4. 
+────────────────────────────────────────
+Pièce                              | Prix
+Gambeson (basic)                   | 9
+Aketon (basic padded jack)         | 8
+haubergeon			 115
+Nasal Helmet                       | 8
+
+────────────────────────────────────────
+TOTAL                              | 140
+
+
+
+5. XIe – XIIe siècle (Ère Normande)
+────────────────────────────────────────
+Pièce                              | Prix
+Gambeson (basic)                   | 9
+Mail Hauberk (complet)             | 170
+Mail coif                          | 20
+Nasal Helmet                       | 8
+────────────────────────────────────────
+TOTAL                              | 207 sp
+
+6. XIIIe siècle
+────────────────────────────────────────
+Pièce                              | Prix
+Reinforced Gambeson (long)         | 26
+Mail Hauberk (complet)             | 170
+Coat of Plates                     | 45
+Mail coif + Aventail               | 36
+Cervelière                        | 9
+────────────────────────────────────────
+TOTAL                              | 286 sp
+
+7. Début XIVe siècle (1320-1340)
+────────────────────────────────────────
+Pièce                              | Prix
+Reinforced Gambeson (long)         | 26
+Mail Haubergeon                    | 115
+Simple Breastplate                 | 42
+Vambraces + Couter                 | 35
+Bascinet (basique)                 | 48
+Mail coif + Aventail               | 36
+────────────────────────────────────────
+TOTAL                              | 302 sp
+
+8. Milieu XIVe siècle (1340-1370)
+────────────────────────────────────────
+Pièce                              | Prix
+Arming Doublet                     | 45
+Brigandine  or Breastplate + Backplate        | 85
+haubergeon                         115
+mail chausse			50
+Fauld                              | 18
+Vambraces + Couter                 | 35
+Tassets (paire courte)             | 16
+Mail coif + Aventail               | 36
+Bascinet (basique)                 | 48
+Gauntlets (normaux)                | 22
+────────────────────────────────────────
+TOTAL                              | 470
+
+9. 2e moitié XIVe siècle (1370-1400)
+────────────────────────────────────────
+Pièce                              | Prix
+Arming Doublet                     | 45
+Brigandine  or Breastplate + Backplate            | 95
+haubergeon                         115
+Plackart                           | 15
+Fauld                              | 18
+Tassets (paire courte)             | 16
+Pauldrons + Gardes                 | 75
+Vambraces + Couter + Rerebrace     | 85
+Gauntlets                          | 22
+Gorget                             | 12
+Sallet                             | 42
+────────────────────────────────────────
+TOTAL                              | 540 sp
+
+10. Fin XIVe – Début XVe siècle (1380-1430)
+────────────────────────────────────────
+Pièce                              | Prix
+Arming Doublet                     | 45
+Breastplate + Backplate            | 95
+haubergeon                         115
+Plackart                           | 15
+Fauld + Tassets longs              | 43
+Pauldrons + Gardes                 | 75
+Vambraces complet                  | 85
+Cuisses (normales)                 | 42
+Poleyns + Genouillères             | 28
+Greaves (normales)                 | 35
+Sabatons                           | 18
+Gorget (articulé)                  | 18
+Armet (italien)                    | 85
+Gauntlets                          | 22
+────────────────────────────────────────
+TOTAL                              | 721 sp
+
+11. Milieu – Fin XVe siècle (1430-1500) - Harnois Blanc
+────────────────────────────────────────
+Pièce                                      | Prix
+Arming Doublet                             | 45
+Breastplate + Backplate (trempé)           | 220
+Plackart + Fauld + Tassets longs           | 58
+Pauldrons + Gardes                         | 75
+Vambraces + Couter + Rerebrace             | 85
+Mail voiders				15
+Cuisses (renforcées Maximilian)            | 85
+Poleyns + Genouillères                     | 28
+Greaves (renforcées)                       | 55
+Sabatons (larges)                          | 25
+Gorget (renforcé)                          | 25
+Armet 			                      | 85
+Gauntlets (articulés renforcés)            | 45
+────────────────────────────────────────
+TOTAL                                      | 846 sp
+
+

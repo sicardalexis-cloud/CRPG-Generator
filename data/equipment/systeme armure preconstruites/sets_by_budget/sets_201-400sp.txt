@@ -1,0 +1,152 @@
+======================================================================
+EQUIPMENT SETS — WellOff_201-400sp
+======================================================================
+
+Budget range : 201-400 sp
+Number of sets : 130
+Source : generate_sets.py (random realistic kits with compatibility rules)
+Region focus : Sword Coast / Côte des Épées (Groupe 1) — can be adapted
+
+Rules summary (see generate_sets.py for full details):
+  - Weapons & shield chosen first
+  - Strict layering rules (pauldrons require cuirass/breast+backplate; besagews/tassets/fauld require plate torso, etc.)
+  - Bows/crossbows limited to small shields
+  - Mounts + barding appear at higher budgets
+  - 'Nearly full armor' rule downgrades oversized shields
+  - Side weapon (arming sword, falchion, messer or hand axe) bought before any armor
+  - Gorget / Bevor always over at least fabric protection (aketon/gambison/arming doublet); never directly on skin. Often with mail collar underneath too.
+  - Mounted weapons (Light Hammer, Mace, Flanged Mace, Lance) STRICTLY only when a mount is present.
+    Foot characters (no mount) NEVER receive them — absolute, no exceptions even in low tiers.
+
+--- COMPACT FORMAT ---
+
+#001 [202sp] Baselard, Arming Sword, Javelin (x3), Cervelière, Reinforced Gambeson (long), Sabatons (normal)
+#002 [205sp] Partisan, Arming Sword
+#003 [207sp] Bill, Arming Sword, Velites Parma (Size 9), Kettle Hat, Pourpoint (light civil), Gorget (articulated/raised)
+#004 [208sp] Spear, Hand Axe, Staff Sling, Sling bullets (12), Sallet, Padded Jack (medium / troop), Gauntlets (articulated reinforced), Cuisses (normal)
+#005 [211sp] Scimitar, Falchion
+#006 [212sp] Baselard, Arming Sword, Staff Sling, Sling bullets (12), Sling bullets (12), Sling bullets (12), Sling bullets (12), Sling bullets (12), Sling bullets (12), Rotella (Size 6), Nasal Helmet, Pourpoint (light civil), Gorget (normal), Couter (pair), Plackart
+#007 [214sp] Hand Axe, Large Rotella (Size 7), Barbute (Italian), Aventail, Pourpoint (light civil), Couter (pair), Gauntlets (articulated reinforced), Schynbalds / Demi-greaves
+#008 [216sp] Crossbow, Falchion, Crossbow Bolts (12), Leather Helmet
+#009 [217sp] Heavy Crossbow, Knife, Heavy Crossbow Bolts (12), Leather Helmet, Reinforced Gambeson
+#010 [217sp] Rouncey, War Saddle, Lance, Leather Helmet
+#011 [220sp] Arming Sword, Arming Sword, Rotella (Size 6), Nasal Helmet, Mail coif, Padded Jack (medium / troop)
+#012 [221sp] Rouncey, War Saddle, Leather chanfron, Club, Knife, Staff Sling, Sling bullets (12), Sling bullets (12), Sling bullets (12), Sling bullets (12), Sling bullets (12), Sling bullets (12), Small Buckler (Size 2), Leather Helmet
+#013 [226sp] Rouncey, Riding Saddle, Plate chanfron, Lance, Knife, Leather Helmet
+#014 [227sp] Estoc (2h), Knife
+#015 [230sp] War Hammer (Renaissance), Falchion, Small Rotella (Size 5), Leather Helmet, Gambeson (long / fended)
+#016 [231sp] Katzbalger, Arming Sword, Sling, Sling bullets (12), Nasal Helmet, Gambeson (basic), Gorget (articulated/raised), Couter (pair), Schynbalds / Demi-greaves
+#017 [233sp] Crossbow, Falchion, Crossbow Bolts (12), Crossbow Bolts (12), Crossbow Bolts (12), Nasal Helmet
+#018 [233sp] Spear, Arming Sword, Burgonet, Padded Jack (medium / troop), Gorget (articulated/raised), Gauntlets (articulated reinforced), Sabatons (normal)
+#019 [235sp] Guisarme, Messer, Staff Sling, Sling bullets (12), Sling bullets (12), Sling bullets (12), Sling bullets (12), Sling bullets (12), Sling bullets (12), Heater Shield (Size 8), Nasal Helmet, Aventail, Pourpoint (light civil), Gorget (articulated/raised), Couter (pair)
+#020 [235sp] Longbow, Messer, Arrows (12), Arrows (12), Buckler (Size 3), Leather Helmet, Reinforced Gambeson (long), Gorget (reinforced), Gauntlets (normal)
+#021 [237sp] Light Flail, Hand Axe, Staff Sling, Sling bullets (12), Sling bullets (12), Buckler (Size 3), Cabasset, Aventail, Gambeson (long / fended), Bevor, Couter (pair), Cuisses (normal)
+#022 [238sp] Baselard, Messer, Morion, Padded Jack (medium / troop), Vambraces + Couter, Schynbalds / Demi-greaves
+#023 [243sp] Cutlass, Arming Sword, Velites Parma (Size 9), Cervelière, Gambeson (long / fended), Bevor, Couter (pair)
+#024 [243sp] Hand Axe, Knife, Small Rotella (Size 5), Lobster-tailed Pot, Aventail, Padded Jack (medium / troop), Gorget (normal), Gauntlets (articulated reinforced), Cuisses (normal)
+#025 [244sp] Composite Bow, Falchion, Arrows (12), Arrows (12)
+#026 [245sp] Katzbalger, Arming Sword, Rotella (Size 6), Nasal Helmet, Reinforced Gambeson (long), Bevor, Couter (pair)
+#027 [246sp] Club, Falchion, Small Rotella (Size 5), Mail Shirt (sleeveless), Gambeson (basic), Couter (pair), Plackart, Cuisses (normal)
+#028 [247sp] Light Flail, Arming Sword, Brocchiere (Size 1), Barbute (Italian), Plackart, Cuisses (normal)
+#029 [249sp] Rouncey, War Saddle, Light Hammer, Rondel Dagger
+#030 [251sp] Cutlass, Arming Sword, Reinforced Javelin (x3), Kite Shield (Size 10), Leather Helmet, Pourpoint (light civil)
+#031 [252sp] Bec de Corbin, Hand Axe, Staff Sling, Sling bullets (12), Sling bullets (12), Sling bullets (12), Sling bullets (12), Sling bullets (12), Sling bullets (12), Heater Shield (Size 8), Leather Helmet, Gambeson (long / fended)
+#032 [252sp] Glaive, Arming Sword, Small Rotella (Size 5), Kettle Hat, Gambeson (basic), Gauntlets (normal), Plackart, Cuisses (normal)
+#033 [256sp] Light Crossbow, Messer, Crossbow Bolts (12), Nasal Helmet, Gauntlets (normal), Cuisses (normal)
+#034 [256sp] Spear, Arming Sword, Reinforced Javelin (x3), Brocchiere (Size 1), Morion, Jack of Plates, Arming Doublet
+#035 [256sp] Francisca, Arming Sword, Sallet, Simple Breastplate, Padded Jack (medium / troop), Couter (pair), Plackart
+#036 [257sp] Main-gauche, Hand Axe, Staff Sling, Sling bullets (12), Small Buckler (Size 2), Lobster-tailed Pot, Mail coif, Plackart, Greaves (normal)
+#037 [257sp] Arming Sword, Messer, Javelin (x3), Kettle Hat, Padded Jack (medium / troop), Gorget (normal), Vambraces + Couter
+#038 [259sp] Rouncey, Riding Saddle, Main-gauche, Hand Axe, Gambeson (basic)
+#039 [260sp] Bill, Falchion, Sling, Sling bullets (12), Sling bullets (12), Sling bullets (12), Sling bullets (12), Sling bullets (12), Sling bullets (12), Heater Shield (Size 8), Leather Helmet, Jack of Plates, Arming Doublet
+#040 [261sp] Rouncey, Riding Saddle, Cutlass, Hand Axe, Small Buckler (Size 2), Leather Helmet
+#041 [261sp] War Scythe, Falchion, Rotella (Size 6), Gauntlets (articulated reinforced), Cuisses (normal), Greaves (normal), Sabatons (normal)
+#042 [263sp] Palfrey, War Saddle, Lance, Dagger, Staff Sling, Sling bullets (12), Leather Helmet, Gambeson (basic)
+#043 [263sp] Light Flail, Arming Sword, Kite Shield (Size 10), Leather Helmet, Gambeson (basic), Bevor, Plackart, Mail Demi-chausses
+#044 [263sp] Maul, Hand Axe, Large Buckler (Size 4), Cervelière, Gambeson (basic), Vambraces + Couter + Rerebrace, Gauntlets (normal)
+#045 [265sp] Guisarme, Arming Sword, War Dart (x3), Nasal Helmet, Reinforced Gambeson, Couter (pair), Schynbalds / Demi-greaves
+#046 [266sp] Crossbow, Arming Sword, Crossbow Bolts (12), Nasal Helmet, Mail coif, Reinforced Gambeson
+#047 [266sp] Pike, Falchion, Burgonet, Brigandine (standard troop), Gambeson (basic), Bevor, Plackart
+#048 [266sp] Longsword, Hand Axe, Javelin (x3), Brocchiere (Size 1), Cervelière, Gambeson (basic), Vambraces + Couter
+#049 [267sp] Guisarme, Arming Sword, Nasal Helmet, Mail Shirt (sleeveless), Pourpoint (light civil), Gauntlets (normal), Plackart
+#050 [267sp] Light Crossbow, Arming Sword, Crossbow Bolts (12), Buckler (Size 3), Morion, Reinforced Gambeson, Vambraces + Couter
+#051 [268sp] Rouncey, Riding Saddle, Leather chanfron, Hand Axe, Reinforced Javelin (x3), Leather Helmet, Pourpoint (light civil), Vambraces + Couter
+#052 [269sp] Falchion, Knife, Large Buckler (Size 4), Cervelière, Mail coif, Coat of Plates, Arming Doublet, Gorget (articulated/raised), Couter (pair), Plackart, Schynbalds / Demi-greaves
+#053 [269sp] Main-gauche, Arming Sword, Scutum (Size 11), Morion, Aventail, Gambeson (long / fended)
+#054 [269sp] Palfrey, War Saddle, Mace, Knife
+#055 [269sp] Hand Axe, Messer, Lobster-tailed Pot, Pourpoint (light civil), Gorget (articulated/raised), Couter (pair), Gauntlets (normal), Cuisses (normal)
+#056 [271sp] Broadsword, Falchion, Heater Shield (Size 8), Leather Helmet, Mail coif, Reinforced Gambeson, Gorget (normal), Schynbalds / Demi-greaves
+#057 [273sp] Bill, Falchion, Sling, Sling bullets (12), Sling bullets (12), Brocchiere (Size 1), Kettle Hat, Plackart, Mail Chausses, Schynbalds / Demi-greaves
+#058 [274sp] Composite Bow (quality), Knife, Arrows (12), Brocchiere (Size 1), Nasal Helmet, Gambeson (long / fended)
+#059 [278sp] Sidesword, Knife, Sling, Sling bullets (12), Cervelière, Pourpoint (light civil)
+#060 [278sp] Palfrey, Riding Saddle, Leather chanfron, Lance, Falchion, Small Buckler (Size 2)
+#061 [279sp] Francisca, Arming Sword, Small Rotella (Size 5), Nasal Helmet, Aventail, Gambeson (long / fended), Couter (pair), Plackart, Cuisses (normal), Greaves (normal)
+#062 [281sp] Rapier
+#063 [282sp] Rapier
+#064 [283sp] Longbow, Messer, Arrows (12), Small Buckler (Size 2), Cabasset, Reinforced Gambeson (long), Vambraces + Couter, Gauntlets (articulated reinforced)
+#065 [290sp] Main-gauche, Messer, Buckler (Size 3), Kettle Hat, Mail coif, Reinforced Gambeson, Couter (pair), Gauntlets (normal), Plackart
+#066 [291sp] Broadsword, Messer, Small Rotella (Size 5), Nasal Helmet, Gambeson (long / fended), Gorget (normal), Couter (pair), Gauntlets (normal), Sabatons (normal)
+#067 [291sp] Main-gauche, Messer, War Dart (x3), Kettle Hat, Schynbalds / Demi-greaves
+#068 [304sp] Courser, War Saddle, Leather chanfron, Francisca, Knife, Sling, Sling bullets (12), Nasal Helmet, Gambeson (basic)
+#069 [304sp] Bastard Sword, Arming Sword, Sling, Sling bullets (12), Large Buckler (Size 4), Gambeson (basic), Vambraces + Couter, Plackart
+#070 [305sp] Light Flail, Arming Sword, Staff Sling, Sling bullets (12), Sling bullets (12), Buckler (Size 3), Sallet, Mail coif, Padded Jack (medium / troop), Vambraces + Couter, Greaves (normal)
+#071 [308sp] Rapier, Rondel Dagger
+#072 [310sp] Falchion, Hand Axe, Sling, Sling bullets (12), Kite Shield (Size 10), Morion, Mail Shirt (sleeveless), Gambeson (long / fended), Gorget (articulated/raised), Couter (pair), Schynbalds / Demi-greaves
+#073 [312sp] Palfrey, War Saddle, Arming Sword, Dagger, Sling, Sling bullets (12), Leather Helmet, Gambeson (basic), Gorget (normal)
+#074 [318sp] Katzbalger, Messer, Small Rotella (Size 5), Leather Helmet, Pourpoint (light civil), Couter (pair), Plackart, Cuisses (reinforced Maximilian)
+#075 [322sp] Reinforced Spear, Arming Sword, Staff Sling, Sling bullets (12), Sling bullets (12), Small Buckler (Size 2), Kettle Hat, Aventail, Simple Breastplate, Arming Doublet, Gorget (normal), Mail voiders (pair), Tassets (long), Poleyns + Knee guards, Sabatons (normal)
+#076 [322sp] Messer, Kite Shield (Size 10), Nasal Helmet, Mail coif, Coat of Plates, Arming Doublet, Vambraces + Couter, Gauntlets (articulated reinforced), Garde-reins
+#077 [323sp] Messer, Falchion, Staff Sling, Sling bullets (12), Sling bullets (12), Brocchiere (Size 1), Lobster-tailed Pot, Mail Shirt (sleeveless), Pourpoint (light civil), Couter (pair), Gauntlets (normal)
+#078 [325sp] Reinforced Spear, Arming Sword, Rotella (Size 6), Cabasset, Mail coif, Simple Breastplate, Pourpoint (light civil), Gorget (articulated/raised), Plackart, Poleyns + Knee guards, Greaves (reinforced)
+#079 [327sp] Rapier, Hand Axe
+#080 [328sp] War Hammer (Renaissance), Falchion, Buckler (Size 3), Burgonet, Reinforced Gambeson, Gorget (articulated/raised), Schynbalds / Demi-greaves, Sabatons (normal)
+#081 [329sp] Falchion, Messer, Barbute (Italian), Mail coif, Simple Breastplate, Gambeson (basic), Mail voiders (pair), Gauntlets (normal), Sabatons (broad bear-foot)
+#082 [331sp] Palfrey, Riding Saddle, Plate crinet, Club, Buckler (Size 3)
+#083 [335sp] Rouncey, Riding Saddle, Leather crinet, Lance, Hand Axe, Velites Parma (Size 9), Morion, Mail coif, Reinforced Gambeson, Couter (pair), Plackart
+#084 [336sp] War Hammer (Renaissance), Arming Sword, Staff Sling, Sling bullets (12), Large Buckler (Size 4), Bascinet (basic), Coat of Plates, Gambeson (long / fended), Couter (pair)
+#085 [337sp] Short Bow, Falchion, Arrows (12), Barbute (Italian), Mail Shirt (sleeveless), Simple Breastplate, Arming Doublet, Couter (pair)
+#086 [338sp] War Hammer (Renaissance), Arming Sword, Staff Sling, Sling bullets (12), Large Buckler (Size 4), Barbute (Italian), Mail coif, Gauntlets (normal), Plackart, Schynbalds / Demi-greaves
+#087 [338sp] Quarterstaff, Arming Sword, Kettle Hat, Mail coif, Breastplate + Backplate, Arming Doublet, Bevor, Mail voiders (pair), Gauntlets (normal), Sabatons (normal)
+#088 [339sp] Crossbow, Messer, Crossbow Bolts (12), Crossbow Bolts (12), Nasal Helmet, Padded Jack (medium / troop), Gorget (normal), Couter (pair), Gauntlets (articulated reinforced), Schynbalds / Demi-greaves
+#089 [341sp] Light Flail, Arming Sword, Great Helm, Brigandine (standard troop), Arming Doublet
+#090 [344sp] Rapier, Hand Axe, Leather Helmet, Gambeson (long / fended)
+#091 [345sp] Composite Bow (quality), Falchion, Arrows (12), Small Buckler (Size 2), Cervelière, Gambeson (basic), Gorget (normal)
+#092 [346sp] Courser, War Saddle, Leather chanfron, Lance, Arming Sword
+#093 [347sp] Battle Axe, Falchion, Reinforced Javelin (x3), Buckler (Size 3), Kettle Hat, Aventail, Padded Jack (medium / troop), Gorget (reinforced), Couter (pair), Cuisses (normal)
+#094 [348sp] Pike, Hand Axe, Javelin (x3), Small Buckler (Size 2), Cervelière, Mail coif, Brigandine (standard troop), Arming Doublet, Gorget (reinforced), Couter (pair), Gauntlets (normal), Poleyns + Knee guards
+#095 [349sp] Rapier, Hand Axe, Staff Sling, Sling bullets (12), Large Buckler (Size 4), Gambeson (basic)
+#096 [350sp] Main-gauche, Messer, Sling, Sling bullets (12), Leather Helmet, Gambeson (long / fended), Gorget (normal), Couter (pair), Gauntlets (normal), Cuisses (reinforced Maximilian), Poleyns + Knee guards
+#097 [351sp] Bastard Sword, Arming Sword, Staff Sling, Sling bullets (12), Mail Shirt (sleeveless), Gambeson (long / fended), Couter (pair), Schynbalds / Demi-greaves
+#098 [351sp] Rouncey, War Saddle, Chain crinet, Lance, Rondel Dagger, Leather Helmet, Gambeson (long / fended)
+#099 [354sp] Rouncey, Riding Saddle, Plate chanfron, Cutlass, Messer, Leather Helmet
+#100 [356sp] Reinforced Spear, Falchion, War Dart (x3), Scutum (Size 11), Nasal Helmet, Padded Jack (medium / troop), Gorget (reinforced), Cuisses (reinforced Maximilian)
+#101 [357sp] Longsword, Arming Sword, Javelin (x3), Rotella (Size 6), Bascinet (basic), Padded Jack (medium / troop), Gorget (normal), Plackart
+#102 [357sp] Cutlass, Hand Axe, Reinforced Javelin (x3), Cabasset, Simple Breastplate, Arming Doublet, Gorget (normal), Vambraces + Couter, Gauntlets (normal)
+#103 [358sp] Rouncey, Riding Saddle, Leather crinet, Flanged Mace, Arming Sword, Sling, Sling bullets (12), Small Buckler (Size 2), Cervelière, Aventail, Pourpoint (light civil), Plackart
+#104 [360sp] Reinforced Spear, Falchion, Leather Helmet, Coat of Plates, Gambeson (basic), Mail voiders (pair), Gauntlets (articulated reinforced), Cuisses (normal), Mail Demi-chausses, Greaves (reinforced)
+#105 [360sp] War Hammer (Renaissance), Arming Sword, Small Rotella (Size 5), Kettle Hat, Mail coif, Coat of Plates, Arming Doublet, Bevor
+#106 [361sp] Composite Bow (quality), Arming Sword, Arrows (12), Arrows (12), Buckler (Size 3), Cervelière, Padded Jack (medium / troop)
+#107 [366sp] Estoc (2h), Hand Axe, Staff Sling, Sling bullets (12), Sling bullets (12), Small Buckler (Size 2), Morion, Mail coif, Gauntlets (articulated reinforced)
+#108 [367sp] Baselard, Arming Sword, Sallet, Mail Shirt (sleeveless), Gambeson (long / fended), Gorget (reinforced), Gauntlets (articulated reinforced), Poleyns + Knee guards
+#109 [369sp] Hand Axe, Arming Sword, Javelin (x3), Cabasset, Brigandine (standard troop), Arming Doublet, Gorget (normal), Gauntlets (articulated reinforced), Fauld
+#110 [372sp] Heavy Crossbow, Arming Sword, Heavy Crossbow Bolts (12), Heavy Crossbow Bolts (12), Kettle Hat, Coat of Plates, Reinforced Gambeson, Couter (pair), Garde-reins
+#111 [372sp] Longbow, Falchion, Arrows (12), Arrows (12), Cabasset, Mail Shirt (sleeveless), Simple Breastplate, Reinforced Gambeson, Gorget (reinforced), Gauntlets (articulated reinforced)
+#112 [372sp] Billhook, Arming Sword, Lobster-tailed Pot, Mail Shirt (sleeveless), Brigandine (standard troop), Arming Doublet, Bevor
+#113 [373sp] Hand Axe, Large Buckler (Size 4), Cervelière, Mail Shirt (sleeveless), Pourpoint (light civil), Gorget (reinforced), Couter (pair), Gauntlets (normal), Cuisses (normal), Mail Demi-chausses, Greaves (normal), Sabatons (broad bear-foot)
+#114 [374sp] Palfrey, Riding Saddle, Club, Falchion, Lobster-tailed Pot, Mail Shirt (sleeveless), Reinforced Gambeson, Couter (pair), Schynbalds / Demi-greaves
+#115 [374sp] Rapier, Hand Axe, Javelin (x3), Small Rotella (Size 5), Leather Helmet, Gambeson (basic)
+#116 [378sp] Club, Arming Sword, Sling, Sling bullets (12), Sling bullets (12), Sling bullets (12), Sling bullets (12), Sling bullets (12), Sling bullets (12), Large Rotella (Size 7), Kettle Hat, Mail Hauberk (complete), Gambeson (basic), Vambraces + Couter, Gauntlets (normal), Schynbalds / Demi-greaves
+#117 [380sp] Pike, Arming Sword, Staff Sling, Sling bullets (12), Sling bullets (12), Buckler (Size 3), Lobster-tailed Pot, Jack of Plates, Pourpoint (light civil), Bevor, Couter (pair), Mail Demi-chausses, Poleyns + Knee guards, Greaves (reinforced)
+#118 [381sp] Palfrey, War Saddle, Plate chanfron, Light Hammer, Falchion
+#119 [381sp] Rouncey, War Saddle, Lance, Messer, Cervelière, Mail coif, Gambeson (long / fended), Couter (pair), Greaves (normal)
+#120 [382sp] Short Bow, Arming Sword, Arrows (12), Arrows (12), Morion, Brigandine (standard troop), Mail voiders (pair), Gauntlets (normal), Tassets (short pair), Mail Demi-chausses, Schynbalds / Demi-greaves, Sabatons (broad bear-foot)
+#121 [383sp] Broadsword, Arming Sword, Armet (Italian articulated), Pourpoint (light civil), Gorget (normal), Vambraces + Couter + Rerebrace
+#122 [383sp] Cutlass, Arming Sword, Kite Shield (Size 10), Morion, Jack of Plates, Arming Doublet, Couter (pair), Gauntlets (articulated reinforced)
+#123 [386sp] Rouncey, War Saddle, Plate chanfron, Mace, Arming Sword, Leather Helmet, Gambeson (basic)
+#124 [386sp] Reinforced Spear, Falchion, Sallet, Mail Hauberk (complete), Poleyns + Knee guards, Greaves (normal), Sabatons (normal)
+#125 [391sp] Rapier, Falchion, Sling, Sling bullets (12), Sling bullets (12), Brocchiere (Size 1), Nasal Helmet, Reinforced Gambeson (long)
+#126 [391sp] Arming Sword, Knife, Nasal Helmet, Mail Haubergeon (mid-length), Reinforced Gambeson (long), Gorget (articulated/raised), Vambraces + Couter + Rerebrace, Cuisses (normal), Schynbalds / Demi-greaves
+#127 [394sp] Francisca, Arming Sword, Staff Sling, Sling bullets (12), Sling bullets (12), Small Buckler (Size 2), Burgonet, Aventail, Mail Shirt (sleeveless), Aketon, Gauntlets (articulated reinforced), Cuisses (normal), Sabatons (broad bear-foot)
+#128 [394sp] Broadsword, Arming Sword, Javelin (x3), Nasal Helmet, Mail Shirt (sleeveless), Gambeson (long / fended), Gorget (reinforced), Couter (pair), Plackart, Greaves (normal)
+#129 [398sp] Baselard, Falchion, Sling, Sling bullets (12), Sling bullets (12), Sling bullets (12), Sling bullets (12), Sling bullets (12), Sling bullets (12), Scutum (Size 11), Nasal Helmet, Brigandine (standard troop), Mail voiders (pair), Gauntlets (articulated reinforced), Fauld, Tassets (short pair), Poleyns + Knee guards, Schynbalds / Demi-greaves
+#130 [400sp] Courser, War Saddle, Leather chanfron, Lance, Messer, Reinforced Javelin (x3), Buckler (Size 3)

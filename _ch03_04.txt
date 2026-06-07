@@ -1,0 +1,24 @@
+=== CH-00003 ===
+Race/Ethnicity/Region: Human Damaran The Cold Lands Isolated Hamlet
+Starting_Capital: 112
+Equipment_Group: Groupe3_Coeur_Continental
+Armes_et_Bouclier: Light Hammer, Hand Axe, Brocchiere (Size 1)
+Monture_et_Reste: Aucun
+Has_Mount: 
+Phase3_Mount: 
+Prebuilt_Kit_Tier: 51-100sp
+Prebuilt_Kit_Cost_Sp: 100
+Phase1_Weapon_Kit: 
+
+=== CH-00004 ===
+Race/Ethnicity/Region: Dwarf Shield Dwarf Silver Marches (Luruar) Forest Village
+Starting_Capital: 195
+Equipment_Group: Groupe7_Marches_Argent
+Armes_et_Bouclier: Light Hammer, Hand Axe, Brocchiere (Size 1)
+Monture_et_Reste: Aucun
+Has_Mount: 
+Phase3_Mount: 
+Prebuilt_Kit_Tier: 51-100sp
+Prebuilt_Kit_Cost_Sp: 100
+Phase1_Weapon_Kit: 
+

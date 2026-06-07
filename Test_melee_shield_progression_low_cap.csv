@@ -1,0 +1,51 @@
+# FORCED LOW-CAP MELEE SHIELD EVOLUTION TEST (Size 11 starter) + PROJECTILE CONTRAST
+# ========================================================================
+# Permanent test artifact for the shield size reduction rule based on the
+# 'Shield Size Evolution in the Middle Ages - Surface Area vs Armor Development' table.
+#
+# DESIGN OF THIS TEST FILE:
+# - The PRIMARY focus is the MELEE path because that is the only path that uses
+#   the shield reduction logic (Scutum Size 11 base that shrinks as armor improves).
+# - Projectile characters are NEVER affected by shield reduction. They always start
+#   with Short Bow + Arrows(12) + Club + Knife (no shield at all), regardless of capital.
+#   That is why the majority of rows here are forced melee: to exercise and document
+#   the full progression (Size 11 → 10/9/8/7/6/5/4/3/2/1) under low capital without noise.
+# - We deliberately include a few forced-projectile low-cap examples (at the end)
+#   purely for contrast, so you can see that the projectile branch stays on bow kit
+#   and never participates in the shield size table logic.
+#
+# - All starting capitals are FORCED low (62-380 sp range) via patch to the economy
+#   function. This lets us demonstrate the full table even though normal capital
+#   tends to be higher.
+# - Melee base (always): Scutum (Size 11) + Spear + Club + Knife.
+# - Side weapon (Hand Axe) only if remaining >=45 after base (historical rule).
+# - Armor = most expensive affordable set with leftover capital.
+# - Then shield is replaced according to the historical table (see get_shield_for_armor_level).
+# - Price credit from shield downgrade is returned to capital_left (affects mount + 5% pocket).
+# - Equipment_Source is always ProtocolSkillBased.
+#
+# Expected in the MELEE rows:
+#   Very low budget after base: Scutum (Size 11) or Kite/Heater (10/8)
+#   Mid: Velites (9), Large Rotella (7), Rotella (6), Small Rotella (5)
+#   High (within forced range): Small Buckler / Brocchiere (2/1)
+#
+# The PROJECTILE rows will show Longbow/Short Bow variants and no shield reduction.
+#
+# Do not edit by hand. Regenerate with the companion generator script if the logic changes.
+#
+ID,Starting_Capital,Melee,Projectiles,Armes_et_Bouclier,Armure,Phase2_Armor_Cost_BP,Final_Pocket_Money_BP,Equipment_Source,Test_Notes
+CH-LOW-MELEE-000,62,14.0,2.5,"Scutum (Size 11), Spear, Club, Knife",Reinforced Gambeson (4) + Kettle Hat (3),70.0,41,ProtocolSkillBased,Size 11 - minimal/very early armor (padded or none)
+CH-LOW-MELEE-001,71,14.0,2.5,"Heater Shield (Size 8), Spear, Club, Knife",Simple Breastplate (4) + Padded Jack (5) + Kettle Hat (3) + Besagews (2) + Gorget (3),170.0,146,ProtocolSkillBased,Size 8 - Transitional Early Gothic (early plate)
+CH-LOW-MELEE-002,84,14.0,2.5,"Large Rotella (Size 7), Spear, Club, Knife",Coat of Plates (5) + Arming Doublet (12) + Bascinet (5) + Besagews (2) + Gorget (6),300.0,172,ProtocolSkillBased,Size 7 - Coat of Plates era
+CH-LOW-MELEE-003,97,14.0,2.5,"Velites Parma (Size 9), Spear, Club, Knife","Mail Hauberk [25] + Gorget [2] + Bevor [2] + Fauld [3] + Bascinet [5] + Besagews [1] + Maille collerette [5][cite: 1, 2]",430.0,139,ProtocolSkillBased,Size 9 - long mail hauberk / High Romanesque stage
+CH-LOW-MELEE-004,109,14.0,2.5,"Large Rotella (Size 7), Spear, Club, Knife, Hand Axe",Coat of Plates (5) + Cervelière (2) + Besagews (1) + Gorget (2),100.0,184,ProtocolSkillBased,Size 7 - Coat of Plates era
+CH-LOW-MELEE-005,124,14.0,2.5,"Rotella (Size 6), Spear, Club, Knife, Hand Axe",Breastplate/Backplate (9) + Aketon (2) + Sallet (4) + Besagews (2) + Gorget (7.5),245.0,257,ProtocolSkillBased,Size 6 - Early Plate Transition (brigandine/early cuirass)
+CH-LOW-MELEE-006,138,14.0,2.5,"Small Rotella (Size 5), Spear, Club, Knife, Hand Axe",Breastplate/Backplate (renf) [22] + Aketon [2] + Armet [8] + Besagews [2] + Gorget [4.5],385.0,284,ProtocolSkillBased,Size 5 - Developed Plate (cuirass + full limbs)
+CH-LOW-MELEE-007,155,14.0,2.5,"Small Buckler (Size 2), Spear, Club, Knife, Hand Axe","HARNOIS GOTHIC DE BASE : Breastplate/Backplate [9] + Bras [15] + Jambes [14] + Gorget [2] + Sallet [4] + Maille [12][cite: 1, 2]",560.0,358,ProtocolSkillBased,Size 1-3 - Full Plate / Maximilian (auxiliary shield)
+CH-LOW-MELEE-008,172,14.0,2.5,"Rotella (Size 6), Spear, Club, Knife, Hand Axe","Brigandine [8] + Mail Hauberk [25] + Jambes classiques [14] + Gorget [2] + Bevor [2] + Burgonet [5] + Plackart [15][cite: 1, 2]",710.0,296,ProtocolSkillBased,Size 6 - Early Plate Transition (brigandine/early cuirass)
+CH-LOW-MELEE-009,189,14.0,2.5,"Brocchiere (Size 1), Spear, Club, Knife, Hand Axe",Maximilian Standard (48) + Tassets longs (3) + Sabatons larges (3) + Burgonet (5) + Plackart (2.5) + Besagews (2) + Gorget (22.5) [Note: rééquilibré],860.0,435,ProtocolSkillBased,Size 1-3 - Full Plate / Maximilian (auxiliary shield)
+CH-LOW-PROJ-000,205,2.5,14.0,"Longbow, Arrows (12), Club, Knife, Arrows (12)",Harnois Maximilian de Maître (112.5) + Morion (3) + Gantelets renforcés (5) [Ajustement],1200.0,142,ProtocolSkillBased,"PROJECTILE path - bow base kit, shield reduction NEVER applies"
+CH-LOW-PROJ-001,235,2.5,14.0,"Longbow, Arrows (12), Club, Knife, Arrows (12)",Harnois de Brèche (128) + Plackart (2.5) + Tassets longs (3) + Sabatons larges (2.5),1360.0,298,ProtocolSkillBased,"PROJECTILE path - bow base kit, shield reduction NEVER applies"
+CH-LOW-PROJ-002,270,2.5,14.0,"Longbow, Arrows (12), Club, Knife, Arrows (12)",CAPARAÇON ET HARNOIS DE JOUTE D'ÉLITE : Harnois Joute Royale (168) + Pièces renforcées sup. (17),1850.0,175,ProtocolSkillBased,"PROJECTILE path - bow base kit, shield reduction NEVER applies"
+CH-LOW-PROJ-003,310,2.5,14.0,"Longbow, Arrows (12), Club, Knife, Arrows (12)",CAPARAÇON ET HARNOIS DE JOUTE D'ÉLITE : Harnois Joute Royale (168) + Pièces renforcées sup. (17),1850.0,195,ProtocolSkillBased,"PROJECTILE path - bow base kit, shield reduction NEVER applies"
+CH-LOW-PROJ-004,380,2.5,14.0,"Longbow, Arrows (12), Club, Knife, Arrows (12)",CAPARAÇON ET HARNOIS DE JOUTE D'ÉLITE : Harnois Joute Royale (168) + Pièces renforcées sup. (17),1850.0,710,ProtocolSkillBased,"PROJECTILE path - bow base kit, shield reduction NEVER applies"

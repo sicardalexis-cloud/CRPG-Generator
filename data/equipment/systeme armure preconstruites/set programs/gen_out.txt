@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File [35m"c:\Users\sicar\.grok\worktrees\jdr-crpg-generator\premier-tests-grokvsc\data\equipment\systeme armure preconstruites\set programs\generate_budget_tiers.py"[0m, line [35m30[0m, in [35m<module>[0m
+    import generate_sets
+  File [35m"c:\Users\sicar\.grok\worktrees\jdr-crpg-generator\premier-tests-grokvsc\data\equipment\systeme armure preconstruites\set programs\generate_sets.py"[0m, line [35m489[0m
+    elif weapon_style < 0.35:[1;31m[0m
+                             [1;31m^[0m
+[1;35mIndentationError[0m: [35munindent does not match any outer indentation level[0m

@@ -14,6 +14,8 @@ Système monétaire :
 
 from typing import Dict
 
+from . import groupe1_prices as grp_prices
+
 # =============================================================================
 # CORRECTIONS DE PRIX - RÉALISME HISTORIQUE (basé sur le document utilisateur)
 # =============================================================================
@@ -340,9 +342,17 @@ tandis que la full plate restait réservée à la noblesse aisée.
 
 def get_historical_price(item_name: str, original_price: str) -> str:
     """
-    Retourne le prix historique corrigé s'il existe,
-    sinon retourne le prix original.
+    UPGRADE: All prices must come from Groupe1_Cote_des_Epees_Equipement.txt .
+    - First: try master Groupe1 price (the required source).
+    - Then: historical override if any (for special cases).
+    - Else: original.
     """
+    master_sp = grp_prices.get_groupe1_price(item_name, 0.0)
+    if master_sp > 0:
+        # return as sp string for compatibility with parse
+        if master_sp == int(master_sp):
+            return f"{int(master_sp)} sp"
+        return f"{master_sp} sp"
     return HISTORICAL_PRICE_OVERRIDES.get(item_name, original_price)
 
 

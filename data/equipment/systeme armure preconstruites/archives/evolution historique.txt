@@ -1,0 +1,79 @@
+Shield Size Evolution in the Middle Ages - Surface Area vs Armor Development
+================================================================================
+
+SIZE | Surface (cm²) | Period                  | Main Armor Type                              | Shield Type                  | Detailed Armor Pieces & Observations
+-----|---------------|-------------------------|----------------------------------------------|------------------------------|---------------------------------------------------------------
+SIZE 11 | 9650         | 5th - 10th century     | Early Medieval (Migration & Early Carolingian) | Large Round Shield / Early Kite | - Spangenhelm or simple nasal helmet
+                                                                                  - Leather or padded gambeson
+                                                                                  - Short mail hauberk (to mid-thigh) or broigne (scale/leather)
+                                                                                  - Minimal leg protection (greaves rare)
+                                                                                  - Shield used as primary body protection in shield walls
+                                                                                  - Very large surface for infantry formations
+
+SIZE 10 | 7423         | 10th - early 12th century | Viking/Norman style                          | Large Kite Shield            | - Nasal helmet or conical helm
+                                                                                  - Full mail hauberk (knee length)
+                                                                                  - Padded aketon underneath
+                                                                                  - Basic arm and leg mail sleeves
+                                                                                  - Kite shield protects leg while mounted
+                                                                                  - High coverage due to incomplete limb armor
+
+SIZE 9  | 5710         | 12th century           | High Romanesque                              | Long Kite Shield             | - Great Helm or nasal helmet
+                                                                                  - Long mail hauberk with integrated coif
+                                                                                  - Mail chausses (leg protection) emerging
+                                                                                  - Surcoat over armor
+                                                                                  - Shield begins to shorten as legs get better mail coverage
+
+SIZE 8  | 4392         | Late 12th - early 13th | Transitional (Early Gothic)                  | Large Heater Shield          | - Barrel or flat-top great helm
+                                                                                  - Extended mail hauberk with mittens
+                                                                                  - Early plate reinforcements (shoulder cops, knee poles)
+                                                                                  - Aketon + mail + surcoat
+                                                                                  - Better torso and arm protection reduces shield height need
+
+SIZE 7  | 3379         | 13th century           | Coat of Plates era                           | Medium Heater Shield         | - Great Helm with visor
+                                                                                  - Coat of plates (iron plates riveted over mail)
+                                                                                  - Full mail hauberk underneath
+                                                                                  - Plate greaves and vambraces starting
+                                                                                  - Shield becomes lighter and more manageable
+
+SIZE 6  | 2599         | Early 14th century     | Early Plate Transition                       | Reduced Heater / Early Targe | - Bascinet helmet with camail
+                                                                                  - Brigandine or early cuirass
+                                                                                  - Combination of mail and plates on limbs
+                                                                                  - Gauntlets developing
+                                                                                  - Significant reduction in shield size due to torso plates
+
+SIZE 5  | 1999         | Mid 14th century       | Developed Plate Armor                        | Small Heater / Targe         | - Bascinet or kettle hat
+                                                                                  - Breastplate + backplate (cuirass)
+                                                                                  - Full limb armor (vambraces, greaves, poleyns)
+                                                                                  - Mail skirt (faulds) + aventail
+                                                                                  - Shield now secondary, armor takes main defensive role
+
+SIZE 4  | 1538         | Late 14th century      | Advanced Plate (Milanese/German style)       | Targe or Small Ecu           | - Visored bascinet or great bascinet
+                                                                                  - Full harness with articulated plates
+                                                                                  - Pauldrons, couters, and full arm harness
+                                                                                  - Cuisses, poleyns, greaves on legs
+                                                                                  - Shield mostly for cavalry charges or infantry support
+
+SIZE 3  | 1183         | Early 15th century     | Full Plate Harness                           | Small Targe / Buckler        | - Armet or sallet helmet
+                                                                                  - Complete white harness (full articulated plate)
+                                                                                  - Gorget for neck protection
+                                                                                  - Complete gauntlets and sabatons
+                                                                                  - Very high protection, shield largely optional
+
+SIZE 2  | 910          | 15th century           | Gothic / Maximilian Plate                    | Small Buckler                | - Sallet or close helmet
+                                                                                  - Fluted or smooth full plate armor
+                                                                                  - Reinforced joints and articulations
+                                                                                  - Very mobile despite weight
+                                                                                  - Buckler used mainly in foot combat and duels
+
+SIZE 1  | 700          | Mid - late 15th century| Late Medieval Full Harness                   | Very Small Buckler           | - Maximilian or Italian full plate
+                                                                                  - Complete coverage from head to toe
+                                                                                  - Advanced joint mechanics
+                                                                                  - Shield almost disappears for mounted knights
+                                                                                  - Used by light infantry or in close-quarters fighting
+
+Notes:
+- Surface area decreases roughly 25-30% per step as armor improves.
+- Larger shields (SIZE 11-8): Primary defensive tool.
+- Medium shields (SIZE 7-4): Transitional role.
+- Small shields (SIZE 3-1): Auxiliary or specialized use.
+- Evolution driven by metallurgy advances, tactics, and need for mobility.

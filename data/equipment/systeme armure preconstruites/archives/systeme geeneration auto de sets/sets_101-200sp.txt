@@ -1,0 +1,152 @@
+======================================================================
+EQUIPMENT SETS — Comfortable_101-200sp
+======================================================================
+
+Budget range : 101-200 sp
+Number of sets : 130
+Source : generate_sets.py (random realistic kits with compatibility rules)
+Region focus : Sword Coast / Côte des Épées (Groupe 1) — can be adapted
+
+Rules summary (see generate_sets.py for full details):
+  - Weapons & shield chosen first
+  - Strict layering rules (pauldrons require cuirass/breast+backplate; besagews/tassets/fauld require plate torso, etc.)
+  - Bows/crossbows limited to small shields
+  - Mounts + barding appear at higher budgets
+  - 'Nearly full armor' rule downgrades oversized shields
+  - Side weapon (arming sword, falchion, messer or hand axe) bought before any armor
+  - Gorget / Bevor always over at least fabric protection (aketon/gambison/arming doublet); never directly on skin. Often with mail collar underneath too.
+  - Mounted weapons (Light Hammer, Mace, Flanged Mace, Lance) STRICTLY only when a mount is present.
+    Foot characters (no mount) NEVER receive them — absolute, no exceptions even in low tiers.
+
+--- COMPACT FORMAT ---
+
+#001 [103sp] Quarterstaff, Reinforced Javelin (x3), Small Rotella (Size 5), Leather Helmet, Reinforced Gambeson, Couter (pair)
+#002 [103sp] Falchion, Large Buckler (Size 4), Reinforced Gambeson
+#003 [103sp] Light Flail, Heater Shield (Size 8), Leather Helmet, Pourpoint (light civil)
+#004 [104sp] Longbow, Knife, Arrows (12), Cervelière, Pourpoint (light civil), Couter (pair)
+#005 [104sp] War Scythe, Hand Axe, Heater Shield (Size 8)
+#006 [105sp] Light Crossbow, Crossbow Bolts (12), Leather Helmet
+#007 [107sp] Bill, Hand Axe, Staff Sling, Sling bullets (12), Brocchiere (Size 1)
+#008 [108sp] Short Bow, Hand Axe, Arrows (12), Brocchiere (Size 1), Cervelière, Gambeson (basic)
+#009 [109sp] Short Bow, Hand Axe, Arrows (12), Arrows (12), Leather Helmet, Pourpoint (light civil)
+#010 [109sp] Messer, Knife, Leather Helmet, Gambeson (basic), Couter (pair)
+#011 [111sp] Spear, Arming Sword, Small Buckler (Size 2), Leather Helmet, Mail coif
+#012 [112sp] Short Bow, Hand Axe, Arrows (12), Arrows (12), Leather Helmet, Reinforced Gambeson
+#013 [112sp] Messer, Dagger, Nasal Helmet, Gambeson (basic)
+#014 [113sp] Main-gauche, Dagger
+#015 [114sp] Reinforced Spear, Arming Sword, Brocchiere (Size 1), Leather Helmet, Gambeson (basic)
+#016 [114sp] Reinforced Spear, Hand Axe, Staff Sling, Sling bullets (12), Sling bullets (12), Sling bullets (12), Sling bullets (12), Sling bullets (12), Sling bullets (12), Buckler (Size 3), Cervelière, Pourpoint (light civil), Bevor
+#017 [117sp] Francisca, Hand Axe, Buckler (Size 3), Leather Helmet, Gambeson (basic)
+#018 [118sp] Club, Arming Sword, Staff Sling, Sling bullets (12), Brocchiere (Size 1), Leather Helmet, Mail coif, Gambeson (basic)
+#019 [119sp] Messer, Rondel Dagger, Staff Sling, Sling bullets (12), Buckler (Size 3)
+#020 [120sp] Baselard, Heater Shield (Size 8), Nasal Helmet, Gambeson (long / fended), Gorget (articulated/raised)
+#021 [121sp] Spear, Arming Sword, Brocchiere (Size 1), Leather Helmet, Mail coif, Pourpoint (light civil)
+#022 [121sp] Light Crossbow, Knife, Crossbow Bolts (12), Buckler (Size 3), Leather Helmet
+#023 [122sp] Reinforced Spear, Arming Sword, Brocchiere (Size 1), Cervelière, Pourpoint (light civil)
+#024 [124sp] Spear, Falchion, Sling, Sling bullets (12), Sling bullets (12), Brocchiere (Size 1), Nasal Helmet, Mail coif, Pourpoint (light civil)
+#025 [125sp] Messer, Small Buckler (Size 2), Nasal Helmet, Reinforced Gambeson (long)
+#026 [126sp] Poleaxe, Nasal Helmet, Gambeson (basic)
+#027 [126sp] Light Flail, Hand Axe, Buckler (Size 3), Leather Helmet
+#028 [129sp] Main-gauche, Rotella (Size 6), Cervelière, Gambeson (basic)
+#029 [129sp] Spear, Falchion, Small Rotella (Size 5), Kettle Hat, Padded Jack (medium / troop)
+#030 [129sp] Light Crossbow, Knife, Crossbow Bolts (12), Nasal Helmet, Pourpoint (light civil)
+#031 [130sp] Arming Sword, Hand Axe, Sling, Sling bullets (12), Sling bullets (12), Small Buckler (Size 2), Leather Helmet
+#032 [130sp] Arming Sword, Hand Axe, Staff Sling, Sling bullets (12), Buckler (Size 3)
+#033 [132sp] Club, Arming Sword, Staff Sling, Sling bullets (12), Sling bullets (12), Sling bullets (12), Sling bullets (12), Sling bullets (12), Sling bullets (12), Buckler (Size 3), Kettle Hat, Reinforced Gambeson
+#034 [134sp] Reinforced Spear, Arming Sword, Staff Sling, Sling bullets (12), Velites Parma (Size 9), Leather Helmet, Gambeson (basic)
+#035 [135sp] Spear, Messer, Staff Sling, Sling bullets (12), Large Rotella (Size 7), Leather Helmet, Padded Jack (medium / troop)
+#036 [135sp] Falchion, Hand Axe, Staff Sling, Sling bullets (12), Small Buckler (Size 2), Leather Helmet, Gambeson (basic)
+#037 [137sp] Crossbow
+#038 [137sp] Cutlass, Rondel Dagger, Leather Helmet, Gambeson (basic)
+#039 [138sp] Cutlass, Knife, Leather Helmet, Gambeson (basic), Gauntlets (normal)
+#040 [140sp] War Hammer (Renaissance), Knife, Leather Helmet
+#041 [141sp] Light Flail, Hand Axe, Kettle Hat, Aventail
+#042 [141sp] Reinforced Spear, Arming Sword, Staff Sling, Sling bullets (12), Velites Parma (Size 9), Nasal Helmet, Gambeson (basic)
+#043 [142sp] Crossbow, Crossbow Bolts (12)
+#044 [143sp] War Hammer (Renaissance), Buckler (Size 3)
+#045 [143sp] Crossbow, Crossbow Bolts (12)
+#046 [144sp] Messer, Hand Axe, Nasal Helmet, Gambeson (basic)
+#047 [144sp] Hand Axe, Messer, Sling, Sling bullets (12), Cervelière, Gambeson (basic)
+#048 [144sp] Pike, Falchion, Staff Sling, Sling bullets (12), Leather Helmet, Aventail, Reinforced Gambeson (long)
+#049 [145sp] Francisca, Messer, Leather Helmet, Gambeson (basic)
+#050 [145sp] Spear, Messer, Sling, Sling bullets (12), Sling bullets (12), Sling bullets (12), Sling bullets (12), Sling bullets (12), Sling bullets (12), Buckler (Size 3), Leather Helmet, Reinforced Gambeson (long), Couter (pair)
+#051 [146sp] Short Bow, Hand Axe, Arrows (12), Arrows (12), Buckler (Size 3), Cabasset, Pourpoint (light civil), Couter (pair)
+#052 [146sp] Morning Star, Hand Axe, Brocchiere (Size 1)
+#053 [146sp] Messer, Hand Axe, Leather Helmet, Gambeson (basic), Couter (pair)
+#054 [147sp] Light Crossbow, Hand Axe, Crossbow Bolts (12)
+#055 [148sp] Short Bow, Hand Axe, Arrows (12), Arrows (12), Reinforced Gambeson (long), Gorget (normal), Plackart
+#056 [148sp] Hand Axe, Knife, Small Rotella (Size 5), Cabasset, Aventail, Gambeson (basic), Gorget (reinforced), Couter (pair)
+#057 [149sp] Light Flail, Hand Axe, Kite Shield (Size 10), Gambeson (basic)
+#058 [150sp] Hand Axe, Falchion, Staff Sling, Sling bullets (12), Sling bullets (12), Sling bullets (12), Sling bullets (12), Sling bullets (12), Sling bullets (12), Velites Parma (Size 9), Leather Helmet
+#059 [150sp] War Hammer (Renaissance), Knife, Small Buckler (Size 2), Leather Helmet
+#060 [151sp] Reinforced Spear, Arming Sword, Morion, Pourpoint (light civil), Bevor
+#061 [153sp] Short Bow, Falchion, Arrows (12), Buckler (Size 3), Nasal Helmet, Aventail, Gambeson (basic)
+#062 [154sp] Francisca, Arming Sword, Buckler (Size 3), Leather Helmet, Reinforced Gambeson
+#063 [154sp] Spear, Hand Axe, Staff Sling, Sling bullets (12), Sling bullets (12), Brocchiere (Size 1), Cabasset, Reinforced Gambeson (long), Gorget (reinforced), Gauntlets (normal)
+#064 [154sp] Hand Axe, Hand Axe, Javelin (x3), Leather Helmet, Reinforced Gambeson, Gorget (normal), Couter (pair)
+#065 [155sp] Bill, Arming Sword, Large Rotella (Size 7)
+#066 [156sp] Main-gauche, Hand Axe, Sling, Sling bullets (12), Sling bullets (12), Sling bullets (12), Sling bullets (12), Sling bullets (12), Sling bullets (12), Brocchiere (Size 1), Leather Helmet
+#067 [156sp] Messer, Hand Axe, Velites Parma (Size 9), Leather Helmet
+#068 [157sp] Halberd, Hand Axe, Staff Sling, Sling bullets (12), Sling bullets (12), Sling bullets (12), Sling bullets (12), Sling bullets (12), Sling bullets (12), Kite Shield (Size 10), Leather Helmet
+#069 [157sp] Reinforced Spear, Arming Sword, Reinforced Javelin (x3), Brocchiere (Size 1), Leather Helmet, Gambeson (long / fended)
+#070 [158sp] Scimitar, Cervelière, Gambeson (basic)
+#071 [158sp] Katzbalger, Hand Axe, Small Buckler (Size 2), Cervelière
+#072 [159sp] Longbow, Arming Sword, Arrows (12), Arrows (12), Buckler (Size 3), Leather Helmet
+#073 [159sp] Light Crossbow, Hand Axe, Crossbow Bolts (12), Crossbow Bolts (12), Leather Helmet
+#074 [160sp] Cutlass, Hand Axe, Staff Sling, Sling bullets (12), Rotella (Size 6)
+#075 [160sp] Crossbow, Dagger, Crossbow Bolts (12), Brocchiere (Size 1)
+#076 [161sp] Arming Sword, Falchion, Sling, Sling bullets (12), Leather Helmet, Gambeson (basic)
+#077 [161sp] Spear, Falchion, Staff Sling, Sling bullets (12), Sling bullets (12), Brocchiere (Size 1), Leather Helmet, Padded Jack (medium / troop), Couter (pair), Plackart, Poleyns + Knee guards
+#078 [161sp] Partisan, Small Rotella (Size 5), Nasal Helmet, Gambeson (basic)
+#079 [161sp] Composite Bow
+#080 [162sp] Crossbow, Knife, Crossbow Bolts (12), Buckler (Size 3), Leather Helmet
+#081 [163sp] Arming Sword, Hand Axe, Buckler (Size 3), Leather Helmet, Mail coif, Pourpoint (light civil)
+#082 [163sp] Bastard Sword, Knife, Leather Helmet
+#083 [163sp] Spear, Hand Axe, Staff Sling, Sling bullets (12), Sling bullets (12), Sling bullets (12), Sling bullets (12), Sling bullets (12), Sling bullets (12), Buckler (Size 3), Kettle Hat, Pourpoint (light civil), Bevor, Vambraces + Couter, Schynbalds / Demi-greaves
+#084 [164sp] War Hammer (Renaissance), Rondel Dagger, Leather Helmet
+#085 [165sp] Baselard, Falchion, Gambeson (long / fended), Gorget (reinforced)
+#086 [165sp] Main-gauche, Hand Axe, Staff Sling, Sling bullets (12), Sling bullets (12), Brocchiere (Size 1), Leather Helmet, Aventail
+#087 [165sp] Light Flail, Falchion, Brocchiere (Size 1), Leather Helmet, Padded Jack (medium / troop)
+#088 [166sp] War Hammer (Renaissance), Javelin (x3), Leather Helmet, Gambeson (long / fended)
+#089 [166sp] Light Flail, Arming Sword, Sling, Sling bullets (12), Sling bullets (12), Brocchiere (Size 1), Leather Helmet, Aventail
+#090 [167sp] Battle Axe, Hand Axe, Velites Parma (Size 9)
+#091 [167sp] Main-gauche, Falchion
+#092 [170sp] Bec de Corbin, Knife, Leather Helmet
+#093 [170sp] Spear, Arming Sword, Rotella (Size 6), Cabasset, Reinforced Gambeson, Couter (pair), Gauntlets (normal)
+#094 [171sp] Scimitar, Small Rotella (Size 5), Nasal Helmet, Gambeson (basic)
+#095 [171sp] Messer, Knife, Small Buckler (Size 2), Kettle Hat, Coat of Plates, Sabatons (normal)
+#096 [172sp] Baselard, Arming Sword, Staff Sling, Sling bullets (12), Leather Helmet, Aventail, Padded Jack (medium / troop)
+#097 [172sp] Messer, Rotella (Size 6), Nasal Helmet, Mail coif, Reinforced Gambeson, Gorget (articulated/raised), Couter (pair)
+#098 [173sp] Spear, Messer, Morion, Padded Jack (medium / troop), Plackart, Sabatons (normal)
+#099 [173sp] Battle Axe, Hand Axe, Javelin (x3), Leather Helmet, Pourpoint (light civil)
+#100 [174sp] Light Flail, Arming Sword, Cervelière, Padded Jack (medium / troop)
+#101 [174sp] Main-gauche, Hand Axe, Sling, Sling bullets (12), Sling bullets (12), Sling bullets (12), Sling bullets (12), Sling bullets (12), Sling bullets (12), Heater Shield (Size 8), Leather Helmet
+#102 [175sp] Partisan, Hand Axe
+#103 [175sp] Longsword, Javelin (x3), Small Buckler (Size 2), Leather Helmet
+#104 [176sp] Katzbalger, Arming Sword, Leather Helmet
+#105 [176sp] Falchion, Knife, Sling, Sling bullets (12), Sling bullets (12), Sling bullets (12), Sling bullets (12), Sling bullets (12), Sling bullets (12), Small Buckler (Size 2), Cabasset, Aventail, Reinforced Gambeson (long), Bevor, Couter (pair)
+#106 [176sp] Broadsword, Hand Axe, Staff Sling, Sling bullets (12), Cervelière, Gambeson (basic)
+#107 [176sp] Light Crossbow, Falchion, Crossbow Bolts (12), Leather Helmet
+#108 [179sp] Longbow, Arming Sword, Arrows (12), Buckler (Size 3), Nasal Helmet, Pourpoint (light civil), Bevor
+#109 [180sp] Francisca, Messer, Sling, Sling bullets (12), Scutum (Size 11), Leather Helmet, Gambeson (basic)
+#110 [181sp] Reinforced Spear, Arming Sword, Javelin (x3), Small Buckler (Size 2), Cervelière, Gambeson (basic), Bevor, Couter (pair), Plackart
+#111 [181sp] Bastard Sword, Knife, Cervelière, Gambeson (basic)
+#112 [184sp] Longbow, Messer, Arrows (12), Small Buckler (Size 2), Cervelière, Mail coif
+#113 [185sp] War Hammer (Renaissance), Hand Axe, Brocchiere (Size 1), Leather Helmet
+#114 [187sp] Cutlass, Messer, Leather Helmet, Gambeson (basic)
+#115 [187sp] Composite Bow, Arrows (12), Buckler (Size 3), Leather Helmet, Gambeson (basic)
+#116 [187sp] Bastard Sword, Small Buckler (Size 2), Cervelière, Schynbalds / Demi-greaves
+#117 [187sp] Composite Bow, Arrows (12), Small Buckler (Size 2), Leather Helmet, Gambeson (basic)
+#118 [188sp] Lucerne Hammer, Knife, Sling, Sling bullets (12), Sling bullets (12), Brocchiere (Size 1), Kettle Hat, Schynbalds / Demi-greaves
+#119 [189sp] Reinforced Spear, Falchion, Javelin (x3), Large Buckler (Size 4), Leather Helmet, Mail coif, Gambeson (long / fended), Couter (pair), Gauntlets (normal)
+#120 [190sp] Light Flail, Arming Sword, Kite Shield (Size 10), Leather Helmet, Mail coif
+#121 [191sp] Light Crossbow, Arming Sword, Crossbow Bolts (12), Crossbow Bolts (12), Brocchiere (Size 1), Leather Helmet
+#122 [192sp] Halberd, Arming Sword, Brocchiere (Size 1), Kettle Hat, Padded Jack (medium / troop)
+#123 [192sp] Arming Sword, Messer, Rotella (Size 6), Nasal Helmet, Gambeson (basic)
+#124 [192sp] War Hammer, Falchion, Javelin (x3), Nasal Helmet, Gambeson (long / fended)
+#125 [195sp] Broadsword, Hand Axe, Heater Shield (Size 8), Leather Helmet, Gambeson (basic)
+#126 [195sp] War Hammer (Renaissance), Hand Axe, Large Buckler (Size 4), Leather Helmet
+#127 [195sp] Halberd, Falchion, Reinforced Javelin (x3), Buckler (Size 3)
+#128 [195sp] Composite Bow, Dagger, Arrows (12), Arrows (12), Leather Helmet
+#129 [199sp] War Hammer (Renaissance), Hand Axe, Sling, Sling bullets (12), Sling bullets (12), Sling bullets (12), Sling bullets (12), Sling bullets (12), Sling bullets (12), Small Rotella (Size 5), Leather Helmet
+#130 [199sp] Light Flail, Arming Sword, Cabasset, Aventail, Reinforced Gambeson

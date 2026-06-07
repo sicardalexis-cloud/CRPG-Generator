@@ -1,0 +1,329 @@
+================================================================================
+GROUPE 3 – BLOC CŒUR CONTINENTAL
+(The Dalelands + Western Heartlands + Impiltur)
+Niveau Tech : 5 (Late Middle Ages)
+Mise à jour : Format détaillé aligné sur Groupe 1 et Groupe 2 (colonnes complètes + Armor Zones).
+================================================================================
+
+RÈGLE D’UTILISATION :
+- Tout objet de niveau tech 4 à 5 est **facilement disponible** au prix indiqué.
+- Les **armes à poudre** ont été **triplées** (x3) pour refléter leur rareté.
+- Tech 6-7 = disponible mais **rare et cher** dans ce bloc.
+- Prix en pièces d’argent (sp) sauf indication contraire.
+- Disponibilité : Toujours / Commun = disponible dans les Dalelands, Western Heartlands et Impiltur.
+- Format aligné sur Groupe 1 et Groupe 2 mis à jour : Colonnes Frequency / Bulk / Storage / Mounted / Protected Parts / Description.
+
+================================================================================
+ARMOR ZONES LIST (24 zones)
+================================================================================
+
+| Code   | Zone Name                    | Description                                              | Typical Coverage |
+|--------|------------------------------|----------------------------------------------------------|------------------|
+| HEAD   | Head                         | Skull (top, sides, back)                                 | Full helmets     |
+| EYES   | Eyes                         | Eyes, eye slits, ocular area                             | Visored helmets  |
+| FACE   | Face                         | Cheeks, nose, mouth, jaw (excluding eyes)                | Face guards      |
+| NECK   | Neck                         | Throat + nape + sides                                    | Gorgets, Aventail|
+| SHLD   | Shoulders                    | Deltoids + shoulder joint                                | Pauldrons        |
+| CHST   | Chest                        | Upper torso (sternum, pectorals)                         | Breastplates     |
+| BACK   | Back                         | Upper and mid back                                       | Backplates       |
+| ABDM   | Abdomen                      | Belly + flanks                                           | Brigandine       |
+| LBAK   | Lower Back                   | Lumbar region / kidneys                                  | Garde-reins      |
+| HIPS   | Hips                         | Hips + lower abdomen (sides)                             | Faulds, Tassets  |
+| GROIN  | Groin                        | Groin / crotch area                                      | Rare             |
+| UARM   | Upper Arm                    | Biceps + triceps                                         | Mail sleeves     |
+| ELBO   | Elbow (outer)                | Outer elbow joint                                        | Couters          |
+| IELB   | Inner Elbow                  | Inner elbow crease                                       | Rare             |
+| FARM   | Forearm                      | Forearm                                                  | Vambraces        |
+| HAND   | Hands                        | Hands + wrists                                           | Gauntlets        |
+| AXIL   | Armpits                      | Underarm area                                            | Mail voiders     |
+| THGH   | Thigh (front/outer)          | Front and outer thigh                                    | Cuisses          |
+| RTHG   | Thigh (rear)                 | Back of the thigh (hamstrings)                           | Rare             |
+| KNEE   | Knee (outer)                 | Kneecap + outer knee joint                               | Poleyns          |
+| IKNE   | Inner Knee                   | Inner knee / popliteal fossa                             | Rare             |
+| SHIN   | Lower Leg (front)            | Shin + front of lower leg                                | Greaves          |
+| CALF   | Lower Leg (rear)             | Calf (back of lower leg)                                 | Rare             |
+| FOOT   | Feet                         | Feet + ankles                                            | Sabatons         |
+
+================================================================================
+1. TEXTILE AND PADDED ARMORS (Format détaillé)
+================================================================================
+
+Aketon (basic padded jack)            8 sp    Tech 4   Always      Freq: 8  Bulk: 2  Storage: worn     Mounted: No  Protected Parts: CHST, BACK, ABDM, UARM  Description: Technical under-armor of 4-8 dense linen layers. Designed to be worn under mail to prevent pinching and absorb impact. Weak standalone protection.
+
+Gambeson (basic)                      9 sp    Tech 4   Always      Freq: 9  Bulk: 2  Storage: worn     Mounted: No  Protected Parts: CHST, BACK, ABDM, UARM  Description: Standard 8-12 layer quilted padded tunic. Base protection for infantry against light slashing and blunt trauma.
+
+Gambeson (long / fended)             14 sp    Tech 4   Common      Freq: 7  Bulk: 3  Storage: worn     Mounted: No  Protected Parts: CHST, BACK, ABDM, UARM, THGH, SHIN  Description: Extended gambeson reaching the knees. Common for archers and light infantry needing leg protection without metal armor.
+
+Reinforced Gambeson                  18 sp    Tech 5   Always      Freq: 8  Bulk: 2  Storage: worn     Mounted: No  Protected Parts: CHST, BACK, ABDM, UARM, ELBO  Description: Improved 12-18 layer gambeson with extra padding at shoulders and elbows. Best textile-only protection.
+
+Padded Jack		             22 sp    Tech 5   Common      Freq: 6  Bulk: 3  Storage: worn     Mounted: No  Protected Parts: CHST, BACK, ABDM, UARM, THGH  Description: Very dense (20-30+ layers) rigid standalone armor. Preferred by heavy infantry without plate.
+
+Brigandine 		             85 sp    Tech 5    Common      Freq: 6  Bulk: 4  Storage: worn     Mounted: No  Protected Parts: CHST, BACK, ABDM, UARM, SHLD, AXIL  Description: Small steel plates riveted inside a robust garment. Excellent protection and flexibility. Common in the Heartlands.
+
+Jack of Plates                       55 sp    Tech 7   Rare        Freq: 4  Bulk: 4  Storage: worn     Mounted: No  Protected Parts: CHST, BACK, ABDM, UARM  Description: Horizontal steel slats between fabric layers. Affordable alternative to full brigandine.
+
+Arming Doublet                       45 sp    Tech 7   Rare        Freq: 5  Bulk: 2  Storage: worn     Mounted: No  Protected Parts: CHST, BACK, ABDM, UARM, ELBO, FARM  Description: Fitted technical garment with attachment points (aiglets) for mobile plate pieces. Essential when using vambraces, cuisses, etc.
+
+================================================================================
+2. PIÈCES D’ARMURE COURANTES + MODULAIRES
+================================================================================
+
+--- Pièces communes (tech 3-6) ---
+Leather Helmet                8 sp      Tech 3    Toujours
+Nasal Helmet                  18 sp     Tech 4    Toujours
+Great Helm                    35 sp     Tech 5    Toujours
+Kettle hat                    28 sp     Tech 5    Toujours
+Mail coif                     22 sp     Tech 5    Toujours
+Bascinet                      42 sp     Tech 5-6  Commun
+Simple Breastplate            50 sp     Tech 5    Commun
+
+--- Protections en maille ---
+Mail Shirt (basic torso protection)           100 sp    Tech 5    Common      Frequency: 6  Bulk: 3  Storage: carried   Mounted: No  Protected Parts: CHST, BACK, ABDM, UARM
+Mail Haubergeon (mid-thigh length)           140 sp    Tech 5    Common      Frequency: 5  Bulk: 4  Storage: carried   Mounted: No  Protected Parts: CHST, BACK, ABDM, UARM, THGH
+Mail Hauberk (knee-length with sleeves)     180 sp    Tech 5-6  Common      Frequency: 5  Bulk: 4  Storage: carried   Mounted: No  Protected Parts: CHST, BACK, ABDM, UARM, THGH, SHIN
+
+Mail Hauberk (double mail / reinforced torso)  230 sp   Tech 6    Rare        Frequency: 3  Bulk: 5  Storage: carried   Mounted: No  Protected Parts: CHST, BACK, ABDM, UARM, THGH, SHIN
+# Version renforcée avec double couche de maille sur le torse.
+
+Jazerant (mail sewn between fabric layers)    90 sp     Tech 6    Common      Frequency: 4  Bulk: 3  Storage: carried   Mounted: No  Protected Parts: CHST, BACK, ABDM, UARM
+# Maille cousue entre deux couches de tissu. Plus discrète et légèrement plus légère.
+
+--- Armes de mêlée courantes ---
+Dagger                        5 sp      Tech 3    Toujours
+Couteau (Knife)               3 sp      Tech 2    Toujours
+Fauld                         32 sp     Tech 6    Rare
+Besagews (paire)              20 sp     Tech 6    Rare
+Plackart                      40 sp     Tech 6    Rare
+Couter (paire)                16 sp     Tech 6    Rare
+Mail voiders (paire)          20 sp     Tech 6    Rare
+Bevor                         28 sp     Tech 6    Rare
+Garde-reins                   35 sp     Tech 6    Rare
+
+--- XVe Siècle (Gothic – tech 6) ---
+Haubergeon / Collerette       50 sp     Tech 6    Rare
+Breastplate + Backplate (classique)   80 sp     Tech 6    Rare
+Gorget (élevé)                25 sp     Tech 6    Rare
+Vambraces + Couter            35 sp     Tech 6    Rare
+Tassets                       25 sp     Tech 6    Rare
+Sallet ou Armet (classique)   55 sp     Tech 6    Rare
+
+--- XVIe Siècle (Maximilian – tech 7) ---
+Maille collerette ou manches  32 sp     Tech 7    Très rare
+Breastplate + Backplate (renforcé)     95 sp     Tech 7    Très rare
+Pauldrons + Gardes            38 sp     Tech 7    Très rare
+Vambraces + Couter + Rerebrace        42 sp     Tech 7    Très rare
+Gauntlets (renforcés)         28 sp     Tech 7    Très rare
+Tassets longs                 32 sp     Tech 7    Très rare
+Cuisses (renforcées)          34 sp     Tech 7    Très rare
+Close Helmet (Maximilian)     65 sp     Tech 7    Très rare
+Burgonet (Maximilian)         55 sp     Tech 7    Très rare
+
+================================================================================
+3. SHIELDS (OFFICIAL MATRIX BY SIZE)
+================================================================================
+
+TABLE OF SHIELDS (SIZE 1 TO 11)
+================================================================================
+SIZE 1 : Petty Buckler (700 cm²) | 5 sp | Tech 5 | Freq: 9 | Enc: 1 | Carried
+SIZE 2 : Small Buckler (910 cm²) | 7 sp | Tech 5 | Freq: 9 | Enc: 1 | Carried
+SIZE 3 : Buckler (1183 cm²) | 9 sp | Tech 5 | Freq: 8 | Enc: 1 | Carried
+SIZE 4 : Great Buckler (1538 cm²) | 12 sp | Tech 5 | Freq: 7 | Enc: 2 | Carried
+SIZE 5 : Small Targe (1999 cm²) | 14 sp | Tech 5 | Freq: 6 | Enc: 2 | Carried
+SIZE 6 : Targe (2599 cm²) | 16 sp | Tech 4 | Freq: 7 | Enc: 2 | Carried
+SIZE 7 : Great Targe (3379 cm²) | 22 sp | Tech 5 | Freq: 7 | Enc: 3 | Carried
+SIZE 8 : Heater Shield (4392 cm²) | 24 sp | Tech 4 | Freq: 6 | Enc: 4 | Carried
+SIZE 9 : Ward Shield (5710 cm²) | 26 sp | Tech 5 | Freq: 5 | Enc: 4 | Carried
+SIZE 10: Kite Shield (7423 cm²) | 27 sp | Tech 5 | Freq: 5 | Enc: 4 | Carried
+SIZE 11: Pavise (9650 cm²) | 35 sp | Tech 5 | Freq: 4 | Enc: 5 | Shoulder
+
+Note : Les grands boucliers (Targe et plus) sont courants chez les milices des Dalelands et les gardes d'Impiltur.
+
+================================================================================
+4. ARMES – LISTE EXHAUSTIVE
+================================================================================
+
+--- Épées & Armes de taille ---
+Arming Sword                  45 sp     Tech 4    Commun
+Longsword                     65 sp     Tech 5    Commun
+Falchion                      45 sp     Tech 5    Commun
+Scimitar                      48 sp     Tech 5    Rare       (import sud)
+Rapier                        80 sp     Tech 6    Rare
+Sidesword                     65 sp     Tech 6    Rare
+Broadsword                    55 sp     Tech 6    Rare
+Estoc                         70 sp     Tech 6    Rare
+Cutlass                       48 sp     Tech 6    Rare
+Main-gauche                   32 sp     Tech 6    Rare
+
+--- Armes d’hast & Piques ---
+Spear                         23 bp     Tech 4    Toujours
+Lance                         32 sp     Tech 4    Commun
+Pike                          40 sp     Tech 6    Rare
+Halberd                       65 sp     Tech 5    Commun
+Poleaxe                       70 sp     Tech 5    Commun
+Bill                          57 sp     Tech 5    Commun
+Glaive                        55 sp     Tech 5    Commun
+Voulge                        48 sp     Tech 5    Commun
+Bec de Corbin                 65 sp     Tech 6    Rare
+Partisan                      52 sp     Tech 6    Rare
+Ranseur                       50 sp     Tech 5    Commun
+Military Fork                 48 sp     Tech 5    Commun
+Lucerne Hammer                62 sp     Tech 5    Rare
+
+--- Armes contondantes ---
+Mace                          38 sp     Tech 4    Commun
+Flanged Mace                  55 sp     Tech 5    Commun
+Morning Star                  50 sp     Tech 5    Commun
+War Hammer                    40 sp     Tech 4    Commun
+War Hammer (Renaissance)      52 sp     Tech 7    Très rare
+Maul                          45 sp     Tech 5    Commun
+
+--- Armes à distance ---
+Longbow                       30 sp     Tech 5    Commun
+Short bow                      6 sp     Tech 3-4  Toujours
+Crossbow                      85 sp     Tech 5    Commun
+Heavy Crossbow                95 sp     Tech 5    Commun
+Light Crossbow                55 sp     Tech 5    Commun
+Composite Crossbow            75 sp     Tech 5    Rare
+Cranequin Crossbow           140 sp     Tech 7    Très rare
+Javelin (Renaissance)         22 sp     Tech 7    Très rare
+War Dart                      16 sp     Tech 4    Commun
+
+--- ARMES À POUDRE (PRIX TRIPLÉS) ---
+Handgonne                    480 sp     Tech 5    Très rare  (x3)
+Arquebus                     390 sp     Tech 7    Très rare  (x3)
+Musket                       540 sp     Tech 7    Très rare  (x3)
+Wheellock Pistol             330 sp     Tech 7    Très rare  (x3)
+Flintlock Pistol             255 sp     Tech 8    Très rare  (x3)
+
+================================================================================
+5. MONTURES + BARDAGE POUR CHEVAUX
+================================================================================
+
+--- Montures ---
+Rouncey                       45 sp     Tech 3    Toujours
+Courser                       62 sp     Tech 4    Commun
+Palfrey                       57 sp     Tech 4    Commun
+Destrier                     130 sp     Tech 4    Rare
+Destrier (quality)           200 sp     Tech 7    Très rare
+Camel, riding                 15 gp     Tech 3    Rare
+
+--- Bardage (Horse Armor) ---
+Leather barding               35 sp     Tech 4    Commun
+Chain barding                150 sp     Tech 5    Rare
+Plate mail barding           300 sp     Tech 6-7  Très rare
+Leather chanfron               6 sp     Tech 4    Commun
+Plate chanfron                 9 sp     Tech 5    Rare
+Leather crinet                 5 sp     Tech 4    Commun
+Chain crinet                  27 sp     Tech 5    Rare
+Plate crinet                   5 gp     Tech 6    Très rare
+
+================================================================================
+6. ÉQUIPEMENT DE VOYAGE & SURVIE
+================================================================================
+
+Backpack (small leather)       2 bp     Tech 3    Toujours
+Backpack (medium leather)      4 bp     Tech 3    Toujours
+Backpack (large leather)       7 bp     Tech 3    Toujours
+Tent 2-man leather            15 sp     Tech 2    Toujours
+Tent 4-man leather            25 sp     Tech 2    Commun
+Tent 8-man leather            50 sp     Tech 2    Rare
+Pavillion                    100 sp     Tech 4    Très rare
+Sleeping furs (light)         50 cp     Tech 3    Toujours
+Sleeping furs (heavy)         75 cp     Tech 3    Commun
+Blanket (light)               20 cp     Tech 3    Toujours
+Blanket (heavy)               30 cp     Tech 3    Toujours
+Rope light (50')               4 cp     Tech 3    Toujours
+Rope standard (50')            6 cp     Tech 3    Toujours
+Grappling hook                12 bp     Tech 4    Commun
+Flint & steel                  1 sp     Tech 4    Toujours
+Tinderbox                      3 cp     Tech 3    Toujours
+Fishing net (small)            5 sp     Tech 3    Commun
+Fishing net (large)            8 sp     Tech 3    Commun
+Fishhook & line                2 tp     Tech 3    Toujours
+Fish trap                      3 bp     Tech 3    Commun
+Waterskin (1 gal)              3 bp     Tech 3    Toujours
+Waterskin (5 gal)              7 bp     Tech 3    Commun
+Canteen (1 pt)                 2 cp     Tech 3    Toujours
+Lantern (hooded)               5 bp     Tech 3    Toujours
+Lamp oil                       1 bp     Tech 3    Toujours
+Compass                        1 sp     Tech 7    Très rare
+Spyglass                       8 gp     Tech 8    Très rare
+
+================================================================================
+7. VÊTEMENTS & ACCESSOIRES
+================================================================================
+
+Cloak (wool)                   9 bp     Tech 3    Toujours
+Cloak (fur-lined)             25 bp     Tech 3    Commun
+Cloak (hooded wool)           12 bp     Tech 3    Toujours
+Coat (leather)                18 bp     Tech 3    Commun
+Gloves (leather)               2 bp     Tech 3    Toujours
+Gloves (fur lined)             4 bp     Tech 3    Commun
+Boots (normal leather)         5 bp     Tech 3    Toujours
+Boots (fine leather)           2 sp     Tech 4    Commun
+Belt (leather)                10 cp     Tech 3    Toujours
+Belt pouch (small)             8 tp     Tech 3    Toujours
+Belt pouch (large)            14 tp     Tech 3    Commun
+Hat (leather)                  1 bp     Tech 3    Toujours
+
+================================================================================
+8. OUTILS & ARTISANAT
+================================================================================
+
+Lockpicks (poor)               6 bp     Tech 4    Commun
+Lockpicks (average)            1 sp     Tech 4    Commun
+Lockpicks (fine)               5 sp     Tech 5    Rare
+Skeleton key                   5 sp     Tech 5    Rare
+Crowbar (standard)             6 bp     Tech 3    Toujours
+Crowbar (heavy)                8 bp     Tech 3    Commun
+Metal file (small)             8 bp     Tech 4    Commun
+Chisel (cold)                  3 bp     Tech 3    Toujours
+10' pole                      20 bp     Tech 3    Toujours
+Grappling hook                12 bp     Tech 4    Commun
+
+================================================================================
+9. RATIONS & NOURRITURE DE VOYAGE
+================================================================================
+
+Hardtack                       1 tp     Tech 3    Toujours
+Waybread                       6 tp     Tech 4    Commun
+Black bread                    3 tp     Tech 3    Toujours
+Beef, jerked                   2 cp     Tech 3    Commun
+Pork, smoked                   7 cp     Tech 3    Commun
+Fish (salted)                  2 cp     Tech 3    Commun
+Salmon, smoked                 3 cp     Tech 3    Commun
+Butter, salted                15 cp     Tech 3    Commun
+Field rations (basic)          5 tp     Tech 3    Toujours
+Dried fruit (small bag)        4 cp     Tech 3    Commun
+
+================================================================================
+10. MÉDECINE & PREMIERS SOINS
+================================================================================
+
+Bandages, linen (30')         10 cp     Tech 3    Toujours
+Herbal remedy                  3 cp+    Tech 3    Toujours     (prix variable)
+Basin, bleeding                8 tp     Tech 4    Commun
+Lancet, bleeding               2 bp     Tech 4    Commun
+Cranial drill                  4 bp     Tech 5    Rare
+Saw, amputation               35 cp     Tech 5    Rare
+Crutches                       2 cp     Tech 3    Commun
+Surgical knife                 5 bp     Tech 5    Commun
+Suturing needle (curved)       3 bp     Tech 4    Commun
+Thread (50 yards)              2 cp     Tech 3    Toujours
+Leeches (50)                   2 bp     Tech 3    Commun
+Mortar & pestle                3 cp     Tech 3    Commun
+Hook, steel                   35 sp     Tech 5    Rare
+Pegleg, wooden                 8 bp     Tech 4    Commun
+
+================================================================================
+FIN DU FICHIER
+================================================================================
+
+Fichier généré le 28 mai 2026
+Groupe 3 – Bloc Cœur Continental (Dalelands + Western Heartlands + Impiltur)
+Niveau Tech principal : 5
+Adapté pour les Royaumes Oubliés
+Prix des armes à poudre triplés
+Format identique aux Groupes 1 et 2
+
+================================================================================

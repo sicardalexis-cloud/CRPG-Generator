@@ -1,0 +1,90 @@
+================================================================================
+LISTE DES 70 KITS D'ÉQUIPEMENT (XVe SIÈCLE - CÔTE DES ÉPÉES)
+Règles appliquées : 
+- Aketon sous la maille uniquement.
+- Gambeson pour les protections textiles ou sous-brigandine.
+- Arming Doublet + Mail Voiders exclusifs aux armures de plates.
+- Montures de guerre avec selle à arçons (War Saddle) obligatoire pour la lance.
+================================================================================
+
+--- MILICES, LEVÉES & TIRAILLEURS ---
+Kit 01 - Levée paysanne : Aketon (8), Leather Helmet (2), Quarterstaff (18) | TOTAL : 28 sp[cite: 1]
+Kit 02 - Pilleur urbain : Gambeson (9), Cervelière (9), Knife (6), Club (6) | TOTAL : 30 sp[cite: 1]
+Kit 03 - Lancier léger : Aketon (8), Kettle Hat (15), Spear (7) | TOTAL : 30 sp[cite: 1]
+Kit 04 - Milicien urbain : Gambeson (9), Nasal Helmet (8), Dagger (14) | TOTAL : 31 sp[cite: 1]
+Kit 05 - Tirailleur : Pourpoint (12), Javelin (6), Dagger (14) | TOTAL : 32 sp[cite: 1]
+Kit 06 - Porteur de pavois : Gambeson (9), Heater Shield Size 8 (24) | TOTAL : 33 sp[cite: 1]
+Kit 07 - Frondeur : Pourpoint (12), Small Rotella Size 5 (14), Knife (6), Javelin (6) | TOTAL : 38 sp[cite: 1]
+Kit 08 - Vouguier léger : Aketon (8), Leather Helmet (2), Billhook (35) | TOTAL : 45 sp[cite: 1]
+Kit 09 - Chasseur : Aketon (8), Short bow (32), Arrows (7) | TOTAL : 47 sp[cite: 1]
+Kit 10 - Piquier de milice : Aketon (8), Kettle Hat (15), Pike (28) | TOTAL : 51 sp[cite: 1]
+Kit 11 - Faucheur : Gambeson (9), Cervelière (9), War Scythe (35) | TOTAL : 53 sp[cite: 1]
+Kit 12 - Bûcheron : Pourpoint (12), Hand Axe (45) | TOTAL : 57 sp[cite: 1]
+Kit 13 - Combattant franc : Gambeson (9), Cervelière (9), Francisca (50) | TOTAL : 68 sp[cite: 1]
+Kit 14 - Guetteur : Aketon (8), Cervelière (9), Lance (42) | TOTAL : 59 sp[cite: 1]
+Kit 15 - Fourragier : Gambeson long (14), Nasal Helmet (8), Military Fork (28), Dagger (14) | TOTAL : 64 sp[cite: 1]
+
+--- INFANTERIE STANDARD & TIREURS ---
+Kit 16 - Piquier : Padded Jack (22), Kettle Hat (15), Pike (28) | TOTAL : 65 sp[cite: 1]
+Kit 17 - Lancier de ligne : Reinforced Gambeson long (26), Kettle Hat (15), Reinforced Spear (20), Buckler Size 3 (9) | TOTAL : 70 sp[cite: 1]
+Kit 18 - Archer basique : Gambeson (9), Archer Bracer (2), Longbow (55), Arrows (7) | TOTAL : 73 sp[cite: 1]
+Kit 19 - Hallebardier léger : Padded Jack (22), Kettle Hat (15), Billhook (35), Brocchiere Size 1 (5) | TOTAL : 77 sp[cite: 1]
+Kit 20 - Garde de garnison : Gambeson (9), Bascinet (48), Pike (28) | TOTAL : 85 sp[cite: 1]
+Kit 21 - Archer pro : Reinforced Gambeson (18), Archer Bracer (2), Kettle Hat (15), Longbow (55), Arrows (7) | TOTAL : 97 sp[cite: 1]
+Kit 22 - Fantassin lourd : Gambeson long (14), Cervelière (9), Falchion (70), Large Buckler Size 4 (12) | TOTAL : 105 sp[cite: 1]
+Kit 23 - Arbalétrier civil : Gambeson (9), Light Crossbow (95), Crossbow Bolts (6) | TOTAL : 110 sp[cite: 1]
+Kit 24 - Hallebardier : Padded Jack (22), Kettle Hat (15), Halberd (75) | TOTAL : 112 sp[cite: 1]
+Kit 25 - Mercenaire à plates : Coat of Plates (45), Bascinet (48), Spear (7), Dagger (14) | TOTAL : 114 sp[cite: 1]
+Kit 26 - Vouguier cuirassé : Coat of Plates (45), Kettle Hat (15), Bill (55) | TOTAL : 115 sp[cite: 1]
+Kit 27 - Guisarmier : Padded Jack (22), Sallet (42), Guisarme (55) | TOTAL : 119 sp[cite: 1]
+Kit 28 - Écraseur : Padded Jack (22), Nasal Helmet (8), Mace (65), Kite Shield Size 10 (27) | TOTAL : 122 sp[cite: 1]
+Kit 29 - Sapeur : Jack of Plates (55), Kettle Hat (15), Mace (65) | TOTAL : 135 sp[cite: 1]
+Kit 30 - Épéiste : Reinforced Gambeson (18), Bascinet (48), Arming Sword (75) | TOTAL : 141 sp[cite: 1]
+
+--- INFANTERIE VÉTÉRAN & MERCENAIRES ---
+Kit 31 - Lancier à plastron : Gambeson long (14), Simple Breastplate (42), Heater Shield Size 8 (24), Arming Sword (75) | TOTAL : 155 sp[cite: 1]
+Kit 32 - Glaivier : Brigandine (85), Kettle Hat (15), Glaive (55), Dagger (14) | TOTAL : 169 sp[cite: 1]
+Kit 33 - Fléau de ligne : Brigandine (85), Kettle Hat (15), Light Flail (65), Dagger (14) | TOTAL : 179 sp[cite: 1]
+Kit 34 - Lancier lourd : Aketon (8), Mail Haubergeon (115), Kettle Hat (15), Reinforced Spear (20), Large Rotella Size 7 (22) | TOTAL : 180 sp[cite: 1]
+Kit 35 - Piquier d'élite : Brigandine (85), Sallet (42), Pike (28), Rondel Dagger (28) | TOTAL : 183 sp[cite: 1]
+Kit 36 - Hallebardier d'élite : Jack of Plates (55), Sallet (42), Halberd (75), Dagger (14) | TOTAL : 186 sp[cite: 1]
+Kit 37 - Archer en maille : Aketon (8), Mail Shirt (80), Kettle Hat (15), Longbow (55), Arrows (7), Dagger (14) | TOTAL : 179 sp[cite: 1]
+Kit 38 - Frappeur lourd : Jack of Plates (55), Sallet (42), War Hammer (80), Dagger (14) | TOTAL : 191 sp[cite: 1]
+Kit 39 - Combattant au bouclier : Aketon (8), Mail Shirt (80), Cervelière (9), Arming Sword (75), Large Rotella Size 7 (22), Dagger (14) | TOTAL : 208 sp[cite: 1]
+Kit 40 - Messerer : Coat of Plates (45), Bascinet (48), Messer (80), Kite Shield Size 10 (27) | TOTAL : 200 sp[cite: 1]
+Kit 41 - Combattant à la hache d'armes : Coat of Plates (45), Sallet (42), Poleaxe (105), Dagger (14) | TOTAL : 206 sp[cite: 1]
+Kit 42 - Arbalétrier lourd : Gambeson (9), Coat of Plates (45), Bascinet (48), Crossbow (135), Crossbow Bolts (6) | TOTAL : 243 sp[cite: 1]
+Kit 43 - Garde du corps : Reinforced Gambeson (18), Simple Breastplate (42), Bascinet (48), Longsword (145) | TOTAL : 253 sp[cite: 1]
+Kit 44 - Arbalétrier de siège : Padded Jack (22), Bascinet (48), Heavy Crossbow (175), Heavy Crossbow Bolts (9) | TOTAL : 254 sp[cite: 1]
+Kit 45 - Sergent en maille : Aketon (8), Mail Coat (220), Bascinet (48), Aventail (16), Broadsword (110) | TOTAL : 402 sp[cite: 1]
+
+--- HOMMES D'ARMES À PIED ---
+Kit 46 - Capitaine d'infanterie : Aketon (8), Mail Shirt (80), Brigandine (85), Armet (85), Halberd (75), Dagger (14) | TOTAL : 347 sp[cite: 1]
+Kit 47 - Homme d'armes léger : Arming Doublet (45), Mail voiders (15), Simple Breastplate (42), Bascinet (48), Vambraces+Couter (35), Flanged Mace (95) | TOTAL : 280 sp[cite: 1]
+Kit 48 - Gendarme à pied : Arming Doublet (45), Mail voiders (15), Cuisses (42), Sallet (42), Pike (28), Arming Sword (75) | TOTAL : 247 sp[cite: 1]
+Kit 49 - Archer d'élite : Aketon (8), Mail Haubergeon (115), Sallet (42), Composite Bow (160), Arrows (7), Dagger (14) | TOTAL : 346 sp[cite: 1]
+Kit 50 - Arbalétrier en brigandine : Aketon (8), Mail Shirt (80), Brigandine (85), Sallet (42), Heavy Crossbow (175), Heavy Crossbow Bolts (9) | TOTAL : 399 sp[cite: 1]
+Kit 51 - Chevalier au marteau : Arming Doublet (45), Mail voiders (15), Jack of Plates (55), Vambraces+Couter (35), Great Helm (70), Poleaxe (105) | TOTAL : 325 sp[cite: 1]
+Kit 52 - Chevalier à l'épée longue : Arming Doublet (45), Mail voiders (15), Breastplate+Backplate (95), Vambraces+Couter (35), Armet (85), Bastard sword (155) | TOTAL : 430 sp[cite: 1]
+Kit 53 - Infanterie de choc : Arming Doublet (45), Mail voiders (15), Breastplate+Backplate (95), Cuisses (42), Sallet (42), Longsword (145), Dagger (14) | TOTAL : 398 sp[cite: 1]
+Kit 54 - Duelliste blindé : Arming Doublet (45), Mail voiders (15), Breastplate (42), Vambraces+Couter (35), Armet (85), Estoc (220) | TOTAL : 442 sp[cite: 1]
+
+--- CAVALERIE LÉGÈRE ET MOYENNE ---
+Kit 55 - Éclaireur en maille : Rouncey (75), Riding Saddle (35), Bit & Bridle (8), Aketon (8), Mail Haubergeon (115), Sallet (42), Lance (42), Arming Sword (75), Heater Shield (24) | TOTAL : 424 sp[cite: 1]
+Kit 56 - Chevalier provincial : Arming Doublet (45), Mail voiders (15), Breastplate+Backplate (95), Vambraces+Couter (35), Tassets courtes (16), Sallet (42), Lucerne Hammer (145), Dagger (14) | TOTAL : 407 sp[cite: 1]
+Kit 57 - Cavalier de choc : Courser (110), War Saddle (95), Bit & Bridle (8), Arming Doublet (45), Mail voiders (15), Breastplate+Backplate (95), Vambraces+Couter (35), Armet (85), Lance (42), Broadsword (110) | TOTAL : 640 sp[cite: 1]
+Kit 58 - Gendarme complet : Arming Doublet (45), Mail voiders (15), Breastplate+Backplate (95), Vambraces+Couter (35), Gauntlets (22), Cuisses (42), Poleyns (28), Greaves (35), Sabatons (18), Sallet (42), Bevor (12), Longsword (145) | TOTAL : 534 sp[cite: 1]
+Kit 59 - Capitaine de compagnie : Arming Doublet (45), Mail voiders (15), Brigandine HQ (240), Vambraces+Couter (35), Gauntlets (22), Armet (85), Bec de Corbin (160), Rondel Dagger (28) | TOTAL : 630 sp[cite: 1]
+Kit 60 - Bretteur noble : Arming Doublet (45), Mail voiders (15), Breastplate+Backplate (95), Vambraces+Couter (35), Gauntlets (22), Tassets courtes (16), Armet articulé (85), Rapier (280) | TOTAL : 593 sp[cite: 1]
+Kit 61 - Lancier lourd : Destrier (220), War Saddle (95), Bit & Bridle (8), Arming Doublet (45), Mail voiders (15), Breastplate (42), Vambraces+Couter (35), Bascinet (48), Lance (42), Bastard sword (155) | TOTAL : 705 sp[cite: 1]
+Kit 62 - Cavalier en brigandine : Courser (110), War Saddle (95), Bit & Bridle (8), Leather barding (140), Aketon (8), Mail Haubergeon (115), Brigandine (85), Armet (85), Lance (42), Arming Sword (75) | TOTAL : 763 sp[cite: 1]
+
+--- CHEVALERIE LOURDE & NOBLESSE ---
+Kit 63 - Destrier & Plates : Destrier (220), War Saddle (95), Bit & Bridle (8), Arming Doublet (45), Mail voiders (15), Breastplate+Backplate (95), Vambraces+Couter (35), Gauntlets (22), Armet (85), Lance (42), Estoc (220), Dagger (14) | TOTAL : 896 sp[cite: 1]
+Kit 64 - Chevalier en brigandine de soie : Destrier (220), War Saddle (95), Bit & Bridle (8), Leather barding (140), Leather chanfron (22), Arming Doublet (45), Mail voiders (15), Brigandine HQ (240), Vambraces+Couter (35), Armet (85), Bastard sword (155) | TOTAL : 1060 sp[cite: 1]
+Kit 65 - Chevalier classique caparaçonné : Destrier (220), War Saddle (95), Bit & Bridle (8), Chain barding (480), Arming Doublet (45), Mail voiders (15), Breastplate+Backplate (95), Vambraces+Couter (35), Gauntlets (22), Armet (85), Lance (42), Longsword (145) | TOTAL : 1287 sp[cite: 1]
+Kit 66 - Harnois Gothique monté : Destrier (220), War Saddle (95), Bit & Bridle (8), Leather barding (140), Arming Doublet (45), Mail voiders (15), Breastplate+Backplate (95), Gorget articulé (18), Vambraces+Couter (35), Gauntlets (22), Cuisses (42), Poleyns (28), Greaves (35), Sabatons (18), Armet (85), Lance (42), Estoc (220) | TOTAL : 1163 sp[cite: 1]
+Kit 67 - Harnois Maximilian léger : Destrier (220), War Saddle (95), Bit & Bridle (8), Arming Doublet (45), Mail voiders (15), Breastplate+Backplate trempé (220), Gorget renforcé (25), Pauldrons+Gardes (75), Vambraces+Couter+Rerebrace (85), Gauntlets renforcés (45), Cuisses renforcées (85), Poleyns (28), Greaves renforcées (55), Sabatons larges (25), Close Helmet (95), Lance (42), Bastard sword (155) | TOTAL : 1318 sp[cite: 1]
+Kit 68 - Tank équestre de guerre : Destrier (220), War Saddle (95), Bit & Bridle (8), Plate mail barding (950), Arming Doublet (45), Mail voiders (15), Breastplate+Backplate (95), Vambraces+Couter (35), Gauntlets (22), Armet (85), Lance (42) | TOTAL : 1612 sp[cite: 1]
+Kit 69 - Gendarme d'Ordonnance : Destrier quality (350), War Saddle (95), Bit & Bridle (8), Chain barding (480), Plate chanfron (65), Arming Doublet (45), Mail voiders (15), Breastplate+Backplate trempé (220), Gorget renforcé (25), Pauldrons+Gardes (75), Vambraces+Couter+Rerebrace (85), Gauntlets renforcés (45), Cuisses renforcées (85), Poleyns (28), Greaves renforcées (55), Sabatons larges (25), Close Helmet (95), Lance (42), Longsword (145), Main-gauche (95) | TOTAL : 2078 sp[cite: 1]
+Kit 70 - Chevalier de Tournoi Complet : Destrier (220), War Saddle (95), Bit & Bridle (8), Plate mail barding (950), Plate chanfron (65), Arming Doublet (45), Mail voiders (15), Breastplate+Backplate trempé (220), Gorget renforcé (25), Pauldrons+Gardes (75), Vambraces+Couter+Rerebrace (85), Gauntlets articulés (45), Cuisses renforcées (85), Poleyns+Genouillères (28), Greaves renforcées (55), Sabatons larges (25), Tournament Helmet (280), Lance (42), Dagger (14) | TOTAL : 2440 sp[cite: 1]

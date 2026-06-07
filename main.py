@@ -50,21 +50,13 @@ def generate_batch(
         "Literacy", 
         "Spoken_Languages",
         "Starting_Capital",
-        "Starting_Equipment_Cost_BP",
-        "Starting_Equipment_Kit_Type",
-        # Nouveau système armure (phase actuelle)
-        "Starting_Armor_Set",
-        "Starting_Armor_Cost_BP",
-        "Starting_Capital_After_Armor_BP",
-        "Post_Kit_Tier",
-        "Post_Kit_Tier_Name",
-        "Post_Kit_Purchases",
-        "Post_Kit_Total_Spent_BP",
         "Final_Pocket_Money_BP",
         
-        # Équipement séparé (nouvelle demande)
-        "Armes_et_Armures",
-        "Autre_Equipement",
+        # Equipment kit (100 kits XV siecle Cote des Epees EN selection; full details in Armes_et_Bouclier)
+        "Armes_et_Bouclier",
+        
+        "Prebuilt_Kit_Tier",
+        "Prebuilt_Kit_Cost_Sp",
         
         # Combat & Magie
         "Combat_Points", 
@@ -131,21 +123,12 @@ def generate_batch(
                 "Literacy": " | ".join(char.get("Literacy", [])) if char.get("Literacy") else "None",
                 "Spoken_Languages": " | ".join(char.get("Spoken_Languages", [])),
                 "Starting_Capital": char.get("Starting_Capital", 0),
-                "Starting_Equipment_Cost_BP": char.get("Starting_Equipment_Cost_BP", 0),
-                "Starting_Equipment_Kit_Type": char.get("Starting_Equipment_Kit_Type", ""),
-                # Nouveau système armure
-                "Starting_Armor_Set": char.get("Starting_Armor_Set", "Aucune"),
-                "Starting_Armor_Cost_BP": char.get("Starting_Armor_Cost_BP", 0),
-                "Starting_Capital_After_Armor_BP": char.get("Starting_Capital_After_Armor_BP", 0),
-                "Post_Kit_Tier": char.get("Post_Kit_Tier", 0),
-                "Post_Kit_Tier_Name": char.get("Post_Kit_Tier_Name", ""),
-                "Post_Kit_Purchases": " | ".join(char.get("Post_Kit_Purchases", [])) if char.get("Post_Kit_Purchases") else "",
-                "Post_Kit_Total_Spent_BP": char.get("Post_Kit_Total_Spent_BP", 0),
                 "Final_Pocket_Money_BP": char.get("Final_Pocket_Money_BP", 0),
                 
-                # Séparation des équipements
-                "Armes_et_Armures": " | ".join(armes_armures) if armes_armures else "",
-                "Autre_Equipement": " | ".join(autre_equipement) if autre_equipement else "",
+                "Armes_et_Bouclier": char.get("Armes_et_Bouclier", "Aucun"),
+                
+                "Prebuilt_Kit_Tier": char.get("Prebuilt_Kit_Tier", ""),
+                "Prebuilt_Kit_Cost_Sp": char.get("Prebuilt_Kit_Cost_Sp", 0),
                 
                 "Combat_Points": char["Combat_Points"],
                 "Magic": char["Magic"],

@@ -1,0 +1,340 @@
+================================================================================
+CATALOGUE MAÎTRE DES KITS DE FANTASSINS - VERSION FINALE
+================================================================================
+
+RÈGLES LOGISTIQUES ET TACTIQUES ABSOLUES :
+- Spécial Fantassin : Pas de stockage facilité, tout l'équipement est sur l'homme.
+- Max 1 arme portée à l'épaule (arc, arbalète, hast lourde, espadon) par kit.
+- L'Espadon (Zweihänder) : Se porte à l'épaule. Exclut toute autre arme de dos/épaule.
+- La Longsword : Arme à deux mains, mais autorisée à la ceinture en arme secondaire.
+- RÈGLE ARBALÈTE : Boucliers de taille 4+ (Kite, Large, Pavois) strictement INTERDITS.
+- Branche Arc -> Bouclier Max : Target Shield (Taille 3) maximum.
+- RÈGLE HAST LOURDE (Halberd, Glaive, Billhook, Pike, Poleaxe, Lucerne) -> Bouclier Brocchiere ou Buckler uniquement.
+- AUTORISATION SPEAR : La "Spear" (hast légère) est autorisée avec TOUS les boucliers.
+- EXCLUSION CAVALERIE : Pas de "Lance" de joute, de Flanged mace ou de Light hammer.
+
+================================================================================
+TRANCHES DE COMPAGNIES (PRIX CROISSANT - 0.5 sp à 30.0 sp)
+================================================================================
+
+================================================================================
+TRANCHE MILICE, LEVÉE POPULAIRE & DUEL CIVILS (0.5 sp à 5.0 sp)
+================================================================================
+
+1.   0.5 sp : Club + Sling                                          [Enc: 3]
+2.   0.7 sp : Club + Sling + Javelin                                [Enc: 5]
+3.   0.8 sp : Club + Sling + Knife                                  [Enc: 4]
+4.   1.0 sp : Quarterstaff + Knife                                  [Enc: 4]
+5.   1.1 sp : Brocchiere + Club + Javelin                           [Enc: 4]
+6.   1.2 sp : Quarterstaff + Sling + Knife                          [Enc: 5]
+7.   1.3 sp : Small Buckler + Short Bow                             [Enc: 5]
+8.   1.4 sp : Small Buckler + Spear + Knife                         [Enc: 5]
+9.   1.5 sp : Target Shield + Club + Knife                          [Enc: 5]
+10.  1.6 sp : Brocchiere + Javelin + Knife                          [Enc: 5]
+11.  1.8 sp : Brocchiere + Hand Axe + Knife                         [Enc: 5]
+12.  2.0 sp : Small Buckler + Knife                                 [Enc: 5]
+13.  2.0 sp : Spear + Javelin + Knife + Dagger                      [Enc: 7]
+14.  2.1 sp : Brocchiere + Arming Sword + Knife                     [Enc: 4]
+15.  2.2 sp : Target Shield + Quarterstaff                          [Enc: 6]
+16.  2.3 sp : Target Shield + Knife                                 [Enc: 6]
+17.  2.4 sp : Heater Shield + Club + Knife                          [Enc: 6]
+18.  2.5 sp : Small Buckler + 3 Javelins + Knife                    [Enc: 6]
+19.  2.5 sp : Small Buckler + Arming Sword + Knife                  [Enc: 5]
+20.  2.6 sp : Brocchiere + Short Bow + Knife                        [Enc: 5]
+21.  2.7 sp : Heater Shield + Arming Sword                          [Enc: 6]
+22.  2.8 sp : Small Buckler + Spear + Javelin                       [Enc: 6]
+23.  2.9 sp : Kite Shield + Club + Dagger                           [Enc: 7]
+24.  3.0 sp : Target Shield + Spear + Knife                         [Enc: 6]
+25.  3.1 sp : Small Buckler + Hand Axe + Javelin                    [Enc: 5]
+26.  3.2 sp : Target Shield + Knife                                 [Enc: 6]
+27.  3.3 sp : Kite Shield + Quarterstaff                            [Enc: 7]
+28.  3.4 sp : Target Shield + Spear + Javelin                       [Enc: 7]
+29.  3.5 sp : Target Shield + Short Bow + Knife                     [Enc: 6]
+30.  3.6 sp : Target Shield + Spear + Javelin + Knife               [Enc: 7]
+31.  3.8 sp : Heater Shield + Spear + Javelin                       [Enc: 7]
+32.  3.9 sp : Heater Shield + Spear + Knife                         [Enc: 7]
+33.  4.0 sp : Brocchiere + Short Bow + Javelin + Knife              [Enc: 6]
+34.  4.1 sp : Target Shield + Spear + Javelin + Dagger              [Enc: 7]
+35.  4.2 sp : Heater Shield + Knife                                 [Enc: 7]
+36.  4.3 sp : Kite Shield + Hand Axe + Dagger                       [Enc: 8]
+37.  4.4 sp : Kite Shield + Spear + Dagger                          [Enc: 8]
+38.  4.5 sp : Heater Shield + Mace + Knife                          [Enc: 7]
+39.  4.6 sp : Small Buckler + Short Bow + Knife                     [Enc: 6]
+40.  4.8 sp : Infantry Pavise + Arming Sword                        [Enc: 8]
+41.  4.9 sp : Infantry Pavise + Spear + Knife                       [Enc: 8]
+42.  5.0 sp : Kite Shield + Spear + Knife + Dagger                  [Enc: 8]
+================================================================================
+
+================================================================================
+TRANCHE (5.1 sp à 10.0 sp)
+================================================================================
+
+39.  5.2 sp : Brocchiere + Arming Sword + Knife                      [Enc: 4]
+40.  5.5 sp : Infantry Pavise + Spear + Knife                        [Enc: 9]
+41.  5.8 sp : Large Buckler + Arming Sword + Knife                   [Enc: 5]
+42.  6.0 sp : Brocchiere + Halberd + Knife                           [Enc: 6]
+43.  6.3 sp : Large Buckler + Battle Axe + Javelin                   [Enc: 7]
+44.  6.5 sp : Large Buckler + Glaive + Dagger                        [Enc: 6]
+45.  6.8 sp : Target Shield + Arming Sword + Javelin                 [Enc: 6]
+46.  6.9 sp : Large Buckler + War Hammer + Javelin                   [Enc: 6]
+47.  7.0 sp : Large Buckler + Halberd + Knife                        [Enc: 7]
+48.  7.2 sp : Infantry Pavise + Battle Axe + Knife                   [Enc: 9]
+49.  7.4 sp : Target Shield + Arming Sword + Knife                   [Enc: 6]
+50.  7.6 sp : Heater Shield + Arming Sword + Knife                   [Enc: 7]
+51.  7.7 sp : Brocchiere + Longsword + Knife + Dagger                [Enc: 6]
+52.  8.0 sp : Large Buckler + Longsword + Knife                      [Enc: 6]
+53.  8.1 sp : Kite Shield + Arming Sword + Knife                     [Enc: 8]
+54.  8.2 sp : Large Buckler + Longsword + Verutum + Knife            [Enc: 7]
+55.  8.4 sp : Infantry Pavise + War Hammer                           [Enc: 10]
+56.  8.5 sp : Infantry Pavise + Arming Sword + Dagger                [Enc: 8]
+57.  8.6 sp : Target Shield + Falchion + Knife + Dagger              [Enc: 7]
+58.  8.8 sp : Brocchiere + Light Crossbow + Knife                    [Enc: 5]
+59.  9.1 sp : Large Buckler + Light Crossbow + Knife                 [Enc: 5]
+60.  9.2 sp : Heater Shield + Falchion + Knife + Dagger              [Enc: 8]
+61.  9.3 sp : Large Buckler + Light Crossbow + Verutum               [Enc: 6]
+62.  9.5 sp : Infantry Pavise + Arming Sword                         [Enc: 9]
+63.  9.7 sp : Kite Shield + Falchion + Knife + Dagger                [Enc: 9]
+64.  9.9 sp : Brocchiere + Billhook + Hand Axe + Knife               [Enc: 8]
+65. 10.0 sp : Large Buckler + Billhook + Mace                         [Enc: 8]
+================================================================================
+EXTENSION TRANCHE FANTASSIN DE LIGNE (5.1 sp à 10.0 sp)
+================================================================================
+
+66.  5.1 sp : Brocchiere + Spear + Dagger                           [Enc: 5]
+67.  5.4 sp : Brocchiere + Battle Axe + Knife                       [Enc: 6]
+68.  5.7 sp : Target Shield + Spear + Knife                         [Enc: 7]
+69.  6.1 sp : Brocchiere + Glaive + Dagger                          [Enc: 7]
+70.  6.4 sp : Brocchiere + War Hammer + Knife                       [Enc: 7]
+71.  6.7 sp : Small Buckler + Spear + Javelin                       [Enc: 6]
+72.  7.0 sp : Brocchiere + Billhook + Knife                         [Enc: 8]
+73.  7.3 sp : Target Shield + Battle Axe + Knife                    [Enc: 7]
+74.  7.5 sp : Brocchiere + Poleaxe + Dagger                         [Enc: 9]
+75.  7.8 sp : Large Buckler + Spear + Dagger                        [Enc: 7]
+76.  8.2 sp : Brocchiere + Light Crossbow + Dagger                  [Enc: 5]
+77.  8.5 sp : Target Shield + Light Crossbow + Knife                [Enc: 6]
+78.  8.9 sp : Small Buckler + Falchion + Knife + Dagger             [Enc: 7]
+79.  9.2 sp : Brocchiere + Lucerne Hammer + Knife                   [Enc: 9]
+80.  9.4 sp : Target Shield + Spear + Javelin + Knife               [Enc: 8]
+81.  9.6 sp : Large Buckler + Battle Axe + Knife + Dagger           [Enc: 8]
+82.  9.8 sp : Brocchiere + Light Crossbow + Verutum                 [Enc: 6]
+83. 10.0 sp : Target Shield + Falchion + Knife + Dagger             [Enc: 8]
+================================================================================
+================================================================================
+
+================================================================================
+TRANCHE TROUPES RECONNUES & ARBORE DE CEINTURE (10.1 sp à 15.0 sp)
+================================================================================
+
+74. 10.3 sp : Large Buckler + Longbow + Spiculum + Knife           [Enc: 7]
+75. 10.5 sp : Target Shield + Longbow + Knife                     [Enc: 7]
+76. 10.6 sp : Infantry Pavise + Arming Sword + Knife + Dagger     [Enc: 9]
+77. 10.8 sp : Brocchiere + Heavy Crossbow + Knife                 [Enc: 6]
+78. 11.1 sp : Large Buckler + Heavy Crossbow + Knife              [Enc: 6]
+79. 11.2 sp : Heater Shield + Rapier + Knife + Dagger             [Enc: 7]
+80. 11.3 sp : Large Buckler + Heavy Crossbow + Verutum            [Enc: 7]
+81. 11.6 sp : Infantry Pavise + Falchion + Knife                  [Enc: 10]
+82. 11.8 sp : Kite Shield + Rapier + Knife + Dagger               [Enc: 8]
+83. 12.1 sp : Brocchiere + Glaive + Hand Axe + Knife              [Enc: 8]
+12.2 sp : Brocchiere + Glaive + Knife [Enc: 8]
+85. 12.4 sp : Large Buckler + Glaive + Arming Sword               [Enc: 8]
+12.5 sp : Large Buckler + Glaive [Enc: 8]
+87. 12.6 sp : Target Shield + Heavy Crossbow + Knife              [Enc: 7]
+12.8 sp : Large Buckler + Glaive + Knife [Enc: 9]
+89. 13.0 sp : Heater Shield + Heavy Crossbow + Knife              [Enc: 8]
+90. 13.1 sp : Large Buckler + Rapier + Main-gauche + Knife        [Enc: 6]
+91. 13.2 sp : Brocchiere + Composite Bow + 2 Javelins             [Enc: 7]
+92. 13.5 sp : Large Buckler + Composite Bow + Spiculum            [Enc: 6]
+93. 13.7 sp : Target Shield + Rapier + Main-gauche + Knife        [Enc: 7]
+94. 13.8 sp : Large Buckler + Composite Bow + Spiculum + Knife    [Enc: 7]
+95. 14.1 sp : Target Shield + Composite Bow + Knife               [Enc: 6]
+96. 14.3 sp : Target Shield + Arming Sword + Light Crossbow       [Enc: 6]
+14.5 sp : Brocchiere + Billhook + Knife [Enc: 9]
+98. 14.7 sp : Heater Shield + Rapier + Main-gauche               [Enc: 7]
+99. 14.8 sp : Target Shield + Spear + Light Crossbow              [Enc: 8]
+100. 15.0 sp : Large Buckler + Morning Star + Hand Axe + Javelin  [Enc: 7]
+================================================================================
+EXTENSION TRANCHE TROUPES RECONNUES & ARBORÉ DE CEINTURE (10.1 sp à 15.0 sp)
+================================================================================
+
+101. 10.2 sp : Brocchiere + Longbow + Spiculum + Knife           [Enc: 7]
+102. 10.4 sp : Brocchiere + Heavy Crossbow + Dagger             [Enc: 6]
+103. 10.7 sp : Target Shield + Heavy Crossbow + Knife           [Enc: 7]
+104. 11.0 sp : Brocchiere + Glaive + Arming Sword               [Enc: 8]
+11.2 sp : Small Buckler + Glaive [Enc: 8]
+106. 11.5 sp : Brocchiere + Rapier + Main-gauche + Knife        [Enc: 6]
+107. 11.9 sp : Target Shield + Composite Bow + 2 Javelins       [Enc: 7]
+108. 12.3 sp : Brocchiere + Billhook + Arming Sword             [Enc: 9]
+12.7 sp : Small Buckler + Billhook [Enc: 9]
+110. 13.0 sp : Target Shield + Rapier + Main-gauche             [Enc: 7]
+111. 13.4 sp : Brocchiere + Composite Bow + Spiculum + Knife    [Enc: 7]
+112. 13.9 sp : Target Shield + Composite Bow + Spiculum         [Enc: 6]
+113. 14.2 sp : Brocchiere + Morning Star + Hand Axe + Javelin   [Enc: 7]
+14.6 sp : Target Shield + Billhook [Enc: 10]
+115. 14.9 sp : Small Buckler + Morning Star + Hand Axe + Knife  [Enc: 7]
+================================================================================
+================================================================================
+
+================================================================================
+COMPAGNIES DE CHOC & LIENS DÉFENDUS (15.1 sp à 20.0 sp)
+================================================================================
+
+101. 15.2 sp : Brocchiere + Halberd + Arming Sword + Knife          [Enc: 8]
+102. 15.5 sp : Target Shield + Spear + Heavy Crossbow               [Enc: 8]
+103. 15.8 sp : Large Buckler + Halberd + Arming Sword + Knife       [Enc: 9]
+16.0 sp : Large Buckler + Poleaxe [Enc: 9]
+16.2 sp : Large Buckler + Poleaxe + Knife [Enc: 10]
+106. 16.5 sp : Infantry Pavise + Arming Sword + Knife + Dagger      [Enc: 9]
+107. 16.8 sp : Large Buckler + Lucerne Hammer + Arming Sword        [Enc: 10]
+108. 17.1 sp : Brocchiere + Longbow + Arming Sword + Knife          [Enc: 8]
+109. 17.5 sp : Target Shield + Spear + Heavy Crossbow + Knife       [Enc: 9]
+17.8 sp : Brocchiere + Lucerne Hammer [Enc: 10]
+111. 18.2 sp : Large Buckler + Longbow + Arming Sword + Knife       [Enc: 9]
+18.5 sp : Large Buckler + Lucerne Hammer [Enc: 10]
+18.8 sp : Large Buckler + Lucerne Hammer + Knife [Enc: 11]
+114. 19.1 sp : Brocchiere + Billhook + Arming Sword + Knife         [Enc: 9]
+115. 19.4 sp : Large Buckler + Billhook + Arming Sword + Dagger     [Enc: 9]
+116. 19.8 sp : Large Buckler + Billhook + Falchion + Knife          [Enc: 10]
+117. 20.0 sp : Brocchiere + Composite Bow + Arming Sword + Knife    [Enc: 7]
+118. 15.3 sp : Brocchiere + Poleaxe + Arming Sword + Knife          [Enc: 9]
+119. 15.6 sp : Target Shield + Spear + Heavy Crossbow + Dagger      [Enc: 9]
+15.9 sp : Small Buckler + Halberd [Enc: 9]
+121. 16.3 sp : Brocchiere + Lucerne Hammer + Arming Sword + Knife   [Enc: 10]
+122. 16.7 sp : Target Shield + Longbow + Arming Sword + Dagger      [Enc: 9]
+17.0 sp : Small Buckler + Poleaxe + Knife [Enc: 10]
+124. 17.4 sp : Brocchiere + Billhook + Falchion + Dagger            [Enc: 9]
+125. 17.9 sp : Target Shield + Composite Bow + Arming Sword + Knife [Enc: 8]
+18.3 sp : Small Buckler + Lucerne Hammer + Knife [Enc: 11]
+127. 18.6 sp : Brocchiere + Halberd + Falchion + Knife              [Enc: 10]
+128. 19.0 sp : Target Shield + Spear + Heavy Crossbow + Verutum     [Enc: 10]
+129. 19.3 sp : Small Buckler + Billhook + Falchion + Knife          [Enc: 10]
+130. 19.7 sp : Brocchiere + Poleaxe + Arming Sword + Dagger         [Enc: 10]
+131. 20.0 sp : Target Shield + Composite Bow + Arming Sword + Knife [Enc: 9]
+================================================================================
+================================================================================
+
+================================================================================
+VÉTÉRANS DU FRONT & CONDOTTIÈRES D'ÉLITE (20.1 sp à 30.0 sp)
+================================================================================
+
+118. 20.3 sp : Large Buckler + Composite Bow + Arming Sword + Knife    [Enc: 8]
+119. 20.6 sp : Target Shield + Composite Bow + Arming Sword           [Enc: 8]
+120. 21.0 sp : Infantry Pavise + Arming Sword + Knife + Dagger        [Enc: 10]
+121. 21.5 sp : Large Buckler + Pike + Arming Sword + Knife            [Enc: 10]
+122. 22.0 sp : Target Shield + Light Crossbow + Arming Sword + Knife  [Enc: 8]
+123. 22.8 sp : Large Buckler + Heavy Crossbow + Arming Sword + Knife  [Enc: 9]
+124. 23.5 sp : Heater Shield + Rapier + Main-gauche + Knife           [Enc: 8]
+125. 24.2 sp : Large Buckler + Longbow + Arming Sword + Knife         [Enc: 9]
+126. 25.0 sp : Kite Shield + Rapier + Main-gauche + Knife             [Enc: 9]
+127. 25.8 sp : Brocchiere + Halberd + Rapier + Knife                  [Enc: 8]
+128. 26.5 sp : Large Buckler + Halberd + Rapier + Knife               [Enc: 9]
+129. 27.2 sp : Target Shield + Longbow + Arming Sword + Knife         [Enc: 9]
+130. 28.1 sp : Large Buckler + Short Bow + Heavy Crossbow + Knife     [Enc: 7]
+131. 28.8 sp : Target Shield + Short Bow + Heavy Crossbow             [Enc: 7]
+132. 29.2 sp : Target Shield + Composite Bow + Arming Sword + Knife   [Enc: 9]
+133. 30.0 sp : Target Shield + Heavy Crossbow + Arming Sword + Knife  [Enc: 10]
+134. 20.5 sp : Brocchiere + Pike + Arming Sword + Knife            [Enc: 10]
+135. 21.2 sp : Small Buckler + Pike + Arming Sword + Dagger        [Enc: 10]
+136. 21.8 sp : Target Shield + Light Crossbow + Arming Sword + Dagger [Enc: 9]
+137. 22.4 sp : Brocchiere + Heavy Crossbow + Arming Sword + Knife  [Enc: 9]
+138. 23.2 sp : Small Buckler + Rapier + Main-gauche + Knife        [Enc: 7]
+139. 23.9 sp : Target Shield + Longbow + Arming Sword + Dagger     [Enc: 10]
+140. 24.6 sp : Brocchiere + Halberd + Rapier + Knife + Dagger      [Enc: 9]
+141. 25.5 sp : Small Buckler + Halberd + Rapier + Knife            [Enc: 9]
+142. 26.1 sp : Target Shield + Short Bow + Heavy Crossbow + Knife  [Enc: 8]
+143. 26.8 sp : Brocchiere + Composite Bow + Arming Sword + Dagger  [Enc: 8]
+144. 27.5 sp : Small Buckler + Short Bow + Heavy Crossbow + Knife  [Enc: 8]
+145. 28.2 sp : Target Shield + Composite Bow + Arming Sword + Dagger [Enc: 9]
+146. 29.0 sp : Brocchiere + Heavy Crossbow + Arming Sword + Dagger [Enc: 10]
+147. 29.8 sp : Target Shield + Heavy Crossbow + Arming Sword + Dagger [Enc: 10]
+
+================================================================================
+EXTENSION VÉTÉRANS DU FRONT & CONDOTTIÈRES D'ÉLITE (30.1 sp à 35.0 sp)
+================================================================================
+
+148. 30.5 sp : Target Shield + Longbow + Arming Sword + Dagger + Knife   [Enc: 10]
+149. 31.0 sp : Brocchiere + Poleaxe + Arming Sword + Knife + Dagger      [Enc: 10]
+150. 31.5 sp : Small Buckler + Poleaxe + Arming Sword + Knife           [Enc: 10]
+151. 32.0 sp : Target Shield + Composite Bow + Arming Sword + Dagger + Knife [Enc: 10]
+152. 32.5 sp : Brocchiere + Lucerne Hammer + Arming Sword + Dagger      [Enc: 11]
+153. 33.0 sp : Small Buckler + Lucerne Hammer + Arming Sword + Knife    [Enc: 11]
+154. 33.5 sp : Target Shield + Heavy Crossbow + Arming Sword + Dagger + Knife [Enc: 11]
+155. 34.0 sp : Brocchiere + Halberd + Rapier + Main-gauche + Knife      [Enc: 10]
+156. 34.5 sp : Small Buckler + Halberd + Rapier + Main-gauche + Knife   [Enc: 10]
+157. 35.0 sp : Target Shield + Heavy Crossbow + Arming Sword + Dagger   [Enc: 10]
+
+================================================================================
+EXTENSION VÉTÉRANS DU FRONT & CONDOTTIÈRES D'ÉLITE (35.1 sp à 40.0 sp)
+================================================================================
+
+158. 35.5 sp : Brocchiere + Poleaxe + Rapier + Main-gauche + Knife      [Enc: 10]
+159. 36.0 sp : Small Buckler + Poleaxe + Rapier + Main-gauche + Knife   [Enc: 10]
+160. 36.5 sp : Target Shield + Longbow + Arming Sword + Dagger + Knife  [Enc: 11]
+161. 37.0 sp : Brocchiere + Lucerne Hammer + Rapier + Main-gauche + Knife [Enc: 11]
+162. 37.5 sp : Small Buckler + Lucerne Hammer + Rapier + Main-gauche    [Enc: 11]
+163. 38.0 sp : Target Shield + Heavy Crossbow + Arming Sword + Dagger   [Enc: 11]
+164. 38.5 sp : Brocchiere + Billhook + Rapier + Main-gauche + Knife     [Enc: 11]
+165. 39.0 sp : Small Buckler + Billhook + Rapier + Main-gauche + Knife  [Enc: 11]
+166. 39.5 sp : Target Shield + Composite Bow + Arming Sword + Dagger    [Enc: 10]
+167. 40.0 sp : Brocchiere + Halberd + Arming Sword + Dagger + Knife     [Enc: 10]
+
+================================================================================
+TRANCHE COMMANDEMENT & HONNEUR (40.1 sp à 50.0 sp)
+================================================================================
+
+168. 41.5 sp : Brocchiere + Poleaxe + Rapier + Main-gauche + Knife      [Enc: 11]
+169. 43.0 sp : Target Shield + Longbow + Arming Sword + Dagger + Knife   [Enc: 11]
+170. 44.5 sp : Brocchiere + Lucerne Hammer + Rapier + Main-gauche + Knife [Enc: 12]
+171. 46.0 sp : Target Shield + Heavy Crossbow + Arming Sword + Dagger    [Enc: 11]
+172. 47.5 sp : Small Buckler + Billhook + Rapier + Main-gauche + Knife   [Enc: 12]
+173. 50.0 sp : Target Shield + Composite Bow + Arming Sword + Dagger + Knife [Enc: 11]
+174. 40.5 sp : Brocchiere + Halberd + Rapier + Main-gauche + Knife      [Enc: 11]
+175. 42.0 sp : Small Buckler + Halberd + Rapier + Main-gauche + Knife   [Enc: 11]
+176. 43.5 sp : Target Shield + Longbow + Arming Sword + Dagger + Knife  [Enc: 11]
+177. 45.0 sp : Brocchiere + Poleaxe + Rapier + Main-gauche + Dagger     [Enc: 12]
+178. 46.5 sp : Small Buckler + Poleaxe + Rapier + Main-gauche + Dagger  [Enc: 12]
+179. 48.0 sp : Target Shield + Heavy Crossbow + Arming Sword + Knife    [Enc: 11]
+180. 49.0 sp : Brocchiere + Lucerne Hammer + Rapier + Main-gauche       [Enc: 12]
+181. 50.0 sp : Small Buckler + Lucerne Hammer + Rapier + Main-gauche    [Enc: 12]
+================================================================================
+================================================================================
+EXTENSION COMMANDEMENT & HONNEUR (PLAFOND D'ENCOMBREMENT 14)
+================================================================================
+
+41.0 sp : Large Buckler + Halberd + Knife + Dagger [Enc: 13]
+190. 42.5 sp : Infantry Pavise + Arming Sword + Rapier + Dagger         [Enc: 14]
+191. 44.0 sp : Target Shield + Longbow + Arming Sword + Knife + Dagger    [Enc: 11]
+45.5 sp : Large Buckler + Poleaxe + Knife + Dagger [Enc: 13]
+193. 47.0 sp : Infantry Pavise + Falchion + Dagger + Knife              [Enc: 12]
+194. 48.5 sp : Target Shield + Heavy Crossbow + Arming Sword + Knife + Dagger [Enc: 12]
+50.0 sp : Large Buckler + Lucerne Hammer + Knife + Dagger [Enc: 14]
+================================================================================
+EXTENSION FINALE COMMANDEMENT & HONNEUR (PLAFOND D'ENCOMBREMENT 14)
+================================================================================
+
+41.5 sp : Large Buckler + Billhook + Knife + Dagger [Enc: 13]
+197. 43.0 sp : Target Shield + Composite Bow + Arming Sword + Knife + Dagger [Enc: 12]
+44.5 sp : Large Buckler + Poleaxe + Arming Sword + Knife [Enc: 14]
+199. 46.0 sp : Target Shield + Heavy Crossbow + Arming Sword + Knife + Dagger [Enc: 13]
+200. 47.5 sp : Large Buckler + Lucerne Hammer + Falchion + Knife + Dagger  [Enc: 14]
+49.0 sp : Target Shield + Longbow + Arming Sword + Dagger [Enc: 14]
+50.0 sp : Large Buckler + Halberd + Knife + Dagger [Enc: 13]
+================================================================================
+EXTENSION CORRIGÉE (PLAFOND D'ENCOMBREMENT 14 / ARME D'ÉPAULE UNIQUE)
+================================================================================
+
+203. 41.0 sp : Large Buckler + Halberd + Knife + Dagger             [Enc: 11]
+204. 42.5 sp : Target Shield + Heavy Crossbow + Arming Sword + Dagger [Enc: 11]
+44.0 sp : Large Buckler + Poleaxe + Knife [Enc: 13]
+206. 45.5 sp : Target Shield + Longbow + Arming Sword + Dagger      [Enc: 10]
+207. 47.0 sp : Large Buckler + Lucerne Hammer + Knife + Dagger      [Enc: 12]
+208. 48.5 sp : Target Shield + Composite Bow + Arming Sword + Knife [Enc: 11]
+50.0 sp : Large Buckler + Billhook + Dagger [Enc: 14]
+================================================================================
+================================================================================
+
+================================================================================
+
+================================================================================
+================================================================================
+FIN DU CATALOGUE MAÎTRE - 208 OPTIONS POUR VOS JOUEURS
+================================================================================

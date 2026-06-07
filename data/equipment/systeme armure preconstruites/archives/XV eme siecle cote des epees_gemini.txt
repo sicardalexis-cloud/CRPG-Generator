@@ -1,0 +1,224 @@
+Voici 70 kits d'équipement détaillés, allant de 28 sp à 2500 sp, construits exclusivement à partir du document fourni et respectant la superposition réaliste des armures (textile, puis maille, puis plaques).
+
+### Milice, Levées et Infanterie Légère (28 sp – 60 sp)
+
+* **Kit 1 (28 sp)** : Aketon (8 sp), Leather Helmet (2 sp), Quarterstaff (18 sp).
+
+
+* **Kit 2 (30 sp)** : Gambeson (9 sp), Cervelière (9 sp), Knife (6 sp), Club (6 sp).
+
+
+* **Kit 3 (30 sp)** : Aketon (8 sp), Kettle Hat (15 sp), Spear (7 sp).
+
+
+* **Kit 4 (31 sp)** : Gambeson (9 sp), Nasal Helmet (8 sp), Dagger (14 sp).
+
+
+* **Kit 5 (32 sp)** : Pourpoint (12 sp), Javelin (6 sp), Dagger (14 sp).
+
+
+* **Kit 6 (33 sp)** : Gambeson (9 sp), Heater Shield Size 8 (24 sp).
+
+
+* **Kit 7 (38 sp)** : Pourpoint (12 sp), Small Rotella Size 5 (14 sp), Knife (6 sp), Javelin (6 sp).
+
+
+* **Kit 8 (45 sp)** : Aketon (8 sp), Leather Helmet (2 sp), Billhook (35 sp).
+
+
+* **Kit 9 (47 sp)** : Aketon (8 sp), Short bow (32 sp), Arrows (7 sp).
+
+
+* **Kit 10 (51 sp)** : Aketon (8 sp), Kettle Hat (15 sp), Pike (28 sp).
+
+
+* **Kit 11 (53 sp)** : Gambeson (9 sp), Cervelière (9 sp), War Scythe (35 sp).
+
+
+* **Kit 12 (57 sp)** : Pourpoint (12 sp), Hand Axe (45 sp).
+
+
+* **Kit 13 (58 sp)** : Gambeson (9 sp), Leather Helmet (2 sp), Francisca (50 sp).
+
+
+* **Kit 14 (59 sp)** : Aketon (8 sp), Cervelière (9 sp), Lance (42 sp).
+
+
+* **Kit 15 (60 sp)** : Gambeson long (14 sp), Nasal Helmet (8 sp), Military Fork (28 sp), Dagger (14 sp).
+
+
+
+### Infanterie Standard et Tireurs (61 sp – 150 sp)
+
+* **Kit 16 (65 sp)** : Padded Jack (22 sp), Kettle Hat (15 sp), Pike (28 sp).
+
+
+* **Kit 17 (70 sp)** : Reinforced Gambeson long (26 sp), Kettle Hat (15 sp), Reinforced Spear (20 sp), Buckler Size 3 (9 sp).
+
+
+* **Kit 18 (73 sp)** : Gambeson (9 sp), Archer Bracer (2 sp), Longbow (55 sp), Arrows (7 sp).
+
+
+* **Kit 19 (77 sp)** : Padded Jack (22 sp), Kettle Hat (15 sp), Billhook (35 sp), Brocchiere Size 1 (5 sp).
+
+
+* **Kit 20 (85 sp)** : Gambeson (9 sp), Bascinet (48 sp), Pike (28 sp).
+
+
+* **Kit 21 (97 sp)** : Reinforced Gambeson (18 sp), Archer Bracer (2 sp), Kettle Hat (15 sp), Longbow (55 sp), Arrows (7 sp).
+
+
+* **Kit 22 (105 sp)** : Gambeson long (14 sp), Cervelière (9 sp), Falchion (70 sp), Large Buckler Size 4 (12 sp).
+
+
+* **Kit 23 (110 sp)** : Gambeson (9 sp), Light Crossbow (95 sp), Crossbow Bolts (6 sp).
+
+
+* **Kit 24 (112 sp)** : Padded Jack (22 sp), Kettle Hat (15 sp), Halberd (75 sp).
+
+
+* **Kit 25 (114 sp)** : Coat of Plates (45 sp), Bascinet (48 sp), Spear (7 sp), Dagger (14 sp).
+
+
+* **Kit 26 (115 sp)** : Coat of Plates (45 sp), Kettle Hat (15 sp), Bill (55 sp).
+
+
+* **Kit 27 (119 sp)** : Padded Jack (22 sp), Sallet (42 sp), Guisarme (55 sp).
+
+
+* **Kit 28 (122 sp)** : Padded Jack (22 sp), Nasal Helmet (8 sp), Mace (65 sp), Kite Shield Size 10 (27 sp).
+
+
+* **Kit 29 (135 sp)** : Jack of Plates (55 sp), Kettle Hat (15 sp), Mace (65 sp).
+
+
+* **Kit 30 (141 sp)** : Reinforced Gambeson (18 sp), Bascinet (48 sp), Arming Sword (75 sp).
+
+
+
+### Infanterie Vétéran et Mercenaires (151 sp – 300 sp)
+
+* **Kit 31 (155 sp)** : Gambeson long (14 sp), Simple Breastplate (42 sp), Heater Shield Size 8 (24 sp), Arming Sword (75 sp).
+
+
+* **Kit 32 (169 sp)** : Brigandine (85 sp), Kettle Hat (15 sp), Glaive (55 sp), Dagger (14 sp).
+
+
+* **Kit 33 (179 sp)** : Brigandine (85 sp), Kettle Hat (15 sp), Light Flail (65 sp), Dagger (14 sp).
+
+
+* **Kit 34 (181 sp)** : Gambeson (9 sp), Mail Haubergeon (115 sp), Kettle Hat (15 sp), Reinforced Spear (20 sp), Large Rotella Size 7 (22 sp).
+
+
+* **Kit 35 (183 sp)** : Brigandine (85 sp), Sallet (42 sp), Pike (28 sp), Rondel Dagger (28 sp).
+
+
+* **Kit 36 (186 sp)** : Jack of Plates (55 sp), Sallet (42 sp), Halberd (75 sp), Dagger (14 sp).
+
+
+* **Kit 37 (189 sp)** : Reinforced Gambeson (18 sp), Mail Shirt (80 sp), Kettle Hat (15 sp), Longbow (55 sp), Arrows (7 sp), Dagger (14 sp).
+
+
+* **Kit 38 (191 sp)** : Jack of Plates (55 sp), Sallet (42 sp), War Hammer (80 sp), Dagger (14 sp).
+
+
+* **Kit 39 (193 sp)** : Gambeson (9 sp), Mail Shirt (80 sp), Kettle Hat (15 sp), Arming Sword (75 sp), Dagger (14 sp).
+
+
+* **Kit 40 (200 sp)** : Coat of Plates (45 sp), Bascinet (48 sp), Messer (80 sp), Kite Shield Size 10 (27 sp).
+
+
+* **Kit 41 (206 sp)** : Coat of Plates (45 sp), Sallet (42 sp), Poleaxe (105 sp), Dagger (14 sp).
+
+
+* **Kit 42 (223 sp)** : Arming Doublet (45 sp), Mail Shirt (80 sp), Cervelière (9 sp), Arming Sword (75 sp), Dagger (14 sp).
+
+
+* **Kit 43 (234 sp)** : Coat of Plates (45 sp), Bascinet (48 sp), Crossbow (135 sp), Crossbow Bolts (6 sp).
+
+
+* **Kit 44 (253 sp)** : Reinforced Gambeson (18 sp), Simple Breastplate (42 sp), Bascinet (48 sp), Longsword (145 sp).
+
+
+* **Kit 45 (254 sp)** : Padded Jack (22 sp), Bascinet (48 sp), Heavy Crossbow (175 sp), Heavy Crossbow Bolts (9 sp).
+
+
+
+### Hommes d'Armes et Infanterie Lourde (301 sp – 600 sp)
+
+* **Kit 46 (339 sp)** : Brigandine (85 sp), Mail Shirt (80 sp), Armet (85 sp), Halberd (75 sp), Dagger (14 sp).
+
+
+* **Kit 47 (345 sp)** : Arming Doublet (45 sp), Simple Breastplate (42 sp), Mail Haubergeon (115 sp), Bascinet (48 sp), Flanged Mace (95 sp).
+
+
+* **Kit 48 (360 sp)** : Arming Doublet (45 sp), Mail Hauberk (170 sp), Sallet (42 sp), Pike (28 sp), Arming Sword (75 sp).
+
+
+* **Kit 49 (369 sp)** : Arming Doublet (45 sp), Mail Haubergeon (115 sp), Sallet (42 sp), Composite Bow (160 sp), Arrows (7 sp).
+
+
+* **Kit 50 (391 sp)** : Brigandine (85 sp), Mail Shirt (80 sp), Sallet (42 sp), Heavy Crossbow (175 sp), Heavy Crossbow Bolts (9 sp).
+
+
+* **Kit 51 (400 sp)** : Jack of Plates (55 sp), Mail Hauberk (170 sp), Great Helm (70 sp), Poleaxe (105 sp).
+
+
+* **Kit 52 (415 sp)** : Arming Doublet (45 sp), Breastplate + Backplate (95 sp), Vambraces + Couter (35 sp), Armet (85 sp), Bastard sword (155 sp).
+
+
+* **Kit 53 (456 sp)** : Arming Doublet (45 sp), Mail Haubergeon (115 sp), Breastplate + Backplate (95 sp), Sallet (42 sp), Longsword (145 sp), Dagger (14 sp).
+
+
+* **Kit 54 (507 sp)** : Arming Doublet (45 sp), Breastplate (42 sp), Mail Haubergeon (115 sp), Armet (85 sp), Estoc (220 sp).
+
+
+* **Kit 55 (538 sp)** : Rouncey (75 sp), Riding Saddle (35 sp), Arming Doublet (45 sp), Brigandine (85 sp), Mail Haubergeon (115 sp), Sallet (42 sp), Lance (42 sp), Arming Sword (75 sp), Heater Shield Size 8 (24 sp).
+
+
+* **Kit 56 (562 sp)** : Arming Doublet (45 sp), Breastplate + Backplate (95 sp), Mail Hauberk (170 sp), Sallet (42 sp), Vambraces+Couter (35 sp), Tassets courtes (16 sp), Lucerne Hammer (145 sp), Dagger (14 sp).
+
+
+* **Kit 57 (582 sp)** : Courser (110 sp), War Saddle (95 sp), Arming Doublet (45 sp), Breastplate + Backplate (95 sp), Armet (85 sp), Lance (42 sp), Broadsword (110 sp).
+
+
+
+### Chevalerie, Capitaines et Noblesse (601 sp – 2500 sp)
+
+* **Kit 58 (689 sp)** : Arming Doublet (45 sp), Mail Hauberk (170 sp), Breastplate + Backplate (95 sp), Vambraces+Couter (35 sp), Gauntlets normaux (22 sp), Cuisses (42 sp), Poleyns+Genouillères (28 sp), Greaves (35 sp), Sabatons (18 sp), Sallet (42 sp), Bevor (12 sp), Longsword (145 sp).
+
+
+* **Kit 59 (740 sp)** : Brigandine HQ (240 sp), Mail Hauberk (170 sp), Armet (85 sp), Vambraces + Couter (35 sp), Gauntlets (22 sp), Bec de Corbin (160 sp), Rondel Dagger (28 sp).
+
+
+* **Kit 60 (748 sp)** : Arming Doublet (45 sp), Breastplate+Backplate (95 sp), Mail Hauberk (170 sp), Armet italien articulé (85 sp), Vambraces+Couter (35 sp), Gauntlets (22 sp), Tassets courtes (16 sp), Rapier (280 sp).
+
+
+* **Kit 61 (762 sp)** : Destrier (220 sp), War Saddle (95 sp), Arming Doublet (45 sp), Mail Haubergeon (115 sp), Breastplate (42 sp), Bascinet (48 sp), Lance (42 sp), Bastard sword (155 sp).
+
+
+* **Kit 62 (792 sp)** : Courser (110 sp), War Saddle (95 sp), Leather barding (140 sp), Arming Doublet (45 sp), Brigandine (85 sp), Mail Haubergeon (115 sp), Armet (85 sp), Lance (42 sp), Arming Sword (75 sp).
+
+
+* **Kit 63 (980 sp)** : Destrier (220 sp), War Saddle (95 sp), Arming Doublet (45 sp), Breastplate+Backplate (95 sp), Mail Haubergeon (115 sp), Armet (85 sp), Vambraces+Couter (35 sp), Gauntlets (22 sp), Lance (42 sp), Estoc (220 sp), Dagger (14 sp).
+
+
+* **Kit 64 (1107 sp)** : Destrier (220 sp), War Saddle (95 sp), Leather barding (140 sp), Leather chanfron (22 sp), Arming Doublet (45 sp), Brigandine HQ (240 sp), Mail Haubergeon (115 sp), Armet (85 sp), Bastard sword (155 sp).
+
+
+* **Kit 65 (1229 sp)** : Destrier (220 sp), War Saddle (95 sp), Chain barding (480 sp), Arming Doublet (45 sp), Breastplate+Backplate (95 sp), Armet (85 sp), Gauntlets (22 sp), Lance (42 sp), Longsword (145 sp).
+
+
+* **Kit 66 (1255 sp)** : Destrier (220 sp), War Saddle (95 sp), Leather barding (140 sp), Arming Doublet (45 sp), Mail Haubergeon (115 sp), Breastplate+Backplate (95 sp), Gorget articulé (18 sp), Vambraces+Couter (35 sp), Gauntlets (22 sp), Cuisses (42 sp), Poleyns (28 sp), Greaves (35 sp), Sabatons (18 sp), Armet (85 sp), Lance (42 sp), Estoc (220 sp).
+
+
+* **Kit 67 (1295 sp)** : Destrier (220 sp), War Saddle (95 sp), Arming Doublet (45 sp), Breastplate+Backplate trempé (220 sp), Gorget renforcé (25 sp), Pauldrons+Gardes (75 sp), Vambraces+Couter+Rerebrace (85 sp), Gauntlets renforcés (45 sp), Cuisses renforcées (85 sp), Poleyns (28 sp), Greaves renforcées (55 sp), Sabatons larges (25 sp), Close Helmet (95 sp), Lance (42 sp), Bastard sword (155 sp).
+
+
+* **Kit 68 (1554 sp)** : Destrier (220 sp), War Saddle (95 sp), Plate mail barding (950 sp), Arming Doublet (45 sp), Breastplate+Backplate (95 sp), Armet (85 sp), Gauntlets (22 sp), Lance (42 sp).
+
+
+* **Kit 69 (2055 sp)** : Destrier quality (350 sp), War Saddle (95 sp), Chain barding (480 sp), Plate chanfron (65 sp), Arming Doublet (45 sp), Breastplate+Backplate trempé (220 sp), Gorget renforcé (25 sp), Pauldrons+Gardes (75 sp), Vambraces+Couter+Rerebrace (85 sp), Gauntlets renforcés (45 sp), Cuisses renforcées (85 sp), Poleyns (28 sp), Greaves renforcées (55 sp), Sabatons larges (25 sp), Close Helmet (95 sp), Lance (42 sp), Longsword (145 sp), Main-gauche (95 sp).
+
+
+* **Kit 70 (2500 sp)** : Destrier (220 sp), War Saddle (95 sp), Plate mail barding (950 sp), Plate chanfron (65 sp), Plate crinet (180 sp), Arming Doublet (45 sp), Breastplate+Backplate trempé (220 sp), Gorget renforcé (25 sp), Pauldrons+Gardes (75 sp), Vambraces+Couter+Rerebrace (85 sp), Gauntlets renforcés (45 sp), Cuisses renforcées (85 sp), Poleyns (28 sp), Greaves renforcées (55 sp), Sabatons larges (25 sp), Close Helmet (95 sp), Broadsword (110 sp), Flanged Mace (95 sp), Leather Helmet de campement (2 sp).

@@ -1,0 +1,11 @@
+priorités d'achats
+
+budget de départ (sp) :
+0 : throwing rocks
+O,2 : sling
+0,5 : staff sling
+1 : spear ou javelin ou club
+2 : spear et club ; spear et javelin ; club et javelin
+3 : spear et 2 javelin ; spear,  club et javelin; 
+4 : buckler et club ; spear et 3 javelins ; spear , knife, club, javelin
+5 : rotella et club ; rotella et spear ; buckler , club et buckler et javelin

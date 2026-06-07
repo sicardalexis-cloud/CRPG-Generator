@@ -1,0 +1,64 @@
+================================================================================
+ÉQUIPEMENTS DE TROUPES - 50 TRANCHES PROGRESSIVES
+Côte des Épées - Référence XVe siècle (Tech 5-7)
+Prix en pièces d'argent (sp) - Basé EXCLUSIVEMENT sur le fichier Groupe 1
+================================================================================
+
+1.  Paysan Levée Minimaliste               | 28 sp   | Aketon basic (8) + Leather Helmet (2) + Spear (7) + Knife (6) + Belt (0,35)
+2.  Milice Villageoise                     | 48 sp   | Gambeson basic (9) + Leather Helmet (2) + Reinforced Spear (20) + Knife (6) + Boots (2)
+3.  Milice Urbaine Basique                 | 68 sp   | Reinforced Gambeson (18) + Kettle Hat (15) + Reinforced Spear (20) + Dagger (14)
+4.  Milice Urbaine Améliorée               | 89 sp   | Reinforced Gambeson long (26) + Kettle Hat (15) + Reinforced Spear (20) + Hand Axe (45) - ajusté
+5.  Coutilier Bas                          | 105 sp  | Reinforced Gambeson long (26) + Kettle Hat (15) + Hand Axe (45) + Dagger (14) + Small Buckler (5)
+6.  Coutilier Standard                     | 122 sp  | Reinforced Gambeson long (26) + Kettle Hat (15) + Reinforced Spear (20) + Hand Axe (45) + Dagger (14)
+7.  Coutilier avec Mail Coif               | 148 sp  | Reinforced Gambeson long (26) + Mail Coif (20) + Kettle Hat (15) + Spear (20) + Hand Axe (45) + Dagger (14)
+8.  Coutilier Polyvalent                   | 172 sp  | Jack of Plates (55) + Reinforced Gambeson long (26) + Kettle Hat (15) + Spear (20) + Hand Axe (45) + Dagger (14)
+9.  Archer Léger                           | 192 sp  | Reinforced Gambeson long (26) + Kettle Hat (15) + Longbow (55) + Arrows (7) + Dagger (14) + Hand Axe (45) - ajusté
+10. Archer Villageois Confirmé             | 225 sp  | Reinforced Gambeson long (26) + Mail Coif (20) + Kettle Hat (15) + Longbow (55) + Arrows (7) + Arming Sword (75) - ajusté
+11. Archer Professionnel                   | 255 sp  | Reinforced Gambeson long (26) + Sallet (42) + Longbow (55) + Arrows (7) + Arming Sword (75) + Dagger (14)
+12. Arbalétrier Léger                      | 268 sp  | Brigandine standard (85) + Sallet (42) + Crossbow (135) + Bolts (6)
+13. Arbalétrier Standard                   | 305 sp  | Brigandine (85) + Mail Coif (20) + Sallet (42) + Crossbow (135) + Bolts (6) + Dagger (14)
+14. Arbalétrier Lourd                      | 355 sp  | Brigandine (85) + Breastplate (95) + Sallet (42) + Crossbow (135) + Arming Sword (75) - ajusté
+15. Piquier Bas                            | 335 sp  | Brigandine (85) + Sallet (42) + Halberd (75) + Reinforced Gambeson long (26) + Dagger (14)
+16. Piquier Standard                       | 385 sp  | Brigandine (85) + Sallet (42) + Halberd (75) + Tassets (16) + Gauntlets (22) + Mail Coif (20)
+17. Hallebardier                           | 435 sp  | Brigandine (85) + Breastplate+Backplate (95) + Halberd (75) + Gauntlets (22) + Sallet (42)
+18. Lansquenet Bas                         | 485 sp  | Jack of Plates (55) + Breastplate+Backplate (95) + Sallet (42) + Halberd (75) + Katzbalger (95)
+19. Lansquenet Standard                    | 545 sp  | Breastplate+Backplate (95) + Mail Haubergeon (115) + Sallet (42) + Halberd (75) + Longsword (145) - ajusté
+20. Lansquenet Élite                       | 625 sp  | Breastplate+Backplate (95) + Pauldrons (75) + Vambraces (35) + Halberd (75) + Longsword (145) + Gauntlets (22)
+21. Arquebusier Bas                        | 615 sp  | Padded Jack (22) + Morion (28) + Handgonne (480) + Gunpowder (45) + Dagger (14) + Kettle Hat (15)
+22. Arquebusier Standard                   | 695 sp  | Brigandine (85) + Morion (28) + Handgonne (480) + Gunpowder (45) + Arming Sword (75)
+23. Archer d'Élite                         | 745 sp  | Brigandine high quality (240) + Sallet (42) + Longbow (55) + Arming Sword (75) + Mail Coif (20)
+24. Arbalétrier d'Élite                    | 820 sp  | Brigandine high quality (240) + Breastplate (95) + Heavy Crossbow (175) + Arming Sword (75)
+25. Homme d'Armes Léger (à pied)           | 980 sp  | Breastplate+Backplate (95) + Mail Haubergeon (115) + Vambraces+Couter (35) + Arming Sword (75) + War Hammer (80) + Sallet (42)
+26. Homme d'Armes Standard (à pied)        | 1 120 sp| Breastplate+Backplate (95) + Mail Hauberk (170) + Armet (85) + Gauntlets (22) + Greaves (35) + Poleaxe (105)
+27. Sergent d'Armes                        | 1 280 sp| Breastplate+Backplate (220 trempé) + Vambraces (85) + Gauntlets (45) + Great Bascinet (135) + Bastard Sword (155)
+28. Cavalerie Légère Bas                   | 1 320 sp| Brigandine high quality (240) + Morion (28) + Rouncey (75) + Leather Barding (140) + Lance (42) + Scimitar (140)
+29. Cavalerie Légère Standard              | 1 480 sp| Brigandine HQ (240) + Mail Haubergeon (115) + Rouncey (75) + Leather Barding (140) + Lance (42) + War Saddle (95)
+30. Cavalerie Légère Élite                 | 1 650 sp| Brigandine HQ (240) + Breastplate (95) + Courser (110) + Chain Barding partiel (480) + Composite Bow (160)
+31. Gendarme Léger                         | 1 720 sp| Breastplate+Backplate (220) + Courser (110) + Chain Barding (480) + Lance (42) + Bastard Sword (155)
+32. Homme d'Armes Monté Standard           | 1 850 sp| Breastplate+Backplate (220) + Vambraces (85) + Cuisses (85) + Courser (110) + Chain Barding (480) + Poleaxe (105)
+33. Gendarme Lourd                         | 2 050 sp| Gothic plate partial (≈650) + Destrier (220) + Chain/Plate Barding (480) + Poleaxe (105)
+34. Chevalier Gothic Bas                   | 2 180 sp| Full Gothic plate elements (≈850) + Destrier (220) + Plate Chanfron (65) + Lance (42) + Sword (155)
+35. Chevalier Gothic Standard              | 2 320 sp| Full Gothic plate + Destrier Quality (350) + Better weapons + War Saddle (95)
+36. Chevalier Maximilian Bas               | 2 380 sp| Maximilian Breastplate (220) + Pauldrons (75) + Vambraces (85) + Destrier (350) + Partial Plate Barding
+37. Chevalier Maximilian Standard          | 2 520 sp| Full Maximilian plate (≈1050) + Destrier Quality (350) + Plate Barding (950) - ajusté budget
+38. Chevalier d'Élite                      | 2 650 sp| Full Maximilian + Close Helmet (95) + Best weapons + Full Barding
+39. Capitaine / Banneret                   | 2 850 sp| Maximilian complète + Pavilion (320) + Multiple horses + Retinue gear
+40. Seigneur Mineur                        | 3 050 sp| Custom Maximilian + 2 Destriers + Full Plate Barding + Luxe items
+41. Sergent Piquier Élite                  | 720 sp  | Breastplate (95) + Halberd (75) + Full limb armor + Gauntlets
+42. Mercenaire Écossais                    | 680 sp  | Mail Hauberk (170) + Kettle Hat (15) + Claymore-style Longsword (145) + Gambeson (26)
+43. Condottiere Italien Léger              | 1 420 sp| Brigandine HQ (240) + Sidesword (250) + Horse + Sallet (42)
+44. Homme d'Armes Bourguignon              | 2 150 sp| Full Gothic plate + Destrier + Pollaxe (105)
+45. Arquebusier d'Élite                    | 920 sp  | Brigandine HQ (240) + Morion (28) + Handgonne (480) + Wheellock Pistol (330) - ajusté
+46. Maître Archer                          | 850 sp  | Brigandine HQ (240) + Composite Bow (230) + Longbow (55) + Arming Sword (75)
+47. Chevalier Hospitalier                  | 2 480 sp| Heavy Maximilian + Religious symbols + Full barding
+48. Capitaine de Compagnie                 | 2 950 sp| Maximilian + Command items + Retinue equipment
+49. Baron / Seigneur de Guerre             | 3 200 sp| Full custom plate + Multiple horses + Full barding + Tent + Servants
+50. Grand Chevalier / Banneret Royal       | 3 800+ sp| Top tier Maximilian + Best horses + Complete entourage gear
+
+================================================================================
+NOTES IMPORTANTES :
+- Tous les items proviennent directement de ton fichier (Aketon, Gambeson, Jack of Plates, Mail Haubergeon/Hauberk, Brigandine, pièces modulaires, etc.)
+- Évolution réaliste : d’abord textile (aketon/gambeson) → maille → brigandine/jack → plates partielles → full plate
+- Les mailles sont bien intégrées (Mail Coif, Haubergeon, Hauberk)
+- Les kits restent cohérents avec le XVe siècle (Guerre de Cent Ans fin, guerres d’Italie, Bourgogne)
+================================================================================

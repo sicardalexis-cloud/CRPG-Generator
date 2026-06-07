@@ -2,7 +2,9 @@
 
 import random
 import math
-from typing import Tuple
+from typing import Tuple, Optional, List, Dict
+import re
+from pathlib import Path
 
 from language_data import generate_languages
 from race_data import ethnicity_data
@@ -12,8 +14,8 @@ from settlement_data import get_random_settlement
 from data.equipment.regional_economy import calculate_starting_capital
 from data.equipment import regional_adventurer_kits as regional_kits
 from data.equipment import post_kit_purchases as post_kit
-from data.equipment import armor_sets as armor  # Nouveau système de sets d'armure préconstruits
-from data.equipment import remaining_equipment as remaining  # Achats avec capital restant (boucliers + armes + monture)
+# Note: old armor builder / prebuilts / protocol removed per upgrade.
+# Equipment now: free universal survival kit (0 cost to capital) + one max-affordable from 100_kits_XV_siecle_Cote_des_Epees_EN (1).txt
 from skill_data import generate_skills
 from knowledge_data import generate_secondary_skills
 from rules import (
@@ -92,6 +94,61 @@ def choose_race_and_ethnicity() -> Tuple[str, str]:
     return category, ethnicity
 
 
+# =============================================================================
+# LOADER FOR 80 KITS XVe SIECLE (new simple equipment system)
+# =============================================================================
+
+def load_100_kits_file() -> list:
+    """Parse the 100 kits file (XV siecle Cote des Epees EN). Returns list of dicts with price_sp, kit_id, description, items (list of names)."""
+    here = Path(__file__).parent
+    file_path = here / "data" / "equipment" / "systeme armure preconstruites" / "100_kits_XV_siecle_Cote_des_Epees_EN (1).txt"
+    kits = []
+    if not file_path.exists():
+        print(f"WARNING: 100 kits file not found at {file_path}")
+        return kits
+    try:
+        with open(file_path, "r", encoding="utf-8") as f:
+            for line in f:
+                line = line.strip()
+                if not line or line.startswith("=") or " sp - Kit " not in line:
+                    continue
+                m = re.match(r'^(\d+(?:\.\d+)?)\s*sp\s*-\s*Kit\s*(\d+)\s*-\s*(.*?)\s*:\s*(.*)$', line, re.IGNORECASE)
+                if not m:
+                    continue
+                price = float(m.group(1))
+                kit_num = m.group(2)
+                desc = m.group(3).strip()
+                items_part = m.group(4).strip()
+                items = []
+                if items_part:
+                    for seg in items_part.split(','):
+                        seg = seg.strip()
+                        # strip ONLY the trailing (price) at the very end (e.g. 'Item (45)' or 'Bolts (12) (9)')
+                        # but preserve internal quantity modifiers like 'Bolts (12)' that the user added
+                        seg_clean = re.sub(r'\s*\(\d+(?:\.\d+)?\)$', '', seg).strip()
+                        if seg_clean:
+                            items.append(seg_clean)
+                kits.append({
+                    "price_sp": price,
+                    "kit_id": f"Kit {kit_num}",
+                    "description": desc,
+                    "items": items
+                })
+    except Exception as e:
+        print(f"ERROR loading 100 kits: {e}")
+    return kits
+
+
+def select_most_expensive_affordable_kit(capital_sp: float, kits: list) -> Optional[dict]:
+    """Return the most expensive kit (by price_sp) that fits <= capital_sp, or None."""
+    if not kits:
+        return None
+    affordable = [k for k in kits if k["price_sp"] <= capital_sp + 0.0001]
+    if not affordable:
+        return None
+    return max(affordable, key=lambda k: k["price_sp"])
+
+
 # ====================== MAIN CHARACTER GENERATOR ======================
 def generate_character(char_id: str = "TEMP"):
     """Génère un personnage complet"""
@@ -112,60 +169,9 @@ def generate_character(char_id: str = "TEMP"):
 
     region_name, settlement_type = get_random_settlement(region_id)
 
-    # ====================== STARTING CAPITAL + KIT ÉQUIPEMENT ======================
-    # Capital = 1 an de salaire médian local (en bp Rolemaster)
-    # NOUVELLE STRATÉGIE :
-    # Kit de départ universel identique pour tous les personnages.
-    # Le capital de départ (1 an) sert uniquement à compléter l'équipement
-    # selon le groupe d'accès au matériel de la région du personnage.
-    starting_capital = calculate_starting_capital(
-        region_name=region_name,
-        settlement_type=settlement_type,
-        ethnicity=ethnicity
-    )
+    equipment_group = post_kit.get_equipment_group_for_region(region_name)
 
-    # NOUVELLE STRATÉGIE :
-    # Tous les personnages reçoivent le même kit de base universel.
-    # Le capital de départ sert à compléter le matériel selon le groupe d'équipement.
-    kit_items = regional_kits.get_universal_starting_kit()
-    kit_cost_bp = sum(item["price_bp"] for item in kit_items)
-
-    # ====================== NOUVEAU : ARMURE PRÉCONSTRUITE (70% du capital) ======================
-    # Règle utilisateur (phase actuelle) :
-    # - Le kit de base est gratuit.
-    # - Jusqu'à 70% du capital de départ peut être dépensé dans l'armure.
-    # - On prend **le set le plus cher possible** dans ce budget.
-    armor_budget_sp = armor.calculate_armor_budget(starting_capital, percentage=0.70)
-    chosen_armor_set = armor.get_most_expensive_affordable_set(armor_budget_sp)
-
-    armor_cost_bp = 0.0
-    if chosen_armor_set:
-        armor_cost_bp = chosen_armor_set["price_bp"]
-
-    # Capital restant après kit (gratuit) + armure
-    remaining_capital_after_armor = starting_capital - armor_cost_bp
-
-    # ====================== SKILLS ======================
-    skills_data = generate_skills(
-        settlement_type=settlement_type,
-        region_id=region_id,
-        ethnicity=ethnicity
-    )
-
-    secondary = generate_secondary_skills(
-        ethnicity=ethnicity,
-        region_id=region_id,
-        settlement_type=settlement_type,
-        active_count=skills_data["total"]
-    )
-
-    # Sécurité pour éviter les erreurs si les clés sont mal formées
-    if not isinstance(secondary.get("literacy"), list):
-        secondary["literacy"] = []
-    if not isinstance(secondary.get("spoken_languages"), list):
-        secondary["spoken_languages"] = []
-
-    # ====================== ATTRIBUTES ======================
+    # ====================== ATTRIBUTES (moved up for new equipment protocol using Melee/Projectiles) ======================
     weight_score = math.floor(roll_12d6() / 2) - 21 + data.get("w", 0)
     build_score  = roll_6d6() - 21 + data.get("b", 0)
 
@@ -217,33 +223,130 @@ def generate_character(char_id: str = "TEMP"):
         stealth=stealth,
         speed=speed,
         dodge=dodge,
-        climbing=climbing
+        climbing=climbing,
     )
+
+    # ====================== STARTING CAPITAL + FREE KIT + 80 XVe KITS (per upgrade) ======================
+    # - Free kit (survival stuff + food) from regional_adventurer_kits: UNIVERSAL, always given, cost=0 to capital.
+    # - Then select from "100_kits_XV_siecle_Cote_des_Epees_EN (1).txt" the MOST EXPENSIVE kit affordable
+    #   with the FULL starting_capital (in sp, 3-year model).
+    # - All remaining capital is kept exactly (no 5% bonus, no other spends, no specialty rules, no builder).
+    # - Prebuilt_Kit_Cost_Sp + Prebuilt_Kit_Items + Armes_et_Bouclier populated from the chosen kit.
+    # - Free kit goes to Starting_Equipment_Kit (value recorded but not deducted from capital).
+    # - Columns removed from CSV per request: Starting_Equipment_Cost_BP, Starting_Equipment_Kit_Type,
+    #   Armure, Monture_et_Reste, Equipment_Source (info consolidated into Armes_et_Bouclier + Prebuilt_* + Phase*).
+    starting_capital = calculate_starting_capital(
+        region_name=region_name,
+        settlement_type=settlement_type,
+        ethnicity=ethnicity
+    )
+
+    # Free survival kit (always; does not reduce the starting capital)
+    kit_items = regional_kits.get_universal_starting_kit()
+    kit_cost_bp = sum(item["price_bp"] for item in kit_items)
+
+    # Load and select most expensive 100kit <= full capital
+    kits = load_100_kits_file()
+    chosen_kit = select_most_expensive_affordable_kit(starting_capital, kits)
+
+    kit_spent_sp = chosen_kit["price_sp"] if chosen_kit else 0.0
+    capital_left = max(0.0, float(starting_capital) - kit_spent_sp)
+
+    # Safe defaults + new 80kit values (used by return dict and formatters)
+    prebuilt_kit_info = chosen_kit
+    used_prebuilt = bool(chosen_kit)
+
+    chosen_weapon_kit = None
+    chosen_armor_set = None
+    chosen_mount = None
+    weapon_kit_cost_bp = 0.0
+    armor_cost_bp = 0.0
+    mount_cost_bp = 0.0
+    remaining_after_phases = capital_left
+
+    if chosen_kit:
+        items = chosen_kit.get("items", [])
+        kit_id = chosen_kit.get("kit_id", "Kit")
+        desc = chosen_kit.get("description", "")
+        kit_label = f"{kit_id} - {desc}"
+        full_items_str = ", ".join(items) if items else kit_label
+
+        # Mount detection (saddles etc are bundled in kit price; we surface the animal name for Phase3_Mount / Has_Mount)
+        mount_kw = ["Rouncey", "Courser", "Destrier", "Palfrey", "Mule", "Pony"]
+        mounts = [it for it in items if any(kw.lower() in it.lower() for kw in mount_kw)]
+        monture_name = mounts[0] if mounts else None
+
+        # Armor-ish pieces (for Phase2_Armor_Set summary)
+        armor_kw = [
+            "aketon", "gambeson", "pourpoint", "padded", "jack", "doublet", "brigandine",
+            "coat of plates", "mail", "haubergeon", "haubert", "voiders", "aventail",
+            "breastplate", "backplate", "plackart", "cuirass", "plate", "tassets", "fauld",
+            "cuisses", "poleyns", "greaves", "sabatons", "gauntlets", "vambraces", "couter",
+            "rerebrace", "pauldrons", "gardes", "gorget", "bevor",
+            "helmet", "helm", "sallet", "bascinet", "armet", "cerveliere", "nasal", "kettle",
+            "great helm", "close helmet", "tournament helmet"
+        ]
+        armure_parts = [it for it in items if any(kw in it.lower() for kw in armor_kw)]
+        armure_str = ", ".join(armure_parts) if armure_parts else "Aucune (kit mixte)"
+
+        # Full kit content for visibility (weapons + armor + any included)
+        armes_str = full_items_str
+
+        chosen_weapon_kit = {"name": armes_str}
+        chosen_armor_set = {"name": armure_str, "price_sp": kit_spent_sp, "price_bp": round(kit_spent_sp * 10, 1)}
+        chosen_mount = {"name": monture_name} if monture_name else None
+
+        weapon_kit_cost_bp = round(kit_spent_sp * 10, 1)
+        armor_cost_bp = round(kit_spent_sp * 10, 1)
+        mount_cost_bp = 0.0  # cost already inside the single kit price
+    else:
+        # Capital below cheapest kit (28sp) - very rare with 7yr model
+        chosen_weapon_kit = {"name": "Aucun (capital < kit le moins cher)"}
+        chosen_armor_set = {"name": "Aucune"}
+        chosen_mount = None
+        weapon_kit_cost_bp = 0.0
+        armor_cost_bp = 0.0
+        mount_cost_bp = 0.0
+
+    # No additional phase3 purchases (the 80kit is the complete equipment purchase)
+    phase3_purchases = []
+    post_purchases = {
+        "tier": 0,
+        "tier_name": "None",
+        "purchases": phase3_purchases,
+        "total_spent_bp": 0,
+        "final_remaining_bp": int(round(capital_left * 10)),
+    }
+
+    remaining_after_phases = capital_left
+
+    # ====================== SKILLS ======================
+    skills_data = generate_skills(
+        settlement_type=settlement_type,
+        region_id=region_id,
+        ethnicity=ethnicity
+    )
+
+    secondary = generate_secondary_skills(
+        ethnicity=ethnicity,
+        region_id=region_id,
+        settlement_type=settlement_type,
+        active_count=skills_data["total"]
+    )
+
+    # Sécurité pour éviter les erreurs si les clés sont mal formées
+    if not isinstance(secondary.get("literacy"), list):
+        secondary["literacy"] = []
+    if not isinstance(secondary.get("spoken_languages"), list):
+        secondary["spoken_languages"] = []
+
+    # (ATTRIBUTES, COMBAT, MAGIC & SKILL MODIFIER moved up early for the new melee/projectile-based equipment protocol)
+    # The early block defines melee, projectiles, combat_points, magic_info, skill_modifier etc.
 
     if magic_info.get("magic") is True:
         skill_modifier -= 10
 
-    # ====================== CAPITAL (1 an) + ACHATS SUPPLÉMENTAIRES ======================
-    # NOUVELLE STRATÉGIE :
-    # Le kit de base est universel.
-    # Les achats post-kit se font avec le capital, en respectant la liste disponible
-    # du groupe d'équipement du personnage (+ surcoûts pour items Rare / Très rare).
-    equipment_group = post_kit.get_equipment_group_for_region(region_name)
-
-    # === NOUVELLE PHASE : Achats avec le capital restant (après armure) ===
-    # Bouclier + armes (aléatoire, limite encombrement) + monture si possible
-    remaining_result = remaining.buy_remaining_equipment(
-        remaining_bp=remaining_capital_after_armor
-    )
-
-    # Pour compatibilité temporaire, on garde une structure similaire à l'ancien post-kit
-    post_purchases = {
-        "tier": 1 if remaining_result["purchases"] else 0,
-        "tier_name": "Modest" if remaining_result["purchases"] else "None",
-        "purchases": remaining_result["purchases"],
-        "total_spent_bp": remaining_result["total_spent_bp"],
-        "final_remaining_bp": remaining_result["final_remaining_bp"],
-    }
+    # (old equipment protocol + 5% pocket removed; now free kit + single max 80kit selection with exact leftover kept)
 
     # ====================== RETURN ======================
     return {
@@ -301,24 +404,32 @@ def generate_character(char_id: str = "TEMP"):
 
         "Starting_Capital": starting_capital,
         "Starting_Equipment_Kit": [item["name"] for item in kit_items],
-        "Starting_Equipment_Cost_BP": round(kit_cost_bp, 1),
-        "Starting_Equipment_Kit_Type": "universal_standard",
 
-        # ====================== NOUVEAU : ARMURE (phase actuelle) ======================
-        "Starting_Armor_Set": chosen_armor_set["name"] if chosen_armor_set else "Aucune",
-        "Starting_Armor_Cost_BP": round(armor_cost_bp, 1),
-        "Starting_Armor_Budget_Percent": 70,   # Règle en vigueur
-        "Starting_Capital_After_Armor_BP": round(remaining_capital_after_armor, 1),
+        # ====================== PHASE MAPPINGS (for compat) ======================
+        "Phase1_Weapon_Kit": chosen_weapon_kit["name"] if chosen_weapon_kit else "Aucun",
+        "Phase1_Weapon_Kit_Cost_BP": round(weapon_kit_cost_bp, 1),
 
-        # Note : le kit de base est GRATUIT (fourni par l'origine)
-        # Le capital ci-dessous est le capital liquide (1 an de salaire)
+        "Phase2_Armor_Set": chosen_armor_set["name"] if chosen_armor_set else "Aucune",
+        "Phase2_Armor_Cost_BP": round(armor_cost_bp, 1),
 
-        # Achats supplémentaires effectués avec le capital (montures, charettes, armure, etc.)
-        # === NOUVEAU : Achats avec capital restant (phase bouclier/armes/monture) ===
-        "Remaining_Equipment_Purchases": [p["name"] for p in post_purchases.get("purchases", [])],
-        "Remaining_Equipment_Spent_BP": post_purchases.get("total_spent_bp", 0),
-        "Final_Pocket_Money_BP": post_purchases.get("final_remaining_bp", remaining_capital_after_armor),
-        "Has_Mount_After_Armor": any("rouncey" in p["name"].lower() or "mule" in p["name"].lower() or "pony" in p["name"].lower() or "courser" in p["name"].lower() for p in post_purchases.get("purchases", [])),
+        "Phase3_Mount": chosen_mount["name"] if chosen_mount else "Aucune",
+        "Phase3_Mount_Cost_BP": round(mount_cost_bp, 1),
+
+        "Remaining_Equipment_Purchases": (chosen_kit["items"] if chosen_kit else []) or [p["name"] for p in post_purchases.get("purchases", [])],
+        "Remaining_Equipment_Spent_BP": round(kit_spent_sp * 10, 1) if chosen_kit else post_purchases.get("total_spent_bp", 0),
+        "Final_Pocket_Money_BP": post_purchases.get("final_remaining_bp", max(0, int(round(remaining_after_phases * 10)))),
+        "Has_Mount": bool(chosen_mount),
+
+        # === 100 kits XV siecle Cote des Epees EN + free survival kit only ===
+        "Prebuilt_Kit_Tier": chosen_kit["kit_id"] if chosen_kit else None,
+        "Prebuilt_Kit_Cost_Sp": round(kit_spent_sp, 1),
+        "Prebuilt_Kit_Items": chosen_kit["items"] if chosen_kit else [],
+
+        # === Main equipment display column ===
+        "Armes_et_Bouclier": chosen_weapon_kit["name"] if chosen_weapon_kit else "Aucun",
+
+        # For main.py splitting (free survival + 80kit gear as the "purchased" equipment)
+        "Post_Kit_Purchases": chosen_kit["items"] if chosen_kit else [],
 
         "Special": data.get("spec", "Aucun"),
     }

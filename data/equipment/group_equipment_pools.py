@@ -12,6 +12,8 @@ premier-tests-grokvsc/data/equipment/systeme groupe/*_Equipement_Complet.txt
 
 from typing import Dict, List, TypedDict
 
+from . import groupe1_prices as grp_prices
+
 
 class EquipmentItem(TypedDict):
     name: str

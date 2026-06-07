@@ -5,12 +5,12 @@ Système économique régional pour le calcul des salaires médians et du capita
 
 RÈGLES (cohérentes avec les fichiers DAILY WAGES & WORTH CHART + listes d'équipement) :
 - Salaire médian défini manuellement par région (pas de "niveaux techno" purs, Faerûn est hybride).
-- Capital de départ cible : **1 an** de salaire médian local (≈ 300 jours effectifs).
+- Capital de départ cible : **3 ans** de salaire médian local (≈ 300 jours effectifs par an).
 - Le kit de base régional (équipement porté + 14 jours de rations) est **fourni gratuitement** à la création.
 - TOUT est calculé en bronze pieces (bp) Rolemaster (même unité que les kits d'équipement).
 - Pas de référence D&D gp dans les calculs finaux.
 
-Le capital (1 an) représente l'argent liquide + capacité à faire des achats supplémentaires
+Le capital (3 ans) représente l'argent liquide + capacité à faire des achats supplémentaires
 (montures, charettes, armure supérieure, etc.) avant de quitter son lieu d'origine.
 """
 
@@ -60,140 +60,140 @@ SETTLEMENT_WAGE_MULTIPLIER: Dict[str, float] = {
 
 REGION_MEDIAN_DAILY_WAGE_GP: Dict[str, float] = {
     # === Centres économiques majeurs (très riches) ===
-    "Waterdeep": 0.28,
-    "Baldur's Gate": 0.24,
-    "Sembia": 0.26,
-    "Calimshan": 0.22,
-    "Lantan": 0.32,           # Plus avancé technologiquement
-    "Halruaa": 0.25,
+    "Waterdeep": 0.56,
+    "Baldur's Gate": 0.48,
+    "Sembia": 0.52,
+    "Calimshan": 0.44,
+    "Lantan": 0.64,           # Plus avancé technologiquement
+    "Halruaa": 0.50,
 
     # === Régions riches / fortement commerçantes ===
-    "Amn": 0.18,
-    "Cormyr": 0.17,
-    "Tethyr": 0.16,
-    "Impiltur": 0.15,
-    "Turmish": 0.15,
-    "Vilhon Reach": 0.16,
-    "Chondath": 0.14,
-    "Chessenta": 0.15,
+    "Amn": 0.36,
+    "Cormyr": 0.34,
+    "Tethyr": 0.32,
+    "Impiltur": 0.30,
+    "Turmish": 0.30,
+    "Vilhon Reach": 0.32,
+    "Chondath": 0.28,
+    "Chessenta": 0.30,
 
     # === Régions moyennes / civilisées classiques ===
-    "The Dalelands": 0.11,
-    "Moonsea": 0.12,
-    "Aglarond": 0.10,
-    "Damara": 0.09,
-    "The Shaar": 0.09,
-    "Lake of Steam": 0.11,
-    "Border Kingdoms": 0.10,
-    "Luiren": 0.11,
-    "Mulhorand": 0.12,
-    "Unther": 0.10,
-    "Rashemen": 0.09,
-    "Thesk": 0.12,
+    "The Dalelands": 0.22,
+    "Moonsea": 0.24,
+    "Aglarond": 0.20,
+    "Damara": 0.18,
+    "The Shaar": 0.18,
+    "Lake of Steam": 0.22,
+    "Border Kingdoms": 0.20,
+    "Luiren": 0.22,
+    "Mulhorand": 0.24,
+    "Unther": 0.20,
+    "Rashemen": 0.18,
+    "Thesk": 0.24,
 
     # === Régions plus pauvres ou frontalières ===
-    "Vaasa": 0.06,
-    "Icewind Dale": 0.05,
-    "Le Nord (The North)": 0.07,
-    "Spine of the World": 0.05,
-    "Anauroch": 0.06,
-    "Chult": 0.07,
-    "Jungle de Mhair": 0.06,
-    "Hordelands (The Endless Wastes)": 0.05,
-    "Great Glacier": 0.03,
-    "Sossal": 0.04,
+    "Vaasa": 0.12,
+    "Icewind Dale": 0.10,
+    "Le Nord (The North)": 0.14,
+    "Spine of the World": 0.10,
+    "Anauroch": 0.12,
+    "Chult": 0.14,
+    "Jungle de Mhair": 0.12,
+    "Hordelands (The Endless Wastes)": 0.10,
+    "Great Glacier": 0.06,
+    "Sossal": 0.08,
 
     # === Régions spéciales / instables ===
-    "Thay": 0.13,             # Riche mais très inégalitaire
-    "Evermeet": 0.18,         # Riche mais isolée
-    "Underdark": 0.09,        # Très variable selon la cité
-    "Kara-Tur": 0.14,
+    "Thay": 0.26,             # Riche mais très inégalitaire
+    "Evermeet": 0.36,         # Riche mais isolée
+    "Underdark": 0.18,        # Très variable selon la cité
+    "Kara-Tur": 0.28,
 
     # === Régions 51+ (souvent plus spécifiques ou sauvages) ===
-    "Old Empires": 0.10,
-    "Unapproachable East": 0.09,
-    "Western Heartlands": 0.11,
-    "Sword Coast": 0.13,
-    "Sword Coast North": 0.08,
-    "Dragon Coast": 0.12,
-    "Great Glacier": 0.03,
-    "Inner Sea (Sea of Fallen Stars)": 0.12,
-    "Dambrath": 0.08,
-    "Estagund": 0.09,
-    "Var the Golden": 0.10,
-    "Shaarmid": 0.09,
-    "Thindol": 0.07,
-    "Samarach": 0.07,
-    "Tashalar": 0.10,
-    "The Shining South": 0.09,
-    "Ymber": 0.06,
-    "Nelanther Isles": 0.08,
-    "The Whalebones": 0.05,
-    "The Trackless Sea": 0.06,
-    "The Cold Lands": 0.05,
-    "The Endless Wastes": 0.05,
-    "The Great Dale": 0.08,
-    "The Plateau of Thay": 0.11,
-    "The Easting Reach": 0.10,
-    "The Forgotten Forest": 0.07,
-    "The Lone Rock": 0.06,
-    "The Reaching Woods": 0.08,
-    "The Thunder Peaks": 0.09,
-    "The Ride": 0.07,
-    "Aglarondine": 0.09,
-    "Bedine": 0.05,
-    "Barakuir": 0.07,
-    "Chondalwood": 0.06,
-    "Citadelles du Nord": 0.08,
-    "Cité Drow": 0.10,
-    "Cité Souterraine Mixte": 0.08,
-    "Eauprofonde": 0.09,
-    "Épine dorsale (Nains arctiques)": 0.06,
-    "Forêt d’Amtar / Methwood": 0.07,
-    "Forteresses isolées": 0.07,
-    "Gracklstugh": 0.09,
-    "Grande Faille": 0.08,
-    "Grand Glacier": 0.03,
-    "Glacière éternelle": 0.03,
-    "Ruathym": 0.07,
-    "Luirwood": 0.06,
-    "Myth Drannor": 0.08,
-    "Evereska": 0.12,
-    "Valbise": 0.07,
-    "Vallée de la Flamme": 0.06,
-    "Les Vaux": 0.08,
-    "Vast": 0.09,
-    "Zakharans": 0.10,
-    "Pics Gris": 0.05,
-    "Outreterre tropicale": 0.06,
-    "Forêts du Nord (Gnomes)": 0.07,
-    "Éternelle-Rencontre": 0.09,
-    "Lunargent": 0.10,
-    "Bois de Yuir": 0.08,
-    "Montagnes du Shaar": 0.07,
-    "Vil Adanrath": 0.05,
-    "Tymanther": 0.09,
-    "Icerim Mountains": 0.04,
-    "Montagnes Theskiennes": 0.07,
-    "Montagnes de Cuivre": 0.08,
-    "Kara-Tur": 0.14,
-    "Pics de Mir": 0.06,
-    "Bois de Shaar": 0.06,
-    "Outreterre profonde": 0.07,
-    "Lycanthropes": 0.05,
-    "Wemics": 0.04,
-    "Yuan-ti": 0.06,
-    "Centaure": 0.05,
-    "Homme-lézard": 0.04,
-    "Tanarukks": 0.05,
-    "Fey’ri": 0.07,
-    "Sagespectres": 0.06,
-    "Vaillants": 0.08,
-    "Kir-lanan": 0.05,
-    "Reflets (Shades)": 0.07,
+    "Old Empires": 0.20,
+    "Unapproachable East": 0.18,
+    "Western Heartlands": 0.22,
+    "Sword Coast": 0.26,
+    "Sword Coast North": 0.16,
+    "Dragon Coast": 0.24,
+    "Great Glacier": 0.06,
+    "Inner Sea (Sea of Fallen Stars)": 0.24,
+    "Dambrath": 0.16,
+    "Estagund": 0.18,
+    "Var the Golden": 0.20,
+    "Shaarmid": 0.18,
+    "Thindol": 0.14,
+    "Samarach": 0.14,
+    "Tashalar": 0.20,
+    "The Shining South": 0.18,
+    "Ymber": 0.12,
+    "Nelanther Isles": 0.16,
+    "The Whalebones": 0.10,
+    "The Trackless Sea": 0.12,
+    "The Cold Lands": 0.10,
+    "The Endless Wastes": 0.10,
+    "The Great Dale": 0.16,
+    "The Plateau of Thay": 0.22,
+    "The Easting Reach": 0.20,
+    "The Forgotten Forest": 0.14,
+    "The Lone Rock": 0.12,
+    "The Reaching Woods": 0.16,
+    "The Thunder Peaks": 0.18,
+    "The Ride": 0.14,
+    "Aglarondine": 0.18,
+    "Bedine": 0.10,
+    "Barakuir": 0.14,
+    "Chondalwood": 0.12,
+    "Citadelles du Nord": 0.16,
+    "Cité Drow": 0.20,
+    "Cité Souterraine Mixte": 0.16,
+    "Eauprofonde": 0.18,
+    "Épine dorsale (Nains arctiques)": 0.12,
+    "Forêt d’Amtar / Methwood": 0.14,
+    "Forteresses isolées": 0.14,
+    "Gracklstugh": 0.18,
+    "Grande Faille": 0.16,
+    "Grand Glacier": 0.06,
+    "Glacière éternelle": 0.06,
+    "Ruathym": 0.14,
+    "Luirwood": 0.12,
+    "Myth Drannor": 0.16,
+    "Evereska": 0.24,
+    "Valbise": 0.14,
+    "Vallée de la Flamme": 0.12,
+    "Les Vaux": 0.16,
+    "Vast": 0.18,
+    "Zakharans": 0.20,
+    "Pics Gris": 0.10,
+    "Outreterre tropicale": 0.12,
+    "Forêts du Nord (Gnomes)": 0.14,
+    "Éternelle-Rencontre": 0.18,
+    "Lunargent": 0.20,
+    "Bois de Yuir": 0.16,
+    "Montagnes du Shaar": 0.14,
+    "Vil Adanrath": 0.10,
+    "Tymanther": 0.18,
+    "Icerim Mountains": 0.08,
+    "Montagnes Theskiennes": 0.14,
+    "Montagnes de Cuivre": 0.16,
+    "Kara-Tur": 0.28,
+    "Pics de Mir": 0.12,
+    "Bois de Shaar": 0.12,
+    "Outreterre profonde": 0.14,
+    "Lycanthropes": 0.10,
+    "Wemics": 0.08,
+    "Yuan-ti": 0.12,
+    "Centaure": 0.10,
+    "Homme-lézard": 0.08,
+    "Tanarukks": 0.10,
+    "Fey’ri": 0.14,
+    "Sagespectres": 0.12,
+    "Vaillants": 0.16,
+    "Kir-lanan": 0.10,
+    "Reflets (Shades)": 0.14,
 
     # Fallback
-    "Default": 0.08,
+    "Default": 0.16,
 }
 
 # =============================================================================
@@ -275,8 +275,11 @@ REGION_TECH_LEVEL: Dict[str, int] = {
 # =============================================================================
 # Les valeurs REGION_MEDIAN_DAILY_WAGE_GP sont des "unités abstraites".
 # On les convertit en bronze pieces (bp) Rolemaster pour cohérence avec les kits.
-# Le capital final correspond à 1 an de salaire local.
+# Le capital final correspond à N années de salaire local.
 CAPITAL_BP_MULTIPLIER = 40.0
+
+# Nombre d'années de salaire qui constituent le capital de départ d'un personnage
+STARTING_CAPITAL_YEARS = 3
 
 
 def get_median_daily_wage(region_name: str, settlement_type: str) -> float:
@@ -308,23 +311,18 @@ def calculate_starting_capital(
     """
     Calcule le capital de départ visé pour un personnage "aisé mais pas riche".
 
-    Cible : 1 an de salaire médian local, exprimé en bronze pieces (bp) Rolemaster.
+    Cible : 3 ans de salaire médian local, **exprimé directement en pièces d'argent (sp)**.
+    Plus de conversion intermédiaire en bronze pieces (bp).
     Le kit de base régional est fourni gratuitement (ne réduit pas ce capital).
     """
     daily_wage = get_median_daily_wage(region_name, settlement_type)
 
-    # 1 an de salaire (300 jours effectifs)
-    # 300 jours/an est conservateur (maladies, fêtes, voyages, etc.)
-    annual_wage = daily_wage * 300
-
-    # Conversion en bp réels + variance
-    capital = annual_wage * CAPITAL_BP_MULTIPLIER
+    # 3 ans de salaire (300 jours effectifs par an)
+    DAYS_PER_YEAR = 300
+    capital = daily_wage * DAYS_PER_YEAR * STARTING_CAPITAL_YEARS
 
     if variance:
         capital *= random.uniform(0.80, 1.20)
-
-    # Minimum absolu décent (même un miséreux du Grand Glacier a de quoi survivre)
-    capital = max(80, capital)
 
     return int(round(capital))
 
@@ -341,7 +339,8 @@ def get_economic_summary(region_name: str, settlement_type: str) -> dict:
         "median_daily_wage_abstract": daily_abstract,
         "median_daily_wage_bp": daily_bp,
         "estimated_annual_wage_bp": round(daily_bp * 300),
-        "target_starting_capital_1year_bp": capital,
+        "target_starting_capital": capital,
+        "years": STARTING_CAPITAL_YEARS,
     }
 
 
@@ -404,7 +403,7 @@ if __name__ == "__main__":
         print(f"Région      : {region}")
         print(f"Settlement  : {settlement}")
         print(f"Salaire/jour : {summary['median_daily_wage_bp']:.1f} bp")
-        print(f"Capital 1 an (sans variance) : {capital} bp")
+        print(f"Capital {summary.get('years', 3)} ans (sans variance) : {capital} bp")
         print(f"Kit régional (gratuit) : {check['kit_cost_bp']} bp")
         print(f"Capital restant pour achats supplémentaires : {capital} bp")
         print("-" * 60)

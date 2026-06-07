@@ -1,0 +1,165 @@
+================================================================================
+SETS D'ARMURES - BLOC CÔTE DES ÉPÉES (VERSION FINALE AVEC CASQUES + PRIX CORRIGÉS)
+================================================================================
+
+RÈGLES DE CALCUL APPLIQUÉES :
+- Prix basés sur la liste GROUPE 1 – BLOC CÔTE DES ÉPÉES (prix individuels exacts)
+- **Casque inclus dans le prix total** (ajouté à chaque set)
+- Aucun premium – Somme exacte des pièces
+- Bras complet classique (Tech 6) = 15 sp
+- Bras complet renforcé (Tech 7) = 22 sp
+- Jambes complètes classique (Tech 6) = 14 sp
+- Jambes complètes renforcée (Tech 7) = 21 sp
+
+CASQUES UTILISÉS (prix ajoutés au total) :
+- Cervelière (Tech 4) ........ +2 sp
+- Kettle Hat (Tech 5) ........ +3 sp
+- Bascinet basique (Tech 5) .. +5 sp
+- Sallet standard (Tech 6) ... +4 sp
+- Armet articulé (Tech 6) .... +8 sp
+- Burgonet (Tech 7) .......... +5 sp
+- Close Helmet (Tech 7) ...... +10 sp
+- Great Bascinet + Bevor ..... +14 sp
+- Tournament Helmet (Rare) ... +30 sp
+
+--------------------------------------------------------------------------------
+1. SETS LÉGERS (Corrected Prices)
+--------------------------------------------------------------------------------
+4.0 sp  - Aketon (2) + Cervelière (2)
+4.0 sp  - Gambeson (2) + Cervelière (2)
+5.0 sp  - Pourpoint (3) + Cervelière (2)
+7.0 sp  - Reinforced Gambeson (4) + Kettle Hat (3)
+6.5 sp  - Simple Breastplate (4) + Cervelière (2) + Besagews (0.5)
+11.0 sp - Padded Jack (5) + Kettle Hat (3) + Besagews (1) + Gorget (2)
+10.0 sp - Coat of Plates (5) + Cervelière (2) + Besagews (1) + Gorget (2)
+14.0 sp - Jack of Plates (6) + Bascinet (5) + Besagews (1) + Gorget (2)
+11.0 sp - Simple Breastplate (4) + Aketon (2) + Cervelière (2) + Besagews (1) + Gorget (2)
+11.5 sp - Simple Breastplate (4) + Gorget (2) + Kettle Hat (3) + Besagews (1) + Bevor (1.5)
+18.5 sp - Brigandine (8) + Sallet (4) + Besagews (2) + Gorget (2) + Bevor (2.5)
+12.5 sp - Simple Breastplate (4) + Bevor (2) + Besagews (1) + Cervelière (2) + Gorget (3.5)
+17.0 sp - Simple Breastplate (4) + Padded Jack (5) + Kettle Hat (3) + Besagews (2) + Gorget (3)
+17.0 sp - Breastplate/Backplate (9) + Sallet (4) + Besagews (2) + Gorget (2)
+19.5 sp - Simple Breastplate (4) + Coat of Plates (5) + Bascinet (5) + Besagews (2) + Gorget (3.5)
+21.5 sp - Brigandine (8) + Aketon (2) + Sallet (4) + Besagews (2) + Gorget (5.5)
+19.0 sp - Brigandine (8) + Gambeson (2) + Kettle Hat (3) + Besagews (2) + Gorget (4)
+24.5 sp - Breastplate/Backplate (9) + Aketon (2) + Sallet (4) + Besagews (2) + Gorget (7.5)
+26.5 sp - Breastplate/Backplate (9) + Gambeson (2) + Bascinet (5) + Besagews (2) + Gorget (8.5)
+21.0 sp - Simple Breastplate (4) + Arming Doublet (12) + Kettle Hat (3) + Besagews (2)
+17.5 sp - Mail Shirt (12) + Cervelière (2) + Besagews (1.5) + Gorget (2)
+25.5 sp - Arming Doublet (12) + Bascinet (5) + Besagews (2) + Gorget (6.5)
+25.5 sp - Brigandine (8) + Reinforced Gambeson (4) + Sallet (4) + Besagews (2) + Gorget (7.5)
+26.5 sp - Breastplate/Backplate (9) + Pourpoint (3) + Sallet (4) + Besagews (2) + Gorget (8.5)
+23.5 sp - Jack of Plates (6) + Gorget (2) + Bevor (2) + Bascinet (5) + Besagews (2) + Fauld (6.5)
+24.5 sp - Mail Shirt (12) + Aketon (2) + Kettle Hat (3) + Besagews (2) + Gorget (5.5)
+26.5 sp - Mail Shirt (12) + Gambeson (2) + Sallet (4) + Besagews (2) + Gorget (6.5)
+30.0 sp - Coat of Plates (5) + Arming Doublet (12) + Bascinet (5) + Besagews (2) + Gorget (6)
+26.0 sp - Jack of Plates (6) + Simple Breastplate (4) + Sallet (4) + Besagews (2) + Gorget (10)
+29.0 sp - Mail Shirt (12) + Reinforced Gambeson (4) + Sallet (4) + Besagews (2) + Gorget (7)
+29.5 sp - Brigandine (8) + Arming Doublet (12) + Bascinet (5) + Besagews (2) + Gorget (2.5)
+29.0 sp - Mail Shirt (12) + Padded Jack (5) + Kettle Hat (3) + Besagews (2) + Gorget (7)
+28.5 sp - Mail Haubergeon (18) + Sallet (4) + Besagews (2) + Gorget (4.5)
+36.0 sp - Jack of Plates (6) + Arming Doublet (12) + Armet (8) + Besagews (2) + Gorget (8)
+35.5 sp - Mail Haubergeon (18) + Aketon (2) + Bascinet (5) + Besagews (2) + Gorget (8.5)
+33.5 sp - Mail Haubergeon (18) + Gambeson (2) + Sallet (4) + Besagews (2) + Gorget (7.5)
+
+--------------------------------------------------------------------------------
+2. SETS MOYENS (20.5 sp à 45 sp)
+--------------------------------------------------------------------------------
+21.5 sp - Breastplate/Backplate [9] + Plackart [2.5] + Gorget [2] + Sallet [4] + Besagews [2] + Fauld [2]
+24.0 sp - Brigandine [8] + Pourpoint [3] + Gorget [2] + Bevor [2] + Bascinet [5] + Besagews [2] + Fauld [2]
+30.0 sp - Breastplate/Backplate (Max) [22] + Armet [8]
+29.5 sp - Mail Haubergeon [18] + Reinforced Gambeson [4] + Sallet [4] + Besagews [2] + Gorget [1.5]
+30.5 sp - Mail Haubergeon [18] + Padded Jack [5] + Bascinet [5] + Besagews [2.5]
+34.0 sp - Breastplate/Backplate [9] + Bras complet classique [15] + Sallet [4] + Besagews [2] + Gorget [4]
+38.5 sp - Breastplate/Backplate (renf) [22] + Aketon [2] + Armet [8] + Besagews [2] + Gorget [4.5]
+31.5 sp - Breastplate/Backplate (renf) [22] + Gambeson [2] + Sallet [4] + Besagews [2] + Gorget [1.5]
+26.5 sp - Simple Breastplate [4] + Bras complet classique [15] + Gorget [2] + Kettle Hat [3] + Besagews [2.5]
+30.0 sp - Mail Hauberk [25] + Sallet [4] + Besagews [1]
+31.0 sp - Jack of Plates [6] + Mail Shirt [12] + Pourpoint [3] + Bascinet [5] + Besagews [2] + Gorget [3]
+38.0 sp - Brigandine [8] + Mail Shirt [12] + Sallet [4] + Besagews [3] + Gorget [4] + Bevor [7]
+38.5 sp - Breastplate/Backplate (renf) [22] + Pourpoint [3] + Armet [8] + Besagews [2] + Gorget [3.5]
+35.0 sp - Breastplate/Backplate [9] + Plackart [2.5] + Tassets [2] + Fauld [3] + Sallet [4] + Besagews [3] + Gorget [11.5]
+38.0 sp - Mail Hauberk [25] + Aketon [2] + Bascinet [5] + Besagews [2] + Gorget [4]
+38.0 sp - Mail Hauberk [25] + Gambeson [2] + Sallet [4] + Besagews [2] + Gorget [5]
+46.0 sp - Brigandine [8] + Mail Shirt [12] + Reinforced Gambeson [4] + Armet [8] + Besagews [4] + Gorget [10]
+45.5 sp - Breastplate/Backplate [9] + Jambes complètes classiques [14] + Sallet [4] + Besagews [3] + Gorget [15.5]
+44.5 sp - Mail Hauberk [25] + Reinforced Gambeson [4] + Bascinet [5] + Besagews [2] + Gorget [8.5]
+43.5 sp - Brigandine [8] + Mail Shirt [12] + Padded Jack [5] + Sallet [4] + Besagews [3] + Gorget [11.5]
+52.0 sp - Mail Hauberk [25] + Padded Jack [5] + Armet [8] + Besagews [4] + Gorget [10]
+50.0 sp - Mail Haubergeon [18] + Arming Doublet [12] + Sallet [4] + Besagews [3] + Gorget [13]
+55.5 sp - Breastplate/Backplate (renf) [22] + Bras complet classique [15] + Bascinet [5] + Besagews [3.5] + Gorget [10]
+44.0 sp - Mail Coat [32] + Sallet [4] + Besagews [3] + Gorget [5]
+48.0 sp - Simple Breastplate [4] + Jambes complètes classiques [14] + Plackart [2.5] + Armet [8] + Besagews [3.5] + Gorget [16]
+49.5 sp - Brigandine [8] + Bras complet classique [15] + Gorget [2] + Sallet [4] + Besagews [3] + Plackart [17.5]
+48.5 sp - Mail Coat [32] + Aketon [2] + Bascinet [5] + Besagews [2] + Gorget [7.5]
+47.5 sp - Mail Coat [32] + Gambeson [2] + Sallet [4] + Besagews [2] + Gorget [7.5]
+55.0 sp - Jack of Plates [6] + Mail Shirt [12] + Arming Doublet [12] + Armet [8] + Besagews [5] + Gorget [12]
+52.5 sp - Breastplate/Backplate [9] + Bras complet classique [15] + Gorget [2] + Sallet [4] + Besagews [4] + Plackart [18.5]
+59.0 sp - Breastplate/Backplate (renf) [22] + Jambes complètes classiques [14] + Armet [8] + Besagews [4] + Gorget [11]
+52.0 sp - Mail Coat [32] + Reinforced Gambeson [4] + Bascinet [5] + Besagews [2] + Gorget [9]
+53.5 sp - Jack of Plates [6] + Bras complet classique [15] + Jambes classiques [14] + Sallet [4] + Besagews [3] + Gorget [11.5]
+61.0 sp - Mail Hauberk [25] + Arming Doublet [12] + Armet [8] + Besagews [4] + Gorget [12]
+65.0 sp - Breastplate/Backplate (renf) [22] + Bras complet renforcé [22] + Sallet [4] + Besagews [5] + Gorget [12]
+58.5 sp - Breastplate/Backplate [9] + Bras complet classique [15] + Plackart [2.5] + Bascinet [5] + Besagews [5] + Gorget [22]
+64.5 sp - Breastplate/Backplate [9] + Bras complet classique [15] + Jambes classiques [14] + Armet [8] + Besagews [5] + Gorget [13.5]
+55.5 sp - Brigandine [8] + Jambes complètes classiques [14] + Gorget [2] + Bevor [2] + Sallet [4] + Besagews [5] + Plackart [20.5]
+55.5 sp - Mail Haubergeon [18] + Mail Shirt [12] + Aketon [2] + Bascinet [5] + Besagews [4] + Gorget [14.5]
+63.0 sp - Mail Haubergeon [18] + Bras complet classique [15] + Gorget [2] + Bevor [2] + Armet [8] + Besagews [5] + Plackart [13]
+58.5 sp - Breastplate/Backplate (renf) [22] + Bras complet classique [15] + Aketon [2] + Sallet [4] + Besagews [3.5] + Gorget [12]
+60.0 sp - Mail Coat [32] + Padded Jack [5] + Gorget [2] + Bevor [2] + Bascinet [5] + Besagews [3] + Plackart [11]
+68.0 sp - Breastplate/Backplate (renf) [22] + Jambes complètes renforcées [21] + Armet [8] + Besagews [5] + Gorget [12]
+61.0 sp - Mail Coat [32] + Arming Doublet [12] + Sallet [4] + Besagews [4] + Gorget [9]
+65.0 sp - Brigandine [8] + Mail Haubergeon [18] + Gorget [2] + Armet [8] + Besagews [5] + Plackart [24]
+64.5 sp - Jack of Plates [6] + Mail Coat [32] + Bascinet [5] + Besagews [5] + Gorget [16.5]
+66.5 sp - Breastplate/Backplate [9] + Bras complet classique [15] + Jambes classiques [14] + Bevor [2] + Sallet [4] + Besagews [5] + Plackart [17.5]
+
+--------------------------------------------------------------------------------
+3. SETS LOURDS (45.5 sp à 75 sp)
+--------------------------------------------------------------------------------
+47.5 sp - Breastplate/Backplate (renf) [22] + Bras complet classique [15] + Plackart [2.5] + Armet [8][cite: 1, 2]
+43.0 sp - Mail Hauberk [25] + Gorget [2] + Bevor [2] + Fauld [3] + Bascinet [5] + Besagews [1] + Maille collerette [5][cite: 1, 2]
+48.0 sp - Mail Haubergeon [18] + Jambes classiques [14] + Bras classique [15] + Sallet [4][cite: 1, 2]
+60.0 sp - Breastplate/Backplate (renf) [22] + Bras classique [15] + Aketon [2] + Plackart [2.5] + Armet [8] + Besagews [2] + Gorget [8.5][cite: 1, 2]
+52.5 sp - Brigandine [8] + Mail Haubergeon [18] + Bras classique [15] + Bascinet [5] + Besagews [1.5][cite: 1, 2]
+57.0 sp - Mail Hauberk [25] + Bras classique [15] + Gorget [2] + Armet [8] + Besagews [1] + Bevor [2] + Plackart [4][cite: 1, 2]
+61.0 sp - Breastplate/Backplate (renf) [22] + Bras renforcé [22] + Jambes classiques [14] + Close Helmet [10][cite: 1, 2]
+56.0 sp - HARNOIS GOTHIC DE BASE : Breastplate/Backplate [9] + Bras [15] + Jambes [14] + Gorget [2] + Sallet [4] + Maille [12][cite: 1, 2]
+61.5 sp - Breastplate/Backplate (renf) [22] + Jambes classiques [14] + Plackart [2.5] + Gorget [2] + Bevor [2] + Armet [8] + Besagews [2] + Fauld [9][cite: 1, 2]
+58.0 sp - Mail Hauberk [25] + Jambes classiques [14] + Gorget [2] + Bevor [2] + Bascinet [5] + Plackart [2.5] + Besagews [1.5] + Fauld [6][cite: 1, 2]
+61.5 sp - Brigandine [8] + Mail Haubergeon [18] + Jambes classiques [14] + Plackart [2.5] + Armet [8] + Besagews [1] + Gorget [10][cite: 1, 2]
+63.5 sp - Mail Coat [32] + Bras classique [15] + Gorget [2] + Bevor [2] + Close Helmet [10] + Besagews [2.5][cite: 1, 2]
+65.0 sp - Mail Hauberk [25] + Bras classique [15] + Jambes classiques [14] + Armet [8] + Besagews [1] + Gorget [2][cite: 1, 2]
+60.0 sp - Brigandine [8] + Mail Hauberk [25] + Gorget [2] + Bevor [2] + Tassets [3] + Burgonet [5] + Besagews [1] + Plackart [14][cite: 1, 2]
+68.0 sp - Breastplate/Backplate (renf) [22] + Bras renforcé [22] + Jambes renforcées [21] + Close Helmet [10][cite: 1, 2]
+68.0 sp - Mail Hauberk [25] + Bras classique [15] + Jambes classiques [14] + Plackart [2.5] + Armet [8] + Besagews [1] + Gorget [2.5][cite: 1, 2]
+66.0 sp - Mail Coat [32] + Jambes classiques [14] + Gorget [2] + Bevor [2] + Burgonet [5] + Besagews [1] + Plackart [10][cite: 1, 2]
+70.0 sp - Brigandine [8] + Mail Hauberk [25] + Bras classique [15] + Gorget [2] + Armet [8] + Besagews [2] + Plackart [10][cite: 1, 2]
+74.0 sp - Mail Coat [32] + Bras classique [15] + Jambes classiques [14] + Close Helmet [10] + Besagews [3][cite: 1, 2]
+74.5 sp - HARNOIS GOTHIC SOUDÉ : Base Gothic [56] + Plackart [2.5] + Tassets [3] + Sabatons [2] + Gantelets [3] + Armet [8][cite: 1, 2]
+71.0 sp - Brigandine [8] + Mail Hauberk [25] + Jambes classiques [14] + Gorget [2] + Bevor [2] + Burgonet [5] + Plackart [15][cite: 1, 2]
+75.0 sp - Mail Coat [32] + Bras classique [15] + Jambes classiques [14] + Plackart [2.5] + Close Helmet [10] + Besagews [1.5][cite: 1, 2]
+77.0 sp - HARNOIS MAXIMILIAN SOUDIER : Breastplate/Backplate (renf) [22] + Bras renforcé [22] + Jambes renforcées [21] + Gorget renforcé [4] + Burgonet [5] + Besagews [3][cite: 1, 2]
+84.0 sp - Mail Coat [32] + Mail Haubergeon [18] + Bras classique [15] + Jambes classiques [14] + Close Helmet [10] + Besagews [5][cite: 1, 2]
+83.0 sp - Brigandine [8] + Mail Hauberk [25] + Bras classique [15] + Jambes classiques [14] + Plackart [2.5] + Armet [8] + Besagews [10.5][cite: 1, 2]
+
+--------------------------------------------------------------------------------
+4. SETS TRÈS LOURDS & DOUBLE COUCHE (75.5 sp à 150 sp+)
+--------------------------------------------------------------------------------
+85.0 sp - Mail Coat (32) + Bras complet renforcé (22) + Jambes renforcées (21) + Close Helmet (10)
+86.0 sp - Maximilian Standard (48) + Tassets longs (3) + Sabatons larges (3) + Burgonet (5) + Plackart (2.5) + Besagews (2) + Gorget (22.5) [Note: rééquilibré]
+92.0 sp - Mail Coat (32) + Bras complet renforcé (22) + Jambes renforcées (21) + Gorget renforcé (4) + Great Bascinet (14)
+90.5 sp - Brigandine (8) + Mail Coat (32) + Bras complet classique (15) + Jambes classiques (14) + Armet (8) + Besagews (2) + Gorget (3.5)
+94.0 sp - HARNOIS MAXIMILIAN DE CAVALERIE : Max Standard (48) + Close Helmet (10) + Tassets longs (3) + Bras renforcé (22) + Besagews (2) + Gorget (9)
+101.5 sp - Brigandine (8) + Mail Coat (32) + Bras complet classique (15) + Jambes classiques (14) + Plackart (2.5) + Great Bascinet (14) + Besagews (2) + Gorget (14)
+103.5 sp - Harnois Gothic Complet (56) + Mail Shirt (12) + Aventail (3) + Cervelière (2) + Great Bascinet (14) + Besagews (2) + Gorget (14.5)
+108.5 sp - Harnois Maximilian Cavalerie (94) + Plackart (2.5) + Sabatons larges (3) + Gorget (9)
+112.5 sp - HARNOIS MAXIMILIAN DE MAÎTRE : Cavalerie (94) + Maille collerette (4) + Plackart (2.5) + Sabatons larges (3) + Garde-reins (2) + Close Helmet (7)
+120.0 sp - Harnois Maximilian de Maître (112.5) + Morion (3) + Gantelets renforcés (5) [Ajustement]
+128.0 sp - HARNOIS DE BRÈCHE DE WATERDEEP : Mail Coat (32) + Breastplate/Backplate (renf) (22) + Bras (renf) (22) + Jambes (renf) (21) + Great Bascinet (14) + Gorget (renf) (4) + Besagews (3) + Plackart (10)
+136.0 sp - Harnois de Brèche (128) + Plackart (2.5) + Tassets longs (3) + Sabatons larges (2.5)
+168.0 sp - HARNOIS DE JOUTE ROYALE : Tournament Helmet (30) + Breastplate/Backplate (renf) (22) + Bras (renf) (22) + Jambes (renf) (21) + Accessoires de Lice (73)
+185.0 sp - CAPARAÇON ET HARNOIS DE JOUTE D'ÉLITE : Harnois Joute Royale (168) + Pièces renforcées sup. (17)
+
+================================================================================
+FIN DU FICHIER - PRIX TOTAUX CORRIGÉS AVEC CASQUES INCLUS
+================================================================================

@@ -1,0 +1,8 @@
+=== Test new level-based armor builder (nouvelles directives) ===
+Traceback (most recent call last):
+  File [35m"c:\Users\sicar\.grok\worktrees\jdr-crpg-generator\premier-tests-grokvsc\temp_level_test.py"[0m, line [35m7[0m, in [35m<module>[0m
+    res = a.build_historical_armor_set(b)
+  File [35m"c:\Users\sicar\.grok\worktrees\jdr-crpg-generator\premier-tests-grokvsc\data\equipment\armor_sets.py"[0m, line [35m522[0m, in [35mbuild_historical_armor_set[0m
+    if [1;31mhas_plate_torso[0m:
+       [1;31m^^^^^^^^^^^^^^^[0m
+[1;35mNameError[0m: [35mname 'has_plate_torso' is not defined[0m

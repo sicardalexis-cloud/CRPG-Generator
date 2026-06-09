@@ -1,4 +1,5 @@
-OBJETS DONT LE PRIX EST INFERIEUR A 450 SP (44 PO OU MOINS)
+OBJETS DONT LE PRIX EST INFERIEUR A 450 SP (44 PO OU MOINS) 
+(Quelques projectiles magiques +3 dépassent ce seuil pour budgets élevés)
 
 --- CONSOMMABLES ---
 Bead of Nourishment (Common): 30 sp
@@ -22,6 +23,24 @@ Potion of Heroism (Rare): 270 sp
 Chime of Opening (Rare): 280 sp
 Universal Solvent (Legendary): 310 sp
 Ammunition +2 (10x) (Rare): 400 sp
+
+--- PROJECTILES MAGIQUES LEGERS (par piece, pour kits à faible capital) ---
+Arrows +1 (Uncommon): 11 sp
+Crossbow Bolts +1 (Uncommon): 11 sp
+Sling Bullets +1 (Uncommon): 11 sp
+Javelins +1 (Uncommon): 11 sp
+Darts +1 (Uncommon): 11 sp
+Arrows +2 (Rare): 40 sp
+Crossbow Bolts +2 (Rare): 40 sp
+Sling Bullets +2 (Rare): 40 sp
+Javelins +2 (Rare): 40 sp
+Darts +2 (Rare): 40 sp
+Arrows +3 (Very Rare): 130 sp
+Crossbow Bolts +3 (Very Rare): 130 sp
+Sling Bullets +3 (Very Rare): 130 sp
+Javelins +3 (Very Rare): 130 sp
+Darts +3 (Very Rare): 130 sp
+
 Pierre à aiguiser enchantée (Common): 200 sp
 Chandelle de lumière éternelle (Common): 50 sp
 Plume à encre infinie (Common): 80 sp

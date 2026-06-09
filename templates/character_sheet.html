@@ -267,7 +267,7 @@
             <h2>Skills 
                 <span class="skill-mod">
                     {% if character.Skill_Modifier >= 0 %}+{{ character.Skill_Modifier }}{% else %}{{ character.Skill_Modifier }}{% endif %}
-                </span>
+                </span> ; specialisations :
             </h2>
             <strong>Outdoor :</strong> {{ character.Outdoor_Skills|join(" | ") }}<br><br>
             <strong>Urban :</strong> {{ character.Urban_Skills|join(" | ") }}

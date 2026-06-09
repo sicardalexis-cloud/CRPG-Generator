@@ -15,9 +15,19 @@ from data.equipment.regional_economy import calculate_starting_capital
 from data.equipment import regional_adventurer_kits as regional_kits
 from data.equipment import post_kit_purchases as post_kit
 # Note: old armor builder / prebuilts / protocol removed per upgrade.
-# Equipment now: free universal survival kit (0 cost to capital) + one max-affordable from the appropriate 100-kits file.
-#   - Default: 100_kits_XV_siecle_Cote_des_Epees_EN (1).txt
+# Equipment now: free universal survival kit (0 cost to capital) + one (smartly chosen) affordable 100-kit.
+# Kit file selection:
+#   - Default: 100_kits_XV_siecle_Cote_des_Epees_EN (1).txt   ← (you just updated this one)
 #   - Théurgique + Magie Verte (druids): 100_Kits_Druide_Complete_100kits.txt
+#   - Arcanique / Magicien: 100_Magician_Kits .txt
+#
+# Smart selection rules (applied after loading the appropriate kit list):
+#   - If (Projectiles - Melee) > 3 → prioritize the most expensive affordable kit that contains a projectile weapon.
+#   - If (Melee - Projectiles) > 3 → prioritize the most expensive affordable kit that is melee/close-combat oriented
+#     (melee weapons + armor, no ranged weapons).
+#   - Otherwise → most expensive affordable kit overall.
+#
+# The chosen kit file name is recorded in "Prebuilt_Kit_Source" (visible in CSV exports).
 from skill_data import generate_skills
 from knowledge_data import generate_secondary_skills
 from rules import (
@@ -186,6 +196,117 @@ def select_most_expensive_affordable_kit(capital_sp: float, kits: list) -> Optio
     return max(affordable, key=lambda k: k["price_sp"])
 
 
+def _kit_has_projectile_weapon(kit: dict) -> bool:
+    """Check if a kit contains at least one projectile/ranged weapon (bow, crossbow, sling, etc.)."""
+    if not kit or not kit.get("items"):
+        return False
+    items_lower = [it.lower() for it in kit["items"]]
+    projectile_keywords = [
+        "bow", "longbow", "short bow", "crossbow", "light crossbow",
+        "sling", "sling bullet", "arrows", "crossbow bolts",
+        "dart", "javelin", "sling staff",
+    ]
+    return any(
+        any(kw in item for kw in projectile_keywords)
+        for item in items_lower
+    )
+
+
+def _kit_is_melee_oriented(kit: dict) -> bool:
+    """Return True if the kit is focused on close combat (melee weapons + armor, no projectile weapons)."""
+    if not kit or not kit.get("items"):
+        return False
+    items_lower = [it.lower() for it in kit["items"]]
+    melee_keywords = [
+        "sword", "arming sword", "broadsword", "falchion", "messer",
+        "axe", "hand axe", "francisca", "poleaxe", "halberd", "bill", "glaive", "military fork",
+        "mace", "hammer", "war hammer", "lucerne hammer",
+        "spear", "pike", "quarterstaff",
+        "shield", "buckler", "targe", "great targe", "heater shield", "kite shield",
+        "armor", "brigandine", "plate", "mail", "gambeson", "jack", "doublet", "aketon",
+        "club", "staff",
+    ]
+    has_melee = any(any(kw in item for kw in melee_keywords) for item in items_lower)
+    has_ranged = _kit_has_projectile_weapon(kit)
+    return has_melee and not has_ranged
+
+
+def _is_magic_light_projectile(name: str) -> bool:
+    """True only for the individual per-piece magic light projectiles (Arrows +x etc.).
+    The generic 'Ammunition +1 (10x)' packs are NOT filtered by this logic.
+    """
+    n = name.lower()
+    return any(prefix in n for prefix in ("arrows +", "crossbow bolts +", "sling bullets +", "javelins +", "darts +"))
+
+
+def _get_ranged_ammo_types(kit: dict) -> set[str]:
+    """Return which specific ammo categories this kit supports.
+    Used to decide 'the right magic ammunitions' when the character has ranged weapons.
+    Avoids false positives like 'crossbow' containing 'bow'.
+    """
+    if not kit or not kit.get("items"):
+        return set()
+    text = " ".join(kit.get("items", [])).lower()
+    types = set()
+
+    # Crossbow first (more specific) to avoid "bow" substring match
+    if any(kw in text for kw in ("crossbow", "crossbow bolts")):
+        types.add("crossbow_bolts")
+
+    # Bows: explicit long/short bow or "bow" that is not part of crossbow
+    if any(kw in text for kw in ("longbow", "short bow", " shortbow", "arrows")) or \
+       ("bow" in text and "crossbow" not in text):
+        types.add("arrows")
+
+    if "sling" in text:
+        types.add("sling_bullets")
+    if "javelin" in text:
+        types.add("javelins")
+    if "dart" in text:
+        types.add("darts")
+    return types
+
+
+def _is_magic_item_allowed_for_kit(item: dict, kit: dict | None) -> bool:
+    """Apply the rule:
+    - If the character/kit has NO ranged weapons → only magic sling bullets, darts or javelins.
+    - If the character HAS a ranged weapon → only the matching ("right") magic ammunition types.
+    Non light-projectile magic items (potions, wands, generic packs, etc.) are always allowed.
+    """
+    name = item.get("name", "")
+    if not _is_magic_light_projectile(name):
+        return True
+
+    if not kit:
+        # Extreme low-capital case (no kit purchased): conservative, only standalone usable
+        n = name.lower()
+        return any(x in n for x in ("sling bullets", "darts", "javelins"))
+
+    has_ranged_weapon = _kit_has_projectile_weapon(kit)
+    n = name.lower()
+
+    if not has_ranged_weapon:
+        # No ranged weapon in the kit → restrict to sling bullets / darts / javelins
+        return any(x in n for x in ("sling bullets", "darts", "javelins"))
+
+    # Has at least one ranged weapon → only the right ammo for what is present.
+    ranged_types = _get_ranged_ammo_types(kit)
+
+    if "arrows +" in n:
+        return "arrows" in ranged_types
+    if "crossbow bolts +" in n:
+        return "crossbow_bolts" in ranged_types
+    if "sling bullets +" in n:
+        return "sling_bullets" in ranged_types
+    if "javelins +" in n:
+        # Thrown javelins are flexible even for other ranged-focused characters
+        return True
+    if "darts +" in n:
+        return True
+
+    return True
+
+
 # ====================== STARTING MAGIC ITEMS ======================
 def _load_starting_magic_items() -> list[dict]:
     """Parse the starting magic items list. Returns [{'name': str, 'price': int}, ...]"""
@@ -215,24 +336,76 @@ def _load_starting_magic_items() -> list[dict]:
     return items
 
 
-def _select_starting_magic_items(budget: int) -> list[dict]:
-    """Randomly select items whose total price <= budget (greedy after shuffle)."""
+def _get_rarity_weight(name: str) -> float:
+    """Return a selection weight based on rarity.
+    Common items are heavily favored over Rare / Very Rare / Legendary.
+    """
+    n = name.lower()
+    if "(common)" in n or "(n/a)" in n:
+        return 12.0
+    if "(uncommon)" in n:
+        return 6.0
+    if "(rare)" in n:
+        return 2.2
+    if "(very rare)" in n:
+        return 0.7
+    if "(legendary)" in n:
+        return 0.2
+    return 6.0  # unknown → treat as uncommon
+
+
+def _select_starting_magic_items(budget: int, kit: dict | None = None) -> list[dict]:
+    """
+    Weighted-by-rarity selection of starting magic items.
+
+    1. Budget = max(0, (900 - starting_capital) // 2)
+    2. Filter items affordable with current budget.
+    3. NEW: If a kit is provided, filter the affordable pool using kit-aware rules
+       for the per-piece magic light projectiles (see _is_magic_item_allowed_for_kit):
+         - No ranged weapons in kit → only magic sling bullets, darts, javelins.
+         - Has ranged weapon(s) → only the matching ammo type(s) for the weapon(s) present.
+       All other magic items (potions, wands, generic ammunition packs, etc.) are unaffected.
+    4. While there are still affordable items and budget left:
+         - Perform a *weighted* random choice using _get_rarity_weight
+           (Common items have much higher weight than Rare/Very Rare/Legendary).
+         - If the chosen item fits in the remaining budget, take it.
+         - In all cases, remove the considered item from the pool
+           (this prevents repeatedly trying an expensive Rare that no
+           longer fits and gives other items a chance).
+    5. Stop when no more items can be picked.
+
+    Result: Common items are selected far more often than Rare ones.
+    "Chime of Opening (Rare)" and other high-rarity utility items will
+    appear significantly less frequently than with pure random shuffle.
+    """
     if budget <= 0:
         return []
     all_items = _load_starting_magic_items()
     if not all_items:
         return []
     affordable = [it for it in all_items if it["price"] <= budget]
+    if kit is not None:
+        affordable = [it for it in affordable if _is_magic_item_allowed_for_kit(it, kit)]
     if not affordable:
         return []
+
     import random
-    random.shuffle(affordable)
     selected = []
     remaining = budget
-    for item in affordable:
-        if item["price"] <= remaining:
-            selected.append(item)
-            remaining -= item["price"]
+
+    while affordable and remaining > 0:
+        weights = [_get_rarity_weight(it["name"]) for it in affordable]
+        # random.choices supports weights and returns a list of length k
+        chosen_list = random.choices(affordable, weights=weights, k=1)
+        chosen = chosen_list[0]
+
+        if chosen["price"] <= remaining:
+            selected.append(chosen)
+            remaining -= chosen["price"]
+
+        # Always remove the considered item so we don't loop on unaffordable Rares
+        affordable.remove(chosen)
+
     return selected
 
 
@@ -351,9 +524,12 @@ def generate_character(char_id: str = "TEMP", level: int = 1):
     )
 
     # ====================== STARTING CAPITAL (pièces d'argent par niveau de personnage) ======================
-    # - Base: ~50 sp par niveau (ajusté par région + settlement via regional_economy).
+    # - Base: ~125 sp par niveau (2.5 ans de salaire local, ajusté par région + settlement).
     # - Free universal survival kit (always given, cost 0 to capital).
-    # - Then pick the most expensive affordable 100-kit from the XVe kit list.
+    # - Smart kit selection:
+    #     * If Projectiles > Melee + 3 → prioritize kit with projectile weapon.
+    #     * If Melee > Projectiles + 3 → prioritize melee/close-combat oriented kit (armor + melee weapons).
+    #     * Otherwise → most expensive affordable kit.
     # - Remaining money after kit = Final_Pocket_Money (in BP for now).
     starting_capital = calculate_starting_capital(
         region_name=region_name,
@@ -363,12 +539,37 @@ def generate_character(char_id: str = "TEMP", level: int = 1):
     )
 
     # ====================== STARTING MAGIC OBJECTS ======================
-    # Budget = (900 - starting_capital) / 2   (in sp)
-    # Items chosen from the "starting magic items.txt" list, total price <= budget
+    # Budget = max(0, (900 - starting_capital) // 2) sp
+    #
+    # Selection protocol (see _select_starting_magic_items for the code):
+    #   1. Compute budget from (900 - capital) / 2
+    #   2. Keep only items whose price <= budget ("affordable" pool)
+    #   3. Shuffle the affordable pool in random order
+    #   4. Walk the shuffled list and greedily add an item if it still fits
+    #      in the remaining budget.
+    #
+    # This produces a variable number of items whose total price <= budget.
+    # It often results in 1 relatively expensive "notable" item + several
+    # cheap fillers (because of the random shuffle + greedy fill).
+    #
+    # This is why you frequently see "Chime of Opening (Rare)" (280 sp):
+    # - It is one of the more expensive single items in the list.
+    # - For many characters the budget is >= 280 sp (starting capital <= ~620 sp).
+    # - Once it is in the affordable pool, the random permutation gives it
+    #   a fair chance to be taken early enough that the remaining budget
+    #   still allows other cheap items.
+    #
+    # The selected items are stored in:
+    #   - character["Starting_Magic_Items"]   (list of formatted strings)
+    #   - character["Magic_Item_Budget"]
+    # They are appended to the "Armes_et_Bouclier" column in the CSV
+    # (not in "Magic_And_Spells" anymore, per your earlier request).
+    #
+    # IMPORTANT: actual selection (with kit-aware filtering of magic projectiles)
+    # is performed AFTER kit choice, so we know what ranged weapons (if any) the
+    # character has. See the block after kit processing + _is_magic_item_allowed_for_kit.
     magic_budget = max(0, (900 - starting_capital) // 2)
-    starting_magic_items = []
-    if magic_budget > 0:
-        starting_magic_items = _select_starting_magic_items(magic_budget)
+    starting_magic_items: list[dict] = []   # filled after kit selection below
 
     # Free survival kit (always; does not reduce the starting capital)
     kit_items = regional_kits.get_universal_starting_kit()
@@ -381,7 +582,34 @@ def generate_character(char_id: str = "TEMP", level: int = 1):
         magic_info.get("subtype", "")
     )
     kits = load_100_kits_file(kit_file_path)
-    chosen_kit = select_most_expensive_affordable_kit(starting_capital, kits)
+
+    # New rule: if the character is significantly better with projectiles than melee,
+    # prioritize kits that include a projectile weapon (bow, crossbow, sling...).
+    affordable = [k for k in kits if k["price_sp"] <= starting_capital + 0.0001]
+    if not affordable:
+        chosen_kit = None
+    else:
+        ranged_biased = (projectiles - melee) > 3
+        melee_biased = (melee - projectiles) > 3
+        if ranged_biased:
+            ranged_kits = [k for k in affordable if _kit_has_projectile_weapon(k)]
+            if ranged_kits:
+                chosen_kit = max(ranged_kits, key=lambda k: k["price_sp"])
+            else:
+                chosen_kit = max(affordable, key=lambda k: k["price_sp"])
+        elif melee_biased:
+            # Prefer close-combat / melee-oriented kits when the character is significantly better in melee
+            melee_kits = [k for k in affordable if _kit_is_melee_oriented(k)]
+            if melee_kits:
+                chosen_kit = max(melee_kits, key=lambda k: k["price_sp"])
+            else:
+                chosen_kit = max(affordable, key=lambda k: k["price_sp"])
+        else:
+            chosen_kit = max(affordable, key=lambda k: k["price_sp"])
+
+    # Record which kit list was actually used (useful when maintaining several kit files)
+    if chosen_kit is not None:
+        chosen_kit["source_file"] = kit_file_path.name if kit_file_path else "unknown"
 
     kit_spent_sp = chosen_kit["price_sp"] if chosen_kit else 0.0
     capital_left = max(0.0, float(starting_capital) - kit_spent_sp)
@@ -453,6 +681,15 @@ def generate_character(char_id: str = "TEMP", level: int = 1):
     }
 
     remaining_after_phases = capital_left
+
+    # ====================== STARTING MAGIC ITEMS (after kit: kit-aware ammo filtering) ======================
+    # Now that we know the final chosen_kit (and thus whether it contains bows, crossbows,
+    # slings, javelins, darts etc.), we can select magic items while respecting the rule:
+    # - No ranged weapons in kit → only magic sling bullets / darts / javelins.
+    # - Has ranged weapon → only the correct matching magic ammunition.
+    starting_magic_items = []
+    if magic_budget > 0:
+        starting_magic_items = _select_starting_magic_items(magic_budget, kit=chosen_kit)
 
     # ====================== SKILLS ======================
     skills_data = generate_skills(
@@ -565,6 +802,7 @@ def generate_character(char_id: str = "TEMP", level: int = 1):
         "Prebuilt_Kit_Tier": chosen_kit["kit_id"] if chosen_kit else None,
         "Prebuilt_Kit_Cost_Sp": round(kit_spent_sp, 1),
         "Prebuilt_Kit_Items": chosen_kit["items"] if chosen_kit else [],
+        "Prebuilt_Kit_Source": chosen_kit.get("source_file") if chosen_kit else None,
 
         # === Main equipment display column ===
         "Armes_et_Bouclier": chosen_weapon_kit["name"] if chosen_weapon_kit else "Aucun",

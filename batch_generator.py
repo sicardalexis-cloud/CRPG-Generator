@@ -75,7 +75,8 @@ def generate_batch(
         "Armes_et_Bouclier",
         "Final_Pocket_Money_BP",
         "Prebuilt_Kit_Tier",
-        "Prebuilt_Kit_Cost_Sp"
+        "Prebuilt_Kit_Cost_Sp",
+        "Prebuilt_Kit_Source"
     ]
 
     with open(filename, mode='w', newline='', encoding='utf-8') as f:
@@ -135,7 +136,8 @@ def generate_batch(
                 "Armes_et_Bouclier": _build_armes_et_bouclier(char),
                 "Final_Pocket_Money_BP": char.get("Final_Pocket_Money_BP", 0),
                 "Prebuilt_Kit_Tier": char.get("Prebuilt_Kit_Tier", ""),
-                "Prebuilt_Kit_Cost_Sp": char.get("Prebuilt_Kit_Cost_Sp", 0)
+                "Prebuilt_Kit_Cost_Sp": char.get("Prebuilt_Kit_Cost_Sp", 0),
+                "Prebuilt_Kit_Source": char.get("Prebuilt_Kit_Source", "")
             }
             writer.writerow(row)
 

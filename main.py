@@ -91,6 +91,7 @@ def generate_batch(
         
         "Prebuilt_Kit_Tier",
         "Prebuilt_Kit_Cost_Sp",
+        "Prebuilt_Kit_Source",
         
         # Combat & Magie
         "Combat_Points", 
@@ -167,6 +168,7 @@ def generate_batch(
                 
                 "Prebuilt_Kit_Tier": char.get("Prebuilt_Kit_Tier", ""),
                 "Prebuilt_Kit_Cost_Sp": char.get("Prebuilt_Kit_Cost_Sp", 0),
+                "Prebuilt_Kit_Source": char.get("Prebuilt_Kit_Source", ""),
                 
                 "Combat_Points": char["Combat_Points"],
                 "Magic": char["Magic"],

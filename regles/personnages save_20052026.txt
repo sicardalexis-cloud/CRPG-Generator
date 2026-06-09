@@ -49,6 +49,11 @@ Objets magiques de départ:
 - Budget = max(0, (900 - Starting_Capital) // 2) sp
 - Sélection aléatoire (shuffle + greedy) depuis "starting magic items.txt" (tous <450 sp)
 - Ajoutés à la colonne Armes_et_Bouclier dans le CSV (format "Nom (XX sp)")
+- Projectiles légers magiques par pièce (pas en lots de 10) : Arrows/Crossbow Bolts/Sling Bullets/Javelins/Darts +1 (11 sp Uncommon), +2 (40 sp Rare), +3 (130 sp Very Rare). Idéal pour persos bas-capital / orientés Projectiles.
+- Filtrage intelligent selon le kit :
+  - Si le kit ne contient AUCUNE arme à distance (pas de bow/crossbow/sling/javelin/dart) → seulement les magic sling bullets, darts ou javelins.
+  - Si le kit contient une arme à distance → uniquement les munitions magiques correspondantes ("the right magic ammunitions") : arrows pour arc, crossbow bolts pour arbalète, sling bullets pour fronde, etc. (javelins/darts restent souvent autorisés comme armes de jet flexibles).
+- Les autres objets magiques (potions, wands, packs génériques Ammunition +x (10x), etc.) ne sont pas affectés par ce filtrage.
 
 Magic_And_Spells (colonne CSV):
 - Uniquement les sorts pour les Magicien (séparés par " | ")

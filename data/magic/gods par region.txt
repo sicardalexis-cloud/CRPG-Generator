@@ -1,0 +1,164 @@
+	Divinités selon regions / hierrachie de proportions	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+1	Aglarondine (Aglarond)	Mystra	Selûne	Chauntea	Lathander	Mielikki	Silvanus	Azuth	Eldath	Tymora	Sune	Oghma	Deneir	Milil	Helm	Torm	Tyr	Ilmater	Savras	Leira	Shaundakul
+2	Amnienne (Amn)	Waukeen	Chauntea	lathander	Sune	Helm	Tyr	Torm	Mystra	Azuth	Bane	Mask	Tymora	Oghma	Deneir	Milil	Shar	Ilmater	Nobanion	Talona	Umberlee
+3	Avant-postes miniers (nain gris)	Moradin	Clangeddin	Berronar	Dumathoïn	Gorm Gulthyn	Abbathor	Vergadain	Sharindlar	Thard Harr	Dugmaren	Helm	Tempus	Tyr	Torm	Ilmater	Gond	Deneir	Oghma	Azuth	Savras
+4	Bedines	Shaundakul	Selûne	Tempus	Akadi	Grumbar	Ilmater	lathander	Mask	Tymora	Talos	Shar	Mystra	Azuth	Eldath	Silvanus	Chauntea	Torm	Tyr	Sune	Leira
+5	Border Kingdoms	Tempus	Silvanus	Mystra	Chauntea	lathander	Helm	Torm	Tyr	Sune	Tymora	Azuth	Oghma	Deneir	Milil	Eldath	Mielikki	Ilmater	Savras	Leira	Waukeen
+6	Barakuir	Moradin	Clangeddin	Berronar	dumathoïn	Gorm Gulthyn	Abbathor	Vergadain	Dugmaren	Sharindlar	Thard Harr	Helm	Torm	Tyr	Ilmater	Gond	Tempus	Azuth	Deneir	Oghma	Savras
+7	Calimshan	Sharess	Akadi	Grumbar	Istishia	Kossuth	Waukeen	Sune	lathander	Mask	Bane	Cyric	Shar	Selûne	Tymora	Azuth	Mystra	Talona	Umberlee	Ilmater	Torm
+8	Chessentane (Chessenta)	Tempus	Torm	Tyr	Helm	lathander	Chauntea	Mystra	Azuth	Bane	Nobanion	Sune	Tymora	Oghma	Deneir	Milil	Ilmater	Savras	Leira	Waukeen	Talos
+9	Chondath (Vilhon Reach)	Waukeen	Chauntea	lathander	Sune	Helm	Tyr	Torm	Mystra	Azuth	Oghma	Deneir	Milil	Eldath	Silvanus	Mielikki	Ilmater	Savras	Leira	Shaundakul	Tempus
+10	Chondalwood (communauté ghostwise halfing)	Rillifane	Sheela Peryroyl	Mielikki	Silvanus	Eldath	Chauntea	Baervan	Gwaeron Windstrom	Labelas	Corellon	Tymora	Sune	lathander	Mystra	Azuth	Leira	Shaundakul	Deneir	Oghma	Fenmarel
+11	Chultane	Ubtao	Thard Harr	Eshowdow	Sune	Tymora	Talona	Umberlee	Akadi	Grumbar	Kossuth	Istishia	Selûne	Shar	lathander	Chauntea	Eldath	Silvanus	Mielikki	Gond	Ilmater
+12	Citadelles du Nord (communauté naine)	Moradin	Clangeddin	Berronar	dumathoïn	Gorm Gulthyn	Abbathor	Vergadain	Dugmaren	Sharindlar	Thard Harr	Helm	Torm	Tyr	Ilmater	Gond	Tempus	Azuth	Deneir	Oghma	Savras
+13	Cité Drow (esclave)	Lolth	Vhaeraun	Kiaransalee	Selvetarm	Eilistraée	Ghaunadaur	Mask	Shar	Talona	Loviatar	Bane	Cyric	Leira	Azuth	Mystra	Shaundakul	Ilmater	Helm	Torm	Tyr
+14	Cité Souterraine Mixte	Lolth	Moradin	Ghaunadaur	dumathoïn	Vhaeraun	Clangeddin	Abbathor	Selvetarm	Eilistraée	Sharindlar	Helm	Torm	Tyr	Ilmater	Gond	Azuth	Mystra	Oghma	Deneir	Savras
+15	Cormyrienne	Mystra	Azuth	Chauntea	lathander	Helm	Torm	Tyr	Sune	Tymora	Oghma	Deneir	Milil	Eldath	Silvanus	Mielikki	Ilmater	Savras	Leira	Waukeen	Tempus
+16	Damaranne	Ilmater	Torm	Tyr	Helm	lathander	Chauntea	Mystra	Azuth	Sune	Tymora	Oghma	Deneir	Milil	Eldath	Silvanus	Mielikki	Savras	Leira	Tempus	Waukeen
+17	Eauprofonde / Côte des Épées	Mystra	Azuth	Selûne	Shar	Tymora	Sune	lathander	Chauntea	Helm	Torm	Tyr	Ilmater	Oghma	Deneir	Milil	Gond	Savras	Leira	Shaundakul	Umberlee
+18	Epine dorsale du monde (tribus nains arctiques)	Moradin	Clangeddin	Berronar	dumathoïn	Gorm Gulthyn	Abbathor	Vergadain	Dugmaren	Sharindlar	Thard Harr	Tempus	Auril	Talos	Helm	Torm	Tyr	Ilmater	Gond	Azuth	Savras
+19	Forêt d’Amtar / Methwood (clans de halfings ghostwise)	Rillifane	Sheela Peryroyl	Baervan	Mielikki	Silvanus	Eldath	Gwaeron Windstrom	Chauntea	Yondalla	Brandobaris	Tymora	lathander	Corellon	Labelas	Mystra	Azuth	Leira	Shaundakul	Deneir	Oghma
+20	Forteresses isolées (Nains gris)	Laduguer	Duerra	Abbathor	dumathoïn	Gorm Gulthyn	Vergadain	Shar	Loviatar	Talona	Mask	Bane	Cyric	Ilmater	Helm	Torm	Tyr	Gond	Azuth	Deneir	Savras
+21	Gracklstugh (communauté nains gris)	Laduguer	Duerra	Abbathor	dumathoïn	Gorm Gulthyn	Vergadain	Shar	Loviatar	Talona	Mask	Bane	Cyric	Ilmater	Helm	Torm	Tyr	Gond	Azuth	Deneir	Savras
+22	Grande Faille (communauté de nains)	Moradin	Clangeddin	Berronar	dumathoïn	Gorm Gulthyn	Abbathor	Vergadain	Dugmaren	Sharindlar	Thard Harr	Helm	Torm	Tyr	Ilmater	Gond	Tempus	Azuth	Deneir	Oghma	Savras
+23	Grand Glacier (clan nains arctiques)	Moradin	Clangeddin	dumathoïn	Gorm Gulthyn	Thard Harr	Auril	Tempus	Helm	Tyr	Ilmater	Gond	Abbathor	Vergadain	Dugmaren	Sharindlar	Azuth	Deneir	Oghma	Savras	Talos
+24	Glacière éternelle (nains arctiques)	Moradin	Clangeddin	dumathoïn	Gorm Gulthyn	Auril	Tempus	Helm	Tyr	Ilmater	Gond	Thard Harr	Abbathor	Vergadain	Dugmaren	Sharindlar	Azuth	Deneir	Oghma	Savras	Talos
+25	Halruéens	Mystra	Azuth	Savras	Leira	Chauntea	Lathander	Sune	Tymora	Oghma	Deneir	Milil	Gond	Selûne	Shar	Mask	Waukeen	Torm	Tyr	Ilmater	Eldath
+26	Imaskari	Mystra	Azuth	Savras	Leira	Shar	Oghma	Deneir	Gond	Bane	Cyric	Mask	Loviatar	Talona	Helm	Torm	Tyr	Ilmater	Sune	Tymora	Chauntea
+27	Îles de la mer inviolée / Ruathym (communauté illuskiens)	Tempus	Umberlee	Talos	Auril	Valkur	Helm	Tyr	Torm	Ilmater	Chauntea	Lathander	Sune	Tymora	Mystra	Azuth	Oghma	Deneir	Milil	Gond	Shar
+28	Luiren (halfings)	Yondalla	Sheela Peryroyl	Brandobaris	Cyrrollalee	Chauntea	Baervan	Gwaeron Windstrom	Mielikki	Silvanus	Eldath	Tymora	Sune	Lathander	Mystra	Azuth	Leira	Deneir	Oghma	Savras	Mask
+29	Luskan	Tempus	Umberlee	Talos	Auril	Valkur	Helm	Tyr	Torm	Ilmater	Bane	Cyric	Mask	Shar	Mystra	Azuth	Oghma	Deneir	Gond	Sune	Tymora
+30	Moonsea	Bane	Cyric	Tempus	Tyr	Torm	Helm	Ilmater	Mystra	Azuth	Shar	Mask	Loviatar	Talona	Sune	Tymora	Oghma	Deneir	Gond	Savras	Chauntea
+31	Moonshaene (Îles Moonshae)	Mother Nature	Chauntea	Silvanus	Mielikki	Eldath	Lathander	Sune	Tymora	Selûne	Mystra	Azuth	Leira	Oghma	Deneir	Milil	Gond	Torm	Tyr	Ilmater	Ilmater
+32	Mulhorandi (Mulhorand)	Horus-Re	Isis	Osiris	Set	Thoth	Anhur	Bast	Nephthys	Sebek	Mystra	Azuth	Savras	Helm	Torm	Tyr	Ilmater	Chauntea	Lathander	Sune	Tymora
+33	Narfell	Loviatar	Talona	Beshaba	Shar	Tempus	Auril	Cyric	Mask	Ilmater	Helm	Torm	Tyr	Chauntea	Lathander	Sune	Tymora	Mystra	Azuth	Oghma	Deneir
+34	Nexalans (Maztica)	Qotal	Zaltec	Maztica	Chauntea	Lathander	Sune	Tymora	Talona	Selûne	Shar	Mystra	Azuth	Leira	Oghma	Deneir	Milil	Gond	Ilmater	Torm	Tyr
+35	Northlander (Régions de Luskan, Îles Brisées)	Tempus	Umberlee	Talos	Auril	Valkur	Helm	Tyr	Torm	Ilmater	Chauntea	Lathander	Sune	Tymora	Mystra	Azuth	Oghma	Deneir	Gond	Shar	Mask
+36	Nomade (Communautée humaine)	Shaundakul	Akadi	Grumbar	Kossuth	Istishia	Tempus	Lathander	Chauntea	Sune	Tymora	Selûne	Shar	Mask	Ilmater	Helm	Torm	Tyr	Mystra	Azuth	Oghma
+37	Outreterre nordique (profondeurs gelées, communauté naine arctique)	Moradin	Clangeddin	dumathoïn	Gorm Gulthyn	Thard Harr	Auril	Tempus	Helm	Tyr	Ilmater	Gond	Abbathor	Vergadain	Dugmaren	Sharindlar	Azuth	Deneir	Oghma	Savras	Talos
+38	Outreterre (communauté naine)	Moradin	Clangeddin	Berronar	dumathoïn	Gorm Gulthyn	Abbathor	Vergadain	Dugmaren	Sharindlar	Thard Harr	Helm	Torm	Tyr	Ilmater	Gond	Tempus	Azuth	Deneir	Oghma	Savras
+39	Forêt de Wealdath (Suldanessellar)	Rillifane	Corellon	Sehanine	Labelas	Fenmarel	Aerdrie Faenya	Solonor	Eilistraée	Hanali	Shevarash	Mystra	Azuth	Leira	Sune	Tymora	Lathander	Chauntea	Eldath	Mielikki	Silvanus
+40	Reghedmen	Tempus	Auril	Talos	Umberlee	Valkur	Helm	Tyr	Torm	Ilmater	Chauntea	Lathander	Sune	Tymora	Selûne	Shar	Mask	Mystra	Azuth	Oghma	Deneir
+41	Neverwinter	Helm	Tyr	Torm	Ilmater	Chauntea	Lathander	Sune	Tymora	Selûne	Mystra	Azuth	Oghma	Deneir	Gond	Waukeen	Milil	Mask	Shar	Tempus	Eldath
+42	Régions côtières de la Mer des Glaces Mouvantes (tribues nomades humaines)	Auril	Tempus	Talos	Umberlee	Valkur	Chauntea	Lathander	Sune	Tymora	Selûne	Shar	Mask	Ilmater	Helm	Torm	Tyr	Mystra	Azuth	Oghma	Deneir
+43	Samarachienne (Samarach)	Ubtao	Eshowdow	Thard Harr	Chauntea	Lathander	Sune	Tymora	Selûne	Mystra	Azuth	Leira	Oghma	Deneir	Gond	Eldath	Mielikki	Silvanus	Mask	Shar	Waukeen
+44	Sembienne (Sembie)	Waukeen	Helm	Tyr	Torm	Ilmater	Chauntea	Lathander	Sune	Tymora	Selûne	Mystra	Azuth	Oghma	Deneir	Gond	Mask	Shar	Milil	Leira	Savras
+45	Shaarane (Shaar)	Shaundakul	Akadi	Grumbar	Kossuth	Istishia	Tempus	Lathander	Chauntea	Sune	Tymora	Selûne	Shar	Mask	Ilmater	Helm	Torm	Tyr	Mystra	Azuth	Oghma
+46	Shou, (Kara-Tur)	Kwan Ying	Ai Ching	Chih Shih	hsing	Sung Chiang	Sung Chiang	Lei Kung	Tien Mu	Tien Wang	Tien Ming	Mystra	Azuth	Selûne	Shar	Mask	Chauntea	Lathander	Sune	Tymora	Oghma
+47	Sossaline (Sossal)	Auril	Tempus	Talos	Umberlee	Valkur	Helm	Tyr	Torm	Ilmater	Chauntea	Lathander	Sune	Tymora	Selûne	Shar	Mask	Mystra	Azuth	Oghma	Deneir
+48	Tashalarienne (Tashalar)	Ubtao	Thard Harr	Chauntea	Lathander	Sune	Tymora	Selûne	Mystra	Azuth	Leira	Oghma	Deneir	Gond	Eldath	Mielikki	Silvanus	Mask	Shar	Waukeen	Milil
+49	Téthyrienne (Téthyr)	Helm	Tyr	Torm	Ilmater	Chauntea	Lathander	Sune	Tymora	Selûne	Mystra	Azuth	Oghma	Deneir	Gond	Waukeen	Milil	Mask	Shar	Eldath	Mielikki
+50	Thayenne (Thay)	Bane	Cyric	Shar	Mask	Loviatar	Talona	Mystra	Azuth	Leira	Savras	Oghma	Deneir	Gond	Helm	Tyr	Torm	Ilmater	Chauntea	Lathander	Sune
+51	Theskienne (Thesk)	Helm	Tyr	Torm	Ilmater	Chauntea	Lathander	Sune	Tymora	Selûne	Mystra	Azuth	Oghma	Deneir	Gond	Waukeen	Milil	Mask	Shar	Eldath	Mielikki
+52	Thindolienne (Thindol)	Ubtao	Eshowdow	Thard Harr	Chauntea	Lathander	Sune	Tymora	Selûne	Mystra	Azuth	Leira	Oghma	Deneir	Gond	Eldath	Mielikki	Silvanus	Mask	Shar	Waukeen
+53	Turami	Shaundakul	Akadi	Grumbar	Kossuth	Istishia	Tempus	Lathander	Chauntea	Sune	Tymora	Selûne	Shar	Mask	Ilmater	Helm	Torm	Tyr	Mystra	Azuth	Oghma
+54	Turmishane (Turmish)	Helm	Tyr	Torm	Ilmater	Chauntea	Lathander	Sune	Tymora	Selûne	Mystra	Azuth	Oghma	Deneir	Gond	Waukeen	Milil	Mask	Shar	Eldath	Mielikki
+55	Ulutiens	Auril	Tempus	Talos	Umberlee	Valkur	Helm	Tyr	Torm	Ilmater	Chauntea	Lathander	Sune	Tymora	Selûne	Shar	Mask	Mystra	Azuth	Oghma	Deneir
+56	Unthérique (Unther)	Enlil	Ishtar	Nergal	Ramman	Ki	Ninurta	Tiamat	Gilgeam	Mystra	Azuth	Savras	Helm	Tyr	Torm	Ilmater	Chauntea	Lathander	Sune	Tymora	Oghma
+57	Uthgardt (tribus barbares)	Uthgar	Tempus	Talos	Auril	Valkur	Helm	Tyr	Torm	Ilmater	Chauntea	Lathander	Sune	Tymora	Selûne	Shar	Mask	Mielikki	Silvanus	Eldath	Gond
+58	Vaassienne (Vaasa)	Bane	Cyric	Talos	Auril	Tempus	Shar	Mask	Loviatar	Helm	Tyr	Torm	Ilmater	Mystra	Azuth	Oghma	Deneir	Gond	Chauntea	Lathander	Tymora
+59	Valbise (illuskans)	Tempus	Valkur	Talos	Auril	Umberlee	Helm	Tyr	Torm	Ilmater	Chauntea	Lathander	Sune	Tymora	Selûne	Shar	Mask	Mystra	Azuth	Oghma	Deneir
+60	Vallée de la Flamme( communauté naine)	Moradin	Clangeddin	dumathoïn	Gorm Gulthyn	Abbathor	Vergadain	Dugmaren	Sharindlar	Thard Harr	Tempus	Helm	Tyr	Torm	Ilmater	Gond	Azuth	Deneir	Oghma	Savras	Talos
+61	Vaux (les vaux) (chondathan)	Helm	Tyr	Torm	Ilmater	Chauntea	Lathander	Sune	Tymora	Selûne	Mystra	Azuth	Oghma	Deneir	Gond	Waukeen	Milil	Mask	Shar	Eldath	Mielikki
+62	Vastienne (le Vast) (chondathan, damaran)	Helm	Tyr	Torm	Ilmater	Chauntea	Lathander	Sune	Tymora	Selûne	Mystra	Azuth	Oghma	Deneir	Gond	Waukeen	Milil	Mask	Shar	Eldath	Mielikki
+63	Jungle de Mhair/ Péninsule Lapalienne	Ubtao	Eshowdow	Thard Harr	Chauntea	Lathander	Sune	Tymora	Selûne	Mystra	Azuth	Leira	Oghma	Deneir	Gond	Eldath	Mielikki	Silvanus	Mask	Shar	Waukeen
+64	Zakharans (Zakhara)	Zann	Hakiyah	Najm	Jisan	Kor	Haku	At’ar	Shaundakul	Istishia	Kossuth	Akadi	Grumbar	Selûne	Shar	Leira	Mystra	Azuth	Oghma	Deneir	Gond
+65	Pics Gris (tribus orc)	Gruumsh	Luthic	Bahgtru	Ilneval	Shargaas	Yurtrus	Tempus	Talos	Auril	Bane	Cyric	Shar	Mask	Helm	Torm	Tyr	Loviatar	Talona	Gond	Uthgar
+66	Outreterre tropicale (profondeurs sous Chult) tribue nains sauvages	Moradin	Clangeddin	dumathoïn	Gorm Gulthyn	Thard Harr	Abbathor	Vergadain	Dugmaren	Sharindlar	Tempus	Helm	Tyr	Torm	Ilmater	Gond	Azuth	Deneir	Oghma	Savras	Talos
+67	Forêts du Nord / Hautes Terres (tribue gnome)	Garl	Baervan	Flandal	Segojan	Urdlen	Mielikki	Silvanus	Eldath	Chauntea	Lathander	Sune	Tymora	Selûne	Mystra	Azuth	Oghma	Deneir	Gond	Leira	Mask
+68	Éternelle-Rencontre (Evermeet)	Corellon	Rillifane	Sehanine	Labelas	Fenmarel	Aerdrie Faenya	Solonor	Hanali	Shevarash	Eilistraée	Mystra	Azuth	Leira	Sune	Tymora	Selûne	Mask	Shar	Oghma	Deneir
+69	Myth Drannor / Cormanthyr (communauté elfe)	Corellon	Rillifane	Sehanine	Labelas	Fenmarel	Aerdrie Faenya	Solonor	Hanali	Shevarash	Eilistraée	Mystra	Azuth	Leira	Sune	Tymora	Selûne	Mask	Shar	Oghma	Deneir
+70	Lunargent / Contrées du Nord	Helm	Tyr	Torm	Ilmater	Chauntea	Lathander	Sune	Tymora	Selûne	Mystra	Azuth	Oghma	Deneir	Gond	Waukeen	Milil	Mask	Shar	Eldath	Mielikki
+71	Communautés elfiques isolées	Corellon	Sehanine	Rillifane	Labelas	Aerdrie Faenya	Hanali	Solonor	Fenmarel	Shevarash	Eilistraée	Mystra	Azuth	Leira	Selûne	Sune	Tymora	Mielikki	Silvanus	Eldath	Oghma
+72	Evereska (Val d’Evereska)	Corellon	Sehanine	Labelas	Aerdrie Faenya	Hanali	Solonor	Mystra	Azuth	Leira	Selûne	Sune	Tymora	Mielikki	Silvanus	Eldath	Oghma	Deneir	Shevarash	Fenmarel	Eilistraée
+73	Haute-Forêt (communauté elfe)	Rillifane	Corellon	Sehanine	Labelas	Aerdrie Faenya	Hanali	Solonor	Mielikki	Silvanus	Eldath	Mystra	Azuth	Leira	Selûne	Sune	Tymora	Shevarash	Fenmarel	Eilistraée	Oghma
+74	Forêt de Cormanthor (communauté elfe)	Corellon	Sehanine	Rillifane	Labelas	Aerdrie Faenya	Hanali	Solonor	Mystra	Azuth	Leira	Selûne	Sune	Tymora	Mielikki	Silvanus	Eldath	Shevarash	Fenmarel	Eilistraée	Oghma
+75	Grand-Val / Vaux / Forêt des Larmes (communauté elfe)	Corellon	Sehanine	Rillifane	Labelas	Aerdrie Faenya	Hanali	Solonor	Mielikki	Silvanus	Eldath	Mystra	Azuth	Leira	Selûne	Sune	Tymora	Shevarash	Fenmarel	Eilistraée	Oghma
+76	Dambrath (sud de Faerûn, communauté elfe noir)	Lolth	Vhaeraun	Kiaransalee	Selvetarm	Eilistraée	Shar	Mask	Loviatar	Talona	Bane	Cyric	Mystra	Azuth	Leira	Sune	Tymora	Shevarash	Fenmarel	Corellon	Sehanine
+77	Bois de Chondal (communauté elfe sauvages)	Rillifane	Solonor	Mielikki	Silvanus	Eldath	Corellon	Sehanine	Labelas	Aerdrie Faenya	Hanali	Shevarash	Fenmarel	Eilistraée	Tymora	Sune	Selûne	Leira	Mystra	Azuth	Oghma
+78	Forêt d’Amtar (communauté elfe sauvages)	Rillifane	Solonor	Mielikki	Silvanus	Eldath	Corellon	Sehanine	Labelas	Aerdrie Faenya	Hanali	Shevarash	Fenmarel	Eilistraée	Tymora	Sune	Selûne	Leira	Mystra	Azuth	Oghma
+79	Valbrume ( les vaux, communauté elfes sauvages)	Rillifane	Solonor	Mielikki	Silvanus	Eldath	Corellon	Sehanine	Labelas	Aerdrie Faenya	Hanali	Shevarash	Fenmarel	Eilistraée	Tymora	Sune	Selûne	Leira	Mystra	Azuth	Oghma
+80	Forêt de Meth (communauté elfe)	Corellon	Sehanine	Rillifane	Labelas	Aerdrie Faenya	Hanali	Solonor	Mielikki	Silvanus	Eldath	Mystra	Azuth	Leira	Selûne	Sune	Tymora	Shevarash	Fenmarel	Eilistraée	Oghma
+81	Mhair Jungles (communauté elfes sauvages)	Rillifane	Solonor	Mielikki	Silvanus	Eldath	Corellon	Sehanine	Labelas	Aerdrie Faenya	Hanali	Shevarash	Fenmarel	Eilistraée	Tymora	Sune	Selûne	Leira	Mystra	Azuth	Oghma
+82	Halruaa	Mystra	Azuth	Savras	Leira	Chauntea	Lathander	Sune	Tymora	Selûne	Shar	Mask	Oghma	Deneir	Gond	Waukeen	Milil	Corellon	Sehanine	Rillifane	Labelas
+83	Wealdath (Téthyr)	Corellon	Sehanine	Rillifane	Labelas	Aerdrie Faenya	Hanali	Solonor	Mielikki	Silvanus	Eldath	Mystra	Azuth	Leira	Selûne	Sune	Tymora	Shevarash	Fenmarel	Eilistraée	Oghma
+84	Feywild (elfes sauvages)	Corellon	Sehanine	Rillifane	Labelas	Aerdrie Faenya	Hanali	Solonor	Mielikki	Silvanus	Eldath	Titania	Oberon	Verenestra	Mystra	Azuth	Leira	Selûne	Sune	Tymora	Eilistraée
+85	Mer des Étoiles Déchues (Sélu'Maraar, Naramyr)	Deep Sashelas	Trishina	Eadro	Selûne	Valkur	Umberlee	Aerdrie Faenya	Hanali	Corellon	Sehanine	Labelas	Solonor	Mystra	Azuth	Leira	Tymora	Sune	Eldath	Oghma	Deneir
+86	Grande Mer (sud de Faerûn)	Deep Sashelas	Trishina	Eadro	Selûne	Umberlee	Valkur	Aerdrie Faenya	Hanali	Corellon	Sehanine	Labelas	Solonor	Mystra	Azuth	Tymora	Sune	Leira	Eldath	Oghma	Deneir
+87	Côtes occidentales (Amn, Téthyr, Calimshan) (elfes de la mer)	Deep Sashelas	Trishina	Eadro	Selûne	Umberlee	Valkur	Aerdrie Faenya	Hanali	Corellon	Sehanine	Labelas	Solonor	Mystra	Azuth	Tymora	Sune	Leira	Eldath	Oghma	Deneir
+88	Mer des Glaces Mouvantes / Nord (elfes de la mer)	Deep Sashelas	Trishina	Eadro	Umberlee	Valkur	Aerdrie Faenya	Hanali	Corellon	Sehanine	Labelas	Solonor	Selûne	Tymora	Sune	Leira	Mystra	Azuth	Eldath	Silvanus	Oghma
+89	Menzoberranzan (Outreterre)	Lolth	Vhaeraun	Kiaransalee	Selvetarm	Eilistraée	Shar	Mask	Loviatar	Talona	Bane	Cyric	Mystra	Azuth	Leira	Sune	Tymora	Shevarash	Fenmarel	Corellon	Sehanine
+90	Cités drows secondaires (Ched Nasad, Sshamath, etc.)	Lolth	Vhaeraun	Kiaransalee	Selvetarm	Eilistraée	Shar	Mask	Loviatar	Talona	Mystra	Azuth	Leira	Sune	Tymora	Shevarash	Fenmarel	Corellon	Sehanine	Solonor	Hanali
+91	Communautés secrètes (Vhaeraun, Eilistraée)	Vhaeraun	Eilistraée	Corellon	Sehanine	Solonor	Hanali	Labelas	Aerdrie Faenya	Shevarash	Fenmarel	Mystra	Azuth	Leira	Sune	Tymora	Selûne	Mask	Shar	Eldath	Silvanus
+92	Aerie of the Snow Eagles (Grand Glacier)	Aerdrie Faenya	Corellon	Sehanine	Labelas	Hanali	Solonor	Rillifane	Mielikki	Silvanus	Eldath	Mystra	Azuth	Leira	Sune	Tymora	Selûne	Shevarash	Fenmarel	Eilistraée	Oghma
+93	Cités volantes ou sanctuaires cachés (communauté avariel)	Aerdrie Faenya	Corellon	Sehanine	Labelas	Hanali	Solonor	Mystra	Azuth	Leira	Selûne	Sune	Tymora	Mielikki	Silvanus	Eldath	Shevarash	Fenmarel	Eilistraée	Oghma	Deneir
+94	Great Bhaerynden (communauté urdunnir)	Moradin	dumathoïn	Clangeddin	Gorm Gulthyn	Abbathor	Vergadain	Dugmaren	Sharindlar	Thard Harr	Helm	Tyr	Torm	Ilmater	Gond	Azuth	Deneir	Oghma	Savras	Tempus	Talos
+95	Vallée de la Flamme / Grande Faille (communauté nains d'or)	Moradin	Berronar	Clangeddin	dumathoïn	Gorm Gulthyn	Abbathor	Vergadain	Dugmaren	Sharindlar	Thard Harr	Helm	Tyr	Torm	Ilmater	Gond	Azuth	Deneir	Oghma	Savras	Tempus
+96	extraplanaire (communauté elfe)	Corellon	Sehanine	Labelas	Aerdrie Faenya	Hanali	Solonor	Titania	Oberon	Verenestra	Mystra	Azuth	Leira	Selûne	Sune	Tymora	Shevarash	Fenmarel	Eilistraée	Silvanus	Eldath
+97	Bois de yuir (communauté elfe)	Rillifane	Solonor	Mielikki	Silvanus	Eldath	Corellon	Sehanine	Labelas	Aerdrie Faenya	Hanali	Shevarash	Fenmarel	Eilistraée	Tymora	Sune	Selûne	Leira	Mystra	Azuth	Oghma
+98	Montagnes du Shaar / Lapaliiya (communauté orc)	Gruumsh	Bahgtru	Ilneval	Luthic	Shargaas	Yurtrus	Tempus	Talos	Auril	Bane	Cyric	Shar	Mask	Helm	Torm	Tyr	Loviatar	Talona	Uthgar	Gond
+99	Vil Adanrath (nomadic clan lythari in Endless Wastes)	Rillifane	Solonor	Mielikki	Silvanus	Eldath	Corellon	Sehanine	Labelas	Aerdrie Faenya	Hanali	Shevarash	Fenmarel	Eilistraée	Tymora	Sune	Selûne	Leira	Mystra	Azuth	Oghma
+100	Lantan	Gond	Mystra	Azuth	Savras	Leira	Oghma	Deneir	Milil	Helm	Tyr	Torm	Ilmater	Chauntea	Lathander	Sune	Tymora	Selûne	Mask	Shar	Waukeen
+101	Îles Nelanther	Umberlee	Valkur	Talos	Auril	Tempus	Deep Sashelas	Trishina	Eadro	Selûne	Aerdrie Faenya	Hanali	Corellon	Sehanine	Labelas	Solonor	Tymora	Sune	Leira	Mystra	Azuth
+102	Cotes de Lapaliiya (communauté elfes de la mer)	Deep Sashelas	Trishina	Eadro	Umberlee	Valkur	Aerdrie Faenya	Hanali	Corellon	Sehanine	Labelas	Solonor	Selûne	Tymora	Sune	Leira	Mystra	Azuth	Eldath	Silvanus	Oghma
+103	régions côtières( elfes de la mer)	Deep Sashelas	Trishina	Eadro	Umberlee	Valkur	Aerdrie Faenya	Hanali	Corellon	Sehanine	Labelas	Solonor	Selûne	Tymora	Sune	Leira	Mystra	Azuth	Eldath	Silvanus	Oghma
+104	Montagnes de l’Est (Thay, Rashemen)	Bane	Cyric	Talos	Auril	Tempus	Helm	Tyr	Torm	Ilmater	Mystra	Azuth	Leira	Selûne	Sune	Tymora	Shar	Mask	Loviatar	Talona	Gond
+105	régions montagneuses (nomade orcs)	Gruumsh	Bahgtru	Ilneval	Luthic	Shargaas	Yurtrus	Tempus	Talos	Auril	Bane	Cyric	Shar	Mask	Helm	Torm	Tyr	Loviatar	Talona	Uthgar	Gond
+106	Outreterre profonde (orogs)	Gruumsh	Bahgtru	Ilneval	Luthic	Shargaas	Yurtrus	Lolth	Vhaeraun	Selvetarm	Kiaransalee	Shar	Mask	Bane	Cyric	Talona	Loviatar	Helm	Torm	Tyr	Gond
+107	Rashemen	Chauntea	Chauntea	Lathander	Sune	Tymora	Selûne	Mystra	Azuth	Leira	Eldath	Silvanus	Mielikki	Tempus	Helm	Tyr	Torm	Ilmater	Mask	Shar	Oghma
+108	Impultur	Ilmater	Tyr	Torm	Helm	Chauntea	Lathander	Sune	Tymora	Mystra	Azuth	Leira	Selûne	Mask	Shar	Tempus	Bane	Cyric	Oghma	Deneir	Gond
+109	kozakuran (kara-tur)	Akadi	Grumbar	Kossuth	Istishia	Shaundakul	Savras	Deneir	Oghma	Milil	Lliira	Sune	Selûne	Tymora	Mask	Helm	Torm	Ilmater	Eldath	Leira	Myrkul
+110	T'u Lung (karatur)	Oghma	Lathander	Mystra	Azuth	Gond	Savras	Oghma	Deneir	Waukeen	Siamorphe	Tyr	Torm	Helm	Ilmater	Bane	Bhaal	Shar	Talona	Jergal	Velsharoon
+111	Tabot (karatur)	Selûne	Eldath	Ilmater	Lliira	Deneir	Oghma	Savras	Azuth	Mystra	Lathander	Tymora	Sune	Helm	Torm	Tyr	Kelemvor	Jergal	Leira	Finder Wyvernspur	Eilistraée
+112	Pics de mir (drows)	Lolth	Vhaeraun	Kiaransalee	Selvetarm	Eilistraée	Shar	Mask	Loviatar	Talona	Bane	Cyric	Mystra	Azuth	Leira	Sune	Tymora	Shevarash	Fenmarel	Corellon	Sehanine
+113	bois de shaar ( communauté elfes sauvages)	Rillifane	Solonor	Mielikki	Silvanus	Eldath	Corellon	Sehanine	Labelas	Aerdrie Faenya	Hanali	Shevarash	Fenmarel	Eilistraée	Tymora	Sune	Selûne	Leira	Mystra	Azuth	Oghma
+114	grand glaciers ( orcs gris)	Gruumsh	Bahgtru	Ilneval	Luthic	Shargaas	Yurtrus	Tempus	Talos	Auril	Bane	Cyric	Shar	Mask	Helm	Torm	Tyr	Loviatar	Talona	Uthgar	Gond
+115	montagnes du nord (colonie orcs gris)	Gruumsh	Bahgtru	Ilneval	Luthic	Shargaas	Yurtrus	Tempus	Talos	Auril	Bane	Cyric	Shar	Mask	Helm	Torm	Tyr	Loviatar	Talona	Uthgar	Gond
+116	Orcs gris nomades des Terres de l'est ( Thesk,Rashemen)	Gruumsh	Bahgtru	Ilneval	Luthic	Shargaas	Yurtrus	Tempus	Talos	Auril	Bane	Cyric	Shar	Mask	Helm	Torm	Tyr	Loviatar	Talona	Uthgar	Gond
+117	outreterre (orcs gris)	Gruumsh	Bahgtru	Ilneval	Luthic	Shargaas	Yurtrus	Lolth	Vhaeraun	Selvetarm	Kiaransalee	Shar	Mask	Bane	Cyric	Talona	Loviatar	Helm	Torm	Tyr	Gond
+118	orcs gris de la vallee de la flamme	Gruumsh	Bahgtru	Ilneval	Luthic	Shargaas	Yurtrus	Tempus	Talos	Auril	Bane	Cyric	Shar	Mask	Helm	Torm	Tyr	Loviatar	Talona	Uthgar	Gond
+119	orcs gris de la grande faille	Gruumsh	Bahgtru	Ilneval	Luthic	Shargaas	Yurtrus	Tempus	Talos	Auril	Bane	Cyric	Shar	Mask	Helm	Torm	Tyr	Loviatar	Talona	Uthgar	Gond
+120	Valbise (communauté nains arctiques)	Moradin	Clangeddin	dumathoïn	Gorm Gulthyn	Thard Harr	Abbathor	Vergadain	Dugmaren	Sharindlar	Auril	Tempus	Helm	Tyr	Torm	Ilmater	Gond	Azuth	Deneir	Oghma	Savras
+121	Lycanthropes																				
+122	Wemics																				
+123	Yuan-ti																				
+124	Centaure																				
+125	Homme-lézard																				
+126	Tanarukks																				
+127	Reflets (shades)																				
+128	Kir-lanan																				
+129	Fey’ri (tieffelins elfiques)																				
+130	Sagespectres																				
+131	Vaillants																				
+132	Epine dorsale du monde (tribus orc)	Gruumsh	Bahgtru	Ilneval	Luthic	Shargaas	Yurtrus	Tempus	Talos	Auril	Bane	Cyric	Shar	Mask	Helm	Torm	Tyr	Loviatar	Talona	Uthgar	Gond
+133	Haute foret (elfes sauvages)	Rillifane	Solonor	Mielikki	Silvanus	Eldath	Corellon	Sehanine	Labelas	Aerdrie Faenya	Hanali	Shevarash	Fenmarel	Eilistraée	Tymora	Sune	Selûne	Leira	Mystra	Azuth	Oghma
+134	Forêt de Wealdath (Elmanesse, Or-tel-quessir, elfes des bois)	Corellon	Sehanine	Labelas	Aerdrie Faenya	Hanali	Solonor	Rillifane	Mielikki	Silvanus	Eldath	Mystra	Azuth	Leira	Selûne	Sune	Tymora	Shevarash	Fenmarel	Eilistraée	Oghma
+135	Forêt de Wealdath (Suldusk, sy-tel-quessir, elfes sauvages)	Rillifane	Solonor	Mielikki	Silvanus	Eldath	Corellon	Sehanine	Labelas	Aerdrie Faenya	Hanali	Shevarash	Fenmarel	Eilistraée	Tymora	Sune	Selûne	Leira	Mystra	Azuth	Oghma
+136	Luirwood (elfes sauvages)	Rillifane	Solonor	Mielikki	Silvanus	Eldath	Corellon	Sehanine	Labelas	Aerdrie Faenya	Hanali	Shevarash	Fenmarel	Eilistraée	Tymora	Sune	Selûne	Leira	Mystra	Azuth	Oghma
+137	tymanther (drakeides)	Bahamut	Torm	Tyr	Helm	Ilmater	Mystra	Azuth	Savras	Lathander	Chauntea	Sune	Tymora	Selûne	Leira	Oghma	Deneir	Gond	Kossuth	Akadi	Grumbar
+138	épine dorsale du monde (pics glacé, clans goliaths)	Tempus	Uthgar	Talos	Auril	Grumbar	Akadi	Kossuth	Istishia	Helm	Tyr	Torm	Ilmater	Gond	Mystra	Azuth	Selûne	Leira	Oghma	Deneir	Savras
+139	Icerim Mountains / Grand Glacier (clan goliath)	Tempus	Uthgar	Talos	Auril	Grumbar	Akadi	Kossuth	Istishia	Helm	Tyr	Torm	Ilmater	Gond	Mystra	Azuth	Selûne	Leira	Oghma	Deneir	Savras
+140	Montagnes theskiennes / du Levant (clan goliath)	Tempus	Uthgar	Talos	Auril	Grumbar	Akadi	Kossuth	Istishia	Helm	Tyr	Torm	Ilmater	Gond	Mystra	Azuth	Selûne	Leira	Oghma	Deneir	Savras
+141	Montagnes de Cuivre / du Tonnerre (clan goliath)	Tempus	Uthgar	Talos	Auril	Grumbar	Akadi	Kossuth	Istishia	Helm	Tyr	Torm	Ilmater	Gond	Mystra	Azuth	Selûne	Leira	Oghma	Deneir	Savras
+142	outreterre (nomadisme goliath)	Tempus	Uthgar	Talos	Auril	Grumbar	Akadi	Kossuth	Istishia	Helm	Tyr	Torm	Ilmater	Gond	Mystra	Azuth	Selûne	Leira	Oghma	Deneir	Savras
+143	épine dorsale du monde (tribue genasi de terre)	Akadi	Grumbar	Kossuth	Istishia	Tempus	Talos	Auril	Gond	Mystra	Azuth	Savras	Helm	Tyr	Torm	Ilmater	Selûne	Leira	Oghma	Deneir	Tymora
+144	savage frontier (tribu uthgardt)	Uthgar	Tempus	Talos	Auril	Valkur	Helm	Tyr	Torm	Ilmater	Chauntea	Lathander	Sune	Tymora	Selûne	Shar	Mask	Mystra	Azuth	Oghma	Deneir
+145	Haute-Forêt / Forêt Sauvage (tribu uthgardt)	Uthgar	Rillifane	Solonor	Mielikki	Silvanus	Eldath	Tempus	Talos	Auril	Helm	Tyr	Torm	Ilmater	Chauntea	Lathander	Sune	Tymora	Selûne	Mystra	Azuth
+146	Épine dorsale du monde (tribu uthgardt)	Uthgar	Tempus	Talos	Auril	Valkur	Helm	Tyr	Torm	Ilmater	Chauntea	Lathander	Sune	Tymora	Selûne	Shar	Mask	Mystra	Azuth	Oghma	Deneir
+147	Gray Vale (tribu uthgardt)	Uthgar	Tempus	Talos	Auril	Valkur	Helm	Tyr	Torm	Ilmater	Chauntea	Lathander	Sune	Tymora	Selûne	Shar	Mask	Mystra	Azuth	Oghma	Deneir
+148	Hautes Terres (tribu uthgardt)	Uthgar	Tempus	Talos	Auril	Valkur	Helm	Tyr	Torm	Ilmater	Chauntea	Lathander	Sune	Tymora	Selûne	Shar	Mask	Mystra	Azuth	Oghma	Deneir
+149	Côte des Épées nord (tribu uthgardt)	Uthgar	Tempus	Talos	Auril	Valkur	Silvanus	Mielikki	Chauntea	Helm	Tyr	Torm	Ilmater	Lathander	Sune	Tymora	Selûne	Mystra	Mask	Shar	Oghma
+150	Moonwood (tribu uthgardt)	Uthgar	Tempus	Talos	Auril	Silvanus	Mielikki	Eldath	Chauntea	Helm	Tyr	Torm	Ilmater	Lathander	Sune	Tymora	Selûne	Mystra	Azuth	Leira	Deneir
+151	Lurkwood (tribu uthgardt)	Uthgar	Tempus	Talos	Auril	Silvanus	Mielikki	Eldath	Chauntea	Helm	Tyr	Torm	Ilmater	Lathander	Sune	Tymora	Selûne	Mystra	Azuth	Leira	Deneir
+152	contrée du mitan occidentale (communauté gnome )	Garl Glittergold	Baervan	Baravar	Segojan	Flandal	Urdlen	Gond	Oghma	Deneir	Mystra	Azuth	Leira	Tymora	Sune	Selûne	Chauntea	Lathander	Savras	Milil	Erevan Ilesere
+153	thesk (communauté gnome)	Garl Glittergold	Baervan	Baravar	Segojan	Flandal	Urdlen	Gond	Oghma	Deneir	Mystra	Azuth	Leira	Tymora	Sune	Selûne	Chauntea	Lathander	Savras	Milil	Erevan Ilesere
+154	les vaux communauté gnome	Garl Glittergold	Baervan	Baravar	Segojan	Flandal	Urdlen	Gond	Oghma	Deneir	Mystra	Azuth	Leira	Tymora	Sune	Selûne	Chauntea	Lathander	Savras	Milil	Erevan Ilesere
+155	le grand val (communauté gnome)	Garl Glittergold	Baervan	Baravar	Segojan	Flandal	Urdlen	Gond	Oghma	Deneir	Mystra	Azuth	Leira	Tymora	Sune	Selûne	Chauntea	Lathander	Savras	Milil	Erevan Ilesere
+156	High Forest/North (communauté Firbolg)	Hiatea	Hiatea	Hiatea	Hiatea	Silvanus	Silvanus	Silvanus	Mielikki	Mielikki	Mielikki	lallanis	lallanis	Cerunnos	Cerunnos	Eldath	Eldath	Rillifane Rallathil,	Rillifane Rallathil,	Solonor Thelandira	, Shiallia
+157	Moonshae (communauté Firbolg)	Grond Peaksmasher	Grond Peaksmasher	Grond Peaksmasher	Grond Peaksmasher	Grond Peaksmasher	Grond Peaksmasher	Grond Peaksmasher	Grond Peaksmasher	Grond Peaksmasher	Grond Peaksmasher	Grond Peaksmasher	Grond Peaksmasher	Grond Peaksmasher	Grond Peaksmasher	Hiatea	Hiatea	Hiatea	Hiatea	lallanis	lallanis
+158	diverse forets (communauté Firbolg)	Hiatea	Hiatea	Hiatea	Hiatea	Silvanus	Silvanus	Silvanus	Mielikki	Mielikki	Mielikki	lallanis	lallanis	Cerunnos	Cerunnos	Eldath	Eldath	Rillifane Rallathil,	Rillifane Rallathil,	Solonor Thelandira	, Shiallia
+159	Thay (esclave gobelin)	Maglubiyet	Maglubiyet	Maglubiyet	Maglubiyet	Maglubiyet	Maglubiyet	Maglubiyet	Maglubiyet	Maglubiyet	Maglubiyet	Maglubiyet	Maglubiyet	Khurgorbaeyag	Khurgorbaeyag	Khurgorbaeyag	Khurgorbaeyag	Bargrivyek	Bargrivyek	Bargrivyek	Bargrivyek
+160	cote des épées ou Nord (communauté gobeline)	Maglubiyet	Maglubiyet	Maglubiyet	Maglubiyet	Maglubiyet	Maglubiyet	Maglubiyet	Maglubiyet	Maglubiyet	Maglubiyet	Maglubiyet	Maglubiyet	Khurgorbaeyag	Khurgorbaeyag	Khurgorbaeyag	Khurgorbaeyag	Bargrivyek	Bargrivyek	Bargrivyek	Bargrivyek
+161	underdark (communauté gobeline)	Maglubiyet	Maglubiyet	Maglubiyet	Maglubiyet	Maglubiyet	Maglubiyet	Maglubiyet	Maglubiyet	Maglubiyet	Maglubiyet	Maglubiyet	Maglubiyet	Khurgorbaeyag	Khurgorbaeyag	Khurgorbaeyag	Khurgorbaeyag	Bargrivyek	Bargrivyek	Bargrivyek	Bargrivyek
+162	chult (communauté gobeline)																				
+163	Goblin marches ( communauté gobeline)																				

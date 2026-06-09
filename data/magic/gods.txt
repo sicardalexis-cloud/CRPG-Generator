@@ -1,0 +1,100 @@
+god	indice	dieux	affinity_tags
+Auril	1	Aurile, déesse de l'hiver	winter,cold,evil,chaotic,auril,frontier,icewind,north,barbarian
+Azuth	2	Azouth, dieu des magiciens	magic,arcane,wizard,azuth,mystra,lawful,urban,scholar
+Bane	3	Baine, dieu de la tyrannie	tyranny,evil,law,conquest,bane,thay,zhentarim,urban,power
+Beshaba	4	Beshaba, déesse de la malchance	misfortune,chaos,luck,beshaba,calamity,wild
+Bhaal	5	Bhaal, dieu du meurtre	murder,death,evil,chaos,bhaal,assassin,thieves
+Chauntea	6	Chauntéa, déesse de l'agriculture	nature,agriculture,fertility,chauntea,rural,village,farmer,good,lawful
+Cyric	7	Cyric, dieu du mensonge	lie,madness,chaos,evil,cyric,betrayal,trickster
+Deneir	8	Déneïr, dieu de l'écriture	writing,knowledge,art,deneir,scholar,scribe,good
+Eldath	9	Eldath, déesse de la paix	peace,nature,pacifism,eldath,forest,druid,good
+Gond	10	Gond, dieu de l’artisanat	craft,invention,technology,gond,urban,artisan,gnome,dwarf
+Helm	11	Heaume, dieu de la protection	protection,law,guardianship,helm,lawful,guard,warrior
+Ilmater	12	Ilmater, dieu de l’endurance	endurance,suffering,compassion,ilmater,good,lawful,martyr,poor
+Kelemvor	13	Kélemvor, dieu des morts	death,judgment,law,kelemvor,funeral,undead hunter
+Lathander	14	Lathandre, dieu de la naissance et du renouveau	dawn,renewal,good,lathander,hope,youth,rebirth,urban
+Leira	15	Leira, déesse de l’illusion	illusion,deception,chaos,leira,trickster,actor
+Lliira	16	Lliira, déesse de la joie	joy,festival,chaos,lliira,party,celebration,good
+Loviatar	17	Loviatar, déesse de la souffrance	pain,suffering,evil,law,loviatar,torture,domination
+Mielikki	18	Mailikki, déesse des forêts	nature,forest,good,druid,mielikki,elf,ranger,wild
+Malar	19	Malar, dieu de la chasse	hunt,beast,chaos,evil,malar,wilderness,barbarian,lycanthrope
+Mask	20	Mask, dieu des voleurs	thief,shadow,chaos,mask,rogue,urban,spy
+Milil	21	Milil, dieu de la poésie et des chants	music,poetry,art,good,milil,bard,performance
+Myrkul	22	Myrkul, dieu de la mort	death,undead,evil,myrkul,necromancy
+Mystra	23	Mystra, déesse de la magie	magic,weave,mystra,arcane,good,lawful,wizard,archmage
+Oghma	24	Oghma, dieu de la connaissance	knowledge,lore,neutral,oghma,scribe,scholar,bard
+Savras	25	Savras, dieu de la divination et du destin	divination,fate,law,savras,prophecy,seer
+Selûne	26	Séluné, déesse de la lune	moon,stars,good,selune,lycanthrope,navigation,coastal
+Shar	27	Shar, déesse des ténèbres et de la perte	darkness,loss,evil,shar,grief,shadow,loss
+Sune	28	Sunie, déesse de l’amour et de la beauté	love,beauty,chaos,good,sune,passion,art,urban
+Silvanus	29	Sylvanus, dieu de la nature sauvage	nature,wild,druid,silvanus,forest,balance,neutral
+Talona	30	Talona, déesse de la maladie et du poison	disease,poison,evil,talona,plague,assassin
+Talos	31	Talos, dieu des tempêtes	storm,chaos,evil,talos,weather,destruction,coastal
+Tempus	32	Tempus, dieu de la guerre	war,battle,neutral,tempus,warrior,soldier,mercenary
+Torm	33	Torm, dieu du courage et du sacrifice de soi	courage,law,good,torm,paladin,protection,sacrifice
+Tymora	34	Tymora, déesse de la chance	luck,fortune,chaos,good,tymora,gambler,adventurer
+Tyr	35	Tyr, dieu de la justice	justice,law,good,tyr,paladin,judge,lawful
+Umberlee	36	Umberlie, déesse des mers	sea,storm,evil,umberlee,coastal,sailor,pirate
+Waukeen	37	Waukyne, déesse du commerce	trade,wealth,neutral,waukeen,merchant,urban,calimshan,am n
+Bahamut	38	Bahamut, dieu du Bien des dragons	dragon,good,law,bahamut,metallic dragon,paladin
+Blibdoolpoolp	39	Blibdoolpoolp, déesse kuo-toa	kuo-toa,sea,evil,madness,blibdoolpoolp,aberration
+Corellon	40	Corellon Larethian, dieu elfe de l’art et de la magie	elf,art,magic,good,corellon,evermeet,elven
+Eadro	41	Eadro, dieu de la mer des hommes-poissons	merfolk,sea,neutral,eadro,aquatic
+Garl Glittergold	42	Garl Brilledor, dieu gnome de la duperie et des ruses	gnome,trickery,good,garl,illusion,prank
+Grolantor	43	Grolantor, dieu de la guerre des géants des collines	giant,hill giant,evil,war,grolantor
+Gruumsh	44	Gruumsh, dieu orc des tempêtes et de la guerre	orc,war,evil,chaos,gruumsh,one-eye
+Hruggek	45	Hruggek, dieu gobelours de la violence	bugbear,violence,evil,hruggek
+Kurtulmak	46	Kurtulmak, dieu kobold de la guerre et des mines	kobold,mine,evil,kurtulmak,trap
+Laogzed	47	Laogzed, dieu troglodyte de la faim	troglodyte,hunger,evil,laogzed
+Lolth	48	Lolth, déesse drow des araignées	drow,spider,evil,chaos,lolth,underdark,matriarchy
+Maglubiyet	49	Maglubiyet, dieu gobelin de la guerre	goblin,hobgoblin,war,evil,maglubiyet
+Moradin	50	Moradin, dieu nain de la création	dwarf,craft,law,moradin,clan,forge
+Rillifane	51	Rillifane Rallathil, dieu elfe de la nature	elf,forest,nature,rillifane,druid
+Deep Sashelas	52	Sashalas des Profondeurs, dieu elfe de la mer	elf,sea,aquatic,deep sashelas
+Sehanine	53	Sehanine Archelune, déesse elfe de la lune	elf,moon,dream,sehanine,mysticism
+Sekolah	54	Sekolah, dieu de la chasse des sahuagins	sahuagin,sea,predator,evil,sekolah
+Semuanya	55	Semuanya, dieu de la survie des hommes-lézards	lizardfolk,survival,neutral,semuanya
+Skerrit	56	Skerrit, dieu de la nature des centaures et des satyres	centaur,satyr,nature,skerrit
+Skoraeus Stonebones	57	Skoraeus Os-de-pierre, dieu des géants des pierres et de l’art	stone giant,art,law,skoraeus
+Surtur	58	Surtur, dieu des géants du feu et de l’artisanat	fire giant,craft,evil,surtur
+Thrym	59	Thrym, dieu des géants du givre et de la force	frost giant,strength,evil,thrym
+Tiamat	60	Tiamat, déesse du Mal des dragons	dragon,evil,chromatic,tiamat,greed
+Yondalla	61	Yondalla, déesse halfeline de la fertilité et de la protection	halfling,good,law,yondalla,home,protection
+Berronar	62	Berronar Purargent, déesse naine de la loyauté, de la famille et de la guérison	dwarf,healing,family,law,berronar
+Clangeddin	63	Clangeddin Barbeargent, dieu nain de la guerre et de la bravoure	dwarf,war,law,clangeddin,battle
+Dugmaren	64	Dugmaren Brilletoge, dieu nain de l’innovation, de la découverte et du savoir	dwarf,knowledge,invention,dugmaren
+Dumathoïn	65	Dumathoïn, dieu nain des secrets enfouis, des mines et des morts	dwarf,secret,mine,dumathoin
+Vergadain	66	Vergadain, dieu nain du commerce, de la chance et des négociateurs rusés	dwarf,trade,luck,vergadain
+Baervan	67	Baervan Ermiterrant, dieu gnome des forêts et des voyages	gnome,forest,travel,baervan
+Segojan	68	Segojan Terre-ami, dieu gnome de la terre, des racines et des petites créatures	gnome,earth,animal,segojan
+Aerdrie Faenya	69	Aerdrie Faenya, déesse elfe du vent, des nuages et de la liberté	elf,air,wind,aerdrie,avariel
+Hanali Celanil	70	Hanali Celanil, déesse elfe de l’amour, de la beauté et de la romance	elf,love,beauty,hanali
+Labelas	71	Labelas Enoreth, dieu elfe du temps, de la sagesse et de la longévité	elf,time,wisdom,labelas
+Velsharoon	72	Velsharoon, dieu des morts-vivants, de la magie interdite et de la nécromancie	undead,necromancy,evil,velsharoon,arcane
+Red Knight	73	Red Knight, déesse de la stratégie militaire, du commandement et de la tactique	war,strategy,law,red knight,tactics
+Hoar	74	Hoar, dieu de la vengeance, des représailles et de la justice sombre	vengeance,justice,hoar,retribution
+Uthgar	75	Uthgar, dieu des tribus barbares, du courage sauvage et des traditions ancestrales	barbarian,uthgardt,north,tribal,uthgar,wild
+Angharradh	76	angharradh, elfe, fertilité, sagesse, protection	elf,fertility,wisdom,angharradh
+Valkur	77	valkur, marins, capitaines et aventuriers des mers.	sea,sailor,captain,valkur,coastal,adventure
+Fenmarel Mestarine	78	Fenmarel Mestarine, isolement, mefiance, protection des parias	elf,outcast,pariah,fenmarel,mistrust
+Solonor	79	Damh, dieu féerique de la musique, de la danse et de la joie sylvestre	fey,forest,music,dance,solonor,joy
+Shiallia	80	shiallia, danseuse des clairieres, fertilité, croissance naturelle	nature,fertility,forest,shiallia,druid
+Eilistraée	81	Eilistraée, déesse drow de la beauté, de la danse et de la rédemption	drow,good,dance,beauty,eilistraee,redemption
+Kiaransalee	82	Kiaransalee, déesse drow de la vengeance, de la mort et des morts-vivants	drow,undead,vengeance,kiaransalee,evil
+Selvetarm	83	Selvetarm, dieu drow de la guerre, de la violence et du zèle fanatique	drow,war,violence,selvetarm,zeal
+Ghaunadaur	84	Ghaunadaur, dieu drow des aberrations, des choses informes et du chaos	drow,aberration,chaos,ghaunadaur,ooze
+Alverein	85	Alverein, divinité locale ou ésotérique sans domaine canonique établi	local,esoteric,alverein,mystery
+Kurnous	86	Kurnous, dieu chasseur d’inspiration druidique, lié à la faune et à la traque	hunt,wild,druid,kurnous,beast
+Laduguer	87	Laduguir, dieu duergar du travail acharné, de la servitude et de la discipline	duergar,slave,discipline,laduguer,evil,law
+Duerra	88	Duerra, déesse duergar de la conquête mentale, du pouvoir psionique	duergar,psionic,mind,duerra,conquest
+Abbathor	89	Abbathor, dieu nain de l’avidité, des richesses et de la trahison	dwarf,greed,wealth,abbathor,evil
+Gorm Gulthyn	90	Gorm Gulthyn, dieu nain de la vigilance, de la protection et de la stratégie	dwarf,guard,protection,gorm
+At’ar	91	At’ar, déesse mulhorandi du soleil, associée à la lumière et à la fierté divine	mulhorand,sun,pride,at'ar,law
+Shaundakul	92	Shaundakul, dieu des voyageurs, du vent et des explorateurs solitaires	travel,wind,explorer,shaundakul,neutral
+Grumbar	93	Grumbar, dieu élémentaire de la terre, immuable, solide et réfractaire au changement	earth,elemental,grumbar,law,immutable
+Akadi	94	Akadi, déesse élémentaire de l'air, du mouvement et de la liberté	air,elemental,akadi,chaos,freedom
+Istishia	95	Istishia, dieu élémentaire de l’eau, de l’adaptabilité et de la fluidité	water,elemental,istishia,neutral,flow
+Ulutiu	96	Ulutiu, dieu du froid, du sommeil éternel et du bannissement volontaire	cold,ice,ulutiu,north,banishment
+Thard Harr	97	Thard Harr, dieu sauvage des nains insulaires, protecteur tribal	dwarf,wild,tribal,thard harr,jungle
+Tchazzar	98	Tchazzar, demi-dieu dragon rouge, incarnation de la conquête et de la guerre	dragon,red,conquest,tchazzar,evil,war
+Shevarash	99	Shevarash, dieu elfe de la vengeance, du combat anti-drow et de la douleur	elf,vengeance,anti-drow,shevarash,hate,war

@@ -138,57 +138,39 @@ Note : Les grands boucliers (Targe et plus) sont courants chez les milices des D
 ================================================================================
 
 --- Épées & Armes de taille ---
-Arming Sword                  45 sp     Tech 4    Commun
-Longsword                     65 sp     Tech 5    Commun
-Falchion                      45 sp     Tech 5    Commun
-Scimitar                      48 sp     Tech 5    Rare       (import sud)
-Rapier                        80 sp     Tech 6    Rare
-Sidesword                     65 sp     Tech 6    Rare
-Broadsword                    55 sp     Tech 6    Rare
-Estoc                         70 sp     Tech 6    Rare
-Cutlass                       48 sp     Tech 6    Rare
-Main-gauche                   32 sp     Tech 6    Rare
+Name                              Max Joules   Price      Tech   Rarity / Notes
+**600 J** War Hammer              600          40 sp      Tech 4   Commun
+**550 J** Flanged Mace            550          55 sp      Tech 5   Commun
+**500 J** Halberd / Poleaxe       500          65 sp      Tech 5   Commun
+**400 J** Longsword               400          65 sp      Tech 5   Commun
+**350 J** Saber (Cavalry Saber)   350          55 sp      Tech 5   Rare
+**150 J** Rapier                  150          80 sp      Tech 6   Rare
+**150 J** Dagger / Stiletto       150          12 sp      Tech 3   Toujours
 
 --- Armes d’hast & Piques ---
-Spear                         23 bp     Tech 4    Toujours
-Lance                         32 sp     Tech 4    Commun
-Pike                          40 sp     Tech 6    Rare
-Halberd                       65 sp     Tech 5    Commun
-Poleaxe                       70 sp     Tech 5    Commun
-Bill                          57 sp     Tech 5    Commun
-Glaive                        55 sp     Tech 5    Commun
-Voulge                        48 sp     Tech 5    Commun
-Bec de Corbin                 65 sp     Tech 6    Rare
-Partisan                      52 sp     Tech 6    Rare
-Ranseur                       50 sp     Tech 5    Commun
-Military Fork                 48 sp     Tech 5    Commun
-Lucerne Hammer                62 sp     Tech 5    Rare
+**250 J** Pike / Spear (Infantry) 250          40 sp      Tech 6   Rare
+Spear                             -            23 bp      Tech 4   Toujours
+Lance                             -            32 sp      Tech 4   Commun
+Poleaxe / Bill / Glaive           -            48-70 sp   Tech 5   Commun
+Bec de Corbin / Lucerne Hammer    -            62-65 sp   Tech 5-6 Rare
 
 --- Armes contondantes ---
-Mace                          38 sp     Tech 4    Commun
-Flanged Mace                  55 sp     Tech 5    Commun
-Morning Star                  50 sp     Tech 5    Commun
-War Hammer                    40 sp     Tech 4    Commun
-War Hammer (Renaissance)      52 sp     Tech 7    Très rare
-Maul                          45 sp     Tech 5    Commun
+Mace                              -            38 sp      Tech 4   Commun
+Flanged Mace                      550          55 sp      Tech 5   Commun
+War Hammer                        600          40-52 sp   Tech 4-7 Commun / Très rare
+Maul                              -            45 sp      Tech 5   Commun
 
 --- Armes à distance ---
-Longbow                       30 sp     Tech 5    Commun
-Short bow                      6 sp     Tech 3-4  Toujours
-Crossbow                      85 sp     Tech 5    Commun
-Heavy Crossbow                95 sp     Tech 5    Commun
-Light Crossbow                55 sp     Tech 5    Commun
-Composite Crossbow            75 sp     Tech 5    Rare
-Cranequin Crossbow           140 sp     Tech 7    Très rare
-Javelin (Renaissance)         22 sp     Tech 7    Très rare
-War Dart                      16 sp     Tech 4    Commun
+**1500 J** Sling (expert)         1500         2 sp       Tech 1   Toujours
+**200 J** English Longbow         200          30 sp      Tech 5   Commun
+Crossbow (heavy)                  -            85-95 sp   Tech 5   Commun
+Javelin / Throwing Spear          300          22 sp      Tech 4-7 Rare
 
 --- ARMES À POUDRE (PRIX TRIPLÉS) ---
-Handgonne                    480 sp     Tech 5    Très rare  (x3)
-Arquebus                     390 sp     Tech 7    Très rare  (x3)
-Musket                       540 sp     Tech 7    Très rare  (x3)
-Wheellock Pistol             330 sp     Tech 7    Très rare  (x3)
-Flintlock Pistol             255 sp     Tech 8    Très rare  (x3)
+**4000 J** Flintlock Musket (Brown Bess / Charleville)   4000    540 sp   Tech 7   Très rare  (x3)
+**3000 J** Arquebus               3000         390 sp     Tech 7   Très rare  (x3)
+**1500 J** Flintlock Pistol       1500         255 sp     Tech 8   Très rare  (x3)
+Handgonne (early)                 -            480 sp     Tech 5   Très rare  (x3)
 
 ================================================================================
 5. MONTURES + BARDAGE POUR CHEVAUX

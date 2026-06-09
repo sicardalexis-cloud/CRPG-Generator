@@ -17,7 +17,16 @@ from typing import Dict, Optional
 import re
 
 BASE_DIR = Path(__file__).parent
-PRICE_FILE = BASE_DIR / "systeme armure preconstruites" / "Groupe1_Cote_des_Epees_Equipement.txt"
+
+# Support legacy name + current _Complet / EN masters in the two common locations.
+_CANDIDATE_PRICE_FILES = [
+    BASE_DIR / "systeme armure preconstruites" / "Groupe1_Cote_des_Epees_Equipement.txt",
+    BASE_DIR / "systeme armure preconstruites" / "Groupe1_Cote_des_Epees_Equipement_Complet.txt",
+    BASE_DIR / "systeme armure preconstruites" / "Groupe1_Cote_des_Epees_Equipement_EN.txt",
+    BASE_DIR / "systeme groupe" / "Groupe1_Cote_des_Epees_Equipement_Complet.txt",
+]
+
+PRICE_FILE = _CANDIDATE_PRICE_FILES[0]  # default for messages / backward
 
 _PRICE_CACHE: Optional[Dict[str, float]] = None
 
@@ -32,17 +41,22 @@ def _normalize_name(name: str) -> str:
 
 def _load_groupe1_prices() -> Dict[str, float]:
     """Parse the master price file into a lookup dict (name -> price in sp)."""
-    global _PRICE_CACHE
+    global _PRICE_CACHE, PRICE_FILE
     if _PRICE_CACHE is not None:
         return _PRICE_CACHE
 
     prices: Dict[str, float] = {}
-    if not PRICE_FILE.exists():
+    chosen = None
+    for cand in _CANDIDATE_PRICE_FILES:
+        if cand.exists():
+            chosen = cand
+            break
+    if chosen is None:
         print(f"WARNING: Master price file not found: {PRICE_FILE}")
         _PRICE_CACHE = prices
         return prices
-
-    text = PRICE_FILE.read_text(encoding="utf-8", errors="ignore")
+    PRICE_FILE = chosen  # use the one we actually found for any downstream messages
+    text = chosen.read_text(encoding="utf-8", errors="ignore")
 
     for raw_line in text.splitlines():
         line = raw_line.strip()

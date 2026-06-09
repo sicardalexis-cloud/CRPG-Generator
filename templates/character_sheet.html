@@ -67,8 +67,9 @@
         }
         .grid {
             display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 12px;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 4px;
+            font-size: 0.85em;
         }
         .label { font-weight: bold; color: #5c4033; }
         table { width: 100%; border-collapse: collapse; }
@@ -148,6 +149,13 @@
     <div class="sheet">
         <h1>{{ character.Race }} — {{ character.Ethnicity }}</h1>
         
+        <!-- God + physical info (no level indication) -->
+        {% if character.God and character.God != "None" %}
+        <div style="text-align:center; font-size:0.9em; color:#5c4033; margin-bottom:4px;">
+            God : <strong>{{ character.God }}</strong>
+        </div>
+        {% endif %}
+
         <!-- Taille, Poids, Origine et Settlement sur une seule ligne -->
         <div class="physical-info">
             <strong>{{ character.Height_cm | default('?') }} cm</strong> 
@@ -195,7 +203,7 @@
             </div>
         </div>
 
-        <!-- ATTRIBUTES FUSIONNÉS -->
+        <!-- ATTRIBUTES FUSIONNÉS (compact 3-col) -->
         <div class="section">
             <div class="grid">
                 <div><span class="label">Balance :</span> {{ character.Balance }}</div>
@@ -203,11 +211,11 @@
                 <div><span class="label">Coordination :</span> {{ character.Coordination }}</div>
                 <div><span class="label">Precision :</span> {{ character.Precision }}</div>
                 <div><span class="label">Endurance :</span> {{ character.Endurance }}</div>
-                <div><span class="label">Vigilance :</span> {{ character.Vigilance }}</div>
+                <div style="font-weight: bold;"><span class="label">Vigilance :</span> {{ character.Vigilance }}</div>
                 <div><span class="label">Beauty :</span> {{ character.Beauty }}</div>
-                <div><span class="label">Speed :</span> {{ character.Speed }}</div>
+                <div style="font-weight: bold;"><span class="label">Speed :</span> {{ character.Speed }}</div>
                 <div><span class="label">Dodge :</span> {{ character.Dodge }}</div>
-                <div><span class="label">Stealth :</span> {{ character.Stealth }}</div>
+                <div style="font-weight: bold;"><span class="label">Stealth :</span> {{ character.Stealth }}</div>
                 <div><span class="label">Climbing :</span> {{ character.Climbing }}</div>
             </div>
         </div>
@@ -217,6 +225,40 @@
         <div class="section" style="background: linear-gradient(135deg, #2c1a0f, #5c4033); color: #f4e9d8; padding: 15px; border-radius: 6px; text-align: center;">
             <h2 style="color: #ffd700; border: none;">{{ character.Magic_Type }} — {{ character.Magic_Subtype }}</h2>
             <p><strong>{{ character.Magic_Description }}</strong></p>
+        </div>
+        {% endif %}
+
+        <!-- SORTS CONNUS (Wizards / Arcanique) -->
+        {% if character.Spells_Known %}
+        <div class="section">
+            <h2>Sorts Connus — {{ character.Magic_Subtype | default('Magicien') }}</h2>
+            <p style="font-size: 1.05em; line-height: 1.5; margin: 4px 0;">
+                {{ character.Magic_And_Spells }}
+            </p>
+            <small style="color: #8b5a2b;">(6 sorts choisis aléatoirement selon la fréquence chez les mages)</small>
+        </div>
+        {% endif %}
+
+        <!-- ÉQUIPEMENT -->
+        {% if (character.Armes_et_Bouclier and character.Armes_et_Bouclier != "Aucun") or character.Starting_Magic_Items %}
+        <div class="section">
+            <h2>Equipement</h2>
+            {% if character.Armes_et_Bouclier and character.Armes_et_Bouclier != "Aucun" %}
+            <p style="font-size: 1.05em; line-height: 1.4;">
+                {{ character.Armes_et_Bouclier }}
+            </p>
+            {% if character.Prebuilt_Kit_Tier %}
+            <small style="color: #8b5a2b;">
+                Kit : {{ character.Prebuilt_Kit_Tier }} ({{ character.Prebuilt_Kit_Cost_Sp }} sp)
+            </small>
+            {% endif %}
+            {% endif %}
+
+            {% if character.Starting_Magic_Items %}
+            <p style="font-size: 1.05em; line-height: 1.4; margin-top: 6px;">
+                <strong>magic items :</strong> {{ character.Starting_Magic_Items | join(" | ") }}
+            </p>
+            {% endif %}
         </div>
         {% endif %}
 
@@ -238,7 +280,7 @@
             <strong>Craft :</strong> {{ character.Craft|join(" | ") }}<br><br>
 
             {% if character.Spoken_Languages %}
-            <strong>Langues Parlées :</strong> {{ character.Spoken_Languages|join(' | ') }}<br>
+            <strong>languages :</strong> {{ character.Spoken_Languages|join(' | ') }}<br>
             {% endif %}
 
             {% if character.Literacy %}

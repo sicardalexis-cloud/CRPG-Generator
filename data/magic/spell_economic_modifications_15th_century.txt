@@ -1,0 +1,88 @@
+Spell Economic Modifications - 15th Century D&D Campaign
+============================================================
+Date: June 2026
+Context: Low-magic historical campaign set in 15th-century Europe (France-focused)
+Goal: Balance powerful utility spells so they do not completely break the medieval economy while remaining useful.
+
+1 gp = 7 grams of pure gold ≈ 7–10 days of wages for a skilled artisan (mason).
+
+============================================================
+1. CREATE FOOD AND WATER (Level 3)
+============================================================
+Original Effect:
+- Creates 45 pounds of food and 30 gallons of water.
+- Enough to feed 15 humanoids or 5 steeds for 24 hours.
+- No material component in base rules.
+
+Proposed Modification:
+- Add a material cost of **30 gp per casting** (consumed).
+- Suggested component: Ruby dust or a combination of rare spices + a silver coin blessed by a priest.
+
+Economic Reasoning:
+- 30 gp ≈ 3 to 4 weeks of wages for a skilled artisan.
+- This makes the spell expensive but not impossible to use in emergencies (sieges, long expeditions, famines).
+- Prevents casual or repeated use that would crash food prices and devalue agriculture.
+- Still allows powerful organizations (armies, rich merchant guilds, cities) to use it strategically.
+- Keeps the spell meaningful without making it an everyday solution to hunger.
+
+Verdict: Good balance between utility and economic restraint.
+
+============================================================
+2. CREATE OR DESTROY WATER (Level 1)
+============================================================
+Original Effect:
+- Creates or destroys up to 10 gallons (≈ 38 liters) of water.
+- No material component in base rules.
+
+Proposed Modification:
+- Add a material cost of **10 gp per casting** (consumed).
+- Suggested component: A small pearl or a vial of blessed water.
+
+Economic Reasoning:
+- 10 gp ≈ 7 to 10 days of wages for a skilled artisan.
+- This cost makes the spell useful for important situations (travel, small-scale irrigation, emergencies) but discourages spamming it for large-scale agriculture or city water supply.
+- Prevents the spell from becoming a free water source that would heavily impact wells, aqueducts, and water merchants.
+- Still allows druids, clerics, or wealthy travelers to use it regularly if needed.
+
+Verdict: Reasonable cost that limits mass adoption while keeping the spell practical.
+
+============================================================
+3. CONTINUAL FLAME (Level 2)
+============================================================
+Original Effect:
+- Creates a permanent flame that provides light equivalent to a torch but produces no heat.
+- Material component: Ruby dust worth 50 gp (consumed).
+
+Proposed Modification:
+- Increase the material cost significantly to **the equivalent of half a modest urban house**.
+- From previous economic data: A modest house in Paris during the 15th century was valued around 700–1,500 "francs" (standardized silver value).
+- Suggested cost: **400 to 600 gp** in ruby dust or equivalent precious materials.
+
+Economic Reasoning:
+- At the original 50 gp cost, Continual Flame is powerful but still somewhat accessible to wealthy individuals and guilds.
+- Making it cost the equivalent of half a house turns it into a **major investment**.
+- This strongly discourages mass adoption. Only very rich merchants, powerful guilds, cities, or nobles would be able to afford multiple instances.
+- Permanent light becomes a status symbol and a strategic resource (mines, important buildings, lighthouses) rather than common technology.
+- Prevents the spell from completely destroying the candle, oil, and torch industries.
+
+Verdict: Very dissuasive price. Turns Continual Flame into a rare and prestigious magical infrastructure rather than common utility magic.
+
+============================================================
+SUMMARY OF MODIFICATIONS
+============================================================
+
+| Spell                    | Level | Original Cost | New Cost per Use     | Economic Goal                              | Risk Level After Change |
+|--------------------------|-------|---------------|----------------------|--------------------------------------------|-------------------------|
+| Create Food and Water    | 3     | 0 gp          | 30 gp (consumed)     | Prevent food price collapse                | Controlled              |
+| Create or Destroy Water  | 1     | 0 gp          | 10 gp (consumed)     | Limit large-scale water production         | Controlled              |
+| Continual Flame          | 2     | 50 gp         | 400–600 gp (consumed)| Make permanent light a major investment    | Strongly Limited        |
+
+These changes aim to keep magic useful and interesting while preserving the economic structures of a 15th-century setting.
+
+============================================================
+NOTES
+============================================================
+- All costs are consumed material components.
+- Prices are calibrated based on 1 gp ≈ 7–10 days of skilled labor wages.
+- These modifications can be adjusted further depending on how "low-magic" the campaign is intended to feel.
+- Consider roleplaying the components (rare spices, blessed items, precious dusts) to make them feel grounded in the setting.

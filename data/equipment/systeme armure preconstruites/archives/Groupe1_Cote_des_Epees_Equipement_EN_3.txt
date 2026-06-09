@@ -1,0 +1,426 @@
+================================================================================
+GROUPE 1 – SWORD COAST BLOCK
+(Sword Coast + Baldur’s Gate + Luskan)
+Tech Level: 6-7 (Early Renaissance → Late Renaissance)
+================================================================================
+USAGE RULES:
+- All items Tech level 5 to 7 are **easily available** at the listed price.
+- **Gunpowder weapons** have been **tripled** (x3) to reflect their rarity in the Forgotten Realms.
+- Tech 8 = available but **very rare and expensive** (+50% to +100% surcharge possible).
+- Prices in silver pieces (sp) unless otherwise noted.
+- Availability: Always / Common = available in almost all major cities of the block.
+- UPDATE:
+  1. Prices corrected for 15th century historical realism (strong increase on armors and weapons).
+  2. Integration of the Master Shield Matrix (Size 1 to 10, surface progression ×1.5).
+  3. Frequency/Bulk/Storage/Mounted columns applied to all protections.
+
+================================================================================
+ARMOR ZONES LIST (24 zones)
+================================================================================
+
+| Code   | Zone Name                    | Description                                              | Typical Coverage |
+|--------|------------------------------|----------------------------------------------------------|------------------|
+| HEAD   | Head                         | Skull (top, sides, back)                                 | Full helmets     |
+| EYES   | Eyes                         | Eyes, eye slits, ocular area                             | Visored helmets  |
+| FACE   | Face                         | Cheeks, nose, mouth, jaw (excluding eyes)                | Face guards      |
+| NECK   | Neck                         | Throat + nape + sides                                    | Gorgets, Aventail|
+| SHLD   | Shoulders                    | Deltoids + shoulder joint                                | Pauldrons        |
+| CHST   | Chest                        | Upper torso (sternum, pectorals)                         | Breastplates     |
+| BACK   | Back                         | Upper and mid back                                       | Backplates       |
+| ABDM   | Abdomen                      | Belly + flanks                                           | Brigandine       |
+| LBAK   | Lower Back                   | Lumbar region / kidneys                                  | Garde-reins      |
+| HIPS   | Hips                         | Hips + lower abdomen (sides)                             | Faulds, Tassets  |
+| GROIN  | Groin                        | Groin / crotch area                                      | Rare             |
+| UARM   | Upper Arm                    | Biceps + triceps                                         | Mail sleeves     |
+| ELBO   | Elbow (outer)                | Outer elbow joint                                        | Couters          |
+| IELB   | Inner Elbow                  | Inner elbow crease                                       | Rare             |
+| FARM   | Forearm                      | Forearm                                                  | Vambraces        |
+| HAND   | Hands                        | Hands + wrists                                           | Gauntlets        |
+| AXIL   | Armpits                      | Underarm area                                            | Mail voiders     |
+| THGH   | Thigh (front/outer)          | Front and outer thigh                                    | Cuisses          |
+| RTHG   | Thigh (rear)                 | Back of the thigh (hamstrings)                           | Rare             |
+| KNEE   | Knee (outer)                 | Kneecap + outer knee joint                               | Poleyns          |
+| IKNE   | Inner Knee                   | Inner knee / popliteal fossa                             | Rare             |
+| SHIN   | Lower Leg (front)            | Shin + front of lower leg                                | Greaves          |
+| CALF   | Lower Leg (rear)             | Calf (back of lower leg)                                 | Rare             |
+| FOOT   | Feet                         | Feet + ankles                                            | Sabatons         |
+
+================================================================================
+
+
+
+================================================================================
+1. TEXTILE AND PADDED ARMORS
+================================================================================
+
+Aketon (basic padded jack)            8 sp    Tech 4   Always      Freq: 7  Bulk: 2  Storage: worn     Mounted: No  Protected Parts: CHST, BACK, ABDM, UARM  Description: A technical garment consisting of 4 to 8 layers of dense linen. Designed exclusively as an interface to be worn under a mail hauberk to prevent metal rings from pinching the skin and to absorb vibrations during impacts. Provides only weak protection against cutting edges.
+
+Gambeson (basic)                      9 sp    Tech 4   Always      Freq: 8  Bulk: 2  Storage: worn     Mounted: No  Protected Parts: CHST, BACK, ABDM, UARM  Description: Standard padded tunic of 8 to 12 layers, often quilted in a diamond pattern. This is the base protection of medieval infantry, offering versatile resistance against light slashing blows and decent shock absorption.
+
+Gambeson (long / fended)             14 sp    Tech 4   Common      Freq: 6  Bulk: 3  Storage: worn     Mounted: No  Protected Parts: CHST, BACK, ABDM, UARM, THGH, SHIN  Description: An extended version of the basic gambeson reaching the knee. Often side-fended to allow for movement, it provides full leg protection for infantry who do not wear metal leg armor, sacrificing agility for coverage.
+
+Reinforced Gambeson                  18 sp    Tech 5   Always      Freq: 7  Bulk: 2  Storage: worn     Mounted: No  Protected Parts: CHST, BACK, ABDM, UARM, ELBO  Description: An improved version of the classic gambeson (12-18 layers) featuring reinforced padding at the shoulders and elbows. More rigid, it provides better protection against thrusting attacks while remaining supple enough to be worn under a plate breastplate.
+
+Reinforced Gambeson (long)           26 sp    Tech 5   Common      Freq: 6  Bulk: 3  Storage: worn     Mounted: No  Protected Parts: CHST, BACK, ABDM, UARM, THGH, SHIN  Description: The extended version of the reinforced gambeson. Combines high-density protection for the torso with heavy padding reaching the knees. Highly prized by professional soldiers who need reliable, standalone leg protection without the weight of steel chausses.
+
+Padded Jack		             22 sp    Tech 5   Common      Freq: 6  Bulk: 3  Storage: worn     Mounted: No  Protected Parts: CHST, BACK, ABDM, UARM, THGH  Description: A very dense (20-30+ layers) standalone armor piece made of coarse linen. Specifically tailored for line infantry, it is designed to stop war arrows and polearm strikes, sacrificing mobility for maximum protection.
+
+Coat of Plates                       45 sp    Tech 5-6 Common      Freq: 6  Bulk: 3  Storage: worn     Mounted: No  Protected Parts: CHST, BACK, ABDM, SHLD  Description: A series of large steel plates riveted to the inside of a thick canvas or leather base. Intermediate protection offering superior torso rigidity compared to textiles while maintaining some articulated flexibility.
+
+Brigandine 		             85 sp    Tech 5-7 Common      Freq: 5  Bulk: 4  Storage: worn     Mounted: No  Protected Parts: CHST, BACK, ABDM, UARM, SHLD, AXIL  Description: Armor composed of numerous small steel plates riveted to the inside of a robust garment. The overlap of the plates offers excellent protection against most weapons while conforming perfectly to the wearer's anatomy.
+
+Brigandine (high quality)           240 sp    Tech 5-7 Rare        Freq: 3  Bulk: 4  Storage: worn     Mounted: No  Protected Parts: CHST, BACK, ABDM, UARM, SHLD, AXIL  Description: The noble version of the brigandine, utilizing high-grade hardened steel plates riveted with decorative brass or silver rivets. The outer fabric is often covered in silk or velvet, combining social prestige with lethal protection.
+
+Jack of Plates                       55 sp    Tech 7   Common      Freq: 5  Bulk: 4  Storage: worn     Mounted: No  Protected Parts: CHST, BACK, ABDM, UARM  Description: A robust evolution of the jack, integrating horizontal steel slats inserted between the fabric layers. More affordable than a full brigandine, this is the preferred armor of men-at-arms and professional mercenaries.
+
+Arming Doublet                       45 sp    Tech 7   Common      Freq: 6  Bulk: 2  Storage: worn     Mounted: No  Protected Parts: CHST, BACK, ABDM, UARM, ELBO, FARM  Description: A technical masterpiece of textile armoring (12-18 layers). Precision-fitted, it features reinforced attachment points (points or aigillettes) allowing for plate armor pieces to be laced directly onto the wearer's body.
+
+Pourpoint		            12 sp    Tech 6   Common      Freq: 7  Bulk: 1  Storage: worn     Mounted: No  Protected Parts: CHST, BACK, ABDM  Description: A light, fitted, padded civil garment. Although intended for fashion and comfort, its sturdy seams allow it to support a few light armor fastenings during travel or improvised urban defense.
+
+================================================================================
+2. COMMON + MODULAR ARMOR PIECES
+================================================================================
+--- Common Pieces (tech 3-6) ---
+Leather Helmet                 2 sp     Tech 3    Always      Frequency: 9  Bulk: 1  Storage: carried   Mounted: No  Protected Parts: HEAD
+Nasal Helmet                   8 sp     Tech 4    Always      Frequency: 8  Bulk: 1  Storage: carried   Mounted: No  Protected Parts: HEAD, FACE
+Cervelliere                    9 sp     Tech 4    Always      Frequency: 8  Bulk: 1  Storage: carried   Mounted: No  Protected Parts: HEAD
+Kettle Hat                     15 sp     Tech 5    Always      Frequency: 7  Bulk: 2  Storage: carried   Mounted: No  Protected Parts: HEAD
+Great Helm                     70 sp     Tech 5    Always      Frequency: 5  Bulk: 3  Storage: carried   Mounted: No  Protected Parts: HEAD, EYES, FACE, NECK
+Bascinet (basic)               48 sp     Tech 5    Common      Frequency: 6  Bulk: 2  Storage: carried   Mounted: No  Protected Parts: HEAD, EYES, FACE
+Mail Coif                      20 sp     Tech 5    Always      Frequency: 7  Bulk: 1  Storage: carried   Mounted: No  Protected Parts: HEAD, NECK
+Aventail                       16 sp     Tech 5    Common      Frequency: 6  Bulk: 1  Storage: carried   Mounted: No  Protected Parts: NECK
+Simple Breastplate             42 sp     Tech 5    Common      Frequency: 6  Bulk: 3  Storage: carried   Mounted: No  Protected Parts: CHST
+Archer Bracer                  2 sp     Tech 4    Always      Frequency: 8  Bulk: 1  Storage: carried   Mounted: No  Protected Parts: FARM
+
+--- Mail Protections (Late 15th Century Context) ---
+# In the late 15th century (Gothic/Maximilian era), full-length standalone mail hauberks are becoming less common as primary armor.
+# They are mostly used as supplementary protection (voiders, collars, sleeves) under plate armor, or as lighter options for infantry and archers.
+# Historical note: "Mail Coat" / "coat of mail" was historically synonymous with "hauberk". We have consolidated them into one entry for accuracy.
+
+Mail Shirt (basic torso protection)           80 sp     Tech 5    Common      Frequency: 6  Bulk: 3  Storage: carried   Mounted: No  Protected Parts: CHST, BACK, ABDM, UARM
+Mail Haubergeon (mid-thigh length, lighter)  115 sp     Tech 5    Common      Frequency: 5  Bulk: 4  Storage: carried   Mounted: No  Protected Parts: CHST, BACK, ABDM, UARM, THGH
+Mail Hauberk (knee-length with full sleeves) 170 sp     Tech 5-6  Common      Frequency: 5  Bulk: 4  Storage: carried   Mounted: No  Protected Parts: CHST, BACK, ABDM, UARM, THGH, SHIN
+
+Mail Hauberk (double mail / reinforced torso)  240 sp   Tech 6    Rare        Frequency: 3  Bulk: 5  Storage: carried   Mounted: No  Protected Parts: CHST, BACK, ABDM, UARM, THGH, SHIN
+# Premium reinforced version with a double layer of mail on the torso. Heavier and more expensive. Still used in the late 15th century by wealthier fighters or for tournaments.
+
+Jazerant (mail sewn between fabric layers)   95 sp     Tech 6    Common      Frequency: 4  Bulk: 3  Storage: carried   Mounted: No  Protected Parts: CHST, BACK, ABDM, UARM
+# Mail sandwiched between two layers of sturdy fabric (sometimes lightly padded). More discreet than plain mail. Popular in the 14th–15th centuries as lighter or semi-concealed armor.
+
+Mail Voiders (armpit/gusset patches)     15 sp     Tech 6    Common      Frequency: 6  Bulk: 1  Storage: carried   Mounted: No  Protected Parts: AXIL, UARM
+Bevor                          12 sp     Tech 6    Common      Frequency: 6  Bulk: 1  Storage: carried   Mounted: No  Protected Parts: NECK, FACE
+Fauld (Garde-reins)            14 sp     Tech 6    Common      Frequency: 5  Bulk: 2  Storage: carried   Mounted: No  Protected Parts: LBAK, HIPS
+--- 15th Century (Gothic – tech 6) ---
+Mail Collar                    22 sp     Tech 6    Always      Frequency: 6  Bulk: 2  Storage: carried   Mounted: No  Protected Parts: NECK
+Breastplate + Backplate        95 sp     Tech 6    Common      Frequency: 5  Bulk: 4  Storage: carried   Mounted: No  Protected Parts: CHST, BACK
+Gorget (standard)              12 sp     Tech 5    Common      Frequency: 7  Bulk: 1  Storage: carried   Mounted: No  Protected Parts: NECK
+Gorget (articulated/high)      18 sp     Tech 6    Common      Frequency: 6  Bulk: 1  Storage: carried   Mounted: No  Protected Parts: NECK
+Vambraces + Couters            35 sp     Tech 6    Always      Frequency: 6  Bulk: 2  Storage: carried   Mounted: No  Protected Parts: ELBO
+Gauntlets		       22 sp     Tech 6    Common      Frequency: 6  Bulk: 1  Storage: carried   Mounted: No  Protected Parts: HAND
+Tassets 		       16 sp     Tech 6    Common      Frequency: 6  Bulk: 2  Storage: carried   Mounted: No  Protected Parts: HIPS, GROIN, THGH
+Long Tassets                   25 sp     Tech 7    Common      Frequency: 5  Bulk: 2  Storage: carried   Mounted: No  Protected Parts: HIPS, GROIN, THGH
+Sallet 		               42 sp     Tech 6    Common      Frequency: 6  Bulk: 2  Storage: carried   Mounted: No  Protected Parts: HEAD, EYES, FACE
+Armet				85 sp     Tech 6    Common      Frequency: 5  Bulk: 3  Storage: carried   Mounted: No  Protected Parts: HEAD, EYES, FACE, NECK
+Morion                         28 sp     Tech 5    Common      Frequency: 6  Bulk: 2  Storage: carried   Mounted: No  Protected Parts: HEAD
+Barbute			       45 sp     Tech 5    Common      Frequency: 5  Bulk: 2  Storage: carried   Mounted: No  Protected Parts: HEAD, FACE
+Cabasset                       22 sp     Tech 5    Common      Frequency: 6  Bulk: 2  Storage: carried   Mounted: No  Protected Parts: HEAD
+
+--- 16th Century (Maximilian – tech 7) ---
+Mail Collar or Sleeves         22 sp     Tech 7    Common      Frequency: 6  Bulk: 2  Storage: carried   Mounted: No  Protected Parts: NECK
+Breastplate + Backplate (hardened) 220 sp Tech 7 Common Frequency: 5 Bulk: 4 Storage: carried Mounted: No  Protected Parts: CHST, BACK
+Gorget (reinforced)            25 sp     Tech 7    Common      Frequency: 5  Bulk: 1  Storage: carried   Mounted: No  Protected Parts: NECK
+Pauldrons + Guards             75 sp     Tech 7    Common      Frequency: 5  Bulk: 2  Storage: carried   Mounted: No  Protected Parts: SHLD, UARM, AXIL
+Vambraces + Couter + Rerebrace 85 sp     Tech 7    Common      Frequency: 5  Bulk: 3  Storage: carried   Mounted: No  Protected Parts: FARM, ELBO, UARM
+Gauntlets (articulated reinforced) 45 sp Tech 7 Common Frequency: 5 Bulk: 1 Storage: carried Mounted: No  Protected Parts: HAND
+Cuisses (standard)             42 sp     Tech 6    Common      Frequency: 6  Bulk: 2  Storage: carried   Mounted: No  Protected Parts: THGH
+Cuisses (Maximilian reinforced)85 sp     Tech 7    Common      Frequency: 5  Bulk: 2  Storage: carried   Mounted: No  Protected Parts: THGH, KNEE
+Poleyns + Knee Guards          28 sp     Tech 7    Common      Frequency: 6  Bulk: 1  Storage: carried   Mounted: No  Protected Parts: KNEE
+Greaves (standard)             35 sp     Tech 6    Common      Frequency: 6  Bulk: 2  Storage: carried   Mounted: No  Protected Parts: SHIN
+Greaves (reinforced)           55 sp     Tech 7    Common      Frequency: 5  Bulk: 2  Storage: carried   Mounted: No  Protected Parts: SHIN, CALF
+Sabatons (standard)            18 sp     Tech 6    Common      Frequency: 6  Bulk: 1  Storage: carried   Mounted: No  Protected Parts: FOOT
+Sabatons (wide bear-paw)       25 sp     Tech 7    Common      Frequency: 5  Bulk: 1  Storage: carried   Mounted: No  Protected Parts: FOOT
+Schynbalds / Demi-greaves      15 sp     Tech 6    Common      Frequency: 6  Bulk: 2  Storage: carried   Mounted: No  Protected Parts: SHIN
+Close Helmet                   95 sp     Tech 7    Common      Frequency: 5  Bulk: 2  Storage: carried   Mounted: No  Protected Parts: HEAD, EYES, FACE, NECK
+Burgonet                       45 sp     Tech 7    Common      Frequency: 6  Bulk: 2  Storage: carried   Mounted: No  Protected Parts: HEAD, FACE
+Great Bascinet (with bevor)   135 sp     Tech 6-7  Common      Frequency: 4  Bulk: 3  Storage: carried   Mounted: No  Protected Parts: HEAD, EYES, FACE, NECK
+Tournament Helmet (heavy joust)280 sp    Tech 7    Rare        Frequency: 1  Bulk: 4  Storage: carried   Mounted: No  Protected Parts: HEAD, EYES, FACE, NECK
+Lobster-tailed Pot             38 sp     Tech 7    Common      Frequency: 5  Bulk: 2  Storage: carried   Mounted: No  Protected Parts: HEAD, NECK
+
+================================================================================
+3. SHIELDS (OFFICIAL MATRIX BY SIZE - BULK & GRAPPLING INDEX)
+================================================================================
+
+TABLE OF SHIELDS (REORGANIZED - SIZE 1 TO 11)
+================================================================================
+SIZE 1 : Petty Buckler (700 cm²) | 5 sp | Tech 5 | Freq: 9 | Enc: 1 | Carried
+SIZE 2 : Small Buckler (910 cm²) | 7 sp | Tech 5 | Freq: 9 | Enc: 1 | Carried
+SIZE 3 : Buckler (1183 cm²) | 9 sp | Tech 5 | Freq: 8 | Enc: 1 | Carried
+SIZE 4 : Great Buckler (1538 cm²) | 12 sp | Tech 5 | Freq: 7 | Enc: 2 | Carried
+SIZE 5 : Small Targe (1999 cm²) | 14 sp | Tech 5 | Freq: 6 | Enc: 2 | Carried
+SIZE 6 : Targe (2599 cm²) | 16 sp | Tech 4 | Freq: 7 | Enc: 2 | Carried
+SIZE 7 : Great Targe (3379 cm²) | 22 sp | Tech 5 | Freq: 7 | Enc: 3 | Carried
+SIZE 8 : Heater Shield (4392 cm²) | 24 sp | Tech 4 | Freq: 5 | Enc: 4 | Carried
+SIZE 9 : Ward Shield (5710 cm²) | 26 sp | Tech 5 | Freq: 5 | Enc: 4 | Carried
+SIZE 10: Kite Shield (7423 cm²) | 27 sp | Tech 5 | Freq: 5 | Enc: 4 | Carried
+SIZE 11: Pavise (9650 cm²) | 35 sp | Tech 5 | Freq: 4 | Enc: 5 | Shoulder
+
+================================================================================
+4. WEAPONS – FULL LIST (Grip)
+================================================================================
+
+================================================================================
+4. WEAPONS – EXHAUSTIVE LIST (Organized & Updated)
+================================================================================
+
+REFERENCE
+---------
+All maximum plausible energies (strike energy for melee/thrown, muzzle energy 
+for firearms) come from the canonical pre-1789 list.
+See: data/equipment/pre_1789_weapons.py
+
+Column order (new "Max Joules" column added for all weapons):
+Name | Max Joules | Price | Tech | Other details...
+
+Legend:
+- Max Joules = highest historically plausible value
+- "-" = no exact value in the reference list (estimated or not applicable)
+- Gunpowder weapons have prices ×3 (Forgotten Realms rarity)
+
+--------------------------------------------------------------------------------
+MELEE WEAPONS
+--------------------------------------------------------------------------------
+
+--- Daggers & Knives ---
+Name                          Max Joules   Price      Tech   Grip          Freq  Enc  Storage    Mounted  Protected Parts
+Knife                         -            6 sp       Tech 3   1 hand        10    1    carried    No       VARIOUS
+Dagger                        -            14 sp      Tech 3-4 1 hand        9     1    carried    No       VARIOUS
+Rondel Dagger                 -            28 sp      Tech 5   1 hand        6     1    carried    No       VARIOUS
+**150 J** Stiletto / Dagger   150          12 sp      Tech 3   1 hand        -     -    carried    No       VARIOUS
+
+--- Swords & Cutting Weapons ---
+Name                                      Max Joules   Price      Tech   Type / Grip          Freq  Enc  Storage    Mounted  Protected Parts
+Arming Sword                              -            75 sp      Tech 4   Type XVIII  1 hand   8     3    carried    No       VARIOUS
+Baselard                                  -            55 sp      Tech 5   Type XVa    1 hand   7     2    carried    No       VARIOUS
+Falchion                                  -            70 sp      Tech 5   Type 1/2    1 hand   6     3    carried    No       VARIOUS
+Messer                                    -            80 sp      Tech 5   Type XV     1 or 2   5     3    carried    No       VARIOUS
+Cutlass                                   -            95 sp      Tech 6   Non-standard 1 hand 7     3    carried    No       VARIOUS
+Katzbalger                                -            95 sp      Tech 6   Non-standard 1 hand 5     3    carried    No       VARIOUS
+Broadsword                                -            110 sp     Tech 6   Type XVIIIc 1 hand  6     3    carried    No       VARIOUS
+**400 J** Longsword (Arming Sword)        400          145 sp     Tech 5   Type XVIIIb 2 hands 8     4    shoulder   No       VARIOUS
+Bastard Estoc                             -            170 sp     Tech 5   Type XVIa   1 or 2  6     4    shoulder   No       VARIOUS
+Bastard Sword                             -            155 sp     Tech 6   Type XVII   1 or 2  6     3    carried    No       VARIOUS
+Scimitar                                  -            140 sp     Tech 5   Non-standard 1 hand 5     3    carried    No       VARIOUS
+**150 J** Rapier                          150          280 sp     Tech 6   Non-standard 1 hand 4     3    carried    No       VARIOUS
+Sidesword                                 -            250 sp     Tech 6   Non-standard 1 hand 5     3    carried    No       VARIOUS
+Estoc                                     -            220 sp     Tech 6   Type XVII   2 hands 4     3    carried    No       VARIOUS
+Main-gauche                               -            95 sp      Tech 6   Non-standard 1 hand 6     1    carried    No       VARIOUS
+
+--- Polearms & Pikes ---
+Name                          Max Joules   Price      Tech   Grip          Freq  Enc  Storage     Mounted  Protected Parts
+Spear                         -            7 sp       Tech 3   1 or 2 hands  9     3    shoulder    No       VARIOUS
+Reinforced Spear              -            20 sp      Tech 4   1 or 2 hands  7     3    shoulder    No       VARIOUS
+Billhook                      -            35 sp      Tech 5   2 hands       7     4    shoulder    No       VARIOUS
+**250 J** Pike                250          28 sp      Tech 6   2 hands       8     5    shoulder    No       VARIOUS
+Lance                         -            42 sp      Tech 4   2 hands       5     3    shoulder    Yes      -
+Bill                          -            55 sp      Tech 5   2 hands       6     4    shoulder    No       VARIOUS
+Guisarme                      -            55 sp      Tech 5   2 hands       4     4    shoulder    No       VARIOUS
+Glaive                        -            55 sp      Tech 5   2 hands       5     4    shoulder    No       VARIOUS
+**500 J** Halberd             500          75 sp      Tech 5   2 hands       7     4    shoulder    No       VARIOUS
+**500 J** Poleaxe             500          105 sp     Tech 5   2 hands       6     4    shoulder    No       VARIOUS
+War Scythe                    -            35 sp      Tech 5   2 hands       6     4    shoulder    No       VARIOUS
+Bec de Corbin                 -            160 sp     Tech 6   2 hands       4     4    shoulder    No       VARIOUS
+Partisan                      -            130 sp     Tech 6   2 hands       5     4    shoulder    No       VARIOUS
+Ranseur                       -            120 sp     Tech 5   2 hands       5     4    shoulder    No       VARIOUS
+Military Fork                 -            28 sp      Tech 5   2 hands       6     4    shoulder    No       VARIOUS
+Lucerne Hammer                -            145 sp     Tech 5   2 hands       4     4    shoulder    No       VARIOUS
+
+--- Blunt Weapons ---
+Name                          Max Joules   Price      Tech   Grip          Freq  Enc  Storage     Mounted  Protected Parts
+Club                          -            6 sp       Tech 0   1 hand        10    2    carried     No       VARIOUS
+Light Hammer                  -            50 sp      Tech 4   1 hand        7     2    carried     Yes      -
+Quarterstaff                  -            18 sp      Tech 3   2 hands       9     3    shoulder    No       VARIOUS
+Mace                          -            65 sp      Tech 1   1 hand        7     3    carried     Yes      -
+**550 J** Flanged Mace        550          95 sp      Tech 5   1 hand        5     3    carried     Yes      -
+Morning Star                  -            95 sp      Tech 5   2 hands       4     3    shoulder    No       VARIOUS
+**600 J** War Hammer          600          80 sp      Tech 4   2 hands       7     3    shoulder    No       VARIOUS
+**600 J** War Hammer (Ren.)   600          130 sp     Tech 7   1 or 2        4     4    shoulder    No       VARIOUS
+Maul                          -            75 sp      Tech 5   2 hands       6     4    shoulder    No       VARIOUS
+Light Flail                   -            65 sp      Tech 5   1 or 2        5     3    carried     No       VARIOUS
+
+--- Axes ---
+Name                          Max Joules   Price      Tech   Grip          Freq  Enc  Storage     Mounted  Protected Parts
+Hand Axe                      -            45 sp      Tech 4   1 hand        8     2    carried     No       VARIOUS
+Francisca                     -            50 sp      Tech 4   1 hand        4     2    carried     No       VARIOUS
+**450 J** Battle Axe          450          95 sp      Tech 3   2 hands       6     3    shoulder    No       VARIOUS
+
+--------------------------------------------------------------------------------
+RANGED WEAPONS (NON-FIREARM)
+--------------------------------------------------------------------------------
+Name                          Max Joules   Price      Tech   Grip / Notes                 Freq  Bulk  Storage     Mounted  Protected Parts
+**1500 J** Sling (expert)     1500         2 bp       Tech 3   expert throw                 9     1     carried     No       VARIOUS
+Staff Sling                   -            5 bp       Tech 3   staff sling                  8     2     shoulder    No       VARIOUS
+Short Bow                     -            32 sp      Tech 3-4 -                            8     3     carried     No       VARIOUS
+**200 J** Longbow             200          55 sp      Tech 5   English longbow              7     3     carried     No       VARIOUS
+Composite Bow                 -            160 sp     Tech 5   -                            4     3     carried     No       VARIOUS
+Composite Bow (HQ)            -            230 sp     Tech 6   high quality                 2     3     carried     No       VARIOUS
+Light Crossbow                -            95 sp      Tech 5   -                            6     3     carried     No       VARIOUS
+Crossbow                      -            135 sp     Tech 5   -                            5     3     carried     No       VARIOUS
+Heavy Crossbow                -            175 sp     Tech 5   -                            3     4     shoulder    No       VARIOUS
+**300 J** Javelin             300          6 sp       Tech 3   throwing spear               8     2     carried     No       VARIOUS
+Verutum                       -            5 sp       Tech 3   -                            9     2     carried     No       VARIOUS
+Spiculum                      -            7 sp       Tech 3   -                            7     2     carried     No       VARIOUS
+Reinforced Javelin            -            13 sp      Tech 4   -                            6     2     carried     No       VARIOUS
+War Dart                      -            28 sp      Tech 4   -                            7     2     carried     No       VARIOUS
+
+--------------------------------------------------------------------------------
+GUNPOWDER WEAPONS (Prices ×3 for Forgotten Realms rarity)
+--------------------------------------------------------------------------------
+Name                                      Max Joules   Price      Tech   Notes                          Freq  (x3 price)
+Handgonne                                 -            480 sp     Tech 5    early hand cannon              Rare
+**3000 J** Arquebus                       3000         390 sp     Tech 7    matchlock/wheellock            Rare
+**4000 J** Flintlock Musket (Brown Bess / Charleville)   4000    540 sp     Tech 7    standard line infantry musket  Very Rare
+Wheellock Pistol                          -            330 sp     Tech 7    wheellock                      Rare
+**1500 J** Flintlock Pistol               1500         255 sp     Tech 8    cavalry / officer / dueling    Very Rare
+
+--------------------------------------------------------------------------------
+AMMUNITION & COMBAT ACCESSORIES
+--------------------------------------------------------------------------------
+Arrows (12 / full quiver)                  7 sp     Tech 5    Always      Frequency: 8  Bulk: 2  Storage: shoulder   Mounted: No  Protected Parts: VARIOUS
+Crossbow Bolts (12)                        6 sp     Tech 5    Always      Frequency: 8  Bulk: 2  Storage: carried    Mounted: No  Protected Parts: VARIOUS
+Heavy Crossbow Bolts (12)                  9 sp     Tech 5    Common      Frequency: 6  Bulk: 3  Storage: carried    Mounted: No  Protected Parts: VARIOUS
+Sling Bullets (12 lead)                    3 cp     Tech 3    Always      Frequency: 9  Bulk: 1  Storage: carried    Mounted: No  Protected Parts: VARIOUS
+Gunpowder & Lead balls (10 shots)         45 sp     Tech 5    Rare        Frequency: 3  Bulk: 2  Storage: carried    Mounted: No  Protected Parts: VARIOUS
+Sword Scabbard                             5 sp     Tech 4    Always      Frequency: 9  Bulk: 0  Storage: carried    Mounted: No  Protected Parts: VARIOUS
+Dagger Sheath                              8 cp     Tech 3    Always      Frequency: 10 Bulk: 0  Storage: carried    Mounted: No  Protected Parts: VARIOUS
+Quiver / Bolt Case (empty)                15 cp     Tech 4    Always      Frequency: 9  Bulk: 1  Storage: shoulder   Mounted: No  Protected Parts: VARIOUS
+
+================================================================================
+5. MOUNTS + HORSE BARDING
+================================================================================
+--- Mounts ---
+Rouncey                       75 sp     Tech 3    Always
+Courser                      110 sp     Tech 4    Common
+Palfrey                      100 sp     Tech 4    Common
+Destrier                     220 sp     Tech 4    Common
+Destrier (quality)           350 sp     Tech 7    Rare
+
+--- Horse Armor ---
+Leather Barding              140 sp     Tech 4    Common
+Chain Barding                480 sp     Tech 5    Common
+Plate Barding                950 sp     Tech 6-7  Common
+Leather Chanfron              22 sp     Tech 4    Common
+Plate Chanfron                65 sp     Tech 5    Common
+Leather Crinet                18 sp     Tech 4    Common
+Chain Crinet                  95 sp     Tech 5    Common
+Plate Crinet                 180 sp     Tech 6    Rare
+
+--- Equestrian Equipment ---
+Pack Saddle                   15 sp     Tech 3    Always
+Riding Saddle                 35 sp     Tech 4    Always
+War Saddle                    95 sp     Tech 5    Common      (Essential for lance charges)
+Bit & Bridle                   8 sp     Tech 3    Always
+Saddlebags (pair)              9 sp     Tech 3    Always      Increased storage capacity
+Stirrups (spare pair)          6 sp     Tech 4    Always
+
+================================================================================
+6. TRAVEL & SURVIVAL EQUIPMENT
+================================================================================
+Backpack (small leather)       8 bp     Tech 3    Always
+Backpack (medium leather)     15 bp     Tech 3    Always
+Backpack (large leather)      25 bp     Tech 3    Always
+Tent 2-man leather            55 sp     Tech 2    Always
+Tent 4-man leather            90 sp     Tech 2    Common
+Tent 8-man leather           160 sp     Tech 2    Rare
+Pavilion                     320 sp     Tech 4    Very Rare
+Sleeping Furs (light)         180 cp     Tech 3    Always
+Sleeping Furs (heavy)         280 cp     Tech 3    Common
+Blanket (light)                70 cp     Tech 3    Always
+Blanket (heavy)               110 cp     Tech 3    Always
+Rope light (50')               15 cp     Tech 3    Always
+Rope standard (50')            22 cp     Tech 3    Always
+Flint & Steel                  5 sp     Tech 4    Always
+Tinderbox                     12 cp     Tech 3    Always
+Fishing Net (small)           18 sp     Tech 3    Common
+Fishing Net (large)           32 sp     Tech 3    Common
+Fishhook & Line                8 tp     Tech 3    Always
+Fish Trap                     12 bp     Tech 3    Common
+Waterskin (1 gal)             10 bp     Tech 3    Always
+Waterskin (5 gal)             25 bp     Tech 3    Common
+Canteen (1 pt)                 8 cp     Tech 3    Always
+Hooded Lantern                18 bp     Tech 3    Always
+Lamp Oil                       5 bp     Tech 3    Always
+Compass                       12 sp     Tech 7    Common
+Spyglass                       8 gp     Tech 7    Rare
+
+--- Low Quality Lighting & Poor Containers ---
+Tallow Candle (x3)             1 tp     Tech 3    Always
+Resin Torch (x3)               3 tp     Tech 2    Always
+Sack (basic canvas / 50 lbs)   1 cp     Tech 2    Always    Low-cost storage for poor characters
+Oil Flask (lantern refill)     2 cp     Tech 3    Always
+Whetstone                      1 cp     Tech 3    Always
+
+================================================================================
+7. CLOTHING & ACCESSORIES
+================================================================================
+Cloak (wool)                    35 bp     Tech 3    Always
+Cloak (fur-lined)               90 bp     Tech 3    Common
+Cloak (hooded wool)             45 bp     Tech 3    Always
+Coat (leather)                  65 bp     Tech 3    Common
+Gloves (leather)                 8 bp     Tech 3    Always
+Gloves (fur lined)              18 bp     Tech 3    Common
+Boots (normal leather)          20 bp     Tech 3    Always
+Boots (fine leather)             9 sp     Tech 4    Common
+Belt (leather)                  35 cp     Tech 3    Always
+Belt Pouch (small)              25 tp     Tech 3    Always
+Belt Pouch (large)              45 tp     Tech 3    Common
+Hat (leather)                    5 bp     Tech 3    Always
+
+================================================================================
+8. TOOLS & CRAFTING
+================================================================================
+Lockpicks (poor)                25 bp     Tech 4    Common
+Lockpicks (average)              5 sp     Tech 4    Common
+Lockpicks (fine)                28 sp     Tech 5    Rare
+Skeleton Key                    30 sp     Tech 5    Rare
+Crowbar (standard)              22 bp     Tech 3    Always
+Crowbar (heavy)                 32 bp     Tech 3    Common
+Metal File (small)              30 bp     Tech 4    Common
+Cold Chisel                     12 bp     Tech 3    Always
+10' Pole                        65 bp     Tech 3    Always
+Grappling Hook                  45 bp     Tech 4    Common
+
+================================================================================
+9. RATIONS & TRAVEL FOOD
+================================================================================
+Hardtack                         4 tp     Tech 3    Always
+Waybread                        22 tp     Tech 4    Common
+Black Bread                     10 tp     Tech 3    Always
+Beef, Jerked                     8 cp     Tech 3    Common
+Pork, Smoked                    25 cp     Tech 3    Common
+Fish (salted)                    8 cp     Tech 3    Common
+Salmon, Smoked                  12 cp     Tech 3    Common
+Butter, Salted                  50 cp     Tech 3    Common
+Field Rations (basic)           18 tp     Tech 3    Always
+Dried Fruit (small bag)         15 cp     Tech 3    Common
+
+================================================================================
+10. MEDICINE & FIRST AID
+================================================================================
+Bandages, Linen (30')           35 cp     Tech 3    Always
+Herbal Remedy                   12 cp+    Tech 3    Always
+Bleeding Basin                  30 tp     Tech 4    Common
+Bleeding Lancet                  9 bp     Tech 4    Common
+Cranial Drill                   22 bp     Tech 5    Rare
+Amputation Saw                 120 cp     Tech 5    Rare
+Crutches                         8 cp     Tech 3    Common
+Surgical Knife                  22 bp     Tech 5    Common
+Suturing Needle (curved)        12 bp     Tech 4    Common
+Thread (50 yards)                8 cp     Tech 3    Always
+Leeches (50)                     9 bp     Tech 3    Common
+Mortar & Pestle                 12 cp     Tech 3    Common
+Steel Hook                     180 sp     Tech 5    Rare
+Wooden Pegleg                   35 bp     Tech 4    Common
+
+================================================================================
+END OF FILE
+================================================================================

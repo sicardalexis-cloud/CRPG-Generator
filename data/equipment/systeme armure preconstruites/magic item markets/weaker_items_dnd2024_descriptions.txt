@@ -1,0 +1,142 @@
+Weaker Magic Item Descriptions - D&D 2024 Style
+=================================================
+These are homebrew weaker versions of powerful magic items, designed for a historically grounded 15th-century campaign.
+All descriptions follow the style and formatting of the 2024 Dungeon Master's Guide.
+
+=======================================================
+BAG OF HOLDING VARIANTS
+=======================================================
+
+**Pouch of Holding**
+*Wondrous Item, Uncommon*
+
+This small leather pouch appears ordinary but contains an extradimensional space.
+While the pouch is on your person, you can use an action to reach into it and withdraw an item stored inside.
+
+The pouch can hold up to 100 pounds or 10 cubic feet of non-living material. It weighs 5 pounds regardless of its contents.
+If the pouch is destroyed, its contents are lost forever.
+
+**Satchel of Holding**
+*Wondrous Item, Rare*
+
+This sturdy leather satchel contains an extradimensional space.
+While the satchel is on your person, you can use an action to reach into it and withdraw an item stored inside.
+
+The satchel can hold up to 250 pounds or 30 cubic feet of non-living material. It weighs 10 pounds regardless of its contents.
+If the satchel is destroyed, its contents spill forth.
+
+=======================================================
+SENDING STONES VARIANTS
+=======================================================
+
+**Message Stones**
+*Wondrous Item, Uncommon (requires attunement)*
+
+These two smooth stones are magically linked. While you hold one stone, you can use an action to cast the *Sending* spell, but the message can be no longer than 10 words, and the range is limited to 100 miles.
+Once you use a stone to cast *Sending*, you can't do so again until the next dawn.
+
+**Whisper Stones**
+*Wondrous Item, Rare (requires attunement)*
+
+These two polished stones are magically linked. While you hold one stone, you can use an action to cast the *Sending* spell (message up to 25 words). The range is limited to 500 miles.
+Once you use a stone to cast *Sending*, you can't do so again until 2 days have passed.
+
+=======================================================
+DECANTER OF ENDLESS WATER VARIANTS
+=======================================================
+
+**Flask of Flowing Water**
+*Wondrous Item, Uncommon*
+
+This ornate metal flask produces clean, fresh water when commanded.
+As an action, you can cause the flask to produce a steady stream of water. The flask can produce enough water in one hour to sustain up to 20 Medium creatures for one day.
+The flask cannot produce more than this amount in a single day.
+
+**Jug of Pure Water**
+*Wondrous Item, Rare*
+
+This large ceramic jug produces clean water when commanded.
+As an action, you can cause the jug to produce a steady stream of water. The jug can produce enough water in one hour to sustain up to 80 Medium creatures for one day.
+The jug cannot produce more than this amount in a single day.
+
+=======================================================
+BEAD OF NOURISHMENT VARIANTS
+=======================================================
+
+**Crumb of Sustenance**
+*Wondrous Item, Common*
+
+This small, dry crumb of bread appears unremarkable. When you eat it as an action, it provides enough nourishment to sustain you for half a day (equivalent to one meal).
+
+**Ration Bead**
+*Wondrous Item, Uncommon*
+
+This small gelatinous bead dissolves on your tongue when consumed. It provides enough nourishment to sustain you for one full day, provided you also drink at least one quart of water that day.
+
+=======================================================
+HEALING ITEM VARIANTS
+=======================================================
+
+**Healing Salve**
+*Wondrous Item, Common*
+
+This small tin contains a thick, herbal-smelling paste. As an action, you can apply the salve to a creature within reach. The creature regains 1d4 + 1 hit points at the end of 1 minute. The tin contains enough salve for 3 uses.
+
+**Minor Healing Potion**
+*Potion, Uncommon*
+
+This small vial contains a red liquid that smells faintly of herbs. When you drink this potion as an action, you regain 1d6 + 1 hit points.
+
+**Healing Draught**
+*Potion, Uncommon*
+
+This vial contains a glowing red liquid. When you drink this potion as an action, you regain 2d4 hit points.
+
+=======================================================
+MANUAL OF GOLEMS VARIANTS
+=======================================================
+
+**Manual of Animated Servants**
+*Wondrous Item, Rare (requires attunement)*
+
+This thick tome contains instructions for creating simple animated objects. Over the course of 30 days, you can perform a ritual using the manual to animate one object of Medium size or smaller (such as a suit of armor, a statue, or a piece of furniture). The animated object uses the statistics of an **Animated Armor** or a similar construct of appropriate power (DM's discretion). The construct is friendly to you and your companions and obeys your commands.
+
+The manual can only be used once. After the ritual is complete, the manual becomes a nonmagical book.
+
+**Tome of Minor Constructs**
+*Wondrous Item, Very Rare (requires attunement)*
+
+This heavy tome contains rituals for creating small constructs. Over the course of 60 days, you can perform a ritual using the tome to create one Small or Tiny construct (such as a homunculus or a minor guardian). The construct uses statistics appropriate to its form (DM's discretion) and is friendly to you and your companions.
+
+The tome can only be used once.
+
+=======================================================
+FLYING ITEM VARIANTS
+=======================================================
+
+**Cloak of Gliding**
+*Wondrous Item, Uncommon (requires attunement)*
+
+While wearing this cloak, you can use a bonus action to slow your fall. You descend up to 60 feet per round without taking falling damage, and you can move up to 30 feet horizontally during the descent.
+You cannot use this feature again until you finish a short or long rest.
+
+**Boots of Leaping**
+*Wondrous Item, Uncommon (requires attunement)*
+
+While wearing these boots, your jump distance is tripled.
+
+**Feather Token (Bird)**
+*Wondrous Item, Uncommon*
+
+This small feather is enchanted. When you use an action to toss it into the air, it transforms into a **Giant Eagle** that is friendly to you and your companions. The eagle obeys your verbal commands and remains for up to 8 hours or until it is reduced to 0 hit points.
+Once the eagle disappears, the token reverts to a nonmagical feather.
+
+=======================================================
+NOTES FOR DMs
+
+These weaker variants are designed to:
+- Give players access to useful magic without breaking the medieval economy.
+- Allow gradual introduction of magic items.
+- Create clear power tiers (minor magic vs. legendary artifacts).
+
+You can adjust rarity, price, or effects as needed for your campaign.

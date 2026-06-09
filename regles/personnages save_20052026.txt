@@ -1,0 +1,140 @@
+CRPG Rules – Consolidated Version (Updated)
+Reference Date: June 9, 2026 (updated from original March/May 2026 snapshot)
+
+Core Concept:
+- Fully random character creation (everything is generated randomly, including origin, settlement, magic, gods, equipment, spells, magic items)
+- Level support (-l / --level)
+- Output: detailed CSV with specific columns + optional PDF character sheets (fiches/)
+
+=== STARTING CAPITAL (pièces d'argent) ===
+Capital de départ = **2,5 ans de salaire médian local (région + settlement) × niveau du personnage** × variance (0.8-1.2)
+
+- Base: ~50 sp par niveau pour un perso "moyen" (calibré sur la médiane des salaires régionaux)
+- Avec 2,5 ans: cible médiane ~125 sp pour niveau 1
+- Formule dans regional_economy.py:
+  daily_wage = get_median_daily_wage(region, settlement)
+  base = daily_wage * 300 * 2.5 * level
+  capital = int(round(base * random.uniform(0.8, 1.2)))
+- Theoretical max (niveau 1): ~893 sp (Lantan + Metropolis + max variance)
+- Min possible ~22 sp → Magic item budget max ~439 sp
+- Kit de base régional fourni gratuitement (ne réduit pas le capital)
+- "Magic_Item_Capital" = max(0, (900 - Starting_Capital) // 2)  → budget pour objets magiques de départ
+
+CSV columns related:
+- Starting_Capital
+- Magic_Item_Capital
+- Armes_et_Bouclier (inclut maintenant les objets magiques de départ)
+- Prebuilt_Kit_Tier / Prebuilt_Kit_Cost_Sp
+
+=== MAGIC SYSTEM ===
+Seuil: MAGIC_THRESHOLD = -1.5  → ~50% de personnages magiquement actifs
+
+determine_magic_type basé sur Combat_Points:
+
+- Si combat_points >= -1.5 → Non-magique
+- Roll pour type:
+  - ~47% Théurgique (divine)
+    - Subtype selon settlement:
+      - Temple/urbain → Magie Blanche (guérison, protection)
+      - Forêt/jungle/druid → Magie Verte (nature)
+      - Sinon 60/40 Blanche/Verte
+  - ~40% Arcanique → subtype "Magicien"
+  - ~13% Sauvage (couleurs: Blanche/Rouge/Verte/Bleue/Noire)
+
+Pour Arcanique/Magicien (niveau 1):
+- 6 sorts niveau 1 connus aléatoires pondérés par fréquence (de sorts_mage_niveau_1_frequence.txt)
+- Sélection sans remise, poids = popularity (1-5)
+
+Objets magiques de départ:
+- Budget = max(0, (900 - Starting_Capital) // 2) sp
+- Sélection aléatoire (shuffle + greedy) depuis "starting magic items.txt" (tous <450 sp)
+- Ajoutés à la colonne Armes_et_Bouclier dans le CSV (format "Nom (XX sp)")
+
+Magic_And_Spells (colonne CSV):
+- Uniquement les sorts pour les Magicien (séparés par " | ")
+- Les objets magiques sont maintenant dans Armes_et_Bouclier
+
+=== GOD / DIVINITY SYSTEM ===
+Utilise les fichiers:
+- data/magic/gods_by_region.tsv
+- data/magic/gods_by_ethnie.tsv
+
+Logique choose_god(ethnicity, region_name, settlement_type, magic_type, magic_subtype):
+1. Pool = dieux de l'ethnie OU de la région (listes classées par dévotion/rang)
+2. Poids = 21 - rank (rang 1 très fréquent, rang 20 rare)
+3. Bonus intersection (dieu fort dans les deux listes) ×1.7
+4. Influence settlement:
+   - Urbain (metropolis, major trade...) → Waukeen, Gond, Oghma...
+   - Rural → Chauntea, Silvanus, Mielikki...
+   - Coastal → Umberlee, Valkur...
+   - Mountain/Dwarven → Moradin...
+5. Biais magic:
+   - Arcanique → ×4 sur dieux arcanistes (Mystra, Azuth, Savras, Velsharoon, Leira, Oghma, Deneir, Milil, Corellon, Labelas, Sehanine), ×0.18 sur les autres
+   - Théurgique → ×1.2 + garantie (jamais "None")
+   - Sauvage → biais nature/sauvage
+6. Si pas de match culturel → garantie pour Théurgique (Silvanus/Chauntea ou premier de la liste)
+
+Théurgique a TOUJOURS un dieu.
+
+=== KITS D'ÉQUIPEMENT (100 kits system) ===
+- Kit universel de survie gratuit (0 coût)
+- Puis sélection du kit 100 le plus cher abordable avec le capital
+- Fichier choisi dynamiquement:
+  - Théurgique + Magie Verte (druides) → 100_Kits_Druide_Complete_100kits.txt (pas d'armure métal, focus nature)
+  - Arcanique / Magicien → 100_Magician_Kits .txt (pas d'armure, focus ranged + crossbows, spell components)
+  - Default → 100_kits_XV_siecle_Cote_des_Epees_EN (1).txt
+- Résultat dans: Armes_et_Bouclier, Prebuilt_Kit_Tier, Prebuilt_Kit_Cost_Sp
+
+=== COMBAT POINTS (non-linéaire) ===
+CP par capacité (x brute) :
+- x > 1 → x**1.4
+- x < 0 → - ( (-x)**0.7 )
+- x = 0 ou 1 → x
+
+Total CP = sum CP capacités + CP_racial (de race_data)
+
+Skill Modifier = - (Total CP + Secondary Points) / something (négatif = malus)
+
+=== ATTRIBUTS & DÉRIVÉS (formules actuelles dans rules.py / utils.py) ===
+(Voir code pour détails exacts - les formules de base sont stables mais avec ajustements)
+
+Poids, Build, etc. comme dans l'ancien fichier.
+La plupart des formules de combat/secondaires sont dans rules.py et utils.py.
+
+=== RACES / ETHNIES ===
+Les tables de modificateurs (Weight Mod, Build, CP_racial, Pouvoirs Spéciaux) sont dans:
+- race_data.py
+- ethnicity_weights.py (pondérations globales)
+- origin_data.py (régions par ethnie)
+
+Les valeurs CP_racial et pouvoirs spéciaux sont appliqués pendant la génération.
+
+=== EXPORT CSV (colonnes principales actuelles) ===
+ID, Level, Race, Ethnicity, Origin_Region, Settlement_Type, Equipment_Group,
+Outdoor_Skills, Urban_Skills, Knowledge, Craft, Literacy, Spoken_Languages,
+Starting_Capital, Magic_Item_Capital, Final_Pocket_Money_BP,
+Armes_et_Bouclier (inclut objets magiques de départ), Prebuilt_Kit_Tier, Prebuilt_Kit_Cost_Sp,
+Combat_Points, Magic, Magic_Type, Magic_Subtype, Magic_And_Spells (sorts seulement pour Magicien), God,
+Grappling, Melee, Projectiles, Fencing, Skill_Modifier,
+Height_cm, Weight_kg, Size_Score, Balance, Quickness, Coordination, Precision, Endurance, Vigilance, Beauty, Stealth, Speed,
+Special, Generation_Date
+
+Magic_And_Spells = sorts niveau 1 (pour Arcanique/Magicien) séparés par " | "
+Armes_et_Bouclier = équipement normal + objets magiques de départ (format "Nom (XX sp)")
+
+=== AUTRES RÈGLES IMPORTANTES ===
+- Niveau (level) supporté, impacte capital (× level)
+- PDF character sheets optionnelles (--pdf) avec section Equipement (inclut objets magiques)
+- Garantie: un Théurgique a toujours un dieu
+- Les sorts et objets magiques de départ sont générés à la création (niveau 1 par défaut)
+- Système de capital et kits régional (région + settlement influencent le salaire et le type de kit)
+
+Pour les formules précises et le code source des calculs (combat points, choose_god, starting capital, spells, magic items, kits spéciaux), voir:
+- rules.py (magic, gods, combat points, spells)
+- utils.py (generate_character, kits, magic items, capital)
+- data/equipment/regional_economy.py (capital 2.5 ans, salaires)
+- data/magic/ (fichiers sorts, gods_by_*.tsv)
+
+Ce document est une consolidation mise à jour des règles "personnages" (état du code juin 2026).
+
+--- Fin du fichier mis à jour ---

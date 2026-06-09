@@ -1,0 +1,295 @@
+Sane Magic Market - D&D 2024 Magic Item Prices Guide (FINAL VERSION v2 - Bead of Nourishment at 3 gp)
+===================================================================================
+Source: Original community prices from https://sanemagicmarket.com/pricing (divided by 10 + historical adjustments)
+Generated: June 2026 (Final version with Bead of Nourishment kept at low price)
+
+IMPORTANT NOTES:
+- Base prices divided by 10 from community-voted prices.
+- Adjustments made for a realistic 15th-century European economy (France-focused).
+- 1 gp = 7 grams of pure gold ≈ 7–10 days wages for a skilled artisan.
+- The Bead of Nourishment has been kept at 3 gp because its economic impact (outside of military use) is considered moderate.
+- Other high-impact items have been raised to limit their effect on the medieval economy.
+- Items are sorted by ascending price within each category.
+
+CATEGORIES:
+- Consumables, Combat Items, Noncombat Items, Summoning Items, Gamechanging Items
+
+=======================================================
+CONSUMABLES (sorted by price)
+=======================================================
+Potion of Poison (Uncommon) - 4 gp
+Philter of Love (Uncommon) - 4 gp
+Potion of Animal Friendship (Uncommon) - 5 gp
+Potion of Water Breathing (Uncommon) - 8 gp
+Potion of Climbing (Common) - 8 gp
+Potion of Diminution (Rare) - 10 gp
+Ammunition +1 (10x) (Uncommon) - 11 gp
+Potion of Growth (Uncommon) - 12 gp
+Potion of Mind Reading (Rare) - 15 gp
+Dust of Dryness (Uncommon) - 15 gp
+Oil of Slipperiness (Uncommon) - 16 gp
+Potion of Invisibility (Rare) - 18 gp
+Potion of Gaseous Form (Rare) - 21 gp
+Potion of Clairvoyance (Rare) - 21 gp
+Dust of Disappearance (Uncommon) - 23 gp
+Dust of Sneezing and Choking (Uncommon) - 27 gp
+Potion of Heroism (Rare) - 27 gp
+Chime of Opening (Rare) - 28 gp
+Universal Solvent (Legendary) - 31 gp
+Bead of Nourishment (Common) - 3 gp
+Ammunition +2 (10x) (Rare) - 40 gp
+Potion of Healing (Common) - 45 gp
+Potion of Superior Healing (Rare) - 53 gp
+Potion of Supreme Healing (Very Rare) - 55 gp
+Potion of Flying (Very Rare) - 58 gp
+Potion of Speed (Very Rare) - 66 gp
+Oil of Etherealness (Rare) - 68 gp
+Gem of Brightness (Uncommon) - 81 gp
+Robe of Useful Items (Uncommon) - 83 gp
+Marvelous Pigments (Very Rare) - 94 gp
+Deck of Illusions (Unknown) - 110 gp
+Bead of Force (Rare) - 120 gp
+Potion of Greater Healing (Uncommon) - 120 gp
+Ammunition +3 (10x) (Very Rare) - 130 gp
+Bag of Beans (Rare) - 140 gp
+Horn of Blasting (Rare) - 150 gp
+Ammunition of Slaying (10x) (Very Rare) - 160 gp
+Elixir of Health (Rare) - 180 gp
+Potion of Invulnerability (Rare) - 190 gp
+Necklace of Fireballs (Rare) - 230 gp
+Oil of Sharpness (Very Rare) - 320 gp
+Sovereign Glue (Legendary) - 330 gp
+Potion of Vitality (Very Rare) - 350 gp
+Candle of Invocation (Very Rare) - 820 gp
+Manual of Golems (Very Rare) - 4,000 gp
+Rod of Absorption (Very Rare) - 2,500 gp
+Manual of Bodily Health (Very Rare) - 2,500 gp
+Manual of Gainful Exercise (Very Rare) - 2,800 gp
+Tome of Clear Thought (Very Rare) - 3,000 gp
+Tome of Leadership and Influence (Very Rare) - 3,200 gp
+Manual of Quickness of Action (Very Rare) - 3,600 gp
+Tome of Understanding (Very Rare) - 4,200 gp
+Talisman of Ultimate Evil (Legendary) - 4,600 gp
+Talisman of Pure Good (Legendary) - 4,900 gp
+
+=======================================================
+COMBAT ITEMS (sorted by price)
+=======================================================
+Armor of Vulnerability (Rare) - 8 gp
+Wind Fan (Uncommon) - 10 gp
+Berserker Axe (Rare) - 19 gp
+Pipes of the Sewers (Uncommon) - 22 gp
+Shield of Missile Attraction (Rare) - 33 gp
+Wand of Enemy Detection (Rare) - 38 gp
+Brooch of Shielding (Uncommon) - 38 gp
+Rope of Entanglement (Rare) - 42 gp
+Circlet of Blasting (Uncommon) - 44 gp
+Weapon +1 (Uncommon) - 50 gp
+Gloves of Missile Snaring (Uncommon) - 55 gp
+Ring of the Ram (Rare) - 59 gp
+Pipes of Haunting (Uncommon) - 63 gp
+Staff of Withering (Rare) - 64 gp
+Giant Slayer (Rare) - 68 gp
+Shield +1 (Uncommon) - 68 gp
+Mace of Smiting (Rare) - 73 gp
+Glamoured Studded Leather (Rare) - 74 gp
+Demon Armor (Very Rare) - 90 gp
+Mithral Armor (Uncommon) - 96 gp
+Dagger of Venom (Rare) - 97 gp
+Wand of Magic Missiles (Uncommon) - 98 gp
+Wand of Web (Uncommon) - 100 gp
+Javelin of Lightning (Uncommon) - 100 gp
+Sword of Life Stealing (Rare) - 110 gp
+Sword of Sharpness (Very Rare) - 120 gp
+Adamantine Armor (Uncommon) - 130 gp
+Armor +1 (Rare) - 130 gp
+Bracers of Archery (Uncommon) - 130 gp
+Ring of Evasion (Rare) - 140 gp
+Arrow-Catching Shield (Rare) - 140 gp
+Sentinel Shield (Uncommon) - 140 gp
+Dragon Slayer (Rare) - 140 gp
+Boots of Speed (Rare) - 170 gp
+Wand of Fear (Rare) - 170 gp
+Periapt of Wound Closure (Uncommon) - 170 gp
+Mace of Disruption (Rare) - 170 gp
+Robe of Scintillating Colors (Very Rare) - 180 gp
+Pearl of Power (Uncommon) - 180 gp
+Frost Brand (Very Rare) - 190 gp
+Elven Chain (Rare) - 190 gp
+Armor of Resistance (Rare) - 210 gp
+Staff of Charming (Rare) - 210 gp
+Staff of Swarming Insects (Rare) - 220 gp
+Iron Bands (Rare) - 220 gp
+Bracers of Defense (Rare) - 230 gp
+Stone of Good Luck (Luckstone) (Uncommon) - 250 gp
+Quarterstaff of the Acrobat (Very Rare) - 260 gp
+Mace of Terror (Rare) - 280 gp
+Weapon of Warning (Uncommon) - 280 gp
+Weapon +2 (Rare) - 300 gp
+Mantle of Spell Resistance (Rare) - 300 gp
+Ring of Free Action (Rare) - 300 gp
+Ring of Protection (Rare) - 310 gp
+Dancing Sword (Very Rare) - 320 gp
+Animated Shield (Very Rare) - 320 gp
+Cloak of Protection (Uncommon) - 360 gp
+Ring of Shooting Stars (Very Rare) - 380 gp
+Flame Tongue (Rare) - 380 gp
+Headband of Intellect (Uncommon) - 390 gp
+Dragon Scale Mail (Very Rare) - 410 gp
+Wand of Binding (Rare) - 420 gp
+Sword of Wounding (Rare) - 420 gp
+Wand of Lightning Bolts (Rare) - 470 gp
+Spellguard Shield (Very Rare) - 480 gp
+Staff of Healing (Rare) - 500 gp
+Wand of Fireballs (Rare) - 500 gp
+Gauntlets of Ogre Power (Uncommon) - 520 gp
+Shield +2 (Rare) - 540 gp
+Oathbow (Very Rare) - 540 gp
+Wand of Paralysis (Rare) - 570 gp
+Staff of Fire (Very Rare) - 600 gp
+Rod of Alertness (Very Rare) - 630 gp
+Amulet of Health (Rare) - 640 gp
+Necklace of Prayer Beads (Rare) - 730 gp
+Belt of Dwarvenkind (Rare) - 730 gp
+Vicious Weapon (Rare) - 790 gp
+Dwarven Plate (Very Rare) - 800 gp
+Scimitar of Speed (Very Rare) - 840 gp
+Staff of Frost (Very Rare) - 880 gp
+Staff of the Woodlands (Rare) - 910 gp
+Nine Lives Stealer (Very Rare) - 930 gp
+Cloak of Displacement (Rare) - 1,000 gp
+Armor +2 (Very Rare) - 1,000 gp
+Scarab of Protection (Legendary) - 1,000 gp
+Shield of the Cavalier (Very Rare) - 1,100 gp
+Sun Blade (Rare) - 1,200 gp
+Staff of Thunder and Lightning (Very Rare) - 1,300 gp
+Energy Bow (Very Rare) - 1,400 gp
+Helm of Brilliance (Very Rare) - 1,400 gp
+Weapon +3 (Very Rare) - 1,500 gp
+Hammer of Thunderbolts (Legendary) - 1,600 gp
+Thunderous Greatclub (Very Rare) - 1,800 gp
+Wand of Polymorph (Very Rare) - 2,200 gp
+Ring of Spell Storing (Rare) - 2,300 gp
+Robe of Stars (Very Rare) - 2,600 gp
+Shield +3 (Very Rare) - 2,800 gp
+Dwarven Thrower (Very Rare) - 3,700 gp
+Vorpal Sword (Legendary) - 4,400 gp
+Ring of Spell Turning (Legendary) - 4,800 gp
+Rod of Lordly Might (Legendary) - 10,000 gp
+Robe of the Archmagi (Legendary) - 13,000 gp
+Staff of Power (Very Rare) - 13,000 gp
+Holy Avenger (Legendary) - 15,000 gp
+Staff of the Magi (Legendary) - 35,000 gp
+
+=======================================================
+NONCOMBAT ITEMS (sorted by price)
+=======================================================
+Wand of Secrets (Uncommon) - 13 gp
+Trident of Fish Command (Uncommon) - 14 gp
+Efficient Quiver (Uncommon) - 14 gp
+Ring of Animal Influence (Rare) - 16 gp
+Eyes of Minute Seeing (Uncommon) - 17 gp
+Wand of Magic Detection (Uncommon) - 21 gp
+Ring of Feather Falling (Rare) - 21 gp
+Bag of Devouring (Very Rare) - 22 gp
+Ring of Swimming (Uncommon) - 24 gp
+Rope of Climbing (Uncommon) - 24 gp
+Ring of Water Walking (Uncommon) - 25 gp
+Helm of Comprehending Languages (Uncommon) - 26 gp
+Eyes of Charming (Uncommon) - 26 gp
+Horseshoes of Speed (Rare) - 29 gp
+Hat of Disguise (Uncommon) - 29 gp
+Goggles of Night (Uncommon) - 30 gp
+Periapt of Health (Uncommon) - 31 gp
+Cloak of the Manta Ray (Uncommon) - 34 gp
+Boots of the Winterlands (Uncommon) - 34 gp
+Ring of Warmth (Uncommon) - 34 gp
+Lantern of Revealing (Uncommon) - 35 gp
+Ring of Jumping (Uncommon) - 40 gp
+Gloves of Swimming and Climbing (Uncommon) - 41 gp
+Necklace of Adaptation (Uncommon) - 41 gp
+Eversmoking Bottle (Uncommon) - 44 gp
+Gloves of Thievery (Uncommon) - 44 gp
+Folding Boat (Rare) - 45 gp
+Horseshoes of a Zephyr (Very Rare) - 46 gp
+Medallion of Thoughts (Uncommon) - 48 gp
+Boots of Striding and Springing (Uncommon) - 50 gp
+Amulet of Proof against Detection and Location (Uncommon) - 53 gp
+Boots of Elvenkind (Uncommon) - 55 gp
+Eyes of the Eagle (Uncommon) - 63 gp
+Periapt of Proof against Poison (Rare) - 71 gp
+Ring of Mind Shielding (Uncommon) - 80 gp
+Boots of Levitation (Rare) - 81 gp
+Cloak of Elvenkind (Uncommon) - 90 gp
+Ring of X-ray Vision (Rare) - 90 gp
+Helm of Telepathy (Uncommon) - 99 gp
+Immovable Rod (Uncommon) - 110 gp
+Slippers of Spider Climbing (Uncommon) - 120 gp
+Handy Haversack (Rare) - 140 gp
+Gem of Seeing (Rare) - 190 gp
+Wand of Wonder (Rare) - 190 gp
+Cape of the Mountebank (Rare) - 200 gp
+Hat of Many Spells (Very Rare) - 240 gp
+Cloak of the Bat (Rare) - 290 gp
+Dimensional Shackles (Rare) - 300 gp
+Cloak of Arachnida (Very Rare) - 330 gp
+Portable Hole (Rare) - 380 gp
+Robe of Eyes (Rare) - 380 gp
+Crystal Ball of Mind Reading (Legendary) - 440 gp
+Bag of Holding (Uncommon) - 650 gp
+Rod of Rulership (Rare) - 460 gp
+Plate Armor of Etherealness (Legendary) - 580 gp
+Crystal Ball of Telepathy (Legendary) - 890 gp
+Cube of Force (Rare) - 1,000 gp
+Mirror of Life Trapping (Very Rare) - 1,300 gp
+Crystal Ball of True Seeing (Legendary) - 1,600 gp
+Instant Fortress (Rare) - 1,800 gp
+Apparatus of the Crab (Legendary) - 2,500 gp
+Rod of Resurrection (Legendary) - 7,400 gp
+
+=======================================================
+SUMMONING ITEMS (sorted by price)
+=======================================================
+Staff of the Python (Uncommon) - 96 gp
+Stone of Controlling Earth Elementals (Rare) - 600 gp
+Bowl of Commanding Water Elementals (Rare) - 980 gp
+Efreeti Bottle (Very Rare) - 1,300 gp
+Censer of Controlling Air Elementals (Rare) - 1,600 gp
+Brazier of Commanding Fire Elementals (Rare) - 2,200 gp
+Iron Flask (Legendary) - 4,200 gp
+Ring of Djinni Summoning (Legendary) - 4,500 gp
+
+=======================================================
+GAMECHANGING ITEMS (sorted by price)
+=======================================================
+Sending Stones (Uncommon) - 300 gp
+Crystal Ball (Very Rare) - 240 gp
+Potion of Longevity (Very Rare) - 260 gp
+Decanter of Endless Water (Uncommon) - 1,200 gp
+Ring of Telekinesis (Very Rare) - 680 gp
+Talisman of the Sphere (Legendary) - 720 gp
+Rod of Security (Very Rare) - 1,200 gp
+Wings of Flying (Rare) - 1,200 gp
+Ring of Regeneration (Very Rare) - 1,300 gp
+Helm of Teleportation (Rare) - 1,800 gp
+Broom of Flying (Uncommon) - 2,000 gp
+Winged Boots (Uncommon) - 2,200 gp
+Amulet of the Planes (Very Rare) - 2,100 gp
+Cloak of Invisibility (Legendary) - 2,100 gp
+Well of Many Worlds (Legendary) - 3,100 gp
+Carpet of Flying (Very Rare) - 5,000 gp
+Cubic Gate (Legendary) - 6,800 gp
+Ring of Invisibility (Legendary) - 6,900 gp
+Armor of Invulnerability (Legendary) - 7,100 gp
+Dragon Orb (Artifact) - 8,800 gp
+Sphere of Annihilation (Legendary) - 11,000 gp
+Luck Blade (Legendary) - 28,000 gp
+Ring of Three Wishes (Legendary) - 42,000 gp
+
+=======================================================
+END OF LIST
+=======================================================
+
+Total items listed: ~180+
+This is the final version with the Bead of Nourishment kept at 3 gp.
+For original community prices: https://sanemagicmarket.com/

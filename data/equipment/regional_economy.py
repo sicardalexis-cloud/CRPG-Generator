@@ -5,12 +5,12 @@ Système économique régional pour le calcul des salaires médians et du capita
 
 RÈGLES (cohérentes avec les fichiers DAILY WAGES & WORTH CHART + listes d'équipement) :
 - Salaire médian défini manuellement par région (pas de "niveaux techno" purs, Faerûn est hybride).
-- Capital de départ cible : **3 ans** de salaire médian local (≈ 300 jours effectifs par an).
+- Capital de départ = **2,5 ans de salaire médian local × niveau du personnage**.
 - Le kit de base régional (équipement porté + 14 jours de rations) est **fourni gratuitement** à la création.
-- TOUT est calculé en bronze pieces (bp) Rolemaster (même unité que les kits d'équipement).
-- Pas de référence D&D gp dans les calculs finaux.
+- TOUT est calculé en bronze pieces (bp) Rolemaster pour les kits, mais le capital final est exprimé en **pièces d'argent (sp)**.
+- Équivalent d'une règle « X pièces d'argent par niveau » (base ~125 sp pour un perso moyen de niveau 1 avec 2,5 ans).
 
-Le capital (3 ans) représente l'argent liquide + capacité à faire des achats supplémentaires
+Le capital représente l'argent liquide + la capacité à faire des achats supplémentaires
 (montures, charettes, armure supérieure, etc.) avant de quitter son lieu d'origine.
 """
 
@@ -274,12 +274,23 @@ REGION_TECH_LEVEL: Dict[str, int] = {
 # CONVERSION & UNITÉS
 # =============================================================================
 # Les valeurs REGION_MEDIAN_DAILY_WAGE_GP sont des "unités abstraites".
-# On les convertit en bronze pieces (bp) Rolemaster pour cohérence avec les kits.
-# Le capital final correspond à N années de salaire local.
+# Le capital est calculé comme (salaire journalier × 300) × niveau → pièces d'argent (sp).
+# Le CAPITAL_BP_MULTIPLIER sert encore pour get_median_daily_wage_bp() (legacy/debug).
 CAPITAL_BP_MULTIPLIER = 40.0
 
 # Nombre d'années de salaire qui constituent le capital de départ d'un personnage
-STARTING_CAPITAL_YEARS = 3
+STARTING_CAPITAL_YEARS = 2.5
+
+# =============================================================================
+# CAPITAL DE DÉPART : PIÈCES D'ARGENT PAR NIVEAU
+# =============================================================================
+# Le capital de base (2,5 ans de salaire médian local) représente le montant
+# "normal" pour un personnage de niveau 1.
+# Pour un personnage de niveau N, on multiplie par le niveau.
+#
+# Avec 2,5 ans, la cible médiane pour un perso moyen de niveau 1 est
+# autour de 125 sp (50 sp × 2,5).
+BASE_SILVER_PIECES_PER_LEVEL = 125  # mis à jour pour 2,5 ans de salaire
 
 
 def get_median_daily_wage(region_name: str, settlement_type: str) -> float:
@@ -306,20 +317,26 @@ def calculate_starting_capital(
     region_name: str,
     settlement_type: str,
     ethnicity: str = None,   # Pour l'instant on ne l'utilise pas ici (sera ajouté plus tard)
-    variance: bool = True
+    variance: bool = True,
+    level: int = 1,
 ) -> int:
     """
-    Calcule le capital de départ visé pour un personnage "aisé mais pas riche".
+    Calcule le capital de départ d'un personnage en **pièces d'argent (sp)**.
 
-    Cible : 3 ans de salaire médian local, **exprimé directement en pièces d'argent (sp)**.
-    Plus de conversion intermédiaire en bronze pieces (bp).
+    Règle : 2,5 ans de salaire médian local × niveau du personnage.
     Le kit de base régional est fourni gratuitement (ne réduit pas ce capital).
+
+    C'est l'équivalent d'une règle "X pièces d'argent par niveau", où X
+    dépend de la région + du type de settlement (autour de 125 sp pour un
+    personnage "moyen" de niveau 1 avec 2,5 ans).
     """
     daily_wage = get_median_daily_wage(region_name, settlement_type)
 
-    # 3 ans de salaire (300 jours effectifs par an)
+    # 2,5 ans de salaire local = base pour un perso de niveau 1
     DAYS_PER_YEAR = 300
-    capital = daily_wage * DAYS_PER_YEAR * STARTING_CAPITAL_YEARS
+    base_for_level_1 = daily_wage * DAYS_PER_YEAR * STARTING_CAPITAL_YEARS
+
+    capital = base_for_level_1 * max(1, level)
 
     if variance:
         capital *= random.uniform(0.80, 1.20)
@@ -327,20 +344,21 @@ def calculate_starting_capital(
     return int(round(capital))
 
 
-def get_economic_summary(region_name: str, settlement_type: str) -> dict:
-    """Retourne un résumé lisible pour debug / compréhension (unités bp)."""
+def get_economic_summary(region_name: str, settlement_type: str, level: int = 1) -> dict:
+    """Retourne un résumé lisible pour debug / compréhension."""
     daily_abstract = get_median_daily_wage(region_name, settlement_type)
     daily_bp = get_median_daily_wage_bp(region_name, settlement_type)
-    capital = calculate_starting_capital(region_name, settlement_type, variance=False)
+    capital = calculate_starting_capital(region_name, settlement_type, variance=False, level=level)
 
     return {
         "region": region_name,
         "settlement": settlement_type,
+        "level": level,
         "median_daily_wage_abstract": daily_abstract,
         "median_daily_wage_bp": daily_bp,
-        "estimated_annual_wage_bp": round(daily_bp * 300),
-        "target_starting_capital": capital,
-        "years": STARTING_CAPITAL_YEARS,
+        "estimated_annual_wage_sp": round(daily_abstract * 300),  # 1 an en unités "sp-like"
+        "target_starting_capital_sp": capital,  # 2,5 ans × niveau
+        "base_sp_per_level": BASE_SILVER_PIECES_PER_LEVEL,  # cible pour 2,5 ans (~125 sp)
     }
 
 
@@ -355,7 +373,7 @@ def check_kit_fits_capital(region_name: str, settlement_type: str, kit_cost_bp: 
     """
     import data.equipment.regional_adventurer_kits as kits
 
-    capital = calculate_starting_capital(region_name, settlement_type, variance=False)
+    capital = calculate_starting_capital(region_name, settlement_type, variance=False, level=1)
     if kit_cost_bp is None:
         kit_cost_bp = kits.calculate_kit_cost_bp(region_name)
 
@@ -393,17 +411,119 @@ if __name__ == "__main__":
         ("Sembia", "Major Trade City"),
     ]
 
-    print("=== Tests du système économique régional (capital en bp Rolemaster) ===\n")
+    print("=== Tests du système économique régional (capital en pièces d'argent sp) ===\n")
 
     for region, settlement in test_cases:
         summary = get_economic_summary(region, settlement)
         capital = calculate_starting_capital(region, settlement)
         check = check_kit_fits_capital(region, settlement)
 
+        lvl = summary.get("level", 1)
         print(f"Région      : {region}")
         print(f"Settlement  : {settlement}")
-        print(f"Salaire/jour : {summary['median_daily_wage_bp']:.1f} bp")
-        print(f"Capital {summary.get('years', 3)} ans (sans variance) : {capital} bp")
+        print(f"Salaire/jour : {summary['median_daily_wage_abstract']:.3f} (abstract)  |  {summary['median_daily_wage_bp']:.1f} bp")
+        print(f"Capital niveau {lvl} (2,5 ans × niveau, sans variance) : {capital} sp")
         print(f"Kit régional (gratuit) : {check['kit_cost_bp']} bp")
-        print(f"Capital restant pour achats supplémentaires : {capital} bp")
+        print(f"Capital restant (sp) : {capital} sp")
         print("-" * 60)
+
+
+def estimate_median_starting_capital(n: int = 5000, level: int = 1, seed: int = 42) -> dict:
+    """
+    Estime la médiane réelle du starting capital en générant n personnages
+    avec le vrai système (ethnicity -> région -> settlement + variance 0.8-1.2).
+    C'est la méthode la plus précise.
+    """
+    import random
+    if seed is not None:
+        random.seed(seed)
+
+    from utils import generate_character
+    from statistics import median, mean
+
+    caps = []
+    for i in range(n):
+        char = generate_character(f'STATS-{i:05d}', level=level)
+        caps.append(char.get('Starting_Capital', 0))
+
+    caps.sort()
+    return {
+        'n_samples': n,
+        'level': level,
+        'median_sp': median(caps),
+        'mean_sp': round(mean(caps)),
+        'min_sp': min(caps),
+        'max_sp': max(caps),
+        'p25_sp': caps[int(n * 0.25)],
+        'p75_sp': caps[int(n * 0.75)],
+    }
+
+
+def get_theoretical_max_starting_capital(level: int = 1) -> int:
+    """Retourne le capital de départ **maximum théorique** possible pour un niveau donné.
+
+    Cela correspond à :
+    - Le salaire journalier le plus élevé (Lantan = 0.64)
+    - Le multiplicateur de settlement le plus élevé (Metropolis = 1.55)
+    - 300 jours
+    - STARTING_CAPITAL_YEARS (actuellement 2.5)
+    - Variance maximale (+20%)
+    """
+    max_daily = max(REGION_MEDIAN_DAILY_WAGE_GP.values())
+    max_mult = max(SETTLEMENT_WAGE_MULTIPLIER.values())
+
+    daily = max_daily * max_mult
+    base = daily * 300 * STARTING_CAPITAL_YEARS * max(1, level)
+    max_cap = base * 1.20
+    return int(round(max_cap))
+
+
+if __name__ == "__main__":
+    import random
+    random.seed(42)
+
+    test_cases = [
+        ("Calimshan", "Metropolis"),
+        ("The Shaar", "Caravan Oasis"),
+        ("Spine of the World", "Isolated Hamlet"),
+        ("Waterdeep", "Metropolis"),
+        ("Chult", "Jungle Village"),
+        ("Lantan", "Major Port City"),
+        ("Great Glacier", "Isolated Hamlet"),
+        ("Grand Glacier", "Farming Hamlet"),
+        ("Hordelands (The Endless Wastes)", "Permanent Encampment"),
+        ("Sembia", "Major Trade City"),
+    ]
+
+    print("=== Tests du système économique régional (capital en pièces d'argent sp) ===\n")
+
+    for region, settlement in test_cases:
+        summary = get_economic_summary(region, settlement)
+        capital = calculate_starting_capital(region, settlement)
+        check = check_kit_fits_capital(region, settlement)
+
+        lvl = summary.get("level", 1)
+        print(f"Région      : {region}")
+        print(f"Settlement  : {settlement}")
+        print(f"Salaire/jour : {summary['median_daily_wage_abstract']:.3f} (abstract)  |  {summary['median_daily_wage_bp']:.1f} bp")
+        print(f"Capital niveau {lvl} (2,5 ans × niveau, sans variance) : {capital} sp")
+        print(f"Kit régional (gratuit) : {check['kit_cost_bp']} bp")
+        print(f"Capital restant (sp) : {capital} sp")
+        print("-" * 60)
+
+    print("\n=== Médiane réelle du Starting Capital ===")
+    stats = estimate_median_starting_capital(n=4000, level=1, seed=42)
+    print(f"Basé sur {stats['n_samples']} personnages générés (niveau {stats['level']}):")
+    print(f"  Médiane : {stats['median_sp']} sp")
+    print(f"  Moyenne : {stats['mean_sp']} sp")
+    print(f"  25e-75e percentile : {stats['p25_sp']} - {stats['p75_sp']} sp")
+    print(f"  Min / Max : {stats['min_sp']} / {stats['max_sp']} sp")
+    print()
+
+    max_theo = get_theoretical_max_starting_capital(level=1)
+    print("=== Maximum théorique du Starting Capital ===")
+    print(f"  Niveau 1 : {max_theo} sp")
+    print(f"  Niveau N : {max_theo} × N sp")
+    print()
+    print("Le système est calibré pour une médiane autour de ~125 sp au niveau 1 (2,5 ans de salaire).")
+    print("(BASE_SILVER_PIECES_PER_LEVEL = 125)")

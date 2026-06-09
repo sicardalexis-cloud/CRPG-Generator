@@ -41,12 +41,16 @@ def generate_character_sheet(character: dict, base_folder: str = "fiches"):
                 pass
         next_num = max(numbers) + 1 if numbers else 1
     
-    char_id = f"PERSO-{next_num:03d}"
-    output_path = os.path.join(base_folder, f"{char_id}.pdf")
+    sheet_id = f"PERSO-{next_num:03d}"
+    output_path = os.path.join(base_folder, f"{sheet_id}.pdf")
     
-    # Mise à jour des données
-    character["ID"] = char_id
-    character["Generation_Date"] = datetime.now().strftime("%Y-%m-%d")
+    # On n'écrase pas l'ID original du générateur (utile pour le CSV)
+    # On ajoute des infos pour le template
+    character["Sheet_ID"] = sheet_id
+    if "ID" not in character or not character.get("ID"):
+        character["ID"] = sheet_id
+    if not character.get("Generation_Date"):
+        character["Generation_Date"] = datetime.now().strftime("%Y-%m-%d")
 
     # ====================== TEMPLATE ======================
     template_path = os.path.join("templates", "character_sheet.html")
@@ -70,9 +74,9 @@ def generate_character_sheet(character: dict, base_folder: str = "fiches"):
         html_content = template.render(character=character, icons=icons)
         
         HTML(string=html_content).write_pdf(output_path)
-        print(f"✅ Fiche créée : {output_path} ({char_id})")
-        return char_id
+        print(f"✅ Fiche créée : {output_path} ({sheet_id})")
+        return sheet_id
         
     except Exception as e:
-        print(f"❌ Erreur PDF pour {char_id}: {e}")
+        print(f"❌ Erreur PDF pour {sheet_id}: {e}")
         return None

@@ -1,0 +1,77 @@
+OBJETS DONT LE PRIX EST INFERIEUR A 450 SP (44 PO OU MOINS)
+
+--- CONSOMMABLES ---
+Bead of Nourishment (Common): 30 sp
+Potion of Poison (Uncommon): 40 sp
+Philter of Love (Uncommon): 40 sp
+Potion of Animal Friendship (Uncommon): 50 sp
+Potion of Water Breathing (Uncommon): 80 sp
+Potion of Climbing (Common): 80 sp
+Potion of Diminution (Rare): 100 sp
+Ammunition +1 (10x) (Uncommon): 110 sp
+Potion of Growth (Uncommon): 120 sp
+Potion of Mind Reading (Rare): 150 sp
+Dust of Dryness (Uncommon): 150 sp
+Oil of Slipperiness (Uncommon): 160 sp
+Potion of Invisibility (Rare): 180 sp
+Potion of Gaseous Form (Rare): 210 sp
+Potion of Clairvoyance (Rare): 210 sp
+Dust of Disappearance (Uncommon): 230 sp
+Dust of Sneezing and Choking (Uncommon): 270 sp
+Potion of Heroism (Rare): 270 sp
+Chime of Opening (Rare): 280 sp
+Universal Solvent (Legendary): 310 sp
+Ammunition +2 (10x) (Rare): 400 sp
+Pierre à aiguiser enchantée (Common): 200 sp
+Chandelle de lumière éternelle (Common): 50 sp
+Plume à encre infinie (Common): 80 sp
+Gourde de tempérance (Common): 150 sp
+Boussole du nord vrai (Common): 120 sp
+Poudre de réveil (Common): 50 sp
+Mini-Potion de soin (Common): 100 sp
+
+--- COMBAT ---
+Armor of Vulnerability (Rare): 80 sp
+Wind Fan (Uncommon): 100 sp
+Berserker Axe (Rare): 190 sp
+Pipes of the Sewers (Uncommon): 220 sp
+Shield of Missile Attraction (Rare): 330 sp
+Wand of Enemy Detection (Rare): 380 sp
+Brooch of Shielding (Uncommon): 380 sp
+Rope of Entanglement (Rare): 420 sp
+Circlet of Blasting (Uncommon): 440 sp
+
+--- NON COMBAT ---
+Wand of Secrets (Uncommon): 130 sp
+Trident of Fish Command (Uncommon): 140 sp
+Efficient Quiver (Uncommon): 140 sp
+Ring of Animal Influence (Rare): 160 sp
+Eyes of Minute Seeing (Uncommon): 170 sp
+Wand of Magic Detection (Uncommon): 210 sp
+Ring of Feather Falling (Rare): 210 sp
+Bag of Devouring (Very Rare): 220 sp
+Ring of Swimming (Uncommon): 240 sp
+Rope of Climbing (Uncommon): 240 sp
+Ring of Water Walking (Uncommon): 250 sp
+Helm of Comprehending Languages (Uncommon): 260 sp
+Eyes of Charming (Uncommon): 260 sp
+Horseshoes of Speed (Rare): 290 sp
+Hat of Disguise (Uncommon): 290 sp
+Goggles of Night (Uncommon): 300 sp
+Periapt of Health (Uncommon): 310 sp
+Cloak of the Manta Ray (Uncommon): 340 sp
+Boots of the Winterlands (Uncommon): 340 sp
+Ring of Warmth (Uncommon): 340 sp
+Lantern of Revealing (Uncommon): 350 sp
+Ring of Jumping (Uncommon): 400 sp
+Gloves of Swimming and Climbing (Uncommon): 410 sp
+Necklace of Adaptation (Uncommon): 410 sp
+Eversmoking Bottle (Uncommon): 440 sp
+Gloves of Thievery (Uncommon): 440 sp
+Cape de séchage rapide (Common): 100 sp
+Boîte à musique enchantée (Common): 250 sp
+Tissu autonettoyant (Common): 70 sp
+
+--- VARIANTS FAIBLES ---
+Healing Salve (N/A): 120 sp
+Minor Healing Potion (N/A): 200 sp

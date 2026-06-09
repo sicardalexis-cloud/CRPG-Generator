@@ -7,12 +7,25 @@ from utils import generate_character
 from character_sheet import generate_character_sheet  # ← Import ajouté
 
 
+def _build_armes_et_bouclier(char: dict) -> str:
+    """Combine regular 'Armes_et_Bouclier' with starting magic items for CSV export."""
+    armes = char.get("Armes_et_Bouclier", "Aucun") or "Aucun"
+    magic = char.get("Starting_Magic_Items", []) or []
+    if not magic:
+        return armes if armes else "Aucun"
+    magic_str = " | ".join(magic)
+    if armes and armes != "Aucun":
+        return f"{armes} | {magic_str}"
+    return magic_str
+
+
 def generate_batch(
     count: int = 100,
     output: str = None,
     seed: int = None,
     race_filter: str = None,
-    generate_pdfs: bool = False
+    generate_pdfs: bool = False,
+    level: int = 1
 ):
     if seed is not None:
         random.seed(seed)
@@ -25,7 +38,7 @@ def generate_batch(
     
     for i in range(1, count + 1):
         # ID temporaire
-        char = generate_character(f"CH-{i:05d}")
+        char = generate_character(f"CH-{i:05d}", level=level)
         
         if race_filter and char["Race"].lower() != race_filter.lower():
             continue
@@ -48,16 +61,17 @@ def generate_batch(
     filename = output or f"Personnages_{timestamp}.csv"
 
     fieldnames = [
-        "ID", "Race", "Ethnicity", "Origin_Region", "Settlement_Type",
+        "ID", "Level", "Race", "Ethnicity", "Origin_Region", "Settlement_Type",
         "Outdoor_Skills", "Urban_Skills",
         "Knowledge", "Craft", "Literacy", "Spoken_Languages",
-        "Combat_Points", "Magic", "Magic_Type", "Magic_Subtype",
+        "Combat_Points", "Magic", "Magic_Type", "Magic_Subtype", "Magic_And_Spells", "God",
         "Grappling", "Melee", "Projectiles", "Fencing", "Skill_Modifier",
         "Height_cm", "Weight_kg", "Size_Score",
         "Balance", "Quickness", "Coordination", "Precision",
         "Endurance", "Vigilance", "Beauty", "Stealth", "Speed",
         "Special", "Generation_Date",
         "Starting_Capital",
+        "Magic_Item_Capital",
         "Armes_et_Bouclier",
         "Final_Pocket_Money_BP",
         "Prebuilt_Kit_Tier",
@@ -71,6 +85,7 @@ def generate_batch(
         for char in characters:
             row = {
                 "ID": char["ID"],
+                "Level": char.get("Level", 1),
                 "Race": char["Race"],
                 "Ethnicity": char["Ethnicity"],
                 "Origin_Region": char["Origin_Region"],
@@ -89,6 +104,8 @@ def generate_batch(
                 "Magic": char.get("Magic", "NO"),
                 "Magic_Type": char.get("Magic_Type", ""),
                 "Magic_Subtype": char.get("Magic_Subtype", ""),
+                "Magic_And_Spells": char.get("Magic_And_Spells", ""),
+                "God": char.get("God", "None"),
                 
                 "Grappling": char.get("Grappling", ""),
                 "Melee": char.get("Melee", ""),
@@ -114,7 +131,8 @@ def generate_batch(
                 "Generation_Date": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
 
                 "Starting_Capital": char.get("Starting_Capital", 0),
-                "Armes_et_Bouclier": char.get("Armes_et_Bouclier", "Aucun"),
+                "Magic_Item_Capital": char.get("Magic_Item_Budget", 0),
+                "Armes_et_Bouclier": _build_armes_et_bouclier(char),
                 "Final_Pocket_Money_BP": char.get("Final_Pocket_Money_BP", 0),
                 "Prebuilt_Kit_Tier": char.get("Prebuilt_Kit_Tier", ""),
                 "Prebuilt_Kit_Cost_Sp": char.get("Prebuilt_Kit_Cost_Sp", 0)
@@ -142,7 +160,8 @@ def main():
     parser.add_argument("-o", "--output", type=str, help="Nom du fichier CSV")
     parser.add_argument("-s", "--seed", type=int, help="Seed pour reproductibilité")
     parser.add_argument("-r", "--race", type=str, help="Filtrer par race (ex: Human, Elf)")
-    parser.add_argument("-p", "--pdf", action="store_true", help="Générer aussi les fiches PDF")
+    parser.add_argument("-l", "--level", type=int, default=1, help="Niveau du personnage (capital = pièces d'argent par niveau)")
+    parser.add_argument("-p", "--pdf", action="store_true", help="Générer les fiches PDF (fiches/PERSO-XXX.pdf). Les Magicien reçoivent leurs 6 sorts niveau 1.")
 
     args = parser.parse_args()
 
@@ -151,7 +170,8 @@ def main():
         output=args.output,
         seed=args.seed,
         race_filter=args.race,
-        generate_pdfs=args.pdf
+        generate_pdfs=args.pdf,
+        level=args.level
     )
 
 

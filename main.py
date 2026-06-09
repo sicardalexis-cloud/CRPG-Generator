@@ -7,11 +7,34 @@ from utils import generate_character
 from data.equipment import post_kit_purchases as post_kit
 
 
+def _build_armes_et_bouclier(char: dict) -> str:
+    """Combine regular 'Armes_et_Bouclier' with starting magic items for CSV export."""
+    armes = char.get("Armes_et_Bouclier", "Aucun") or "Aucun"
+    magic = char.get("Starting_Magic_Items", []) or []
+    if not magic:
+        return armes if armes else "Aucun"
+    magic_str = " | ".join(magic)
+    if armes and armes != "Aucun":
+        return f"{armes} | {magic_str}"
+    return magic_str
+
+# Optional PDF character sheet support (heavy deps: jinja2 + weasyprint)
+# The feature was previously wired in batch_generator.py
+try:
+    from character_sheet import generate_character_sheet
+    _HAS_SHEET_SUPPORT = True
+except Exception:
+    _HAS_SHEET_SUPPORT = False
+    generate_character_sheet = None  # will be checked at use time
+
+
 def generate_batch(
     count: int = 100,
     output: str = None,
     seed: int = None,
-    race_filter: str = None
+    race_filter: str = None,
+    level: int = 1,
+    generate_pdfs: bool = False
 ):
     if seed is not None:
         random.seed(seed)
@@ -22,12 +45,22 @@ def generate_batch(
     characters = []
     
     for i in range(1, count + 1):
-        char = generate_character(f"CH-{i:05d}")
+        char = generate_character(f"CH-{i:05d}", level=level)
         
         if race_filter and char["Race"].lower() != race_filter.lower():
             continue
             
         characters.append(char)
+        
+        # Génération des fiches PDF (si demandé et support disponible)
+        if generate_pdfs:
+            if _HAS_SHEET_SUPPORT and generate_character_sheet is not None:
+                try:
+                    generate_character_sheet(char)
+                except Exception as e:
+                    print(f"⚠️ Erreur génération fiche pour {char.get('ID', '?')}: {e}")
+            else:
+                print("⚠️ Support fiches PDF non disponible (installe jinja2 + weasyprint)")
         
         if i % max(10, count // 10) == 0:
             print(f"   -> {i:5d} / {count} personnages générés...")
@@ -38,7 +71,7 @@ def generate_batch(
 
     # === Colonnes sans Total_Skills / Outdoor_Count / Urban_Count ===
     fieldnames = [
-        "ID", "Race", "Ethnicity", "Origin_Region", "Settlement_Type", "Equipment_Group",
+        "ID", "Level", "Race", "Ethnicity", "Origin_Region", "Settlement_Type", "Equipment_Group",
         
         # Compétences détaillées
         "Outdoor_Skills", 
@@ -50,6 +83,7 @@ def generate_batch(
         "Literacy", 
         "Spoken_Languages",
         "Starting_Capital",
+        "Magic_Item_Capital",
         "Final_Pocket_Money_BP",
         
         # Equipment kit (100 kits XV siecle Cote des Epees EN selection; full details in Armes_et_Bouclier)
@@ -63,6 +97,8 @@ def generate_batch(
         "Magic", 
         "Magic_Type", 
         "Magic_Subtype",
+        "Magic_And_Spells",
+        "God",
         "Grappling", 
         "Melee", 
         "Projectiles", 
@@ -108,6 +144,7 @@ def generate_batch(
 
             row = {
                 "ID": char["ID"],
+                "Level": char.get("Level", 1),
                 "Race": char["Race"],
                 "Ethnicity": char["Ethnicity"],
                 "Origin_Region": char["Origin_Region"],
@@ -123,9 +160,10 @@ def generate_batch(
                 "Literacy": " | ".join(char.get("Literacy", [])) if char.get("Literacy") else "None",
                 "Spoken_Languages": " | ".join(char.get("Spoken_Languages", [])),
                 "Starting_Capital": char.get("Starting_Capital", 0),
+                "Magic_Item_Capital": char.get("Magic_Item_Budget", 0),
                 "Final_Pocket_Money_BP": char.get("Final_Pocket_Money_BP", 0),
                 
-                "Armes_et_Bouclier": char.get("Armes_et_Bouclier", "Aucun"),
+                "Armes_et_Bouclier": _build_armes_et_bouclier(char),
                 
                 "Prebuilt_Kit_Tier": char.get("Prebuilt_Kit_Tier", ""),
                 "Prebuilt_Kit_Cost_Sp": char.get("Prebuilt_Kit_Cost_Sp", 0),
@@ -134,6 +172,8 @@ def generate_batch(
                 "Magic": char["Magic"],
                 "Magic_Type": char.get("Magic_Type", ""),
                 "Magic_Subtype": char.get("Magic_Subtype", ""),
+                "Magic_And_Spells": char.get("Magic_And_Spells", ""),
+                "God": char.get("God", "None"),
                 
                 "Grappling": char["Grappling"],
                 "Melee": char["Melee"],
@@ -163,6 +203,9 @@ def generate_batch(
 
     print(f"\n[OK] Export terminé -> {filename} ({len(characters)} personnages)")
 
+    if generate_pdfs and _HAS_SHEET_SUPPORT:
+        print("📄 Fiches PDF générées dans le dossier 'fiches/' (PERSO-XXX.pdf)")
+
     # Statistiques rapides
     magic_count = sum(1 for c in characters if c.get("Magic") == "YES")
     print(f"\n[STATS] Magiques : {magic_count}/{len(characters)} ({magic_count/len(characters):.1%})")
@@ -170,7 +213,7 @@ def generate_batch(
 
 def main():
     parser = argparse.ArgumentParser(
-        description="[CRPG] Générateur de Personnages - Export CSV",
+        description="[CRPG] Générateur de Personnages - Export CSV (+ fiches PDF optionnelles)",
         formatter_class=argparse.ArgumentDefaultsHelpFormatter
     )
     
@@ -178,6 +221,8 @@ def main():
     parser.add_argument("-o", "--output", type=str, help="Nom du fichier CSV")
     parser.add_argument("-s", "--seed", type=int, help="Seed pour reproductibilité")
     parser.add_argument("-r", "--race", type=str, help="Filtrer par race (ex: Human, Elf)")
+    parser.add_argument("-l", "--level", type=int, default=1, help="Niveau du personnage (capital = pièces d'argent × niveau)")
+    parser.add_argument("-p", "--pdf", action="store_true", help="Générer les fiches PDF dans fiches/ (PERSO-XXX.pdf). Inclut les sorts connus des Magicien. Nécessite jinja2 + weasyprint.")
 
     args = parser.parse_args()
 
@@ -185,7 +230,9 @@ def main():
         count=args.count,
         output=args.output,
         seed=args.seed,
-        race_filter=args.race
+        race_filter=args.race,
+        level=args.level,
+        generate_pdfs=args.pdf
     )
 
 

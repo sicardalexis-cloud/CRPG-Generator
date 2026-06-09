@@ -15,7 +15,9 @@ from data.equipment.regional_economy import calculate_starting_capital
 from data.equipment import regional_adventurer_kits as regional_kits
 from data.equipment import post_kit_purchases as post_kit
 # Note: old armor builder / prebuilts / protocol removed per upgrade.
-# Equipment now: free universal survival kit (0 cost to capital) + one max-affordable from 100_kits_XV_siecle_Cote_des_Epees_EN (1).txt
+# Equipment now: free universal survival kit (0 cost to capital) + one max-affordable from the appropriate 100-kits file.
+#   - Default: 100_kits_XV_siecle_Cote_des_Epees_EN (1).txt
+#   - Théurgique + Magie Verte (druids): 100_Kits_Druide_Complete_100kits.txt
 from skill_data import generate_skills
 from knowledge_data import generate_secondary_skills
 from rules import (
@@ -28,7 +30,8 @@ from rules import (
     calculate_projectiles,
     calculate_combat_points,
     determine_magic_type,
-    calculate_skill_modifier
+    calculate_skill_modifier,
+    choose_god,
 )
 
 
@@ -95,13 +98,43 @@ def choose_race_and_ethnicity() -> Tuple[str, str]:
 
 
 # =============================================================================
-# LOADER FOR 80 KITS XVe SIECLE (new simple equipment system)
+# LOADER FOR 100 KITS (equipment system)
 # =============================================================================
 
-def load_100_kits_file() -> list:
-    """Parse the 100 kits file (XV siecle Cote des Epees EN). Returns list of dicts with price_sp, kit_id, description, items (list of names)."""
+def _get_kit_file_path(magic_type: str = "", magic_subtype: str = "") -> Path:
+    """Return the appropriate 100-kits file path.
+    - Théurgique + Magie Verte (druids) → 100_Kits_Druide_Complete_100kits.txt
+    - Arcanique / Magicien (wizards) → 100_Magician_Kits .txt (user-provided)
+    - Default → 100_kits_XV_siecle_Cote_des_Epees_EN (1).txt
+    """
     here = Path(__file__).parent
-    file_path = here / "data" / "equipment" / "systeme armure preconstruites" / "100_kits_XV_siecle_Cote_des_Epees_EN (1).txt"
+    base = here / "data" / "equipment" / "systeme armure preconstruites"
+    mtype = (magic_type or "").lower()
+    msub = (magic_subtype or "").lower()
+
+    if mtype == "théurgique" and "verte" in msub:
+        druid_file = base / "100_Kits_Druide_Complete_100kits.txt"
+        if druid_file.exists():
+            return druid_file
+
+    if mtype == "arcanique" or "magicien" in msub:
+        magician_file = base / "100_Magician_Kits .txt"
+        if magician_file.exists():
+            return magician_file
+
+    return base / "100_kits_XV_siecle_Cote_des_Epees_EN (1).txt"
+
+
+def load_100_kits_file(kit_file: Optional[Path] = None) -> list:
+    """Parse the 100 kits file. If kit_file is provided, use it (e.g. druid kits).
+    Otherwise falls back to the default XVe kit list.
+    Returns list of dicts with price_sp, kit_id, description, items (list of names).
+    """
+    if kit_file is None:
+        here = Path(__file__).parent
+        file_path = here / "data" / "equipment" / "systeme armure preconstruites" / "100_kits_XV_siecle_Cote_des_Epees_EN (1).txt"
+    else:
+        file_path = kit_file
     kits = []
     if not file_path.exists():
         print(f"WARNING: 100 kits file not found at {file_path}")
@@ -121,8 +154,12 @@ def load_100_kits_file() -> list:
                 items_part = m.group(4).strip()
                 items = []
                 if items_part:
-                    for seg in items_part.split(','):
+                    # Support both "," and " + " as separators (different kit files use different styles)
+                    segments = re.split(r'\s*,\s*|\s*\+\s*', items_part)
+                    for seg in segments:
                         seg = seg.strip()
+                        if not seg:
+                            continue
                         # strip ONLY the trailing (price) at the very end (e.g. 'Item (45)' or 'Bolts (12) (9)')
                         # but preserve internal quantity modifiers like 'Bolts (12)' that the user added
                         seg_clean = re.sub(r'\s*\(\d+(?:\.\d+)?\)$', '', seg).strip()
@@ -149,9 +186,79 @@ def select_most_expensive_affordable_kit(capital_sp: float, kits: list) -> Optio
     return max(affordable, key=lambda k: k["price_sp"])
 
 
+# ====================== STARTING MAGIC ITEMS ======================
+def _load_starting_magic_items() -> list[dict]:
+    """Parse the starting magic items list. Returns [{'name': str, 'price': int}, ...]"""
+    from pathlib import Path
+    here = Path(__file__).parent
+    path = here / "data" / "equipment" / "systeme armure preconstruites" / "magic item markets" / "starting magic items.txt"
+    items = []
+    if not path.exists():
+        print(f"WARNING: starting magic items file not found at {path}")
+        return items
+    try:
+        import re
+        with open(path, "r", encoding="utf-8") as f:
+            for line in f:
+                line = line.strip()
+                if not line or line.startswith("---") or line.startswith("OBJETS"):
+                    continue
+                if ":" in line:
+                    name_part, price_part = line.rsplit(":", 1)
+                    name = name_part.strip()
+                    m = re.search(r"(\d+)\s*sp", price_part, re.IGNORECASE)
+                    if m:
+                        price = int(m.group(1))
+                        items.append({"name": name, "price": price})
+    except Exception as e:
+        print(f"ERROR loading starting magic items: {e}")
+    return items
+
+
+def _select_starting_magic_items(budget: int) -> list[dict]:
+    """Randomly select items whose total price <= budget (greedy after shuffle)."""
+    if budget <= 0:
+        return []
+    all_items = _load_starting_magic_items()
+    if not all_items:
+        return []
+    affordable = [it for it in all_items if it["price"] <= budget]
+    if not affordable:
+        return []
+    import random
+    random.shuffle(affordable)
+    selected = []
+    remaining = budget
+    for item in affordable:
+        if item["price"] <= remaining:
+            selected.append(item)
+            remaining -= item["price"]
+    return selected
+
+
+def _format_magic_and_spells(spells_known: list[str], magic_items: list[dict] = None) -> str:
+    """Build the content for the 'Magic_And_Spells' CSV column (only spells now; magic items go to Armes_et_Bouclier column)."""
+    if spells_known:
+        return " | ".join(spells_known)
+    return ""
+
+
+def _combine_armes_et_bouclier(char: dict) -> str:
+    """Combine regular equipment with starting magic items for the CSV 'Armes_et_Bouclier' column."""
+    armes = char.get("Armes_et_Bouclier", "Aucun") or "Aucun"
+    magic_items = char.get("Starting_Magic_Items", []) or []
+    if not magic_items:
+        return armes if armes else "Aucun"
+    magic_str = " | ".join(magic_items)
+    if armes and armes != "Aucun":
+        return f"{armes} | {magic_str}"
+    return magic_str
+
+
 # ====================== MAIN CHARACTER GENERATOR ======================
-def generate_character(char_id: str = "TEMP"):
-    """Génère un personnage complet"""
+def generate_character(char_id: str = "TEMP", level: int = 1):
+    """Génère un personnage complet (capital de départ = pièces d'argent par niveau)"""
+    level = max(1, int(level))
     
     race, ethnicity = choose_race_and_ethnicity()
     data = ethnicity_data[ethnicity]
@@ -214,7 +321,24 @@ def generate_character(char_id: str = "TEMP"):
 
     # ====================== MAGIC & SKILL MODIFIER ======================
     magic_info = determine_magic_type(combat_points=combat_points, settlement_type=settlement_type)
-    
+
+    # God choice (contextual: ethnicity + region + settlement + magic type + subtype)
+    # Special rule: Théurgique + Magie Verte → strongly nature gods (Chauntea, Silvanus, etc.)
+    god = choose_god(
+        ethnicity=ethnicity,
+        region_name=region_name,
+        settlement_type=settlement_type,
+        magic_type=magic_info.get("type", ""),
+        magic_subtype=magic_info.get("subtype", "") or ""
+    )
+
+    # Wizard (Arcanique/Magicien) starting spells: 6 random level-1 spells weighted by frequency
+    from rules import choose_starting_spells
+    spells_known: list[str] = choose_starting_spells(
+        magic_info.get("type", ""),
+        magic_info.get("subtype", "")
+    )
+
     skill_modifier = calculate_skill_modifier(
         tcb=combat_points,
         vigilance=vigilance,
@@ -226,27 +350,37 @@ def generate_character(char_id: str = "TEMP"):
         climbing=climbing,
     )
 
-    # ====================== STARTING CAPITAL + FREE KIT + 80 XVe KITS (per upgrade) ======================
-    # - Free kit (survival stuff + food) from regional_adventurer_kits: UNIVERSAL, always given, cost=0 to capital.
-    # - Then select from "100_kits_XV_siecle_Cote_des_Epees_EN (1).txt" the MOST EXPENSIVE kit affordable
-    #   with the FULL starting_capital (in sp, 3-year model).
-    # - All remaining capital is kept exactly (no 5% bonus, no other spends, no specialty rules, no builder).
-    # - Prebuilt_Kit_Cost_Sp + Prebuilt_Kit_Items + Armes_et_Bouclier populated from the chosen kit.
-    # - Free kit goes to Starting_Equipment_Kit (value recorded but not deducted from capital).
-    # - Columns removed from CSV per request: Starting_Equipment_Cost_BP, Starting_Equipment_Kit_Type,
-    #   Armure, Monture_et_Reste, Equipment_Source (info consolidated into Armes_et_Bouclier + Prebuilt_* + Phase*).
+    # ====================== STARTING CAPITAL (pièces d'argent par niveau de personnage) ======================
+    # - Base: ~50 sp par niveau (ajusté par région + settlement via regional_economy).
+    # - Free universal survival kit (always given, cost 0 to capital).
+    # - Then pick the most expensive affordable 100-kit from the XVe kit list.
+    # - Remaining money after kit = Final_Pocket_Money (in BP for now).
     starting_capital = calculate_starting_capital(
         region_name=region_name,
         settlement_type=settlement_type,
-        ethnicity=ethnicity
+        ethnicity=ethnicity,
+        level=level
     )
+
+    # ====================== STARTING MAGIC OBJECTS ======================
+    # Budget = (900 - starting_capital) / 2   (in sp)
+    # Items chosen from the "starting magic items.txt" list, total price <= budget
+    magic_budget = max(0, (900 - starting_capital) // 2)
+    starting_magic_items = []
+    if magic_budget > 0:
+        starting_magic_items = _select_starting_magic_items(magic_budget)
 
     # Free survival kit (always; does not reduce the starting capital)
     kit_items = regional_kits.get_universal_starting_kit()
     kit_cost_bp = sum(item["price_bp"] for item in kit_items)
 
     # Load and select most expensive 100kit <= full capital
-    kits = load_100_kits_file()
+    # Special case: Théurgique + Magie Verte (green magic druids) use the dedicated druid kit list instead of the default one
+    kit_file_path = _get_kit_file_path(
+        magic_info.get("type", ""),
+        magic_info.get("subtype", "")
+    )
+    kits = load_100_kits_file(kit_file_path)
     chosen_kit = select_most_expensive_affordable_kit(starting_capital, kits)
 
     kit_spent_sp = chosen_kit["price_sp"] if chosen_kit else 0.0
@@ -387,7 +521,13 @@ def generate_character(char_id: str = "TEMP"):
         "Magic": "YES" if magic_info.get("magic") else "NO",
         "Magic_Type": magic_info.get("type", "None"),
         "Magic_Subtype": magic_info.get("subtype"),
+        "God": god,
         "Magic_Description": magic_info.get("description", ""),
+        "Spells_Known": spells_known,
+        "Num_Spells_Known": len(spells_known),
+        "Starting_Magic_Items": [f"{item['name']} ({item['price']} sp)" for item in starting_magic_items],
+        "Magic_Item_Budget": magic_budget,
+        "Magic_And_Spells": _format_magic_and_spells(spells_known, starting_magic_items),
 
         "Skill_Modifier": skill_modifier,
 
@@ -402,6 +542,7 @@ def generate_character(char_id: str = "TEMP"):
         "Literacy": secondary["literacy"],
         "Spoken_Languages": secondary["spoken_languages"],
 
+        "Level": level,
         "Starting_Capital": starting_capital,
         "Starting_Equipment_Kit": [item["name"] for item in kit_items],
 

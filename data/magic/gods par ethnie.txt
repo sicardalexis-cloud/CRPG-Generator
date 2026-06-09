@@ -1,0 +1,139 @@
+	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+Calishites (arabe)	Sharess	Waukeen	Talos	Azuth	Savras	Shar	Siamorphe	Umberlee	Tyr	Ilmater	Sune	Lathander	Helm	Deneir	Selûne	Mask	Tymora	Chauntea	Akadi	Gond
+Chondathans (europe de l'ouest)	Waukeen	Tymora	Oghma	Deneir	Lathander	Helm	Chauntea	Sune	Selûne	Milil	Mystra	Mask	Mielikki	Eldath	Silvanus	Shaundakul	Torm	Tyr	Ilmater	Auril
+Damarans (northern and east European)	Ilmater	Tyr	Torm	Chauntea	Lathander	Helm	Tempus	Mystra	Kelemvor	Bahamut	Eldath	Mielikki	Silvanus	Deneir	Oghma	Selûne	Sune	Tymora	Azuth	Shaundakul
+Illuskans (nordique)	Tempus	Umberlee	Valkur	Auril	Talos	Uthgar	Selûne	Shaundakul	Chauntea	Myrkul	Silvanus	Mielikki	Lathander	Helm	Tyr	Tymora	Mask	Sune	Deneir	Oghma
+Mulan (mesopotamie)	Bane	Shar	Kossuth	Azuth	Mystra	Velsharoon	Talona	Loviatar	Set	Tharchion	Ilmater	Tyr	Torm	Mask	Cyric	Deneir	Sune	Selûne	Kelemvor	Umberlee
+Rashemi (mongols, siberiens)	chauntea	Mielikki	Lurue	Mystra	Silvanus	Tempus	Uthgar	Lathander	Eldath	Azuth	Shiallia	Sune	Selûne	Tymora	Deneir	Oghma	Helm	Tyr	Mask	Shar
+Tethyrianns (mediteranéens)	Lathander	Tymora	Helm	Chauntea	Sune	Waukeen	Oghma	Selûne	Mystra	Milil	Deneir	Mielikki	Eldath	Silvanus	Torm	Tyr	Ilmater	Mask	Auril	Shaundakul
+Chultan (afrique sub saharienne)	Ubtao	Eshowdow	Thard Harr	Savras	Sseth	Dendar	Waukeen	Gond	Tymora	Akadi	Silvanus	Mielikki	Eldath	Chauntea	Lathander	Sune	Mask	Shiallia	Oghma	Deneir
+Turami (afrique de l'est)	Lathander	Chauntea	Waukeen	Tymora	Sune	Selûne	Oghma	Deneir	Gond	Ilmater	Helm	Torm	Tyr	Akadi	Savras	Silvanus	Mielikki	Eldath	Mask	Shar
+Ffolk- Celtic	Chauntea	Silvanus	Eldath	Mielikki	Lathander	Tempus	Oghma	Selûne	Myrkul	Umberlee	Tymora	Sune	Deneir	Shiallia	Mask	Helm	Tyr	Auril	Malar	Talos
+Sossrim- Finnish	Auril	Tempus	Talos	Selûne	Chauntea	Lathander	Mystra	Uthgar	Mielikki	Eldath	Silvanus	Tymora	Sune	Deneir	Oghma	Helm	Tyr	Ilmater	Akadi	Shaundakul
+strongheart	Yondalla	Cyrrollalee	Arvoreen	Sheela Peryroyl	Brandobaris	Urogalan	Chauntea	Tymora	Selûne	Lathander	Silvanus	Eldath	Mielikki	Shiallia	Sune	Oghma	Milil	Deneir	Mask	Garl Glittergold
+Lightfoot	Brandobaris	Yondalla	Sheela Peryroyl	Arvoreen	Urogalan	Tymora	Mask	Shaundakul	Selûne	Oghma	Milil	Deneir	Chauntea	Sune	Lathander	Silvanus	Eldath	Mielikki	Garl Glittergold	Shiallia
+ghostwalk	Urogalan	Yondalla	Sheela Peryroyl	Arvoreen	Silvanus	Eldath	Mielikki	Chauntea	Lurue	Shiallia	Brandobaris	Tymora	Selûne	Mask	Sune	Lathander	Milil	Deneir	Garl Glittergold	Oghma
+nain d'ecu	Moradin	Dumathoïn	Clangeddin	Berronar	Marthammor Duin	Gorm Gulthyn	Haela	Dugmaren	Vergadain	Abbathor	Thard Harr	Sharindlar	Baravar	Talos	Uthgar	Tyr	Helm	Azuth	Tempus	Silvanus
+nain d'or	Moradin	Berronar	Clangeddin	Dumathoïn	Vergadain	Dugmaren	Abbathor	Gorm Gulthyn	Haela	Marthammor Duin	Sharindlar	Thard Harr	Tyr	Helm	Silvanus	Tempus	Azuth	Oghma	Sune	Lathander
+nain gris	Laduguer	Duerra	Abbathor	Diinkarazan	Diirinka	Shar	Loviatar	Talona	Ghaunadaur	Lolth	Moradin	Berronar	Clangeddin	Dumathoïn	Mask	Vhaeraun	Selûne	Urdlen	Shargaas	Maanzecorian
+nain artique	Moradin	Dumathoïn	Clangeddin	Gorm Gulthyn	Auril	Talos	Ulutiu	Berronar	Haela	Marthammor Duin	Silvanus	Tempus	Sharindlar	Dugmaren	Vergadain	Helm	Tyr	Azuth	Eldath	Lathander
+nain sauvages	Thard Harr	Moradin	Dumathoïn	Clangeddin	Silvanus	Mielikki	Gorm Gulthyn	Haela	Berronar	Eldath	Marthammor Duin	Dugmaren	Vergadain	Sharindlar	Tymora	Chauntea	Lurue	Sune	Mask	Oghma
+urdunnir	Dumathoïn	Moradin	Grumbar	Clangeddin	Berronar	Gorm Gulthyn	Abbathor	Akadi	Urogalan	Dugmaren	Sharindlar	Silvanus	Tempus	Tyr	Helm	Lathander	Sune	Oghma	Eldath	Mielikki
+elfe des bois	Rillifane	Silvanus	Mielikki	Corellon	Hanali	Solonor	Chauntea	Eldath	Lurue	Shiallia	Sune	Tymora	Selûne	Deneir	Oghma	Mask	Fenmarel	Shevarash	Eilistraée	Labelas
+elfe de la lune	Corellon	Hanali	Selûne	Sune	Eilistraée	Mystra	Sehanine	Lathander	Tymora	Deneir	Oghma	Chauntea	Mielikki	Shiallia	Solonor	Labelas	Mask	Eldath	Milil	Fenmarel
+elfe noir	Eilistraée	Vhaeraun	Corellon	Hanali	Selûne	Mystra	Shar	Mask	Loviatar	Sehanine	Lolth	Tymora	Sune	Deneir	Oghma	Milil	Eldath	Shiallia	Fenmarel	Kiaransalee
+elfe du soleil	Corellon	Labelas	Hanali	Lathander	Sune	Mystra	Sehanine	Solonor	Tymora	Deneir	Oghma	Chauntea	Mielikki	Selûne	Shiallia	Eldath	Milil	Mask	Fenmarel	Eilistraée
+elfe sauvage	Solonor	Rillifane	Mielikki	Corellon	Silvanus	Hanali	Eldath	Lurue	Shiallia	Tymora	Sehanine	Sune	Selûne	Deneir	Oghma	Mask	Fenmarel	Labelas	Eilistraée	Shevarash
+elfe de la mer	Deep Sashelas	Corellon	Hanali	Eilistraée	Selûne	Valkur	Umberlee	Sehanine	Sune	Tymora	Mystra	Lathander	Deneir	Oghma	Milil	Eldath	Shiallia	Solonor	Labelas	Fenmarel
+elfe des etoiles	Sehanine	Corellon	Hanali	Selûne	Mystra	Labelas	Sune	Tymora	Deneir	Oghma	Lathander	Milil	Shiallia	Eldath	Eilistraée	Mask	Solonor	Mielikki	Fenmarel	Shevarash
+avariel	Aerdrie Faenya	Corellon	Hanali	Sehanine	Labelas	Solonor	Rillifane	Sune	Tymora	Selûne	Mystra	Lathander	Deneir	Oghma	Milil	Eldath	Shiallia	Fenmarel	Eilistraée	Shevarash
+lythari	Rillifane	Solonor	Mielikki	Silvanus	Corellon	Hanali	Eldath	Lurue	Shiallia	Sehanine	Tymora	Sune	Selûne	Deneir	Oghma	Mask	Fenmarel	Labelas	Eilistraée	Shevarash
+elfe des bois	Rillifane	Corellon	Solonor	Mielikki	Silvanus	Hanali	Sehanine	Chauntea	Eldath	Lurue	Shiallia	Labelas	Tymora	Sune	Deneir	Oghma	Mask	Fenmarel	Eilistraée	Shevarash
+elfe de la lune	Corellon	Hanali	Sehanine	Selûne	Mystra	Labelas	Sune	Lathander	Tymora	Deneir	Oghma	Milil	Shiallia	Eldath	Eilistraée	Mask	Solonor	Mielikki	Fenmarel	Shevarash
+elfe noir	Lolth	Vhaeraun	Eilistraée	Kiaransalee	Selûne	Shar	Mask	Loviatar	Corellon	Hanali	Sehanine	Mystra	Tymora	Sune	Deneir	Oghma	Milil	Eldath	Fenmarel	Shevarash
+elfe du soleil	Corellon	Labelas	Hanali	Lathander	Mystra	Sehanine	Sune	Tymora	Deneir	Oghma	Milil	Chauntea	Mielikki	Selûne	Shiallia	Eldath	Solonor	Fenmarel	Eilistraée	Shevarash
+elfe sauvage	Solonor	Rillifane	Mielikki	Silvanus	Corellon	Hanali	Eldath	Lurue	Shiallia	Sehanine	Tymora	Sune	Selûne	Deneir	Oghma	Mask	Fenmarel	Labelas	Eilistraée	Shevarash
+elfe de la mer	Deep Sashelas	Corellon	Hanali	Eilistraée	Selûne	Valkur	Umberlee	Sehanine	Sune	Tymora	Mystra	Lathander	Deneir	Oghma	Milil	Eldath	Shiallia	Solonor	Labelas	Fenmarel
+elfe des etoiles	Sehanine	Corellon	Hanali	Selûne	Mystra	Labelas	Sune	Tymora	Deneir	Oghma	Lathander	Milil	Shiallia	Eldath	Eilistraée	Mask	Solonor	Mielikki	Fenmarel	Shevarash
+avariel	Aerdrie Faenya	Corellon	Hanali	Sehanine	Labelas	Solonor	Rillifane	Sune	Tymora	Selûne	Mystra	Lathander	Deneir	Oghma	Milil	Eldath	Shiallia	Fenmarel	Eilistraée	Shevarash
+lythari	Rillifane	Solonor	Mielikki	Silvanus	Corellon	Hanali	Eldath	Lurue	Shiallia	Sehanine	Tymora	Sune	Selûne	Deneir	Oghma	Mask	Fenmarel	Labelas	Eilistraée	Shevarash
+gnome des roches	Garl Glittergold	Baervan	Flandal	Segojan	Baravar	Callarduran	Urdlen	Moradin	Tymora	Deneir	Oghma	Sune	Milil	Chauntea	Selûne	Mielikki	Eldath	Shiallia	Gond	Dugmaren
+gnome des forets	Baervan	Garl Glittergold	Segojan	Flandal	Callarduran	Baravar	Urdlen	Mielikki	Silvanus	Eldath	Shiallia	Lurue	Tymora	Selûne	Sune	Deneir	Oghma	Milil	Mask	Dugmaren
+gnome des profondeurs	Callarduran	Garl Glittergold	Baravar	Segojan	Flandal	Urdlen	Duerra	Laduguer	Moradin	Dumathoïn	Abbathor	Shar	Mask	Talona	Loviatar	Selûne	Deneir	Oghma	Gond	Azuth
+Demi mountain orc	Gruumsh	Bahgtru	Ilneval	Luthic	Shargaas	Yurtrus	Tempus	Bane	Garagos	Talos	Loviatar	Malar	Helm	Tyr	Torm	Shar	Mask	Selûne	Chauntea	Eldath
+Demi gray orc	Gruumsh	Bahgtru	Ilneval	Luthic	Shargaas	Yurtrus	Duerra	Laduguer	Bane	Tempus	Talos	Loviatar	Shar	Mask	Selûne	Torm	Tyr	Chauntea	Eldath	Garagos
+Demi orogs	Gruumsh	Bahgtru	Ilneval	Shargaas	Yurtrus	Luthic	Bane	Tempus	Talos	Garagos	Loviatar	Shar	Mask	Selûne	Helm	Torm	Tyr	Malar	Urdlen	Duerra
+Demi-orc Ondontis																				
+Demi-orc Boogins																				
+Demi-orc ogrillons																				
+drakeide	Bahamut	Torm	Helm	Tyr	Lathander	Tempus	Moradin	Sune	Mystra	Chauntea	Silvanus	Oghma	Deneir	Milil	Ilmater	Gond	Akadi	Kelemvor	Bane	Io
+protector aasimar	Lathander	Tyr	Torm	Helm	Ilmater	Sune	Selûne	Mystra	Bahamut	Corellon	Sehanine	Hanali	Milil	Deneir	Oghma	Chauntea	Eldath	Mielikki	Shiallia	Eilistraée
+scourge aasimar	Tyr	Torm	Helm	Lathander	Bahamut	Ilmater	Tempus	Mystra	Sune	Selûne	Deneir	Oghma	Milil	Chauntea	Corellon	Sehanine	Mask	Kelemvor	Gond	Azuth
+fallen aasimar	Shar	Mask	Bane	Loviatar	Talona	Kiaransalee	Selûne	Tyr	Torm	Helm	Mystra	Sune	Deneir	Oghma	Kelemvor	Cyric	Vhaeraun	Lolth	Auril	Umberlee
+goliath	Tempus	Uthgar	Talos	Auril	Silvanus	Mielikki	Chauntea	Lathander	Tyr	Helm	Eldath	Shiallia	Gond	Akadi	Grumbar	Kord	Ilmater	Mystra	Oghma	Deneir
+genasi de terre	Grumbar	Moradin	Dumathoïn	Gond	Akadi	Silvanus	Chauntea	Tempus	Helm	Tyr	Lathander	Deneir	Oghma	Eldath	Mielikki	Shiallia	Sune	Mystra	Ilmater	Kelemvor
+genasi de feu	Kossuth	Talos	Gond	Tempus	Akadi	Lathander	Tyr	Helm	Mystra	Sune	Deneir	Oghma	Chauntea	Mielikki	Selûne	Ilmater	Bane	Shar	Mask	Milil
+genasi d'air	Akadi	Shaundakul	Valkur	Tempus	Lathander	Selûne	Sune	Mystra	Deneir	Oghma	Milil	Chauntea	Mielikki	Eldath	Gond	Tyr	Helm	Ilmater	Mask	Corellon
+genasi d'eau	Istishia	Umberlee	Valkur	Akadi	Selûne	Chauntea	Eldath	Silvanus	Mielikki	Lathander	Sune	Mystra	Deneir	Oghma	Milil	Tyr	Helm	Ilmater	Tempus	Gond
+firbolg	Silvanus	Mielikki	Eldath	Chauntea	Rillifane	Lurue	Shiallia	Corellon	Sehanine	Hanali	Tymora	Selûne	Sune	Deneir	Oghma	Milil	Labelas	Solonor	Fenmarel	Shevarash
+Tabaxi																				
+forgelier	Gond	Mystra	Helm	Tyr	Deneir	Oghma	Milil	Lathander	Tempus	Chauntea	Ilmater	Selûne	Sune	Akadi	Grumbar	Bane	Mask	Azuth	Savras	Kelemvor
+Aarakocra	Akadi	Aerdrie Faenya	Shaundakul	Valkur	Lathander	Selûne	Sune	Mystra	Deneir	Oghma	Milil	Chauntea	Mielikki	Eldath	Corellon	Sehanine	Hanali	Labelas	Solonor	Shevarash
+Abbalaya	Savras	Azuth	Deneir	Oghma	Mystra	Selûne	Lathander	Sune	Mask	Shar	Tyr	Helm	Ilmater	Milil	Chauntea	Corellon	Hanali	Sehanine	Eilistraée	Gond
+Alaghi	Silvanus	Mielikki	Eldath	Chauntea	Rillifane	Lurue	Shiallia	Solonor	Tymora	Selûne	Sune	Deneir	Oghma	Milil	Corellon	Hanali	Sehanine	Labelas	Fenmarel	Shevarash
+Aranea	Lolth	Shar	Mask	Vhaeraun	Eilistraée	Mystra	Selûne	Sune	Deneir	Oghma	Milil	Loviatar	Talona	Kiaransalee	Sehanine	Hanali	Corellon	Tymora	Shiallia	Gond
+Bullywug	Ramenos	Silvanus	Eldath	Chauntea	Mielikki	Lurue	Shiallia	Umberlee	Talos	Auril	Tymora	Selûne	Sune	Deneir	Oghma	Milil	Akadi	Tempus	Mask	Gond
+Caiman katanga	Ubtao	Eshowdow	Thard Harr	Savras	Sseth	Dendar	Silvanus	Mielikki	Eldath	Chauntea	Lathander	Sune	Tymora	Selûne	Deneir	Oghma	Milil	Akadi	Gond	Corellon
+Centaur	Silvanus	Mielikki	Eldath	Chauntea	Lurue	Shiallia	Rillifane	Solonor	Corellon	Sehanine	Hanali	Tymora	Selûne	Sune	Deneir	Oghma	Milil	Labelas	Fenmarel	Shevarash
+Chitine	Lolth	Vhaeraun	Kiaransalee	Shar	Mask	Eilistraée	Selûne	Sune	Mystra	Deneir	Oghma	Milil	Talona	Loviatar	Sehanine	Hanali	Corellon	Tymora	Shiallia	Gond
+																				
+																				
+Firenewt	Kossuth	Imix	Talos	Lathander	Akadi	Grumbar	Istishia	Gond	Moradin	Surtur	Auril	Beshaba	Loviatar	Shar	Tyr	Tempus	Mask	selûne	Mystra	Azuth
+Fremlin	Garl Glittergold	Baravar	Baervan	Flandal	Segojan	Urdlen	Callarduran	Gaerdal	Mystra	Azuth	Deneir	Oghma	Tymora	Erevan Ileserë	Leira	Milil	Lliira	Sharess	Shiallia	Sheela Peryroyl
+Githzerai	Zerthimon	La Cavalière Rouge	Ilsensine	Auppenser	Savras	Deneir	Oghma	Mystra	Azuth	Leira	Tempus	Tyr	Lathander	Shar	Mask	Selûne	Shaundakul	Milil	Zerthimon	La Cavalière Rouge
+Gloaming																				
+Gnoll																				
+Goblin	Maglubiyet	Khurgorbaeyag	Nomog-Geaya	Bargrivyek	Maglubiyet	Khurgorbaeyag	Nomog-Geaya	Bargrivyek	Maglubiyet	Khurgorbaeyag	Nomog-Geaya	Bargrivyek	Maglubiyet	Khurgorbaeyag	Nomog-Geaya	Bargrivyek	Maglubiyet	Khurgorbaeyag	Nomog-Geaya	Bargrivyek
+Gray orc	Gruumsh	Bahgtru	Ilneval	Luthic	Shargaas	Yurtrus	Gruumsh	Bahgtru	Ilneval	Luthic	Shargaas	Yurtrus	Gruumsh	Bahgtru	Ilneval	Luthic	Shargaas	Yurtrus	Gruumsh	Bahgtru
+Grimlock																				
+Hadozee																				
+Half-goblin																				
+Harssaf																				
+Hobgoblin	Maglubiyet	Nomog-Geaya	Bargrivyek	Maglubiyet	Nomog-Geaya	Bargrivyek	Maglubiyet	Nomog-Geaya	Bargrivyek	Maglubiyet	Nomog-Geaya	Bargrivyek	Maglubiyet	Nomog-Geaya	Bargrivyek	Maglubiyet	Nomog-Geaya	Bargrivyek	Maglubiyet	Nomog-Geaya
+Ixzan																				
+Juna																				
+Kappa																				
+Khala																				
+Killoren																				
+Koalinth	Sekolah	Sekolah	Sekolah	Sekolah	Sekolah	Sekolah	Sekolah	Sekolah	Sekolah	Sekolah	Sekolah	Sekolah	Sekolah	Sekolah	Sekolah	Sekolah	Sekolah	Sekolah	Sekolah	Sekolah
+Krinth																				
+Kuo-toa	Blibdoolpoolp	Blibdoolpoolp	Blibdoolpoolp	Blibdoolpoolp	Blibdoolpoolp	Blibdoolpoolp	Blibdoolpoolp	Blibdoolpoolp	Blibdoolpoolp	Blibdoolpoolp	Blibdoolpoolp	Blibdoolpoolp	Blibdoolpoolp	Blibdoolpoolp	Blibdoolpoolp	Blibdoolpoolp	Blibdoolpoolp	Blibdoolpoolp	Blibdoolpoolp	Blibdoolpoolp
+																				
+Llewyrr	Corellon	Sehanine	Rillifane	Labelas	Aerdrie Faenya	Hanali	Solonor	Angharradh	Fenmarel	Shevarash	Eilistraée	Mystra	Sune	Selûne	Tymora	Oghma	Lurue	Mielikki	Eldath	Gond
+Locathah	Eadro	Umberlee	Istishia	Valkur	Deep Sashelas	Eldath	Silvanus	Auril	Talos	Chauntea	Sune	Selûne	Tymora	Akadi	Gond	Mielikki	Savras	Deneir	Lliira	Azuth
+																				
+Loxo	Uthgar	Grumbar	Tempus	Talos	Silvanus	Chauntea	Mielikki	Gond	Akadi	Kossuth	Tyr	Helm	Torm	Lathander	Ilmater	Beshaba	Mask	Garagos	Red Knight	Jergal
+Merfolk	Deep Sashelas	Umberlee	Eadro	Valkur	Istishia	Selûne	Auril	Talos	Eldath	Sune	Tymora	Chauntea	Silvanus	Akadi	Mielikki	Savras	Gond	Lliira	Deneir	Azuth
+Minotaur	Baphomet	Garagos	Tempus	Talos	Gruumsh	Luthic	Ilneval	Bahgtru	Shargaas	Mask	Cyric	Bane	Loviatar	Shar	Tiamat	Gargauth	Hoar	Red Knight	Uthgar	Myrkul
+Mongrelfolk	Ilmater	Eldath	Lliira	Tymora	Selûne	Sune	Chauntea	Mask	Deneir	Savras	Lathander	Mielikki	Gond	Oghma	Azuth	Torm	Helm	Tyr	Shar	Cyric
+N-Tel-Quess	Corellon	Sehanine	Mystra	Sune	Selûne	Tymora	Oghma	Lathander	Gond	Azuth	Deneir	Savras	Mielikki	Chauntea	Silvanus	Akadi	Eldath	Lliira	Mask	Ilmater
+Nubari (ancient)	Ubtao	Thoth	Isis	Osiris	Hathor	Anhur	Sebek	Nephthys	Horus-Re	Geb	Chauntea	Silvanus	Eldath	Lathander	Sune	Selûne	Tymora	Gond	Savras	Azuth
+Orc	Gruumsh	Luthic	Bahgtru	Ilneval	Shargaas	Yurtrus	Beshaba	Talos	Garagos	Cyric	Bane	Loviatar	Shar	Tiamat	Gargauth	Hoar	Tempus	Uthgar	Red Knight	Myrkul
+Orog	Gruumsh	Ilneval	Bahgtru	Luthic	Shargaas	Bane	Cyric	Garagos	Tempus	Tiamat	Gargauth	Hoar	Red Knight	Myrkul	Mask	Shar	Loviatar	Talos	Uthgar	Helm
+Pahari	Chauntea	Lathander	selûne	Mystra	Eldath	Tymora	Oghma	Ilmater	Silvanus	Torm	Tyr	Savras	sune	Azouth	Leira	Milil	Deneïr	Gond	Beshaba	Talos
+Pangolin katanga																				
+Para-genasi	Akadi	Kossuth	Grumbar	Istishia	Mystra	Savras	Azouth	Oghma	Lathander	Tempus	Talos	Gond	chauntea	selûne	Tyr	Torm	Eldath	Beshaba	Shar	Cyric
+Pterafolk	Ubtao	Akadi	Talos	Malar	Silvanus	chauntea	Saurial	Kossuth	Tempus	Tyr	Torm	Eldath	selûne	Mystra	Gond	Azouth	Leira	Beshaba	Shar	Cyric
+Raptoran																				
+Razorclaw shifter																				
+Sarrukh																				
+Saru																				
+Satyr	Skerrit	selûne	sune	Lliira	Milil	chauntea	Eldath	Tymora	Silvanus	Lathander	Leira	Mystra	Oghma	Azouth	Deneïr	Savras	Torm	Tyr	Beshaba	Talos
+Saurial																				
+Selûne's Children																				
+Shifter																				
+Spirit folk																				
+Tabaxi																				
+Talfir	Tempus	Tyr	Torm	chauntea	Mystra	selûne	Oghma	Lathander	Gond	Azouth	Savras	Eldath	Leira	Milil	Deneïr	Beshaba	Shar	Cyric	Talona	Umberlie
+Tallfellow halfling	Yondalla	Arvoreen	Cyrrollalee	Sheela Peryroyl	Brandobaris	Urogalan	Tymora	chauntea	Silvanus	Lliira	Yondalla	Arvoreen	Cyrrollalee	Sheela Peryroyl	Brandobaris	Urogalan	Tymora	chauntea	Silvanus	Lliira
+Vodyanoi	Eadro	Istishia	Silvanus	Umberlie	Eldath	Vodyanoi	Eadro	Istishia	Silvanus	Umberlie	Eldath	Eadro	Istishia	Silvanus	Umberlie	Eldath	Vodyanoi	Eadro	Istishia	Silvanus
+Volodni	Silvanus	Mielikki	Eldath	chauntea	Rillifane	Volodni	Silvanus	Mielikki	Eldath	chauntea	Rillifane	Silvanus	Mielikki	Eldath	chauntea	Rillifane	Volodni	Silvanus	Mielikki	Eldath
+Yuan-ti malison	Sseth	Merrshaulk	Dendar	Zehir	Sseth	Merrshaulk	Dendar	Zehir	Sseth	Merrshaulk	Dendar	Zehir	Sseth	Merrshaulk	Dendar	Zehir	Sseth	Merrshaulk	Dendar	Zehir
+Yuan-ti pureblood	Sseth	Merrshaulk	Dendar	Zehir	Sseth	Merrshaulk	Dendar	Zehir	Sseth	Merrshaulk	Dendar	Zehir	Sseth	Merrshaulk	Dendar	Zehir	Sseth	Merrshaulk	Dendar	Zehir
+Yurian	Talos	Umberlie	Auril	Silvanus	Talos	Umberlie	Auril	Silvanus	Talos	Umberlie	Auril	Silvanus	Talos	Umberlie	Auril	Silvanus	Talos	Umberlie	Auril	Silvanus
+Arkaiuns	Tyr	Helm	Torm	Ilmater	Lathander	Tyr	Helm	Torm	Ilmater	Lathander	Tyr	Helm	Torm	Ilmater	Lathander	Tyr	Helm	Torm	Ilmater	Lathander
+Durpari	Anhur	Horus-Rê	Isis	Osiris	Thot	Anhur	Horus-Rê	Isis	Osiris	Thot	Anhur	Horus-Rê	Isis	Osiris	Thot	Anhur	Horus-Rê	Isis	Osiris	Thot
+Gûr	Gruumsh	Luthic	Bahgtru	Ilneval	Shargaas	Yurtrus	Gruumsh	Luthic	Bahgtru	Ilneval	Shargaas	Yurtrus	Gruumsh	Luthic	Bahgtru	Ilneval	Shargaas	Yurtrus	Gruumsh	Luthic
+Halruéens	Mystra	Azuth	Savras	Oghma	Deneir	Mystra	Azuth	Savras	Oghma	Deneir	Mystra	Azuth	Savras	Oghma	Deneir	Mystra	Azuth	Savras	Oghma	Deneir
+Imaskari des profondeurs	Shar	Myrkul	Velsharoon	Jergal	Shar	Myrkul	Velsharoon	Jergal	Shar	Myrkul	Velsharoon	Jergal	Shar	Myrkul	Velsharoon	Jergal	Shar	Myrkul	Velsharoon	Jergal
+Lantannas	Gond	Oghma	Deneir	Mystra	Gond	Oghma	Deneir	Mystra	Gond	Oghma	Deneir	Mystra	Gond	Oghma	Deneir	Mystra	Gond	Oghma	Deneir	Mystra
+Lapalis	chauntea	Lathander	Eldath	Silvanus	chauntea	Lathander	Eldath	Silvanus	chauntea	Lathander	Eldath	Silvanus	chauntea	Lathander	Eldath	Silvanus	chauntea	Lathander	Eldath	Silvanus
+Nar	Bane	Myrkul	Bhaal	Shar	Bane	Myrkul	Bhaal	Shar	Bane	Myrkul	Bhaal	Shar	Bane	Myrkul	Bhaal	Shar	Bane	Myrkul	Bhaal	Shar
+Raumviriens	Kossuth	Grumbar	Akadi	Istishia	Kossuth	Grumbar	Akadi	Istishia	Kossuth	Grumbar	Akadi	Istishia	Kossuth	Grumbar	Akadi	Istishia	Kossuth	Grumbar	Akadi	Istishia
+Shaaryens	Malar	Silvanus	chauntea	Malar	Silvanus	chauntea	Malar	Silvanus	chauntea	Malar	Silvanus	chauntea	Malar	Silvanus	chauntea	Malar	Silvanus	chauntea	Malar	Silvanus
+Tashaliens	Umberlie	Talos	Auril	Umberlie	Talos	Auril	Umberlie	Talos	Auril	Umberlie	Talos	Auril	Umberlie	Talos	Auril	Umberlie	Talos	Auril	Umberlie	Talos
+tiefling	Asmodeus	Levistus	Dispater	Fierna	Glasya	Asmodeus	Levistus	Dispater	Fierna	Glasya	Asmodeus	Levistus	Dispater	Fierna	Glasya	Asmodeus	Levistus	Dispater	Fierna	Glasya
+kenku	Mask	Leira	Mask	Leira	Mask	Leira	Mask	Leira	Mask	Leira	Mask	Leira	Mask	Leira	Mask	Leira	Mask	Leira	Mask	Leira
+triton	Eadro	Deep Sashelas	Umberlie	Istishia	Eadro	Deep Sashelas	Umberlie	Istishia	Eadro	Deep Sashelas	Umberlie	Istishia	Eadro	Deep Sashelas	Umberlie	Istishia	Eadro	Deep Sashelas	Umberlie	Istishia
+lizardfolk	Semuanya	Ramenos	Semuanya	Ramenos	Semuanya	Ramenos	Semuanya	Ramenos	Semuanya	Ramenos	Semuanya	Ramenos	Semuanya	Ramenos	Semuanya	Ramenos	Semuanya	Ramenos	Semuanya	Ramenos
+Uthgardt																				

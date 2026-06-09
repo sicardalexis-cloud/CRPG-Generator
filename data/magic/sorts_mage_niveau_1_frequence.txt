@@ -1,0 +1,99 @@
+================================================================================
+           SORTS DE MAGE (WIZARD) - NIVEAU 1 - SCORE DE FRÉQUENCE
+================================================================================
+
+Ce fichier contient une liste étendue des sorts de niveau 1 accessibles au **Mage (Wizard)**.
+Chaque sort possède un score de fréquence (1 à 5) destiné à générer aléatoirement des sorts de manière réaliste.
+
+Interprétation du score :
+- 5 = Très courant chez les Mages
+- 4 = Courant
+- 3 = Assez courant
+- 2 = Peu courant
+- 1 = Rare / Niche
+
+================================================================================
+           SORTS DE MAGE (WIZARD) - NIVEAU 1 - SCORE DE POPULARITY
+================================================================================
+
+Sort                              | Popularity | Catégorie
+----------------------------------|------------|--------------------
+Detect Magic                      | 5          | Exploration
+Find Familiar                     | 5          | Utilitaire
+Magic Missile                     | 5          | Dégâts
+Mage Armor                        | 5          | Défense
+Shield                            | 5          | Défense (réaction)
+Charm Person                      | 4          | Social
+Disguise Self                     | 4          | Social / Infiltration
+Comprehend Languages              | 4          | Exploration
+Identify                          | 4          | Utilitaire
+Unseen Servant                    | 4          | Utilitaire
+Sleep                             | 4          | Contrôle
+Longstrider                       | 4          | Mobilité
+Absorb Elements                   | 3          | Défense (réaction)
+Expeditious Retreat               | 3          | Mobilité
+Feather Fall                      | 3          | Survie
+False Life                        | 3          | Défense
+Fog Cloud                         | 3          | Contrôle / Obscurité
+Color Spray                       | 3          | Contrôle
+Burning Hands                     | 3          | Dégâts (zone)
+Thunderwave                       | 3          | Dégâts + repoussement
+Ray of Frost                      | 3          | Dégâts (contrôle)
+Ice Knife                         | 3          | Dégâts + contrôle
+Tasha's Caustic Brew              | 3          | Dégâts (concentration)
+Catapult                          | 3          | Dégâts / Utilitaire
+Silent Image                      | 3          | Illusion
+Alarm                             | 3          | Sécurité / Utilitaire
+Witch Bolt                        | 2          | Dégâts (concentration)
+Grease                            | 2          | Contrôle
+Jump                              | 2          | Mobilité
+Floating Disk (Tenser's)          | 2          | Utilitaire
+Illusory Script                   | 2          | Utilitaire (niche)
+Snare                             | 2          | Contrôle
+Cause Fear                        | 2          | Contrôle (peur)
+Detect Poison and Disease         | 2          | Détection
+Earth Tremor                      | 2          | Contrôle (zone)
+Ray of Sickness                   | 2          | Dégâts + empoisonnement
+Fire Bolt                | 5          | Dégâts
+Mage Hand                | 5          | Utilitaire
+Minor Illusion           | 5          | Illusion
+Prestidigitation         | 5          | Utilitaire
+Ray of Frost             | 4          | Dégâts (contrôle)
+Shocking Grasp           | 4          | Dégâts (défense)
+Light                    | 4          | Utilitaire
+Message                  | 4          | Social / Utilitaire
+Frostbite                | 3          | Dégâts + contrôle
+Thunderclap              | 3          | Dégâts (zone)
+Acid Splash              | 3          | Dégâts (zone)
+Chill Touch              | 3          | Dégâts
+Dancing Lights           | 3          | Illusion
+Mending                  | 3          | Utilitaire
+Blade Ward               | 2          | Défense
+Friends                  | 2          | Social
+Poison Spray             | 2          | Dégâts
+True Strike              | 1          | Combat (niche)
+
+================================================================================
+Note : Le score de "Popularity" (1-5) reflète la fréquence d'utilisation 
+estimée des sorts dans les aventures[cite: 150, 296].
+
+================================================================================
+                    COMMENT UTILISER CE FICHIER
+================================================================================
+
+Pour générer des sorts de Mage de niveau 1 de façon aléatoire et pondérée :
+
+1. Additionne tous les scores de fréquence.
+2. Tire un nombre aléatoire entre 1 et la somme totale.
+3. Sélectionne le sort correspondant.
+
+Tu peux ajuster les scores selon le style de ta campagne.
+
+================================================================================
+                    NOTES
+================================================================================
+
+- Cette liste est plus complète que la version précédente.
+- Elle inclut la plupart des sorts de Mage de niveau 1 utiles en aventure.
+- Les sorts très niche ont un score bas (2).
+- Les sorts très forts et fréquents ont un score de 5.

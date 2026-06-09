@@ -1,0 +1,337 @@
+================================================================================
+GROUPE 5 – BLOC NORD SAUVAGE
+(Le Nord / The North + Silver Marches + Vaasa + Damara)
+Niveau Tech : 4-5 (High Middle Ages → Late Middle Ages)
+Mise à jour : Format détaillé aligné sur Groupe 1-4 (Armor Zones + colonnes complètes)
+================================================================================
+
+RÈGLE D’UTILISATION :
+- Tout objet de niveau tech 4 à 5 est **facilement disponible** au prix indiqué.
+- Les **armes à poudre** ont été **triplées** (x3) pour refléter leur extrême rareté dans le Nord.
+- Tech 6 = disponible mais **rare et cher**.
+- Tech 7 = **très rare** et très cher dans ce bloc.
+- Prix en pièces d’argent (sp) sauf indication contraire.
+- Ce bloc met l’accent sur l’équipement pratique, robuste et adapté au froid (fourrures, armures textiles renforcées, armes simples).
+
+================================================================================
+ARMOR ZONES LIST (24 zones)
+================================================================================
+
+| Code   | Zone Name                    | Description                                              | Typical Coverage |
+|--------|------------------------------|----------------------------------------------------------|------------------|
+| HEAD   | Head                         | Skull (top, sides, back)                                 | Full helmets     |
+| EYES   | Eyes                         | Eyes, eye slits, ocular area                             | Visored helmets  |
+| FACE   | Face                         | Cheeks, nose, mouth, jaw (excluding eyes)                | Face guards      |
+| NECK   | Neck                         | Throat + nape + sides                                    | Gorgets, Aventail|
+| SHLD   | Shoulders                    | Deltoids + shoulder joint                                | Pauldrons        |
+| CHST   | Chest                        | Upper torso (sternum, pectorals)                         | Breastplates     |
+| BACK   | Back                         | Upper and mid back                                       | Backplates       |
+| ABDM   | Abdomen                      | Belly + flanks                                           | Brigandine       |
+| LBAK   | Lower Back                   | Lumbar region / kidneys                                  | Garde-reins      |
+| HIPS   | Hips                         | Hips + lower abdomen (sides)                             | Faulds, Tassets  |
+| GROIN  | Groin                        | Groin / crotch area                                      | Rare             |
+| UARM   | Upper Arm                    | Biceps + triceps                                         | Mail sleeves     |
+| ELBO   | Elbow (outer)                | Outer elbow joint                                        | Couters          |
+| IELB   | Inner Elbow                  | Inner elbow crease                                       | Rare             |
+| FARM   | Forearm                      | Forearm                                                  | Vambraces        |
+| HAND   | Hands                        | Hands + wrists                                           | Gauntlets        |
+| AXIL   | Armpits                      | Underarm area                                            | Mail voiders     |
+| THGH   | Thigh (front/outer)          | Front and outer thigh                                    | Cuisses          |
+| RTHG   | Thigh (rear)                 | Back of the thigh (hamstrings)                           | Rare             |
+| KNEE   | Knee (outer)                 | Kneecap + outer knee joint                               | Poleyns          |
+| IKNE   | Inner Knee                   | Inner knee / popliteal fossa                             | Rare             |
+| SHIN   | Lower Leg (front)            | Shin + front of lower leg                                | Greaves          |
+| CALF   | Lower Leg (rear)             | Calf (back of lower leg)                                 | Rare             |
+| FOOT   | Feet                         | Feet + ankles                                            | Sabatons         |
+
+================================================================================
+1. TEXTILE AND PADDED ARMORS (Format détaillé)
+================================================================================
+
+Aketon (basic padded jack)            58 sp    Tech 4   Common      Freq: 7  Bulk: 2  Storage: worn     Mounted: No  Protected Parts: CHST, BACK, ABDM, UARM  Description: Classic padded under-armor of layered linen. Common in the North as standalone light protection or under mail.   Allonge (cm): 100
+
+Gambeson (basic)                      42 sp    Tech 4   Common      Freq: 8  Bulk: 2  Storage: worn     Mounted: No  Protected Parts: CHST, BACK, ABDM, UARM  Description: Standard thick quilted tunic. The most common protection for northern infantry and militia.   Allonge (cm): 100
+
+Reinforced Gambeson                  65 sp    Tech 5   Common      Freq: 6  Bulk: 2  Storage: worn     Mounted: No  Protected Parts: CHST, BACK, ABDM, UARM, ELBO  Description: Heavier version with reinforced shoulders and elbows. Preferred by professional soldiers in the Silver Marches.   Allonge (cm): 100
+
+Padded Jack		             85 sp    Tech 5   Common      Freq: 5  Bulk: 3  Storage: worn     Mounted: No  Protected Parts: CHST, BACK, ABDM, UARM, THGH  Description: Very dense rigid padded armor. Popular among heavy infantry and town guards in the North.   Allonge (cm): 100
+
+Brigandine 		             145 sp    Tech 5    Rare        Freq: 4  Bulk: 4  Storage: worn     Mounted: No  Protected Parts: CHST, BACK, ABDM, UARM, SHLD, AXIL  Description: Small plates riveted inside a sturdy garment. Rare and expensive in the North, mostly used by wealthy adventurers or mercenary captains.   Allonge (cm): 100   Poids (kg): 8.5
+
+Jack of Plates                       125 sp    Tech 7   Very Rare   Freq: 2  Bulk: 4  Storage: worn     Mounted: No  Protected Parts: CHST, BACK, ABDM, UARM  Description: Steel slats between fabric layers. Extremely rare in the North.   Allonge (cm): 100
+
+Arming Doublet                       95 sp    Tech 7   Very Rare   Freq: 3  Bulk: 2  Storage: worn     Mounted: No  Protected Parts: CHST, BACK, ABDM, UARM, ELBO, FARM  Description: Technical garment with attachment points for plate. Very rare outside major northern cities.   Allonge (cm): 100
+
+================================================================================
+2. PIÈCES D’ARMURE COURANTES + MODULAIRES
+================================================================================
+
+--- Pièces communes (tech 3-6) ---
+Leather Helmet                8 sp      Tech 3    Common      Frequency: 9  Bulk: 1  Storage: carried   Mounted: No  Protected Parts: HEAD   Allonge (cm): 100
+Nasal Helmet                  18 sp     Tech 4    Common      Frequency: 8  Bulk: 1  Storage: carried   Mounted: No  Protected Parts: HEAD, FACE   Allonge (cm): 100
+Great Helm                    70 sp     Tech 5    Rare        Frequency: 4  Bulk: 3  Storage: carried   Mounted: No  Protected Parts: HEAD, EYES, FACE, NECK   Allonge (cm): 100   Poids (kg): 3.8
+Kettle Hat                    28 sp     Tech 5    Common      Frequency: 7  Bulk: 2  Storage: carried   Mounted: No  Protected Parts: HEAD   Allonge (cm): 100
+Mail Coif                     22 sp     Tech 5    Common      Frequency: 7  Bulk: 1  Storage: carried   Mounted: No  Protected Parts: HEAD, NECK   Allonge (cm): 100
+Bascinet (basic)              42 sp     Tech 5-6  Common      Frequency: 6  Bulk: 2  Storage: carried   Mounted: No  Protected Parts: HEAD, EYES, FACE   Allonge (cm): 100
+Simple Breastplate            50 sp     Tech 5    Rare        Frequency: 4  Bulk: 3  Storage: carried   Mounted: No  Protected Parts: CHST   Allonge (cm): 100   Poids (kg): 5.0
+
+
+--- Protections en maille ---
+Mail Shirt (basic torso protection)           100 sp    Tech 5    Common      Frequency: 6  Bulk: 3  Storage: carried   Mounted: No  Protected Parts: CHST, BACK, ABDM, UARM   Allonge (cm): 100
+Mail Haubergeon (mid-thigh length)           140 sp    Tech 5    Common      Frequency: 5  Bulk: 4  Storage: carried   Mounted: No  Protected Parts: CHST, BACK, ABDM, UARM, THGH   Allonge (cm): 100
+Mail Hauberk (knee-length with sleeves)     180 sp    Tech 5-6  Common      Frequency: 5  Bulk: 4  Storage: carried   Mounted: No  Protected Parts: CHST, BACK, ABDM, UARM, THGH, SHIN   Allonge (cm): 100   Poids (kg): 10.5
+
+Mail Hauberk (double mail / reinforced torso)  260 sp   Tech 6    Rare        Frequency: 2  Bulk: 5  Storage: carried   Mounted: No  Protected Parts: CHST, BACK, ABDM, UARM, THGH, SHIN   Allonge (cm): 100
+# Version renforcée avec double couche sur le torse. Très rare dans le Nord.
+
+Jazerant (mail sewn between fabric layers)   110 sp     Tech 6    Rare        Frequency: 3  Bulk: 3  Storage: carried   Mounted: No  Protected Parts: CHST, BACK, ABDM, UARM   Allonge (cm): 100
+# Maille entre deux couches de tissu. Option plus discrète, appréciée des éclaireurs et rôdeurs du Nord.
+
+
+--- Armes de mêlée courantes ---
+Dagger                        5 sp      Tech 3    Commun   Allonge (cm): 70   Poids (kg): 0.5
+Couteau (Knife)               3 sp      Tech 2    Commun   Allonge (cm): 65   Poids (kg): 0.4
+Fauld                         32 sp     Tech 6    Très rare   Allonge (cm): 100
+Besagews (paire)              20 sp     Tech 6    Très rare   Allonge (cm): 100
+Plackart                      40 sp     Tech 6    Très rare   Allonge (cm): 100
+Couter (paire)                16 sp     Tech 6    Très rare   Allonge (cm): 100
+Mail voiders (paire)          20 sp     Tech 6    Très rare   Allonge (cm): 100
+Bevor                         28 sp     Tech 6    Très rare   Allonge (cm): 100
+Garde-reins                   35 sp     Tech 6    Très rare   Allonge (cm): 100
+
+--- XVe Siècle (Gothic – tech 6) ---
+Haubergeon / Collerette       50 sp     Tech 6    Très rare   Allonge (cm): 100
+Breastplate + Backplate (classique)   80 sp     Tech 6    Très rare   Allonge (cm): 100
+Gorget (élevé)                25 sp     Tech 6    Très rare   Allonge (cm): 100
+Vambraces + Couter            35 sp     Tech 6    Très rare   Allonge (cm): 100
+Tassets                       25 sp     Tech 6    Très rare   Allonge (cm): 100
+Sallet ou Armet (classique)   55 sp     Tech 6    Très rare   Allonge (cm): 100
+
+--- XVIe Siècle (Maximilian – tech 7) ---
+Maille collerette ou manches  32 sp     Tech 7    Très rare   Allonge (cm): 100
+Breastplate + Backplate (renforcé)     95 sp     Tech 7    Très rare   Allonge (cm): 100
+Pauldrons + Gardes            38 sp     Tech 7    Très rare   Allonge (cm): 100
+Vambraces + Couter + Rerebrace        42 sp     Tech 7    Très rare   Allonge (cm): 100
+Gauntlets (renforcés)         28 sp     Tech 7    Très rare   Allonge (cm): 100
+Tassets longs                 32 sp     Tech 7    Très rare   Allonge (cm): 100
+Cuisses (renforcées)          34 sp     Tech 7    Très rare   Allonge (cm): 100
+Close Helmet (Maximilian)     65 sp     Tech 7    Très rare   Allonge (cm): 100
+Burgonet (Maximilian)         55 sp     Tech 7    Très rare   Allonge (cm): 100
+
+================================================================================
+3. SHIELDS (OFFICIAL MATRIX BY SIZE - BULK & GRAPPLING INDEX)
+================================================================================
+
+TABLE OF SHIELDS (REORGANIZED - SIZE 1 TO 11)
+================================================================================
+SIZE 1 : Petty Buckler (700 cm²) | 5 sp | Tech 5 | Freq: 9 | Enc: 1 | Carried   Allonge (cm): 100
+SIZE 2 : Small Buckler (910 cm²) | 7 sp | Tech 5 | Freq: 9 | Enc: 1 | Carried   Allonge (cm): 100
+SIZE 3 : Buckler (1183 cm²) | 9 sp | Tech 5 | Freq: 8 | Enc: 1 | Carried   Allonge (cm): 100
+SIZE 4 : Great Buckler (1538 cm²) | 12 sp | Tech 5 | Freq: 7 | Enc: 2 | Carried   Allonge (cm): 100
+SIZE 5 : Small Targe (1999 cm²) | 14 sp | Tech 5 | Freq: 6 | Enc: 2 | Carried   Allonge (cm): 100
+SIZE 6 : Targe (2599 cm²) | 16 sp | Tech 4 | Freq: 7 | Enc: 2 | Carried   Allonge (cm): 100
+SIZE 7 : Great Targe (3379 cm²) | 22 sp | Tech 5 | Freq: 7 | Enc: 3 | Carried   Allonge (cm): 100
+SIZE 8 : Heater Shield (4392 cm²) | 24 sp | Tech 4 | Freq: 6 | Enc: 4 | Carried   Allonge (cm): 100
+SIZE 9 : Ward Shield (5710 cm²) | 26 sp | Tech 5 | Freq: 5 | Enc: 4 | Carried   Allonge (cm): 100
+SIZE 10: Kite Shield (7423 cm²) | 27 sp | Tech 5 | Freq: 5 | Enc: 4 | Carried   Allonge (cm): 100
+SIZE 11: Pavise (9650 cm²) | 35 sp | Tech 5 | Freq: 4 | Enc: 5 | Shoulder   Allonge (cm): 100
+
+Note : Les grands boucliers (Targe et plus) sont courants chez les milices et gardes-frontière du Nord Sauvage.
+
+================================================================================
+4. WEAPONS – FULL LIST (Standardized format)
+================================================================================
+
+--- Knives & Daggers ---
+Knife                          6 sp     Tech 3   Grip: 1 hand      Freq: 10 Enc: 1  Storage: carried   Mounted: No   Allonge (cm): 65   Poids (kg): 0.4
+Dagger                         5 sp     Tech 3   Grip: 1 hand      Freq: 9  Enc: 1  Storage: carried   Mounted: No   Allonge (cm): 70   Poids (kg): 0.5
+Rondel Dagger                 28 sp     Tech 5   Grip: 1 hand      Freq: 5  Enc: 1  Storage: carried   Mounted: No   Allonge (cm): 70   Poids (kg): 0.5
+
+--- Swords & Cutting Weapons ---
+Arming Sword                  45 sp     Tech 4   Grip: 1 hand      Freq: 8  Enc: 3  Storage: carried   Mounted: No   Allonge (cm): 105   Poids (kg): 1.2
+Falchion                      45 sp     Tech 5   Grip: 1 hand      Freq: 7  Enc: 3  Storage: carried   Mounted: No   Allonge (cm): 100
+Longsword                     65 sp     Tech 5   Grip: 2 hands     Freq: 6  Enc: 4  Storage: shoulder  Mounted: No   Allonge (cm): 105   Poids (kg): 1.2
+Broadsword                    55 sp     Tech 6   Grip: 1 hand      Freq: 5  Enc: 3  Storage: carried   Mounted: No   Allonge (cm): 105   Poids (kg): 1.2
+Bastard Sword                 80 sp     Tech 6   Grip: 1 or 2      Freq: 4  Enc: 4  Storage: carried   Mounted: No   Allonge (cm): 105   Poids (kg): 1.2
+Scimitar                      48 sp     Tech 5   Grip: 1 hand      Freq: 5  Enc: 3  Storage: carried   Mounted: No   Allonge (cm): 100
+Cutlass                       48 sp     Tech 6   Grip: 1 hand      Freq: 6  Enc: 3  Storage: carried   Mounted: No   Allonge (cm): 100
+Main-gauche                   32 sp     Tech 6   Grip: 1 hand      Freq: 5  Enc: 1  Storage: carried   Mounted: No   Allonge (cm): 100
+
+--- Polearms & Pikes ---
+Spear                          7 sp     Tech 3   Grip: 1 or 2      Freq: 9  Enc: 3  Storage: shoulder  Mounted: No   Allonge (cm): 220   Poids (kg): 2.0
+Reinforced Spear              20 sp     Tech 4   Grip: 1 or 2      Freq: 7  Enc: 3  Storage: shoulder  Mounted: No   Allonge (cm): 220   Poids (kg): 2.0
+Lance                         32 sp     Tech 4   Grip: 2 hands     Freq: 6  Enc: 3  Storage: shoulder  Mounted: Yes   Allonge (cm): 300
+Pike                          40 sp     Tech 6   Grip: 2 hands     Freq: 5  Enc: 5  Storage: shoulder  Mounted: No   Allonge (cm): 450   Poids (kg): 4.5
+Bill                          57 sp     Tech 5   Grip: 2 hands     Freq: 6  Enc: 4  Storage: shoulder  Mounted: No   Allonge (cm): 200
+Halberd                       65 sp     Tech 5   Grip: 2 hands     Freq: 6  Enc: 4  Storage: shoulder  Mounted: No   Allonge (cm): 220   Poids (kg): 3.0
+Poleaxe                       70 sp     Tech 5   Grip: 2 hands     Freq: 5  Enc: 4  Storage: shoulder  Mounted: No   Allonge (cm): 200   Poids (kg): 2.8
+Glaive                        55 sp     Tech 5   Grip: 2 hands     Freq: 5  Enc: 4  Storage: shoulder  Mounted: No   Allonge (cm): 200
+Bec de Corbin                 65 sp     Tech 6   Grip: 2 hands     Freq: 4  Enc: 4  Storage: shoulder  Mounted: No   Allonge (cm): 100
+Lucerne Hammer                62 sp     Tech 5   Grip: 2 hands     Freq: 5  Enc: 4  Storage: shoulder  Mounted: No   Allonge (cm): 100
+Military Fork                 48 sp     Tech 5   Grip: 2 hands     Freq: 6  Enc: 4  Storage: shoulder  Mounted: No   Allonge (cm): 100
+
+--- Blunt Weapons ---
+Club                           6 sp     Tech 0   Grip: 1 hand      Freq: 10 Enc: 2  Storage: carried   Mounted: No   Allonge (cm): 100
+Mace                          38 sp     Tech 4   Grip: 1 hand      Freq: 8  Enc: 3  Storage: carried   Mounted: Yes   Allonge (cm): 85   Poids (kg): 1.4
+Flanged Mace                  55 sp     Tech 5   Grip: 1 hand      Freq: 6  Enc: 3  Storage: carried   Mounted: Yes   Allonge (cm): 85   Poids (kg): 1.4
+War Hammer                    40 sp     Tech 4   Grip: 2 hands     Freq: 7  Enc: 3  Storage: shoulder  Mounted: No   Allonge (cm): 160   Poids (kg): 2.2
+Maul                          45 sp     Tech 5   Grip: 2 hands     Freq: 6  Enc: 4  Storage: shoulder  Mounted: No   Allonge (cm): 140   Poids (kg): 3.0
+Morning Star                  50 sp     Tech 5   Grip: 2 hands     Freq: 5  Enc: 3  Storage: shoulder  Mounted: No   Allonge (cm): 100
+
+--- Axes ---
+Hand Axe                      35 sp     Tech 4   Grip: 1 hand      Freq: 8  Enc: 2  Storage: carried   Mounted: No   Allonge (cm): 80   Poids (kg): 1.0
+Battle Axe                    55 sp     Tech 5   Grip: 2 hands     Freq: 6  Enc: 3  Storage: shoulder  Mounted: No   Allonge (cm): 130   Poids (kg): 2.0
+Francisca                     40 sp     Tech 4   Grip: 1 hand      Freq: 5  Enc: 2  Storage: carried   Mounted: No   Allonge (cm): 100
+
+--- Ranged Weapons ---
+Sling                          2 bp     Tech 3   Freq: 9  Enc: 1  Storage: carried   Mounted: No   Allonge (cm): 100
+Short Bow                      6 sp     Tech 3-4 Freq: 9  Enc: 3  Storage: carried   Mounted: No   Allonge (cm): 130
+Longbow                       30 sp     Tech 5   Freq: 7  Enc: 3  Storage: carried   Mounted: No   Allonge (cm): 140   Poids (kg): 1.5
+Light Crossbow                55 sp     Tech 5   Freq: 6  Enc: 3  Storage: carried   Mounted: No   Allonge (cm): 95   Poids (kg): 4.0
+Crossbow                      85 sp     Tech 5   Freq: 5  Enc: 3  Storage: carried   Mounted: No   Allonge (cm): 95   Poids (kg): 4.0
+Heavy Crossbow                95 sp     Tech 5   Freq: 4  Enc: 4  Storage: shoulder  Mounted: No   Allonge (cm): 95   Poids (kg): 4.0
+Javelin                       16 sp     Tech 4   Freq: 7  Enc: 2  Storage: carried   Mounted: No   Allonge (cm): 150   Poids (kg): 1.0
+War Dart                      16 sp     Tech 4   Freq: 6  Enc: 2  Storage: carried   Mounted: No   Allonge (cm): 120
+
+--- GUNPOWDER WEAPONS (PRICES TRIPLED - EXTREMELY RARE IN THE NORTH) ---
+Handgonne                    480 sp     Tech 5    Very Rare   (x3)   Allonge (cm): 120
+Arquebus                     390 sp     Tech 7    Very Rare   (x3)   Allonge (cm): 140   Poids (kg): 6.5
+Musket                       540 sp     Tech 7    Very Rare   (x3)   Allonge (cm): 160   Poids (kg): 5.5
+Wheellock Pistol             330 sp     Tech 7    Very Rare   (x3)   Allonge (cm): 50   Poids (kg): 1.4
+Flintlock Pistol             255 sp     Tech 8    Extremely Rare (x3)   Allonge (cm): 50   Poids (kg): 1.4
+
+================================================================================
+5. MONTURES + BARDAGE POUR CHEVAUX
+================================================================================
+
+--- Montures ---
+Rouncey                       45 sp     Tech 3    Toujours   Allonge (cm): 100
+Courser                       62 sp     Tech 4    Commun   Allonge (cm): 100
+Palfrey                       57 sp     Tech 4    Commun   Allonge (cm): 100
+Destrier                     130 sp     Tech 4    Rare   Allonge (cm): 100
+Destrier (quality)           200 sp     Tech 7    Très rare   Allonge (cm): 100
+Camel, riding                 15 gp     Tech 3    Très rare
+
+--- Bardage (Horse Armor) ---
+Leather barding               35 sp     Tech 4    Commun   Allonge (cm): 100
+Chain barding                150 sp     Tech 5    Rare   Allonge (cm): 100
+Plate mail barding           300 sp     Tech 6-7  Très rare   Allonge (cm): 100
+Leather chanfron               6 sp     Tech 4    Commun   Allonge (cm): 100
+Plate chanfron                 9 sp     Tech 5    Très rare   Allonge (cm): 100
+Leather crinet                 5 sp     Tech 4    Commun   Allonge (cm): 100
+Chain crinet                  27 sp     Tech 5    Rare   Allonge (cm): 100
+Plate crinet                   5 gp     Tech 6    Très rare
+
+================================================================================
+6. ÉQUIPEMENT DE VOYAGE & SURVIE
+================================================================================
+
+Backpack (small leather)       2 bp     Tech 3    Toujours   Allonge (cm): 100
+Backpack (medium leather)      4 bp     Tech 3    Toujours   Allonge (cm): 100
+Backpack (large leather)       7 bp     Tech 3    Toujours   Allonge (cm): 100
+Tent 2-man leather            15 sp     Tech 2    Toujours   Allonge (cm): 100
+Tent 4-man leather            25 sp     Tech 2    Commun   Allonge (cm): 100
+Tent 8-man leather            50 sp     Tech 2    Rare   Allonge (cm): 100
+Pavillion                    100 sp     Tech 4    Très rare   Allonge (cm): 100
+Sleeping furs (light)         50 cp     Tech 3    Toujours   Allonge (cm): 100
+Sleeping furs (heavy)         75 cp     Tech 3    Commun   Allonge (cm): 100
+Blanket (light)               20 cp     Tech 3    Toujours   Allonge (cm): 100
+Blanket (heavy)               30 cp     Tech 3    Toujours   Allonge (cm): 100
+Rope light (50')               4 cp     Tech 3    Toujours   Allonge (cm): 100
+Rope standard (50')            6 cp     Tech 3    Toujours   Allonge (cm): 100
+Grappling hook                12 bp     Tech 4    Commun   Allonge (cm): 100
+Flint & steel                  1 sp     Tech 4    Toujours   Allonge (cm): 100
+Tinderbox                      3 cp     Tech 3    Toujours   Allonge (cm): 100
+Fishing net (small)            5 sp     Tech 3    Commun   Allonge (cm): 100
+Fishing net (large)            8 sp     Tech 3    Commun   Allonge (cm): 100
+Fishhook & line                2 tp     Tech 3    Toujours
+Fish trap                      3 bp     Tech 3    Commun   Allonge (cm): 100
+Waterskin (1 gal)              3 bp     Tech 3    Toujours   Allonge (cm): 100
+Waterskin (5 gal)              7 bp     Tech 3    Commun   Allonge (cm): 100
+Canteen (1 pt)                 2 cp     Tech 3    Toujours   Allonge (cm): 100
+Lantern (hooded)               5 bp     Tech 3    Toujours   Allonge (cm): 100
+Lamp oil                       1 bp     Tech 3    Toujours   Allonge (cm): 100
+Compass                        1 sp     Tech 7    Très rare   Allonge (cm): 100
+Spyglass                       8 gp     Tech 8    Très rare
+
+================================================================================
+7. VÊTEMENTS & ACCESSOIRES (style nordique)
+================================================================================
+
+Cloak (wool)                   9 bp     Tech 3    Toujours   Allonge (cm): 100
+Cloak (fur-lined)             25 bp     Tech 3    Commun     (très courant)   Allonge (cm): 100
+Cloak (hooded wool)           12 bp     Tech 3    Toujours   Allonge (cm): 100
+Coat (leather)                18 bp     Tech 3    Commun   Allonge (cm): 100
+Gloves (leather)               2 bp     Tech 3    Toujours   Allonge (cm): 100
+Gloves (fur lined)             4 bp     Tech 3    Commun     (très courant)   Allonge (cm): 100
+Boots (normal leather)         5 bp     Tech 3    Toujours   Allonge (cm): 100
+Boots (fine leather)           2 sp     Tech 4    Rare   Allonge (cm): 100
+Belt (leather)                10 cp     Tech 3    Toujours   Allonge (cm): 100
+Belt (fur)                    55 cp     Tech 3    Commun   Allonge (cm): 100
+Belt pouch (small)             8 tp     Tech 3    Toujours
+Belt pouch (large)            14 tp     Tech 3    Commun
+Hat (leather)                  1 bp     Tech 3    Toujours   Allonge (cm): 100
+Hat (fur)                      3 bp     Tech 3    Commun     (très courant)   Allonge (cm): 100
+
+================================================================================
+8. OUTILS & ARTISANAT
+================================================================================
+
+Lockpicks (poor)               6 bp     Tech 4    Commun   Allonge (cm): 100
+Lockpicks (average)            1 sp     Tech 4    Commun   Allonge (cm): 100
+Lockpicks (fine)               5 sp     Tech 5    Rare   Allonge (cm): 100
+Skeleton key                   5 sp     Tech 5    Rare   Allonge (cm): 100
+Crowbar (standard)             6 bp     Tech 3    Toujours   Allonge (cm): 100
+Crowbar (heavy)                8 bp     Tech 3    Commun   Allonge (cm): 100
+Metal file (small)             8 bp     Tech 4    Commun   Allonge (cm): 100
+Chisel (cold)                  3 bp     Tech 3    Toujours   Allonge (cm): 100
+10' pole                      20 bp     Tech 3    Toujours   Allonge (cm): 100
+Grappling hook                12 bp     Tech 4    Commun   Allonge (cm): 100
+
+================================================================================
+9. RATIONS & NOURRITURE DE VOYAGE
+================================================================================
+
+Hardtack                       1 tp     Tech 3    Toujours
+Waybread                       6 tp     Tech 4    Commun
+Black bread                    3 tp     Tech 3    Toujours
+Beef, jerked                   2 cp     Tech 3    Commun   Allonge (cm): 100
+Pork, smoked                   7 cp     Tech 3    Commun   Allonge (cm): 100
+Fish (salted)                  2 cp     Tech 3    Commun   Allonge (cm): 100
+Salmon, smoked                 3 cp     Tech 3    Commun   Allonge (cm): 100
+Butter, salted                15 cp     Tech 3    Commun   Allonge (cm): 100
+Field rations (basic)          5 tp     Tech 3    Toujours
+Dried fruit (small bag)        4 cp     Tech 3    Commun   Allonge (cm): 100
+
+================================================================================
+10. MÉDECINE & PREMIERS SOINS
+================================================================================
+
+Bandages, linen (30')         10 cp     Tech 3    Toujours   Allonge (cm): 100
+Herbal remedy                  3 cp+    Tech 3    Toujours     (prix variable)   Allonge (cm): 100
+Basin, bleeding                8 tp     Tech 4    Commun
+Lancet, bleeding               2 bp     Tech 4    Commun   Allonge (cm): 100
+Cranial drill                  4 bp     Tech 5    Rare   Allonge (cm): 100
+Saw, amputation               35 cp     Tech 5    Rare   Allonge (cm): 100
+Crutches                       2 cp     Tech 3    Commun   Allonge (cm): 100
+Surgical knife                 5 bp     Tech 5    Commun   Allonge (cm): 65   Poids (kg): 0.4
+Suturing needle (curved)       3 bp     Tech 4    Commun   Allonge (cm): 100
+Thread (50 yards)              2 cp     Tech 3    Toujours   Allonge (cm): 100
+Leeches (50)                   2 bp     Tech 3    Commun   Allonge (cm): 100
+Mortar & pestle                3 cp     Tech 3    Commun   Allonge (cm): 100
+Hook, steel                   35 sp     Tech 5    Rare   Allonge (cm): 100
+Pegleg, wooden                 8 bp     Tech 4    Commun   Allonge (cm): 100
+
+================================================================================
+FIN DU FICHIER
+================================================================================
+
+Fichier généré le 28 mai 2026
+Groupe 5 – Bloc Nord Sauvage (Le Nord + Vaasa)
+Niveau Tech principal : 4-5
+Style : rustique, fourrures, haches, équipement pratique
+Adapté pour les Royaumes Oubliés
+Prix des armes à poudre triplés
+Format identique aux groupes précédents
+
+================================================================================

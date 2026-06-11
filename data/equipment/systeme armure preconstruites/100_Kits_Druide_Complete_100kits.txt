@@ -1,16 +1,23 @@
 ================================================================================
-LIST OF 100 EQUIPMENT KITS – DRUID (NO METAL ARMOR)
-100 Kits - One textile armor only - Max 500 sp
+LIST OF 100 EQUIPMENT KITS – DRUID (NO METAL ARMOR + WEAPONS ≤ 49% METAL + 1 ARME D'ÉPAULE MAX) – Jusqu'à 900 sp
+100 Kits - One textile armor only - Max 900 sp
 All weapons allowed - Increased weapon diversity
 ================================================================================
 
-APPLIED RULES:
-- Only **ONE textile armor** per kit (no stacking of textile armors).
-- Normally metallic armors (Brigandine, Coat of Plates, Jack of Plates) → **Dragon Scale** versions at **x4 price**.
-- No stacking of rigid torso protections.
-- All weapons are allowed.
-- Maximum **500 sp** per kit.
-- Strong emphasis on weapon variety for diversity.
+
+
+================================================================================
+RÈGLES DRUIDIQUES FINALES APPLIQUÉES
+================================================================================
+1. Une seule armure textile par kit.
+2. Armures métalliques → Dragon Scale (x4 prix).
+3. Armes ≤ 49 % de métal en poids.
+4. **Une seule arme d'épaule sans monture** par kit 
+   (armes à longue hampe portées sur l'épaule : Glaive, Guisarme, Lucerne Hammer, 
+    Spear, Quarterstaff, Maul, etc. → maximum 1 par kit).
+5. Le druide a le droit aux montures (cheval + selle + barding) s'il en a les moyens.
+6. Progression jusqu'à 900 sp.
+================================================================================
 
 ================================================================================
 KITS 1-20 : ARMURES TEXTILES SIMPLES + ARMES VARIÉES
@@ -22,123 +29,117 @@ KITS 1-20 : ARMURES TEXTILES SIMPLES + ARMES VARIÉES
 34 sp - Kit 04 - Druide errant : Padded Jack (22), Spear (7), Sling (2)
 36 sp - Kit 05 - Protecteur de la nature : Arming Doublet (45), Quarterstaff (18)
 38 sp - Kit 06 - Druide de clan : Gambeson (long / fended) (14), Short bow (32), Arrows (7)
-40 sp - Kit 07 - Gardien de sanctuaire : Reinforced Gambeson (18), War Dart (16), Hand Axe (45)
+40 sp - Kit 07 - Gardien de sanctuaire : Reinforced Gambeson (18), Javelin (6), Hand Axe (45)
 42 sp - Kit 08 - Druide des collines : Padded Jack (22), Spear (7), Sling (2)
 44 sp - Kit 09 - Archidruide en herbe : Arming Doublet (45), Quarterstaff (18), Short bow (32), Arrows (7)
 46 sp - Kit 10 - Druide des marais : Gambeson (long / fended) (14), Light Crossbow (55), Crossbow Bolts (6)
-48 sp - Kit 11 - Protecteur de la forêt : Reinforced Gambeson (18), Scimitar (48)
-50 sp - Kit 12 - Druide expérimenté : Padded Jack (22), War Hammer (80)
+48 sp - Kit 11 - Protecteur de la forêt : Reinforced Gambeson (18), Hand Axe (45)
+50 sp - Kit 12 - Druide expérimenté : Padded Jack (22), Maul (75)
 52 sp - Kit 13 - Gardien des anciens : Arming Doublet (45), Longbow (55), Arrows (7)
-54 sp - Kit 14 - Druide des montagnes : Reinforced Gambeson (long) (26), Bec de Corbin (65)
+54 sp - Kit 14 - Druide des montagnes : Reinforced Gambeson (long) (26), Lucerne Hammer (65)
 56 sp - Kit 15 - Archidruide junior : Padded Jack (22), Composite Bow (160), Arrows (7)
 58 sp - Kit 16 - Druide des plaines : Arming Doublet (45), Quarterstaff (18), Javelin (6)
 60 sp - Kit 17 - Gardien de la nature : Gambeson (long / fended) (14), Pike (28), Short bow (32), Arrows (7)
-62 sp - Kit 18 - Druide des forêts anciennes : Reinforced Gambeson (18), Scimitar (48), Sling (2)
-64 sp - Kit 19 - Protecteur des sanctuaires : Padded Jack (22), War Hammer (80), Longbow (55), Arrows (7)
-66 sp - Kit 20 - Druide des landes : Arming Doublet (45), Bill (55), Short bow (32), Arrows (7)
+62 sp - Kit 18 - Druide des forêts anciennes : Reinforced Gambeson (18), Hand Axe (45), Sling (2)
+64 sp - Kit 19 - Protecteur des sanctuaires : Padded Jack (22), Maul (75), Longbow (55), Arrows (7)
+66 sp - Kit 20 - Druide des landes : Arming Doublet (45), Guisarme (55), Short bow (32), Arrows (7)
 
 ================================================================================
 KITS 21-40 : TEXTILE + ARMES PLUS FORTES
 ================================================================================
 
-68 sp - Kit 21 - Archidruide des collines : Reinforced Gambeson (long) (26), Scimitar (48), Longbow (55), Arrows (7)
-70 sp - Kit 22 - Gardien des anciens arbres : Padded Jack (22), Poleaxe (105), Short bow (32), Arrows (7)
+68 sp - Kit 21 - Archidruide des collines : Reinforced Gambeson (long) (26), Hand Axe (45), Longbow (55), Arrows (7)
+70 sp - Kit 22 - Gardien des anciens arbres : Padded Jack (22), Glaive (55), Short bow (32), Arrows (7)
 72 sp - Kit 23 - Druide des marécages : Arming Doublet (45), Spear (7), Light Crossbow (55), Crossbow Bolts (6)
-74 sp - Kit 24 - Protecteur des sources : Reinforced Gambeson (18), War Hammer (80), Longbow (55), Arrows (7)
-76 sp - Kit 25 - Archidruide des forêts : Padded Jack (22), Scimitar (48), Composite Bow (160), Arrows (7)
-78 sp - Kit 26 - Druide des montagnes sacrées : Arming Doublet (45), Bec de Corbin (65), Longbow (55), Arrows (7)
-80 sp - Kit 27 - Gardien des cercles de pierre : Reinforced Gambeson (long) (26), War Hammer (80), Short bow (32), Arrows (7)
-82 sp - Kit 28 - Druide des plaines sauvages : Padded Jack (22), Scimitar (48), Longbow (55), Arrows (7)
+74 sp - Kit 24 - Protecteur des sources : Reinforced Gambeson (18), Maul (75), Longbow (55), Arrows (7)
+76 sp - Kit 25 - Archidruide des forêts : Padded Jack (22), Hand Axe (45), Composite Bow (160), Arrows (7)
+78 sp - Kit 26 - Druide des montagnes sacrées : Arming Doublet (45), Lucerne Hammer (65), Longbow (55), Arrows (7)
+80 sp - Kit 27 - Gardien des cercles de pierre : Reinforced Gambeson (long) (26), Maul (75), Short bow (32), Arrows (7)
+82 sp - Kit 28 - Druide des plaines sauvages : Padded Jack (22), Hand Axe (45), Longbow (55), Arrows (7)
 84 sp - Kit 29 - Protecteur des anciens : Arming Doublet (45), Pike (28), Composite Bow (160), Arrows (7)
-86 sp - Kit 30 - Archidruide des landes : Reinforced Gambeson (18), Bill (55), Longbow (55), Arrows (7)
-88 sp - Kit 31 - Gardien suprême : Padded Jack (22), Scimitar (48), War Hammer (80), Longbow (55), Arrows (7)
-90 sp - Kit 32 - Druide des écosystèmes : Arming Doublet (45), Poleaxe (105), Short bow (32), Arrows (7)
-92 sp - Kit 33 - Protecteur des anciens bois : Reinforced Gambeson (long) (26), Scimitar (48), Composite Bow (160), Arrows (7)
-94 sp - Kit 34 - Archidruide des collines : Padded Jack (22), Bec de Corbin (65), Longbow (55), Arrows (7)
-96 sp - Kit 35 - Gardien des sources sacrées : Arming Doublet (45), War Hammer (80), Short bow (32), Arrows (7)
-98 sp - Kit 36 - Druide des landes profondes : Reinforced Gambeson (18), Scimitar (48), Pike (28), Longbow (55), Arrows (7)
-100 sp - Kit 37 - Protecteur des forêts anciennes : Padded Jack (22), Poleaxe (105), Composite Bow (160), Arrows (7)
-102 sp - Kit 38 - Archidruide des montagnes : Arming Doublet (45), Scimitar (48), War Hammer (80), Longbow (55), Arrows (7)
-104 sp - Kit 39 - Gardien des cercles anciens : Reinforced Gambeson (long) (26), Bill (55), Composite Bow (160), Arrows (7)
-106 sp - Kit 40 - Druide des plaines sacrées : Padded Jack (22), Scimitar (48), Longbow (55), Arrows (7)
+86 sp - Kit 30 - Archidruide des landes : Reinforced Gambeson (18), Guisarme (55), Longbow (55), Arrows (7)
+88 sp - Kit 31 - Gardien suprême : Padded Jack (22), Hand Axe (45), Maul (75), Longbow (55), Arrows (7)
+90 sp - Kit 32 - Druide des écosystèmes : Arming Doublet (45), Glaive (55), Short bow (32), Arrows (7)
+92 sp - Kit 33 - Protecteur des anciens bois : Reinforced Gambeson (long) (26), Hand Axe (45), Composite Bow (160), Arrows (7)
+94 sp - Kit 34 - Archidruide des collines : Padded Jack (22), Lucerne Hammer (65), Longbow (55), Arrows (7)
+96 sp - Kit 35 - Gardien des sources sacrées : Arming Doublet (45), Maul (75), Short bow (32), Arrows (7)
+98 sp - Kit 36 - Druide des landes profondes : Reinforced Gambeson (18), Hand Axe (45), Pike (28), Longbow (55), Arrows (7)
+100 sp - Kit 37 - Protecteur des forêts anciennes : Padded Jack (22), Glaive (55), Composite Bow (160), Arrows (7)
+102 sp - Kit 38 - Archidruide des montagnes : Arming Doublet (45), Hand Axe (45), Maul (75), Longbow (55), Arrows (7)
+104 sp - Kit 39 - Gardien des cercles anciens : Reinforced Gambeson (long) (26), Guisarme (55), Composite Bow (160), Arrows (7)
+106 sp - Kit 40 - Druide des plaines sacrées : Padded Jack (22), Hand Axe (45), Longbow (55), Arrows (7)
 
 ================================================================================
 KITS 41-70 : INTRODUCTION DES ARMURES DRAGON SCALE (x4)
 ================================================================================
 
 110 sp - Kit 41 - Druide aux écailles : Dragon Scale Brigandine (4x) (340), Quarterstaff (18), Short bow (32), Arrows (7)
-115 sp - Kit 42 - Gardien des écailles : Dragon Scale Coat of Plates (4x) (180), Scimitar (48), Longbow (55), Arrows (7)
-120 sp - Kit 43 - Druide des anciens : Dragon Scale Jack of Plates (4x) (220), War Hammer (80), Short bow (32), Arrows (7)
-125 sp - Kit 44 - Protecteur des écailles : Dragon Scale Brigandine (4x) (340), Scimitar (48), Longbow (55), Arrows (7)
-130 sp - Kit 45 - Archidruide des écailles : Dragon Scale Coat of Plates (4x) (180), Poleaxe (105), Composite Bow (160), Arrows (7)
-135 sp - Kit 46 - Gardien suprême des écailles : Dragon Scale Jack of Plates (4x) (220), Scimitar (48), Longbow (55), Arrows (7)
-140 sp - Kit 47 - Druide des écailles sacrées : Dragon Scale Brigandine (4x) (340), War Hammer (80), Composite Bow (160), Arrows (7)
-145 sp - Kit 48 - Protecteur des écailles anciennes : Dragon Scale Coat of Plates (4x) (180), Scimitar (48), Short bow (32), Arrows (7)
-150 sp - Kit 49 - Archidruide des écailles mythiques : Dragon Scale Jack of Plates (4x) (220), Bec de Corbin (65), Longbow (55), Arrows (7)
-155 sp - Kit 50 - Gardien des écailles légendaires : Dragon Scale Brigandine (4x) (340), Scimitar (48), Composite Bow (160), Arrows (7)
-160 sp - Kit 51 - Druide des écailles divines : Dragon Scale Coat of Plates (4x) (180), War Hammer (80), Longbow (55), Arrows (7)
-165 sp - Kit 52 - Protecteur des écailles primordiales : Dragon Scale Jack of Plates (4x) (220), Scimitar (48), Pike (28), Composite Bow (160), Arrows (7)
-170 sp - Kit 53 - Archidruide des écailles éternelles : Dragon Scale Brigandine (4x) (340), Poleaxe (105), Longbow (55), Arrows (7)
-175 sp - Kit 54 - Gardien légendaire des écailles : Dragon Scale Coat of Plates (4x) (180), Scimitar (48), War Hammer (80), Composite Bow (160), Arrows (7)
-180 sp - Kit 55 - Druide des écailles ancestrales : Dragon Scale Jack of Plates (4x) (220), Bill (55), Longbow (55), Arrows (7)
-185 sp - Kit 56 - Protecteur des écailles sacrées : Dragon Scale Brigandine (4x) (340), Scimitar (48), Composite Bow (160), Arrows (7)
-190 sp - Kit 57 - Archidruide des écailles mythiques : Dragon Scale Coat of Plates (4x) (180), Poleaxe (105), Short bow (32), Arrows (7)
-195 sp - Kit 58 - Gardien des écailles anciennes : Dragon Scale Jack of Plates (4x) (220), War Hammer (80), Longbow (55), Arrows (7)
-200 sp - Kit 59 - Druide des écailles légendaires : Dragon Scale Brigandine (4x) (340), Scimitar (48), Bec de Corbin (65), Composite Bow (160), Arrows (7)
-205 sp - Kit 60 - Protecteur suprême des écailles : Dragon Scale Coat of Plates (4x) (180), Poleaxe (105), Longbow (55), Arrows (7)
-210 sp - Kit 61 - Archidruide des écailles divines : Dragon Scale Jack of Plates (4x) (220), Scimitar (48), War Hammer (80), Composite Bow (160), Arrows (7)
-215 sp - Kit 62 - Gardien des écailles éternelles : Dragon Scale Brigandine (4x) (340), Bill (55), Longbow (55), Arrows (7)
-220 sp - Kit 63 - Druide des écailles primordiales : Dragon Scale Coat of Plates (4x) (180), Scimitar (48), Pike (28), Composite Bow (160), Arrows (7)
-225 sp - Kit 64 - Protecteur des écailles ancestrales : Dragon Scale Jack of Plates (4x) (220), Poleaxe (105), Longbow (55), Arrows (7)
-230 sp - Kit 65 - Archidruide des écailles sacrées : Dragon Scale Brigandine (4x) (340), Scimitar (48), War Hammer (80), Composite Bow (160), Arrows (7)
-235 sp - Kit 66 - Gardien légendaire des dragons : Dragon Scale Coat of Plates (4x) (180), Bill (55), Short bow (32), Arrows (7)
-240 sp - Kit 67 - Druide des écailles mythiques : Dragon Scale Jack of Plates (4x) (220), Scimitar (48), Bec de Corbin (65), Longbow (55), Arrows (7)
-245 sp - Kit 68 - Protecteur des écailles divines : Dragon Scale Brigandine (4x) (340), Poleaxe (105), Composite Bow (160), Arrows (7)
-250 sp - Kit 69 - Archidruide des écailles éternelles : Dragon Scale Coat of Plates (4x) (180), War Hammer (80), Longbow (55), Arrows (7)
-255 sp - Kit 70 - Gardien suprême des écailles : Dragon Scale Jack of Plates (4x) (220), Scimitar (48), Pike (28), Composite Bow (160), Arrows (7)
+115 sp - Kit 42 - Gardien des écailles : Dragon Scale Coat of Plates (4x) (180), Hand Axe (45), Longbow (55), Arrows (7)
+120 sp - Kit 43 - Druide des anciens : Dragon Scale Jack of Plates (4x) (220), Maul (75), Short bow (32), Arrows (7)
+125 sp - Kit 44 - Protecteur des écailles : Dragon Scale Brigandine (4x) (340), Hand Axe (45), Longbow (55), Arrows (7)
+130 sp - Kit 45 - Archidruide des écailles : Dragon Scale Coat of Plates (4x) (180), Glaive (55), Composite Bow (160), Arrows (7)
+135 sp - Kit 46 - Gardien suprême des écailles : Dragon Scale Jack of Plates (4x) (220), Hand Axe (45), Longbow (55), Arrows (7)
+140 sp - Kit 47 - Druide des écailles sacrées : Dragon Scale Brigandine (4x) (340), Maul (75), Composite Bow (160), Arrows (7)
+145 sp - Kit 48 - Protecteur des écailles anciennes : Dragon Scale Coat of Plates (4x) (180), Hand Axe (45), Short bow (32), Arrows (7)
+150 sp - Kit 49 - Archidruide des écailles mythiques : Dragon Scale Jack of Plates (4x) (220), Lucerne Hammer (65), Longbow (55), Arrows (7)
+155 sp - Kit 50 - Gardien des écailles légendaires : Dragon Scale Brigandine (4x) (340), Hand Axe (45), Composite Bow (160), Arrows (7)
+160 sp - Kit 51 - Druide des écailles divines : Dragon Scale Coat of Plates (4x) (180), Maul (75), Longbow (55), Arrows (7)
+165 sp - Kit 52 - Protecteur des écailles primordiales : Dragon Scale Jack of Plates (4x) (220), Hand Axe (45), Pike (28), Composite Bow (160), Arrows (7)
+170 sp - Kit 53 - Archidruide des écailles éternelles : Dragon Scale Brigandine (4x) (340), Glaive (55), Longbow (55), Arrows (7)
+175 sp - Kit 54 - Gardien légendaire des écailles : Dragon Scale Coat of Plates (4x) (180), Hand Axe (45), Maul (75), Composite Bow (160), Arrows (7)
+180 sp - Kit 55 - Druide des écailles ancestrales : Dragon Scale Jack of Plates (4x) (220), Guisarme (55), Longbow (55), Arrows (7)
+185 sp - Kit 56 - Protecteur des écailles sacrées : Dragon Scale Brigandine (4x) (340), Hand Axe (45), Composite Bow (160), Arrows (7)
+190 sp - Kit 57 - Archidruide des écailles mythiques : Dragon Scale Coat of Plates (4x) (180), Glaive (55), Short bow (32), Arrows (7)
+195 sp - Kit 58 - Gardien des écailles anciennes : Dragon Scale Jack of Plates (4x) (220), Maul (75), Longbow (55), Arrows (7)
+200 sp - Kit 59 - Druide des écailles légendaires : Dragon Scale Brigandine (4x) (340), Hand Axe (45), Lucerne Hammer (65), Composite Bow (160), Arrows (7)
+205 sp - Kit 60 - Protecteur suprême des écailles : Dragon Scale Coat of Plates (4x) (180), Glaive (55), Longbow (55), Arrows (7)
+210 sp - Kit 61 - Archidruide des écailles divines : Dragon Scale Jack of Plates (4x) (220), Hand Axe (45), Maul (75), Composite Bow (160), Arrows (7)
+215 sp - Kit 62 - Gardien des écailles éternelles : Dragon Scale Brigandine (4x) (340), Guisarme (55), Longbow (55), Arrows (7)
+220 sp - Kit 63 - Druide des écailles primordiales : Dragon Scale Coat of Plates (4x) (180), Hand Axe (45), Pike (28), Composite Bow (160), Arrows (7)
+225 sp - Kit 64 - Protecteur des écailles ancestrales : Dragon Scale Jack of Plates (4x) (220), Glaive (55), Longbow (55), Arrows (7)
+230 sp - Kit 65 - Archidruide des écailles sacrées : Dragon Scale Brigandine (4x) (340), Hand Axe (45), Maul (75), Composite Bow (160), Arrows (7)
+235 sp - Kit 66 - Gardien légendaire des dragons : Dragon Scale Coat of Plates (4x) (180), Guisarme (55), Short bow (32), Arrows (7)
+240 sp - Kit 67 - Druide des écailles mythiques : Dragon Scale Jack of Plates (4x) (220), Hand Axe (45), Lucerne Hammer (65), Longbow (55), Arrows (7)
+245 sp - Kit 68 - Protecteur des écailles divines : Dragon Scale Brigandine (4x) (340), Glaive (55), Composite Bow (160), Arrows (7)
+250 sp - Kit 69 - Archidruide des écailles éternelles : Dragon Scale Coat of Plates (4x) (180), Maul (75), Longbow (55), Arrows (7)
+255 sp - Kit 70 - Gardien suprême des écailles : Dragon Scale Jack of Plates (4x) (220), Hand Axe (45), Pike (28), Composite Bow (160), Arrows (7)
 
 ================================================================================
-KITS 71-100 : HAUT NIVEAU DRAGON SCALE + ARMES FORTES (Max 500 sp)
+KITS 71-100 : HAUT NIVEAU DRAGON SCALE + ARMES FORTES (Max 900 sp)
 ================================================================================
 
-260 sp - Kit 71 - Archidruide des écailles sacrées : Dragon Scale Brigandine (4x) (340), Scimitar (48), War Hammer (80), Longbow (55), Arrows (7)
-265 sp - Kit 72 - Gardien des écailles ancestrales : Dragon Scale Coat of Plates (4x) (180), Poleaxe (105), Composite Bow (160), Arrows (7)
-270 sp - Kit 73 - Druide des écailles mythiques : Dragon Scale Jack of Plates (4x) (220), Scimitar (48), Bec de Corbin (65), Longbow (55), Arrows (7)
-275 sp - Kit 74 - Protecteur suprême des écailles : Dragon Scale Brigandine (4x) (340), War Hammer (80), Composite Bow (160), Arrows (7)
-280 sp - Kit 75 - Archidruide des écailles divines : Dragon Scale Coat of Plates (4x) (180), Scimitar (48), Pike (28), Longbow (55), Arrows (7)
-285 sp - Kit 76 - Gardien légendaire des écailles : Dragon Scale Jack of Plates (4x) (220), Poleaxe (105), Composite Bow (160), Arrows (7)
-290 sp - Kit 77 - Druide des écailles éternelles : Dragon Scale Brigandine (4x) (340), Scimitar (48), War Hammer (80), Longbow (55), Arrows (7)
-295 sp - Kit 78 - Protecteur des écailles primordiales : Dragon Scale Coat of Plates (4x) (180), Bill (55), Composite Bow (160), Arrows (7)
-300 sp - Kit 79 - Archidruide des écailles ancestrales : Dragon Scale Jack of Plates (4x) (220), Scimitar (48), Bec de Corbin (65), Longbow (55), Arrows (7)
-305 sp - Kit 80 - Gardien des écailles sacrées : Dragon Scale Brigandine (4x) (340), Poleaxe (105), War Hammer (80), Composite Bow (160), Arrows (7)
-310 sp - Kit 81 - Druide des écailles divines : Dragon Scale Coat of Plates (4x) (180), Scimitar (48), Longbow (55), Arrows (7)
-315 sp - Kit 82 - Protecteur des écailles mythiques : Dragon Scale Jack of Plates (4x) (220), War Hammer (80), Composite Bow (160), Arrows (7)
-320 sp - Kit 83 - Archidruide des écailles éternelles : Dragon Scale Brigandine (4x) (340), Scimitar (48), Pike (28), Longbow (55), Arrows (7)
-325 sp - Kit 84 - Gardien suprême des dragons : Dragon Scale Coat of Plates (4x) (180), Poleaxe (105), Composite Bow (160), Arrows (7)
-330 sp - Kit 85 - Druide des écailles ancestrales : Dragon Scale Jack of Plates (4x) (220), Scimitar (48), Bec de Corbin (65), Longbow (55), Arrows (7)
-335 sp - Kit 86 - Protecteur des écailles divines : Dragon Scale Brigandine (4x) (340), War Hammer (80), Composite Bow (160), Arrows (7)
-340 sp - Kit 87 - Archidruide des écailles sacrées : Dragon Scale Coat of Plates (4x) (180), Scimitar (48), Pike (28), Longbow (55), Arrows (7)
-345 sp - Kit 88 - Gardien des écailles mythiques : Dragon Scale Jack of Plates (4x) (220), Poleaxe (105), War Hammer (80), Composite Bow (160), Arrows (7)
-350 sp - Kit 89 - Druide des écailles éternelles : Dragon Scale Brigandine (4x) (340), Scimitar (48), Bec de Corbin (65), Longbow (55), Arrows (7)
-355 sp - Kit 90 - Protecteur suprême des écailles : Dragon Scale Coat of Plates (4x) (180), War Hammer (80), Composite Bow (160), Arrows (7)
-360 sp - Kit 91 - Archidruide des écailles divines : Dragon Scale Jack of Plates (4x) (220), Scimitar (48), Pike (28), Composite Bow (160), Arrows (7)
-365 sp - Kit 92 - Gardien légendaire des écailles : Dragon Scale Brigandine (4x) (340), Poleaxe (105), Longbow (55), Arrows (7)
-370 sp - Kit 93 - Druide des écailles ancestrales : Dragon Scale Coat of Plates (4x) (180), Scimitar (48), War Hammer (80), Longbow (55), Arrows (7)
-375 sp - Kit 94 - Protecteur des écailles mythiques : Dragon Scale Jack of Plates (4x) (220), Bill (55), Composite Bow (160), Arrows (7)
-380 sp - Kit 95 - Archidruide des écailles sacrées : Dragon Scale Brigandine (4x) (340), Scimitar (48), Bec de Corbin (65), Longbow (55), Arrows (7)
-385 sp - Kit 96 - Gardien des écailles divines : Dragon Scale Coat of Plates (4x) (180), Poleaxe (105), War Hammer (80), Composite Bow (160), Arrows (7)
-390 sp - Kit 97 - Druide des écailles éternelles : Dragon Scale Jack of Plates (4x) (220), Scimitar (48), Pike (28), Longbow (55), Arrows (7)
-395 sp - Kit 98 - Protecteur suprême des dragons : Dragon Scale Brigandine (4x) (340), War Hammer (80), Composite Bow (160), Arrows (7)
-400 sp - Kit 99 - Archidruide légendaire des écailles : Dragon Scale Coat of Plates (4x) (180), Scimitar (48), Bec de Corbin (65), Composite Bow (160), Arrows (7)
-500 sp - Kit 100 - Gardien ultime des écailles : Dragon Scale Jack of Plates (4x) (220), Scimitar (48), War Hammer (80), Poleaxe (105), Composite Bow (160), Arrows (7)
 
 ================================================================================
-END OF FILE
+KITS 71-100 : HAUT NIVEAU DRAGON SCALE + ARMES FORTES (jusqu'à 900 sp)
 ================================================================================
 
-Note :
-- 100 kits progressifs.
-- Une seule armure textile par kit (pas de cumul).
-- Armures normalement métalliques remplacées par **Dragon Scale** au prix x4.
-- Grande diversité d'armes (Quarterstaff, Spear, Scimitar, War Hammer, Poleaxe, Bill, Bec de Corbin, différents arcs et arbalètes, etc.).
-- Tous les kits restent sous les **500 sp**.
+260 sp - Kit 71 - Archidruide des écailles sacrées : Dragon Scale Brigandine (340), Glaive (55), Longbow (55), Arrows (12)
+280 sp - Kit 72 - Gardien des écailles ancestrales : Dragon Scale Jack of Plates (220), Guisarme (55), Composite Bow (160), Arrows (12)
+300 sp - Kit 73 - Druide des écailles mythiques : Dragon Scale Brigandine (340), Glaive (55), Hand Axe (45), Longbow (55), Arrows (12)
+320 sp - Kit 74 - Protecteur suprême des écailles : Dragon Scale Coat of Plates (180), Guisarme (55), Composite Bow (160), Arrows (12)
+340 sp - Kit 75 - Archidruide des écailles divines : Dragon Scale Brigandine (340), Glaive (55), Longbow (55), Arrows (18)
+360 sp - Kit 76 - Gardien légendaire des écailles : Dragon Scale Jack of Plates (220), Guisarme (55), Composite Bow (160), Arrows (12)
+380 sp - Kit 77 - Druide des écailles éternelles : Dragon Scale Brigandine (340), Glaive (55), Hand Axe (45), Longbow (55), Arrows (12)
+400 sp - Kit 78 - Protecteur des écailles primordiales : Dragon Scale Coat of Plates (180), Guisarme (55), Composite Bow (160), Arrows (18)
+420 sp - Kit 79 - Archidruide des écailles ancestrales : Dragon Scale Brigandine (340), Glaive (55), Longbow (55), Arrows (12)
+440 sp - Kit 80 - Gardien des écailles sacrées : Dragon Scale Jack of Plates (220), Guisarme (55), Composite Bow (160), Arrows (12)
+460 sp - Kit 81 - Druide des écailles divines : Dragon Scale Brigandine (340), Glaive (55), Hand Axe (45), Longbow (55), Arrows (18)
+480 sp - Kit 82 - Protecteur des écailles mythiques : Dragon Scale Coat of Plates (180), Guisarme (55), Composite Bow (160), Arrows (12)
+500 sp - Kit 83 - Archidruide des écailles éternelles : Dragon Scale Brigandine (340), Glaive (55), Longbow (55), Arrows (12)
+520 sp - Kit 84 - Gardien suprême des dragons : Dragon Scale Jack of Plates (220), Guisarme (55), Composite Bow (160), Arrows (18)
+540 sp - Kit 85 - Druide des écailles ancestrales : Dragon Scale Brigandine (340), Glaive (55), Hand Axe (45), Longbow (55), Arrows (12)
+560 sp - Kit 86 - Protecteur des écailles divines : Dragon Scale Coat of Plates (180), Guisarme (55), Composite Bow (160), Arrows (12)
+580 sp - Kit 87 - Archidruide des écailles sacrées : Dragon Scale Brigandine (340), Glaive (55), Longbow (55), Arrows (18)
+600 sp - Kit 88 - Gardien des écailles mythiques : Dragon Scale Jack of Plates (220), Guisarme (55), Composite Bow (160), Arrows (12)
+620 sp - Kit 89 - Druide des écailles éternelles : Dragon Scale Brigandine (340), Glaive (55), Hand Axe (45), Longbow (55), Arrows (12)
+640 sp - Kit 90 - Protecteur suprême des écailles : Dragon Scale Coat of Plates (180), Guisarme (55), Composite Bow (160), Arrows (18)
+660 sp - Kit 91 - Archidruide des écailles divines : Dragon Scale Brigandine (340), Glaive (55), Longbow (55), Arrows (12)
+680 sp - Kit 92 - Gardien légendaire des écailles : Dragon Scale Jack of Plates (220), Guisarme (55), Composite Bow (160), Arrows (12)
+700 sp - Kit 93 - Druide des écailles ancestrales : Dragon Scale Brigandine (340), Glaive (55), Hand Axe (45), Longbow (55), Arrows (18)
+720 sp - Kit 94 - Protecteur des écailles mythiques : Dragon Scale Coat of Plates (180), Guisarme (55), Composite Bow (160), Arrows (12)
+740 sp - Kit 95 - Archidruide des écailles sacrées : Dragon Scale Brigandine (340), Glaive (55), Longbow (55), Arrows (12)
+760 sp - Kit 96 - Gardien des écailles divines : Dragon Scale Jack of Plates (220), Guisarme (55), Composite Bow (160), Arrows (18)
+780 sp - Kit 97 - Druide des écailles éternelles : Dragon Scale Brigandine (340), Glaive (55), Hand Axe (45), Longbow (55), Arrows (12)
+800 sp - Kit 98 - Protecteur suprême des dragons : Dragon Scale Coat of Plates (180), Guisarme (55), Composite Bow (160), Arrows (12)
+820 sp - Kit 99 - Archidruide légendaire des écailles : Dragon Scale Brigandine (340), Glaive (55), Longbow (55), Arrows (18)
+900 sp - Kit 100 - Gardien ultime des écailles : Dragon Scale Brigandine (340), Glaive (55), Composite Bow (160), Arrows (18), Courser (110), War Saddle (95), Bit & Bridle (8)

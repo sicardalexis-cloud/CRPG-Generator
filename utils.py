@@ -495,6 +495,44 @@ def generate_character(char_id: str = "TEMP", level: int = 1):
     # ====================== MAGIC & SKILL MODIFIER ======================
     magic_info = determine_magic_type(combat_points=combat_points, settlement_type=settlement_type)
 
+    # English display versions for pure-English character sheets (fiches)
+    _magic_type_map = {
+        "Théurgique": "Theurgic",
+        "Arcanique": "Arcane",
+        "Sauvage": "Wild",
+        "None": "None",
+    }
+    _magic_subtype_map = {
+        "Magicien": "Wizard",
+        "Magie Blanche": "White Magic",
+        "Magie Verte": "Green Magic",
+        "Magie Rouge": "Red Magic",
+        "Magie Bleue": "Blue Magic",
+        "Magie Noire": "Black Magic",
+    }
+    _magic_desc_map = {
+        ("Théurgique", "Magie Blanche"): "White Magic (healing, protection, divine light)",
+        ("Théurgique", "Magie Verte"): "Green Magic (nature, growth, forest spirits) — Druidic",
+        ("Arcanique", "Magicien"): "Arcane Wizard (study, formulas, ancient knowledge)",
+        ("Sauvage", "Magie Blanche"): "Wild Magic - White (pure chaos, unpredictable raw energy)",
+        ("Sauvage", "Magie Rouge"): "Wild Magic - Red (fire, destruction, passion, rage)",
+        ("Sauvage", "Magie Verte"): "Wild Magic - Green (wild nature, primal life, uncontrolled growth)",
+        ("Sauvage", "Magie Bleue"): "Wild Magic - Blue (water, illusions, hidden knowledge, cold)",
+        ("Sauvage", "Magie Noire"): "Wild Magic - Black (necromancy, shadow, corruption, dark power)",
+    }
+
+    mtype_raw = magic_info.get("type", "None") or "None"
+    msubtype_raw = magic_info.get("subtype") or ""
+
+    magic_type_eng = _magic_type_map.get(mtype_raw, mtype_raw)
+    magic_subtype_eng = _magic_subtype_map.get(msubtype_raw, msubtype_raw)
+
+    # Special case for green theurgic (druid flavor)
+    if mtype_raw == "Théurgique" and msubtype_raw == "Magie Verte":
+        magic_subtype_eng = "Druid"
+
+    magic_desc_eng = _magic_desc_map.get((mtype_raw, msubtype_raw), magic_info.get("description", ""))
+
     # God choice (contextual: ethnicity + region + settlement + magic type + subtype)
     # Special rule: Théurgique + Magie Verte → strongly nature gods (Chauntea, Silvanus, etc.)
     god = choose_god(
@@ -760,6 +798,11 @@ def generate_character(char_id: str = "TEMP", level: int = 1):
         "Magic_Subtype": magic_info.get("subtype"),
         "God": god,
         "Magic_Description": magic_info.get("description", ""),
+
+        # Pure English versions for the PDF character sheets
+        "Magic_Type_Eng": magic_type_eng,
+        "Magic_Subtype_Eng": magic_subtype_eng,
+        "Magic_Description_Eng": magic_desc_eng,
         "Spells_Known": spells_known,
         "Num_Spells_Known": len(spells_known),
         "Starting_Magic_Items": [f"{item['name']} ({item['price']} sp)" for item in starting_magic_items],

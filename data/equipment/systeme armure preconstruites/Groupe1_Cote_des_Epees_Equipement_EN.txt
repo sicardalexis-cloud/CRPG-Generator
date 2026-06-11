@@ -161,21 +161,234 @@ Lobster-tailed Pot 38 sp Tech 7 Common Frequency: 5 Bulk: 2 Storage: carried Mou
 
 ================================================================================
 
-TABLE OF SHIELDS (REORGANIZED - SIZE 1 TO 11)
+================================================================================
+3. SHIELDS (OFFICIAL MASTER MATRIX - UPDATED NOMENCLATURE & PROJECTILE RULES)
+================================================================================
+
+[PROJECTILE MECHANIC NOTE: "TROT D'ASSAUT"]
+When moving towards a shooter in an "Assault Trot", the character lifts the 
+top of the shield to lock the sightline line, systematically protecting FACE 
+and NECK. This mechanical lifting, combined with the leg stride, shifts the 
+coverage upwards: the lower torso, groin, and legs become exposed to incoming 
+missiles as shield size decreases.
 
 ================================================================================
-SIZE 1 : Petty Buckler (700 cm²) | 5 sp | Tech 5 | Freq: 9 | Enc: 1 | Carried   Poids (kg): 1.5
-SIZE 2 : Small Buckler (910 cm²) | 7 sp | Tech 5 | Freq: 9 | Enc: 1 | Carried   Poids (kg): 1.8
-SIZE 3 : Buckler (1183 cm²) | 9 sp | Tech 5 | Freq: 8 | Enc: 1 | Carried   Poids (kg): 2.0
-SIZE 4 : Great Buckler (1538 cm²) | 12 sp | Tech 5 | Freq: 7 | Enc: 2 | Carried   Poids (kg): 2.0
-SIZE 5 : Small Targe (1999 cm²) | 14 sp | Tech 5 | Freq: 6 | Enc: 2 | Carried   Poids (kg): 3.0
-SIZE 6 : Targe (2599 cm²) | 16 sp | Tech 4 | Freq: 7 | Enc: 2 | Carried   Poids (kg): 3.5
-SIZE 7 : Great Targe (3379 cm²) | 22 sp | Tech 5 | Freq: 7 | Enc: 3 | Carried   Poids (kg): 3.5
-SIZE 8 : Heater Shield (4392 cm²) | 24 sp | Tech 4 | Freq: 5 | Enc: 4 | Carried   Poids (kg): 5.0
-SIZE 9 : Ward Shield (5710 cm²) | 26 sp | Tech 5 | Freq: 5 | Enc: 4 | Carried
-SIZE 10: Kite Shield (7423 cm²) | 27 sp | Tech 5 | Freq: 5 | Enc: 4 | Carried
-SIZE 11: Pavise (9650 cm²) | 35 sp | Tech 5 | Freq: 4 | Enc: 5 | Shoulder
+TABLE OF SHIELDS (CONSOLIDATED)
+================================================================================
+SIZE 1  : Dual buckler (700 cm²)         | 5 sp  | Tech 5 | Freq: 9 | Enc: 1 | Carried  | Poids: 1.5 kg
+SIZE 2  : Troop Buckler (910 cm²)        | 7 sp  | Tech 5 | Freq: 9 | Enc: 1 | Carried  | Poids: 1.8 kg
+SIZE 3  : Great Buckler (1183 cm²)       | 9 sp  | Tech 5 | Freq: 8 | Enc: 1 | Carried  | Poids: 2.0 kg
+SIZE 4  : Small Target (1538 cm²)        | 12 sp | Tech 5 | Freq: 7 | Enc: 2 | Carried  | Poids: 2.0 kg
+SIZE 5  : Rotella (1999 cm²)             | 14 sp | Tech 5 | Freq: 6 | Enc: 2 | Carried  | Poids: 3.0 kg
+SIZE 6  : War Rotella (2599 cm²)         | 16 sp | Tech 4 | Freq: 7 | Enc: 2 | Carried  | Poids: 3.5 kg
+SIZE 7  : Heavy Assault Target (3379 cm²)| 22 sp | Tech 5 | Freq: 7 | Enc: 3 | Carried  | Poids: 4.5 kg
+SIZE 8  : Hand Pavise (4392 cm²)         | 24 sp | Tech 4 | Freq: 5 | Enc: 4 | Carried  | Poids: 6.5 kg
+SIZE 8a : Linden Round Shield (4392 cm²) | 18 sp | Tech 3 | Freq: 4 | Enc: 2 | Carried  | Poids: 3.4 kg
+SIZE 9a : Great Linden Shield (5710 cm²) | 24 sp | Tech 3 | Freq: 3 | Enc: 3 | Carried  | Poids: 4.2 kg
+SIZE 9  : Pavois de pose (5710 cm²)      | 26 sp | Tech 5 | Freq: 5 | Enc: 4 | Carried  | Poids: 8.0 kg
+SIZE 10 : Sturmpavise (7423 cm²)         | 27 sp | Tech 5 | Freq: 5 | Enc: 4 | Carried  | Poids: 11.5 kg
+SIZE 11 : Pavise (9650 cm²)              | 35 sp | Tech 5 | Freq: 4 | Enc: 5 | Shoulder | Poids: 15.0 kg
 
+================================================================================
+DETAILED SPECIFICATIONS & HIT-ZONE MAPS
+================================================================================
+
+SIZE 1 : Dual buckler
+--------------------------------------------------------------------------------
+* HISTORICAL REFERENCE: Ultra-light civilian fist buckler, often paired with a 
+  side-sword or rapier for high-speed dueling and binding.
+* CONTACT MODE HIT-ZONES: L_HAND, L_FARM
+* ASSAULT TROT PROJECTILE COVERAGE: L_HAND, FACE
+  (Note: Completely exposes the lower body; lifting to cover the face leaves 
+  the entire torso vulnerable.)
+* SYSTEM MODIFIERS: Active Defense D20: +1
+
+SIZE 2 : Troop Buckler
+--------------------------------------------------------------------------------
+* HISTORICAL REFERENCE: Mass-produced iron or steel-faced wooden buckler. Standard 
+  issue for English archers at Agincourt (1415) and 15th-century light infantry. 
+  Easy to slip onto a sword hilt when operating a bow.
+* CONTACT MODE HIT-ZONES: L_HAND, L_FARM, L_ELBO
+* ASSAULT TROT PROJECTILE COVERAGE: L_HAND, L_FARM, FACE, NECK
+* SYSTEM MODIFIERS: Active Defense D20: +1
+
+SIZE 3 : Great Buckler
+--------------------------------------------------------------------------------
+* HISTORICAL REFERENCE: The absolute limit of center-grip design before weight 
+  forces an arm-strapped configuration. Begins to transition in combat style 
+  towards the coverage of a small targe.
+* CONTACT MODE HIT-ZONES: L_HAND, L_FARM, L_ELBO, R_HAND (during cross-guards)
+* ASSAULT TROT PROJECTILE COVERAGE: L_HAND, L_FARM, L_ELBO, FACE, NECK, CHST (Upper Left)
+* SYSTEM MODIFIERS: Active Defense D20: +1 (+2 vs High/Overhead Melee strikes)
+
+SIZE 4 : Small Target
+--------------------------------------------------------------------------------
+* PREHENSION MODE (Énarmé): First appearance of enarmes (leather arm straps). 
+  At ~44 cm diameter, a full wooden/steel shield becomes too fatiguing for 
+  a central fist-grip. Latched directly to the forearm, leaving the hand close 
+  to the rim handle.
+* HISTORICAL REFERENCE: Used by late 15th-century archers, urban night watches, 
+  boarding mariners, and light cavalry. Direct ancestor of the Highland Targe.
+* CONTACT MODE HIT-ZONES: L_HAND, L_FARM, L_ELBO, L_UARM, L_SHLD
+* ASSAULT TROT PROJECTILE COVERAGE: L_HAND, L_FARM, L_ELBO, L_SHLD, FACE, NECK, CHST
+  (Note: Upper torso is perfectly safe. ABDM, L_HIPS, and legs are fully exposed.)
+* SYSTEM MODIFIERS: Active Defense D20: +2
+
+SIZE 5 : Rotella
+--------------------------------------------------------------------------------
+* HISTORICAL REFERENCE: The definitive 50 cm civilian and elite guard shield. 
+  The star of Renaissance Italian fencing treatises (Marozzo, Manciolino). 
+  The hallmark of street duels, honor fights, and urban skirmishes.
+* CONTACT MODE HIT-ZONES: L_HAND, L_FARM, L_ELBO, L_UARM, L_SHLD, CHST
+* ASSAULT TROT PROJECTILE COVERAGE: L_HAND, L_FARM, L_ELBO, L_UARM, L_SHLD, FACE, NECK, CHST, ABDM (Upper half)
+  (Note: Navel, hips, and lower limbs remain open targets.)
+* SYSTEM MODIFIERS: Active Defense D20: +2
+
+SIZE 6 : War Rotella
+--------------------------------------------------------------------------------
+* HISTORICAL REFERENCE: The pinnacle of battlefield round shields (57.5 cm diameter). 
+  Core equipment for Spanish Rodeleros (targeteers) designed to sprint *under* 
+  Swiss pike formations and exploit openings in close-quarters chaos. Built heavy 
+  and proofed against early firearms ("à la preuve").
+* CONTACT MODE HIT-ZONES: L_HAND, L_FARM, L_ELBO, L_UARM, L_SHLD, CHST, ABDM, L_HIPS
+* ASSAULT TROT PROJECTILE COVERAGE: L_HAND, L_FARM, L_ELBO, L_UARM, L_SHLD, FACE, NECK, CHST, ABDM, L_HIPS
+  (Note: Midsection locked down. GROIN and both thighs are exposed during stride phases.)
+* SYSTEM MODIFIERS: Active Defense D20: +2 (Provides damage reduction against black powder pellets)
+
+SIZE 7 : Heavy Assault Target
+--------------------------------------------------------------------------------
+* HISTORICAL REFERENCE: The Great Rondache of Breach. Conic, heavy steel-reinforced 
+  beast built for trench warfare, siege breaches, and fortification storming. 
+  Pure kinetic denial over swordplay ergonomics.
+* CONTACT MODE HIT-ZONES: HEAD, FACE, NECK, L_SHLD, CHST, ABDM, L_HIPS, L_HAND, L_FARM, L_ELBO, L_UARM
+* ASSAULT TROT PROJECTILE COVERAGE: All Contact zones + EYES, GROIN, L_THGH (Upper)
+  (Note: Shooters must target KNEES and SHINS to bypass the wall.)
+* SYSTEM MODIFIERS: Active Defense D20: +3 (Max active mobile bonus)
+
+SIZE 8 : Hand Pavise
+--------------------------------------------------------------------------------
+* HISTORICAL REFERENCE: Asymmetric infantry marching pavise (~46x95 cm). Famous 
+  for its use in Hussite line tactics and widely integrated by Genoese and 
+  Burgundian mercenary crossbow units.
+* CONTACT MODE HIT-ZONES: L_SHLD, CHST, ABDM, L_HIPS, L_THGH, L_HAND, L_FARM, L_ELBO
+* ASSAULT TROT PROJECTILE COVERAGE: 
+  * FRONT: FACE, NECK, L_SHLD, CHST, ABDM, L_HIPS, R_HIPS, GROIN, L_THGH, R_THGH, L_KNEE
+    (Note: Alternately exposes L_SHIN/R_SHIN and feet at the base during strides.)
+  * BACK RECHARGE MODE: BACK, LBAK (Passive protection while slung on spine)
+* SYSTEM MODIFIERS: Active Defense D20: +2 (Suffers slight melee inertia malus)
+
+SIZE 8a : Linden Round Shield (Tech 3 Alternative)
+--------------------------------------------------------------------------------
+* HISTORICAL REFERENCE: Traditional early-medieval/Viking round shield (75 cm). 
+  Central iron boss, light linden wood. High tactical area but low durability, 
+  designed to shatter and absorb heavy blows over time.
+* CONTACT MODE HIT-ZONES: L_HAND, L_FARM, L_ELBO, L_UARM, L_SHLD, CHST, ABDM
+* ASSAULT TROT PROJECTILE COVERAGE: L_HAND, L_FARM, L_ELBO, L_UARM, L_SHLD, FACE, NECK, CHST, ABDM, L_HIPS, GROIN
+  (Note: Shield projects a massive footprint but center grip makes it wobble 
+  during rapid movement, exposing thighs and lower legs.)
+* SYSTEM MODIFIERS: Active Defense D20: +3 (Exceptional pivot mechanics)
+
+SIZE 9a : Great Linden Shield (Tech 3 Alternative)
+--------------------------------------------------------------------------------
+* HISTORICAL REFERENCE: Over-sized clan round shield (85 cm). Offers unmatched 
+  coverage during approach phases but causes severe wrist fatigue over prolonged 
+  exchanges.
+* CONTACT MODE HIT-ZONES: L_HAND, L_FARM, L_ELBO, L_UARM, L_SHLD, CHST, ABDM, L_HIPS, L_THGH
+* ASSAULT TROT PROJECTILE COVERAGE: HEAD, FACE, NECK, L_SHLD, CHST, ABDM, L_HIPS, R_HIPS, GROIN, L_THGH, R_THGH, L_KNEE, R_KNEE, L_HAND, L_FARM
+  (Note: Shins and feet are the only remaining targets on flat ground.)
+* SYSTEM MODIFIERS: Active Defense D20: +3
+
+SIZE 9 : Pavois de pose
+--------------------------------------------------------------------------------
+* HISTORICAL REFERENCE: Static pavise fitted with an integrated rear prop-strut. 
+  Planted into the earth by pavisiers to create reliable, modular firing lines.
+* CONTACT MODE HIT-ZONES: CHST, ABDM, L_HIPS, L_THGH, L_SHIN, L_HAND, L_FARM (When used as raw cover)
+* ASSAULT TROT PROJECTILE COVERAGE: Not Applicable (Too heavy to hold while trotting).
+* PLANTED POSITION STATS: "Heavy Cover Status". Automatically intercepts all 
+  incoming front-arc projectiles across: FACE, NECK, L_SHLD, R_SHLD, CHST, ABDM, 
+  L_HIPS, R_HIPS, GROIN, L_THGH, R_THGH, L_KNEE, R_KNEE, L_SHIN, R_SHIN, L_HAND, 
+  R_HAND, L_FARM, R_FARM, L_ELBO, R_ELBO, L_UARM, R_UARM.
+  (Note: Only HEAD and EYES remain vulnerable if the shooter has an elevated ridge advantage.)
+* SYSTEM MODIFIERS: Active Defense D20: +0
+
+SIZE 10 : Sturmpavise
+--------------------------------------------------------------------------------
+* HISTORICAL REFERENCE: Heavy fortification mantlet. Thick canvas-wrapped oak 
+  planks built specifically to absorb the staggering kinetic force of heavy siege 
+  bolts and long-range matchlock fire.
+* CONTACT MODE HIT-ZONES: Non-usable due to weight and inertia constraints.
+* ASSAULT TROT PROJECTILE COVERAGE: Not Applicable.
+* PLANTED POSITION STATS: "Total Frontal Cover". Immunizes all 39 bodily zones 
+  against direct line-of-sight front-arc projectiles for any character crouching, 
+  engineering, or reloading behind its boundary.
+* SYSTEM MODIFIERS: Active Defense D20: +0
+
+SIZE 11 : Pavise
+--------------------------------------------------------------------------------
+* HISTORICAL REFERENCE: Full-scale wooden siege pavilion mantlet. Relies on 
+  shoulder harness assemblies or dedicated ground stakes to anchor. Designed 
+  to shell-protect combat engineers, sappers, and entire weapon crews.
+* CONTACT MODE HIT-ZONES: Non-usable.
+* ASSAULT TROT PROJECTILE COVERAGE: Not Applicable.
+* PLANTED POSITION STATS: "Rampart Wall Status". Absolute front-arc immunity for 
+  the operator plus up to two adjacent allies standing within its rear defensive 
+  cone. Blocks light artillary, heavy arquebus lines, and structural debris. All 
+  39 hit-zones are mathematically safe from incoming frontal trajectories.
+* SYSTEM MODIFIERS: Active Defense D20: +0
+================================================================================
+================================================================================
+ADDENDUM : 15th CENTURY SPECIALIZED SHIELDS (HISTORICAL & REGIONAL VARIANTS)
+================================================================================
+
+SIZE 4a : Notched Knightly Targe (1600 cm²) | 18 sp | Tech 5 | Freq: 5 | Enc: 2 | Carried/Strapped | Poids: 2.3 kg
+--------------------------------------------------------------------------------
+* HISTORICAL REFERENCE: The classic 15th-century "Targe à bouche" used by heavy 
+  cavalry and men-at-arms. Concave wooden core, reinforced with gesso, glue, 
+  and rawhide. Features a distinct notch on the upper-right corner.
+* MECHANICAL TRAIT: [LANCE SLOT] / [REINS COMPATIBLE] -> Allows couched lance 
+  attacks without shield-obstruction penalties. Strapping mechanism allows the 
+  left hand to retain 50% efficiency for horse rein control.
+* CONTACT MODE HIT-ZONES: L_HAND, L_FARM, L_ELBO, L_UARM, L_SHLD, CHST (Left side)
+* ASSAULT TROT PROJECTILE COVERAGE: L_HAND, L_FARM, L_ELBO, L_SHLD, FACE, NECK, CHST
+* SYSTEM MODIFIERS: Active Defense D20: +2 (+0 if left hand is actively weapon-bound)
+
+SIZE 5a : Asymmetric Hussar Shield (2100 cm²) | 15 sp | Tech 4 | Freq: 4 | Enc: 2 | Carried | Poids: 2.2 kg
+--------------------------------------------------------------------------------
+* HISTORICAL REFERENCE: Hungarian/Balkan light cavalry shield, widely used by 
+  Matthias Corvinus' Black Army. The elongated, swept-back top-left corner is 
+  aerodynamic and custom-profiled for mounted riders.
+* MECHANICAL TRAIT: [MOUNTED DEFLECTION] -> Automatically covers the rider's 
+  left flank vitals without manual activation while at a gallop or trot.
+* CONTACT MODE HIT-ZONES: L_HAND, L_FARM, L_ELBO, L_SHLD, NECK, FACE (Left side)
+* ASSAULT TROT PROJECTILE COVERAGE: L_HAND, L_FARM, L_ELBO, L_SHLD, FACE, NECK, CHST, ABDM
+* SYSTEM MODIFIERS: Active Defense D20: +2
+
+SIZE 6a : Adarga (2600 cm²) | 28 sp | Tech 5 | Freq: 3 (Spain/Moorish) | Enc: 1 | Carried | Poids: 2.1 kg
+--------------------------------------------------------------------------------
+* HISTORICAL REFERENCE: Hardened multi-layered hide shield (cuir bouilli/antelope 
+  leather) used extensively during the Spanish Reconquista. Elite item requiring 
+  expert leathercraft. Double-oval design.
+* MECHANICAL TRAIT: [ELASTIC STRUCTURE] -> Cannot be split or destroyed by 
+  axes/two-handed weapon cleaving. Absorbs kinetic impact rather than splintering. 
+  Extremely low encumbrance for its footprint.
+* CONTACT MODE HIT-ZONES: L_HAND, L_FARM, L_ELBO, L_UARM, L_SHLD, CHST, ABDM
+* ASSAULT TROT PROJECTILE COVERAGE: L_HAND, L_FARM, L_ELBO, L_UARM, L_SHLD, FACE, NECK, CHST, ABDM, L_HIPS
+* SYSTEM MODIFIERS: Active Defense D20: +2
+
+SIZE 7a : Judicial Fechtschild (3100 cm²) | 35 sp | Tech 5 | Freq: 1 | Enc: 3 | Two-Handed Hold | Poids: 4.8 kg
+--------------------------------------------------------------------------------
+* HISTORICAL REFERENCE: Highly specialized judicial dueling shield popularized 
+  in 15th-century German Fechtbücher (Talhoffer traditions). Long, narrow wooden 
+  body armed with steel spikes at the top and bottom, and side hooked langets.
+* MECHANICAL TRAIT: [WRESTLING COMPONENT] -> Cannot be used on horseback or 
+  with another weapon. Grants a +4 flat bonus to all open-ended 1D20 Grappling, 
+  Weapon-Trapping, Bind, and Takedown resolution checks. Can be used to strike.
+* CONTACT MODE HIT-ZONES: L_HAND, R_HAND, L_FARM, R_FARM, CHST, ABDM, GROIN 
+  (Acts as a central vertical barrier)
+* ASSAULT TROT PROJECTILE COVERAGE: FACE, NECK, CHST, ABDM, GROIN, L_THGH, R_THGH 
+  (Extremely narrow: side zones like L_SHLD/R_SHLD remain wide open to projectiles)
+* SYSTEM MODIFIERS: Active Defense D20: +1 (Standard Melee) / +4 (Grappling/CQC)
+================================================================================
 
 
 ================================================================================
@@ -478,6 +691,162 @@ Healing Potion (good)                   100 sp   Tech 5   Common
 Mortar & Pestle                          12 cp   Tech 3   Always
 Flask (empty)                             2 cp   Tech 3   Always
 Herbal Remedy (strong)                   25 cp   Tech 3   Common
+
+
+
+================================================================================
+PROPOSITIONS D'AJOUTS AU FICHIER MAÎTRE D'ÉQUIPEMENT
+Objets historiquement attestés avant le XVIe siècle
+Utiles pour les druides / personnages de la nature
+================================================================================
+
+Règles appliquées :
+- Objets historiquement plausibles en Europe avant 1500
+- Compatible avec la règle "armes ≤ 49% de métal"
+- Format proche du fichier maître pour copie facile
+
+================================================================================
+NOUVEAUX OBJETS PROPOSÉS
+================================================================================
+
+--- Herboristerie & Cueillette ---
+
+Nom                     : Sac d'herboriste en cuir
+Prix                    : 12 sp
+Tech                    : 4
+Fréquence               : Common
+Bulk / Encombrement     : 2
+Poids (kg)              : 1.2
+Storage                 : carried
+Description             : Sac en cuir compartimenté permettant de transporter plantes, racines et champignons sans les écraser. Outil classique des herboristes et moines du XIVe-XVe siècle.
+
+Nom                     : Serpe (Serpette)
+Prix                    : 18 sp
+Tech                    : 4
+Fréquence               : Common
+Bulk / Encombrement     : 2
+Poids (kg)              : 1.0
+Storage                 : carried
+Description             : Petite serpe courbe utilisée pour tailler les plantes, les branches et les haies. Outil très répandu chez les forestiers, vignerons et herboristes dès le XIVe siècle.
+
+Nom                     : Couteau à herbes (fer ou silex)
+Prix                    : 8 sp
+Tech                    : 3
+Fréquence               : Always
+Bulk / Encombrement     : 1
+Poids (kg)              : 0.4
+Storage                 : carried
+Description             : Petit couteau à lame fine, parfois en silex chez les plus pauvres. Utilisé pour couper tiges et plantes sans abîmer les parties utiles.
+
+--- Survie & Forêt ---
+
+Nom                     : Outre en peau (Costrel)
+Prix                    : 20 sp
+Tech                    : 3
+Fréquence               : Common
+Bulk / Encombrement     : 2
+Poids (kg)              : 0.8 (vide)
+Storage                 : carried
+Description             : Gourde en peau de chèvre ou mouton, très courante au Moyen Âge pour transporter de l'eau ou du vin en forêt.
+
+Nom                     : Piège à collet (x3)
+Prix                    : 15 sp
+Tech                    : 3
+Fréquence               : Common
+Bulk / Encombrement     : 2
+Poids (kg)              : 0.6
+Storage                 : carried
+Description             : Lot de trois collets en corde et bois pour capturer du petit gibier (lapins, oiseaux). Outil de chasse très répandu au Moyen Âge.
+
+Nom                     : Bâton de marche / Bâton de pèlerin
+Prix                    : 10 sp
+Tech                    : 3
+Fréquence               : Always
+Bulk / Encombrement     : 3
+Poids (kg)              : 1.5
+Storage                 : shoulder
+Description             : Long bâton en bois dur, utilisé par les voyageurs, pèlerins et ermites. Peut servir d'arme et de support lors des marches longues.
+
+Nom                     : Gourdin à pierre
+Prix                    : 12 sp
+Tech                    : 3
+Fréquence               : Common
+Bulk / Encombrement     : 2
+Poids (kg)              : 2.0
+Storage                 : carried
+Description             : Gourdin simple avec une pierre lourde attachée au bout à l'aide de cordes ou de lanières en cuir. Arme primitive mais efficace, attestée depuis la Préhistoire jusqu'au Moyen Âge.
+
+Nom                     : Lance en bois durci au feu
+Prix                    : 14 sp
+Tech                    : 3
+Fréquence               : Common
+Bulk / Encombrement     : 3
+Poids (kg)              : 1.8
+Storage                 : shoulder
+Description             : Lance dont la pointe a été durcie par le feu. Technique ancienne et largement utilisée avant l'usage généralisé des pointes métalliques.
+
+--- Objets rituels & spirituels ---
+
+Nom                     : Mistletoe séché (bouquet)
+Prix                    : 10 sp
+Tech                    : 3
+Fréquence               : Rare
+Bulk / Encombrement     : 1
+Poids (kg)              : 0.2
+Storage                 : carried
+Description             : Bouquet de gui séché. Utilisé dans les traditions celtiques et folkloriques européennes comme composant rituel ou protecteur.
+
+Nom                     : Sachet de composants naturels
+Prix                    : 12 sp
+Tech                    : 3
+Fréquence               : Common
+Bulk / Encombrement     : 1
+Poids (kg)              : 0.5
+Storage                 : carried
+Description             : Petit sac en cuir contenant un mélange d'herbes, plumes, petits os, résines et autres éléments naturels. Utile pour la préparation de remèdes ou de rituels.
+
+Nom                     : Athamé / Couteau rituel en os ou bois
+Prix                    : 18 sp
+Tech                    : 4
+Fréquence               : Rare
+Bulk / Encombrement     : 1
+Poids (kg)              : 0.6
+Storage                 : carried
+Description             : Couteau rituel à lame en os ou en bois dur. Utilisé dans certaines traditions païennes et folkloriques pour les rites et la découpe symbolique.
+
+--- Vêtements & Discrétion ---
+
+Nom                     : Cape à capuche en laine (teintures naturelles)
+Prix                    : 35 sp
+Tech                    : 3
+Fréquence               : Common
+Bulk / Encombrement     : 2
+Poids (kg)              : 2.5
+Storage                 : worn
+Description             : Cape en laine teinte avec des colorants végétaux (verts, bruns, gris). Offre un bon camouflage en milieu forestier.
+
+Nom                     : Bottes de marche souples en cuir
+Prix                    : 25 sp
+Tech                    : 4
+Fréquence               : Common
+Bulk / Encombrement     : 2
+Poids (kg)              : 1.8
+Storage                 : worn
+Description             : Bottes en cuir souple, plus discrètes et confortables pour la marche en forêt que les modèles militaires plus rigides.
+
+================================================================================
+NOTES POUR INTÉGRATION
+================================================================================
+- Tous ces objets sont historiquement plausibles avant 1500.
+- Ils respectent la règle "armes ≤ 49% de métal".
+- Les prix sont alignés sur le style du fichier maître.
+- Bulk et Poids sont estimés de manière réaliste.
+- Ces objets peuvent être ajoutés dans une nouvelle section 
+  "Équipement Naturel & Druidique" ou intégrés dans les sections existantes.
+
+================================================================================
+FIN DE LA LISTE
+================================================================================
 
 
 ================================================================================

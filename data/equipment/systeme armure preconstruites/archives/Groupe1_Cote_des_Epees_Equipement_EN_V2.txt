@@ -106,30 +106,12 @@ Archer Bracer 2 sp Tech 4 Always Frequency: 8 Bulk: 1 Storage: carried Mounted: 
 # They are mostly used as supplementary protection (voiders, collars, sleeves) under plate armor, or as lighter options for infantry and archers.
 # Historical note: "Mail Coat" / "coat of mail" was historically synonymous with "hauberk". We have consolidated them into one entry for accuracy.
 
-# ====================================================================================================================================================
-# SYSTEM RULE: REGIONAL & TECHNOLOGICAL MAIL VARIATIONS
-# All base prices, weights, and tech levels listed below correspond to "STANDARD MAIL" (7-9mm riveted rings).
-# Any mail item can be purchased or found in two alternative densities depending on local regional technology:
-#
-# 1. COARSE MAIL (Maille Grossière) - Low-Tech Regions (Tech 3-4, e.g., Moonshae Isles, Barbarian Tribes):
-#    - Price Modifiers: x0.6 | Tech Level: Sets to Tech 3 or 4
-#    - Weight Modifier: +20% (Thicker, heavier rings to compensate for lack of proper riveting or poor iron quality)
-#    - Mechanic: Disastrous against piercing (Rondel daggers, bodkin arrows, cranequins ignore a flat amount of its protection value).
-#
-# 2. STANDARD MAIL (Maille Standard) - Base Setting (Tech 5-6, e.g., Baldur's Gate, Waterdeep, Amn):
-#    - Price Modifiers: Base (100%) | Tech Level: As listed
-#    - Weight Modifier: Base (100%)
-#    - Mechanic: Nominal protection values.
-#
-# 3. FINE MAIL (Maille Fine / Masterwork) - High-Tech / Luxury Elite (Tech 7+):
-#    - Price Modifiers: x2.5 | Tech Level: +1 to listed Tech (Minimum Tech 7)
-#    - Weight Modifier: -10% to -15% (Ultra-fine, high-purity carbon steel rings, tight and supple as fabric)
-#    - Mechanic: High kinetic density (Grants superior protection or damage reduction specifically against thrusts and projectile punctures).
-# ====================================================================================================================================================
-
 Mail Shirt (basic torso protection) 80 sp Tech 5 Common Frequency: 6 Bulk: 3 Storage: carried Mounted: No BACK, ABDM, UARM Poids (kg): 6.5
 Mail Haubergeon (mid-thigh length, lighter) 115 sp Tech 5 Common Frequency: 5 Bulk: 4 Storage: carried Mounted: No BACK, ABDM, UARM, THGH
 Mail Hauberk (knee-length with full sleeves) 170 sp Tech 5-6 Common Frequency: 5 Bulk: 4 Storage: carried Mounted: No BACK, ABDM, UARM, THGH, SHIN Poids (kg): 10.5
+
+Mail Hauberk (double mail / reinforced torso) 240 sp Tech 6 Rare Frequency: 3 Bulk: 5 Storage: carried Mounted: No BACK, ABDM, UARM, THGH, SHIN
+# Premium reinforced version with a double layer of mail on the torso. Heavier and more expensive. Still used in the late 15th century by wealthier fighters or for tournaments.
 
 Jazerant (mail sewn between fabric layers) 95 sp Tech 6 Common Frequency: 4 Bulk: 3 Storage: carried Mounted: No BACK, ABDM, UARM Poids (kg): 7.0
 # Mail sandwiched between two layers of sturdy fabric (sometimes lightly padded). More discreet than plain mail. Popular in the 14th–15th centuries as lighter or semi-concealed armor.

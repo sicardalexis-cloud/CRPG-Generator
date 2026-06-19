@@ -1,63 +1,57 @@
-OBJETS DONT LE PRIX EST INFERIEUR A 450 SP (44 PO OU MOINS) 
-(Quelques projectiles magiques +3 dépassent ce seuil pour budgets élevés)
+OBJETS DONT LE PRIX EST INFÉRIEUR À 450 SP (44 PO OU MOINS)
 
 --- CONSOMMABLES ---
 Bead of Nourishment (Common): 30 sp
 Potion of Poison (Uncommon): 40 sp
 Philter of Love (Uncommon): 40 sp
 Potion of Animal Friendship (Uncommon): 50 sp
+Poudre de réveil (Common): 50 sp
+Chandelle de lumière éternelle (Common): 50 sp
+Tissu autonettoyant (Common): 70 sp
 Potion of Water Breathing (Uncommon): 80 sp
 Potion of Climbing (Common): 80 sp
+Plume à encre infinie (Common): 80 sp
+La Plume du Greffier (Common): 90 sp [Effet: Écrit sous dictée | Aspect: Plume d'oie argentée finement ciselée]
 Potion of Diminution (Rare): 100 sp
+Wind Fan (Uncommon): 100 sp
+Mini-Potion de soin (Common): 100 sp
+Cape de séchage rapide (Common): 100 sp
 Ammunition +1 (10x) (Uncommon): 110 sp
 Potion of Growth (Uncommon): 120 sp
+Gourde de tempérance (Common): 150 sp
+Le Souffle du Condottiere (Uncommon): 120 sp [Effet: Sifflet longue portée + moral | Aspect: Sifflet en bronze patiné orné de motifs de commandement]
+Healing Salve (N/A): 120 sp
 Potion of Mind Reading (Rare): 150 sp
 Dust of Dryness (Uncommon): 150 sp
+Le Sceau du Marchand (Uncommon): 140 sp [Effet: Anti-contrefaçon | Aspect: Cachet en acier lourd avec manche en bois noirci]
 Oil of Slipperiness (Uncommon): 160 sp
+L'Éclat du Guetteur (Uncommon): 160 sp [Effet: Flash solaire | Aspect: Miroir de signalisation en acier poli cerclé de fer]
 Potion of Invisibility (Rare): 180 sp
+L'Appel du Port (Uncommon): 200 sp [Effet: Brouillard 5m | Aspect: Corne de brume massive en laiton poli]
+Minor Healing Potion (N/A): 200 sp
 Potion of Gaseous Form (Rare): 210 sp
 Potion of Clairvoyance (Rare): 210 sp
 Dust of Disappearance (Uncommon): 230 sp
 Dust of Sneezing and Choking (Uncommon): 270 sp
 Potion of Heroism (Rare): 270 sp
 Chime of Opening (Rare): 280 sp
+Le Regard d'Outre-Manche (Uncommon): 280 sp [Effet: Identification | Aspect: Loupe d'artisan en monture de fer forgé]
 Universal Solvent (Legendary): 310 sp
 Ammunition +2 (10x) (Rare): 400 sp
 
---- PROJECTILES MAGIQUES LEGERS (par piece, pour kits à faible capital) ---
-Arrows +1 (Uncommon): 11 sp
-Crossbow Bolts +1 (Uncommon): 11 sp
-Sling Bullets +1 (Uncommon): 11 sp
-Javelins +1 (Uncommon): 11 sp
-Darts +1 (Uncommon): 11 sp
-Arrows +2 (Rare): 40 sp
-Crossbow Bolts +2 (Rare): 40 sp
-Sling Bullets +2 (Rare): 40 sp
-Javelins +2 (Rare): 40 sp
-Darts +2 (Rare): 40 sp
-Arrows +3 (Very Rare): 130 sp
-Crossbow Bolts +3 (Very Rare): 130 sp
-Sling Bullets +3 (Very Rare): 130 sp
-Javelins +3 (Very Rare): 130 sp
-Darts +3 (Very Rare): 130 sp
-
-Pierre à aiguiser enchantée (Common): 200 sp
-Chandelle de lumière éternelle (Common): 50 sp
-Plume à encre infinie (Common): 80 sp
-Gourde de tempérance (Common): 150 sp
-Boussole du nord vrai (Common): 120 sp
-Poudre de réveil (Common): 50 sp
-Mini-Potion de soin (Common): 100 sp
-
---- COMBAT ---
+--- COMBAT ET UTILITAIRES ---
 Armor of Vulnerability (Rare): 80 sp
-Wind Fan (Uncommon): 100 sp
 Berserker Axe (Rare): 190 sp
 Pipes of the Sewers (Uncommon): 220 sp
-Shield of Missile Attraction (Rare): 330 sp
+La Lame de la Vigie (Uncommon): 240 sp [Effet: Détection hostile | Aspect: Dague de type rondel avec garde gravée de runes]
+Boîte à musique enchantée (Common): 250 sp
 Wand of Enemy Detection (Rare): 380 sp
 Brooch of Shielding (Uncommon): 380 sp
+La Main du Clerc (Uncommon): 380 sp [Effet: Absorbe 10 pts/jour | Aspect: Gantelet articulé en cuir bouilli renforcé]
+Shield of Missile Attraction (Rare): 330 sp
+Le Pas du Pèlerin (Uncommon): 320 sp [Effet: -2 encombrement | Aspect: Bottines en cuir robuste avec semelles ferrées]
 Rope of Entanglement (Rare): 420 sp
+Le Chant de la Forge (Uncommon): 420 sp [Effet: Immunité feu | Aspect: Tablier de cuir épais teinté de reflets métalliques]
 Circlet of Blasting (Uncommon): 440 sp
 
 --- NON COMBAT ---
@@ -87,10 +81,64 @@ Gloves of Swimming and Climbing (Uncommon): 410 sp
 Necklace of Adaptation (Uncommon): 410 sp
 Eversmoking Bottle (Uncommon): 440 sp
 Gloves of Thievery (Uncommon): 440 sp
-Cape de séchage rapide (Common): 100 sp
-Boîte à musique enchantée (Common): 250 sp
-Tissu autonettoyant (Common): 70 sp
 
---- VARIANTS FAIBLES ---
-Healing Salve (N/A): 120 sp
-Minor Healing Potion (N/A): 200 sp
+--- PROJECTILES MAGIQUES (par unité) ---
+Arrows +1 / Bolts +1 / Slings +1 / Javelins +1: 11 sp
+Darts +1: 42 sp
+Arrows +2 / Bolts +2 / Slings +2 / Javelins +2: 40 sp
+Darts +2: 168 sp
+Arrows +3 / Bolts +3 / Slings +3 / Javelins +3 / Darts +3: 130 sp
+
+
+--- NOUVEAUX OBJETS MAGIQUES (XV SIÈCLE) ---
+
+1. Le Fil de l'Aube: 40 sp [Effet: Répare instantanément les accrocs | Aspect: Aiguille en acier bleui luisante]
+2. Le Soupir de la Mer: 60 sp [Effet: Libère un air marin rafraîchissant | Aspect: Fiole en verre soufflé de Murano]
+3. Le Verrou de la Nuit: 80 sp [Effet: Verrouille magiquement une porte 1h | Aspect: Clef en fer forgé ornée d'un croissant de lune]
+4. La Flamme du Veilleur: 100 sp [Effet: Lanterne sans huile | Aspect: Lanterne en corne de bœuf vieilli]
+5. Le Pacte de Sang: 120 sp [Effet: Encre indélébile luisante | Aspect: Dague en acier gravé servant de stylet]
+6. Le Murmure des Bois: 140 sp [Effet: Attire les petits animaux | Aspect: Sifflet sculpté dans un os de cerf]
+7. Le Pas du Voleur: 160 sp [Effet: Annule le bruit des pas | Aspect: Chaussons en feutre gris épais]
+8. L'Oeil de la Tempête: 180 sp [Effet: Indique le danger | Aspect: Boussole en laiton massif avec aiguille agitée]
+9. Le Bouclier de la Foi: 200 sp [Effet: +1 sauvegarde peur | Aspect: Médaillon d'étain frappé d'une croix]
+10. La Soif du Voyageur: 220 sp [Effet: Purifie l'eau | Aspect: Gourde en étain gravé de motifs aquatiques]
+11. La Lame de Justice: 240 sp [Effet: Vibre près d'un menteur | Aspect: Épée courte de ville au pommeau simple]
+12. Le Voile de Brume: 260 sp [Effet: Camouflage léger | Aspect: Cape en laine fine aux teintes grises]
+13. Le Chant de l'Acier: 280 sp [Effet: Aiguisage parfait | Aspect: Pierre à aiguiser luisante de reflets bleus]
+14. L'Écho des Montagnes: 300 sp [Effet: Son amplifié 2km | Aspect: Corne de chasse en corne polie]
+15. La Main de l'Artisan: 320 sp [Effet: Facilite les réparations | Aspect: Gants en cuir souple ajustés]
+16. Le Regard de l'Aigle: 340 sp [Effet: Vision nette 500m | Aspect: Monocle en cuivre avec lentille épaisse]
+17. Le Sceau du Roi: 360 sp [Effet: Impose le respect | Aspect: Anneau en bronze massif très large]
+18. Le Souffle du Dragon: 380 sp [Effet: Allume un feu sous pluie | Aspect: Briquet en fer avec étincelle persistante]
+19. Le Pas du Fugitif: 400 sp [Effet: Ne laisse aucune trace | Aspect: Bottines de cavalier à semelles cloutées]
+20. La Plume du Sage: 420 sp [Effet: Traduit le langage écrit | Aspect: Plume d'oie à la pointe dorée]
+21. Le Cœur de Pierre: 440 sp [Effet: Protège des chutes | Aspect: Galet lisse parfaitement équilibré]
+22. Le Miroir des Âmes: 440 sp [Effet: Révèle la fatigue | Aspect: Miroir de poche en argent terni]
+23. La Ceinture du Porte-Faix: 420 sp [Effet: +1 capacité encomb. | Aspect: Ceinture de cuir large avec boucle en fer]
+24. Le Sel de Vie: 400 sp [Effet: Conserve la nourriture | Aspect: Boîte en bois de cèdre sculpté]
+25. Le Pain du Partage: 380 sp [Effet: Produit du pain quotidien | Aspect: Sac en lin brodé de blé]
+26. La Lampe du Savant: 360 sp [Effet: Éclaire les textes anciens | Aspect: Bougie de cire longue et épaisse]
+27. L'Épingle de Sûreté: 340 sp [Effet: Ferme l'armure | Aspect: Broche en argent robuste]
+28. Le Peigne des Fées: 320 sp [Effet: Nettoie les cheveux | Aspect: Peigne en corne fine]
+29. Le Gant du Palefrenier: 300 sp [Effet: Calme les montures | Aspect: Gant en cuir rugueux et usé]
+30. Le Poids de l'Honneur: 280 sp [Effet: Ne peut être perdue | Aspect: Pièce en or martelé à la main]
+31. La Cloche de l'Aube: 260 sp [Effet: Réveil infaillible | Aspect: Clochette en bronze brillant]
+32. La Loupe du Botaniste: 240 sp [Effet: Identifie les plantes | Aspect: Loupe cerclée de cuir]
+33. Le Fil du Tisserand: 220 sp [Effet: Fil indestructible | Aspect: Bobine de fil robuste]
+34. Le Dé du Destin: 200 sp [Effet: Résultat pair uniquement | Aspect: Dé en os poli]
+35. La Clef de l'Honnêteté: 180 sp [Effet: Ouvre coffres non piégés | Aspect: Clef en laiton ancien]
+36. La Poudre de Silence: 160 sp [Effet: Absorbe tout bruit | Aspect: Sachet en velours sombre]
+37. L'Éventail de l'Été: 140 sp [Effet: Brise fraîche constante | Aspect: Éventail en soie fine]
+38. Le Flacon de Joie: 120 sp [Effet: Parfum apaisant | Aspect: Fiole en cristal taillé]
+39. La Bague de Mariage: 100 sp [Effet: Localise l'autre bague | Aspect: Anneau en fer forgé simple]
+40. Le Bouton Magique: 80 sp [Effet: S'attache à tout tissu | Aspect: Bouton en bois sculpté]
+41. La Plume du Poète: 60 sp [Effet: Écrit de la poésie | Aspect: Plume d'oie légère]
+42. La Cire de Scellement: 40 sp [Effet: Durcit comme le fer | Aspect: Bâton de cire rouge profond]
+43. Le Vernis du Protecteur: 380 sp [Effet: Anti-pourriture bois | Aspect: Pot en terre cuite sombre]
+44. La Pierre à aiguiser: 360 sp [Effet: Aiguise en 3 sec | Aspect: Pierre brute grisâtre]
+45. La Gourde du Désert: 340 sp [Effet: Ne se vide jamais | Aspect: Gourde en cuir épais]
+46. Le Miroir du Voyant: 320 sp [Effet: Reflète ce qui est derrière | Aspect: Miroir poli cerclé de fer]
+47. Le Sifflet du Berger: 300 sp [Effet: Regroupe animaux | Aspect: Sifflet en bois clair]
+48. La Corde du Marin: 280 sp [Effet: Solide comme chaîne | Aspect: Corde de chanvre tressée]
+49. Le Sac à Merveilles: 260 sp [Effet: Pèse moins que son contenu | Aspect: Sac en cuir souple]
+50. La Bougie de Vérité: 240 sp [Effet: Bleue près d'un mensonge | Aspect: Bougie de cire blanche pure]

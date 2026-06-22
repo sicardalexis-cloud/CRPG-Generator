@@ -64,7 +64,11 @@ def calculate_skill_modifier(
 # ====================== COMBAT FORMULAS ======================
 
 def cp(x: float) -> float:
-    """Combat Points non linéaire"""
+    """Combat Points non-linéaire (y) selon valeur brute (x):
+    Si x > 1 → y = x^1.4
+    Si x < 0 → y = - ( (-x)^0.7 )
+    Si x = 0 ou x = 1 → y = x
+    """
     if x > 1:
         return round(x ** 1.4, 2)
     elif x < 0:
@@ -76,35 +80,29 @@ def cp(x: float) -> float:
 def calculate_grappling(weight_score: float, build_score: float, balance: float, quickness: float) -> float:
     """Grappling - Simulation réaliste (poids très impactant)"""
     return math.floor(
-        weight_score  +      # Poids = facteur dominant (comme demandé)
-        build_score * 0.1 +          # Être trapu = gros avantage
-        balance /3 +              # Équilibre et contrôle postural
-        quickness /4               # Explosivité et réactivité
+        weight_score  +      
+        build_score * 0.1 +          
+        balance /3 +              
+        quickness /4               
     )
-
 
 
 def calculate_melee(weight_score: float, size_score: int, coordination: float, 
                    balance: float, quickness: float) -> float:
     """Melee - Variance augmentée pour se rapprocher de Grappling"""
     return math.floor(
-        weight_score / 2.0 +           # Force brute (base solide)
-        quickness / 3 +              # Vitesse d'exécution
-        coordination / 4 +           # Technique et précision
-        balance / 5.0 +                # Stabilité et puissance des coups
-        size_score * 0              # Allonge (bonus notable)
+        weight_score / 2.0 +           
+        quickness / 3 +              
+        coordination / 4 +           
+        balance / 5.0 +                
+        size_score * 0              
     )
 
 
-def calculate_fencing(size_score: int, weight_score: float, coordination: float, 
-                     quickness: float, balance: float) -> float:
-    """Fencing - Taille plus importante + bonne variance"""
+def calculate_fencing(quickness: float, coordination: float, balance: float) -> float:
+    """Fencing = floor( quickness/4 + Coordination/2 + Balance/3 )"""
     return math.floor(
-        size_score * 1 +           # ← Augmenté (allonge = très gros avantage)
-        coordination / 3 +          # Technique innée
-        quickness / 5 +             # Vitesse
-        balance / 4 +               # Footwork
-        weight_score *0            # Puissance brute (faible)
+        quickness / 4 + coordination / 2 + balance / 3
     )
 
 
@@ -112,19 +110,26 @@ def calculate_projectiles(precision: float, coordination: float, quickness: floa
     return math.floor(precision + coordination / 3 + quickness / 5)
 
 
+def calculate_reach(size_score: float | int) -> float:
+    """Reach = size score (raw)"""
+    return float(size_score)
+
+
 def calculate_combat_points(
     grappling: float,
     melee: float,
     projectiles: float,
     fencing: float,
+    reach: float = 0.0,
     racial_cp: float = 0.0
 ) -> float:
-    """Total Combat Points"""
+    """Total Combat Points = cp(Grappling) + cp(Melee) + cp(Projectiles) + cp(Fencing) + cp(Reach) + CP_racial"""
     total = (
         cp(grappling) +
         cp(melee) +
         cp(projectiles) +
         cp(fencing) +
+        cp(reach) +
         racial_cp
     )
     return round(total, 2)

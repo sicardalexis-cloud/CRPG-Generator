@@ -104,6 +104,7 @@ def generate_batch(
         "Melee", 
         "Projectiles", 
         "Fencing",
+        "Reach",
         "Skill_Modifier",
         
         # Physiques
@@ -181,6 +182,7 @@ def generate_batch(
                 "Melee": char["Melee"],
                 "Projectiles": char["Projectiles"],
                 "Fencing": char["Fencing"],
+                "Reach": char.get("Reach", ""),
                 "Skill_Modifier": char["Skill_Modifier"],
                 
                 "Height_cm": char["Height_cm"],

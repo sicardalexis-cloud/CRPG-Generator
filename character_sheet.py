@@ -9,10 +9,36 @@ def _load_icon_base64(icon_name: str) -> str:
     # Chemin relatif au fichier character_sheet.py
     base_dir = os.path.dirname(os.path.abspath(__file__))
     icon_path = os.path.join(base_dir, "assets", "icons", icon_name)
-    
+
+    candidates = [
+        icon_path,
+        os.path.join(os.getcwd(), "assets", "icons", icon_name),
+        os.path.abspath(os.path.join("assets", "icons", icon_name)),
+    ]
+    for cand in candidates:
+        if os.path.exists(cand):
+            icon_path = cand
+            break
+
     if not os.path.exists(icon_path):
-        print(f"⚠️ Icône non trouvée : {icon_path}")
-        return ""
+        # Auto-generate a simple reach icon if missing
+        if icon_name == 'reach.png':
+            try:
+                from PIL import Image, ImageDraw
+                size = 128
+                img = Image.new('RGBA', (size, size), (20, 15, 10, 255))
+                d = ImageDraw.Draw(img)
+                cy = size // 2
+                d.line([(8, cy), (size-28, cy)], fill=(235, 220, 188), width=8)
+                d.polygon([(size-28, cy-15), (size-2, cy), (size-28, cy+15)], fill=(250, 238, 205))
+                d.line([(24, cy-12), (24, cy+12)], fill=(235, 220, 188), width=5)
+                with open(icon_path, 'wb') as f:
+                    img.save(f, 'PNG')
+            except Exception:
+                pass
+        if not os.path.exists(icon_path):
+            print('WARNING: Icon not found :', icon_path)
+            return ""
     
     with open(icon_path, "rb") as f:
         encoded = base64.b64encode(f.read()).decode("utf-8")
@@ -65,6 +91,7 @@ def generate_character_sheet(character: dict, base_folder: str = "fiches"):
         "melee": _load_icon_base64("melee.png"),
         "fencing": _load_icon_base64("fencing.png"),
         "projectile": _load_icon_base64("projectile.png"),
+        "reach": _load_icon_base64("reach.png"),
     }
 
     try:

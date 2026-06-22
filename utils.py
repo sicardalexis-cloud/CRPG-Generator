@@ -38,6 +38,7 @@ from rules import (
     calculate_melee,
     calculate_fencing,
     calculate_projectiles,
+    calculate_reach,
     calculate_combat_points,
     determine_magic_type,
     calculate_skill_modifier,
@@ -484,12 +485,13 @@ def generate_character(char_id: str = "TEMP", level: int = 1):
     stealth = math.floor(- (weight_score / 2) + (balance * 0.8) + (coordination * 0.6))
 
     # ====================== COMBAT ======================
+    reach       = int(round(calculate_reach(size_score)))
     grappling   = calculate_grappling(weight_score, build_score, balance, quickness)
-    melee       = calculate_melee(weight_score, size_score, quickness, coordination, balance)
+    melee       = calculate_melee(weight_score, size_score, coordination, balance, quickness)
     projectiles = calculate_projectiles(precision, coordination, quickness)
-    fencing     = calculate_fencing(size_score, weight_score, quickness, coordination, balance)
+    fencing     = calculate_fencing(quickness, coordination, balance)
 
-    base_tcb = calculate_combat_points(grappling, melee, projectiles, fencing)
+    base_tcb = calculate_combat_points(grappling, melee, projectiles, fencing, reach)
     combat_points = round(base_tcb + data.get("cp", 0.0), 2)
 
     # ====================== MAGIC & SKILL MODIFIER ======================
@@ -791,6 +793,7 @@ def generate_character(char_id: str = "TEMP", level: int = 1):
         "Melee": melee,
         "Projectiles": projectiles,
         "Fencing": fencing,
+        "Reach": reach,
         "Combat_Points": combat_points,
 
         "Magic": "YES" if magic_info.get("magic") else "NO",

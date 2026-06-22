@@ -65,7 +65,7 @@ def generate_batch(
         "Outdoor_Skills", "Urban_Skills",
         "Knowledge", "Craft", "Literacy", "Spoken_Languages",
         "Combat_Points", "Magic", "Magic_Type", "Magic_Subtype", "Magic_And_Spells", "God",
-        "Grappling", "Melee", "Projectiles", "Fencing", "Skill_Modifier",
+        "Grappling", "Melee", "Projectiles", "Fencing", "Reach", "Skill_Modifier",
         "Height_cm", "Weight_kg", "Size_Score",
         "Balance", "Quickness", "Coordination", "Precision",
         "Endurance", "Vigilance", "Beauty", "Stealth", "Speed",
@@ -112,6 +112,7 @@ def generate_batch(
                 "Melee": char.get("Melee", ""),
                 "Projectiles": char.get("Projectiles", ""),
                 "Fencing": char.get("Fencing", ""),
+                "Reach": char.get("Reach", ""),
                 "Skill_Modifier": char.get("Skill_Modifier", ""),
                 
                 "Height_cm": char.get("Height_cm", ""),

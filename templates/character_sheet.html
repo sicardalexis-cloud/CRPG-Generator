@@ -109,7 +109,7 @@
 
         .combat-stat {
             text-align: center;
-            min-width: 132px;
+            min-width: 115px;   /* Reduced to fit 5 combat icons (incl. Reach) */
         }
 
         .icon-bg {
@@ -197,6 +197,14 @@
                         {% if icons.projectile %}
                             <img src="{{ icons.projectile }}" class="combat-icon-large">
                             <div class="combat-score-overlay">{{ character.Projectiles | default('?') }}</div>
+                        {% endif %}
+                    </div>
+                </div>
+                <div class="combat-stat">
+                    <div class="icon-bg">
+                        {% if icons.reach %}
+                            <img src="{{ icons.reach }}" class="combat-icon-large">
+                            <div class="combat-score-overlay">{{ character.Reach | default('?') }}</div>
                         {% endif %}
                     </div>
                 </div>

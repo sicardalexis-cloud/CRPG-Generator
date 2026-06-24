@@ -463,7 +463,7 @@ Name Max Joules Price Tech Grip Freq Enc Storage Mounted Protected Parts
 Spear 140 J 7 sp Tech 3 1 or 2 hands 9 3 shoulder No Cinetic: 12 Allonge (cm): 220 Poids (kg): 2.0
 Reinforced Spear 160 J 20 sp Tech 4 1 or 2 hands 7 3 shoulder No Cinetic: 15 Allonge (cm): 240 Poids (kg): 2.0
 Billhook 220 J 35 sp Tech 5 2 hands 7 4 shoulder No Cinetic: 21 Allonge (cm): 200 Poids (kg): 2.5
-**180 J** Pike 180 28 sp Tech 6 2 hands 8 5 shoulder No Cinetic: 17 Allonge (cm): 450 Poids (kg): 4.5
+**180 J** Pike 180 J 28 sp Tech 6 2 hands 8 5 shoulder No Cinetic: 17 Allonge (cm): 450 Poids (kg): 4.5
 Lance 180 J 42 sp Tech 4 2 hands 5 3 shoulder Yes - Cinetic: 17 Allonge (cm): 300 Poids (kg): 3.5
 Bill 230 J 55 sp Tech 5 2 hands 6 4 shoulder No Cinetic: 22 Allonge (cm): 200 Poids (kg): 2.8
 Guisarme 210 J 55 sp Tech 5 2 hands 4 4 shoulder No Cinetic: 20 Allonge (cm): 200 Poids (kg): 2.7

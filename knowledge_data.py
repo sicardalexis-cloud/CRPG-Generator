@@ -1459,13 +1459,10 @@ def _calculate_craft_count() -> int:
 
 
 def _calculate_know_count(outdoor_count: int, urban_count: int) -> int:
-    """Nombre de connaissances basé sur les compétences outdoor/urban"""
-    base = 2
-    if outdoor_count >= 4 or urban_count >= 3:
-        base += 1
-    if outdoor_count >= 5 or urban_count >= 4:
-        base += 1
-    return min(5, max(2, base))
+    """Nombre de compétences de connaissances = 8 - (outdoor + urban)"""
+    total_primary = outdoor_count + urban_count
+    know_count = 8 - total_primary
+    return max(0, min(8, know_count))
 
 
 def _calculate_literacy_count(know_count: int, settlement_type: str, ethnicity: str) -> int:
@@ -1526,7 +1523,7 @@ def generate_secondary_skills(
     ethnicity: str,
     region_id: int,
     settlement_type: str,
-    active_count: int = None   # gardé pour compatibilité
+    active_count: int = None   # gardé pour compatibilité (plus utilisé pour langues)
 ) -> Dict:
     """Génère les compétences secondaires"""
     
@@ -1543,10 +1540,12 @@ def generate_secondary_skills(
     region_name = _get_region_name(region_id)
 
     # Générer les langues parlées en avance (pour contraindre les langues écrites)
+    # Nombre de langues bonus = floor( know_count / 2 )
+    lang_bonus = know_count // 2
     spoken_languages = generate_languages(
         ethnicity=ethnicity,
         region_id=region_id,
-        skill_modifier=(active_count or 0) * 2
+        skill_modifier = lang_bonus * 5   # so that //5 gives lang_bonus
     )
 
     # ====================== 1. CRAFTS ======================

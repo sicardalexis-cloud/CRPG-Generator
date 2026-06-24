@@ -105,11 +105,11 @@ ethnicity_weights = {
 
 # ====================== PONDERATION DES GRANDES CATÉGORIES ======================
 category_weights = {
-    "Human":      80,
+    "Human":      78,
     "Dwarf":      7.5,
-    "Elf":        3.0,
+    "Elf":        4.0,
     "Half-elf":   4.0,
-    "Halfling":   2.0,
+    "Halfling":   3.0,
     "Gnome":      1.2,
     "Half-orc":   1.3,
     "Other":      1.0

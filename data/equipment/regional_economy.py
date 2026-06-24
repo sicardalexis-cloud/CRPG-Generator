@@ -5,10 +5,10 @@ Système économique régional pour le calcul des salaires médians et du capita
 
 RÈGLES (cohérentes avec les fichiers DAILY WAGES & WORTH CHART + listes d'équipement) :
 - Salaire médian défini manuellement par région (pas de "niveaux techno" purs, Faerûn est hybride).
-- Capital de départ = **2,5 ans de salaire médian local × niveau du personnage**.
+- Capital de départ = **5 ans de salaire médian local × niveau du personnage** (doublé par rapport à la version précédente).
 - Le kit de base régional (équipement porté + 14 jours de rations) est **fourni gratuitement** à la création.
 - TOUT est calculé en bronze pieces (bp) Rolemaster pour les kits, mais le capital final est exprimé en **pièces d'argent (sp)**.
-- Équivalent d'une règle « X pièces d'argent par niveau » (base ~125 sp pour un perso moyen de niveau 1 avec 2,5 ans).
+- Équivalent d'une règle « X pièces d'argent par niveau » (base ~250 sp pour un perso moyen de niveau 1 avec 5 ans).
 
 Le capital représente l'argent liquide + la capacité à faire des achats supplémentaires
 (montures, charettes, armure supérieure, etc.) avant de quitter son lieu d'origine.
@@ -279,18 +279,18 @@ REGION_TECH_LEVEL: Dict[str, int] = {
 CAPITAL_BP_MULTIPLIER = 40.0
 
 # Nombre d'années de salaire qui constituent le capital de départ d'un personnage
-STARTING_CAPITAL_YEARS = 2.5
+STARTING_CAPITAL_YEARS = 5.0
 
 # =============================================================================
 # CAPITAL DE DÉPART : PIÈCES D'ARGENT PAR NIVEAU
 # =============================================================================
-# Le capital de base (2,5 ans de salaire médian local) représente le montant
-# "normal" pour un personnage de niveau 1.
+# Le capital de base (5 ans de salaire médian local) représente le montant
+# "normal" pour un personnage de niveau 1 (doublé par rapport à la version 2.5 ans).
 # Pour un personnage de niveau N, on multiplie par le niveau.
 #
-# Avec 2,5 ans, la cible médiane pour un perso moyen de niveau 1 est
-# autour de 125 sp (50 sp × 2,5).
-BASE_SILVER_PIECES_PER_LEVEL = 125  # mis à jour pour 2,5 ans de salaire
+# Avec 5 ans, la cible médiane pour un perso moyen de niveau 1 est
+# autour de 250 sp.
+BASE_SILVER_PIECES_PER_LEVEL = 250  # mis à jour pour 5 ans de salaire (doublé)
 
 
 def get_median_daily_wage(region_name: str, settlement_type: str) -> float:
@@ -323,18 +323,18 @@ def calculate_starting_capital(
     """
     Calcule le capital de départ d'un personnage en **pièces d'argent (sp)**.
 
-    Règle : 2,5 ans de salaire médian local × niveau du personnage.
+    Règle : 5 ans de salaire médian local × niveau du personnage (doublé).
     Le kit de base régional est fourni gratuitement (ne réduit pas ce capital).
 
     C'est l'équivalent d'une règle "X pièces d'argent par niveau", où X
-    dépend de la région + du type de settlement (autour de 125 sp pour un
-    personnage "moyen" de niveau 1 avec 2,5 ans).
+    dépend de la région + du type de settlement (autour de 250 sp pour un
+    personnage "moyen" de niveau 1 avec 5 ans).
     """
     daily_wage = get_median_daily_wage(region_name, settlement_type)
 
-    # 2,5 ans de salaire local = base pour un perso de niveau 1
+    # 5 ans de salaire local = base pour un perso de niveau 1
     DAYS_PER_YEAR = 300
-    base_for_level_1 = daily_wage * DAYS_PER_YEAR * STARTING_CAPITAL_YEARS
+    base_for_level_1 = daily_wage * DAYS_PER_YEAR * STARTING_CAPITAL_YEARS * 1.5 + 200
 
     capital = base_for_level_1 * max(1, level)
 
@@ -357,8 +357,8 @@ def get_economic_summary(region_name: str, settlement_type: str, level: int = 1)
         "median_daily_wage_abstract": daily_abstract,
         "median_daily_wage_bp": daily_bp,
         "estimated_annual_wage_sp": round(daily_abstract * 300),  # 1 an en unités "sp-like"
-        "target_starting_capital_sp": capital,  # 2,5 ans × niveau
-        "base_sp_per_level": BASE_SILVER_PIECES_PER_LEVEL,  # cible pour 2,5 ans (~125 sp)
+        "target_starting_capital_sp": capital,  # 5 ans × niveau
+        "base_sp_per_level": BASE_SILVER_PIECES_PER_LEVEL,  # cible pour 5 ans (~250 sp)
     }
 
 
@@ -422,7 +422,7 @@ if __name__ == "__main__":
         print(f"Région      : {region}")
         print(f"Settlement  : {settlement}")
         print(f"Salaire/jour : {summary['median_daily_wage_abstract']:.3f} (abstract)  |  {summary['median_daily_wage_bp']:.1f} bp")
-        print(f"Capital niveau {lvl} (2,5 ans × niveau, sans variance) : {capital} sp")
+        print(f"Capital niveau {lvl} (5 ans × niveau, sans variance) : {capital} sp")
         print(f"Kit régional (gratuit) : {check['kit_cost_bp']} bp")
         print(f"Capital restant (sp) : {capital} sp")
         print("-" * 60)
@@ -466,7 +466,7 @@ def get_theoretical_max_starting_capital(level: int = 1) -> int:
     - Le salaire journalier le plus élevé (Lantan = 0.64)
     - Le multiplicateur de settlement le plus élevé (Metropolis = 1.55)
     - 300 jours
-    - STARTING_CAPITAL_YEARS (actuellement 2.5)
+    - STARTING_CAPITAL_YEARS (actuellement 5.0)
     - Variance maximale (+20%)
     """
     max_daily = max(REGION_MEDIAN_DAILY_WAGE_GP.values())
@@ -506,7 +506,7 @@ if __name__ == "__main__":
         print(f"Région      : {region}")
         print(f"Settlement  : {settlement}")
         print(f"Salaire/jour : {summary['median_daily_wage_abstract']:.3f} (abstract)  |  {summary['median_daily_wage_bp']:.1f} bp")
-        print(f"Capital niveau {lvl} (2,5 ans × niveau, sans variance) : {capital} sp")
+        print(f"Capital niveau {lvl} (5 ans × niveau, sans variance) : {capital} sp")
         print(f"Kit régional (gratuit) : {check['kit_cost_bp']} bp")
         print(f"Capital restant (sp) : {capital} sp")
         print("-" * 60)
@@ -525,5 +525,5 @@ if __name__ == "__main__":
     print(f"  Niveau 1 : {max_theo} sp")
     print(f"  Niveau N : {max_theo} × N sp")
     print()
-    print("Le système est calibré pour une médiane autour de ~125 sp au niveau 1 (2,5 ans de salaire).")
-    print("(BASE_SILVER_PIECES_PER_LEVEL = 125)")
+    print("Le système est calibré pour une médiane autour de ~250 sp au niveau 1 (5 ans de salaire).")
+    print("(BASE_SILVER_PIECES_PER_LEVEL = 250)")

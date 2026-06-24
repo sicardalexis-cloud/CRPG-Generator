@@ -215,16 +215,19 @@
         <div class="section">
             <div class="grid">
                 <div><span class="label">Balance :</span> {{ character.Balance }}</div>
-                <div><span class="label">Quickness :</span> {{ character.Quickness }}</div>
-                <div><span class="label">Coordination :</span> {{ character.Coordination }}</div>
-                <div><span class="label">Precision :</span> {{ character.Precision }}</div>
-                <div><span class="label">Endurance :</span> {{ character.Endurance }}</div>
-                <div style="font-weight: bold;"><span class="label">Vigilance :</span> {{ character.Vigilance }}</div>
                 <div><span class="label">Beauty :</span> {{ character.Beauty }}</div>
-                <div style="font-weight: bold;"><span class="label">Speed :</span> {{ character.Speed }}</div>
-                <div><span class="label">Dodge :</span> {{ character.Dodge }}</div>
-                <div style="font-weight: bold;"><span class="label">Stealth :</span> {{ character.Stealth }}</div>
+                <div style="font-weight: bold;"><span class="label">Build Score :</span> {{ character.Build_Score }}</div>
                 <div><span class="label">Climbing :</span> {{ character.Climbing }}</div>
+                <div><span class="label">Coordination :</span> {{ character.Coordination }}</div>
+                <div><span class="label">Dodge :</span> {{ character.Dodge }}</div>
+                <div><span class="label">Endurance :</span> {{ character.Endurance }}</div>
+                <div><span class="label">Precision :</span> {{ character.Precision }}</div>
+                <div><span class="label">Quickness :</span> {{ character.Quickness }}</div>
+                <div><span class="label">Regeneration :</span> {{ character.Regeneration }}</div>
+                <div style="font-weight: bold;"><span class="label">Speed :</span> {{ character.Speed }}</div>
+                <div style="font-weight: bold;"><span class="label">Stealth :</span> {{ character.Stealth }}</div>
+                <div style="font-weight: bold;"><span class="label">Vigilance :</span> {{ character.Vigilance }}</div>
+                <div style="font-weight: bold;"><span class="label">Weight Score :</span> {{ character.Weight_Score }}</div>
             </div>
         </div>
 
@@ -267,6 +270,10 @@
                 <strong>magic items :</strong> {{ character.Starting_Magic_Items | join(" | ") }}
             </p>
             {% endif %}
+
+            <p style="margin-top: 10px; font-size: 1.0em;">
+                <strong>capital:</strong> {{ character.Remaining_Capital_Sp | default(0) }} sp
+            </p>
         </div>
         {% endif %}
 

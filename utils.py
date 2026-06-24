@@ -309,6 +309,10 @@ def _is_magic_item_allowed_for_kit(item: dict, kit: dict | None) -> bool:
 
 
 # ====================== STARTING MAGIC ITEMS ======================
+
+# Magic item budget for starting characters
+# Formula: max(0, (MAGIC_BUDGET_PIVOT - starting_capital) // 2)
+MAGIC_BUDGET_PIVOT = 1800
 def _load_starting_magic_items() -> list[dict]:
     """Parse the starting magic items list. Returns [{'name': str, 'price': int}, ...]"""
     from pathlib import Path
@@ -337,47 +341,27 @@ def _load_starting_magic_items() -> list[dict]:
     return items
 
 
-def _get_rarity_weight(name: str) -> float:
-    """Return a selection weight based on rarity.
-    Common items are heavily favored over Rare / Very Rare / Legendary.
-    """
-    n = name.lower()
-    if "(common)" in n or "(n/a)" in n:
-        return 12.0
-    if "(uncommon)" in n:
-        return 6.0
-    if "(rare)" in n:
-        return 2.2
-    if "(very rare)" in n:
-        return 0.7
-    if "(legendary)" in n:
-        return 0.2
-    return 6.0  # unknown → treat as uncommon
-
-
 def _select_starting_magic_items(budget: int, kit: dict | None = None) -> list[dict]:
     """
-    Weighted-by-rarity selection of starting magic items.
+    Selection of starting magic items by repeatedly picking from the 10 most expensive
+    affordable items.
 
-    1. Budget = max(0, (900 - starting_capital) // 2)
+    Algorithm:
+    1. Budget = max(0, (MAGIC_BUDGET_PIVOT - starting_capital) // 2)
+       (MAGIC_BUDGET_PIVOT = 1800)
     2. Filter items affordable with current budget.
-    3. NEW: If a kit is provided, filter the affordable pool using kit-aware rules
-       for the per-piece magic light projectiles (see _is_magic_item_allowed_for_kit):
-         - No ranged weapons in kit → only magic sling bullets, darts, javelins.
-         - Has ranged weapon(s) → only the matching ammo type(s) for the weapon(s) present.
-       All other magic items (potions, wands, generic ammunition packs, etc.) are unaffected.
-    4. While there are still affordable items and budget left:
-         - Perform a *weighted* random choice using _get_rarity_weight
-           (Common items have much higher weight than Rare/Very Rare/Legendary).
-         - If the chosen item fits in the remaining budget, take it.
-         - In all cases, remove the considered item from the pool
-           (this prevents repeatedly trying an expensive Rare that no
-           longer fits and gives other items a chance).
-    5. Stop when no more items can be picked.
+    3. If a kit is provided, apply kit-aware filtering for magic projectiles.
+    4. While budget remains and items can still be afforded:
+         - Identify all items that fit in the *current remaining* budget.
+         - Sort them by price (most expensive first).
+         - Take the top 10 (or fewer if less than 10 fit).
+         - Randomly pick *one* from these top 10.
+         - If it still fits (it should), add it and subtract its price.
+         - Remove the chosen item from the pool.
+    5. Stop when no more items can be purchased with remaining budget.
 
-    Result: Common items are selected far more often than Rare ones.
-    "Chime of Opening (Rare)" and other high-rarity utility items will
-    appear significantly less frequently than with pure random shuffle.
+    This produces fewer but generally higher-value / more expensive magic items
+    compared to the previous weighted-random approach.
     """
     if budget <= 0:
         return []
@@ -394,17 +378,24 @@ def _select_starting_magic_items(budget: int, kit: dict | None = None) -> list[d
     selected = []
     remaining = budget
 
-    while affordable and remaining > 0:
-        weights = [_get_rarity_weight(it["name"]) for it in affordable]
-        # random.choices supports weights and returns a list of length k
-        chosen_list = random.choices(affordable, weights=weights, k=1)
-        chosen = chosen_list[0]
+    while True:
+        # Items we can currently afford with remaining budget
+        can_afford = [it for it in affordable if it["price"] <= remaining]
+        if not can_afford:
+            break
+
+        # Sort by descending price and take the 10 most expensive
+        can_afford_sorted = sorted(can_afford, key=lambda x: x["price"], reverse=True)
+        top_10 = can_afford_sorted[:10]
+
+        # Pick one at random from the top 10
+        chosen = random.choice(top_10)
 
         if chosen["price"] <= remaining:
             selected.append(chosen)
             remaining -= chosen["price"]
 
-        # Always remove the considered item so we don't loop on unaffordable Rares
+        # Remove from pool so we don't consider it again
         affordable.remove(chosen)
 
     return selected
@@ -453,7 +444,7 @@ def generate_character(char_id: str = "TEMP", level: int = 1):
     equipment_group = post_kit.get_equipment_group_for_region(region_name)
 
     # ====================== ATTRIBUTES (moved up for new equipment protocol using Melee/Projectiles) ======================
-    weight_score = math.floor(roll_12d6() / 2) - 21 + data.get("w", 0)
+    weight_score = roll_6d6() - 21 + data.get("w", 0)
     build_score  = roll_6d6() - 21 + data.get("b", 0)
 
     balance      = roll_6d6() - 21 + data.get("bal", 0)
@@ -489,9 +480,9 @@ def generate_character(char_id: str = "TEMP", level: int = 1):
     grappling   = calculate_grappling(weight_score, build_score, balance, quickness)
     melee       = calculate_melee(weight_score, size_score, coordination, balance, quickness)
     projectiles = calculate_projectiles(precision, coordination, quickness)
-    fencing     = calculate_fencing(quickness, coordination, balance)
+    fencing     = calculate_fencing(quickness, coordination, balance, size_score)
 
-    base_tcb = calculate_combat_points(grappling, melee, projectiles, fencing, reach)
+    base_tcb = calculate_combat_points(grappling, melee, projectiles, fencing)
     combat_points = round(base_tcb + data.get("cp", 0.0), 2)
 
     # ====================== MAGIC & SKILL MODIFIER ======================
@@ -564,7 +555,7 @@ def generate_character(char_id: str = "TEMP", level: int = 1):
     )
 
     # ====================== STARTING CAPITAL (pièces d'argent par niveau de personnage) ======================
-    # - Base: ~125 sp par niveau (2.5 ans de salaire local, ajusté par région + settlement).
+    # - Base: ~250 sp par niveau (5 ans de salaire local, ajusté par région + settlement). [doublé]
     # - Free universal survival kit (always given, cost 0 to capital).
     # - Smart kit selection:
     #     * If Projectiles > Melee + 3 → prioritize kit with projectile weapon.
@@ -579,25 +570,22 @@ def generate_character(char_id: str = "TEMP", level: int = 1):
     )
 
     # ====================== STARTING MAGIC OBJECTS ======================
-    # Budget = max(0, (900 - starting_capital) // 2) sp
+    # Budget for starting magic items = max(0, (MAGIC_BUDGET_PIVOT - starting_capital) // 2) sp
+    # (Pivot à 1800 pour compenser le capital doublé à 5 ans de salaire)
     #
     # Selection protocol (see _select_starting_magic_items for the code):
-    #   1. Compute budget from (900 - capital) / 2
+    #   1. Compute budget from (MAGIC_BUDGET_PIVOT - capital) / 2
     #   2. Keep only items whose price <= budget ("affordable" pool)
-    #   3. Shuffle the affordable pool in random order
-    #   4. Walk the shuffled list and greedily add an item if it still fits
-    #      in the remaining budget.
+    #   3. Repeatedly:
+    #        - Among items that fit in the *current remaining* budget,
+    #          take the 10 most expensive (or all if fewer than 10).
+    #        - Randomly select one of them.
+    #        - Buy it if possible and subtract its price.
+    #        - Remove it from consideration.
+    #   4. Stop when no more items can be afforded.
     #
-    # This produces a variable number of items whose total price <= budget.
-    # It often results in 1 relatively expensive "notable" item + several
-    # cheap fillers (because of the random shuffle + greedy fill).
-    #
-    # This is why you frequently see "Chime of Opening (Rare)" (280 sp):
-    # - It is one of the more expensive single items in the list.
-    # - For many characters the budget is >= 280 sp (starting capital <= ~620 sp).
-    # - Once it is in the affordable pool, the random permutation gives it
-    #   a fair chance to be taken early enough that the remaining budget
-    #   still allows other cheap items.
+    # This tends to produce fewer but more expensive / higher-impact
+    # magic items rather than many cheap ones.
     #
     # The selected items are stored in:
     #   - character["Starting_Magic_Items"]   (list of formatted strings)
@@ -608,7 +596,7 @@ def generate_character(char_id: str = "TEMP", level: int = 1):
     # IMPORTANT: actual selection (with kit-aware filtering of magic projectiles)
     # is performed AFTER kit choice, so we know what ranged weapons (if any) the
     # character has. See the block after kit processing + _is_magic_item_allowed_for_kit.
-    magic_budget = max(0, (900 - starting_capital) // 2)
+    magic_budget = max(0, (MAGIC_BUDGET_PIVOT - starting_capital) // 2)
     starting_magic_items: list[dict] = []   # filled after kit selection below
 
     # Free survival kit (always; does not reduce the starting capital)
@@ -702,7 +690,7 @@ def generate_character(char_id: str = "TEMP", level: int = 1):
         armor_cost_bp = round(kit_spent_sp * 10, 1)
         mount_cost_bp = 0.0  # cost already inside the single kit price
     else:
-        # Capital below cheapest kit (28sp) - very rare with 7yr model
+        # Capital below cheapest kit (very low capital case)
         chosen_weapon_kit = {"name": "Aucun (capital < kit le moins cher)"}
         chosen_armor_set = {"name": "Aucune"}
         chosen_mount = None
@@ -842,6 +830,7 @@ def generate_character(char_id: str = "TEMP", level: int = 1):
         "Remaining_Equipment_Purchases": (chosen_kit["items"] if chosen_kit else []) or [p["name"] for p in post_purchases.get("purchases", [])],
         "Remaining_Equipment_Spent_BP": round(kit_spent_sp * 10, 1) if chosen_kit else post_purchases.get("total_spent_bp", 0),
         "Final_Pocket_Money_BP": post_purchases.get("final_remaining_bp", max(0, int(round(remaining_after_phases * 10)))),
+        "Remaining_Capital_Sp": int(round( (post_purchases.get("final_remaining_bp", max(0, int(round(remaining_after_phases * 10)))) ) / 10 )),
         "Has_Mount": bool(chosen_mount),
 
         # === 100 kits XV siecle Cote des Epees EN + free survival kit only ===

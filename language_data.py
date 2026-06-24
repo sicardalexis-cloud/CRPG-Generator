@@ -541,7 +541,7 @@ def generate_languages(
         languages.add(regional_lang)
 
     # 3. Langues bonus
-    bonus_count = max(1, skill_modifier // 5)   # plus généreux
+    bonus_count = skill_modifier // 5  # = floor( know_count / 2 ) via caller
 
     eth_bonus = ethnicity_bonus_languages.get(ethnicity, ethnicity_bonus_languages["Default"])
     reg_bonus = region_bonus_languages.get(region_id, region_bonus_languages[0])

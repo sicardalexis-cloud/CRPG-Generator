@@ -78,6 +78,10 @@ def generate_character_sheet(character: dict, base_folder: str = "fiches"):
     if not character.get("Generation_Date"):
         character["Generation_Date"] = datetime.now().strftime("%Y-%m-%d")
 
+    # Compute remaining capital in sp (after kit and purchases)
+    pocket_bp = character.get("Final_Pocket_Money_BP", 0) or 0
+    character["Remaining_Capital_Sp"] = int(round(pocket_bp / 10))
+
     # ====================== TEMPLATE ======================
     template_path = os.path.join("templates", "character_sheet.html")
     

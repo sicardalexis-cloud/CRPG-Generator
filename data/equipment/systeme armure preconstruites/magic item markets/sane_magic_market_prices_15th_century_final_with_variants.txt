@@ -16,277 +16,568 @@ CATEGORIES:
 - Consumables, Combat Items, Noncombat Items, Summoning Items, Gamechanging Items
 - WEAKER VARIANTS (new section at the end)
 
-=======================================================
-CONSUMABLES (sorted by price)
-=======================================================
-Potion of Poison (Uncommon) - 4 gp
-Philter of Love (Uncommon) - 4 gp
-Potion of Animal Friendship (Uncommon) - 5 gp
-Potion of Water Breathing (Uncommon) - 8 gp
-Potion of Climbing (Common) - 8 gp
-Potion of Diminution (Rare) - 10 gp
-Ammunition +1 (10x) (Uncommon) - 11 gp
-Potion of Growth (Uncommon) - 12 gp
-Potion of Mind Reading (Rare) - 15 gp
-Dust of Dryness (Uncommon) - 15 gp
-Oil of Slipperiness (Uncommon) - 16 gp
-Potion of Invisibility (Rare) - 18 gp
-Potion of Gaseous Form (Rare) - 21 gp
-Potion of Clairvoyance (Rare) - 21 gp
-Dust of Disappearance (Uncommon) - 23 gp
-Dust of Sneezing and Choking (Uncommon) - 27 gp
-Potion of Heroism (Rare) - 27 gp
-Chime of Opening (Rare) - 28 gp
-Universal Solvent (Legendary) - 31 gp
-Bead of Nourishment (Common) - 3 gp
-Ammunition +2 (10x) (Rare) - 40 gp
-Potion of Healing (Common) - 45 gp
-Potion of Superior Healing (Rare) - 53 gp
-Potion of Supreme Healing (Very Rare) - 55 gp
-Potion of Flying (Very Rare) - 58 gp
-Potion of Speed (Very Rare) - 66 gp
-Oil of Etherealness (Rare) - 68 gp
-Gem of Brightness (Uncommon) - 81 gp
-Robe of Useful Items (Uncommon) - 83 gp
-Marvelous Pigments (Very Rare) - 94 gp
-Deck of Illusions (Unknown) - 110 gp
-Bead of Force (Rare) - 120 gp
-Potion of Greater Healing (Uncommon) - 120 gp
-Ammunition +3 (10x) (Very Rare) - 130 gp
-Bag of Beans (Rare) - 140 gp
-Horn of Blasting (Rare) - 150 gp
-Ammunition of Slaying (10x) (Very Rare) - 160 gp
-Elixir of Health (Rare) - 180 gp
-Potion of Invulnerability (Rare) - 190 gp
-Necklace of Fireballs (Rare) - 230 gp
-Oil of Sharpness (Very Rare) - 320 gp
-Sovereign Glue (Legendary) - 330 gp
-Potion of Vitality (Very Rare) - 350 gp
-Candle of Invocation (Very Rare) - 820 gp
-Manual of Golems (Very Rare) - 4,000 gp
-Rod of Absorption (Very Rare) - 2,500 gp
-Manual of Bodily Health (Very Rare) - 2,500 gp
-Manual of Gainful Exercise (Very Rare) - 2,800 gp
-Tome of Clear Thought (Very Rare) - 3,000 gp
-Tome of Leadership and Influence (Very Rare) - 3,200 gp
-Manual of Quickness of Action (Very Rare) - 3,600 gp
-Tome of Understanding (Very Rare) - 4,200 gp
-Talisman of Ultimate Evil (Legendary) - 4,600 gp
-Talisman of Pure Good (Legendary) - 4,900 gp
+SANE MAGIC MARKET : PRIX 2024 (Version XVe siècle adaptée) : TOUT EN SP
+===================================================================================
+Source : Sane Magic Market (D&D 2024)
+Généré : Juin 2026
 
 =======================================================
-COMBAT ITEMS (sorted by price)
+CONSUMABLES
 =======================================================
-Armor of Vulnerability (Rare) - 8 gp
-Wind Fan (Uncommon) - 10 gp
-Berserker Axe (Rare) - 19 gp
-Pipes of the Sewers (Uncommon) - 22 gp
-Shield of Missile Attraction (Rare) - 33 gp
-Wand of Enemy Detection (Rare) - 38 gp
-Brooch of Shielding (Uncommon) - 38 gp
-Rope of Entanglement (Rare) - 42 gp
-Circlet of Blasting (Uncommon) - 44 gp
-Weapon +1 (Uncommon) - 50 gp
-Gloves of Missile Snaring (Uncommon) - 55 gp
-Ring of the Ram (Rare) - 59 gp
-Pipes of Haunting (Uncommon) - 63 gp
-Staff of Withering (Rare) - 64 gp
-Giant Slayer (Rare) - 68 gp
-Shield +1 (Uncommon) - 68 gp
-Mace of Smiting (Rare) - 73 gp
-Glamoured Studded Leather (Rare) - 74 gp
-Demon Armor (Very Rare) - 90 gp
-Mithral Armor (Uncommon) - 96 gp
-Dagger of Venom (Rare) - 97 gp
-Wand of Magic Missiles (Uncommon) - 98 gp
-Wand of Web (Uncommon) - 100 gp
-Javelin of Lightning (Uncommon) - 100 gp
-Sword of Life Stealing (Rare) - 110 gp
-Sword of Sharpness (Very Rare) - 120 gp
-Adamantine Armor (Uncommon) - 130 gp
-Armor +1 (Rare) - 130 gp
-Bracers of Archery (Uncommon) - 130 gp
-Ring of Evasion (Rare) - 140 gp
-Arrow-Catching Shield (Rare) - 140 gp
-Sentinel Shield (Uncommon) - 140 gp
-Dragon Slayer (Rare) - 140 gp
-Boots of Speed (Rare) - 170 gp
-Wand of Fear (Rare) - 170 gp
-Periapt of Wound Closure (Uncommon) - 170 gp
-Mace of Disruption (Rare) - 170 gp
-Robe of Scintillating Colors (Very Rare) - 180 gp
-Pearl of Power (Uncommon) - 180 gp
-Frost Brand (Very Rare) - 190 gp
-Elven Chain (Rare) - 190 gp
-Armor of Resistance (Rare) - 210 gp
-Staff of Charming (Rare) - 210 gp
-Staff of Swarming Insects (Rare) - 220 gp
-Iron Bands (Rare) - 220 gp
-Bracers of Defense (Rare) - 230 gp
-Stone of Good Luck (Luckstone) (Uncommon) - 250 gp
-Quarterstaff of the Acrobat (Very Rare) - 260 gp
-Mace of Terror (Rare) - 280 gp
-Weapon of Warning (Uncommon) - 280 gp
-Weapon +2 (Rare) - 300 gp
-Mantle of Spell Resistance (Rare) - 300 gp
-Ring of Free Action (Rare) - 300 gp
-Ring of Protection (Rare) - 310 gp
-Dancing Sword (Very Rare) - 320 gp
-Animated Shield (Very Rare) - 320 gp
-Cloak of Protection (Uncommon) - 360 gp
-Ring of Shooting Stars (Very Rare) - 380 gp
-Flame Tongue (Rare) - 380 gp
-Headband of Intellect (Uncommon) - 390 gp
-Dragon Scale Mail (Very Rare) - 410 gp
-Wand of Binding (Rare) - 420 gp
-Sword of Wounding (Rare) - 420 gp
-Wand of Lightning Bolts (Rare) - 470 gp
-Spellguard Shield (Very Rare) - 480 gp
-Staff of Healing (Rare) - 500 gp
-Wand of Fireballs (Rare) - 500 gp
-Gauntlets of Ogre Power (Uncommon) - 520 gp
-Shield +2 (Rare) - 540 gp
-Oathbow (Very Rare) - 540 gp
-Wand of Paralysis (Rare) - 570 gp
-Staff of Fire (Very Rare) - 600 gp
-Rod of Alertness (Very Rare) - 630 gp
-Amulet of Health (Rare) - 640 gp
-Necklace of Prayer Beads (Rare) - 730 gp
-Belt of Dwarvenkind (Rare) - 730 gp
-Vicious Weapon (Rare) - 790 gp
-Dwarven Plate (Very Rare) - 800 gp
-Scimitar of Speed (Very Rare) - 840 gp
-Staff of Frost (Very Rare) - 880 gp
-Staff of the Woodlands (Rare) - 910 gp
-Nine Lives Stealer (Very Rare) - 930 gp
-Cloak of Displacement (Rare) - 1,000 gp
-Armor +2 (Very Rare) - 1,000 gp
-Scarab of Protection (Legendary) - 1,000 gp
-Shield of the Cavalier (Very Rare) - 1,100 gp
-Sun Blade (Rare) - 1,200 gp
-Staff of Thunder and Lightning (Very Rare) - 1,300 gp
-Energy Bow (Very Rare) - 1,400 gp
-Helm of Brilliance (Very Rare) - 1,400 gp
-Weapon +3 (Very Rare) - 1,500 gp
-Hammer of Thunderbolts (Legendary) - 1,600 gp
-Thunderous Greatclub (Very Rare) - 1,800 gp
-Wand of Polymorph (Very Rare) - 2,200 gp
-Ring of Spell Storing (Rare) - 2,300 gp
-Robe of Stars (Very Rare) - 2,600 gp
-Shield +3 (Very Rare) - 2,800 gp
-Dwarven Thrower (Very Rare) - 3,700 gp
-Vorpal Sword (Legendary) - 4,400 gp
-Ring of Spell Turning (Legendary) - 4,800 gp
-Rod of Lordly Might (Legendary) - 10,000 gp
-Robe of the Archmagi (Legendary) - 13,000 gp
-Staff of Power (Very Rare) - 13,000 gp
-Holy Avenger (Legendary) - 15,000 gp
-Staff of the Magi (Legendary) - 35,000 gp
+Bead of Nourishment (Common) : 30 sp
+Potion of Poison (Uncommon) : 400 sp
+Potion of Healing (Common) : 500 sp
+Potion of Animal Friendship (Uncommon) : 500 sp
+Philter of Love (Uncommon) : 550 sp
+Potion of Climbing (Common) : 800 sp
+Potion of Water Breathing (Uncommon) : 800 sp
+Potion of Diminution (Rare) : 850 sp
+Ammunition +1 (1x) (Uncommon) : 10 sp
+Potion of Growth (Uncommon) : 1 200 sp
+Potion of Greater Healing (Uncommon) : 1 400 sp
+Dust of Dryness (Uncommon) : 1 500 sp
+Potion of Mind Reading (Rare) : 1 500 sp
+Oil of Slipperiness (Uncommon) : 1 600 sp
+Elixir of Health (Rare) : 1 800 sp
+Potion of Invisibility (Rare) : 1 800 sp
+Potion of Gaseous Form (Rare) : 2 000 sp
+Potion of Clairvoyance (Rare) : 2 200 sp
+Dust of Disappearance (Uncommon) : 2 500 sp
+Potion of Heroism (Rare) : 2 600 sp
+Dust of Sneezing and Choking (Uncommon) : 2 600 sp
+Chime of Opening (Rare) : 2 600 sp
+Universal Solvent (Legendary) : 3 200 sp
+Ammunition +2 (1x) (Rare) : 36 sp
+Potion of Flying (Very Rare) : 4 700 sp
+Potion of Supreme Healing (Very Rare) : 4 900 sp
+Potion of Superior Healing (Rare) : 5 000 sp
+Potion of Vitality (Very Rare) : 5 100 sp
+Potion of Speed (Very Rare) : 5 600 sp
+Marvelous Pigments (Very Rare) : 7 200 sp
+Oil of Etherealness (Rare) : 7 900 sp
+Robe of Useful Items (Uncommon) : 8 700 sp
+Gem of Brightness (Uncommon) : 9 100 sp
+Bead of Force (Rare) : 11 000 sp
+Deck of Illusions (Unknown) : 11 000 sp
+Ammunition +3 (1x) (Very Rare) : 120 sp
+Horn of Blasting (Rare) : 13 000 sp
+Bag of Beans (Rare) : 14 000 sp
+Ammunition of Slaying (10x) (Very Rare) : 16 000 sp
+Potion of Invulnerability (Rare) : 20 000 sp
+Necklace of Fireballs (Rare) : 23 000 sp
+Sovereign Glue (Legendary) : 28 000 sp
+Oil of Sharpness (Very Rare) : 31 000 sp
+Candle of Invocation (Very Rare) : 80 000 sp
+Manual of Golems (Very Rare) : 87 000 sp
+Rod of Absorption (Very Rare) : 220 000 sp
+Manual of Bodily Health (Very Rare) : 270 000 sp
+Tome of Clear Thought (Very Rare) : 270 000 sp
+Manual of Gainful Exercise (Very Rare) : 290 000 sp
+Manual of Quickness of Action (Very Rare) : 340 000 sp
+Tome of Leadership and Influence (Very Rare) : 370 000 sp
+Tome of Understanding (Very Rare) : 390 000 sp
+Talisman of Ultimate Evil (Legendary) : 420 000 sp
+Talisman of Pure Good (Legendary) : 590 000 sp
 
 =======================================================
-NONCOMBAT ITEMS (sorted by price)
+COMBAT ITEMS
 =======================================================
-Wand of Secrets (Uncommon) - 13 gp
-Trident of Fish Command (Uncommon) - 14 gp
-Efficient Quiver (Uncommon) - 14 gp
-Ring of Animal Influence (Rare) - 16 gp
-Eyes of Minute Seeing (Uncommon) - 17 gp
-Wand of Magic Detection (Uncommon) - 21 gp
-Ring of Feather Falling (Rare) - 21 gp
-Bag of Devouring (Very Rare) - 22 gp
-Ring of Swimming (Uncommon) - 24 gp
-Rope of Climbing (Uncommon) - 24 gp
-Ring of Water Walking (Uncommon) - 25 gp
-Helm of Comprehending Languages (Uncommon) - 26 gp
-Eyes of Charming (Uncommon) - 26 gp
-Horseshoes of Speed (Rare) - 29 gp
-Hat of Disguise (Uncommon) - 29 gp
-Goggles of Night (Uncommon) - 30 gp
-Periapt of Health (Uncommon) - 31 gp
-Cloak of the Manta Ray (Uncommon) - 34 gp
-Boots of the Winterlands (Uncommon) - 34 gp
-Ring of Warmth (Uncommon) - 34 gp
-Lantern of Revealing (Uncommon) - 35 gp
-Ring of Jumping (Uncommon) - 40 gp
-Gloves of Swimming and Climbing (Uncommon) - 41 gp
-Necklace of Adaptation (Uncommon) - 41 gp
-Eversmoking Bottle (Uncommon) - 44 gp
-Gloves of Thievery (Uncommon) - 44 gp
-Folding Boat (Rare) - 45 gp
-Horseshoes of a Zephyr (Very Rare) - 46 gp
-Medallion of Thoughts (Uncommon) - 48 gp
-Boots of Striding and Springing (Uncommon) - 50 gp
-Amulet of Proof against Detection and Location (Uncommon) - 53 gp
-Boots of Elvenkind (Uncommon) - 55 gp
-Eyes of the Eagle (Uncommon) - 63 gp
-Periapt of Proof against Poison (Rare) - 71 gp
-Ring of Mind Shielding (Uncommon) - 80 gp
-Boots of Levitation (Rare) - 81 gp
-Cloak of Elvenkind (Uncommon) - 90 gp
-Ring of X-ray Vision (Rare) - 90 gp
-Helm of Telepathy (Uncommon) - 99 gp
-Immovable Rod (Uncommon) - 110 gp
-Slippers of Spider Climbing (Uncommon) - 120 gp
-Handy Haversack (Rare) - 140 gp
-Gem of Seeing (Rare) - 190 gp
-Wand of Wonder (Rare) - 190 gp
-Cape of the Mountebank (Rare) - 200 gp
-Hat of Many Spells (Very Rare) - 240 gp
-Cloak of the Bat (Rare) - 290 gp
-Dimensional Shackles (Rare) - 300 gp
-Cloak of Arachnida (Very Rare) - 330 gp
-Portable Hole (Rare) - 380 gp
-Robe of Eyes (Rare) - 380 gp
-Crystal Ball of Mind Reading (Legendary) - 440 gp
-Bag of Holding (Uncommon) - 650 gp
-Rod of Rulership (Rare) - 460 gp
-Plate Armor of Etherealness (Legendary) - 580 gp
-Crystal Ball of Telepathy (Legendary) - 890 gp
-Cube of Force (Rare) - 1,000 gp
-Mirror of Life Trapping (Very Rare) - 1,300 gp
-Crystal Ball of True Seeing (Legendary) - 1,600 gp
-Instant Fortress (Rare) - 1,800 gp
-Apparatus of the Crab (Legendary) - 2,500 gp
-Rod of Resurrection (Legendary) - 7,400 gp
+Armor of Vulnerability (Rare) : 800 sp
+Wind Fan (Uncommon) : 1 000 sp
+Berserker Axe (Rare) : 1 900 sp
+Pipes of the Sewers (Uncommon) : 2 400 sp
+Shield of Missile Attraction (Rare) : 3 200 sp
+Brooch of Shielding (Uncommon) : 3 800 sp
+Wand of Enemy Detection (Rare) : 4 000 sp
+Rope of Entanglement (Rare) : 4 200 sp
+Circlet of Blasting (Uncommon) : 4 400 sp
+Weapon +1 (Uncommon) : 5 000 sp
+Gloves of Missile Snaring (Uncommon) : 6 000 sp
+Ring of the Ram (Rare) : 6 100 sp
+Pipes of Haunting (Uncommon) : 6 600 sp
+Shield +1 (Uncommon) : 6 800 sp
+Mace of Smiting (Rare) : 6 900 sp
+Glamoured Studded Leather (Rare) : 7 000 sp
+Staff of Withering (Rare) : 7 400 sp
+Giant Slayer (Rare) : 7 400 sp
+Demon Armor (Very Rare) : 7 500 sp
+Dagger of Venom (Rare) : 8 700 sp
+Mithral Armor (Uncommon) : 9 200 sp
+Wand of Magic Missiles (Uncommon) : 10 000 sp
+Javelin of Lightning (Uncommon) : 10 000 sp
+Wand of Web (Uncommon) : 10 000 sp
+Sword of Life Stealing (Rare) : 10 000 sp
+Bracers of Archery (Uncommon) : 12 000 sp
+Adamantine Armor (Uncommon) : 13 000 sp
+Sword of Sharpness (Very Rare) : 14 000 sp
+Sentinel Shield (Uncommon) : 14 000 sp
+Ring of Evasion (Rare) : 15 000 sp
+Dragon Slayer (Rare) : 15 000 sp
+Wand of Fear (Rare) : 15 000 sp
+Periapt of Wound Closure (Uncommon) : 16 000 sp
+Armor +1 (Rare) : armor price *20
+Arrow:Catching Shield (Rare) : 16 000 sp
+Mace of Disruption (Rare) : 17 000 sp
+Boots of Speed (Rare) : 19 000 sp
+Armor of Resistance (Rare) : 19 000 sp
+Frost Brand (Very Rare) : 19 000 sp
+Robe of Scintillating Colors (Very Rare) : 20 000 sp
+Staff of Swarming Insects (Rare) : 20 000 sp
+Pearl of Power (Uncommon) : 21 000 sp
+Iron Bands (Rare) : 22 000 sp
+Staff of Charming (Rare) : 22 000 sp
+Bracers of Defense (Rare) : 22 000 sp
+Weapon of Warning (Uncommon) : 25 000 sp
+Elven Chain (Rare) : 26 000 sp
+Quarterstaff of the Acrobat (Very Rare) : 27 000 sp
+Ring of Free Action (Rare) : 28 000 sp
+Stone of Good Luck (Luckstone) (Uncommon) : 29 000 sp
+Weapon +2 (Rare) : 30 000 sp
+Mace of Terror (Rare) : 30 000 sp
+Cloak of Protection (Uncommon) : 32 000 sp
+Animated Shield (Very Rare) : 33 000 sp
+Mantle of Spell Resistance (Rare) : 34 000 sp
+Ring of Protection (Rare) : 35 000 sp
+Dancing Sword (Very Rare) : 35 000 sp
+Flame Tongue (Rare) : 35 000 sp
+Dragon Scale Mail (Very Rare) : 38 000 sp
+Ring of Shooting Stars (Very Rare) : 38 000 sp
+Wand of Binding (Rare) : 41 000 sp
+Sword of Wounding (Rare) : 45 000 sp
+Headband of Intellect (Uncommon) : 45 000 sp
+Oathbow (Very Rare) : 47 000 sp
+Staff of Healing (Rare) : 50 000 sp
+Wand of Lightning Bolts (Rare) : 52 000 sp
+Spellguard Shield (Very Rare) : 53 000 sp
+Shield +2 (Rare) : 54 000 sp
+Gauntlets of Ogre Power (Uncommon) : 55 000 sp
+Rod of Alertness (Very Rare) : 57 000 sp
+Wand of Fireballs (Rare) : 58 000 sp
+Wand of Paralysis (Rare) : 60 000 sp
+Staff of Fire (Very Rare) : 63 000 sp
+Amulet of Health (Rare) : 64 000 sp
+Vicious Weapon (Rare) : 65 000 sp
+Necklace of Prayer Beads (Rare) : 72 000 sp
+Belt of Dwarvenkind (Rare) : 72 000 sp
+Dwarven Plate (Very Rare) : 79 000 sp
+Scimitar of Speed (Very Rare) : 82 000 sp
+Scarab of Protection (Legendary) : 85 000 sp
+Staff of Frost (Very Rare) : 86 000 sp
+Staff of the Woodlands (Rare) : 98 000 sp
+Cloak of Displacement (Rare) : 98 000 sp
+Armor +2 (Very Rare) : armor price *120
+Nine Lives Stealer (Very Rare) : 100 000 sp
+Shield of the Cavalier (Very Rare) : 110 000 sp
+Sun Blade (Rare) : 120 000 sp
+Helm of Brilliance (Very Rare) : 120 000 sp
+Energy Bow (Very Rare) : 130 000 sp
+Staff of Thunder and Lightning (Very Rare) : 130 000 sp
+Hammer of Thunderbolts (Legendary) : 150 000 sp
+Weapon +3 (Very Rare) : 150 000 sp
+Thunderous Greatclub (Very Rare) : 170 000 sp
+Robe of Stars (Very Rare) : 220 000 sp
+Wand of Polymorph (Very Rare) : 220 000 sp
+Ring of Spell Storing (Rare) : 240 000 sp
+Shield +3 (Very Rare) : 270 000 sp
+Dwarven Thrower (Very Rare) : 340 000 sp
+Ring of Spell Turning (Legendary) : 430 000 sp
+Vorpal Sword (Legendary) : 450 000 sp
+Rod of Lordly Might (Legendary) : 1 100 000 sp
+Staff of Power (Very Rare) : 1 300 000 sp
+Holy Avenger (Legendary) : 1 500 000 sp
+Robe of the Archmagi (Legendary) : 2 000 000 sp
+Staff of the Magi (Legendary) : 3 700 000 sp
 
 =======================================================
-SUMMONING ITEMS (sorted by price)
+NONCOMBAT ITEMS
 =======================================================
-Staff of the Python (Uncommon) - 96 gp
-Stone of Controlling Earth Elementals (Rare) - 600 gp
-Bowl of Commanding Water Elementals (Rare) - 980 gp
-Efreeti Bottle (Very Rare) - 1,300 gp
-Censer of Controlling Air Elementals (Rare) - 1,600 gp
-Brazier of Commanding Fire Elementals (Rare) - 2,200 gp
-Iron Flask (Legendary) - 4,200 gp
-Ring of Djinni Summoning (Legendary) - 4,500 gp
+Wand of Secrets (Uncommon) : 1 300 sp
+Ring of Animal Influence (Rare) : 1 400 sp
+Efficient Quiver (Uncommon) : 1 500 sp
+Trident of Fish Command (Uncommon) : 1 600 sp
+Eyes of Minute Seeing (Uncommon) : 1 800 sp
+Wand of Magic Detection (Uncommon) : 2 000 sp
+Bag of Devouring (Very Rare) : 2 100 sp
+Ring of Feather Falling (Rare) : 2 300 sp
+Rope of Climbing (Uncommon) : 2 300 sp
+Helm of Comprehending Languages (Uncommon) : 2 400 sp
+Ring of Swimming (Uncommon) : 2 500 sp
+Ring of Water Walking (Uncommon) : 2 600 sp
+Eyes of Charming (Uncommon) : 2 800 sp
+Horseshoes of Speed (Rare) : 2 900 sp
+Goggles of Night (Uncommon) : 3 000 sp
+Periapt of Health (Uncommon) : 3 100 sp
+Hat of Disguise (Uncommon) : 3 100 sp
+Cloak of the Manta Ray (Uncommon) : 3 200 sp
+Lantern of Revealing (Uncommon) : 3 600 sp
+Boots of the Winterlands (Uncommon) : 3 600 sp
+Ring of Jumping (Uncommon) : 3 700 sp
+Ring of Warmth (Uncommon) : 3 700 sp
+Gloves of Thievery (Uncommon) : 4 000 sp
+Eversmoking Bottle (Uncommon) : 4 000 sp
+Folding Boat (Rare) : 4 100 sp
+Gloves of Swimming and Climbing (Uncommon) : 4 400 sp
+Necklace of Adaptation (Uncommon) : 4 400 sp
+Boots of Striding and Springing (Uncommon) : 5 000 sp
+Boots of Elvenkind (Uncommon) : 5 100 sp
+Horseshoes of a Zephyr (Very Rare) : 5 300 sp
+Eyes of the Eagle (Uncommon) : 5 400 sp
+Medallion of Thoughts (Uncommon) : 5 400 sp
+Amulet of Proof against Detection and Location (Uncommon) : 5 800 sp
+Boots of Levitation (Rare) : 7 600 sp
+Ring of Mind Shielding (Uncommon) : 8 400 sp
+Periapt of Proof against Poison (Rare) : 8 600 sp
+Helm of Telepathy (Uncommon) : 9 400 sp
+Cloak of Elvenkind (Uncommon) : 9 500 sp
+Ring of X:ray Vision (Rare) : 9 500 sp
+Immovable Rod (Uncommon) : 11 000 sp
+Bag of Holding (Uncommon) : 11 000 sp
+Slippers of Spider Climbing (Uncommon) : 11 000 sp
+Handy Haversack (Rare) : 13 000 sp
+Wand of Wonder (Rare) : 19 000 sp
+Cape of the Mountebank (Rare) : 19 000 sp
+Gem of Seeing (Rare) : 21 000 sp
+Hat of Many Spells (Very Rare) : 24 000 sp
+Dimensional Shackles (Rare) : 31 000 sp
+Cloak of the Bat (Rare) : 34 000 sp
+Cloak of Arachnida (Very Rare) : 37 000 sp
+Rod of Rulership (Rare) : 43 000 sp
+Robe of Eyes (Rare) : 43 000 sp
+Crystal Ball of Mind Reading (Legendary) : 43 000 sp
+Portable Hole (Rare) : 44 000 sp
+Plate Armor of Etherealness (Legendary) : 47 000 sp
+Crystal Ball of Telepathy (Legendary) : 87 000 sp
+Cube of Force (Rare) : 100 000 sp
+Mirror of Life Trapping (Very Rare) : 130 000 sp
+Crystal Ball of True Seeing (Legendary) : 160 000 sp
+Instant Fortress (Rare) : 230 000 sp
+Apparatus of the Crab (Legendary) : 250 000 sp
+Rod of Resurrection (Legendary) : 730 000 sp
 
 =======================================================
-GAMECHANGING ITEMS (sorted by price)
+SUMMONING ITEMS
 =======================================================
-Sending Stones (Uncommon) - 300 gp
-Crystal Ball (Very Rare) - 240 gp
-Potion of Longevity (Very Rare) - 260 gp
-Decanter of Endless Water (Uncommon) - 1,200 gp
-Ring of Telekinesis (Very Rare) - 680 gp
-Talisman of the Sphere (Legendary) - 720 gp
-Rod of Security (Very Rare) - 1,200 gp
-Wings of Flying (Rare) - 1,200 gp
-Ring of Regeneration (Very Rare) - 1,300 gp
-Helm of Teleportation (Rare) - 1,800 gp
-Broom of Flying (Uncommon) - 2,000 gp
-Winged Boots (Uncommon) - 2,200 gp
-Amulet of the Planes (Very Rare) - 2,100 gp
-Cloak of Invisibility (Legendary) - 2,100 gp
-Well of Many Worlds (Legendary) - 3,100 gp
-Carpet of Flying (Very Rare) - 5,000 gp
-Cubic Gate (Legendary) - 6,800 gp
-Ring of Invisibility (Legendary) - 6,900 gp
-Armor of Invulnerability (Legendary) - 7,100 gp
-Dragon Orb (Artifact) - 8,800 gp
-Sphere of Annihilation (Legendary) - 11,000 gp
-Luck Blade (Legendary) - 28,000 gp
-Ring of Three Wishes (Legendary) - 42,000 gp
+Staff of the Python (Uncommon) : 11 000 sp
+Stone of Controlling Earth Elementals (Rare) : 62 000 sp
+Bowl of Commanding Water Elementals (Rare) : 88 000 sp
+Efreeti Bottle (Very Rare) : 110 000 sp
+Censer of Controlling Air Elementals (Rare) : 140 000 sp
+Brazier of Commanding Fire Elementals (Rare) : 200 000 sp
+Iron Flask (Legendary) : 450 000 sp
+Ring of Djinni Summoning (Legendary) : 520 000 sp
+
+=======================================================
+GAMECHANGING ITEMS
+=======================================================
+Sending Stones (Uncommon) : 3 300 sp
+Crystal Ball (Very Rare) : 22 000 sp
+Decanter of Endless Water (Uncommon) : 25 000 sp
+Potion of Longevity (Very Rare) : 26 000 sp
+Wings of Flying (Rare) : 48 000 sp
+Broom of Flying (Uncommon) : 61 000 sp
+Ring of Telekinesis (Very Rare) : 67 000 sp
+Winged Boots (Uncommon) : 75 000 sp
+Talisman of the Sphere (Legendary) : 78 000 sp
+Ring of Regeneration (Very Rare) : 120 000 sp
+Rod of Security (Very Rare) : 130 000 sp
+Carpet of Flying (Very Rare) : 170 000 sp
+Amulet of the Planes (Very Rare) : 190 000 sp
+Helm of Teleportation (Rare) : 190 000 sp
+Cloak of Invisibility (Legendary) : 200 000 sp
+Well of Many Worlds (Legendary) : 340 000 sp
+Ring of Invisibility (Legendary) : 690 000 sp
+Cubic Gate (Legendary) : 710 000 sp
+Armor of Invulnerability (Legendary) : 780 000 sp
+Dragon Orb (Artifact) : 810 000 sp
+Sphere of Annihilation (Legendary) : 1 200 000 sp
+Luck Blade (Legendary) : 2 600 000 sp
+Ring of Three Wishes (Legendary) : 4 400 000 sp
+
+=======================================================
+END OF LIST
+=======================================================
+
+
+::: NEW MAGICAL ITEMS (15TH CENTURY) :::
+
+1. Thread of Dawn: 40 sp [Effect: Instantly repairs tears and snags | Aspect: Shiny bluish steel needle]
+2. Sigh of the Sea: 60 sp [Effect: Releases a refreshing sea breeze | Aspect: Blown Murano glass vial]
+3. Lock of Night: 80 sp [Effect: Magically locks a door for 1 hour | Aspect: Wrought iron key adorned with a crescent moon]
+4. Flame of the Watchman: 100 sp [Effect: Lantern that requires no oil | Aspect: Lantern made of aged ox horn]
+5. Blood Pact: 120 sp [Effect: Glowing indelible ink | Aspect: Engraved steel dagger used as a stylus]
+6. Whisper of the Woods: 140 sp [Effect: Attracts small animals | Aspect: Whistle carved from a stag bone]
+7. Thief’s Step: 160 sp [Effect: Silences footstep sounds | Aspect: Thick grey felt slippers]
+8. Eye of the Storm: 180 sp [Effect: Indicates danger | Aspect: Solid brass compass with a restless needle]
+9. Shield of Faith: 200 sp [Effect: +1 saving throw vs. fear | Aspect: Pewter medallion stamped with a divine symbol]
+10. Traveler’s Thirst: 220 sp [Effect: Purifies water | Aspect: Engraved pewter canteen with aquatic motifs]
+11. Blade of Justice: 240 sp [Effect: Vibrates near a liar | Aspect: City short sword with a simple pommel]
+12. Veil of Mist: 260 sp [Effect: Light camouflage | Aspect: Fine wool cloak in shades of grey]
+13. Song of Steel: 280 sp [Effect: Perfect sharpening | Aspect: Whetstone with shiny blue reflections]
+14. Echo of the Mountains: 300 sp [Effect: Sound amplified up to 2 km | Aspect: Polished hunting horn made of horn]
+15. Hand of the Artisan: 320 sp [Effect: Facilitates repairs | Aspect: Supple, well-fitted leather gloves]
+16. Eagle’s Gaze: 340 sp [Effect: Sharp vision up to 500 m | Aspect: Thick-lensed copper monocle]
+17. King’s Seal: 360 sp [Effect: Imposes respect | Aspect: Very wide, heavy bronze ring]
+18. Dragon’s Breath: 380 sp [Effect: Lights a fire even in rain | Aspect: Iron lighter with persistent sparks]
+19. Fugitive’s Step: 400 sp [Effect: Leaves no traces | Aspect: Rider’s boots with studded soles]
+20. Sage’s Quill: 420 sp [Effect: Translates written languages | Aspect: Goose quill with a golden tip]
+21. Heart of Stone: 440 sp [Effect: Protects against falls | Aspect: Perfectly balanced smooth pebble]
+22. Mirror of Souls: 440 sp [Effect: Reveals fatigue | Aspect: Tarnished silver pocket mirror]
+23. Porter’s Belt: 420 sp [Effect: +1 encumbrance capacity | Aspect: Wide leather belt with an iron buckle]
+24. Salt of Life: 400 sp [Effect: Preserves food | Aspect: Carved cedar wood box]
+25. Bread of Sharing: 380 sp [Effect: Produces daily bread | Aspect: Linen sack embroidered with wheat]
+26. Scholar’s Lamp: 360 sp [Effect: Illuminates ancient texts | Aspect: Long, thick beeswax candle]
+27. Safety Pin: 340 sp [Effect: Fastens armor securely | Aspect: Sturdy silver brooch]
+28. Fairy Comb: 320 sp [Effect: Cleans hair | Aspect: Fine horn comb]
+29. Groom’s Glove: 300 sp [Effect: Calms mounts | Aspect: Rough, worn leather glove]
+30. Weight of Honor: 280 sp [Effect: Cannot be lost | Aspect: Hand-hammered gold coin]
+31. Dawn Bell: 260 sp [Effect: Infallible wake-up | Aspect: Shiny bronze bell]
+32. Botanist’s Loupe: 240 sp [Effect: Identifies plants | Aspect: Leather-framed magnifying glass]
+33. Weaver’s Thread: 220 sp [Effect: Indestructible thread | Aspect: Robust spool of thread]
+34. Die of Fate: 200 sp [Effect: Always shows even numbers | Aspect: Polished bone die]
+35. Key of Honesty: 180 sp [Effect: Opens untrapped chests | Aspect: Ancient brass key]
+36. Powder of Silence: 160 sp [Effect: Absorbs all sound | Aspect: Dark velvet pouch]
+37. Summer Fan: 140 sp [Effect: Constant cool breeze | Aspect: Fine silk fan]
+38. Flask of Joy: 120 sp [Effect: Soothing perfume | Aspect: Cut crystal vial]
+39. Wedding Ring: 100 sp [Effect: Locates the matching ring | Aspect: Simple wrought iron ring]
+40. Magic Button: 80 sp [Effect: Attaches to any fabric | Aspect: Carved wooden button]
+41. Poet’s Quill: 60 sp [Effect: Writes poetry | Aspect: Light goose quill]
+42. Sealing Wax: 40 sp [Effect: Hardens like iron | Aspect: Deep red wax stick]
+43. Protector’s Varnish: 380 sp [Effect: Prevents wood rot | Aspect: Dark terracotta pot]
+44. Whetstone: 360 sp [Effect: Sharpens in 3 seconds | Aspect: Rough greyish stone]
+45. Desert Canteen: 340 sp [Effect: Never empties | Aspect: Thick leather canteen]
+46. Seer’s Mirror: 320 sp [Effect: Reflects what is behind | Aspect: Polished mirror bound in iron]
+47. Shepherd’s Whistle: 300 sp [Effect: Gathers animals | Aspect: Light wooden whistle]
+48. Sailor’s Rope: 280 sp [Effect: Strong as a chain | Aspect: Braided hemp rope]
+49. Bag of Wonders: 260 sp [Effect: Weighs less than its contents | Aspect: Supple leather sack]
+50. Candle of Truth: 240 sp [Effect: Turns blue near a lie | Aspect: Pure white beeswax candle]
+
+
+
+SANE MAGIC MARKET : ADDITIONAL MINOR MAGIC ITEMS (51-100) - ENGLISH NAMES
+===================================================================================
+Source : Sane Magic Market (D&D 2024) - 15th Century Adapted - Forgotten Realms
+Généré : Juin 2026
+
+=======================================================
+NEW MINOR NONCOMBAT ITEMS (51-100)
+=======================================================
+
+51. Clasp of the Unyielding Wind: 120 sp [Effect: Keeps cloaks, capes, and garments securely fastened even in strong winds or during vigorous activity; minor resistance to being disrobed of worn items | Aspect: Ornate bronze cloak clasp shaped like intertwined vines and leaves, echoing 15th-century fashion]
+
+52. Points of Instant Readiness: 90 sp [Effect: Laces, points, and ties on clothing or armor can be fastened or unfastened instantly with a thought or quick tug | Aspect: Durable leather lacing points tipped with polished bone or brass, used for attaching hose to doublets]
+
+53. Hood of the Watchful Shadow: 280 sp [Effect: In dim light or darkness, grants advantage on Wisdom (Perception) checks to notice nearby movement or threats | Aspect: Deep-cowled woolen chaperon in midnight blue, typical for night watchmen or travelers]
+
+54. Undertunic of the Unsoiled: 150 sp [Effect: Resists absorbing sweat, dirt, and minor stains; wearer feels fresher longer between washes | Aspect: Fine linen undertunic with subtle hem embroidery, base layer under kirtles or doublets]
+
+55. Kirtle of the Enduring Form: 220 sp [Effect: Provides light support and reduces fatigue or strain from prolonged standing or walking in formal attire | Aspect: Laced woolen kirtle with fitted bodice in earth tones, popular in 15th-century fashion]
+
+56. Pilgrim’s Shell of the Road: 350 sp [Effect: Once per long rest, grants temporary hit points equal to proficiency bonus or minor endurance benefit on journeys | Aspect: Polished copper alloy pilgrim badge shaped like a scallop shell or saint, pinned to hat or cloak]
+
+57. Signet Ring of the Firm Grip: 180 sp [Effect: Advantage on checks to maintain grip on objects or resist disarm attempts with that hand | Aspect: Simple yet sturdy silver signet ring, often used by merchants or officials]
+
+58. Brooch of Heraldic Display: 260 sp [Effect: Can project a faint illusory version of a chosen heraldic symbol or crest for up to 1 hour per day | Aspect: Enameled and gilded brooch featuring intricate heraldic designs, popular among nobility and guilds]
+
+59. Chaperon of Clear Thought: 200 sp [Effect: +1 bonus to Intelligence checks related to recall or deduction while worn during study or discussion | Aspect: Soft velvet or wool chaperon in scholarly style, common in university towns]
+
+60. Cuff of the Clean Scribe: 110 sp [Effect: Prevents ink, dirt, or grime from staining sleeves or hands during writing or messy work | Aspect: Detachable embroidered fabric or leather sleeve guard, used by scribes and artisans]
+
+61. Spindle of the Tireless Spinner: 140 sp [Effect: Allows faster and more consistent spinning of thread or yarn; reduces textile work time significantly | Aspect: Carved wooden spindle with decorative whorl inlaid with bone, essential tool for textile production]
+
+62. Hammer of the True Nail: 130 sp [Effect: Nails go in straight with less force and are less likely to bend or split wood; +1 to carpentry checks | Aspect: Balanced iron claw hammer with leather-wrapped hickory handle, standard in workshops]
+
+63. Saw of the Precise Cut: 160 sp [Effect: Makes clean, straight, splinter-free cuts in wood or similar materials with minimal effort | Aspect: Fine-toothed handsaw with polished blade and brass frame]
+
+64. Chisel of Intricate Work: 170 sp [Effect: Facilitates detailed carving in wood, bone, or soft stone with greater precision and less chipping | Aspect: Sharp steel chisel with octagonal wooden handle, tool of carvers]
+
+65. Awl of the Leatherworker: 100 sp [Effect: Pierces tough leather cleanly without tearing | Aspect: Tapered steel awl with ringed wooden handle, used by cobblers]
+
+66. Plane of Silken Finish: 190 sp [Effect: Smooths rough wood surfaces quickly to a fine finish; reduces splinters and effort | Aspect: Traditional wooden smoothing plane with adjustable iron blade]
+
+67. Scissors of the Frayless Cut: 150 sp [Effect: Cuts fabric, parchment, or paper cleanly without fraying or jagged edges | Aspect: Ornate iron scissors with loop handles, used by tailors and scribes]
+
+68. Thimble of the Protected Finger: 80 sp [Effect: Completely protects the sewing finger from needle pricks; never slips off | Aspect: Dimpled brass thimble with a small decorative element]
+
+69. Shuttle of the Tight Weave: 210 sp [Effect: Helps create tighter, more consistent, and durable woven fabric | Aspect: Polished hardwood weaving shuttle with yarn guides]
+
+70. Loom Weight of Balanced Warp: 120 sp [Effect: Maintains even tension in warp threads for higher quality cloth | Aspect: Heavy carved stone or lead loom weight with simple symbols]
+
+71. Tankard of the Perfect Pour: 250 sp [Effect: Keeps beverages at ideal temperature longer and pours smoothly without excessive spills or foam overflow | Aspect: Lidded pewter tankard engraved with tavern or heraldic motifs]
+
+72. Plate of Lingering Warmth: 280 sp [Effect: Keeps served food warm for up to an hour longer than normal | Aspect: Decorated maiolica-style ceramic or pewter plate with harvest scenes]
+
+73. Ewer of Graceful Service: 160 sp [Effect: Pours liquids smoothly without dripping or splashing | Aspect: Elegant ceramic ewer with long curved spout and handle]
+
+74. Candlestick of the Long Vigil: 200 sp [Effect: Candles last roughly double the normal duration and resist moderate drafts | Aspect: Tall brass candlestick with wide drip pan and reflector]
+
+75. Book of the Devout Hours: 450 sp [Effect: Aids concentration during prayer or meditation; once per day grants advantage on a Wisdom save or check related to calm or faith | Aspect: Small portable illuminated Book of Hours with gilded edges and clasp]
+
+76. Herbal of Verdant Knowledge: 380 sp [Effect: Reveals common name, basic properties (edible/medicinal/poisonous), and simple uses when examining a plant | Aspect: Handwritten vellum herbal with colored illustrations of plants]
+
+77. Balance of the Fair Merchant: 320 sp [Effect: Always accurate weights; subtle warning if weights or goods are tampered with | Aspect: Portable brass balance scale with nested weights in wooden case]
+
+78. Mortar and Pestle of Fine Grind: 240 sp [Effect: Grinds ingredients finer with less effort while preserving subtle properties | Aspect: Heavy marble mortar and matching pestle with etched symbols]
+
+79. Soap of the Refreshing Lather: 90 sp [Effect: Rich lather even in cold or hard water; effective cleaning with mild pleasant scent | Aspect: Oval bar of fine soap in a carved wooden dish]
+
+80. Towel of Rapid Absorption: 130 sp [Effect: Absorbs moisture quickly and dries itself rapidly when hung | Aspect: Thick linen towel with fringed edges and woven border]
+
+81. Folding Sundial of the Pathfinder: 350 sp [Effect: Accurately tells time and indicates directions; works reliably even on overcast days | Aspect: Compact folding brass diptych sundial with compass rose and gnomon]
+
+82. Hourglass of Exact Interval: 270 sp [Effect: Measures precise time intervals consistently for tasks, cooking, or watches | Aspect: Brass-framed hourglass with calibrated sand in protective case]
+
+83. Bullseye Lantern of the Focused Beam: 420 sp [Effect: Projects bright focused beam up to 60 ft that pierces light mist slightly better; shutter for signaling | Aspect: Portable hooded lantern with polished reflector and shutter]
+
+84. Gimbaled Compass of True Bearing: 380 sp [Effect: Always points to true north, unaffected by nearby iron or minor magic | Aspect: Brass compass in gimbaled mount within wooden box with glass cover]
+
+85. Map Case of Eternal Preservation: 300 sp [Effect: Protects maps, charts, and documents from water, fire, tearing, and wear indefinitely | Aspect: Oiled leather cylindrical case with brass end caps and strap]
+
+86. Planispheric Astrolabe of the Celestial Guide: 550 sp [Effect: Aids basic celestial navigation and timekeeping; advantage on star-based Survival/Navigation checks once per day | Aspect: Small brass astrolabe with interchangeable engraved plates]
+
+87. Scallop Shell of the Weary Pilgrim: 400 sp [Effect: Reduces effects of exhaustion from long-distance travel (ignores one level or minor temp HP benefit) | Aspect: Polished scallop shell pilgrim badge mounted on pin or chain]
+
+88. Pendant of the Night Hunter: 850 sp [Effect: Once per short rest for 1 hour, grants darkvision 30 ft or advantage on Perception in dim light/darkness | Aspect: Small carved owl-head pendant on leather cord]
+
+89. Inkwell of Steady Flow: 140 sp [Effect: Ink flows smoothly without blotting or skipping on various surfaces | Aspect: Ceramic inkwell with hinged silver lid]
+
+90. Ledger of the Accurate Reckoning: 360 sp [Effect: Aligns columns perfectly; highlights simple arithmetic discrepancies | Aspect: Bound calfskin ledger with brass clasps and lined pages]
+
+91. Diptych Wax Tablet of Infinite Reuse: 220 sp [Effect: Wax erases cleanly and is reusable indefinitely without residue | Aspect: Hinged wooden diptych wax tablet with attached stylus]
+
+92. Quill of Elegant and Tireless Script: 180 sp [Effect: Writes fluidly and beautifully; reduces hand fatigue during long sessions | Aspect: Premium goose quill with gold nib and decorative feather]
+
+93. Signet of Authentic Impression: 290 sp [Effect: Creates crisp, hard-to-forge wax seals that feel inherently official | Aspect: Heavy brass signet with engraved crest on wooden handle]
+
+94. Arming Laces of Comfortable Wear: 160 sp [Effect: Makes wearing armor or heavy clothing far more comfortable; reduces chafing | Aspect: Strong padded leather arming points for securing armor]
+
+95. Gauntlet of the Sure Grasp: 340 sp [Effect: Advantage on Strength checks/saves to maintain grip on weapons or objects | Aspect: Reinforced leather gauntlet with textured palm for sword hand]
+
+96. Rosary of the Steadfast Heart: 310 sp [Effect: +1 to saves against fear or panic while held/worn during prayer | Aspect: String of carved beads with central crucifix or medal]
+
+97. Saddle of the Enduring Journey: 520 sp [Effect: Reduces fatigue and soreness for rider and mount on long rides | Aspect: Padded leather saddle with high cantle and tooled designs]
+
+98. Leash of the Obedient Companion: 230 sp [Effect: Animal stays closer and obeys basic commands more readily | Aspect: Sturdy braided leather leash with metal snap]
+
+99. Falcon Hood of Serene Patience: 270 sp [Effect: Keeps trained falcon or hawk calm and content while hooded | Aspect: Soft leather falcon hood with decorative plumes]
+
+100. Blanket of the Sound Slumber: 190 sp [Effect: Superior warmth and comfort; helps recover from exhaustion more effectively | Aspect: Heavy wool traveling blanket with ties and woven patterns]
+
+=======================================================
+END OF NEW ITEMS (51-100)
+=======================================================
+
+SANE MAGIC MARKET : HIGH-VALUE MINOR MAGIC ITEMS (101-150) - ENGLISH NAMES
+===================================================================================
+Source : Sane Magic Market (D&D 2024) - 15th Century Adapted - Forgotten Realms
+Généré : Juin 2026
+
+=======================================================
+NEW MINOR ITEMS (101-150) - PRICED 900-1800 sp
+=======================================================
+
+101. Cloak of the Unseen Step: 950 sp [Effect: Once per short rest, for 10 minutes grants advantage on Stealth checks and muffles movement sounds more effectively than basic items | Aspect: Fine gray wool cloak with subtle shadow-weave patterns, inspired by traveler's garb of the 15th century]
+
+102. Ring of the Silver Tongue: 1100 sp [Effect: +1 bonus to Charisma (Persuasion) and (Deception) checks in social interactions; once per day reroll a failed social check | Aspect: Elegant silver ring set with a small polished gem, common among merchants and diplomats]
+
+103. Boots of the Tireless Stride: 1200 sp [Effect: Reduces fatigue from long-distance marching or forced marches; wearer can travel at a faster pace without exhaustion for longer periods | Aspect: Sturdy leather traveling boots with reinforced soles and subtle magical stitching, typical of 15th-century road-worn footwear]
+
+104. Amulet of Minor Warding: 1050 sp [Effect: +1 bonus to saving throws against spells or magical effects of 1st level or lower | Aspect: Pewter or silver amulet engraved with protective runes and a holy or arcane symbol]
+
+105. Gloves of the Master Artisan: 1150 sp [Effect: Grants advantage on one crafting or tool proficiency check per long rest and reduces crafting time by 25% for non-magical items | Aspect: Supple high-quality leather gloves with fine stitching and reinforced fingertips, favored by guild masters]
+
+106. Circlet of Focused Mind: 1300 sp [Effect: Advantage on concentration saving throws; once per day ignore one instance of damage that would break concentration | Aspect: Simple silver or copper circlet with a central focus stone, resembling scholarly headwear]
+
+107. Lantern of True Sight: 1400 sp [Effect: Once per day for 10 minutes, reveals invisible creatures or illusions within 30 ft as a faint glow | Aspect: Ornate brass hooded lantern with crystal lens and protective runes, used by watch captains or inquisitors]
+
+108. Satchel of Holding Minor: 1250 sp [Effect: Functions as a small bag of holding (extra 50-100 lbs capacity with reduced weight); items inside stay organized | Aspect: Well-made leather satchel with reinforced seams and iron buckles, styled after merchant travel bags]
+
+109. Blade of the Honest Edge: 1350 sp [Effect: As a bonus action once per short rest, the weapon glows and grants advantage on one Insight check to detect lies or hidden motives | Aspect: Well-balanced shortsword or dagger with a simple but elegant crossguard, reminiscent of 15th-century town guards' arms]
+
+110. Shield of the Steadfast: 1450 sp [Effect: +1 bonus to AC when used as a shield; once per long rest absorb one critical hit as a normal hit | Aspect: Wooden or metal heater shield with reinforced rim and painted heraldic device]
+
+111. Robe of the Learned: 1200 sp [Effect: +1 to Intelligence (Arcana), (History), or (Religion) checks while worn; pages of a held book glow faintly to highlight relevant passages | Aspect: Scholarly robe of fine wool or velvet with embroidered sigils, typical academic attire]
+
+112. Belt of the Mighty Porter: 1600 sp [Effect: Increases carrying capacity by 50-100 lbs (stronger than basic versions) and reduces encumbrance penalties slightly | Aspect: Wide reinforced leather belt with heavy iron buckle and multiple attachment points]
+
+113. Pendant of Health: 1500 sp [Effect: Advantage on saving throws against disease and poison; once per day cure a minor disease or poison effect | Aspect: Gold or silver holy pendant with healing motifs, popular among traveling clerics and healers]
+
+114. Hat of Disguise Minor: 1100 sp [Effect: Once per day, alter appearance subtly (change hair color, facial features slightly, or clothing style) for up to 1 hour | Aspect: Fashionable 15th-century hat or chaperon with a concealed magical thread]
+
+115. Compass of the Safe Path: 1300 sp [Effect: Points toward the nearest safe route or settlement when activated; advantage on Survival checks to avoid getting lost | Aspect: Gimbaled brass compass with additional runes for guidance, enhanced navigational tool]
+
+116. Quill of the Master Scribe: 950 sp [Effect: Writes documents flawlessly and quickly; once per day create a perfect copy of a short non-magical text | Aspect: Ornate goose quill with enchanted nib and decorative feather, used in noble courts]
+
+117. Mirror of the Inner Self: 1250 sp [Effect: Once per day, reveals emotional state or hidden intentions of a reflected person (insight-like effect) | Aspect: Polished silver hand mirror with ornate frame, luxury item for nobility]
+
+118. Horn of the Distant Call: 1400 sp [Effect: Sound carries clearly up to 3-5 km with minor magical amplification; can convey simple coded messages | Aspect: Large polished hunting horn or olifant made from ivory or metal, used by messengers and military]
+
+119. Vest of the Unburdened: 1550 sp [Effect: Reduces the weight of worn armor or gear by 20-30%; improves mobility in heavy equipment | Aspect: Padded or leather vest worn under armor, with subtle reinforcement]
+
+120. Ring of Minor Elemental Protection: 1650 sp [Effect: Resistance to one chosen damage type (cold, fire, lightning, etc.) for 1 hour, once per long rest | Aspect: Gold band set with a small elemental gemstone, crafted by specialized jewelers]
+
+121. Tome of Quick Study: 1700 sp [Effect: Once per long rest, grants advantage on a skill check related to knowledge or recall after 10 minutes of study | Aspect: Compact leather-bound book with blank or faintly magical pages that fill with helpful notes]
+
+122. Saddle of the Swift Rider: 1450 sp [Effect: Mount moves 10-20% faster on long journeys and shares fatigue resistance with rider | Aspect: High-quality tooled leather saddle with magical padding and stirrups]
+
+123. Cloak of the Weathered Traveler: 1350 sp [Effect: Provides resistance to extreme weather (heat, cold, rain); keeps wearer dry and comfortable in harsh conditions | Aspect: Heavy oiled wool or leather traveling cloak with hood and clasp]
+
+124. Gauntlets of the Iron Grip: 1600 sp [Effect: Advantage on Athletics checks involving climbing, grappling, or holding; cannot be disarmed easily | Aspect: Reinforced plate or mail gauntlets with enchanted palms, part of fine armor sets]
+
+125. Amulet of the Watchful Guardian: 1150 sp [Effect: Passive +1 to passive Perception; once per day alert the wearer to danger within 60 ft (like alarm but personal) | Aspect: Silver or bronze amulet shaped like an eye or protective rune]
+
+126. Staff of the Walking Scholar: 1300 sp [Effect: Functions as a quarterstaff; once per day cast a minor utility spell equivalent (e.g., longstrider or comprehend languages for 1 hour) | Aspect: Sturdy wooden walking staff with carved runes and metal cap, used by wandering sages]
+
+127. Pouch of the Endless Coin Minor: 1800 sp [Effect: Once per day produces 5-10 sp worth of mundane coins (non-magical, temporary after 24h) | Aspect: Fine leather coin pouch with reinforced drawstring and subtle gold threading]
+
+128. Brooch of the Commanding Presence: 1250 sp [Effect: +1 to Charisma (Intimidation) checks; once per day impose disadvantage on one opponent's attack or save against fear | Aspect: Ornate jeweled brooch worn on cloak or chest, symbol of authority]
+
+129. Lens of the Keen Eye: 1400 sp [Effect: Acts as a spyglass with enhanced clarity; advantage on Investigation or Perception checks involving distant or fine details | Aspect: Brass or copper monocle or small telescope lens in a protective case]
+
+130. Bracelet of the Steady Hand: 1050 sp [Effect: Advantage on Dexterity checks for fine motor skills (lockpicking, sleight of hand, surgery, crafting) | Aspect: Delicate chain bracelet or wristband with small engraved charms]
+
+131. Banner of the Loyal Company: 1500 sp [Effect: When planted or held, grants nearby allies (within 30 ft) +1 to morale-related saves or advantage on checks against fear once per day | Aspect: Small portable banner or standard with heraldic colors on fine fabric]
+
+132. Chalice of the Pure Vintage: 1150 sp [Effect: Purifies and improves the taste of wine, ale, or water placed within; removes mild toxins or impurities | Aspect: Ornate pewter or silver drinking chalice with engraved scenes of feasts]
+
+133. Gloves of the Silent Thief: 1600 sp [Effect: Greatly reduces sound of manual actions (picking locks, stealing, climbing); advantage on related Stealth checks | Aspect: Soft black or gray leather gloves with thin, flexible palms]
+
+134. Helm of the Alert Sentinel: 1550 sp [Effect: Cannot be surprised while worn if conscious; +1 to initiative in some situations | Aspect: Light sallet or kettle helm with reinforced brow and cheek guards]
+
+135. Scroll Case of Preservation: 1200 sp [Effect: Protects up to 10 scrolls or documents perfectly; once per day duplicate a non-magical scroll as a mundane copy | Aspect: Ornate leather and brass scroll tube with locking mechanism]
+
+136. Pipe of the Soothing Smoke: 950 sp [Effect: Produces calming herbal smoke that grants advantage on saves against being frightened or charmed for nearby allies (short duration) | Aspect: Fine wooden or clay smoking pipe with intricate carvings]
+
+137. Anklet of the Graceful Step: 1350 sp [Effect: Reduces falling damage by half and grants advantage on Acrobatics checks for balance or jumping | Aspect: Delicate silver or gold chain anklet with small bells or charms (bells can be silenced)]
+
+138. Vestment of the Devout: 1450 sp [Effect: +1 to saving throws vs divine or necromantic magic; minor bonus to turning undead or similar abilities for clerics | Aspect: Embroidered clerical robe or tabard with holy symbols]
+
+139. Bridle of the Loyal Mount: 1250 sp [Effect: Makes a mount more responsive and less likely to panic; advantage on Animal Handling checks with that animal | Aspect: Fine leather bridle and reins with decorative metal fittings]
+
+140. Lute of the Enchanting Bard: 1700 sp [Effect: Once per day, performance grants temporary inspiration or advantage on a Charisma check for the group | Aspect: Beautifully crafted lute with inlaid wood and enchanted strings]
+
+141. Flask of the Everfull Minor: 1100 sp [Effect: Once per day refills with up to 1 gallon of fresh water, ale, or wine (non-magical) | Aspect: Sturdy metal or leather-bound flask with a secure stopper]
+
+142. Medallion of the Iron Will: 1500 sp [Effect: Advantage on Wisdom saving throws against charm, fear, or compulsion effects | Aspect: Heavy medallion on a chain featuring a resolute face or fortress motif]
+
+143. Cloak of the Shadowed Blade: 1650 sp [Effect: Once per short rest, gain advantage on one attack roll made with advantage from hiding | Aspect: Dark, lightweight cloak designed for blending into urban or wilderness shadows]
+
+144. Tome of the Arcane Apprentice: 1750 sp [Effect: Contains minor cantrips or utility spells that can be cast once per day each (up to 3 different) | Aspect: Small spellbook or grimoire with protective covers and glowing runes]
+
+145. Harness of the Beast Master: 1300 sp [Effect: Improves control over animal companions or mounts; grants minor telepathic link for simple commands | Aspect: Reinforced leather harness and straps for riding or handling animals]
+
+146. Ring of the Resourceful: 1400 sp [Effect: Once per day, produce a minor tool or mundane item up to 10 gp value (disappears after use) | Aspect: Plain but well-made band with a small compartment or engraving]
+
+147. Shield Brooch of Defense: 1550 sp [Effect: As a reaction once per short rest, gain +2 AC against one attack | Aspect: Small wearable brooch that can unfold into a minor force shield effect]
+
+148. Boots of the Mountain Goat: 1200 sp [Effect: Advantage on Athletics checks for climbing and sure-footedness on difficult terrain | Aspect: Heavy-soled boots with cleats or magical traction, suited for rugged travel]
+
+149. Diadem of the Noble Court: 1600 sp [Effect: +1 to Charisma checks in formal social settings; minor illusion to enhance appearance or status | Aspect: Elegant jeweled or metallic diadem or circlet for nobility]
+
+150. Orb of the Minor Oracle: 1800 sp [Effect: Once per long rest, ask a simple yes/no question about the near future and receive a vague but truthful hint | Aspect: Small crystal or glass orb set in a wooden or metal stand, used by fortune-tellers and advisors]
+
+=======================================================
+END OF HIGH-VALUE MINOR ITEMS (101-150)
+=======================================================
 
 =======================================================
 WEAKER VARIANTS (New Section)

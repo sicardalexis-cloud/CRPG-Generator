@@ -1,0 +1,335 @@
+SANE MAGIC MARKET - PRIX 2024 (Version XVe siècle adaptée) - TOUT EN SP
+===================================================================================
+Source : Sane Magic Market (D&D 2024)
+Conversion : 1 gp = 10 sp
+Généré : Juin 2026
+
+=======================================================
+CONSUMABLES
+=======================================================
+Bead of Nourishment (Common) - 30 sp
+Potion of Poison (Uncommon) - 400 sp
+Potion of Healing (Common) - 500 sp
+Potion of Animal Friendship (Uncommon) - 500 sp
+Philter of Love (Uncommon) - 550 sp
+Potion of Climbing (Common) - 800 sp
+Potion of Water Breathing (Uncommon) - 800 sp
+Potion of Diminution (Rare) - 850 sp
+Ammunition +1 (1x) (Uncommon) - 10 sp
+Potion of Growth (Uncommon) - 1 200 sp
+Potion of Greater Healing (Uncommon) - 1 400 sp
+Dust of Dryness (Uncommon) - 1 500 sp
+Potion of Mind Reading (Rare) - 1 500 sp
+Oil of Slipperiness (Uncommon) - 1 600 sp
+Elixir of Health (Rare) - 1 800 sp
+Potion of Invisibility (Rare) - 1 800 sp
+Potion of Gaseous Form (Rare) - 2 000 sp
+Potion of Clairvoyance (Rare) - 2 200 sp
+Dust of Disappearance (Uncommon) - 2 500 sp
+Potion of Heroism (Rare) - 2 600 sp
+Dust of Sneezing and Choking (Uncommon) - 2 600 sp
+Chime of Opening (Rare) - 2 600 sp
+Universal Solvent (Legendary) - 3 200 sp
+Ammunition +2 (1x) (Rare) - 36 sp
+Potion of Flying (Very Rare) - 4 700 sp
+Potion of Supreme Healing (Very Rare) - 4 900 sp
+Potion of Superior Healing (Rare) - 5 000 sp
+Potion of Vitality (Very Rare) - 5 100 sp
+Potion of Speed (Very Rare) - 5 600 sp
+Marvelous Pigments (Very Rare) - 7 200 sp
+Oil of Etherealness (Rare) - 7 900 sp
+Robe of Useful Items (Uncommon) - 8 700 sp
+Gem of Brightness (Uncommon) - 9 100 sp
+Bead of Force (Rare) - 11 000 sp
+Deck of Illusions (Unknown) - 11 000 sp
+Ammunition +3 (10x) (Very Rare) - 12 00 sp
+Horn of Blasting (Rare) - 13 000 sp
+Bag of Beans (Rare) - 14 000 sp
+Ammunition of Slaying (10x) (Very Rare) - 16 000 sp
+Potion of Invulnerability (Rare) - 20 000 sp
+Necklace of Fireballs (Rare) - 23 000 sp
+Sovereign Glue (Legendary) - 28 000 sp
+Oil of Sharpness (Very Rare) - 31 000 sp
+Candle of Invocation (Very Rare) - 80 000 sp
+Manual of Golems (Very Rare) - 87 000 sp
+Rod of Absorption (Very Rare) - 220 000 sp
+Manual of Bodily Health (Very Rare) - 270 000 sp
+Tome of Clear Thought (Very Rare) - 270 000 sp
+Manual of Gainful Exercise (Very Rare) - 290 000 sp
+Manual of Quickness of Action (Very Rare) - 340 000 sp
+Tome of Leadership and Influence (Very Rare) - 370 000 sp
+Tome of Understanding (Very Rare) - 390 000 sp
+Talisman of Ultimate Evil (Legendary) - 420 000 sp
+Talisman of Pure Good (Legendary) - 590 000 sp
+
+=======================================================
+COMBAT ITEMS
+=======================================================
+Armor of Vulnerability (Rare) - 800 sp
+Wind Fan (Uncommon) - 1 000 sp
+Berserker Axe (Rare) - 1 900 sp
+Pipes of the Sewers (Uncommon) - 2 400 sp
+Shield of Missile Attraction (Rare) - 3 200 sp
+Brooch of Shielding (Uncommon) - 3 800 sp
+Wand of Enemy Detection (Rare) - 4 000 sp
+Rope of Entanglement (Rare) - 4 200 sp
+Circlet of Blasting (Uncommon) - 4 400 sp
+Weapon +1 (Uncommon) - 5 000 sp
+Gloves of Missile Snaring (Uncommon) - 6 000 sp
+Ring of the Ram (Rare) - 6 100 sp
+Pipes of Haunting (Uncommon) - 6 600 sp
+Shield +1 (Uncommon) - 6 800 sp
+Mace of Smiting (Rare) - 6 900 sp
+Glamoured Studded Leather (Rare) - 7 000 sp
+Staff of Withering (Rare) - 7 400 sp
+Giant Slayer (Rare) - 7 400 sp
+Demon Armor (Very Rare) - 7 500 sp
+Dagger of Venom (Rare) - 8 700 sp
+Mithral Armor (Uncommon) - 9 200 sp
+Wand of Magic Missiles (Uncommon) - 10 000 sp
+Javelin of Lightning (Uncommon) - 10 000 sp
+Wand of Web (Uncommon) - 10 000 sp
+Sword of Life Stealing (Rare) - 10 000 sp
+Bracers of Archery (Uncommon) - 12 000 sp
+Adamantine Armor (Uncommon) - 13 000 sp
+Sword of Sharpness (Very Rare) - 14 000 sp
+Sentinel Shield (Uncommon) - 14 000 sp
+Ring of Evasion (Rare) - 15 000 sp
+Dragon Slayer (Rare) - 15 000 sp
+Wand of Fear (Rare) - 15 000 sp
+Periapt of Wound Closure (Uncommon) - 16 000 sp
+Armor +1 (Rare) - armor price *20
+Arrow-Catching Shield (Rare) - 16 000 sp
+Mace of Disruption (Rare) - 17 000 sp
+Boots of Speed (Rare) - 19 000 sp
+Armor of Resistance (Rare) - 19 000 sp
+Frost Brand (Very Rare) - 19 000 sp
+Robe of Scintillating Colors (Very Rare) - 20 000 sp
+Staff of Swarming Insects (Rare) - 20 000 sp
+Pearl of Power (Uncommon) - 21 000 sp
+Iron Bands (Rare) - 22 000 sp
+Staff of Charming (Rare) - 22 000 sp
+Bracers of Defense (Rare) - 22 000 sp
+Weapon of Warning (Uncommon) - 25 000 sp
+Elven Chain (Rare) - 26 000 sp
+Quarterstaff of the Acrobat (Very Rare) - 27 000 sp
+Ring of Free Action (Rare) - 28 000 sp
+Stone of Good Luck (Luckstone) (Uncommon) - 29 000 sp
+Weapon +2 (Rare) - 30 000 sp
+Mace of Terror (Rare) - 30 000 sp
+Cloak of Protection (Uncommon) - 32 000 sp
+Animated Shield (Very Rare) - 33 000 sp
+Mantle of Spell Resistance (Rare) - 34 000 sp
+Ring of Protection (Rare) - 35 000 sp
+Dancing Sword (Very Rare) - 35 000 sp
+Flame Tongue (Rare) - 35 000 sp
+Dragon Scale Mail (Very Rare) - 38 000 sp
+Ring of Shooting Stars (Very Rare) - 38 000 sp
+Wand of Binding (Rare) - 41 000 sp
+Sword of Wounding (Rare) - 45 000 sp
+Headband of Intellect (Uncommon) - 45 000 sp
+Oathbow (Very Rare) - 47 000 sp
+Staff of Healing (Rare) - 50 000 sp
+Wand of Lightning Bolts (Rare) - 52 000 sp
+Spellguard Shield (Very Rare) - 53 000 sp
+Shield +2 (Rare) - 54 000 sp
+Gauntlets of Ogre Power (Uncommon) - 55 000 sp
+Rod of Alertness (Very Rare) - 57 000 sp
+Wand of Fireballs (Rare) - 58 000 sp
+Wand of Paralysis (Rare) - 60 000 sp
+Staff of Fire (Very Rare) - 63 000 sp
+Amulet of Health (Rare) - 64 000 sp
+Vicious Weapon (Rare) - 65 000 sp
+Necklace of Prayer Beads (Rare) - 72 000 sp
+Belt of Dwarvenkind (Rare) - 72 000 sp
+Dwarven Plate (Very Rare) - 79 000 sp
+Scimitar of Speed (Very Rare) - 82 000 sp
+Scarab of Protection (Legendary) - 85 000 sp
+Staff of Frost (Very Rare) - 86 000 sp
+Staff of the Woodlands (Rare) - 98 000 sp
+Cloak of Displacement (Rare) - 98 000 sp
+Armor +2 (Very Rare) - 100 000 sp
+Nine Lives Stealer (Very Rare) - 100 000 sp
+Shield of the Cavalier (Very Rare) - 110 000 sp
+Sun Blade (Rare) - 120 000 sp
+Helm of Brilliance (Very Rare) - 120 000 sp
+Energy Bow (Very Rare) - 130 000 sp
+Staff of Thunder and Lightning (Very Rare) - 130 000 sp
+Hammer of Thunderbolts (Legendary) - 150 000 sp
+Weapon +3 (Very Rare) - 150 000 sp
+Thunderous Greatclub (Very Rare) - 170 000 sp
+Robe of Stars (Very Rare) - 220 000 sp
+Wand of Polymorph (Very Rare) - 220 000 sp
+Ring of Spell Storing (Rare) - 240 000 sp
+Shield +3 (Very Rare) - 270 000 sp
+Dwarven Thrower (Very Rare) - 340 000 sp
+Ring of Spell Turning (Legendary) - 430 000 sp
+Vorpal Sword (Legendary) - 450 000 sp
+Rod of Lordly Might (Legendary) - 1 100 000 sp
+Staff of Power (Very Rare) - 1 300 000 sp
+Holy Avenger (Legendary) - 1 500 000 sp
+Robe of the Archmagi (Legendary) - 2 000 000 sp
+Staff of the Magi (Legendary) - 3 700 000 sp
+
+=======================================================
+NONCOMBAT ITEMS
+=======================================================
+Wand of Secrets (Uncommon) - 1 300 sp
+Ring of Animal Influence (Rare) - 1 400 sp
+Efficient Quiver (Uncommon) - 1 500 sp
+Trident of Fish Command (Uncommon) - 1 600 sp
+Eyes of Minute Seeing (Uncommon) - 1 800 sp
+Wand of Magic Detection (Uncommon) - 2 000 sp
+Bag of Devouring (Very Rare) - 2 100 sp
+Ring of Feather Falling (Rare) - 2 300 sp
+Rope of Climbing (Uncommon) - 2 300 sp
+Helm of Comprehending Languages (Uncommon) - 2 400 sp
+Ring of Swimming (Uncommon) - 2 500 sp
+Ring of Water Walking (Uncommon) - 2 600 sp
+Eyes of Charming (Uncommon) - 2 800 sp
+Horseshoes of Speed (Rare) - 2 900 sp
+Goggles of Night (Uncommon) - 3 000 sp
+Periapt of Health (Uncommon) - 3 100 sp
+Hat of Disguise (Uncommon) - 3 100 sp
+Cloak of the Manta Ray (Uncommon) - 3 200 sp
+Lantern of Revealing (Uncommon) - 3 600 sp
+Boots of the Winterlands (Uncommon) - 3 600 sp
+Ring of Jumping (Uncommon) - 3 700 sp
+Ring of Warmth (Uncommon) - 3 700 sp
+Gloves of Thievery (Uncommon) - 4 000 sp
+Eversmoking Bottle (Uncommon) - 4 000 sp
+Folding Boat (Rare) - 4 100 sp
+Gloves of Swimming and Climbing (Uncommon) - 4 400 sp
+Necklace of Adaptation (Uncommon) - 4 400 sp
+Boots of Striding and Springing (Uncommon) - 5 000 sp
+Boots of Elvenkind (Uncommon) - 5 100 sp
+Horseshoes of a Zephyr (Very Rare) - 5 300 sp
+Eyes of the Eagle (Uncommon) - 5 400 sp
+Medallion of Thoughts (Uncommon) - 5 400 sp
+Amulet of Proof against Detection and Location (Uncommon) - 5 800 sp
+Boots of Levitation (Rare) - 7 600 sp
+Ring of Mind Shielding (Uncommon) - 8 400 sp
+Periapt of Proof against Poison (Rare) - 8 600 sp
+Helm of Telepathy (Uncommon) - 9 400 sp
+Cloak of Elvenkind (Uncommon) - 9 500 sp
+Ring of X-ray Vision (Rare) - 9 500 sp
+Immovable Rod (Uncommon) - 11 000 sp
+Bag of Holding (Uncommon) - 11 000 sp
+Slippers of Spider Climbing (Uncommon) - 11 000 sp
+Handy Haversack (Rare) - 13 000 sp
+Wand of Wonder (Rare) - 19 000 sp
+Cape of the Mountebank (Rare) - 19 000 sp
+Gem of Seeing (Rare) - 21 000 sp
+Hat of Many Spells (Very Rare) - 24 000 sp
+Dimensional Shackles (Rare) - 31 000 sp
+Cloak of the Bat (Rare) - 34 000 sp
+Cloak of Arachnida (Very Rare) - 37 000 sp
+Rod of Rulership (Rare) - 43 000 sp
+Robe of Eyes (Rare) - 43 000 sp
+Crystal Ball of Mind Reading (Legendary) - 43 000 sp
+Portable Hole (Rare) - 44 000 sp
+Plate Armor of Etherealness (Legendary) - 47 000 sp
+Crystal Ball of Telepathy (Legendary) - 87 000 sp
+Cube of Force (Rare) - 100 000 sp
+Mirror of Life Trapping (Very Rare) - 130 000 sp
+Crystal Ball of True Seeing (Legendary) - 160 000 sp
+Instant Fortress (Rare) - 230 000 sp
+Apparatus of the Crab (Legendary) - 250 000 sp
+Rod of Resurrection (Legendary) - 730 000 sp
+
+=======================================================
+SUMMONING ITEMS
+=======================================================
+Staff of the Python (Uncommon) - 11 000 sp
+Stone of Controlling Earth Elementals (Rare) - 62 000 sp
+Bowl of Commanding Water Elementals (Rare) - 88 000 sp
+Efreeti Bottle (Very Rare) - 110 000 sp
+Censer of Controlling Air Elementals (Rare) - 140 000 sp
+Brazier of Commanding Fire Elementals (Rare) - 200 000 sp
+Iron Flask (Legendary) - 450 000 sp
+Ring of Djinni Summoning (Legendary) - 520 000 sp
+
+=======================================================
+GAMECHANGING ITEMS
+=======================================================
+Sending Stones (Uncommon) - 3 300 sp
+Crystal Ball (Very Rare) - 22 000 sp
+Decanter of Endless Water (Uncommon) - 25 000 sp
+Potion of Longevity (Very Rare) - 26 000 sp
+Wings of Flying (Rare) - 48 000 sp
+Broom of Flying (Uncommon) - 61 000 sp
+Ring of Telekinesis (Very Rare) - 67 000 sp
+Winged Boots (Uncommon) - 75 000 sp
+Talisman of the Sphere (Legendary) - 78 000 sp
+Ring of Regeneration (Very Rare) - 120 000 sp
+Rod of Security (Very Rare) - 130 000 sp
+Carpet of Flying (Very Rare) - 170 000 sp
+Amulet of the Planes (Very Rare) - 190 000 sp
+Helm of Teleportation (Rare) - 190 000 sp
+Cloak of Invisibility (Legendary) - 200 000 sp
+Well of Many Worlds (Legendary) - 340 000 sp
+Ring of Invisibility (Legendary) - 690 000 sp
+Cubic Gate (Legendary) - 710 000 sp
+Armor of Invulnerability (Legendary) - 780 000 sp
+Dragon Orb (Artifact) - 810 000 sp
+Sphere of Annihilation (Legendary) - 1 200 000 sp
+Luck Blade (Legendary) - 2 600 000 sp
+Ring of Three Wishes (Legendary) - 4 400 000 sp
+
+=======================================================
+END OF LIST
+=======================================================
+
+
+--- NOUVEAUX OBJETS MAGIQUES (XV SIÈCLE) ---
+
+1. Le Fil de l'Aube: 40 sp [Effet: Répare instantanément les accrocs | Aspect: Aiguille en acier bleui luisante]
+2. Le Soupir de la Mer: 60 sp [Effet: Libère un air marin rafraîchissant | Aspect: Fiole en verre soufflé de Murano]
+3. Le Verrou de la Nuit: 80 sp [Effet: Verrouille magiquement une porte 1h | Aspect: Clef en fer forgé ornée d'un croissant de lune]
+4. La Flamme du Veilleur: 100 sp [Effet: Lanterne sans huile | Aspect: Lanterne en corne de bœuf vieilli]
+5. Le Pacte de Sang: 120 sp [Effet: Encre indélébile luisante | Aspect: Dague en acier gravé servant de stylet]
+6. Le Murmure des Bois: 140 sp [Effet: Attire les petits animaux | Aspect: Sifflet sculpté dans un os de cerf]
+7. Le Pas du Voleur: 160 sp [Effet: Annule le bruit des pas | Aspect: Chaussons en feutre gris épais]
+8. L'Oeil de la Tempête: 180 sp [Effet: Indique le danger | Aspect: Boussole en laiton massif avec aiguille agitée]
+9. Le Bouclier de la Foi: 200 sp [Effet: +1 sauvegarde peur | Aspect: Médaillon d'étain frappé d'une symbole divin]
+10. La Soif du Voyageur: 220 sp [Effet: Purifie l'eau | Aspect: Gourde en étain gravé de motifs aquatiques]
+11. La Lame de Justice: 240 sp [Effet: Vibre près d'un menteur | Aspect: Épée courte de ville au pommeau simple]
+12. Le Voile de Brume: 260 sp [Effet: Camouflage léger | Aspect: Cape en laine fine aux teintes grises]
+13. Le Chant de l'Acier: 280 sp [Effet: Aiguisage parfait | Aspect: Pierre à aiguiser luisante de reflets bleus]
+14. L'Écho des Montagnes: 300 sp [Effet: Son amplifié 2km | Aspect: Corne de chasse en corne polie]
+15. La Main de l'Artisan: 320 sp [Effet: Facilite les réparations | Aspect: Gants en cuir souple ajustés]
+16. Le Regard de l'Aigle: 340 sp [Effet: Vision nette 500m | Aspect: Monocle en cuivre avec lentille épaisse]
+17. Le Sceau du Roi: 360 sp [Effet: Impose le respect | Aspect: Anneau en bronze massif très large]
+18. Le Souffle du Dragon: 380 sp [Effet: Allume un feu sous pluie | Aspect: Briquet en fer avec étincelle persistante]
+19. Le Pas du Fugitif: 400 sp [Effet: Ne laisse aucune trace | Aspect: Bottines de cavalier à semelles cloutées]
+20. La Plume du Sage: 420 sp [Effet: Traduit le langage écrit | Aspect: Plume d'oie à la pointe dorée]
+21. Le Cœur de Pierre: 440 sp [Effet: Protège des chutes | Aspect: Galet lisse parfaitement équilibré]
+22. Le Miroir des Âmes: 440 sp [Effet: Révèle la fatigue | Aspect: Miroir de poche en argent terni]
+23. La Ceinture du Porte-Faix: 420 sp [Effet: +1 capacité encomb. | Aspect: Ceinture de cuir large avec boucle en fer]
+24. Le Sel de Vie: 400 sp [Effet: Conserve la nourriture | Aspect: Boîte en bois de cèdre sculpté]
+25. Le Pain du Partage: 380 sp [Effet: Produit du pain quotidien | Aspect: Sac en lin brodé de blé]
+26. La Lampe du Savant: 360 sp [Effet: Éclaire les textes anciens | Aspect: Bougie de cire longue et épaisse]
+27. L'Épingle de Sûreté: 340 sp [Effet: Ferme l'armure | Aspect: Broche en argent robuste]
+28. Le Peigne des Fées: 320 sp [Effet: Nettoie les cheveux | Aspect: Peigne en corne fine]
+29. Le Gant du Palefrenier: 300 sp [Effet: Calme les montures | Aspect: Gant en cuir rugueux et usé]
+30. Le Poids de l'Honneur: 280 sp [Effet: Ne peut être perdue | Aspect: Pièce en or martelé à la main]
+31. La Cloche de l'Aube: 260 sp [Effet: Réveil infaillible | Aspect: Clochette en bronze brillant]
+32. La Loupe du Botaniste: 240 sp [Effet: Identifie les plantes | Aspect: Loupe cerclée de cuir]
+33. Le Fil du Tisserand: 220 sp [Effet: Fil indestructible | Aspect: Bobine de fil robuste]
+34. Le Dé du Destin: 200 sp [Effet: Résultat pair uniquement | Aspect: Dé en os poli]
+35. La Clef de l'Honnêteté: 180 sp [Effet: Ouvre coffres non piégés | Aspect: Clef en laiton ancien]
+36. La Poudre de Silence: 160 sp [Effet: Absorbe tout bruit | Aspect: Sachet en velours sombre]
+37. L'Éventail de l'Été: 140 sp [Effet: Brise fraîche constante | Aspect: Éventail en soie fine]
+38. Le Flacon de Joie: 120 sp [Effet: Parfum apaisant | Aspect: Fiole en cristal taillé]
+39. La Bague de Mariage: 100 sp [Effet: Localise l'autre bague | Aspect: Anneau en fer forgé simple]
+40. Le Bouton Magique: 80 sp [Effet: S'attache à tout tissu | Aspect: Bouton en bois sculpté]
+41. La Plume du Poète: 60 sp [Effet: Écrit de la poésie | Aspect: Plume d'oie légère]
+42. La Cire de Scellement: 40 sp [Effet: Durcit comme le fer | Aspect: Bâton de cire rouge profond]
+43. Le Vernis du Protecteur: 380 sp [Effet: Anti-pourriture bois | Aspect: Pot en terre cuite sombre]
+44. La Pierre à aiguiser: 360 sp [Effet: Aiguise en 3 sec | Aspect: Pierre brute grisâtre]
+45. La Gourde du Désert: 340 sp [Effet: Ne se vide jamais | Aspect: Gourde en cuir épais]
+46. Le Miroir du Voyant: 320 sp [Effet: Reflète ce qui est derrière | Aspect: Miroir poli cerclé de fer]
+47. Le Sifflet du Berger: 300 sp [Effet: Regroupe animaux | Aspect: Sifflet en bois clair]
+48. La Corde du Marin: 280 sp [Effet: Solide comme chaîne | Aspect: Corde de chanvre tressée]
+49. Le Sac à Merveilles: 260 sp [Effet: Pèse moins que son contenu | Aspect: Sac en cuir souple]
+50. La Bougie de Vérité: 240 sp [Effet: Bleue près d'un mensonge | Aspect: Bougie de cire blanche pure]

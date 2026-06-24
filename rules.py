@@ -48,11 +48,11 @@ def calculate_skill_modifier(
     
     # Malus secondaire (attributs positifs = pénalité aux skills)
     secondary_malus = (
-        (vigilance * 0.35) +
-        (stealth * 0.35) +
+        (vigilance * 0.3) +
+        (stealth * 0.3) +
         (speed * 0.25) +
-        (dodge * 0.15) +
-        (climbing * 0.15) +
+        (dodge * 0.1) +
+        (climbing * 0.1) +
         (endurance * 0.10) +
         (regeneration * 0.05)
     )
@@ -95,14 +95,14 @@ def calculate_melee(weight_score: float, size_score: int, coordination: float,
         quickness / 3 +              
         coordination / 4 +           
         balance / 5.0 +                
-        size_score * 0              
+        size_score /2              
     )
 
 
-def calculate_fencing(quickness: float, coordination: float, balance: float) -> float:
+def calculate_fencing(quickness: float, coordination: float, balance: float, size_score: int) -> float:
     """Fencing = floor( quickness/4 + Coordination/2 + Balance/3 )"""
     return math.floor(
-        quickness / 4 + coordination / 2 + balance / 3
+        quickness / 5 + coordination / 3 + balance / 4 +  size_score * 1
     )
 
 
@@ -120,7 +120,6 @@ def calculate_combat_points(
     melee: float,
     projectiles: float,
     fencing: float,
-    reach: float = 0.0,
     racial_cp: float = 0.0
 ) -> float:
     """Total Combat Points = cp(Grappling) + cp(Melee) + cp(Projectiles) + cp(Fencing) + cp(Reach) + CP_racial"""
@@ -129,7 +128,6 @@ def calculate_combat_points(
         cp(melee) +
         cp(projectiles) +
         cp(fencing) +
-        cp(reach) +
         racial_cp
     )
     return round(total, 2)
@@ -138,8 +136,8 @@ def calculate_combat_points(
 # ====================== MAGIC SYSTEM ======================
 # Seuil calibré pour ~50% de personnages magiquement actifs
 # (basé sur la distribution des Combat Points générés par generate_character)
-MAGIC_THRESHOLD = -1.5     # ~50% des personnages sont magiques (combat_points < ce seuil)
-ARCANIST_THRESHOLD = -7.0  # ~20% les plus faibles (les plus "négatifs") sont Arcanistes
+MAGIC_THRESHOLD = -6    # ~50% des personnages sont magiques (combat_points < ce seuil)
+ARCANIST_THRESHOLD = -9.0  # ~20% les plus faibles (les plus "négatifs") sont Arcanistes
 
 
 def determine_magic_type(combat_points: float, settlement_type: str = "Village") -> dict:

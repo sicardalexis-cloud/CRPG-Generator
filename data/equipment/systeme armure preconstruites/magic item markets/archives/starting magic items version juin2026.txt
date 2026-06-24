@@ -1,0 +1,327 @@
+SANE MAGIC MARKET : PRIX 2024 (Version XVe siècle adaptée) : TOUT EN SP
+===================================================================================
+Source : Sane Magic Market (D&D 2024)
+Généré : Juin 2026
+
+=======================================================
+CONSUMABLES
+=======================================================
+Bead of Nourishment (Common) : 30 sp
+Potion of Poison (Uncommon) : 400 sp
+Potion of Healing (Common) : 500 sp
+Potion of Animal Friendship (Uncommon) : 500 sp
+Philter of Love (Uncommon) : 550 sp
+Potion of Climbing (Common) : 800 sp
+Potion of Water Breathing (Uncommon) : 800 sp
+Potion of Diminution (Rare) : 850 sp
+Ammunition +1 (1x) (Uncommon) : 10 sp
+Potion of Growth (Uncommon) : 1 200 sp
+Potion of Greater Healing (Uncommon) : 1 400 sp
+Dust of Dryness (Uncommon) : 1 500 sp
+Potion of Mind Reading (Rare) : 1 500 sp
+Oil of Slipperiness (Uncommon) : 1 600 sp
+Elixir of Health (Rare) : 1 800 sp
+Potion of Invisibility (Rare) : 1 800 sp
+Potion of Gaseous Form (Rare) : 2 000 sp
+
+
+=======================================================
+COMBAT ITEMS
+=======================================================
+Armor of Vulnerability (Rare) : 800 sp
+Wind Fan (Uncommon) : 1 000 sp
+Berserker Axe (Rare) : 1 900 sp
+
+
+=======================================================
+NONCOMBAT ITEMS
+=======================================================
+Wand of Secrets (Uncommon) : 1 300 sp
+Ring of Animal Influence (Rare) : 1 400 sp
+Efficient Quiver (Uncommon) : 1 500 sp
+Trident of Fish Command (Uncommon) : 1 600 sp
+Eyes of Minute Seeing (Uncommon) : 1 800 sp
+
+
+=======================================================
+END OF LIST
+=======================================================
+
+
+::: NOUVEAUX OBJETS MAGIQUES (XV SIÈCLE) :::
+
+1. Le Fil de l'Aube: 40 sp [Effet: Répare instantanément les accrocs | Aspect: Aiguille en acier bleui luisante]
+2. Le Soupir de la Mer: 60 sp [Effet: Libère un air marin rafraîchissant | Aspect: Fiole en verre soufflé de Murano]
+3. Le Verrou de la Nuit: 80 sp [Effet: Verrouille magiquement une porte 1h | Aspect: Clef en fer forgé ornée d'un croissant de lune]
+4. La Flamme du Veilleur: 100 sp [Effet: Lanterne sans huile | Aspect: Lanterne en corne de bœuf vieilli]
+5. Le Pacte de Sang: 120 sp [Effet: Encre indélébile luisante | Aspect: Dague en acier gravé servant de stylet]
+6. Le Murmure des Bois: 140 sp [Effet: Attire les petits animaux | Aspect: Sifflet sculpté dans un os de cerf]
+7. Le Pas du Voleur: 160 sp [Effet: Annule le bruit des pas | Aspect: Chaussons en feutre gris épais]
+8. L'Oeil de la Tempête: 180 sp [Effet: Indique le danger | Aspect: Boussole en laiton massif avec aiguille agitée]
+9. Le Bouclier de la Foi: 200 sp [Effet: +1 sauvegarde peur | Aspect: Médaillon d'étain frappé d'une symbole divin]
+10. La Soif du Voyageur: 220 sp [Effet: Purifie l'eau | Aspect: Gourde en étain gravé de motifs aquatiques]
+11. La Lame de Justice: 240 sp [Effet: Vibre près d'un menteur | Aspect: Épée courte de ville au pommeau simple]
+12. Le Voile de Brume: 260 sp [Effet: Camouflage léger | Aspect: Cape en laine fine aux teintes grises]
+13. Le Chant de l'Acier: 280 sp [Effet: Aiguisage parfait | Aspect: Pierre à aiguiser luisante de reflets bleus]
+14. L'Écho des Montagnes: 300 sp [Effet: Son amplifié 2km | Aspect: Corne de chasse en corne polie]
+15. La Main de l'Artisan: 320 sp [Effet: Facilite les réparations | Aspect: Gants en cuir souple ajustés]
+16. Le Regard de l'Aigle: 340 sp [Effet: Vision nette 500m | Aspect: Monocle en cuivre avec lentille épaisse]
+17. Le Sceau du Roi: 360 sp [Effet: Impose le respect | Aspect: Anneau en bronze massif très large]
+18. Le Souffle du Dragon: 380 sp [Effet: Allume un feu sous pluie | Aspect: Briquet en fer avec étincelle persistante]
+19. Le Pas du Fugitif: 400 sp [Effet: Ne laisse aucune trace | Aspect: Bottines de cavalier à semelles cloutées]
+20. La Plume du Sage: 420 sp [Effet: Traduit le langage écrit | Aspect: Plume d'oie à la pointe dorée]
+21. Le Cœur de Pierre: 440 sp [Effet: Protège des chutes | Aspect: Galet lisse parfaitement équilibré]
+22. Le Miroir des Âmes: 440 sp [Effet: Révèle la fatigue | Aspect: Miroir de poche en argent terni]
+23. La Ceinture du Porte:Faix: 420 sp [Effet: +1 capacité encomb. | Aspect: Ceinture de cuir large avec boucle en fer]
+24. Le Sel de Vie: 400 sp [Effet: Conserve la nourriture | Aspect: Boîte en bois de cèdre sculpté]
+25. Le Pain du Partage: 380 sp [Effet: Produit du pain quotidien | Aspect: Sac en lin brodé de blé]
+26. La Lampe du Savant: 360 sp [Effet: Éclaire les textes anciens | Aspect: Bougie de cire longue et épaisse]
+27. L'Épingle de Sûreté: 340 sp [Effet: Ferme l'armure | Aspect: Broche en argent robuste]
+28. Le Peigne des Fées: 320 sp [Effet: Nettoie les cheveux | Aspect: Peigne en corne fine]
+29. Le Gant du Palefrenier: 300 sp [Effet: Calme les montures | Aspect: Gant en cuir rugueux et usé]
+30. Le Poids de l'Honneur: 280 sp [Effet: Ne peut être perdue | Aspect: Pièce en or martelé à la main]
+31. La Cloche de l'Aube: 260 sp [Effet: Réveil infaillible | Aspect: Clochette en bronze brillant]
+32. La Loupe du Botaniste: 240 sp [Effet: Identifie les plantes | Aspect: Loupe cerclée de cuir]
+33. Le Fil du Tisserand: 220 sp [Effet: Fil indestructible | Aspect: Bobine de fil robuste]
+34. Le Dé du Destin: 200 sp [Effet: Résultat pair uniquement | Aspect: Dé en os poli]
+35. La Clef de l'Honnêteté: 180 sp [Effet: Ouvre coffres non piégés | Aspect: Clef en laiton ancien]
+36. La Poudre de Silence: 160 sp [Effet: Absorbe tout bruit | Aspect: Sachet en velours sombre]
+37. L'Éventail de l'Été: 140 sp [Effet: Brise fraîche constante | Aspect: Éventail en soie fine]
+38. Le Flacon de Joie: 120 sp [Effet: Parfum apaisant | Aspect: Fiole en cristal taillé]
+39. La Bague de Mariage: 100 sp [Effet: Localise l'autre bague | Aspect: Anneau en fer forgé simple]
+40. Le Bouton Magique: 80 sp [Effet: S'attache à tout tissu | Aspect: Bouton en bois sculpté]
+41. La Plume du Poète: 60 sp [Effet: Écrit de la poésie | Aspect: Plume d'oie légère]
+42. La Cire de Scellement: 40 sp [Effet: Durcit comme le fer | Aspect: Bâton de cire rouge profond]
+43. Le Vernis du Protecteur: 380 sp [Effet: Anti:pourriture bois | Aspect: Pot en terre cuite sombre]
+44. La Pierre à aiguiser: 360 sp [Effet: Aiguise en 3 sec | Aspect: Pierre brute grisâtre]
+45. La Gourde du Désert: 340 sp [Effet: Ne se vide jamais | Aspect: Gourde en cuir épais]
+46. Le Miroir du Voyant: 320 sp [Effet: Reflète ce qui est derrière | Aspect: Miroir poli cerclé de fer]
+47. Le Sifflet du Berger: 300 sp [Effet: Regroupe animaux | Aspect: Sifflet en bois clair]
+48. La Corde du Marin: 280 sp [Effet: Solide comme chaîne | Aspect: Corde de chanvre tressée]
+49. Le Sac à Merveilles: 260 sp [Effet: Pèse moins que son contenu | Aspect: Sac en cuir souple]
+50. La Bougie de Vérité: 240 sp [Effet: Bleue près d'un mensonge | Aspect: Bougie de cire blanche pure]
+
+SANE MAGIC MARKET : ADDITIONAL MINOR MAGIC ITEMS (51-100) - ENGLISH NAMES
+===================================================================================
+Source : Sane Magic Market (D&D 2024) - 15th Century Adapted - Forgotten Realms
+Généré : Juin 2026
+
+=======================================================
+NEW MINOR NONCOMBAT ITEMS (51-100)
+=======================================================
+
+51. Clasp of the Unyielding Wind: 120 sp [Effect: Keeps cloaks, capes, and garments securely fastened even in strong winds or during vigorous activity; minor resistance to being disrobed of worn items | Aspect: Ornate bronze cloak clasp shaped like intertwined vines and leaves, echoing 15th-century fashion]
+
+52. Points of Instant Readiness: 90 sp [Effect: Laces, points, and ties on clothing or armor can be fastened or unfastened instantly with a thought or quick tug | Aspect: Durable leather lacing points tipped with polished bone or brass, used for attaching hose to doublets]
+
+53. Hood of the Watchful Shadow: 280 sp [Effect: In dim light or darkness, grants advantage on Wisdom (Perception) checks to notice nearby movement or threats | Aspect: Deep-cowled woolen chaperon in midnight blue, typical for night watchmen or travelers]
+
+54. Undertunic of the Unsoiled: 150 sp [Effect: Resists absorbing sweat, dirt, and minor stains; wearer feels fresher longer between washes | Aspect: Fine linen undertunic with subtle hem embroidery, base layer under kirtles or doublets]
+
+55. Kirtle of the Enduring Form: 220 sp [Effect: Provides light support and reduces fatigue or strain from prolonged standing or walking in formal attire | Aspect: Laced woolen kirtle with fitted bodice in earth tones, popular in 15th-century fashion]
+
+56. Pilgrim’s Shell of the Road: 350 sp [Effect: Once per long rest, grants temporary hit points equal to proficiency bonus or minor endurance benefit on journeys | Aspect: Polished copper alloy pilgrim badge shaped like a scallop shell or saint, pinned to hat or cloak]
+
+57. Signet Ring of the Firm Grip: 180 sp [Effect: Advantage on checks to maintain grip on objects or resist disarm attempts with that hand | Aspect: Simple yet sturdy silver signet ring, often used by merchants or officials]
+
+58. Brooch of Heraldic Display: 260 sp [Effect: Can project a faint illusory version of a chosen heraldic symbol or crest for up to 1 hour per day | Aspect: Enameled and gilded brooch featuring intricate heraldic designs, popular among nobility and guilds]
+
+59. Chaperon of Clear Thought: 200 sp [Effect: +1 bonus to Intelligence checks related to recall or deduction while worn during study or discussion | Aspect: Soft velvet or wool chaperon in scholarly style, common in university towns]
+
+60. Cuff of the Clean Scribe: 110 sp [Effect: Prevents ink, dirt, or grime from staining sleeves or hands during writing or messy work | Aspect: Detachable embroidered fabric or leather sleeve guard, used by scribes and artisans]
+
+61. Spindle of the Tireless Spinner: 140 sp [Effect: Allows faster and more consistent spinning of thread or yarn; reduces textile work time significantly | Aspect: Carved wooden spindle with decorative whorl inlaid with bone, essential tool for textile production]
+
+62. Hammer of the True Nail: 130 sp [Effect: Nails go in straight with less force and are less likely to bend or split wood; +1 to carpentry checks | Aspect: Balanced iron claw hammer with leather-wrapped hickory handle, standard in workshops]
+
+63. Saw of the Precise Cut: 160 sp [Effect: Makes clean, straight, splinter-free cuts in wood or similar materials with minimal effort | Aspect: Fine-toothed handsaw with polished blade and brass frame]
+
+64. Chisel of Intricate Work: 170 sp [Effect: Facilitates detailed carving in wood, bone, or soft stone with greater precision and less chipping | Aspect: Sharp steel chisel with octagonal wooden handle, tool of carvers]
+
+65. Awl of the Leatherworker: 100 sp [Effect: Pierces tough leather cleanly without tearing | Aspect: Tapered steel awl with ringed wooden handle, used by cobblers]
+
+66. Plane of Silken Finish: 190 sp [Effect: Smooths rough wood surfaces quickly to a fine finish; reduces splinters and effort | Aspect: Traditional wooden smoothing plane with adjustable iron blade]
+
+67. Scissors of the Frayless Cut: 150 sp [Effect: Cuts fabric, parchment, or paper cleanly without fraying or jagged edges | Aspect: Ornate iron scissors with loop handles, used by tailors and scribes]
+
+68. Thimble of the Protected Finger: 80 sp [Effect: Completely protects the sewing finger from needle pricks; never slips off | Aspect: Dimpled brass thimble with a small decorative element]
+
+69. Shuttle of the Tight Weave: 210 sp [Effect: Helps create tighter, more consistent, and durable woven fabric | Aspect: Polished hardwood weaving shuttle with yarn guides]
+
+70. Loom Weight of Balanced Warp: 120 sp [Effect: Maintains even tension in warp threads for higher quality cloth | Aspect: Heavy carved stone or lead loom weight with simple symbols]
+
+71. Tankard of the Perfect Pour: 250 sp [Effect: Keeps beverages at ideal temperature longer and pours smoothly without excessive spills or foam overflow | Aspect: Lidded pewter tankard engraved with tavern or heraldic motifs]
+
+72. Plate of Lingering Warmth: 280 sp [Effect: Keeps served food warm for up to an hour longer than normal | Aspect: Decorated maiolica-style ceramic or pewter plate with harvest scenes]
+
+73. Ewer of Graceful Service: 160 sp [Effect: Pours liquids smoothly without dripping or splashing | Aspect: Elegant ceramic ewer with long curved spout and handle]
+
+74. Candlestick of the Long Vigil: 200 sp [Effect: Candles last roughly double the normal duration and resist moderate drafts | Aspect: Tall brass candlestick with wide drip pan and reflector]
+
+75. Book of the Devout Hours: 450 sp [Effect: Aids concentration during prayer or meditation; once per day grants advantage on a Wisdom save or check related to calm or faith | Aspect: Small portable illuminated Book of Hours with gilded edges and clasp]
+
+76. Herbal of Verdant Knowledge: 380 sp [Effect: Reveals common name, basic properties (edible/medicinal/poisonous), and simple uses when examining a plant | Aspect: Handwritten vellum herbal with colored illustrations of plants]
+
+77. Balance of the Fair Merchant: 320 sp [Effect: Always accurate weights; subtle warning if weights or goods are tampered with | Aspect: Portable brass balance scale with nested weights in wooden case]
+
+78. Mortar and Pestle of Fine Grind: 240 sp [Effect: Grinds ingredients finer with less effort while preserving subtle properties | Aspect: Heavy marble mortar and matching pestle with etched symbols]
+
+79. Soap of the Refreshing Lather: 90 sp [Effect: Rich lather even in cold or hard water; effective cleaning with mild pleasant scent | Aspect: Oval bar of fine soap in a carved wooden dish]
+
+80. Towel of Rapid Absorption: 130 sp [Effect: Absorbs moisture quickly and dries itself rapidly when hung | Aspect: Thick linen towel with fringed edges and woven border]
+
+81. Folding Sundial of the Pathfinder: 350 sp [Effect: Accurately tells time and indicates directions; works reliably even on overcast days | Aspect: Compact folding brass diptych sundial with compass rose and gnomon]
+
+82. Hourglass of Exact Interval: 270 sp [Effect: Measures precise time intervals consistently for tasks, cooking, or watches | Aspect: Brass-framed hourglass with calibrated sand in protective case]
+
+83. Bullseye Lantern of the Focused Beam: 420 sp [Effect: Projects bright focused beam up to 60 ft that pierces light mist slightly better; shutter for signaling | Aspect: Portable hooded lantern with polished reflector and shutter]
+
+84. Gimbaled Compass of True Bearing: 380 sp [Effect: Always points to true north, unaffected by nearby iron or minor magic | Aspect: Brass compass in gimbaled mount within wooden box with glass cover]
+
+85. Map Case of Eternal Preservation: 300 sp [Effect: Protects maps, charts, and documents from water, fire, tearing, and wear indefinitely | Aspect: Oiled leather cylindrical case with brass end caps and strap]
+
+86. Planispheric Astrolabe of the Celestial Guide: 550 sp [Effect: Aids basic celestial navigation and timekeeping; advantage on star-based Survival/Navigation checks once per day | Aspect: Small brass astrolabe with interchangeable engraved plates]
+
+87. Scallop Shell of the Weary Pilgrim: 400 sp [Effect: Reduces effects of exhaustion from long-distance travel (ignores one level or minor temp HP benefit) | Aspect: Polished scallop shell pilgrim badge mounted on pin or chain]
+
+88. Pendant of the Night Hunter: 850 sp [Effect: Once per short rest for 1 hour, grants low-light vision 30 ft  | Aspect: Small carved owl-head pendant on leather cord]
+
+89. Inkwell of Steady Flow: 140 sp [Effect: Ink flows smoothly without blotting or skipping on various surfaces | Aspect: Ceramic inkwell with hinged silver lid]
+
+90. Ledger of the Accurate Reckoning: 360 sp [Effect: Aligns columns perfectly; highlights simple arithmetic discrepancies | Aspect: Bound calfskin ledger with brass clasps and lined pages]
+
+91. Diptych Wax Tablet of Infinite Reuse: 220 sp [Effect: Wax erases cleanly and is reusable indefinitely without residue | Aspect: Hinged wooden diptych wax tablet with attached stylus]
+
+92. Quill of Elegant and Tireless Script: 180 sp [Effect: Writes fluidly and beautifully; reduces hand fatigue during long sessions | Aspect: Premium goose quill with gold nib and decorative feather]
+
+93. Signet of Authentic Impression: 290 sp [Effect: Creates crisp, hard-to-forge wax seals that feel inherently official | Aspect: Heavy brass signet with engraved crest on wooden handle]
+
+94. Arming Laces of Comfortable Wear: 160 sp [Effect: Makes wearing armor or heavy clothing far more comfortable; reduces chafing | Aspect: Strong padded leather arming points for securing armor]
+
+95. Gauntlet of the Sure Grasp: 340 sp [Effect: Advantage on Strength checks/saves to maintain grip on weapons or objects | Aspect: Reinforced leather gauntlet with textured palm for sword hand]
+
+96. Rosary of the Steadfast Heart: 310 sp [Effect: +1 to saves against fear or panic while held/worn during prayer | Aspect: String of carved beads with central crucifix or medal]
+
+97. Saddle of the Enduring Journey: 520 sp [Effect: Reduces fatigue and soreness for rider and mount on long rides | Aspect: Padded leather saddle with high cantle and tooled designs]
+
+98. Leash of the Obedient Companion: 230 sp [Effect: Animal stays closer and obeys basic commands more readily | Aspect: Sturdy braided leather leash with metal snap]
+
+99. Falcon Hood of Serene Patience: 270 sp [Effect: Keeps trained falcon or hawk calm and content while hooded | Aspect: Soft leather falcon hood with decorative plumes]
+
+100. Blanket of the Sound Slumber: 190 sp [Effect: Superior warmth and comfort; helps recover from exhaustion more effectively | Aspect: Heavy wool traveling blanket with ties and woven patterns]
+SANE MAGIC MARKET : HIGH-VALUE MINOR MAGIC ITEMS (101-150) - ENGLISH NAMES
+===================================================================================
+Source : Sane Magic Market (D&D 2024) - 15th Century Adapted - Forgotten Realms
+Généré : Juin 2026
+
+=======================================================
+NEW MINOR ITEMS (101-150) - PRICED 900-1800 sp
+=======================================================
+
+101. Cloak of the Unseen Step: 950 sp [Effect: Once per short rest, for 10 minutes grants advantage on Stealth checks and muffles movement sounds more effectively than basic items | Aspect: Fine gray wool cloak with subtle shadow-weave patterns, inspired by traveler's garb of the 15th century]
+
+102. Ring of the Silver Tongue: 1100 sp [Effect: +1 bonus to Charisma (Persuasion) and (Deception) checks in social interactions; once per day reroll a failed social check | Aspect: Elegant silver ring set with a small polished gem, common among merchants and diplomats]
+
+103. Boots of the Tireless Stride: 1200 sp [Effect: Reduces fatigue from long-distance marching or forced marches; wearer can travel at a faster pace without exhaustion for longer periods | Aspect: Sturdy leather traveling boots with reinforced soles and subtle magical stitching, typical of 15th-century road-worn footwear]
+
+104. Amulet of Minor Warding: 1050 sp [Effect: +1 bonus to saving throws against spells or magical effects of 1st level or lower | Aspect: Pewter or silver amulet engraved with protective runes and a holy or arcane symbol]
+
+105. Gloves of the Master Artisan: 1150 sp [Effect: Grants advantage on one crafting or tool proficiency check per long rest and reduces crafting time by 25% for non-magical items | Aspect: Supple high-quality leather gloves with fine stitching and reinforced fingertips, favored by guild masters]
+
+106. Circlet of Focused Mind: 1300 sp [Effect: Advantage on concentration saving throws; once per day ignore one instance of damage that would break concentration | Aspect: Simple silver or copper circlet with a central focus stone, resembling scholarly headwear]
+
+107. Lantern of True Sight: 1400 sp [Effect: Once per day for 10 minutes, reveals invisible creatures or illusions within 30 ft as a faint glow | Aspect: Ornate brass hooded lantern with crystal lens and protective runes, used by watch captains or inquisitors]
+
+108. Satchel of Holding Minor: 1250 sp [Effect: Functions as a small bag of holding (extra 50-100 lbs capacity with reduced weight); items inside stay organized | Aspect: Well-made leather satchel with reinforced seams and iron buckles, styled after merchant travel bags]
+
+109. Blade of the Honest Edge: 1350 sp [Effect: As a bonus action once per short rest, the weapon glows and grants advantage on one Insight check to detect lies or hidden motives | Aspect: Well-balanced shortsword or dagger with a simple but elegant crossguard, reminiscent of 15th-century town guards' arms]
+
+110. Shield of the Steadfast: 1450 sp [Effect: +1 bonus to AC when used as a shield; once per long rest absorb one critical hit as a normal hit | Aspect: Wooden or metal heater shield with reinforced rim and painted heraldic device]
+
+111. Robe of the Learned: 1200 sp [Effect: +1 to Intelligence (Arcana), (History), or (Religion) checks while worn; pages of a held book glow faintly to highlight relevant passages | Aspect: Scholarly robe of fine wool or velvet with embroidered sigils, typical academic attire]
+
+112. Belt of the Mighty Porter: 1600 sp [Effect: Increases carrying capacity by 50-100 lbs (stronger than basic versions) and reduces encumbrance penalties slightly | Aspect: Wide reinforced leather belt with heavy iron buckle and multiple attachment points]
+
+113. Pendant of Health: 1500 sp [Effect: Advantage on saving throws against disease and poison; once per day cure a minor disease or poison effect | Aspect: Gold or silver holy pendant with healing motifs, popular among traveling clerics and healers]
+
+114. Hat of Disguise Minor: 1100 sp [Effect: Once per day, alter appearance subtly (change hair color, facial features slightly, or clothing style) for up to 1 hour | Aspect: Fashionable 15th-century hat or chaperon with a concealed magical thread]
+
+115. Compass of the Safe Path: 1300 sp [Effect: Points toward the nearest safe route or settlement when activated; advantage on Survival checks to avoid getting lost | Aspect: Gimbaled brass compass with additional runes for guidance, enhanced navigational tool]
+
+116. Quill of the Master Scribe: 950 sp [Effect: Writes documents flawlessly and quickly; once per day create a perfect copy of a short non-magical text | Aspect: Ornate goose quill with enchanted nib and decorative feather, used in noble courts]
+
+117. Mirror of the Inner Self: 1250 sp [Effect: Once per day, reveals emotional state or hidden intentions of a reflected person (insight-like effect) | Aspect: Polished silver hand mirror with ornate frame, luxury item for nobility]
+
+118. Horn of the Distant Call: 1400 sp [Effect: Sound carries clearly up to 3-5 km with minor magical amplification; can convey simple coded messages | Aspect: Large polished hunting horn or olifant made from ivory or metal, used by messengers and military]
+
+119. Vest of the Unburdened: 1550 sp [Effect: Reduces the weight of worn armor or gear by 20-30%; improves mobility in heavy equipment | Aspect: Padded or leather vest worn under armor, with subtle reinforcement]
+
+120. Ring of Minor Elemental Protection: 1650 sp [Effect: Resistance to one chosen damage type (cold, fire, lightning, etc.) for 1 hour, once per long rest | Aspect: Gold band set with a small elemental gemstone, crafted by specialized jewelers]
+
+121. Tome of Quick Study: 1700 sp [Effect: Once per long rest, grants advantage on a skill check related to knowledge or recall after 10 minutes of study | Aspect: Compact leather-bound book with blank or faintly magical pages that fill with helpful notes]
+
+122. Saddle of the Swift Rider: 1450 sp [Effect: Mount moves 10-20% faster on long journeys and shares fatigue resistance with rider | Aspect: High-quality tooled leather saddle with magical padding and stirrups]
+
+123. Cloak of the Weathered Traveler: 1350 sp [Effect: Provides resistance to extreme weather (heat, cold, rain); keeps wearer dry and comfortable in harsh conditions | Aspect: Heavy oiled wool or leather traveling cloak with hood and clasp]
+
+124. Gauntlets of the Iron Grip: 1600 sp [Effect: Advantage on Athletics checks involving climbing, grappling, or holding; cannot be disarmed easily | Aspect: Reinforced plate or mail gauntlets with enchanted palms, part of fine armor sets]
+
+125. Amulet of the Watchful Guardian: 1150 sp [Effect: Passive +1 to passive Perception; once per day alert the wearer to danger within 60 ft (like alarm but personal) | Aspect: Silver or bronze amulet shaped like an eye or protective rune]
+
+126. Staff of the Walking Scholar: 1300 sp [Effect: Functions as a quarterstaff; once per day cast a minor utility spell equivalent (e.g., longstrider or comprehend languages for 1 hour) | Aspect: Sturdy wooden walking staff with carved runes and metal cap, used by wandering sages]
+
+127. Pouch of the Endless Coin Minor: 1800 sp [Effect: Once per day produces 5-10 sp worth of mundane coins (non-magical, temporary after 24h) | Aspect: Fine leather coin pouch with reinforced drawstring and subtle gold threading]
+
+128. Brooch of the Commanding Presence: 1250 sp [Effect: +1 to Charisma (Intimidation) checks; once per day impose disadvantage on one opponent's attack or save against fear | Aspect: Ornate jeweled brooch worn on cloak or chest, symbol of authority]
+
+129. Lens of the Keen Eye: 1400 sp [Effect: Acts as a spyglass with enhanced clarity; advantage on Investigation or Perception checks involving distant or fine details | Aspect: Brass or copper monocle or small telescope lens in a protective case]
+
+130. Bracelet of the Steady Hand: 1050 sp [Effect: Advantage on Dexterity checks for fine motor skills (lockpicking, sleight of hand, surgery, crafting) | Aspect: Delicate chain bracelet or wristband with small engraved charms]
+
+131. Banner of the Loyal Company: 1500 sp [Effect: When planted or held, grants nearby allies (within 30 ft) +1 to morale-related saves or advantage on checks against fear once per day | Aspect: Small portable banner or standard with heraldic colors on fine fabric]
+
+132. Chalice of the Pure Vintage: 1150 sp [Effect: Purifies and improves the taste of wine, ale, or water placed within; removes mild toxins or impurities | Aspect: Ornate pewter or silver drinking chalice with engraved scenes of feasts]
+
+133. Gloves of the Silent Thief: 1600 sp [Effect: Greatly reduces sound of manual actions (picking locks, stealing, climbing); advantage on related Stealth checks | Aspect: Soft black or gray leather gloves with thin, flexible palms]
+
+134. Helm of the Alert Sentinel: 1550 sp [Effect: Cannot be surprised while worn if conscious; +1 to initiative in some situations | Aspect: Light sallet or kettle helm with reinforced brow and cheek guards]
+
+135. Scroll Case of Preservation: 1200 sp [Effect: Protects up to 10 scrolls or documents perfectly; once per day duplicate a non-magical scroll as a mundane copy | Aspect: Ornate leather and brass scroll tube with locking mechanism]
+
+136. Pipe of the Soothing Smoke: 950 sp [Effect: Produces calming herbal smoke that grants advantage on saves against being frightened or charmed for nearby allies (short duration) | Aspect: Fine wooden or clay smoking pipe with intricate carvings]
+
+137. Anklet of the Graceful Step: 1350 sp [Effect: Reduces falling damage by half and grants advantage on Acrobatics checks for balance or jumping | Aspect: Delicate silver or gold chain anklet with small bells or charms (bells can be silenced)]
+
+138. Vestment of the Devout: 1450 sp [Effect: +1 to saving throws vs divine or necromantic magic; minor bonus to turning undead or similar abilities for clerics | Aspect: Embroidered clerical robe or tabard with holy symbols]
+
+139. Bridle of the Loyal Mount: 1250 sp [Effect: Makes a mount more responsive and less likely to panic; advantage on Animal Handling checks with that animal | Aspect: Fine leather bridle and reins with decorative metal fittings]
+
+140. Lute of the Enchanting Bard: 1700 sp [Effect: Once per day, performance grants temporary inspiration or advantage on a Charisma check for the group | Aspect: Beautifully crafted lute with inlaid wood and enchanted strings]
+
+141. Flask of the Everfull Minor: 1100 sp [Effect: Once per day refills with up to 1 gallon of fresh water, ale, or wine (non-magical) | Aspect: Sturdy metal or leather-bound flask with a secure stopper]
+
+142. Medallion of the Iron Will: 1500 sp [Effect: Advantage on Wisdom saving throws against charm, fear, or compulsion effects | Aspect: Heavy medallion on a chain featuring a resolute face or fortress motif]
+
+143. Cloak of the Shadowed Blade: 1650 sp [Effect: Once per short rest, gain advantage on one attack roll made with advantage from hiding | Aspect: Dark, lightweight cloak designed for blending into urban or wilderness shadows]
+
+144. Tome of the Arcane Apprentice: 1750 sp [Effect: Contains minor cantrips or utility spells that can be cast once per day each (up to 3 different) | Aspect: Small spellbook or grimoire with protective covers and glowing runes]
+
+145. Harness of the Beast Master: 1300 sp [Effect: Improves control over animal companions or mounts; grants minor telepathic link for simple commands | Aspect: Reinforced leather harness and straps for riding or handling animals]
+
+146. Ring of the Resourceful: 1400 sp [Effect: Once per day, produce a minor tool or mundane item up to 10 gp value (disappears after use) | Aspect: Plain but well-made band with a small compartment or engraving]
+
+147. Shield Brooch of Defense: 1550 sp [Effect: As a reaction once per short rest, gain +2 AC against one attack | Aspect: Small wearable brooch that can unfold into a minor force shield effect]
+
+148. Boots of the Mountain Goat: 1200 sp [Effect: Advantage on Athletics checks for climbing and sure-footedness on difficult terrain | Aspect: Heavy-soled boots with cleats or magical traction, suited for rugged travel]
+
+149. Diadem of the Noble Court: 1600 sp [Effect: +1 to Charisma checks in formal social settings; minor illusion to enhance appearance or status | Aspect: Elegant jeweled or metallic diadem or circlet for nobility]
+
+150. Orb of the Minor Oracle: 1800 sp [Effect: Once per long rest, ask a simple yes/no question about the near future and receive a vague but truthful hint | Aspect: Small crystal or glass orb set in a wooden or metal stand, used by fortune-tellers and advisors]
+
+=======================================================
+END OF HIGH-VALUE MINOR ITEMS (101-150)
+=======================================================
+
+=======================================================
+END OF NEW ITEMS (51-100)
+=======================================================

@@ -1,0 +1,549 @@
+OBJETS MAGIQUES INSPIRÉS DES SORTS - D&D 2024
+Un objet par sortilège de niveau 0 (tour de magie) et de niveau 1
+===================================================================================
+Chaque objet reproduit l'effet du sort indiqué (généralement 1 à 3 fois/jour pour
+les sorts de niveau 1, ou à volonté pour les tours de magie, sauf précision
+contraire). Rareté : Commun pour les tours de magie, Commun à Peu Commun pour le
+niveau 1.
+===================================================================================
+
+============================
+PARTIE 1 — SORTS DE NIVEAU 0
+============================
+
+ACID SPLASH → Goutte de Vitriol (bague)
+Effet : Lance le sort Projection d'Acide une fois par heure.
+Description : Une bague de plomb terni sertie d'une goutte de verre vert trouble
+qui semble toujours sur le point de couler sans jamais tomber.
+
+BLADE WARD → Brassard du Combattant Prudent (brassard)
+Effet : Lance Garde du Tranchant sur soi-même une fois par heure.
+Description : Un brassard de cuir clouté de petits disques de fer mat, gravé
+d'un motif de lame croisée à demi effacé.
+
+BOOMING BLADE → Pommeau Résonnant (accessoire d'arme)
+Effet : Une fois attaché à une arme de corps à corps, permet de lancer Lame
+Tonnante une fois par heure en l'utilisant.
+Description : Un petit pommeau de bronze creux, percé de fentes fines d'où
+s'échappe un léger bourdonnement quand on l'agite.
+
+CHILL TOUCH → Gant du Froid Mordant (gant)
+Effet : Lance Contact Glacial trois fois par jour.
+Description : Un gant de cuir noir aux doigts renforcés d'os fin, dont la paume
+reste glacée même en plein été.
+
+CONTROL FLAMES → Médaillon du Feu Docile (médaillon)
+Effet : Lance Manipulation des Flammes à volonté.
+Description : Un médaillon de cuivre rouge en forme de flamme stylisée,
+légèrement tiède au toucher en permanence.
+
+CREATE BONFIRE → Pierre à Feu de Camp (pierre)
+Effet : Lance Brasier une fois par jour.
+Description : Une pierre noire poreuse, craquelée de fines veines orangées qui
+luisent faiblement dans le noir.
+
+DANCING LIGHTS → Flacon des Feux Follets (flacon)
+Effet : Lance Lumières Dansantes trois fois par jour.
+Description : Un petit flacon de verre dépoli contenant une poussière dorée qui
+tourbillonne doucement sans jamais se déposer.
+
+DRUIDCRAFT → Brindille du Bosquet (brindille)
+Effet : Lance Druidisme à volonté.
+Description : Une fine brindille de chêne toujours verte, qui ne se dessèche
+jamais et dégage une odeur de mousse fraîche.
+
+ELDRITCH BLAST → Éclat de l'Abîme Mineur (amulette)
+Effet : Lance Décharge Occulte une fois par jour (1 rayon seulement).
+Description : Une amulette de pierre noire veinée de violet, froide au toucher,
+sertie dans un cercle de fer tordu.
+
+FIRE BOLT → Pierre à Étincelle (pierre)
+Effet : Lance Trait de Feu trois fois par jour.
+Description : Un galet rougeâtre, lisse, qui dégage une légère odeur de soufre
+et chauffe doucement quand on le serre fort.
+
+FRIENDS → Fard de Charme Léger (fard à joues)
+Effet : Lance Amitié une fois par jour (effets habituels du sort si la cible
+découvre la supercherie).
+Description : Un petit pot de fard rosé à l'odeur de miel, dont le reflet dans
+un miroir semble toujours légèrement plus séduisant que la réalité.
+
+FROSTBITE → Anneau du Gel Mordant (anneau)
+Effet : Lance Engelure trois fois par jour.
+Description : Un anneau d'argent terni orné d'un minuscule flocon gravé, qui
+givre légèrement par temps humide.
+
+GREEN-FLAME BLADE → Pommeau Vert-Flamme (accessoire d'arme)
+Effet : Une fois attaché à une arme de corps à corps, permet de lancer Lame de
+Feu Verte une fois par heure en l'utilisant.
+Description : Un petit cristal vert taillé serti dans le pommeau d'une arme,
+qui dégage une fumée verdâtre tenue lors de l'impact.
+
+GUIDANCE → Médaille du Pèlerin Conseillé (médaille)
+Effet : Lance Conseil Divin trois fois par jour.
+Description : Une petite médaille d'étain représentant une main ouverte,
+portée au bout d'un cordon de cuir tressé.
+
+GUST → Éventail du Vent Léger (éventail)
+Effet : Lance Bourrasque une fois par jour.
+Description : Un éventail de plumes de pigeon montées sur une armature de bois
+de saule, qui s'ouvre toujours avec un léger sifflement.
+
+INFESTATION → Bourse de Vermine Docile (bourse)
+Effet : Lance Infestation une fois par jour.
+Description : Une petite bourse de cuir tachetée, qui produit un léger
+bruissement constant comme si quelque chose grouillait à l'intérieur.
+
+LIGHT → Caillou Lumineux (caillou)
+Effet : Lance Lumière trois fois par jour.
+Description : Un petit caillou blanc poli, parfaitement lisse, qui garde
+toujours une chaleur douce et stable.
+
+LIGHTNING LURE → Fouet de Corde Électrique (fouet court)
+Effet : Permet de lancer Attrait Foudroyant une fois par heure.
+Description : Un fouet court tressé de fils de cuivre fins, qui crépite
+légèrement quand on le fait claquer.
+
+MAGE HAND → Gant de Velours Invisible (gant)
+Effet : Lance Main du Mage trois fois par jour.
+Description : Un gant de velours violet usé, étrangement froid et léger, dont
+les doigts semblent toujours légèrement tendus comme prêts à saisir.
+
+MENDING → Aiguille du Rapiéçage (aiguille)
+Effet : Lance Réparation trois fois par jour.
+Description : Une fine aiguille d'os blanc, dont le chas semble toujours
+enfilé d'un fil invisible.
+
+MESSAGE → Coquillage Chuchoteur (coquillage)
+Effet : Lance Message trois fois par jour.
+Description : Un petit coquillage en spirale qui émet un léger bourdonnement
+si on le porte à l'oreille, même loin de la mer.
+
+MIND SLIVER → Éclat de Verre Migraineux (éclat monté)
+Effet : Lance Écharde Mentale trois fois par jour.
+Description : Un fragment de verre noir taillé en pointe, monté sur un
+cordon, qui vibre faiblement contre la peau.
+
+MINOR ILLUSION → Dé à Coudre du Mensonge Doux (dé à coudre)
+Effet : Lance Illusion Mineure trois fois par jour.
+Description : Un dé à coudre d'étain bosselé, dont l'intérieur semble parfois
+refléter une image légèrement différente du reste.
+
+MOLD EARTH → Truelle de Terre Malléable (truelle)
+Effet : Lance Façonnage de la Terre trois fois par jour.
+Description : Une petite truelle de fer, dont le manche de bois reste
+toujours étrangement terreux au toucher.
+
+POISON SPRAY → Fiole du Souffle Vert (fiole)
+Effet : Lance Jet de Poison trois fois par jour.
+Description : Une petite fiole de verre verdâtre bouchée d'un liège noirci,
+dégageant une légère odeur âcre même fermée.
+
+PRESTIDIGITATION → Dé d'Os du Bricoleur (dé)
+Effet : Lance Prestidigitation à volonté.
+Description : Un petit dé d'os jauni, gravé de symboles flous représentant
+flamme, eau, vent et terre.
+
+PRIMAL SAVAGERY → Crocs de Bête Primitive (anneau)
+Effet : Lance Sauvagerie Primitive trois fois par jour (uniquement à mains
+nues).
+Description : Un anneau orné d'un petit croc d'animal jauni, dont la pointe
+reste toujours étrangement acérée.
+
+PRODUCE FLAME → Pierre Tisonnière (pierre)
+Effet : Lance Production de Flamme trois fois par jour.
+Description : Une pierre noire poreuse qui dégage une chaleur résiduelle
+constante, même longtemps après usage.
+
+RAY OF FROST → Éclat de Givre Persistant (éclat monté)
+Effet : Lance Rayon de Givre trois fois par jour.
+Description : Un cristal de glace qui ne fond jamais, monté en pendentif sur
+une chaîne d'argent froide.
+
+RESISTANCE → Ruban de Protection Discrète (ruban)
+Effet : Lance Résistance trois fois par jour.
+Description : Un ruban de soie grise tissé de fils d'argent, qui se resserre
+légèrement quand on le noue au poignet.
+
+SACRED FLAME → Petite Flamme Bénie (médaille)
+Effet : Lance Flamme Sacrée trois fois par jour.
+Description : Une médaille de bronze doré en forme de flamme stylisée,
+toujours chaude au toucher comme exposée au soleil.
+
+SHAPE WATER → Sceau de l'Eau Obéissante (sceau)
+Effet : Lance Manipulation de l'Eau trois fois par jour.
+Description : Un petit sceau de bronze gravé d'une vague, qui reste toujours
+légèrement humide même au sec.
+
+SHILLELAGH → Bâton du Bois Vivant (bâton court)
+Effet : Permet de lancer Bâton Noueux une fois par heure sur lui-même.
+Description : Un bâton court de bois noueux, dont l'écorce semble toujours
+légèrement vivante, comme prête à bourgeonner.
+
+SHOCKING GRASP → Gant de l'Étreinte Crépitante (gant)
+Effet : Lance Décharge Électrique trois fois par jour.
+Description : Un gant de cuir clouté de petits éclats de métal, dont les
+poils du dos de la main se hérissent en permanence.
+
+SPARE THE DYING → Onguent du Dernier Souffle (petit pot)
+Effet : Lance Stabilisation trois fois par jour.
+Description : Un petit pot d'onguent blanchâtre à l'odeur de cire d'abeille
+et d'herbes amères, qui ne se vide jamais complètement.
+
+SWORD BURST → Halo de Lames Brèves (bracelet)
+Effet : Lance Tourbillon de Lames une fois par jour.
+Description : Un bracelet de fer fin orné de minuscules lames miniatures
+suspendues, qui s'entrechoquent doucement sans jamais se toucher.
+
+THAUMATURGY → Cloche du Murmure Sacré (clochette)
+Effet : Lance Thaumaturgie à volonté.
+Description : Une petite clochette de bronze terni, dont le son semble
+toujours légèrement plus grave qu'il ne devrait l'être.
+
+THORN WHIP → Liane Tressée du Chasseur (fouet court)
+Effet : Lance Fouet d'Épines trois fois par jour.
+Description : Un fouet tressé à partir d'une liane séchée hérissée de petites
+épines émoussées, toujours souple malgré son âge.
+
+THUNDERCLAP → Bracelet du Tonnerre Proche (bracelet)
+Effet : Lance Claquement Tonnerre trois fois par jour.
+Description : Un bracelet de cuivre martelé qui vibre légèrement et émet un
+léger bourdonnement sourd en permanence.
+
+TRUE STRIKE → Médaillon du Coup Assuré (médaillon)
+Effet : Lance Trait Assuré trois fois par jour.
+Description : Un médaillon de fer poli en forme d'œil ouvert, qui semble
+toujours fixé droit devant, quelle que soit son orientation.
+
+VICIOUS MOCKERY → Sifflet de la Moquerie Cruelle (sifflet)
+Effet : Lance Moquerie Cruelle trois fois par jour.
+Description : Un petit sifflet d'os noirci, gravé d'un visage grimaçant, qui
+émet un son grinçant et désagréable même sans souffler fort.
+
+WORD OF RADIANCE → Grain de Lumière Sacrée (grain enchâssé)
+Effet : Lance Mot de Radiance une fois par jour.
+Description : Un minuscule grain de cristal doré serti dans une bague
+d'argent simple, qui luit faiblement au crépuscule.
+
+
+============================
+PARTIE 2 — SORTS DE NIVEAU 1
+============================
+
+ALARM → Clochette du Veilleur Discret (clochette)
+Effet : Lance Alarme une fois par jour.
+Description : Une petite clochette de cuivre suspendue à un fil de cuir fin,
+muette tant qu'elle n'est pas activée par son rituel.
+
+ANIMAL FRIENDSHIP → Sifflet du Compagnon Apaisé (sifflet)
+Effet : Lance Amitié avec les Animaux une fois par jour.
+Description : Un sifflet d'os sculpté en forme de petit animal accroupi, dont
+le son est inaudible pour les oreilles humaines.
+
+ARMOR OF AGATHYS → Médaillon de Glace Vengeresse (médaillon)
+Effet : Lance Armure d'Agathys une fois par jour.
+Description : Un médaillon de fer noir serti d'un éclat de glace qui ne fond
+jamais, entouré de givre permanent.
+
+ARMS OF HADAR → Cape des Bras Ténébreux (cape)
+Effet : Lance Bras de Hadar une fois par jour.
+Description : Une cape sombre dont l'ourlet semble onduler doucement même
+sans vent, comme animé de tentacules invisibles.
+
+BANE → Sifflet Discordant (sifflet)
+Effet : Lance Poisse une fois par jour.
+Description : Un petit sifflet de fer rouillé, dont le son grinçant met
+instantanément mal à l'aise quiconque l'entend.
+
+BLESS → Fiole d'Onction Bénie (fiole)
+Effet : Lance Bénédiction une fois par jour.
+Description : Une petite fiole de verre clair contenant une huile dorée qui
+scintille doucement à la lumière.
+
+BURNING HANDS → Gantelets du Souffle Ardent (gantelets)
+Effet : Lance Mains Brûlantes une fois par jour.
+Description : Des gantelets de cuir renforcés de plaques de cuivre, dont la
+paume garde une chaleur résiduelle constante.
+
+CHARM PERSON → Broche du Regard Engageant (broche)
+Effet : Lance Charme-Personne une fois par jour.
+Description : Une broche d'argent en forme d'œil mi-clos, dont le regard
+semble suivre discrètement l'interlocuteur.
+
+CHROMATIC ORB → Orbe de Verre aux Mille Teintes (petite sphère)
+Effet : Lance Orbe Chromatique une fois par jour (dégâts au choix selon le
+sort).
+Description : Une petite sphère de verre soufflé dont la couleur change
+lentement selon la lumière ambiante.
+
+COLOR SPRAY → Poudre des Couleurs Aveuglantes (sachet)
+Effet : Lance Jet de Couleurs une fois par jour.
+Description : Un petit sachet de toile contenant une poudre chatoyante aux
+reflets changeants, qui ne se vide jamais entièrement.
+
+COMMAND → Sceau de l'Ordre Bref (sceau)
+Effet : Lance Ordre une fois par jour.
+Description : Un sceau de bronze gravé d'un mot illisible dans une langue
+oubliée, étonnamment lourd pour sa taille.
+
+COMPELLED DUEL → Gant du Défi Loyal (gant)
+Effet : Lance Duel Forcé une fois par jour.
+Description : Un gant de cuir blanc renforcé de fil d'or, porté
+traditionnellement par les champions en duel.
+
+COMPREHEND LANGUAGES → Pendentif du Linguiste (pendentif)
+Effet : Lance Compréhension des Langues une fois par jour.
+Description : Un petit pendentif de bronze en forme de langue stylisée,
+gravé de runes appartenant à plusieurs alphabets différents.
+
+CREATE OR DESTROY WATER → Gourde de l'Eau Volontaire (gourde)
+Effet : Lance Création ou Destruction d'Eau une fois par jour.
+Description : Une gourde en étain sobre, qui transpire légèrement même
+quand elle est vide et sèche.
+
+CURE WOUNDS → Fiole de Chair Réparée (fiole)
+Effet : Lance Soin des Blessures une fois par jour.
+Description : Une fiole de verre rougeâtre contenant un liquide épais qui
+sent légèrement le sang et les herbes médicinales.
+
+DETECT EVIL AND GOOD → Médaillon du Discernement (médaillon)
+Effet : Lance Détection du Mal et du Bien une fois par jour.
+Description : Un médaillon d'argent partagé en deux moitiés, l'une polie et
+claire, l'autre ternie et sombre.
+
+DETECT MAGIC → Lentille des Auras Visibles (monocle)
+Effet : Lance Détection de la Magie trois fois par jour.
+Description : Un petit monocle serti dans un cadre de cuivre fin, dont le
+verre semble légèrement trouble même bien nettoyé.
+
+DETECT POISON AND DISEASE → Anneau du Goût Prudent (anneau)
+Effet : Lance Détection du Poison et des Maladies trois fois par jour.
+Description : Un anneau de fer simple qui noircit légèrement au contact
+d'une substance dangereuse.
+
+DISGUISE SELF → Miroir du Visage Emprunté (petit miroir)
+Effet : Lance Apparence Trompeuse une fois par jour.
+Description : Un petit miroir de poche au cadre d'étain, dont le reflet
+hésite parfois une seconde avant de se stabiliser.
+
+DISSONANT WHISPERS → Flûte des Murmures Discordants (flûte)
+Effet : Lance Murmures Dissonants une fois par jour.
+Description : Une flûte d'os noirci dont les trous semblent désalignés,
+produisant un son désagréable même joué correctement.
+
+DIVINE FAVOR → Ruban de Faveur Céleste (ruban)
+Effet : Lance Faveur Divine une fois par jour.
+Description : Un ruban de soie blanche brodé de fil d'or, qui dégage une
+légère odeur d'encens.
+
+ENTANGLE → Graine de la Liane Dormante (petite graine)
+Effet : Lance Enchevêtrement une fois par jour (la graine repousse après
+usage).
+Description : Une graine sombre et dure, légèrement tiède, qui semble prête
+à germer instantanément.
+
+EXPEDITIOUS RETREAT → Bottes du Pas Pressé (bottes)
+Effet : Lance Retraite Rapide une fois par jour.
+Description : Des bottes de cuir souple aux semelles légèrement craquelées,
+toujours étonnamment légères au pied.
+
+FAERIE FIRE → Poudre des Contours Lumineux (sachet)
+Effet : Lance Feu Follet une fois par jour.
+Description : Un petit sachet de poudre bleutée qui scintille doucement dans
+l'obscurité, même fermé.
+
+FALSE LIFE → Fiole de Vigueur Empruntée (fiole)
+Effet : Lance Fausse Vie une fois par jour.
+Description : Une fiole trapue contenant un liquide grisâtre épais, à
+l'odeur légèrement métallique.
+
+FEATHER FALL → Plume du Saut Léger (plume montée)
+Effet : Lance Chute de Plume trois fois par jour (réaction).
+Description : Une plume de corbeau blanche montée en pendentif, qui ne
+touche jamais vraiment le sol quand on la laisse tomber seule.
+
+FIND FAMILIAR → Petite Cage Vide du Lien (cage miniature)
+Effet : Permet de lancer Familier (rituel) une fois par semaine sans
+composantes coûteuses.
+Description : Une minuscule cage de fer noir, vide, dont la porte reste
+toujours légèrement entrouverte.
+
+FOG CLOUD → Flacon de Brume Captive (flacon)
+Effet : Lance Nuage de Brouillard une fois par jour.
+Description : Un flacon de verre épais et trouble, dans lequel une brume
+grise tourbillonne lentement sans jamais s'éclaircir.
+
+GOODBERRY → Bourse aux Baies Nourrissantes (petite bourse)
+Effet : Lance Baies Nourricières une fois par jour.
+Description : Une petite bourse de cuir doublée de feuilles séchées,
+toujours légèrement parfumée de fruits sauvages.
+
+GREASE → Flacon de Suif Glissant (flacon)
+Effet : Lance Graisse une fois par jour.
+Description : Un flacon trapu de verre vert foncé contenant une substance
+huileuse qui ne colle jamais aux doigts.
+
+GUIDING BOLT → Pierre du Trait Guidé (pierre)
+Effet : Lance Trait Guidé une fois par jour.
+Description : Une pierre dorée et lisse, chaude au toucher, qui semble
+légèrement vibrer quand on vise une cible.
+
+HEALING WORD → Perle du Mot Apaisant (perle montée)
+Effet : Lance Mot de Guérison une fois par jour.
+Description : Une perle blanche nacrée montée sur un cordon de soie, qui
+chuchote presque imperceptiblement quand on la serre fort.
+
+HEROISM → Plume du Courage Bref (plume)
+Effet : Lance Héroïsme une fois par jour.
+Description : Une plume d'aigle teinte de rouge, fixée à un petit fermoir de
+laiton, qui redresse légèrement quiconque la porte au cœur.
+
+HEX → Poupée de Chiffon Maudite (petite poupée)
+Effet : Lance Entrave une fois par jour.
+Description : Une petite poupée de chiffon cousue grossièrement, garnie de
+brindilles et liée par un fil noir noué sept fois.
+
+HUNTER'S MARK → Flèche Gravée du Pisteur (flèche)
+Effet : Lance Marque du Chasseur une fois par jour (l'utiliser ne consomme
+pas la flèche).
+Description : Une flèche à l'empennage noir, gravée d'une petite croix sur
+la pointe, qui ne s'use jamais en vol.
+
+ICE KNIFE → Éclat de Glace Taillé (éclat monté)
+Effet : Lance Couteau de Glace une fois par jour.
+Description : Un fragment de glace bleutée monté en pendentif, qui ne fond
+jamais même au contact de la peau.
+
+IDENTIFY → Loupe du Savant Curieux (loupe)
+Effet : Lance Identification une fois par jour (rituel).
+Description : Une loupe à monture de laiton ouvragée, dont le verre grossit
+légèrement plus que la normale les objets enchantés.
+
+ILLUSORY SCRIPT → Plume d'Encre Secrète (plume d'écriture)
+Effet : Lance Écriture Illusoire une fois par jour.
+Description : Une plume d'oie noire dont l'encre semble légèrement violacée
+à la lumière, et change d'aspect selon le lecteur.
+
+INFLICT WOUNDS → Gantelet de la Douleur Imposée (gantelet)
+Effet : Lance Blessures une fois par jour.
+Description : Un gantelet de cuir sombre dont la paume est marquée d'une
+cicatrice gravée en relief.
+
+JUMP → Grelot du Bond Léger (grelot)
+Effet : Lance Bond une fois par jour.
+Description : Un petit grelot de bronze attaché à une cordelette, qui tinte
+faiblement à chaque pas un peu plus vif que la normale.
+
+LONGSTRIDER → Lacets du Pas Allongé (lacets)
+Effet : Lance Enjambée une fois par jour.
+Description : Une paire de lacets de cuir tressé qui semblent toujours
+légèrement plus longs qu'ils ne devraient l'être.
+
+MAGE ARMOR → Corselet de Force Invisible (corselet léger)
+Effet : Lance Armure du Mage une fois par jour.
+Description : Un fin corselet de tissu gris sans aucune plaque visible,
+pourtant étrangement rigide au toucher.
+
+MAGIC MISSILE → Carquois des Traits Assurés (carquois miniature)
+Effet : Lance Projectile Magique une fois par jour.
+Description : Un petit carquois miniature porté en pendentif, contenant
+trois flèches symboliques gravées qui ne se détachent jamais vraiment.
+
+PROTECTION FROM EVIL AND GOOD → Cercle de Craie Bénie (petit sachet de
+craie)
+Effet : Lance Protection contre le Mal et le Bien une fois par jour.
+Description : Un petit sachet de craie blanche parfumée à l'encens, dont la
+poussière reste toujours fraîche.
+
+PURIFY FOOD AND DRINK → Sel du Garde-Manger Sûr (petite salière)
+Effet : Lance Purification de Nourriture et de Boisson une fois par jour.
+Description : Une petite salière de bois sculpté contenant un sel
+légèrement bleuté qui ne s'épuise jamais.
+
+RAY OF SICKNESS → Fiole de Bile Verdâtre (fiole)
+Effet : Lance Rayon de Maladie une fois par jour.
+Description : Une fiole trouble contenant un liquide vert-jaune épais à
+l'odeur âcre persistante.
+
+SANCTUARY → Médaillon du Refuge Bref (médaillon)
+Effet : Lance Sanctuaire une fois par jour.
+Description : Un médaillon d'argent gravé d'un cercle protecteur, tiède au
+toucher dès qu'on le serre dans la paume.
+
+SEARING SMITE → Lame à l'Âme Brûlante (accessoire d'arme)
+Effet : Une fois attaché à une arme, permet de lancer Châtiment Brûlant une
+fois par jour.
+Description : Un petit cabochon rouge serti dans la garde d'une arme,
+chaud en permanence comme une braise.
+
+SHIELD → Bracelet du Bouclier Instantané (bracelet)
+Effet : Lance Bouclier une fois par jour (réaction).
+Description : Un bracelet de fer simple, dont la surface se ternit
+légèrement après chaque usage avant de retrouver son éclat en une heure.
+
+SHIELD OF FAITH → Ruban du Voile Protecteur (ruban)
+Effet : Lance Bouclier de la Foi une fois par jour.
+Description : Un ruban de soie dorée noué au bras, qui scintille
+faiblement d'une lueur dorée presque imperceptible.
+
+SILENT IMAGE → Boîte à Images Muettes (petite boîte)
+Effet : Lance Image Silencieuse une fois par jour.
+Description : Une petite boîte de bois laqué noir, dont l'intérieur est
+tapissé d'un tissu changeant de motif selon l'angle de vue.
+
+SLEEP → Sachet de Poussière de Songe (sachet)
+Effet : Lance Sommeil une fois par jour.
+Description : Un petit sachet de toile fine contenant une poudre grise très
+légère, qui dégage une odeur sucrée et apaisante.
+
+SPEAK WITH ANIMALS → Collier du Langage des Bêtes (collier)
+Effet : Lance Communication avec les Animaux une fois par jour.
+Description : Un collier de cuir tressé orné de petites griffes et de
+plumes diverses provenant de plusieurs espèces.
+
+TASHA'S HIDEOUS LAUGHTER → Grelot du Rire Incontrôlable (grelot)
+Effet : Lance Hilarité Incontrôlable de Tasha une fois par jour.
+Description : Un petit grelot doré dont le tintement provoque un sourire
+involontaire chez quiconque l'entend de près.
+
+TENSER'S FLOATING DISK → Jeton du Disque Flottant (jeton)
+Effet : Lance Disque Flottant de Tenser une fois par jour.
+Description : Un jeton de bronze plat gravé d'un cercle, étrangement léger
+et toujours légèrement tiède.
+
+THUNDEROUS SMITE → Lame au Grondement Sourd (accessoire d'arme)
+Effet : Une fois attaché à une arme, permet de lancer Châtiment Tonnerre une
+fois par jour.
+Description : Un petit cabochon gris-bleu serti dans la garde d'une arme,
+qui vibre faiblement comme un tonnerre lointain.
+
+THUNDERWAVE → Disque de Bronze Vibrant (disque monté)
+Effet : Lance Onde de Tonnerre une fois par jour.
+Description : Un disque de bronze gravé de cercles concentriques, monté en
+pendentif, qui résonne doucement quand on le frappe.
+
+UNSEEN SERVANT → Clochette du Serviteur Discret (clochette)
+Effet : Lance Serviteur Invisible une fois par jour.
+Description : Une petite clochette d'argent fixée à un ruban noir, dont le
+son est si feutré qu'il semble étouffé exprès.
+
+WITCH BOLT → Fil de Cuivre Crépitant (fil enroulé)
+Effet : Lance Éclair de Sorcière une fois par jour.
+Description : Un fin fil de cuivre enroulé en bracelet, qui crépite
+légèrement d'électricité statique au moindre frottement.
+
+WRATHFUL SMITE → Lame à la Fureur Contenue (accessoire d'arme)
+Effet : Une fois attaché à une arme, permet de lancer Châtiment Courroucé
+une fois par jour.
+Description : Un petit cabochon rouge sombre serti dans la garde d'une
+arme, qui semble parfois palpiter comme un cœur furieux.
+
+ZEPHYR STRIKE → Plume du Vent Précis (plume montée)
+Effet : Lance Frappe du Zéphyr une fois par jour.
+Description : Une plume blanche montée sur un fermoir d'argent, qui frémit
+légèrement même sans le moindre courant d'air.
+
+===================================================================================
+Fin du document — un objet magique par tour de magie et par sort de niveau 1
+(liste principale du Manuel des Joueurs 2024)
+===================================================================================

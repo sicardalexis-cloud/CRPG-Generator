@@ -15,6 +15,7 @@ Le capital représente l'argent liquide + la capacité à faire des achats suppl
 """
 
 import random
+from typing import Dict
 
 # =============================================================================
 # MULTIPLICATEURS SELON LE TYPE DE SETTLEMENT

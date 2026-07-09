@@ -341,6 +341,36 @@ def _load_starting_magic_items() -> list[dict]:
     return items
 
 
+def _pick_top_affordable_candidates(items: list[dict], count: int = 10) -> list[dict]:
+    """Pick up to *count* items, preferring the highest prices.
+
+    Within each price tier, candidates are chosen uniformly at random so that
+    ex æquo are not biased by file order.
+    """
+    if not items or count <= 0:
+        return []
+
+    import random
+    from collections import defaultdict
+
+    by_price: dict[int, list[dict]] = defaultdict(list)
+    for item in items:
+        by_price[item["price"]].append(item)
+
+    picked: list[dict] = []
+    for price in sorted(by_price.keys(), reverse=True):
+        need = count - len(picked)
+        if need <= 0:
+            break
+        tier = by_price[price]
+        if len(tier) <= need:
+            picked.extend(tier)
+        else:
+            picked.extend(random.sample(tier, need))
+            break
+    return picked
+
+
 def _select_starting_magic_items(budget: int, kit: dict | None = None) -> list[dict]:
     """
     Selection of starting magic items by repeatedly picking from the 10 most expensive
@@ -353,9 +383,10 @@ def _select_starting_magic_items(budget: int, kit: dict | None = None) -> list[d
     3. If a kit is provided, apply kit-aware filtering for magic projectiles.
     4. While budget remains and items can still be afforded:
          - Identify all items that fit in the *current remaining* budget.
-         - Sort them by price (most expensive first).
-         - Take the top 10 (or fewer if less than 10 fit).
-         - Randomly pick *one* from these top 10.
+         - Build a pool of up to 10 candidates, starting with the highest price tier.
+           When several items share the same price, sample randomly within that tier
+           (no file-order bias).
+         - Randomly pick *one* from this pool.
          - If it still fits (it should), add it and subtract its price.
          - Remove the chosen item from the pool.
     5. Stop when no more items can be purchased with remaining budget.
@@ -384,9 +415,7 @@ def _select_starting_magic_items(budget: int, kit: dict | None = None) -> list[d
         if not can_afford:
             break
 
-        # Sort by descending price and take the 10 most expensive
-        can_afford_sorted = sorted(can_afford, key=lambda x: x["price"], reverse=True)
-        top_10 = can_afford_sorted[:10]
+        top_10 = _pick_top_affordable_candidates(can_afford, count=10)
 
         # Pick one at random from the top 10
         chosen = random.choice(top_10)
@@ -578,7 +607,8 @@ def generate_character(char_id: str = "TEMP", level: int = 1):
     #   2. Keep only items whose price <= budget ("affordable" pool)
     #   3. Repeatedly:
     #        - Among items that fit in the *current remaining* budget,
-    #          take the 10 most expensive (or all if fewer than 10).
+    #          build up to 10 candidates from the highest price tiers.
+    #          Ex æquo within a tier are sampled randomly (no file-order bias).
     #        - Randomly select one of them.
     #        - Buy it if possible and subtract its price.
     #        - Remove it from consideration.

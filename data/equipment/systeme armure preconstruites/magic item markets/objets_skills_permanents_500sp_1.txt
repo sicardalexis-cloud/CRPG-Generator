@@ -1,0 +1,42 @@
+Nom en français|Nom en anglais|Prix|Description / Aspect de l’objet|Effet magique
+Sacoche Hermétique du Guérisseur|Hermetic Healer's Satchel|650 sp|Fine leather pouch with alchemical symbols; herbs stay fresh indefinitely.|Once per long rest, advantage on Medicine/hermetic healing checks when using the pouch.
+Selle du Coursier de Bataille|War Rider's Saddle|720 sp|Reinforced leather saddle with battle motifs and stable stirrups.|Advantage on riding/Animal Handling checks in combat or chaotic situations.
+Ceinture des Eaux Obscures|Murky Depths Swim Belt|520 sp|Wide oiled leather belt with dark glass beads that glow faintly underwater.|Advantage on swimming checks in dark, murky or deep waters when worn.
+Silex du Feu Primordial|Primordial Fire Flint|480 sp|Black flint with red veins on ash-wood handle; always warm.|Advantage on fire-starting/mastery checks (even in rain) once per long rest.
+Loupe du Forager Sauvage|Wild Forager's Magnifying Lens|460 sp|Copper-framed magnifying glass with green-tinted lens.|Advantage on foraging/plant identification checks when using the lens.
+Loupe du Pisteur Émérite|Master Tracker's Spyglass Lens|490 sp|Copper spyglass-like lens engraved with animal tracks.|Advantage on general tracking checks once per long rest.
+Cape de la Feuille Silencieuse|Forest Shadow Cloak|530 sp|Gray-green wool cape with leaf patterns and deep hood.|Advantage on Stealth checks in forest when worn.
+Bâton du Montagnard|Mountain Endurance Staff|540 sp|Oak staff with iron tip and mountain runes.|Advantage on endurance/climbing checks in mountains.
+Gants du Grimpeur de Falaises|Cliff Climber's Gloves|560 sp|Thick leather gloves with textured palms and reinforced stitching.|Advantage on technical climbing checks when gloves are worn.
+Boussole du Terrain Complexe|Rough Terrain Compass|580 sp|Gimbaled brass compass with extra directional runes.|Advantage on navigation in difficult/rough terrain once per long rest.
+Outre du Nomade du Désert|Desert Nomad's Waterskin|580 sp|Goat-skin waterskin with dune and star motifs; keeps water cool.|Advantage on water finding/purification in deserts.
+Cape du Nomade Thermique|Desert Thermal Cloak|550 sp|Layered wool and linen cloak that regulates temperature.|Advantage on thermal endurance checks in extreme heat/cold deserts.
+Carte Enchantée des Terres Ouvertes|Open Plains Navigator's Map Case|510 sp|Oiled parchment map case that highlights safe routes faintly.|Advantage on open land/plains navigation checks.
+Bottes des Marais|Marsh Wanderer's Boots|510 sp|High oiled leather boots with wide soles and bone crampons.|Advantage on movement checks in marshy/wetland terrain.
+Amulette des Marais Sains|Marsh Ward Amulet|490 sp|Pewter amulet with reed and herbal motifs.|Advantage on disease resistance checks in marsh environments.
+Bottes du Pisteur des Marécages|Wetland Tracker's Boots|500 sp|Specialized marsh boots with subtle tracking enhancements.|Advantage on tracking in wetlands.
+Manteau de la Résistance Glaciale|Extreme Cold Resistance Mantle|570 sp|Heavy fur-lined wool cloak with ice-resistant weave.|Advantage on extreme cold resistance/endurance checks.
+Marteau du Bâtisseur de Glace|Ice Shelter Builder's Hammer|530 sp|Balanced iron hammer with carved bone handle.|Advantage on snow/ice shelter construction checks.
+Arc du Chasseur Polaire|Arctic Hunter's Bow|620 sp|Reindeer-horn reinforced shortbow with tendon string.|Advantage on arctic hunting/tracking checks.
+Pierre du Guide Nocturne|Darkness Guide Stone|590 sp|Smooth black stone that emits faint blue glow.|Advantage on navigation in total darkness once per long rest.
+Casque du Mineur des Profondeurs|Subterranean Hazard Helmet|570 sp|Iron helmet with integrated lantern and side guards.|Advantage on detecting subterranean hazards.
+Cape de l'Espace Confiné|Confined Space Shadow Cloak|480 sp|Slim dark wool cape designed for crawling.|Advantage on Stealth in tight/confined spaces.
+Bâton du Navigateur Souterrain|Underground Navigator's Staff|550 sp|Wooden staff with glowing crystal tip.|Advantage on underground navigation checks.
+Astrolabe du Navigateur|Oceanic Star Astrolabe|680 sp|Brass astrolabe with interchangeable constellation plates.|Advantage on oceanic/star-based navigation.
+Canne du Pêcheur des Abysses|Deep Sea Fisherman's Rod|510 sp|Ash-wood rod with brass reel and enchanted line.|Advantage on deep-sea fishing checks.
+Amulette du Marin Endurci|Storm Mariner's Amulet|610 sp|Brass anchor-and-wave amulet.|Advantage on storm navigation and seasickness resistance.
+Bottes du Chasseur de Plaine|Plains Tracker's Boots|470 sp|Lightweight leather boots with grass motifs.|Advantage on plains tracking.
+Herboriste de la Savane|Savanna Herbalist's Tome|460 sp|Leather-bound herbal with savanna illustrations.|Advantage on savanna plant knowledge/foraging.
+Panier du Ramasseur Littoral|Coastal Survivor's Basket|430 sp|Reinforced wicker basket with shell motifs.|Advantage on coastal survival and foraging.
+Couteau du Ramasseur de Littoral|Littoral Forager's Blade|420 sp|Short blade with tide-line engravings.|Advantage on littoral/coastal foraging.
+Boussole de l'Îlien|Island Navigator's Compass|550 sp|Brass compass pointing toward nearest land.|Advantage on island/archipelago navigation.
+Sacoche du Trappeur Expert|Expert Trapper's Pouch|450 sp|Worn leather pouch with unbreakable cords and hooks.|Advantage on trapping and snaring checks.
+Couteau du Boucher de Campagne|Camp Butcher's Knife|420 sp|Wide steel blade with bone handle and hunt scenes.|Advantage on butchering and meat preservation.
+Pierre du Prophète du Temps|Weather Prophet's Stone|490 sp|Flat stone that changes color with humidity.|Advantage on weather prediction checks.
+Fuseau du Maître Cordier|Master Cordmaker's Spindle|380 sp|Hardwood spindle with unbreakable enchanted thread.|Advantage on rope-making and knot checks.
+Marteau du Bâtisseur de Refuges|Wilderness Shelter Hammer|460 sp|Iron camp hammer with reinforced oak handle.|Advantage on wilderness shelter building.
+Bottes du Marcheur Infatigable|Forced March Traveler's Boots|550 sp|Road-worn leather boots with magical stitching.|Advantage on forced march endurance checks.
+Bâton du Passeur de Rivières|River Crosser's Staff|470 sp|Long staff with iron tip and integrated ropes.|Advantage on river crossing and current navigation.
+Gant du Dompteur Sauvage|Wild Beast Handler's Glove|530 sp|Thick leather glove with animal paw motifs.|Advantage on wild animal handling checks.
+Pierre à Aiguiser du Soldat|Field Armorer's Whetstone|410 sp|Dual-grit whetstone in leather case that never wears out.|Advantage on field weapon maintenance/repair.
+Corne du Messager de Secours|Rescue Signal Horn|590 sp|Large polished ram-horn that carries far in wind.|Advantage on signaling and rescue location checks.

@@ -1,0 +1,285 @@
+Bead of Nourishment (Common) : 30 sp
+Potion of Poison (Uncommon) : 400 sp
+Potion of Healing (Common) : 500 sp
+Potion of Animal Friendship (Uncommon) : 500 sp
+Philter of Love (Uncommon) : 550 sp
+Potion of Climbing (Common) : 800 sp
+Potion of Water Breathing (Uncommon) : 800 sp
+Potion of Diminution (Rare) : 850 sp
+Ammunition + (Common) : 10 sp
+Potion of Growth (Uncommon) : 1200 sp
+Potion of Greater Healing (Uncommon) : 1400 sp
+Dust of Dryness (Uncommon) : 1500 sp
+Potion of Mind Reading (Rare) : 1500 sp
+Oil of Slipperiness (Uncommon) : 1600 sp
+Elixir of Health (Rare) : 1800 sp
+Potion of Invisibility (Rare) : 1800 sp
+Potion of Gaseous Form (Rare) : 2000 sp
+Armor of Vulnerability (Rare) : 800 sp
+Wind Fan (Uncommon) : 1000 sp
+Berserker Axe (Rare) : 1900 sp
+Wand of Secrets (Uncommon) : 1300 sp
+Ring of Animal Influence (Rare) : 1400 sp
+Efficient Quiver (Uncommon) : 1500 sp
+Trident of Fish Command (Uncommon) : 1600 sp
+Eyes of Minute Seeing (Uncommon) : 1800 sp
+
+Dawn Thread (Common) : 40 sp
+Breath of the Sea (Common) : 60 sp
+Night Lock (Common) : 80 sp
+Watchman's Flame (Common) : 100 sp
+Blood Pact (Common) : 120 sp
+Whisper of the Woods (Common) : 140 sp
+Thief's Step (Uncommon) : 160 sp
+Eye of the Storm (Uncommon) : 180 sp
+Shield of Faith (Uncommon) : 200 sp
+Traveler's Thirst (Uncommon) : 220 sp
+Blade of Justice (Uncommon) : 240 sp
+Veil of Mist (Uncommon) : 260 sp
+Song of Steel (Uncommon) : 280 sp
+Echo of the Mountains (Uncommon) : 300 sp
+Artisan's Hand (Uncommon) : 320 sp
+Eagle's Gaze (Uncommon) : 340 sp
+King's Seal (Uncommon) : 360 sp
+Dragon's Breath (Uncommon) : 380 sp
+Fugitive's Step (Uncommon) : 400 sp
+Sage's Quill (Uncommon) : 420 sp
+Heart of Stone (Uncommon) : 440 sp
+Mirror of Souls (Uncommon) : 440 sp
+Porter's Belt (Uncommon) : 420 sp
+Salt of Life (Uncommon) : 400 sp
+Bread of Sharing (Uncommon) : 380 sp
+Scholar's Lamp (Uncommon) : 360 sp
+Safety Pin (Uncommon) : 340 sp
+Fairy Comb (Uncommon) : 320 sp
+Groom's Glove (Uncommon) : 300 sp
+Weight of Honor (Uncommon) : 280 sp
+Dawn Bell (Uncommon) : 260 sp
+Botanist's Magnifying Glass (Uncommon) : 240 sp
+Weaver's Thread (Uncommon) : 220 sp
+Die of Fate (Uncommon) : 200 sp
+Key of Honesty (Uncommon) : 180 sp
+Powder of Silence (Uncommon) : 160 sp
+Summer Fan (Common) : 140 sp
+Flask of Joy (Common) : 120 sp
+Wedding Ring (Common) : 100 sp
+Magic Button (Common) : 80 sp
+Poet's Quill (Common) : 60 sp
+Sealing Wax (Common) : 40 sp
+Protector's Varnish (Uncommon) : 380 sp
+Whetstone (Uncommon) : 360 sp
+Desert Gourd (Uncommon) : 340 sp
+Seer's Mirror (Uncommon) : 320 sp
+Shepherd's Whistle (Uncommon) : 300 sp
+Sailor's Rope (Uncommon) : 280 sp
+Wonder Sack (Uncommon) : 260 sp
+Candle of Truth (Uncommon) : 240 sp
+
+Clasp of the Unyielding Wind (Common) : 120 sp
+Points of Instant Readiness (Common) : 90 sp
+Hood of the Watchful Shadow (Uncommon) : 280 sp
+Undertunic of the Unsoiled (Common) : 150 sp
+Kirtle of the Enduring Form (Uncommon) : 220 sp
+Pilgrim’s Shell of the Road (Uncommon) : 350 sp
+Signet Ring of the Firm Grip (Uncommon) : 180 sp
+Brooch of Heraldic Display (Uncommon) : 260 sp
+Chaperon of Clear Thought (Uncommon) : 200 sp
+Cuff of the Clean Scribe (Common) : 110 sp
+Spindle of the Tireless Spinner (Common) : 140 sp
+Hammer of the True Nail (Common) : 130 sp
+Saw of the Precise Cut (Uncommon) : 160 sp
+Chisel of Intricate Work (Uncommon) : 170 sp
+Awl of the Leatherworker (Common) : 100 sp
+Plane of Silken Finish (Uncommon) : 190 sp
+Scissors of the Frayless Cut (Common) : 150 sp
+Thimble of the Protected Finger (Common) : 80 sp
+Shuttle of the Tight Weave (Uncommon) : 210 sp
+Loom Weight of Balanced Warp (Common) : 120 sp
+Tankard of the Perfect Pour (Uncommon) : 250 sp
+Plate of Lingering Warmth (Uncommon) : 280 sp
+Ewer of Graceful Service (Uncommon) : 160 sp
+Candlestick of the Long Vigil (Uncommon) : 200 sp
+Book of the Devout Hours (Uncommon) : 450 sp
+Herbal of Verdant Knowledge (Uncommon) : 380 sp
+Balance of the Fair Merchant (Uncommon) : 320 sp
+Mortar and Pestle of Fine Grind (Uncommon) : 240 sp
+Soap of the Refreshing Lather (Common) : 90 sp
+Towel of Rapid Absorption (Common) : 130 sp
+Folding Sundial of the Pathfinder (Uncommon) : 350 sp
+Hourglass of Exact Interval (Uncommon) : 270 sp
+Bullseye Lantern of the Focused Beam (Uncommon) : 420 sp
+Gimbaled Compass of True Bearing (Uncommon) : 380 sp
+Map Case of Eternal Preservation (Uncommon) : 300 sp
+Planispheric Astrolabe of the Celestial Guide (Uncommon) : 550 sp
+Scallop Shell of the Weary Pilgrim (Uncommon) : 400 sp
+Pendant of the Night Hunter (Rare) : 850 sp
+Inkwell of Steady Flow (Common) : 140 sp
+Ledger of the Accurate Reckoning (Uncommon) : 360 sp
+Diptych Wax Tablet of Infinite Reuse (Uncommon) : 220 sp
+Quill of Elegant and Tireless Script (Uncommon) : 180 sp
+Signet of Authentic Impression (Uncommon) : 290 sp
+Arming Laces of Comfortable Wear (Uncommon) : 160 sp
+Gauntlet of the Sure Grasp (Uncommon) : 340 sp
+Rosary of the Steadfast Heart (Uncommon) : 310 sp
+Saddle of the Enduring Journey (Uncommon) : 520 sp
+Leash of the Obedient Companion (Uncommon) : 230 sp
+Falcon Hood of Serene Patience (Uncommon) : 270 sp
+Blanket of the Sound Slumber (Uncommon) : 190 sp
+
+Cloak of the Unseen Step (Rare) : 950 sp
+Ring of the Silver Tongue (Rare) : 1100 sp
+Boots of the Tireless Stride (Rare) : 1200 sp
+Amulet of Minor Warding (Rare) : 1050 sp
+Gloves of the Master Artisan (Rare) : 1150 sp
+Circlet of Focused Mind (Rare) : 1300 sp
+Lantern of True Sight (Rare) : 1400 sp
+Satchel of Holding Minor (Rare) : 1250 sp
+Blade of the Honest Edge (Rare) : 1350 sp
+Shield of the Steadfast (Rare) : 1450 sp
+Robe of the Learned (Rare) : 1200 sp
+Belt of the Mighty Porter (Rare) : 1600 sp
+Pendant of Health (Rare) : 1500 sp
+Hat of Disguise Minor (Rare) : 1100 sp
+Compass of the Safe Path (Rare) : 1300 sp
+Quill of the Master Scribe (Rare) : 950 sp
+Mirror of the Inner Self (Rare) : 1250 sp
+Horn of the Distant Call (Rare) : 1400 sp
+Vest of the Unburdened (Rare) : 1550 sp
+Ring of Minor Elemental Protection (Rare) : 1650 sp
+Tome of Quick Study (Rare) : 1700 sp
+Saddle of the Swift Rider (Rare) : 1450 sp
+Cloak of the Weathered Traveler (Rare) : 1350 sp
+Gauntlets of the Iron Grip (Rare) : 1600 sp
+Amulet of the Watchful Guardian (Rare) : 1150 sp
+Staff of the Walking Scholar (Rare) : 1300 sp
+Pouch of the Endless Coin Minor (Rare) : 1800 sp
+Brooch of the Commanding Presence (Rare) : 1250 sp
+Lens of the Keen Eye (Rare) : 1400 sp
+Bracelet of the Steady Hand (Rare) : 1050 sp
+Banner of the Loyal Company (Rare) : 1500 sp
+Chalice of the Pure Vintage (Rare) : 1150 sp
+Gloves of the Silent Thief (Rare) : 1600 sp
+Helm of the Alert Sentinel (Rare) : 1550 sp
+Scroll Case of Preservation (Rare) : 1200 sp
+Pipe of the Soothing Smoke (Rare) : 950 sp
+Anklet of the Graceful Step (Rare) : 1350 sp
+Vestment of the Devout (Rare) : 1450 sp
+Bridle of the Loyal Mount (Rare) : 1250 sp
+Lute of the Enchanting Bard (Rare) : 1700 sp
+Flask of the Everfull Minor (Rare) : 1100 sp
+Medallion of the Iron Will (Rare) : 1500 sp
+Cloak of the Shadowed Blade (Rare) : 1650 sp
+Tome of the Arcane Apprentice (Rare) : 1750 sp
+Harness of the Beast Master (Rare) : 1300 sp
+Ring of the Resourceful (Rare) : 1400 sp
+Shield Brooch of Defense (Rare) : 1550 sp
+Boots of the Mountain Goat (Rare) : 1200 sp
+Diadem of the Noble Court (Rare) : 1600 sp
+Orb of the Minor Oracle (Rare) : 1800 sp
+
+─── Permanent Cantrip Items (Common) ───
+
+Vial of Corrosive Spit (Common) : 500 sp
+Bracer of Dulled Blades (Common) : 500 sp
+Hilt of Restrained Thunder (Common) : 500 sp
+Glove of the Dead Hand (Common) : 500 sp
+Bellows of Flame Mastery (Common) : 500 sp
+Stone of Instant Bonfire (Common) : 500 sp
+Flask of Dancing Lights (Common) : 500 sp
+Twig of the Glade (Common) : 500 sp
+Ring of the Pact Eye (Common) : 500 sp
+Crystal of Sealed Thoughts (Common) : 500 sp
+Scarab of Embers (Common) : 500 sp
+Pocket Mirror of the Charming Gaze (Common) : 500 sp
+Gauntlet of the Biting Frost (Common) : 500 sp
+Verdant Copper Crossguard (Common) : 500 sp
+Medallion of Venerable Blessing (Common) : 500 sp
+Fan of the Capricious Wind (Common) : 500 sp
+Pouch of Docile Vermin (Common) : 500 sp
+River Pebble of the Watcher (Common) : 500 sp
+Whip of Electric Filament (Common) : 500 sp
+Velvet Glove of Telekinesis (Common) : 500 sp
+Pouch of Enchanted Stones (Common) : 500 sp
+Silver Needle of Perfect Mending (Common) : 500 sp
+Spiral Shell of the Whisperer (Common) : 500 sp
+Obsidian Shard of the Mind (Common) : 500 sp
+Thimble of the Little Lie (Common) : 500 sp
+Trowel of the Patient Builder (Common) : 500 sp
+Sprayer of Green Bile (Common) : 500 sp
+Ring of the Whimsical Tinkerer (Common) : 500 sp
+Ring of the Druid's Fangs (Common) : 500 sp
+Flint of the Druid's Ember (Common) : 500 sp
+Wand of the Winter Breath (Common) : 500 sp
+Cord of Divine Support (Common) : 500 sp
+Medallion of the Holy Flame (Common) : 500 sp
+Brooch of the Necrotic Sting (Common) : 500 sp
+Seal of the Docile Waters (Common) : 500 sp
+Gnarled Staff of the Warden (Common) : 500 sp
+Crackling Glove of the Lightning Juggler (Common) : 500 sp
+Ointment of the Last Breath (Common) : 500 sp
+Bracelet of Spectral Blades (Common) : 500 sp
+Bell of the Divine Murmur (Common) : 500 sp
+Vine Whip of the Wild Wood (Common) : 500 sp
+Miniature Cymbals of Thunder (Common) : 500 sp
+Bell of the Death Toll (Common) : 500 sp
+Medallion of the Targeting Eye (Common) : 500 sp
+Whistle of Cruel Mockery (Common) : 500 sp
+Reliquary of the Ardent Word (Common) : 500 sp
+
+─── Ammunition Variants (missing tiers) ───
+
+Ammunition +2 (1x) (Rare) : 36 sp
+Ammunition +3 (1x) (Very Rare) : 120 sp
+
+─── Weaker Variant Items ───
+
+Healing Salve (Common) : 120 sp
+Minor Healing Potion (Common) : 200 sp
+Healing Draught (Common) : 500 sp
+Message Stones (Common) : 600 sp
+Pouch of Holding (Common) : 800 sp
+Boots of Leaping (Common) : 900 sp
+
+─── Permanent Skill Items ───
+
+Master Cordmaker's Spindle (Uncommon) : 380 sp
+Field Armorer's Whetstone (Uncommon) : 410 sp
+Littoral Forager's Blade (Uncommon) : 420 sp
+Camp Butcher's Knife (Uncommon) : 420 sp
+Coastal Survivor's Basket (Uncommon) : 430 sp
+Expert Trapper's Pouch (Uncommon) : 450 sp
+Wild Forager's Magnifying Lens (Uncommon) : 460 sp
+Savanna Herbalist's Tome (Uncommon) : 460 sp
+Wilderness Shelter Hammer (Uncommon) : 460 sp
+Plains Tracker's Boots (Uncommon) : 470 sp
+River Crosser's Staff (Uncommon) : 470 sp
+Primordial Fire Flint (Uncommon) : 480 sp
+Confined Space Shadow Cloak (Uncommon) : 480 sp
+Master Tracker's Spyglass Lens (Uncommon) : 490 sp
+Marsh Ward Amulet (Uncommon) : 490 sp
+Weather Prophet's Stone (Uncommon) : 490 sp
+Wetland Tracker's Boots (Uncommon) : 500 sp
+Open Plains Navigator's Map Case (Uncommon) : 510 sp
+Marsh Wanderer's Boots (Uncommon) : 510 sp
+Deep Sea Fisherman's Rod (Uncommon) : 510 sp
+Murky Depths Swim Belt (Uncommon) : 520 sp
+Forest Shadow Cloak (Uncommon) : 530 sp
+Ice Shelter Builder's Hammer (Uncommon) : 530 sp
+Wild Beast Handler's Glove (Uncommon) : 530 sp
+Mountain Endurance Staff (Uncommon) : 540 sp
+Desert Thermal Cloak (Uncommon) : 550 sp
+Underground Navigator's Staff (Uncommon) : 550 sp
+Island Navigator's Compass (Uncommon) : 550 sp
+Forced March Traveler's Boots (Uncommon) : 550 sp
+Cliff Climber's Gloves (Uncommon) : 560 sp
+Extreme Cold Resistance Mantle (Uncommon) : 570 sp
+Subterranean Hazard Helmet (Uncommon) : 570 sp
+Rough Terrain Compass (Uncommon) : 580 sp
+Desert Nomad's Waterskin (Uncommon) : 580 sp
+Darkness Guide Stone (Uncommon) : 590 sp
+Rescue Signal Horn (Uncommon) : 590 sp
+Storm Mariner's Amulet (Uncommon) : 610 sp
+Arctic Hunter's Bow (Uncommon) : 620 sp
+Hermetic Healer's Satchel (Uncommon) : 650 sp
+Oceanic Star Astrolabe (Uncommon) : 680 sp
+War Rider's Saddle (Uncommon) : 720 sp

@@ -1,0 +1,56 @@
+================================================================================
+NOUVEAUX KITS DE MAGE (400 - 600 sp)
+Fichier séparé - À intégrer dans la liste principale
+================================================================================
+
+RÈGLES :
+- Tous les kits incluent le Spellbook de base avec 6 sorts de niveau 1 (200 sp).
+- Chaque kit a un **Parchemin de sort N1 avec sort explicitement nommé**.
+- Les sorts listés ne sont **pas encore appris** par le personnage.
+- Prix strictement entre 420 et 580 sp.
+
+================================================================================
+420 sp - Nouveau Kit 01 : Spellbook avec 6 sorts de niveau 1 (200) + Short bow (32) + Arrows 12 (7) + Component Pouch (25) + Healing Potion good (100) + Dagger (14) + Parchemin de sort N1 : Mage Armor (250)
+424 sp - Nouveau Kit 02 : Spellbook avec 6 sorts de niveau 1 (200) + Component Pouch (25) + Mirror small steel (10) + Fine Cloak (10) + Colored powders good (8) + Dagger (14) + Parchemin de sort N1 : Magic Missile (250)
+428 sp - Nouveau Kit 03 : Spellbook avec 6 sorts de niveau 1 (200) + Quarterstaff (18) + Bone dust large (15) + Component Pouch (25) + Candle black 50 (8) + Dagger (14) + Parchemin de sort N1 : Shield (250)
+432 sp - Nouveau Kit 04 : Spellbook avec 6 sorts de niveau 1 (200) + Magnifying Glass (100) + Component Pouch (25) + Ink 3oz (5) + Quill fine (1) + Parchment 30 (15) + Dagger (14) + Parchemin de sort N1 : Detect Magic (250)
+436 sp - Nouveau Kit 05 : Spellbook avec 6 sorts de niveau 1 (200) + Light Crossbow (95) + Crossbow Bolts 12 (6) + Component Pouch (25) + Healing Potion good (100) + Dagger (14) + Parchemin de sort N1 : Burning Hands (250)
+440 sp - Nouveau Kit 06 : Spellbook avec 6 sorts de niveau 1 (200) + Component Pouch (25) + Fine clothes noble (20) + Belt Pouch large (5) + Healing Potion basic (50) + Dagger (14) + Parchemin de sort N1 : Thunderwave (250)
+444 sp - Nouveau Kit 07 : Spellbook avec 6 sorts de niveau 1 (200) + Lantern hooded (5) + Rope 50ft (3) + Component Pouch (25) + Magnifying Glass (100) + Dagger (14) + Parchemin de sort N1 : Sleep (250)
+448 sp - Nouveau Kit 08 : Spellbook avec 6 sorts de niveau 1 (200) + Ink 4oz (7) + Quill fine (1) + Parchment 30 (15) + Magnifying Glass (100) + Parchemin de sort N1 : Disguise Self (250)
+452 sp - Nouveau Kit 09 : Spellbook avec 6 sorts de niveau 1 (200) + Short bow (32) + Arrows 12 (7) + Component Pouch (25) + Healing Potion good (100) + Dagger (14) + Parchemin de sort N1 : Find Familiar (250)
+456 sp - Nouveau Kit 10 : Spellbook avec 6 sorts de niveau 1 (200) + Component Pouch (25) + Mirror small steel (10) + Fine Cloak (10) + Colored powders good (8) + Dagger (14) + Parchemin de sort N1 : Identify (250)
+460 sp - Nouveau Kit 11 : Spellbook avec 6 sorts de niveau 1 (200) + Quarterstaff (18) + Bone dust large (15) + Component Pouch (25) + Candle black 50 (8) + Dagger (14) + Parchemin de sort N1 : Mage Armor (250)
+464 sp - Nouveau Kit 12 : Spellbook avec 6 sorts de niveau 1 (200) + Magnifying Glass (100) + Component Pouch (25) + Ink 3oz (5) + Quill fine (1) + Parchment 30 (15) + Dagger (14) + Parchemin de sort N1 : Magic Missile (250)
+468 sp - Nouveau Kit 13 : Spellbook avec 6 sorts de niveau 1 (200) + Light Crossbow (95) + Crossbow Bolts 12 (6) + Component Pouch (25) + Healing Potion good (100) + Dagger (14) + Parchemin de sort N1 : Shield (250)
+472 sp - Nouveau Kit 14 : Spellbook avec 6 sorts de niveau 1 (200) + Component Pouch (25) + Fine clothes noble (20) + Belt Pouch large (5) + Healing Potion basic (50) + Dagger (14) + Parchemin de sort N1 : Detect Magic (250)
+476 sp - Nouveau Kit 15 : Spellbook avec 6 sorts de niveau 1 (200) + Lantern hooded (5) + Rope 50ft (3) + Component Pouch (25) + Magnifying Glass (100) + Dagger (14) + Parchemin de sort N1 : Burning Hands (250)
+480 sp - Nouveau Kit 16 : Spellbook avec 6 sorts de niveau 1 (200) + Ink 4oz (7) + Quill fine (1) + Parchment 30 (15) + Magnifying Glass (100) + Parchemin de sort N1 : Thunderwave (250)
+484 sp - Nouveau Kit 17 : Spellbook avec 6 sorts de niveau 1 (200) + Short bow (32) + Arrows 12 (7) + Component Pouch (25) + Healing Potion good (100) + Dagger (14) + Parchemin de sort N1 : Sleep (250)
+488 sp - Nouveau Kit 18 : Spellbook avec 6 sorts de niveau 1 (200) + Component Pouch (25) + Mirror small steel (10) + Fine Cloak (10) + Colored powders good (8) + Dagger (14) + Parchemin de sort N1 : Disguise Self (250)
+492 sp - Nouveau Kit 19 : Spellbook avec 6 sorts de niveau 1 (200) + Quarterstaff (18) + Bone dust large (15) + Component Pouch (25) + Candle black 50 (8) + Dagger (14) + Parchemin de sort N1 : Find Familiar (250)
+496 sp - Nouveau Kit 20 : Spellbook avec 6 sorts de niveau 1 (200) + Magnifying Glass (100) + Component Pouch (25) + Ink 3oz (5) + Quill fine (1) + Parchment 30 (15) + Dagger (14) + Parchemin de sort N1 : Identify (250)
+500 sp - Nouveau Kit 21 : Spellbook avec 6 sorts de niveau 1 (200) + Light Crossbow (95) + Crossbow Bolts 12 (6) + Component Pouch (25) + Healing Potion good (100) + Dagger (14) + Parchemin de sort N1 : Mage Armor (250)
+504 sp - Nouveau Kit 22 : Spellbook avec 6 sorts de niveau 1 (200) + Component Pouch (25) + Fine clothes noble (20) + Belt Pouch large (5) + Healing Potion basic (50) + Dagger (14) + Parchemin de sort N1 : Magic Missile (250)
+508 sp - Nouveau Kit 23 : Spellbook avec 6 sorts de niveau 1 (200) + Lantern hooded (5) + Rope 50ft (3) + Component Pouch (25) + Magnifying Glass (100) + Dagger (14) + Parchemin de sort N1 : Shield (250)
+512 sp - Nouveau Kit 24 : Spellbook avec 6 sorts de niveau 1 (200) + Ink 4oz (7) + Quill fine (1) + Parchment 30 (15) + Magnifying Glass (100) + Parchemin de sort N1 : Detect Magic (250)
+516 sp - Nouveau Kit 25 : Spellbook avec 6 sorts de niveau 1 (200) + Short bow (32) + Arrows 12 (7) + Component Pouch (25) + Healing Potion good (100) + Dagger (14) + Parchemin de sort N1 : Burning Hands (250)
+520 sp - Nouveau Kit 26 : Spellbook avec 6 sorts de niveau 1 (200) + Component Pouch (25) + Mirror small steel (10) + Fine Cloak (10) + Colored powders good (8) + Dagger (14) + Parchemin de sort N1 : Thunderwave (250)
+524 sp - Nouveau Kit 27 : Spellbook avec 6 sorts de niveau 1 (200) + Quarterstaff (18) + Bone dust large (15) + Component Pouch (25) + Candle black 50 (8) + Dagger (14) + Parchemin de sort N1 : Sleep (250)
+528 sp - Nouveau Kit 28 : Spellbook avec 6 sorts de niveau 1 (200) + Magnifying Glass (100) + Component Pouch (25) + Ink 3oz (5) + Quill fine (1) + Parchment 30 (15) + Dagger (14) + Parchemin de sort N1 : Disguise Self (250)
+532 sp - Nouveau Kit 29 : Spellbook avec 6 sorts de niveau 1 (200) + Light Crossbow (95) + Crossbow Bolts 12 (6) + Component Pouch (25) + Healing Potion good (100) + Dagger (14) + Parchemin de sort N1 : Find Familiar (250)
+536 sp - Nouveau Kit 30 : Spellbook avec 6 sorts de niveau 1 (200) + Component Pouch (25) + Fine clothes noble (20) + Belt Pouch large (5) + Healing Potion basic (50) + Dagger (14) + Parchemin de sort N1 : Identify (250)
+540 sp - Nouveau Kit 31 : Spellbook avec 6 sorts de niveau 1 (200) + Lantern hooded (5) + Rope 50ft (3) + Component Pouch (25) + Magnifying Glass (100) + Dagger (14) + Parchemin de sort N1 : Mage Armor (250)
+544 sp - Nouveau Kit 32 : Spellbook avec 6 sorts de niveau 1 (200) + Ink 4oz (7) + Quill fine (1) + Parchment 30 (15) + Magnifying Glass (100) + Parchemin de sort N1 : Magic Missile (250)
+548 sp - Nouveau Kit 33 : Spellbook avec 6 sorts de niveau 1 (200) + Short bow (32) + Arrows 12 (7) + Component Pouch (25) + Healing Potion good (100) + Dagger (14) + Parchemin de sort N1 : Shield (250)
+552 sp - Nouveau Kit 34 : Spellbook avec 6 sorts de niveau 1 (200) + Component Pouch (25) + Mirror small steel (10) + Fine Cloak (10) + Colored powders good (8) + Dagger (14) + Parchemin de sort N1 : Detect Magic (250)
+556 sp - Nouveau Kit 35 : Spellbook avec 6 sorts de niveau 1 (200) + Quarterstaff (18) + Bone dust large (15) + Component Pouch (25) + Candle black 50 (8) + Dagger (14) + Parchemin de sort N1 : Burning Hands (250)
+560 sp - Nouveau Kit 36 : Spellbook avec 6 sorts de niveau 1 (200) + Magnifying Glass (100) + Component Pouch (25) + Ink 3oz (5) + Quill fine (1) + Parchment 30 (15) + Dagger (14) + Parchemin de sort N1 : Thunderwave (250)
+564 sp - Nouveau Kit 37 : Spellbook avec 6 sorts de niveau 1 (200) + Light Crossbow (95) + Crossbow Bolts 12 (6) + Component Pouch (25) + Healing Potion good (100) + Dagger (14) + Parchemin de sort N1 : Sleep (250)
+568 sp - Nouveau Kit 38 : Spellbook avec 6 sorts de niveau 1 (200) + Component Pouch (25) + Fine clothes noble (20) + Belt Pouch large (5) + Healing Potion basic (50) + Dagger (14) + Parchemin de sort N1 : Disguise Self (250)
+572 sp - Nouveau Kit 39 : Spellbook avec 6 sorts de niveau 1 (200) + Lantern hooded (5) + Rope 50ft (3) + Component Pouch (25) + Magnifying Glass (100) + Dagger (14) + Parchemin de sort N1 : Find Familiar (250)
+576 sp - Nouveau Kit 40 : Spellbook avec 6 sorts de niveau 1 (200) + Ink 4oz (7) + Quill fine (1) + Parchment 30 (15) + Magnifying Glass (100) + Parchemin de sort N1 : Identify (250)
+
+================================================================================
+FIN - 40 nouveaux kits entre ~420 et ~580 sp
+================================================================================

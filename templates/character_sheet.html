@@ -59,6 +59,27 @@
             margin: 22px 0;
             padding: 15px 0;
         }
+        /* Blocs haut de fiche : combat → attributs → équipement plus serrés */
+        .section-combat {
+            margin: 6px 0 0 0;
+            padding: 0;
+        }
+        .section-attributes {
+            margin: 2px 0 4px 0;
+            padding: 4px 0 2px 0;
+        }
+        .section-compact {
+            margin: 6px 0;
+            padding: 6px 0;
+        }
+        .section-equipment {
+            margin: 4px 0 12px 0;
+            padding: 4px 0;
+        }
+        .section-equipment h2 {
+            margin: 0 0 6px 0;
+            padding-bottom: 4px;
+        }
         .section h2 {
             margin: 0 0 12px 0;
             color: #5c4033;
@@ -103,7 +124,7 @@
             display: flex;
             justify-content: space-around;
             align-items: center;   /* Meilleur centrage vertical */
-            margin: 6px 0 10px 0;
+            margin: 2px 0 0 0;
             gap: 6px;
         }
 
@@ -166,7 +187,7 @@
         </div>
 
         <!-- COMBAT : Scores en surimpression sur les icônes -->
-        <div class="section">
+        <div class="section section-combat">
             <div class="combat-row">
                 <div class="combat-stat">
                     <div class="icon-bg">
@@ -212,7 +233,7 @@
         </div>
 
         <!-- ATTRIBUTES FUSIONNÉS (compact 3-col) -->
-        <div class="section">
+        <div class="section section-attributes">
             <div class="grid">
                 <div><span class="label">Balance :</span> {{ character.Balance }}</div>
                 <div><span class="label">Beauty :</span> {{ character.Beauty }}</div>
@@ -233,7 +254,7 @@
 
         <!-- MAGIC -->
         {% if character.Magic == "YES" %}
-        <div class="section" style="background: linear-gradient(135deg, #2c1a0f, #5c4033); color: #f4e9d8; padding: 15px; border-radius: 6px; text-align: center;">
+        <div class="section section-compact" style="background: linear-gradient(135deg, #2c1a0f, #5c4033); color: #f4e9d8; padding: 10px; border-radius: 6px; text-align: center;">
             <h2 style="color: #ffd700; border: none;">{{ character.Magic_Type_Eng }} — {{ character.Magic_Subtype_Eng }}</h2>
             <p><strong>{{ character.Magic_Description_Eng }}</strong></p>
         </div>
@@ -241,7 +262,7 @@
 
         <!-- SORTS CONNUS (Wizards / Arcanique) -->
         {% if character.Spells_Known %}
-        <div class="section">
+        <div class="section section-compact">
             <h2>Known Spells — {{ character.Magic_Subtype_Eng | default('Wizard') }}</h2>
             <p style="font-size: 1.05em; line-height: 1.5; margin: 4px 0;">
                 {{ character.Magic_And_Spells }}
@@ -252,7 +273,7 @@
 
         <!-- ÉQUIPEMENT -->
         {% if (character.Armes_et_Bouclier and character.Armes_et_Bouclier != "Aucun") or character.Starting_Magic_Items %}
-        <div class="section">
+        <div class="section section-equipment">
             <h2>Equipment</h2>
             {% if character.Armes_et_Bouclier and character.Armes_et_Bouclier != "Aucun" %}
             <p style="font-size: 1.05em; line-height: 1.4;">

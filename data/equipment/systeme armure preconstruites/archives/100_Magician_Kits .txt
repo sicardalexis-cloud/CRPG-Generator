@@ -1,0 +1,122 @@
+================================================================================
+LIST OF EQUIPMENT KITS – MAGICIAN (NO ARMOR)
+Sorted by increasing price - WITH CROSSBOWS + INTERMEDIATE KITS
+================================================================================
+
+APPLIED RULES:
+- No armor of any kind.
+- Strong preference for ranged weapons (bows + crossbows).
+- From original Kit 43 onward → Dagger included.
+- All prices recalculated for coherence.
+- Crossbow prices corrected (Light = 95 sp, Heavy = 175 sp).
+- Parchment capped at maximum 30 sheets.
+- **Intermediate kits added** to smooth price progression (big jumps > 20% filled).
+
+================================================================================
+23 sp - Kit 01 - Apprenti alchimiste : Quarterstaff (18) + Mortar & Pestle (1) + Flask empty (1) + Herbal Remedy (3)
+24 sp - Kit 02 - Apprenti errant : Quarterstaff (18) + Sling (2) + Belt Pouch small (3) + Ink 1oz (1)
+24 sp - Kit 03 - Mage des champs : Quarterstaff (18) + Sling (2) + Sling Bullets 12 (1) + Belt Pouch small (3)
+26 sp - Kit 04 - Mage itinérant : Quarterstaff (18) + Sling (2) + Backpack small (3) + Waterskin 1gal (3)
+28 sp - Kit 05 - Mage des ruines : Quarterstaff (18) + Sling (2) + Rope 50ft (3) + Grappling Hook (5)
+28 sp - Kit 06 - Mage des forêts : Quarterstaff (18) + Sling (2) + Herbal Remedy strong (5) + Waterskin 1gal (3)
+30 sp - Kit 07 - Étudiant en arcanes : Spellbook blank (25) + Ink 1oz (1) + Quill fine (1) + Parchment 20 (3)
+31 sp - Kit 08 - Apprenti voyageur : Quarterstaff (18) + Sling (2) + Backpack medium (5) + Bedroll (3) + Waterskin 1gal (3)
+32 sp - Kit 09 - Mage des rues : Sling (2) + Component Pouch (25) + Flint & Steel (5)
+32 sp - Kit 10 - Étudiant en évocation : Spellbook blank (25) + Ink 1oz (1) + Parchment 30 (5) + Quill fine (1)
+33 sp - Kit 11 - Mage des tavernes : Sling (2) + Component Pouch (25) + Tankard (1) + Belt Pouch large (5)
+39 sp - Kit 12 - Apprenti illusionniste : Sling (2) + Mirror small steel (10) + Chalk colored 10 (2) + Component Pouch (25)
+42 sp - Kit 13 - Mage des ruelles : Sling (2) + Component Pouch (25) + Thieves Tools poor (10) + Belt Pouch large (5)
+42 sp - Kit 14 - Mage des collines : Short bow (32) + Arrows 12 (7) + Waterskin 1gal (3)
+42 sp - Kit 15 - Illusionniste de foire : Component Pouch (25) + Mirror small steel (10) + Colored powders small (5) + Sling (2)
+44 sp - Kit 16 - Mage des tours : Spellbook blank (25) + Ink 2oz (3) + Quill fine (1) + Parchment 30 (15)
+44 sp - Kit 17 - Mage des tours oubliées : Spellbook blank (25) + Ink 2oz (3) + Quill fine (1) + Parchment 30 (15)
+45 sp - Kit 18 - Étudiant en magie : Quarterstaff (18) + Spellbook blank (25) + Ink 1oz (1) + Candle 10 (1)
+45 sp - Kit 19 - Évocateur itinérant : Quarterstaff (18) + Sling (2) + Component Pouch (25)
+46 sp - Kit 20 - Chercheur de sorts : Quarterstaff (18) + Spellbook blank (25) + Ink 1oz (1) + Parchment 10 (2)
+47 sp - Kit 21 - Illusionniste de cour : Component Pouch (25) + Mirror small steel (10) + Fine Cloak (10) + Sling (2)
+50 sp - Kit 22 - Apprenti nécromancien : Quarterstaff (18) + Bone human (5) + Candle black 10 (2) + Component Pouch (25)
+51 sp - Kit 23 - Nécromancien débutant : Quarterstaff (18) + Bone dust small (5) + Candle black 20 (3) + Component Pouch (25)
+53 sp - Kit 24 - Mage des cavernes : Quarterstaff (18) + Lantern hooded (5) + Lamp Oil (2) + Rope 50ft (3) + Component Pouch (25)
+53 sp - Kit 25 - Nécromancien des marais : Quarterstaff (18) + Bone dust good (10) + Component Pouch (25)
+57 sp - Kit 26 - Illusionniste ambulant : Quarterstaff (18) + Mirror small steel (10) + Chalk colored 20 (4) + Component Pouch (25)
+60 sp - Kit 27 - Mage des tours de guet : Spellbook blank (25) + Ink 3oz (5) + Quill fine (1) + Parchment 30 (15) + **Dagger (14)**
+60 sp - Kit 28 - Mage des tours abandonnées : Spellbook blank (25) + Ink 3oz (5) + Quill fine (1) + Parchment 30 (15) + **Dagger (14)**
+61 sp - Kit 29 - Illusionniste professionnel : Quarterstaff (18) + Mirror small steel (10) + Component Pouch (25) + Colored powders good (8)
+62 sp - Kit 30 - Mage des tours de magie : Spellbook blank (25) + Ink 4oz (7) + Quill fine (1) + Parchment 30 (15) + **Dagger (14)**
+64 sp - Kit 31 - Évocateur des collines : Short bow (32) + Arrows 12 (7) + Component Pouch (25)
+67 sp - Kit 32 - Nécromancien des tombes : Quarterstaff (18) + Bone dust good (10) + Component Pouch (25) + **Dagger (14)**
+67 sp - Kit 33 - Mage des cryptes : Quarterstaff (18) + Bone human (5) + Component Pouch (25) + Lantern hooded (5) + **Dagger (14)**
+69 sp - Kit 34 - Mage des forêts anciennes : Short bow (32) + Arrows 12 (7) + Herbal Remedy strong (5) + Component Pouch (25)
+69 sp - Kit 35 - Illusionniste de théâtre : Component Pouch (25) + Mirror small steel (10) + Fine clothes noble (20) + **Dagger (14)**
+69 sp - Kit 36 - Illusionniste de cour royale : Component Pouch (25) + Mirror small steel (10) + Fine clothes noble (20) + **Dagger (14)**
+71 sp - Kit 37 - Mage des plaines : Short bow (32) + Arrows 12 (7) + Component Pouch (25) + Waterskin 5gal (7)
+71 sp - Kit 38 - Illusionniste des foires royales : Component Pouch (25) + Mirror small steel (10) + Colored powders excellent (12) + Fine Cloak (10) + **Dagger (14)**
+72 sp - Kit 39 - Mage des collines : Short bow (32) + Arrows 12 (7) + Component Pouch (25) + Backpack large (8)
+72 sp - Kit 40 - Nécromancien des marécages profonds : Quarterstaff (18) + Bone dust large (15) + Component Pouch (25) + **Dagger (14)**
+78 sp - Kit 41 - Évocateur de champ de bataille : Short bow (32) + Arrows 12 (7) + Component Pouch (25) + **Dagger (14)**
+78 sp - Kit 42 - Évocateur des montagnes : Short bow (32) + Arrows 12 (7) + Component Pouch (25) + **Dagger (14)**
+78 sp - Kit 43 - Évocateur des collines sauvages : Short bow (32) + Arrows 12 (7) + Component Pouch (25) + **Dagger (14)**
+78 sp - Kit 44 - Évocateur de guerre : Short bow (32) + Arrows 12 (7) + Component Pouch (25) + **Dagger (14)**
+78 sp - Kit 45 - Évocateur des montagnes sacrées : Short bow (32) + Arrows 12 (7) + Component Pouch (25) + **Dagger (14)**
+79 sp - Kit 46 - Mage des routes : Short bow (32) + Arrows 12 (7) + Component Pouch (25) + Backpack large (8) + Waterskin 5gal (7)
+80 sp - Kit 47 - Nécromancien des catacombes : Quarterstaff (18) + Bone dust large (15) + Component Pouch (25) + Candle black 50 (8) + **Dagger (14)**
+82 sp - Kit 48 - Mage des marchés : Component Pouch (25) + Sling (2) + Healing Potion basic (50) + Belt Pouch large (5)
+85 sp - Kit 49 - Mage des plaines sauvages : Short bow (32) + Arrows 12 (7) + Component Pouch (25) + Waterskin 5gal (7) + **Dagger (14)**
+85 sp - Kit 50 - Mage des plaines elfiques : Short bow (32) + Arrows 12 (7) + Component Pouch (25) + Waterskin 5gal (7) + **Dagger (14)**
+85 sp - Kit 51 - Mage des collines sacrées : Short bow (32) + Arrows 12 (7) + Component Pouch (25) + Waterskin 5gal (7) + **Dagger (14)**
+89 sp - Kit 52 - Illusionniste de cour impériale : Component Pouch (25) + Mirror small steel (10) + Fine clothes royal excellent (40) + **Dagger (14)**
+89 sp - Kit 53 - Illusionniste des cours royales : Component Pouch (25) + Mirror small steel (10) + Fine clothes royal excellent (40) + **Dagger (14)**
+89 sp - Kit 54 - Illusionniste des cours impériales : Component Pouch (25) + Mirror small steel (10) + Fine clothes royal excellent (40) + **Dagger (14)**
+95 sp - Kit 55 - Évocateur de bataille : Quarterstaff (18) + Sling (2) + Component Pouch (25) + Healing Potion basic (50)
+107 sp - Kit 56 - Chercheur d'artefacts : Sling (2) + Belt Pouch large (5) + Magnifying Glass (100)
+110 sp - Kit 57 - Mage des ruines anciennes : Sling (2) + Magnifying Glass (100) + Rope 50ft (3) + Lantern hooded (5)
+117 sp - Kit 58 - Mage des ruines naines : Quarterstaff (18) + Component Pouch (25) + Lantern hooded (5) + Lamp Oil (2) + Rope 50ft (3) + Healing Potion basic (50) + **Dagger (14)**
+124 sp - Kit 59 - Mage des cités : Component Pouch (25) + Short bow (32) + Arrows 12 (7) + Healing Potion basic (50) + Fine Cloak (10)
+127 sp - Kit 60 - Chercheur de grimoires : Spellbook blank (25) + Magnifying Glass (100) + Candle 20 (2)
+129 sp - Kit 61 - Illusionniste des rois : Component Pouch (25) + Mirror small steel (10) + Fine clothes royal (80) + **Dagger (14)**
+130 sp - Kit 62 - Nécromancien des tombes anciennes : Quarterstaff (18) + Bone dust large (15) + Component Pouch (25) + Candle black 50 (8) + Healing Potion basic (50) + **Dagger (14)**
+132 sp - Kit 63 - Chercheur d'artefacts mineurs : Sling (2) + Magnifying Glass (100) + Component Pouch (25) + Belt Pouch large (5)
+140 sp - Kit 64 - Évocateur de siège : **Light Crossbow (95)** + Crossbow Bolts 12 (6) + Component Pouch (25) + **Dagger (14)**
+141 sp - Kit 65 - Chercheur de mystères : Spellbook blank (25) + Magnifying Glass (100) + Ink 1oz (1) + Parchment 30 (15)
+143 sp - Kit 66 - Chercheur de sorts perdus : Spellbook blank (25) + Ink 2oz (3) + Parchment 30 (15) + Magnifying Glass (100)
+144 sp - Kit 67 - Mage des ruines elfiques : Spellbook blank (25) + Ink 2oz (3) + Quill fine (1) + Parchment 30 (15) + Magnifying Glass (100)
+160 sp - Kit 68 - Chercheur de grimoires anciens : Spellbook blank (25) + Ink 3oz (5) + Quill fine (1) + Parchment 30 (15) + Magnifying Glass (100) + **Dagger (14)**
+160 sp - Kit 69 - Chercheur de sorts interdits : Spellbook blank (25) + Ink 3oz (5) + Quill fine (1) + Parchment 30 (15) + Magnifying Glass (100) + **Dagger (14)**
+162 sp - Kit 70 - Mage des tours de pouvoir : Spellbook blank (25) + Ink 4oz (7) + Quill fine (1) + Parchment 30 (15) + Magnifying Glass (100) + **Dagger (14)**
+162 sp - Kit 71 - Mage des ruines anciennes : Spellbook blank (25) + Ink 4oz (7) + Quill fine (1) + Parchment 30 (15) + Magnifying Glass (100) + **Dagger (14)**
+164 sp - Kit 72 - Mage des tours de cristal : Spellbook blank (25) + Ink 5oz (9) + Quill fine (1) + Parchment 30 (15) + Magnifying Glass (100) + **Dagger (14)**
+164 sp - Kit 73 - Mage des tours de pouvoir ancien : Spellbook blank (25) + Ink 5oz (9) + Quill fine (1) + Parchment 30 (15) + Magnifying Glass (100) + **Dagger (14)**
+164 sp - Kit 74 - Mage des tours de cristal ancien : Spellbook blank (25) + Ink 5oz (9) + Quill fine (1) + Parchment 30 (15) + Magnifying Glass (100) + **Dagger (14)**
+166 sp - Kit 75 - Mage des tours de pouvoir éternel : Spellbook blank (25) + Ink 6oz (11) + Quill fine (1) + Parchment 30 (15) + Magnifying Glass (100) + **Dagger (14)**
+178 sp - Kit 76 - Chercheur de reliques : Short bow (32) + Arrows 12 (7) + Magnifying Glass (100) + Component Pouch (25) + **Dagger (14)**
+178 sp - Kit 77 - Évocateur des collines sacrées : Short bow (32) + Arrows 12 (7) + Component Pouch (25) + Healing Potion good (100) + **Dagger (14)**
+178 sp - Kit 78 - Évocateur des montagnes divines : Short bow (32) + Arrows 12 (7) + Component Pouch (25) + Healing Potion good (100) + **Dagger (14)**
+178 sp - Kit 79 - Évocateur des plaines sacrées : Short bow (32) + Arrows 12 (7) + Component Pouch (25) + Healing Potion good (100) + **Dagger (14)**
+178 sp - Kit 80 - Évocateur des collines éternelles : Short bow (32) + Arrows 12 (7) + Component Pouch (25) + Healing Potion good (100) + **Dagger (14)**
+186 sp - Kit 81 - Chercheur de sorts anciens : Short bow (32) + Arrows 12 (7) + Component Pouch (25) + Healing Potion good (100) + Backpack large (8) + **Dagger (14)**
+187 sp - Kit 82 - Nécromancien des nécropoles : Quarterstaff (18) + Bone dust large (15) + Component Pouch (25) + Candle black 100 (15) + Healing Potion good (100) + **Dagger (14)**
+187 sp - Kit 83 - Nécromancien des cryptes royales : Quarterstaff (18) + Bone dust large (15) + Component Pouch (25) + Candle black 100 (15) + Healing Potion good (100) + **Dagger (14)**
+187 sp - Kit 84 - Nécromancien des mausolées : Quarterstaff (18) + Bone dust large (15) + Component Pouch (25) + Candle black 100 (15) + Healing Potion good (100) + **Dagger (14)**
+187 sp - Kit 85 - Nécromancien des nécropoles royales : Quarterstaff (18) + Bone dust large (15) + Component Pouch (25) + Candle black 100 (15) + Healing Potion good (100) + **Dagger (14)**
+187 sp - Kit 86 - Nécromancien des tombes divines : Quarterstaff (18) + Bone dust large (15) + Component Pouch (25) + Candle black 100 (15) + Healing Potion good (100) + **Dagger (14)**
+187 sp - Kit 87 - Nécromancien des nécropoles éternelles : Quarterstaff (18) + Bone dust large (15) + Component Pouch (25) + Candle black 100 (15) + Healing Potion good (100) + **Dagger (14)**
+199 sp - Kit 88 - Illusionniste des empereurs : Component Pouch (25) + Mirror small steel (10) + Fine clothes royal excellent (150) + **Dagger (14)**
+199 sp - Kit 89 - Illusionniste des cours divines : Component Pouch (25) + Mirror small steel (10) + Fine clothes royal excellent (150) + **Dagger (14)**
+199 sp - Kit 90 - Illusionniste des rois divins : Component Pouch (25) + Mirror small steel (10) + Fine clothes royal excellent (150) + **Dagger (14)**
+199 sp - Kit 91 - Illusionniste des cours éternelles : Component Pouch (25) + Mirror small steel (10) + Fine clothes royal excellent (150) + **Dagger (14)**
+228 sp - Kit 92 - Chercheur d'artefacts magiques : Short bow (32) + Arrows 12 (7) + Magnifying Glass (100) + Component Pouch (25) + Healing Potion basic (50) + **Dagger (14)**
+252 sp - Kit 93 - Chercheur de reliques anciennes : Short bow (32) + Arrows 12 (7) + Magnifying Glass (100) + Component Pouch (25) + Healing Potion good (100) + Parchment 30 (15) + Dagger (14)
+278 sp - Kit 94 - Chercheur de reliques perdues : Short bow (32) + Arrows 12 (7) + Magnifying Glass (100) + Component Pouch (25) + Healing Potion good (100) + **Dagger (14)**
+278 sp - Kit 95 - Chercheur de artefacts légendaires : Short bow (32) + Arrows 12 (7) + Magnifying Glass (100) + Component Pouch (25) + Healing Potion good (100) + **Dagger (14)**
+278 sp - Kit 96 - Chercheur de reliques divines : Short bow (32) + Arrows 12 (7) + Magnifying Glass (100) + Component Pouch (25) + Healing Potion good (100) + **Dagger (14)**
+278 sp - Kit 97 - Chercheur d'artefacts divins : Short bow (32) + Arrows 12 (7) + Magnifying Glass (100) + Component Pouch (25) + Healing Potion good (100) + **Dagger (14)**
+278 sp - Kit 98 - Chercheur de reliques mythiques : Short bow (32) + Arrows 12 (7) + Magnifying Glass (100) + Component Pouch (25) + Healing Potion good (100) + **Dagger (14)**
+278 sp - Kit 99 - Chercheur d'artefacts éternels : Short bow (32) + Arrows 12 (7) + Magnifying Glass (100) + Component Pouch (25) + Healing Potion good (100) + **Dagger (14)**
+323 sp - Kit 100 - Évocateur de sièges : **Heavy Crossbow (175)** + Heavy Crossbow Bolts 12 (9) + Component Pouch (25) + Healing Potion good (100) + **Dagger (14)**
+375 sp - Kit 101 - Évocateur de tours de pouvoir : Heavy Crossbow (175) + Heavy Crossbow Bolts 12 (9) + Component Pouch (25) + Spellbook blank (25) + Ink 5oz (9) + Quill fine (1) + Parchment 30 (15) + Magnifying Glass (100) + Healing Potion good (100) + Dagger (14)
+425 sp - Kit 102 - Mage des arcanes supérieures : Heavy Crossbow (175) + Heavy Crossbow Bolts 12 (9) + Component Pouch (25) + Spellbook blank (25) + Ink 6oz (11) + Quill fine (1) + Parchment 30 (15) + Magnifying Glass (100) + Healing Potion good (100) + Fine Cloak (10) + Dagger (14)
+485 sp - Kit 103 - Archimage suprême : **Heavy Crossbow (175)** + Heavy Crossbow Bolts 12 (9) + Component Pouch (25) + Spellbook blank (25) + Ink 6oz (11) + Quill fine (1) + Parchment 30 (15) + Magnifying Glass (100) + Healing Potion good (100) + **Dagger (14)** + Fine Cloak (10)
+
+================================================================================
+END OF FILE (Smoothed progression with intermediate kits)
+================================================================================

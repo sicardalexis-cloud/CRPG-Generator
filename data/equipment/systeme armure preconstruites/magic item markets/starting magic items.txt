@@ -283,3 +283,52 @@ Arctic Hunter's Bow (Uncommon) : 620 sp
 Hermetic Healer's Satchel (Uncommon) : 650 sp
 Oceanic Star Astrolabe (Uncommon) : 680 sp
 War Rider's Saddle (Uncommon) : 720 sp
+
+─── Underworld & Court Intrigue Items ───
+
+Deft Cheat's Gloves (Uncommon) : 460 sp
+Herald's Loupe (Uncommon) : 460 sp
+Fence's Token (Uncommon) : 470 sp
+Underworld Medallion (Uncommon) : 480 sp
+Watcher's Lens (Uncommon) : 500 sp
+Black Market Purse (Uncommon) : 500 sp
+Guildmaster's Signet (Uncommon) : 540 sp
+Ghost Locksmith's Picks (Uncommon) : 540 sp
+Cunning Confessor's Rosary (Uncommon) : 540 sp
+Silent Alley Cloak (Uncommon) : 560 sp
+Forger's Quill (Uncommon) : 560 sp
+Silent Syndicate Ring (Uncommon) : 580 sp
+Smuggler's Compass (Uncommon) : 590 sp
+Fan of Alliances (Uncommon) : 600 sp
+Fan of the Gilded Court (Uncommon) : 610 sp
+Mask of a Thousand Faces (Uncommon) : 620 sp
+Map of Forgotten Passages (Uncommon) : 620 sp
+Shadow Broker's Ledger (Uncommon) : 620 sp
+Discreet Poisoner's Ring (Uncommon) : 650 sp
+
+
+Aketon +1 (Common) : 160 sp
+Gambeson (basic) +1 (Common) : 180 sp
+Gambeson (long / fended) +1 (Common) : 280 sp
+Reinforced Gambeson +1 (Common) : 360 sp
+Padded Jack +1 (Common) : 440 sp
+Reinforced Gambeson (long) +1 (Common) : 520 sp
+Pourpoint +1 (Common) : 240 sp
+Leather Helmet +1 (Common) : 40 sp
+Nasal Helmet +1 (Common) : 160 sp
+Cervelliere +1 (Common) : 180 sp
+Kettle Hat +1 (Common) : 300 sp
+Mail Coif +1 (Common) : 400 sp
+Aventail +1 (Common) : 320 sp
+Simple Breastplate +1 (Common) : 840 sp
+Archer Bracer +1 (Common) : 40 sp
+Gorget (standard) +1 (Common) : 240 sp
+Bevor +1 (Common) : 240 sp
+Fauld (Garde-reins) +1 (Common) : 280 sp
+Tassets +1 (Common) : 320 sp
+Mail Voiders +1 (Common) : 300 sp
+Mail Collar +1 (Common) : 440 sp
+Schynbalds / Demi-greaves +1 (Common) : 300 sp
+Sallet +1 (Common) : 840 sp
+Cabasset +1 (Common) : 440 sp
+Morion +1 (Common) : 560 sp
